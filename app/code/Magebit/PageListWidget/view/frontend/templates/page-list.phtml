@@ -1,0 +1,18 @@
+<?php
+
+/** @var Magebit\PageList\Block\Widget\PageList $block */
+/** @var Magento\Framework\Escaper $escaper */
+/** @var array $pageData */
+
+$pageData = $this->getPages();
+
+?>
+
+<p><strong><?= $escaper->escapeHtml($block->getData('title')) ?></strong></p>
+<ul>
+    <?php foreach ($pageData as $title => $url): ?>
+        <li>
+            <a href="<?php echo $this->getUrl($url); ?>"><?= $title ?></a>
+        </li>
+    <?php endforeach; ?>
+</ul>

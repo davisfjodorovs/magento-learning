@@ -1,0 +1,7 @@
+<widgets xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Widget:etc/widget.xsd">
+    <widget class="MageMastery\FirstViewModel\Block\Widget\SimpleWidget" id="magemastery_firstviewmodel_simplewidget">
+        <label>Simple widget</label>
+        <description>Lorem ipsum widget</description>
+    </widget>
+</widgets>

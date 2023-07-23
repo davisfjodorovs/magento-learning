@@ -1,0 +1,27 @@
+<?php
+/**
+ * Copyright © Magento, Inc. All rights reserved.
+ * See COPYING.txt for license details.
+ */
+
+// phpcs:disable Magento2.Templates.ThisInTemplate.FoundThis
+
+/**
+ * Product additional attributes template
+ *
+ * @var $block Magebit\Learning\Block\AttributeElement
+ * @var $_helper Magento\Catalog\Helper\Output
+ * @var $_product \Magento\Catalog\Api\Data\ProductInterface
+ */
+?>
+
+<div class="attribute-element">
+    <ul>
+        <?php foreach ($block->getAttributes() as $attribute): ?>
+            <li><strong><?= $attribute["label"] ?></strong>: <?= $attribute['value'] ?></li>
+        <?php endforeach; ?>
+    </ul>
+    <?php if($block->getShortDescription()): ?>
+        <?= $block->getShortDescription() ?>
+    <?php endif; ?>
+</div>

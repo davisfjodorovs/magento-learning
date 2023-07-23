@@ -1,0 +1,16 @@
+<?php
+
+use Magento\Framework\View\Element\Template;
+use MageMastery\FirstViewModel\ViewModel\MyNewViewModel;
+
+/** @var  Template $block */
+/** @var MyNewViewModel $viewModel */
+$viewModel = $block->getViewModel();
+
+$firstName = $viewModel->getUserName();
+
+$title = $viewModel->getTitle();
+?>
+<h1><?= $title; ?></h1>
+<h1>Hello <?= $firstName ?>!</h1>
+<p>Sample text</p>

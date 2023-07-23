@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:noNamespaceSchemaLocation="magento:framework:View/Layout/etc/page_configuration.xsd">
+    <body>
+        <referenceContainer name="content">
+            <block class="Magento\Framework\View\Element\Template" name="firstViewmodel" template="MageMastery_FirstViewModel::page.phtml" />
+            <referenceBlock name="firstViewmodel">
+                <arguments>
+                    <argument name="view_model" xsi:type="object">
+                        MageMastery\FirstViewModel\ViewModel\MyNewViewModel
+                    </argument>
+                </arguments>
+            </referenceBlock>
+        </referenceContainer>
+    </body>
+</page>
