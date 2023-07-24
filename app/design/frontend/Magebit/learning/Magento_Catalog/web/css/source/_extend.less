@@ -1,4 +1,10 @@
 .simple-product-wrapper {
+    display: flex;
+    justify-content: center;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    gap: 40px;
+
     .qty-counter-container {
         display: flex;
         height: auto;
@@ -117,7 +123,7 @@
             justify-content: space-between;
             flex-wrap: wrap;
 
-            @media screen and (max-width: 600px) {
+            @media screen and (max-width: 1175px) {
                 justify-content: center;
             }
 
@@ -311,13 +317,17 @@
                         visibility: visible;
                     }
                 }
+
+                .product-item-details {
+                    max-width: 204px;
+                }
             }
 
             .product-item-info-related-simple:hover {
                 box-shadow: 3px 4px 4px 0 rgba(0, 0, 0, 0.3);
                 border: 1px solid #bbb;
-                margin: -10px;
-                padding: 10px;
+                margin: 0;
+                padding: 0;
                 position: relative;
                 z-index: 9;
 
