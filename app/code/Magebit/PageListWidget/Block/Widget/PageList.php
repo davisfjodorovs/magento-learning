@@ -13,6 +13,7 @@ use Magento\Framework\View\Element\Template\Context;
 use Magento\Framework\Data\OptionSourceInterface;
 use Magento\Widget\Block\BlockInterface;
 
+/** Block responsible for displaying CMS Page List widget */
 class PageList extends Template implements BlockInterface, OptionSourceInterface
 {
 
@@ -43,6 +44,7 @@ class PageList extends Template implements BlockInterface, OptionSourceInterface
      * @param Context $context
      * @param array $data
      *
+     * @return void
      * @throws LocalizedException
      */
     public function __construct(
@@ -85,7 +87,6 @@ class PageList extends Template implements BlockInterface, OptionSourceInterface
      * Get title and url of required pages for template
      *
      * @return array
-     *
      * @throws LocalizedException
      */
     public function getPages(): array
