@@ -1,6 +1,13 @@
 <?xml version="1.0"?>
 <page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
     <body>
+        <referenceContainer name="main.content">
+            <container name="simple.product.wrapper" htmlTag="div" htmlClass="simple-product-wrapper" after="page.messages" />
+        </referenceContainer>
+        <referenceContainer name="page.bottom.container">
+            <container name="simple.product.wrapper.bottom" htmlTag="div" htmlClass="simple-product-wrapper" before="-" />
+        </referenceContainer>
+
         <referenceBlock name="product.info.details" remove="true" />
         <referenceBlock name="product.info.addto" remove="true" />
         <referenceBlock name="product.info.options.default" remove="true" />
@@ -9,7 +16,7 @@
         <referenceContainer name="product.info.type" remove="true" />
 
         <referenceContainer name="product.info.form.content">
-                <block class="Magento\Catalog\Block\Product\View" name="product.info.addtocart.custom" as="addtocartcustom" template="Magento_Catalog::product/view/addtocart_simple.phtml"/>
+            <block class="Magento\Catalog\Block\Product\View" name="product.info.addtocart.custom" as="addtocartcustom" template="Magento_Catalog::product/view/addtocart_simple.phtml"/>
         </referenceContainer>
         <referenceContainer name="alert.urls">
             <block class="Magebit\Learning\Block\AttributeElement" name="product.attribute.element" template="Magento_Catalog::product/view/attributes_simple.phtml"  after="-"/>
@@ -21,6 +28,7 @@
             <block class="Magento\Catalog\Block\Product\View" name="product.info.review.related" template="Magento_Catalog::product/view/review.phtml" after="product.info.stock.sku" />
         </referenceBlock>
         <move element="product.info.upsell" destination="product.info.main" after="product.info.form.content" />
-        <move element="catalog.product.related" destination="page.bottom.container" />
+        <move element="content" destination="simple.product.wrapper" before="-" />
+        <move element="catalog.product.related" destination="simple.product.wrapper.bottom" before="-" />
     </body>
 </page>
