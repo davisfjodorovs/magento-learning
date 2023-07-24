@@ -14,14 +14,22 @@
  * @var $_product \Magento\Catalog\Api\Data\ProductInterface
  */
 ?>
+<?php
+    $attributes = $block->getAttributes();
+    $shortDescription = $block->getShortDescription();
+?>
 
-<div class="attribute-element">
-    <ul>
-        <?php foreach ($block->getAttributes() as $attribute): ?>
-            <li><strong><?= $attribute["label"] ?></strong>: <?= $attribute['value'] ?></li>
-        <?php endforeach; ?>
-    </ul>
-    <?php if($block->getShortDescription()): ?>
-        <?= $block->getShortDescription() ?>
-    <?php endif; ?>
-</div>
+<?php if(!empty($attributes) && !empty($shortDescription)): ?>
+    <div class="attribute-element">
+        <?php if(!empty($attributes)): ?>
+            <ul>
+                <?php foreach ($attributes as $attribute): ?>
+                    <li><strong><?= $attribute["label"] ?></strong>: <?= $attribute['value'] ?></li>
+                <?php endforeach; ?>
+            </ul>
+        <?php endif; ?>
+        <?php if($shortDescription): ?>
+            <?= $shortDescription ?>
+        <?php endif; ?>
+    </div>
+<?php endif; ?>
