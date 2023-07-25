@@ -1,7 +1,13 @@
 <?php
+/**
+ * @copyright Copyright (c) 2023 Magebit, Ltd. (https://magebit.com/)
+ * @author    Magebit <info@magebit.com>
+ * @license   MIT
+ */
+
+declare(strict_types=1);
 
 namespace Magebit\PageListWidget\Block\Widget;
-
 
 use Magento\Cms\Api\Data\PageInterface;
 use Magento\Cms\Api\PageRepositoryInterface;
@@ -16,26 +22,30 @@ use Magento\Widget\Block\BlockInterface;
 /** Block responsible for displaying CMS Page List widget */
 class PageList extends Template implements BlockInterface, OptionSourceInterface
 {
-
+    /**
+     * @var string
+     */
     protected $_template = "page-list.phtml";
 
     /**
-     * @var PageRepositoryInterface $_cmsPages
+     * @var PageRepositoryInterface
      */
-    protected $_cmsPages;
+    protected PageRepositoryInterface $cmsPages;
 
     /**
-     * @var SearchCriteriaBuilder $_searchCriteria
+     * @var SearchCriteriaBuilder
      */
-    protected $_searchCriteria;
+    protected SearchCriteriaBuilder $searchCriteria;
 
     /**
-     * @var  PageHelper $_cmsHelper
+     * @var PageHelper
      */
-    protected $_cmsHelper;
+    protected PageHelper $cmsHelper;
 
-    /** @var array $_pages  */
-    protected $_pages;
+    /**
+     * @var array|PageInterface[]
+     */
+    protected array $pages;
 
     /**
      * @param PageRepositoryInterface $pageRepository
@@ -43,8 +53,6 @@ class PageList extends Template implements BlockInterface, OptionSourceInterface
      * @param PageHelper $cmsHelper
      * @param Context $context
      * @param array $data
-     *
-     * @return void
      * @throws LocalizedException
      */
     public function __construct(
@@ -53,13 +61,12 @@ class PageList extends Template implements BlockInterface, OptionSourceInterface
         PageHelper $cmsHelper,
         Context $context,
         array $data = [],
-    )
-    {
+    ) {
         parent::__construct($context, $data);
-        $this->_cmsPages = $pageRepository;
+        $this->cmsPages = $pageRepository;
         $this->_searchCriteria = $searchCriteriaBuilder;
-        $this->_cmsHelper = $cmsHelper;
-        $this->_pages = $this->_cmsPages->getList($this->_searchCriteria->addFilter('is_active', 1)->create())->getItems();
+        $this->cmsHelper = $cmsHelper;
+        $this->pages = $this->cmsPages->getList($this->_searchCriteria->addFilter('is_active', 1)->create())->getItems();
     }
 
 
@@ -72,7 +79,7 @@ class PageList extends Template implements BlockInterface, OptionSourceInterface
     {
         $options = [];
 
-        foreach ($this->_pages as $page)
+        foreach ($this->pages as $page)
         {
             $options[] = [
                 'value' => $page->getId(),
@@ -98,9 +105,9 @@ class PageList extends Template implements BlockInterface, OptionSourceInterface
         if($displayMode === "all")
         {
             /** @var PageInterface $page */
-            foreach ($this->_pages as $page)
+            foreach ($this->pages as $page)
             {
-                $data[$page->getTitle()] = $this->_cmsHelper->getPageUrl($page->getId());
+                $data[$page->getTitle()] = $this->cmsHelper->getPageUrl($page->getId());
             }
         }
 
@@ -110,9 +117,9 @@ class PageList extends Template implements BlockInterface, OptionSourceInterface
 
             foreach ($selectedPageIds as $id)
             {
-                $page = $this->_cmsPages->getById($id);
+                $page = $this->cmsPages->getById($id);
 
-                $data[$page->getTitle()] = $this->_cmsHelper->getPageUrl($id);
+                $data[$page->getTitle()] = $this->cmsHelper->getPageUrl($id);
             }
         }
 

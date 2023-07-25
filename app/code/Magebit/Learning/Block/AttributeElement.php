@@ -1,4 +1,11 @@
 <?php
+/**
+ * @copyright Copyright (c) 2023 Magebit, Ltd. (https://magebit.com/)
+ * @author    Magebit <info@magebit.com>
+ * @license   MIT
+ */
+
+declare(strict_types=1);
 
 namespace Magebit\Learning\Block;
 
@@ -16,42 +23,42 @@ use Magento\Catalog\Api\Data\ProductInterface;
  */
 class AttributeElement extends Template
 {
-    /** @var ProductInterface|null */
-    protected $_product = null;
+    /**
+     * @var ProductInterface
+     */
+    protected ProductInterface $product;
 
     /**
-     * @param Context
-     * @param Session
-     * @param ProductRepositoryInterface
-     *
-     * @return void
+     * @param Context $context
+     * @param Session $catalogSession
+     * @param ProductRepositoryInterface $productRepository
      * @throws NoSuchEntityException
      */
     public function __construct(
         Context $context,
         Session $catalogSession,
         ProductRepositoryInterface $productRepository,
-    )
-    {
+    ) {
         parent::__construct($context);
         // Get product instance
-        $this->_product = $productRepository->getById($catalogSession->getData('last_viewed_product_id'));
+        $this->product = $productRepository->getById($catalogSession->getData('last_viewed_product_id'));
     }
 
     /**
      * @return ProductInterface
      */
-    public function getProduct()
+    public function getProduct(): ProductInterface
     {
-        return $this->_product;
+        return $this->product;
     }
 
     /**
-     * @return array|mixed|string|null
+     * @param string $code
+     * @return mixed
      */
-    public function attributeHasValue($code)
+    public function attributeHasValue(string $code): mixed
     {
-        return $this->_product->getAttributeText($code);
+        return $this->product->getAttributeText($code);
     }
 
     /**
@@ -59,12 +66,11 @@ class AttributeElement extends Template
      *
      * @param string $separator
      * @param string $code
-     *
      * @return string
      */
-    public function getAttributeValue($separator, $code)
+    public function getAttributeValue(string $separator, string $code): string
     {
-        $values = $this->_product->getAttributeText($code);
+        $values = $this->product->getAttributeText($code);
 
         if(is_string($values))
         {
@@ -77,19 +83,17 @@ class AttributeElement extends Template
     /**
      * Returns the value of short_description attribute or an empty string if there is no value
      *
-     * @return string
+     * @return mixed
      */
-    public function getShortDescription()
+    public function getShortDescription(): mixed
     {
-        /** @var AttributeInterface $descriptionAttribute */
+        /**
+         * @var $descriptionAttribute AttributeInterface|null
+         */
         $descriptionAttribute = $this->getProduct()->getCustomAttribute('short_description');
 
-        if(!$descriptionAttribute)
-        {
-            return "";
-        }
+        return $descriptionAttribute?->getValue();
 
-        return $descriptionAttribute->getValue();
     }
 
     /**
@@ -98,7 +102,7 @@ class AttributeElement extends Template
      *
      * @return array
      */
-    public function getAttributes()
+    public function getAttributes(): array
     {
         $chosenAttributes = [];
 

@@ -1,17 +1,17 @@
 <?php
 /**
- * Copyright © Magento, Inc. All rights reserved.
- * See COPYING.txt for license details.
+ * @copyright Copyright (c) 2023 Magebit, Ltd. (https://magebit.com/)
+ * @author    Magebit <info@magebit.com>
+ * @license   MIT
  */
-
-// phpcs:disable Magento2.Templates.ThisInTemplate.FoundThis
 
 /**
  * Product additional attributes template
  *
- * @var $block Magebit\Learning\Block\AttributeElement
- * @var $_helper Magento\Catalog\Helper\Output
- * @var $_product \Magento\Catalog\Api\Data\ProductInterface
+ * @var Magebit\Learning\Block\AttributeElement $block
+ * @var Magento\Catalog\Helper\Output $helper
+ * @var Magento\Catalog\Api\Data\ProductInterface $product
+ * @var Magento\Framework\Escaper $escaper
  */
 ?>
 <?php
@@ -19,17 +19,17 @@
     $shortDescription = $block->getShortDescription();
 ?>
 
-<?php if(!empty($attributes) && !empty($shortDescription)): ?>
+<?php if(!empty($attributes) || !empty($shortDescription)): ?>
     <div class="attribute-element">
         <?php if(!empty($attributes)): ?>
             <ul>
                 <?php foreach ($attributes as $attribute): ?>
-                    <li><strong><?= $attribute["label"] ?></strong>: <?= $attribute['value'] ?></li>
+                    <li><strong><?= $escaper->escapeHtml($attribute["label"]) ?></strong>: <?= $escaper->escapeHtml($attribute["value"]) ?></li>
                 <?php endforeach; ?>
             </ul>
         <?php endif; ?>
-        <?php if($shortDescription): ?>
-            <?= $shortDescription ?>
+        <?php if(!empty($shortDescription)): ?>
+            <p><?= $escaper->escapeHtml(strip_tags($shortDescription)) ?></p>
         <?php endif; ?>
     </div>
 <?php endif; ?>

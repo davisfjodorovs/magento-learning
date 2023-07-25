@@ -1,9 +1,18 @@
 <?php
+/**
+ * @copyright Copyright (c) 2023 Magebit, Ltd. (https://magebit.com/)
+ * @author    Magebit <info@magebit.com>
+ * @license   MIT
+ */
+
+declare(strict_types=1);
 
 namespace Magebit\Learning\Block;
 
 use Magento\Catalog\Api\ProductRepositoryInterface;
 use Magento\Catalog\Model\Session;
+use Magento\Framework\Exception\InputException;
+use Magento\Framework\Exception\LocalizedException;
 use Magento\Framework\Exception\NoSuchEntityException;
 use Magento\Framework\View\Element\Template;
 use Magento\Framework\View\Element\Template\Context;
@@ -16,23 +25,27 @@ use Magento\InventorySalesApi\Api\GetProductSalableQtyInterface;
  */
 class AddToCartElement extends Template
 {
-    /** @var ProductInterface|null */
-    protected $_product = null;
-
-    /** @var GetProductSalableQtyInterface */
-    protected $_getProductStableQtyInterface;
-
-    /** @var GetStockIdForCurrentWebsite  */
-    protected $_getStockIdForCurrentWebsite;
+    /**
+     * @var ProductInterface
+     */
+    protected ProductInterface $product;
 
     /**
-     * @param Context
-     * @param Session
-     * @param ProductRepositoryInterface
-     * @param GetProductSalableQtyInterface
-     * @param GetStockIdForCurrentWebsite
-     *
-     * @return void
+     * @var GetProductSalableQtyInterface
+     */
+    protected GetProductSalableQtyInterface $getProductStableQtyInterface;
+
+    /**
+     * @var GetStockIdForCurrentWebsite
+     */
+    protected GetStockIdForCurrentWebsite $getStockIdForCurrentWebsite;
+
+    /**
+     * @param Context $context
+     * @param Session $catalogSession
+     * @param ProductRepositoryInterface $productRepository
+     * @param GetProductSalableQtyInterface $getProductStableQtyInterface
+     * @param GetStockIdForCurrentWebsite $getStockIdForCurrentWebsite
      * @throws NoSuchEntityException
      */
     public function __construct(
@@ -44,31 +57,29 @@ class AddToCartElement extends Template
     )
     {
         parent::__construct($context);
-        // Get product instance
-        $this->_product = $productRepository->getById($catalogSession->getData('last_viewed_product_id'));
-        $this->_getProductStableQtyInterface = $getProductStableQtyInterface;
-        $this->_getStockIdForCurrentWebsite = $getStockIdForCurrentWebsite;
+        $this->product = $productRepository->getById($catalogSession->getData('last_viewed_product_id'));
+        $this->getProductStableQtyInterface = $getProductStableQtyInterface;
+        $this->getStockIdForCurrentWebsite = $getStockIdForCurrentWebsite;
 
     }
 
     /**
      * @return ProductInterface
      */
-    public function getProduct()
+    public function getProduct(): ProductInterface
     {
-        return $this->_product;
+        return $this->product;
     }
 
     /**
-     * Returns stable quantity of a product
-     *
      * @return float
-     * @throws NoSuchEntityException
+     * @throws InputException
+     * @throws LocalizedException
      */
-    public function getProductStock()
+    public function getProductStock(): float
     {
-        $stockId = $this->_getStockIdForCurrentWebsite->execute();
+        $stockId = $this->getStockIdForCurrentWebsite->execute();
 
-        return $this->_getProductStableQtyInterface->execute($this->getProduct()->getSku(), $stockId);
+        return $this->getProductStableQtyInterface->execute($this->getProduct()->getSku(), $stockId);
     }
 }

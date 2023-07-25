@@ -1,8 +1,15 @@
 <?php
+/**
+ * @copyright Copyright (c) 2023 Magebit, Ltd. (https://magebit.com/)
+ * @author    Magebit <info@magebit.com>
+ * @license   MIT
+ */
 
-/** @var Magebit\PageList\Block\Widget\PageList $block */
-/** @var Magento\Framework\Escaper $escaper */
-/** @var array $pageData */
+/**
+ * @var Magebit\PageListWidget\Block\Widget\PageList $block
+ * @var Magento\Framework\Escaper $escaper
+ * @var array $pageData
+ */
 
 $pageData = $this->getPages();
 
@@ -12,7 +19,7 @@ $pageData = $this->getPages();
 <ul>
     <?php foreach ($pageData as $title => $url): ?>
         <li>
-            <a href="<?php echo $this->getUrl($url); ?>"><?= $title ?></a>
+            <a href="<?= $escaper->escapeUrl($this->getUrl($url)) ?>"><?= $escaper->escapeHtml($title) ?></a>
         </li>
     <?php endforeach; ?>
 </ul>
