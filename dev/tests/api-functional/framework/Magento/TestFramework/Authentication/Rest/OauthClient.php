@@ -256,7 +256,7 @@ class OauthClient extends AbstractService
     }
 
     /**
-     * Validates a Test REST api call access using oauth access token
+     * Validates a Test REST Api call access using oauth access token
      *
      * @param TokenInterface $token The access token.
      * @param string $method HTTP method.

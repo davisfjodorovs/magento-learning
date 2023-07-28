@@ -20,7 +20,7 @@ use Magento\Integration\Model\Oauth\Token\RequestLog\Config as TokenThrottlerCon
 use Magento\Integration\Api\CustomerTokenServiceInterface;
 
 /**
- * api-functional test for \Magento\Integration\Model\CustomerTokenService.
+ * Api-functional test for \Magento\Integration\Model\CustomerTokenService.
  *
  * @SuppressWarnings(PHPMD.CouplingBetweenObjects)
  */

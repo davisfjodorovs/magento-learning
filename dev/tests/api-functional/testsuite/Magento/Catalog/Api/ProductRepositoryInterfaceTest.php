@@ -1796,7 +1796,7 @@ class ProductRepositoryInterfaceTest extends WebapiAbstract
     }
 
     /**
-     * Tests the ability to "reset" (nullify) a special_price by passing null in the web api request.
+     * Tests the ability to "reset" (nullify) a special_price by passing null in the web Api request.
      *
      * Steps:
      *  1. Save the product with a special_price of $5.00

@@ -702,11 +702,11 @@ class AccountManagementTest extends \PHPUnit\Framework\TestCase
         /** @var \Magento\Customer\Model\CustomerRegistry $customerRegistry */
         $customerRegistry = $this->objectManager->get(\Magento\Customer\Model\CustomerRegistry::class);
         $customerRegistry->remove(1);
-        // Call api under test
+        // Call Api under test
         $shippingResponse = $this->accountManagement->getDefaultShippingAddress($customerId);
         $billingResponse = $this->accountManagement->getDefaultBillingAddress($customerId);
 
-        // Verify if the new Shipping address created is same as returned by the api under test :
+        // Verify if the new Shipping address created is same as returned by the Api under test :
         // \Magento\Customer\Api\AccountManagementInterface::getDefaultShippingAddress
         $addressShippingExpected = $this->dataProcessor->buildOutputDataArray(
             $addressShippingExpected,
@@ -721,7 +721,7 @@ class AccountManagementTest extends \PHPUnit\Framework\TestCase
         $addressShippingExpected[AddressInterface::DEFAULT_SHIPPING] = true;
         $this->assertEquals($addressShippingExpected, $shippingResponse);
 
-        // Verify if the new Billing address created is same as returned by the api under test :
+        // Verify if the new Billing address created is same as returned by the Api under test :
         // \Magento\Customer\Api\AccountManagementInterface::getDefaultShippingAddress
         $addressBillingExpected = $this->dataProcessor->buildOutputDataArray(
             $addressBillingExpected,

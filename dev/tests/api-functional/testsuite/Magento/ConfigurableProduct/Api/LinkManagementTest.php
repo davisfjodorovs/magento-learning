@@ -318,7 +318,7 @@ class LinkManagementTest extends WebapiAbstract
     }
 
     /**
-     * Perform create configurable product api call
+     * Perform create configurable product Api call
      *
      * @param string $productSku
      * @return array|bool|float|int|string

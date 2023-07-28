@@ -28,7 +28,7 @@ class LegacyFixtureTest extends TestCase
         foreach ($files as $file) {
             if (pathinfo($file, PATHINFO_EXTENSION) === 'php'
                 && (
-                    preg_match('/(integration\/testsuite|api-functional\/testsuite).*\/(_files|Fixtures)/', $file)
+                    preg_match('/(integration\/testsuite|Api-functional\/testsuite).*\/(_files|Fixtures)/', $file)
                     // Cover the case when tests are located in the module folder instead of dev/tests.
                     // for instance inventory
                     || (

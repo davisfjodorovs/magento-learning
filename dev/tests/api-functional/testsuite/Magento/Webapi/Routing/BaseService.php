@@ -33,7 +33,7 @@ abstract class BaseService extends \Magento\TestFramework\TestCase\WebapiAbstrac
     }
 
     /**
-     * Invoke the REST api and assert access is unauthorized
+     * Invoke the REST Api and assert access is unauthorized
      *
      * @param array $serviceInfo
      * @param array|null $requestData
@@ -72,7 +72,7 @@ abstract class BaseService extends \Magento\TestFramework\TestCase\WebapiAbstrac
     }
 
     /**
-     * Invoke the REST api and assert for test cases that no such REST route exist
+     * Invoke the REST Api and assert for test cases that no such REST route exist
      *
      * @param array $serviceInfo
      * @param array|null $requestData
@@ -89,7 +89,7 @@ abstract class BaseService extends \Magento\TestFramework\TestCase\WebapiAbstrac
     }
 
     /**
-     * Invoke the SOAP api and assert for the NoWebApiXmlTestTest test cases that no such SOAP route exists
+     * Invoke the SOAP Api and assert for the NoWebApiXmlTestTest test cases that no such SOAP route exists
      *
      * @param array $serviceInfo
      * @param array|null $requestData

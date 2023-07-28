@@ -98,7 +98,7 @@ class CartRepositoryTest extends WebapiAbstract
     }
 
     /**
-     * Tests successfull get cart web-api call.
+     * Tests successfull get cart web-Api call.
      *
      * @magentoApiDataFixture Magento/Sales/_files/quote.php
      */
@@ -341,7 +341,7 @@ class CartRepositoryTest extends WebapiAbstract
     }
 
     /**
-     * Request to api for the current user token.
+     * Request to Api for the current user token.
      *
      * @return string
      */

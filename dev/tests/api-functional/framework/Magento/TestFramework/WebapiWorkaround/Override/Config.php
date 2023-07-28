@@ -22,7 +22,7 @@ use Magento\TestFramework\WebapiWorkaround\Override\Config\SchemaLocator;
 use Magento\TestFramework\Workaround\Override\Config as IntegrationConfig;
 
 /**
- * Provides api tests configuration.
+ * Provides Api tests configuration.
  */
 class Config extends IntegrationConfig
 {

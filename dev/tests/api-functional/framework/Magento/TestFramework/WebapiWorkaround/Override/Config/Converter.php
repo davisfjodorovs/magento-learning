@@ -15,7 +15,7 @@ use Magento\TestFramework\Annotation\DataFixtureBeforeTransaction;
 use Magento\TestFramework\Workaround\Override\Config\Converter as IntegrationConverter;
 
 /**
- * Converter for api tests config
+ * Converter for Api tests config
  */
 class Converter extends IntegrationConverter
 {

@@ -187,7 +187,7 @@ class ServiceVersionV1Test extends \Magento\Webapi\Routing\BaseService
         ];
         $requestData = ['name' => $createdItemName];
 
-        // getting new credentials that do not match the api resources
+        // getting new credentials that do not match the Api resources
         OauthHelper::clearApiAccessCredentials();
         OauthHelper::getApiAccessCredentials([]);
         try {
@@ -219,7 +219,7 @@ class ServiceVersionV1Test extends \Magento\Webapi\Routing\BaseService
     }
 
     /**
-     *  Negative Test: Invoking non-existent delete api which is only available in V2
+     *  Negative Test: Invoking non-existent delete Api which is only available in V2
      */
     public function testDelete()
     {

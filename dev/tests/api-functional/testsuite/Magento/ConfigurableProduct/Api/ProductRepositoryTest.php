@@ -84,7 +84,7 @@ class ProductRepositoryTest extends WebapiAbstract
     }
 
     /**
-     * Create configurable product by web api
+     * Create configurable product by web Api
      *
      * @return array
      */
@@ -588,7 +588,7 @@ class ProductRepositoryTest extends WebapiAbstract
     }
 
     /**
-     * Create configurable product with required attribute by web api.
+     * Create configurable product with required attribute by web Api.
      *
      * @return array
      */

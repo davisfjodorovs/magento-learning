@@ -12,7 +12,7 @@ use Magento\Framework\Setup\ModuleDataSetupInterface;
 use Magento\Setup\Module\Setup\SetupCache;
 
 /**
- * @api
+ * @Api
  */
 class DataSetup extends \Magento\Framework\Module\Setup implements ModuleDataSetupInterface
 {

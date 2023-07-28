@@ -8,7 +8,7 @@ namespace Magento\TestModuleDefaultHydrator\Api;
 /**
  * Customer CRUD interface
  *
- * @api
+ * @Api
  */
 interface CustomerPersistenceInterface
 {

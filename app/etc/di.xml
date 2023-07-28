@@ -1764,7 +1764,7 @@
             </argument>
         </arguments>
     </type>
-    <!-- \Magento\Framework\MessageQueue\Bulk\PublisherPool is @api -->
+    <!-- \Magento\Framework\MessageQueue\Bulk\PublisherPool is @Api -->
     <virtualType name="Magento\Framework\MessageQueue\Bulk\PublisherPool" type="Magento\Framework\MessageQueue\PublisherPool" />
     <type name="Magento\Framework\Session\Config">
         <arguments>

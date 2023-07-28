@@ -360,7 +360,7 @@ class ProductTest extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     * Test visibility api
+     * Test visibility Api
      *
      * @covers \Magento\Catalog\Model\Product::getVisibleInCatalogStatuses
      * @covers \Magento\Catalog\Model\Product::getVisibleStatuses

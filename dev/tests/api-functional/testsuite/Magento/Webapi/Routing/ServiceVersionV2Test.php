@@ -33,7 +33,7 @@ class ServiceVersionV2Test extends \Magento\Webapi\Routing\BaseService
     }
 
     /**
-     *  Test to assert overriding of the existing 'Item' api in V2 version of the same service
+     *  Test to assert overriding of the existing 'Item' Api in V2 version of the same service
      */
     public function testItem()
     {
@@ -47,7 +47,7 @@ class ServiceVersionV2Test extends \Magento\Webapi\Routing\BaseService
         ];
         $requestData = ['id' => $itemId];
         $item = $this->_webApiCall($serviceInfo, $requestData);
-        // Asserting for additional attribute returned by the V2 api
+        // Asserting for additional attribute returned by the V2 Api
         $this->assertEquals(1, $item['price'], 'Item was retrieved unsuccessfully from V2');
     }
 
@@ -142,7 +142,7 @@ class ServiceVersionV2Test extends \Magento\Webapi\Routing\BaseService
     }
 
     /**
-     *  Test to assert presence of new 'delete' api added in V2 version of the same service
+     *  Test to assert presence of new 'delete' Api added in V2 version of the same service
      */
     public function testDelete()
     {

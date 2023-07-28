@@ -56,7 +56,7 @@ class Amqp
         );
         $this->curl->addHeader('content-type', 'application/json');
         $this->host = sprintf(
-            '%s://%s:%s/api/',
+            '%s://%s:%s/Api/',
             defined('RABBITMQ_MANAGEMENT_PROTOCOL')
                 ? RABBITMQ_MANAGEMENT_PROTOCOL
                 : self::DEFAULT_MANAGEMENT_PROTOCOL,
@@ -67,7 +67,7 @@ class Amqp
     }
 
     /**
-     * Check that the RabbitMQ instance has the management plugin installed and the api is available.
+     * Check that the RabbitMQ instance has the management plugin installed and the Api is available.
      *
      * @return bool
      */

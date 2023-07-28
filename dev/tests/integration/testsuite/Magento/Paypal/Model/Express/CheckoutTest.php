@@ -91,7 +91,7 @@ class CheckoutTest extends TestCase
     }
 
     /**
-     * Verify that api has set customer email.
+     * Verify that Api has set customer email.
      *
      * @magentoDataFixture Magento/Paypal/_files/quote_express.php
      * @magentoAppIsolation enabled

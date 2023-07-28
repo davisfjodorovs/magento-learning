@@ -9,7 +9,7 @@ use Magento\Framework\Setup\SchemaSetupInterface;
 use Magento\Framework\App\ResourceConnection;
 
 /**
- * @api
+ * @Api
  */
 class Setup extends \Magento\Framework\Module\Setup implements SchemaSetupInterface
 {

@@ -110,7 +110,7 @@ class ProductLinkRepositoryInterfaceTest extends WebapiAbstract
     }
 
     /**
-     * Get service info for api call
+     * Get service info for Api call
      *
      * @param string $resourcePath
      * @param string $httpMethod
@@ -133,7 +133,7 @@ class ProductLinkRepositoryInterfaceTest extends WebapiAbstract
     }
 
     /**
-     * Make api call to delete product link
+     * Make Api call to delete product link
      *
      * @param string $productSku
      * @param string $linkType
@@ -159,7 +159,7 @@ class ProductLinkRepositoryInterfaceTest extends WebapiAbstract
     }
 
     /**
-     * Make api call to save product link
+     * Make Api call to save product link
      *
      * @param string $productSku
      * @param array $data

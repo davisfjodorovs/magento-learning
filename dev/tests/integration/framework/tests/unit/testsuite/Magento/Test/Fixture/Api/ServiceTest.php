@@ -15,7 +15,7 @@ use PHPUnit\Framework\TestCase;
 use stdClass;
 
 /**
- * Test fixture api service
+ * Test fixture Api service
  *
  * @SuppressWarnings(PHPMD.UnusedFormalParameter)
  */

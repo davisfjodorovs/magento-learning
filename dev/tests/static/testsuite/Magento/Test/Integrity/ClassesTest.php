@@ -611,7 +611,7 @@ class ClassesTest extends \PHPUnit\Framework\TestCase
         // Remove usage of classes that do NOT using fully-qualified class names (possibly under same namespace)
         $directories = [
             BP . '/dev/tools/',
-            BP . '/dev/tests/api-functional/framework/',
+            BP . '/dev/tests/Api-functional/framework/',
             BP . '/dev/tests/integration/framework/',
             BP . '/dev/tests/integration/framework/tests/unit/testsuite/',
             BP . '/dev/tests/integration/testsuite/',

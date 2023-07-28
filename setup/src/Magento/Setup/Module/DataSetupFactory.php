@@ -9,7 +9,7 @@ use Magento\Setup\Model\ObjectManagerProvider;
 
 /**
  * Factory class to create DataSetup
- * @api
+ * @Api
  */
 class DataSetupFactory
 {

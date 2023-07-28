@@ -132,7 +132,7 @@ class CurlClient
     }
 
     /**
-     * Makes the REST api call using passed $curl object
+     * Makes the REST Api call using passed $curl object
      *
      * @param string $url
      * @param array $additionalCurlOpts cURL Options

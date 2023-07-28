@@ -27,7 +27,7 @@ $autoloadWrapper->addPsr4(
     [
         $testsBaseDir . '/framework/Magento/TestFramework/',
         $testsBaseDir . '/../integration/framework/Magento/TestFramework/',
-        $testsBaseDir . '/../api-functional/framework/Magento/TestFramework/',
+        $testsBaseDir . '/../Api-functional/framework/Magento/TestFramework/',
     ]
 );
 $autoloadWrapper->addPsr4('Magento\\CodeMessDetector\\', $testsBaseDir . '/framework/Magento/CodeMessDetector');

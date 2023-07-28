@@ -111,7 +111,7 @@ class MassConsumerEnvelopeCallbackTest extends TestCase
         $message = [
             'product' => $product
         ];
-        $topicName = 'async.magento.catalog.api.productrepositoryinterface.save.post';
+        $topicName = 'async.magento.catalog.Api.productrepositoryinterface.save.post';
         $buuid = uniqid('bulk-');
         $messageProps = [
             'message_id' => uniqid('msg-'),

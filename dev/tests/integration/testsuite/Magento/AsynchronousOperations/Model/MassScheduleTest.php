@@ -152,7 +152,7 @@ class MassScheduleTest extends \PHPUnit\Framework\TestCase
         $bulksCount = $bulkCollection->getSize();
         try {
             $this->massSchedule->publishMass(
-                'async.magento.catalog.api.productrepositoryinterface.save.post',
+                'async.magento.catalog.Api.productrepositoryinterface.save.post',
                 $products
             );
             $this->fail('Publish is not failed when operations are not published.');
@@ -184,7 +184,7 @@ class MassScheduleTest extends \PHPUnit\Framework\TestCase
         $this->clearProducts();
 
         $result = $this->massSchedule->publishMass(
-            'async.magento.catalog.api.productrepositoryinterface.save.post',
+            'async.magento.catalog.Api.productrepositoryinterface.save.post',
             $products
         );
 
@@ -264,7 +264,7 @@ class MassScheduleTest extends \PHPUnit\Framework\TestCase
 
             $expectedErrorMessage = "Data item corresponding to \"product\" " .
                 "must be specified in the message with topic " .
-                "\"async.magento.catalog.api.productrepositoryinterface.save.post\".";
+                "\"async.magento.catalog.Api.productrepositoryinterface.save.post\".";
             $this->assertEquals(
                 $expectedErrorMessage,
                 $reasonException->getMessage()

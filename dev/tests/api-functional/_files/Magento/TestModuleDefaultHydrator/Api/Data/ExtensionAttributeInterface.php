@@ -6,7 +6,7 @@
 namespace Magento\TestModuleDefaultHydrator\Api\Data;
 
 /**
- * @api
+ * @Api
  */
 interface ExtensionAttributeInterface
 {

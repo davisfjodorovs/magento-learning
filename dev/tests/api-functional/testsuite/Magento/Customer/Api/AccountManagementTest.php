@@ -450,7 +450,7 @@ class AccountManagementTest extends WebapiAbstract
             'template' => AccountManagement::EMAIL_RESET,
             'websiteId' => $customerData[Customer::WEBSITE_ID],
         ];
-        // This api doesn't return any response.
+        // This Api doesn't return any response.
         // No exception or response means the request was processed successfully.
         // The webapi framework does not return the header information as yet. A check for HTTP 200 would be ideal here
         $this->_webApiCall($serviceInfo, $requestData);
@@ -545,7 +545,7 @@ class AccountManagementTest extends WebapiAbstract
             'email' => $customerData[Customer::EMAIL],
             'websiteId' => $customerData[Customer::WEBSITE_ID],
         ];
-        // This api doesn't return any response.
+        // This Api doesn't return any response.
         // No exception or response means the request was processed successfully.
         // The webapi framework does not return the header information as yet. A check for HTTP 200 would be ideal here
         $this->_webApiCall($serviceInfo, $requestData);

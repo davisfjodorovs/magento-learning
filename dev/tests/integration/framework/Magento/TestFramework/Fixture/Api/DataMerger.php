@@ -12,12 +12,12 @@ use Magento\Framework\Api\CustomAttributesDataInterface;
 use Magento\Framework\Api\ExtensibleDataInterface;
 
 /**
- * Data merger for api payload
+ * Data merger for Api payload
  */
 class DataMerger
 {
     /**
-     * Merge default api data with custom data
+     * Merge default Api data with custom data
      *
      * @param array $defaultData
      * @param array $data

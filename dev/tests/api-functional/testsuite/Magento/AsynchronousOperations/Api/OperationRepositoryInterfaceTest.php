@@ -204,7 +204,7 @@ class OperationRepositoryInterfaceTest extends WebapiAbstract
     public function sendBulk($customers)
     {
         $result = $this->massSchedule->publishMass(
-            'async.magento.customer.api.accountmanagementinterface.createaccount.post',
+            'async.magento.customer.Api.accountmanagementinterface.createaccount.post',
             $customers
         );
 

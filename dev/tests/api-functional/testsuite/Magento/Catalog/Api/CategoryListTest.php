@@ -12,7 +12,7 @@ use Magento\Framework\Webapi\Rest\Request;
 use Magento\TestFramework\TestCase\WebapiAbstract;
 
 /**
- * Checks the categories/list api
+ * Checks the categories/list Api
  */
 class CategoryListTest extends WebapiAbstract
 {

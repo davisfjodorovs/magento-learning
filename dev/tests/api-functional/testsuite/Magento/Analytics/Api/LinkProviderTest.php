@@ -15,7 +15,7 @@ use Magento\TestFramework\TestCase\WebapiAbstract;
 /**
  * Class LinkProviderTest.
  *
- * Checks that api for providing link to encrypted archive works.
+ * Checks that Api for providing link to encrypted archive works.
  */
 class LinkProviderTest extends WebapiAbstract
 {

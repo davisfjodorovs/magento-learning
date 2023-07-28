@@ -9,7 +9,7 @@ namespace Magento\Setup;
 /**
  * Exception thrown if an error occurs on setup process.
  *
- * @api
+ * @Api
  */
 class Exception extends \Exception
 {

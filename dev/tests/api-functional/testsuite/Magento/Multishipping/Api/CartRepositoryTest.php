@@ -17,7 +17,7 @@ use Magento\TestFramework\ObjectManager;
 use Magento\TestFramework\TestCase\WebapiAbstract;
 
 /**
- * Tests web-api for multishipping quote.
+ * Tests web-Api for multishipping quote.
  */
 class CartRepositoryTest extends WebapiAbstract
 {
