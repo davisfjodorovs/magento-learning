@@ -14,7 +14,7 @@ use Magento\Framework\View\LayoutInterface;
  *
  * @see \Magento\Catalog\Block\Adminhtml\Product\Edit\Tab\Alerts\Price
  *
- * @magentoAppArea adminhtml
+ * @magentoAppArea Adminhtml
  */
 class PriceTest extends AbstractAlertTest
 {

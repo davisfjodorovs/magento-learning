@@ -61,7 +61,7 @@ class ProcessorTest extends TestCase
     /**
      * @magentoDbIsolation enabled
      * @magentoAppIsolation enabled
-     * @magentoAppArea adminhtml
+     * @magentoAppArea Adminhtml
      * @magentoConfigFixture current_store catalog/frontend/flat_catalog_product 1
      *
      * @return void
@@ -75,7 +75,7 @@ class ProcessorTest extends TestCase
     /**
      * @magentoDbIsolation enabled
      * @magentoAppIsolation enabled
-     * @magentoAppArea adminhtml
+     * @magentoAppArea Adminhtml
      * @magentoDataFixture Magento/Catalog/_files/multiple_products.php
      * @magentoConfigFixture current_store catalog/frontend/flat_catalog_product 1
      *
@@ -97,7 +97,7 @@ class ProcessorTest extends TestCase
     /**
      * @magentoDbIsolation disabled
      * @magentoAppIsolation enabled
-     * @magentoAppArea adminhtml
+     * @magentoAppArea Adminhtml
      * @magentoDataFixture Magento/Catalog/_files/product_simple_with_custom_attribute_in_flat.php
      * @magentoConfigFixture current_store catalog/frontend/flat_catalog_product 1
      *
@@ -120,7 +120,7 @@ class ProcessorTest extends TestCase
     /**
      * @magentoDbIsolation disabled
      * @magentoAppIsolation enabled
-     * @magentoAppArea adminhtml
+     * @magentoAppArea Adminhtml
      * @magentoDataFixture Magento/Store/_files/core_fixturestore.php
      * @magentoConfigFixture current_store catalog/frontend/flat_catalog_product 1
      *
@@ -134,7 +134,7 @@ class ProcessorTest extends TestCase
     /**
      * @magentoDbIsolation enabled
      * @magentoAppIsolation enabled
-     * @magentoAppArea adminhtml
+     * @magentoAppArea Adminhtml
      * @magentoConfigFixture current_store catalog/frontend/flat_catalog_product 1
      *
      * @return void

@@ -20,7 +20,7 @@ use PHPUnit\Framework\TestCase;
 
 /**
  * Test for \Magento\UrlRewrite\Block\Catalog\Category\Edit
- * @magentoAppArea adminhtml
+ * @magentoAppArea Adminhtml
  */
 class EditTest extends TestCase
 {

@@ -6,7 +6,7 @@
 namespace Magento\Variable\Controller\Adminhtml\System;
 
 /**
- * @magentoAppArea adminhtml
+ * @magentoAppArea Adminhtml
  */
 class VariableTest extends \Magento\TestFramework\TestCase\AbstractBackendController
 {

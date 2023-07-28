@@ -188,7 +188,7 @@ class IndexHandlerTest extends TestCase
     }
 
     /**
-     * @magentoAppArea adminhtml
+     * @magentoAppArea Adminhtml
      * @return void
      */
     public function testReindexRowAfterDelete(): void
@@ -207,7 +207,7 @@ class IndexHandlerTest extends TestCase
 
     /**
      * @magentoDbIsolation enabled
-     * @magentoAppArea adminhtml
+     * @magentoAppArea Adminhtml
      * @magentoDataFixture Magento/Elasticsearch/_files/configurable_products.php
      * @return void
      */

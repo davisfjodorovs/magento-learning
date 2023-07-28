@@ -14,7 +14,7 @@ use Magento\TestFramework\Bootstrap;
  * \Magento\Integration\Controller\Adminhtml\Integration
  *
  * @magentoDataFixture Magento/Integration/_files/integration_all_permissions.php
- * @magentoAppArea adminhtml
+ * @magentoAppArea Adminhtml
  * @magentoDbIsolation enabled
  */
 class IntegrationTest extends \Magento\TestFramework\TestCase\AbstractBackendController

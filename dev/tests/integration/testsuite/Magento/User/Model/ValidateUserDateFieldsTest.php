@@ -20,7 +20,7 @@ use Magento\User\Test\Fixture\User as UserDataFixture;
 use PHPUnit\Framework\TestCase;
 
 /**
- * @magentoAppArea adminhtml
+ * @magentoAppArea Adminhtml
  */
 class ValidateUserDateFieldsTest extends TestCase
 {

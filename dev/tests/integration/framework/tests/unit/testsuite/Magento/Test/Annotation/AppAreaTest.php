@@ -100,11 +100,11 @@ class AppAreaTest extends \PHPUnit\Framework\TestCase
     public function getTestAppAreaDataProvider()
     {
         return [
-            'method scope' => [['method' => ['magentoAppArea' => ['adminhtml']]], 'adminhtml'],
+            'method scope' => [['method' => ['magentoAppArea' => ['Adminhtml']]], 'Adminhtml'],
             'class scope' => [['class' => ['magentoAppArea' => ['frontend']]], 'frontend'],
             'mixed scope' => [
                 [
-                    'class' => ['magentoAppArea' => ['adminhtml']],
+                    'class' => ['magentoAppArea' => ['Adminhtml']],
                     'method' => ['magentoAppArea' => ['frontend']],
                 ],
                 'frontend',
@@ -158,19 +158,19 @@ class AppAreaTest extends \PHPUnit\Framework\TestCase
         $this->_applicationMock->expects($this->once())->method('reinitialize');
         $this->_applicationMock
             ->method('getArea')
-            ->willReturnOnConsecutiveCalls('adminhtml', 'global');
+            ->willReturnOnConsecutiveCalls('Adminhtml', 'global');
         $this->_applicationMock->expects($this->never())->method('loadArea');
         $this->_object->startTest($this->_testCaseMock);
     }
 
     public function testStartTestPreventDoubleAreaLoading()
     {
-        $annotations = ['method' => ['magentoAppArea' => ['adminhtml']]];
+        $annotations = ['method' => ['magentoAppArea' => ['Adminhtml']]];
         $property = new ReflectionProperty(TestCaseAnnotation::class, 'instance');
         $property->setAccessible(true);
         $property->setValue($this->testCaseAnnotationsMock);
         $this->testCaseAnnotationsMock->expects($this->once())->method('getAnnotations')->willReturn($annotations);
-        $this->_applicationMock->expects($this->once())->method('getArea')->willReturn('adminhtml');
+        $this->_applicationMock->expects($this->once())->method('getArea')->willReturn('Adminhtml');
         $this->_applicationMock->expects($this->never())->method('reinitialize');
         $this->_applicationMock->expects($this->never())->method('loadArea');
         $this->_object->startTest($this->_testCaseMock);

@@ -12,7 +12,7 @@ use Magento\Eav\Model\ResourceModel\UpdateHandlerAbstract;
 use Magento\TestFramework\Helper\Bootstrap;
 
 /**
- * @magentoAppArea adminhtml
+ * @magentoAppArea Adminhtml
  * @magentoAppIsolation enabled
  */
 class ExecuteProcessForAllStoresTest extends UpdateHandlerAbstract

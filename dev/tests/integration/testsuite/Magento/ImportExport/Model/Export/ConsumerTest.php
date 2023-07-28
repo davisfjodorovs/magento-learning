@@ -29,7 +29,7 @@ use PHPUnit\Framework\TestCase;
  * @see \Magento\ImportExport\Model\Export\Consumer
  *
  * @magentoDbIsolation enabled
- * @magentoAppArea adminhtml
+ * @magentoAppArea Adminhtml
  * @SuppressWarnings(PHPMD.CouplingBetweenObjects)
  */
 class ConsumerTest extends TestCase

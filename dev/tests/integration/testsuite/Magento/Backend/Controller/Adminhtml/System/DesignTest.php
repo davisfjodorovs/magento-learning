@@ -6,7 +6,7 @@
 namespace Magento\Backend\Controller\Adminhtml\System;
 
 /**
- * @magentoAppArea adminhtml
+ * @magentoAppArea Adminhtml
  */
 class DesignTest extends \Magento\TestFramework\TestCase\AbstractBackendController
 {

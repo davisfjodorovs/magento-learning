@@ -17,7 +17,7 @@ use Magento\TestFramework\TestCase\AbstractBackendController;
  * Test cases related to edit category.
  *
  * @see \Magento\Catalog\Controller\Adminhtml\Category\Edit
- * @magentoAppArea adminhtml
+ * @magentoAppArea Adminhtml
  * @magentoDbIsolation enabled
  */
 class EditTest extends AbstractBackendController

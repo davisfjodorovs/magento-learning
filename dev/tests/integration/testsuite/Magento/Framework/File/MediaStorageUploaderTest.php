@@ -94,7 +94,7 @@ class MediaStorageUploaderTest extends \PHPUnit\Framework\TestCase
      * Upload file test to 'var' directory
      *
      * @magentoConfigFixture system/media_gallery/enabled 1
-     * @magentoAppArea adminhtml
+     * @magentoAppArea Adminhtml
      *
      * @return void
      */
@@ -129,7 +129,7 @@ class MediaStorageUploaderTest extends \PHPUnit\Framework\TestCase
      * Upload file test when `Old Media Gallery` is disabled
      *
      * @magentoConfigFixture system/media_gallery/enabled 1
-     * @magentoAppArea adminhtml
+     * @magentoAppArea Adminhtml
      * @dataProvider dirCodeDataProvider
      *
      * @param string $directoryCode

@@ -10,7 +10,7 @@ use Magento\TestFramework\TestCase\AbstractBackendController;
 /**
  * Testing the list of locked users.
  *
- * @magentoAppArea adminhtml
+ * @magentoAppArea Adminhtml
  */
 class GridTest extends AbstractBackendController
 {

@@ -6,7 +6,7 @@
 namespace Magento\User\Block\User\Edit\Tab;
 
 /**
- * @magentoAppArea adminhtml
+ * @magentoAppArea Adminhtml
  */
 class MainTest extends \Magento\TestFramework\TestCase\AbstractBackendController
 {
@@ -27,7 +27,7 @@ class MainTest extends \Magento\TestFramework\TestCase\AbstractBackendController
         $objectManager = \Magento\TestFramework\Helper\Bootstrap::getObjectManager();
 
         $this->_block = $objectManager->create(\Magento\User\Block\User\Edit\Tab\Main::class);
-        $this->_block->setArea('adminhtml');
+        $this->_block->setArea('Adminhtml');
         $this->_block->setNameInLayout('test');
         $this->_user = $objectManager->create(\Magento\User\Model\User::class);
 

@@ -33,7 +33,7 @@ class TemplateTest extends \PHPUnit\Framework\TestCase
      * fixturestore_store design/theme/full_name Magento/blank
      *
      * @magentoAppIsolation  enabled
-     * @magentoAppArea adminhtml
+     * @magentoAppArea Adminhtml
      * @dataProvider getProcessedTemplateFrontendDataProvider
      */
     public function testGetProcessedTemplateFrontend($store, $design)
@@ -74,7 +74,7 @@ class TemplateTest extends \PHPUnit\Framework\TestCase
 
     /**
      * This test expects next themes for areas:
-     * adminhtml/design/theme/full_name Magento/backend
+     * Adminhtml/design/theme/full_name Magento/backend
      *
      * @magentoAppIsolation  enabled
      * @dataProvider getProcessedTemplateAreaDataProvider
@@ -100,9 +100,9 @@ class TemplateTest extends \PHPUnit\Framework\TestCase
     {
         $designTheme = Bootstrap::getObjectManager()
             ->get(DesignInterface::class)
-            ->getConfigurationDesignTheme('adminhtml');
+            ->getConfigurationDesignTheme('Adminhtml');
         return [
-            'backend' => ['adminhtml', $designTheme]
+            'backend' => ['Adminhtml', $designTheme]
         ];
     }
 

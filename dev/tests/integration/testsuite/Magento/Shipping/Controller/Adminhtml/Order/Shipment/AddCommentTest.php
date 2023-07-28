@@ -14,7 +14,7 @@ use PHPUnit\Framework\Constraint\StringContains;
  * Class verifies shipment add comment functionality.
  *
  * @magentoDbIsolation enabled
- * @magentoAppArea adminhtml
+ * @magentoAppArea Adminhtml
  * @magentoDataFixture Magento/Sales/_files/shipment.php
  */
 class AddCommentTest extends AbstractShipmentControllerTest

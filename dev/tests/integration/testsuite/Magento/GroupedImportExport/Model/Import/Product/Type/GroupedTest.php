@@ -60,7 +60,7 @@ class GroupedTest extends TestCase
     }
 
     /**
-     * @magentoAppArea adminhtml
+     * @magentoAppArea Adminhtml
      * @magentoDbIsolation enabled
      * @magentoAppIsolation enabled
      */

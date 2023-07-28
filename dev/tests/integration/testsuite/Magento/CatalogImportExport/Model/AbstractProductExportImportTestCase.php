@@ -101,7 +101,7 @@ abstract class AbstractProductExportImportTestCase extends \PHPUnit\Framework\Te
     /**
      * Run import/export tests.
      *
-     * @magentoAppArea adminhtml
+     * @magentoAppArea Adminhtml
      * @magentoDbIsolation disabled
      * @magentoAppIsolation enabled
      *
@@ -127,7 +127,7 @@ abstract class AbstractProductExportImportTestCase extends \PHPUnit\Framework\Te
     /**
      * Run import/export test with pagination.
      *
-     * @magentoAppArea adminhtml
+     * @magentoAppArea Adminhtml
      * @magentoDbIsolation disabled
      * @magentoAppIsolation enabled
      *

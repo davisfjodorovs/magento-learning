@@ -8,7 +8,7 @@ namespace Magento\AdminNotification\Controller\Adminhtml\Notification;
 /**
  * Testing markAsRead controller.
  *
- * @magentoAppArea adminhtml
+ * @magentoAppArea Adminhtml
  */
 class MarkAsReadTest extends \Magento\TestFramework\TestCase\AbstractBackendController
 {

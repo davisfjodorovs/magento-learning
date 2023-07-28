@@ -45,7 +45,7 @@ class ValidatorTest extends TestCase
     /**
      * Verify validation for date expiration with different locales.
      *
-     * @magentoAppArea adminhtml
+     * @magentoAppArea Adminhtml
      * @dataProvider validateUserExpiresAtDataProvider
      * @return void
      */

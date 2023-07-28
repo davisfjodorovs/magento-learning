@@ -18,7 +18,7 @@ use Magento\User\Model\User;
 use Magento\User\Model\UserFactory;
 
 /**
- * @magentoAppArea adminhtml
+ * @magentoAppArea Adminhtml
  */
 class UserTest extends \PHPUnit\Framework\TestCase
 {

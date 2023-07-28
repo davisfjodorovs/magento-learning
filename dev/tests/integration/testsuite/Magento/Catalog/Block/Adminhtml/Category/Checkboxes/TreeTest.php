@@ -19,7 +19,7 @@ use PHPUnit\Framework\TestCase;
  *
  * @see \Magento\Catalog\Block\Adminhtml\Category\Checkboxes\Tree
  *
- * @magentoAppArea adminhtml
+ * @magentoAppArea Adminhtml
  * @magentoDbIsolation enabled
  * @magentoAppIsolation enabled
  */

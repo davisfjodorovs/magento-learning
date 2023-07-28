@@ -76,9 +76,9 @@ class CspWhitelistXmlCollectorTest extends TestCase
     }
 
     /**
-     * Test collecting configurations from multiple XML files for adminhtml area.
+     * Test collecting configurations from multiple XML files for Adminhtml area.
      *
-     * @magentoAppArea adminhtml
+     * @magentoAppArea Adminhtml
      * @return void
      */
     public function testCollectingForAdminhtmlArea(): void

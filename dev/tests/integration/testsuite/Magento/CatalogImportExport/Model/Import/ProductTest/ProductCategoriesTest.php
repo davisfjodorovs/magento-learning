@@ -25,7 +25,7 @@ use Magento\TestFramework\Fixture\DataFixtureBeforeTransaction;
  */
 #[
     AppIsolation(true),
-    AppArea('adminhtml'),
+    AppArea('Adminhtml'),
     DataFixtureBeforeTransaction(ScheduleMode::class, ['indexer' => 'catalogsearch_fulltext']),
     DataFixtureBeforeTransaction(ScheduleMode::class, ['indexer' => 'catalog_category_product']),
     DataFixtureBeforeTransaction(ScheduleMode::class, ['indexer' => 'catalog_product_category']),

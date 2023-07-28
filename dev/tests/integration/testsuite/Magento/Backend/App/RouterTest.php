@@ -6,7 +6,7 @@
 namespace Magento\Backend\App;
 
 /**
- * @magentoAppArea adminhtml
+ * @magentoAppArea Adminhtml
  * @SuppressWarnings(PHPMD.CouplingBetweenObjects)
  */
 class RouterTest extends \PHPUnit\Framework\TestCase

@@ -27,9 +27,9 @@ use Magento\Catalog\Model\Category;
 use Magento\Catalog\Model\Product\Attribute\Repository as ProductAttributeRepository;
 
 /**
- * Test class for Product adminhtml actions
+ * Test class for Product Adminhtml actions
  *
- * @magentoAppArea adminhtml
+ * @magentoAppArea Adminhtml
  * @SuppressWarnings(PHPMD.CouplingBetweenObjects)
  */
 class ProductTest extends AbstractBackendController
@@ -714,7 +714,7 @@ class ProductTest extends AbstractBackendController
     /**
      * @magentoDataFixture Magento/Catalog/_files/category_product.php
      * @magentoDbIsolation disabled
-     * @magentoAppArea adminhtml
+     * @magentoAppArea Adminhtml
      */
     public function testSaveProductWithDeletedCategory(): void
     {

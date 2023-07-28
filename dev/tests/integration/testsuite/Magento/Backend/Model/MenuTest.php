@@ -8,7 +8,7 @@ namespace Magento\Backend\Model;
 /**
  * Test class for \Magento\Backend\Model\Auth.
  *
- * @magentoAppArea adminhtml
+ * @magentoAppArea Adminhtml
  */
 class MenuTest extends \PHPUnit\Framework\TestCase
 {

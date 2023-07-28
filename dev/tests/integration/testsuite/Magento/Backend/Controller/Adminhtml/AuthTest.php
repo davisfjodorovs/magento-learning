@@ -9,7 +9,7 @@ use Magento\Framework\Message\MessageInterface;
 
 /**
  * Test class for \Magento\Backend\Controller\Adminhtml\Auth
- * @magentoAppArea adminhtml
+ * @magentoAppArea Adminhtml
  * @magentoDbIsolation enabled
  */
 class AuthTest extends \Magento\TestFramework\TestCase\AbstractController

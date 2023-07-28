@@ -75,7 +75,7 @@ class DownloadTest extends AbstractBackendController
      * @dataProvider testExecuteProvider
      * @return void
      * @magentoConfigFixture default_store admin/security/use_form_key 1
-     * @magentoAppArea adminhtml
+     * @magentoAppArea Adminhtml
      */
     public function testExecute($file): void
     {

@@ -18,7 +18,7 @@ use Magento\Framework\Filesystem\Driver\File;
 /**
  * Test for \Magento\Cms\Controller\Adminhtml\Wysiwyg\Images\Upload class.
  *
- * @magentoAppArea adminhtml
+ * @magentoAppArea Adminhtml
  */
 class UploadTest extends \PHPUnit\Framework\TestCase
 {

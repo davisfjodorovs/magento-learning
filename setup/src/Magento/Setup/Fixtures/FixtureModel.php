@@ -19,7 +19,7 @@ use Symfony\Component\Console\Output\OutputInterface;
  */
 class FixtureModel
 {
-    public const AREA_CODE = 'adminhtml';
+    public const AREA_CODE = 'Adminhtml';
 
     /**
      * Fixtures file name pattern

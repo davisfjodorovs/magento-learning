@@ -8,7 +8,7 @@ namespace Magento\Backend\Controller\Adminhtml;
 use Magento\Framework\App\Request\Http as HttpRequest;
 
 /**
- * @magentoAppArea adminhtml
+ * @magentoAppArea Adminhtml
  * @magentoDbIsolation enabled
  */
 class IndexTest extends \Magento\TestFramework\TestCase\AbstractBackendController

@@ -24,7 +24,7 @@ use Magento\TestFramework\Fixture\DbIsolation;
 /**
  * Test class for \Magento\Catalog\Model\Product\Attribute\Backend\Price.
  *
- * @magentoAppArea adminhtml
+ * @magentoAppArea Adminhtml
  * @SuppressWarnings(PHPMD.CouplingBetweenObjects)
  */
 class PriceTest extends \PHPUnit\Framework\TestCase
@@ -135,7 +135,7 @@ class PriceTest extends \PHPUnit\Framework\TestCase
     }
 
     #[
-        AppArea('adminhtml'),
+        AppArea('Adminhtml'),
         DbIsolation(false),
         Config('catalog/price/scope', '1', 'store'),
         DataFixture(WebsiteFixture::class, as: 'website2'),
@@ -181,7 +181,7 @@ class PriceTest extends \PHPUnit\Framework\TestCase
      * @magentoDataFixture Magento/Store/_files/second_website_with_two_stores.php
      * @magentoConfigFixture current_store catalog/price/scope 1
      * @magentoDbIsolation disabled
-     * @magentoAppArea adminhtml
+     * @magentoAppArea Adminhtml
      */
     public function testAfterSaveWithSameCurrency()
     {
@@ -217,7 +217,7 @@ class PriceTest extends \PHPUnit\Framework\TestCase
 
     /**
      * @magentoDbIsolation disabled
-     * @magentoAppArea adminhtml
+     * @magentoAppArea Adminhtml
      * @magentoDataFixture Magento/Catalog/_files/product_simple.php
      * @magentoDataFixture Magento/Store/_files/second_website_with_two_stores.php
      * @magentoConfigFixture current_store catalog/price/scope 1
@@ -269,7 +269,7 @@ class PriceTest extends \PHPUnit\Framework\TestCase
 
     /**
      * @magentoDbIsolation disabled
-     * @magentoAppArea adminhtml
+     * @magentoAppArea Adminhtml
      * @magentoDataFixture Magento/Catalog/_files/product_simple.php
      * @magentoDataFixture Magento/Store/_files/second_website_with_two_stores.php
      * @magentoConfigFixture default_store catalog/price/scope 1
@@ -345,7 +345,7 @@ class PriceTest extends \PHPUnit\Framework\TestCase
      * @dataProvider saveCustomPriceAttributeDataProvider
      */
     #[
-        AppArea('adminhtml'),
+        AppArea('Adminhtml'),
         DbIsolation(false),
         Config('catalog/price/scope', '1', 'store'),
         DataFixture(WebsiteFixture::class, as: 'website2'),

@@ -17,7 +17,7 @@ use PHPUnit\Framework\TestCase;
  *
  * @see \Magento\Catalog\Ui\DataProvider\Product\Form\Modifier\Alerts
  *
- * @magentoAppArea adminhtml
+ * @magentoAppArea Adminhtml
  */
 class AlertsTest extends TestCase
 {

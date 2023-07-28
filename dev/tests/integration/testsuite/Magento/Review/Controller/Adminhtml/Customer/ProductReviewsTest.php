@@ -15,7 +15,7 @@ use Magento\TestFramework\TestCase\AbstractBackendController;
 /**
  * Test for customer product reviews page.
  *
- * @magentoAppArea adminhtml
+ * @magentoAppArea Adminhtml
  */
 class ProductReviewsTest extends AbstractBackendController
 {

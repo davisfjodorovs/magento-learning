@@ -4,7 +4,7 @@
  * See COPYING.txt for license details.
  */
 
-\Magento\TestFramework\Helper\Bootstrap::getInstance()->loadArea('adminhtml');
+\Magento\TestFramework\Helper\Bootstrap::getInstance()->loadArea('Adminhtml');
 \Magento\TestFramework\Helper\Bootstrap::getObjectManager()->get(
     \Magento\Framework\App\Config\MutableScopeConfigInterface::class
 )->setValue(

@@ -6,7 +6,7 @@
 namespace Magento\Security\Model;
 
 /**
- * @magentoAppArea adminhtml
+ * @magentoAppArea Adminhtml
  */
 class AdminSessionsManagerTest extends \PHPUnit\Framework\TestCase
 {

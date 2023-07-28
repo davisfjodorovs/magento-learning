@@ -17,7 +17,7 @@ use Magento\TestFramework\TestCase\AbstractBackendController;
 /**
  * Test class for Product duplicate action
  *
- * @magentoAppArea adminhtml
+ * @magentoAppArea Adminhtml
  * @see \Magento\Catalog\Controller\Adminhtml\Product\Duplicate
  */
 class DuplicateTest extends AbstractBackendController

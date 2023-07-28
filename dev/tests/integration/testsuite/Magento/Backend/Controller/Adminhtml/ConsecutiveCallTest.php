@@ -10,7 +10,7 @@ namespace Magento\Backend\Controller\Adminhtml;
 use Magento\TestFramework\TestCase\AbstractBackendController;
 
 /**
- * @magentoAppArea adminhtml
+ * @magentoAppArea Adminhtml
  */
 class ConsecutiveCallTest extends AbstractBackendController
 {

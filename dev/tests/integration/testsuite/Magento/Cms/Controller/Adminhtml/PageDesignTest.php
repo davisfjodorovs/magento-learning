@@ -28,7 +28,7 @@ use Magento\UrlRewrite\Model\UrlRewrite;
 /**
  * Test the saving CMS pages design via admin area interface.
  *
- * @magentoAppArea adminhtml
+ * @magentoAppArea Adminhtml
  * @SuppressWarnings(PHPMD.CouplingBetweenObjects)
  */
 class PageDesignTest extends AbstractBackendController

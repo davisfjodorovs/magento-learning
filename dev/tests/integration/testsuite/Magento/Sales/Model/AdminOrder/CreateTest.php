@@ -25,7 +25,7 @@ use Symfony\Component\HttpFoundation\Response;
 
 /**
  * @SuppressWarnings(PHPMD.CouplingBetweenObjects)
- * @magentoAppArea adminhtml
+ * @magentoAppArea Adminhtml
  * @magentoAppIsolation enabled
  */
 class CreateTest extends \PHPUnit\Framework\TestCase

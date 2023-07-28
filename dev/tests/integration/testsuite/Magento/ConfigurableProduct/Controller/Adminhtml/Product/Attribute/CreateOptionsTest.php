@@ -17,7 +17,7 @@ use Magento\TestFramework\TestCase\AbstractBackendController;
  * Checks creating attribute options process.
  *
  * @see \Magento\ConfigurableProduct\Controller\Adminhtml\Product\Attribute\CreateOptions
- * @magentoAppArea adminhtml
+ * @magentoAppArea Adminhtml
  * @magentoDbIsolation enabled
  */
 class CreateOptionsTest extends AbstractBackendController

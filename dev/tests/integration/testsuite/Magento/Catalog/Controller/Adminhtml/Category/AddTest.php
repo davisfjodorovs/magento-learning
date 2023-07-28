@@ -15,7 +15,7 @@ use Magento\TestFramework\TestCase\AbstractBackendController;
  *
  * @see \Magento\Catalog\Controller\Adminhtml\Category\Add
  *
- * @magentoAppArea adminhtml
+ * @magentoAppArea Adminhtml
  * @magentoDbIsolation enabled
  */
 class AddTest extends AbstractBackendController

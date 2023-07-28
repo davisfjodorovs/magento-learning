@@ -7,7 +7,7 @@
 namespace Magento\Backend\Controller\Adminhtml;
 
 /**
- * @magentoAppArea adminhtml
+ * @magentoAppArea Adminhtml
  */
 class CacheTest extends \Magento\TestFramework\TestCase\AbstractBackendController
 {

@@ -29,7 +29,7 @@ use PHPUnit\Framework\TestCase;
  *
  * @see \Magento\Catalog\Model\System\Config\Backend\Catalog\Url\Rewrite\Suffix
  *
- * @magentoAppArea adminhtml
+ * @magentoAppArea Adminhtml
  * @magentoDbIsolation enabled
  * @magentoAppIsolation enabled
  */

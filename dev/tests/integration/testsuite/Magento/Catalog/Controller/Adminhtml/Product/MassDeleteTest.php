@@ -22,7 +22,7 @@ use Magento\Catalog\Model\ResourceModel\Product\Gallery;
  * Test for mass product deleting.
  *
  * @see \Magento\Catalog\Controller\Adminhtml\Product\MassDelete
- * @magentoAppArea adminhtml
+ * @magentoAppArea Adminhtml
  * @magentoDbIsolation enabled
  */
 class MassDeleteTest extends AbstractBackendController

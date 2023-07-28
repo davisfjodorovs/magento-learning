@@ -6,7 +6,7 @@
 namespace Magento\PageCache\Block\System\Config\Form\Field;
 
 /**
- * @magentoAppArea adminhtml
+ * @magentoAppArea Adminhtml
  */
 class ExportTest extends \Magento\TestFramework\TestCase\AbstractBackendController
 {

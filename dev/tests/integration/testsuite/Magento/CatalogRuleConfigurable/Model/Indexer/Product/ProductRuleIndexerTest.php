@@ -17,7 +17,7 @@ use PHPUnit\Framework\TestCase;
 
 /**
  * @magentoDbIsolation disabled
- * @magentoAppArea adminhtml
+ * @magentoAppArea Adminhtml
  * @magentoDataFixture Magento/CatalogRuleConfigurable/_files/configurable_product_with_percent_rule.php
  */
 class ProductRuleIndexerTest extends TestCase

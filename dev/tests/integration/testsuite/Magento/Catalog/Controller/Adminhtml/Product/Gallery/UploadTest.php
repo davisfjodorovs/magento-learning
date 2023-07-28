@@ -19,7 +19,7 @@ use Magento\TestFramework\TestCase\AbstractBackendController;
 /**
  * Provide tests for admin product upload image action.
  *
- * @magentoAppArea adminhtml
+ * @magentoAppArea Adminhtml
  */
 class UploadTest extends AbstractBackendController
 {

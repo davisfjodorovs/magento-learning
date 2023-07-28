@@ -19,7 +19,7 @@ use PHPUnit\Framework\TestCase;
 /**
  * Test pages data provider.
  *
- * @magentoAppArea adminhtml
+ * @magentoAppArea Adminhtml
  */
 class DataProviderTest extends TestCase
 {

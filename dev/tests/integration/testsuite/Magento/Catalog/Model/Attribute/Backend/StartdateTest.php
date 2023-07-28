@@ -21,7 +21,7 @@ use PHPUnit\Framework\TestCase;
  *
  * @see \Magento\Catalog\Model\Attribute\Backend\Startdate
  *
- * @magentoAppArea adminhtml
+ * @magentoAppArea Adminhtml
  */
 class StartdateTest extends TestCase
 {

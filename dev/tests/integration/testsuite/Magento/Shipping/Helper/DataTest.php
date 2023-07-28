@@ -63,7 +63,7 @@ class DataTest extends \PHPUnit\Framework\TestCase
      * @param int $entityId
      * @param string $code
      * @param string $expected
-     * @magentoAppArea adminhtml
+     * @magentoAppArea Adminhtml
      * @magentoConfigFixture admin_store web/unsecure/base_link_url http://admin.localhost/
      * @dataProvider getTrackingPopupUrlBySalesModelDataProvider
      */

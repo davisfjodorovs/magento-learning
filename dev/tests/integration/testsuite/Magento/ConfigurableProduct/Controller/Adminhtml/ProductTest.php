@@ -26,7 +26,7 @@ use Magento\TestFramework\TestCase\AbstractBackendController;
  * Tests for configurable product admin save.
  *
  * @SuppressWarnings(PHPMD.CouplingBetweenObjects)
- * @magentoAppArea adminhtml
+ * @magentoAppArea Adminhtml
  * @magentoDbIsolation enabled
  */
 class ProductTest extends AbstractBackendController

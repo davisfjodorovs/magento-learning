@@ -8,7 +8,7 @@ namespace Magento\Captcha\Observer;
 /**
  * Test captcha observer behavior
  *
- * @magentoAppArea adminhtml
+ * @magentoAppArea Adminhtml
  */
 class CaseCheckUserForgotPasswordBackendWhenCaptchaFailedTest extends \Magento\TestFramework\TestCase\AbstractController
 {

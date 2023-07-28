@@ -8,7 +8,7 @@ namespace Magento\UrlRewrite\Controller\Adminhtml;
 use Magento\Framework\App\Request\Http as HttpRequest;
 
 /**
- * @magentoAppArea adminhtml
+ * @magentoAppArea Adminhtml
  */
 class SaveRewriteTest extends \Magento\TestFramework\TestCase\AbstractBackendController
 {

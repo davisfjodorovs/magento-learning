@@ -9,7 +9,7 @@ use PHPUnit\Framework\TestCase;
 
 /**
  * Test for \Magento\UrlRewrite\Block\Cms\ExampleViewModel\Edit
- * @magentoAppArea adminhtml
+ * @magentoAppArea Adminhtml
  */
 class EditTest extends TestCase
 {

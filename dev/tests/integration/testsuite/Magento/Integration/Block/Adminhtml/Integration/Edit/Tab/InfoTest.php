@@ -35,7 +35,7 @@ class InfoTest extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     * @magentoAppArea adminhtml
+     * @magentoAppArea Adminhtml
      */
     public function testToHtmlNoExistingIntegrationData()
     {
@@ -58,7 +58,7 @@ class InfoTest extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     * @magentoAppArea adminhtml
+     * @magentoAppArea Adminhtml
      */
     public function testToHtmlWithIntegrationData()
     {

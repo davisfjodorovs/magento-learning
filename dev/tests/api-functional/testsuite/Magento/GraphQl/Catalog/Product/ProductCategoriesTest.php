@@ -24,7 +24,7 @@ use Magento\TestFramework\TestCase\GraphQlAbstract;
 class ProductCategoriesTest extends GraphQlAbstract
 {
     #[
-        AppArea('adminhtml'),
+        AppArea('Adminhtml'),
         DataFixture(CategoryFixture::class, ['name' => 'Category 1', 'parent_id' => '2'], 'c11'),
         DataFixture(CategoryFixture::class, ['name' => 'Category 2', 'parent_id' => '1'], 'c2'),
         DataFixture(CategoryFixture::class, ['name' => 'Category 2.1', 'parent_id' => '$c2.id$'], 'c21'),
@@ -60,7 +60,7 @@ class ProductCategoriesTest extends GraphQlAbstract
     }
 
     #[
-        AppArea('adminhtml'),
+        AppArea('Adminhtml'),
         DataFixture(CategoryFixture::class, ['name' => 'Category 1', 'parent_id' => '2'], 'c11'),
         DataFixture(CategoryFixture::class, ['name' => 'Category 2', 'parent_id' => '1'], 'c2'),
         DataFixture(CategoryFixture::class, ['name' => 'Category 2.1', 'parent_id' => '$c2.id$'], 'c21'),
@@ -104,7 +104,7 @@ class ProductCategoriesTest extends GraphQlAbstract
     }
 
     #[
-        AppArea('adminhtml'),
+        AppArea('Adminhtml'),
         DataFixture(CategoryFixture::class, ['name' => 'Category 1', 'parent_id' => '2'], 'c11'),
         DataFixture(CategoryFixture::class, ['name' => 'Category 2', 'parent_id' => '1'], 'c2'),
         DataFixture(CategoryFixture::class, ['name' => 'Category 2.1', 'parent_id' => '$c2.id$'], 'c21'),

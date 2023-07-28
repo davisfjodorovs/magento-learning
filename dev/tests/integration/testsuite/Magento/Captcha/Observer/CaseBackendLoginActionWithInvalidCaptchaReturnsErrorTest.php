@@ -11,7 +11,7 @@ use Magento\TestFramework\TestCase\AbstractController;
 /**
  * Test captcha observer behavior
  *
- * @magentoAppArea adminhtml
+ * @magentoAppArea Adminhtml
  */
 class CaseBackendLoginActionWithInvalidCaptchaReturnsErrorTest extends AbstractController
 {

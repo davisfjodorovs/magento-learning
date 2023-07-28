@@ -134,7 +134,7 @@ class CreditmemoSenderTest extends TestCase
      * @magentoConfigFixture default/sales_email/creditmemo/enabled 0
      * @magentoConfigFixture default/sales_email/general/async_sending 1
      * @magentoConfigFixture fixturestore/sales_email/creditmemo/enabled 1
-     * @magentoAppArea adminhtml
+     * @magentoAppArea Adminhtml
      * @magentoDbIsolation disabled
      */
     public function testSendCreditmemeoEmailFromNonDefaultStore()

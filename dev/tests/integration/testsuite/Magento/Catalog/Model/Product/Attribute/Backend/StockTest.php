@@ -20,7 +20,7 @@ use PHPUnit\Framework\TestCase;
  *
  * @see \Magento\Catalog\Model\Product\Attribute\Backend\Stock
  *
- * @magentoAppArea adminhtml
+ * @magentoAppArea Adminhtml
  */
 class StockTest extends TestCase
 {

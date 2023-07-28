@@ -10,7 +10,7 @@ use Magento\Framework\App\Request\Http as HttpRequest;
 /**
  * ResetPassword controller test.
  *
- * @magentoAppArea adminhtml
+ * @magentoAppArea Adminhtml
  */
 class ResetPasswordTest extends \Magento\TestFramework\TestCase\AbstractBackendController
 {

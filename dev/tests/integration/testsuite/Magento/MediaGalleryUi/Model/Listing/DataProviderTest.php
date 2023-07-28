@@ -17,7 +17,7 @@ use PHPUnit\Framework\TestCase;
 /**
  * Checks standalone media gallery listing data provider behavior
  *
- * @magentoAppArea adminhtml
+ * @magentoAppArea Adminhtml
  */
 class DataProviderTest extends TestCase
 {

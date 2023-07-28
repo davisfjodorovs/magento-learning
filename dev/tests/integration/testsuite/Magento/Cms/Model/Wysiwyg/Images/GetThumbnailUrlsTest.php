@@ -112,7 +112,7 @@ class GetThumbnailUrlsTest extends \PHPUnit\Framework\TestCase
      * @param array $expectedUrls
      * @return void
      * @magentoAppIsolation enabled
-     * @magentoAppArea adminhtml
+     * @magentoAppArea Adminhtml
      * @dataProvider getThumbnailUrlDataProvider
      */
     public function testGetThumbnailUrl(string $directory, string $filename, array $expectedUrls): void

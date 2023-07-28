@@ -18,7 +18,7 @@ use Magento\TestFramework\TestCase\AbstractBackendController;
  * Test cases related to upload category image.
  *
  * @see \Magento\Catalog\Controller\Adminhtml\Category\Image\Upload
- * @magentoAppArea adminhtml
+ * @magentoAppArea Adminhtml
  * @magentoDbIsolation enabled
  */
 class UploadTest extends AbstractBackendController

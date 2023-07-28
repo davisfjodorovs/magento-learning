@@ -18,7 +18,7 @@ use Magento\TestFramework\TestCase\AbstractBackendController;
 
 /**
  * Provide tests for product admin controllers.
- * @magentoAppArea adminhtml
+ * @magentoAppArea Adminhtml
  */
 class ProductTest extends AbstractBackendController
 {

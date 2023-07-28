@@ -12,7 +12,7 @@ namespace Magento\Catalog\Ui\DataProvider\Product\Related;
  *
  * @see \Magento\Catalog\Ui\DataProvider\Product\Related\UpSellDataProvider
  *
- * @magentoAppArea adminhtml
+ * @magentoAppArea Adminhtml
  * @magentoDbIsolation disabled
  */
 class UpSellDataProviderTest extends AbstractRelationsDataProviderTest

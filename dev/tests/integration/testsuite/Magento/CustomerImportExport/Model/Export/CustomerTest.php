@@ -21,7 +21,7 @@ use Magento\Customer\Model\ResourceModel\Customer\Collection as CustomerCollecti
 /**
  * Tests for customer export model.
  *
- * @magentoAppArea adminhtml
+ * @magentoAppArea Adminhtml
  */
 class CustomerTest extends \PHPUnit\Framework\TestCase
 {

@@ -22,7 +22,7 @@ use Magento\Framework\Registry;
 
 /**
  * Checks that removal of website also deletes it from the customer group excluded website table.
- * @magentoAppArea adminhtml
+ * @magentoAppArea Adminhtml
  */
 class DeleteCustomerGroupExcludedWebsiteTest extends \PHPUnit\Framework\TestCase
 {

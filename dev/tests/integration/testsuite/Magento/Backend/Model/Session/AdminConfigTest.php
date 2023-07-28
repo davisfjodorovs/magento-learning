@@ -10,7 +10,7 @@ use PHPUnit\Framework\TestCase;
 /**
  * Test class for \Magento\Backend\Model\Session\AdminConfig.
  *
- * @magentoAppArea adminhtml
+ * @magentoAppArea Adminhtml
  */
 class AdminConfigTest extends \PHPUnit\Framework\TestCase
 {

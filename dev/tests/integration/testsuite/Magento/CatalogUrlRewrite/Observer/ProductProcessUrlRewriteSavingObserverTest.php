@@ -25,7 +25,7 @@ use Magento\UrlRewrite\Service\V1\Data\UrlRewrite;
 use PHPUnit\Framework\TestCase;
 
 /**
- * @magentoAppArea adminhtml
+ * @magentoAppArea Adminhtml
  * @magentoDbIsolation disabled
  */
 class ProductProcessUrlRewriteSavingObserverTest extends TestCase

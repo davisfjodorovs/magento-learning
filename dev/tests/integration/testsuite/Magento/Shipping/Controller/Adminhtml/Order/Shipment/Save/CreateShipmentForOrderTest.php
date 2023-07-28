@@ -15,7 +15,7 @@ use Magento\Framework\Escaper;
 /**
  * Test cases related to check that shipment creates as expected or proper error message appear.
  *
- * @magentoAppArea adminhtml
+ * @magentoAppArea Adminhtml
  * @magentoDbIsolation enabled
  *
  * @see \Magento\Shipping\Controller\Adminhtml\Order\Shipment\Save::execute

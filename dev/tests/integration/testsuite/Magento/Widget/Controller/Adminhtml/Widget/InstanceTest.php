@@ -16,7 +16,7 @@ use Magento\TestFramework\TestCase\AbstractBackendController;
 use Magento\Widget\Model\Widget\Instance;
 
 /**
- * @magentoAppArea adminhtml
+ * @magentoAppArea Adminhtml
  */
 class InstanceTest extends AbstractBackendController
 {

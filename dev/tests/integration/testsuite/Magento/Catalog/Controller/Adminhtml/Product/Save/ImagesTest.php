@@ -19,7 +19,7 @@ use Magento\TestFramework\TestCase\AbstractBackendController;
 /**
  * Provide tests for admin product save action with images.
  *
- * @magentoAppArea adminhtml
+ * @magentoAppArea Adminhtml
  */
 class ImagesTest extends AbstractBackendController
 {

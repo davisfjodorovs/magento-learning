@@ -105,7 +105,7 @@ class ProductTest extends \PHPUnit\Framework\TestCase
      *
      * @magentoDbIsolation enabled
      * @magentoAppIsolation enabled
-     * @magentoAppArea adminhtml
+     * @magentoAppArea Adminhtml
      */
     public function testCRUD()
     {
@@ -139,7 +139,7 @@ class ProductTest extends \PHPUnit\Framework\TestCase
      *
      * @magentoDbIsolation enabled
      * @magentoAppIsolation enabled
-     * @magentoAppArea adminhtml
+     * @magentoAppArea Adminhtml
      * @throws NoSuchEntityException
      * @throws CouldNotSaveException
      * @throws InputException
@@ -261,7 +261,7 @@ class ProductTest extends \PHPUnit\Framework\TestCase
      *
      * @magentoDataFixture Magento/Catalog/_files/product_multistore_different_short_description.php
      * @magentoAppIsolation enabled
-     * @magentoAppArea adminhtml
+     * @magentoAppArea Adminhtml
      * @magentoDbIsolation disabled
      */
     public function testDuplicate()
@@ -329,7 +329,7 @@ class ProductTest extends \PHPUnit\Framework\TestCase
     /**
      * Test duplicate sku generation
      *
-     * @magentoAppArea adminhtml
+     * @magentoAppArea Adminhtml
      */
     public function testDuplicateSkuGeneration()
     {
@@ -500,7 +500,7 @@ class ProductTest extends \PHPUnit\Framework\TestCase
     /**
      * Test set original data backend
      *
-     * @magentoAppArea adminhtml
+     * @magentoAppArea Adminhtml
      */
     public function testSetOrigDataBackend()
     {

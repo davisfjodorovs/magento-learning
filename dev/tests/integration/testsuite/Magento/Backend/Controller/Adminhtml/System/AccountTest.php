@@ -8,7 +8,7 @@ namespace Magento\Backend\Controller\Adminhtml\System;
 use Magento\TestFramework\Bootstrap;
 
 /**
- * @magentoAppArea adminhtml
+ * @magentoAppArea Adminhtml
  */
 class AccountTest extends \Magento\TestFramework\TestCase\AbstractBackendController
 {

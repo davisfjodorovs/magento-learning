@@ -8,7 +8,7 @@ declare(strict_types=1);
 namespace Magento\Tax\Controller\Adminhtml\System;
 
 /**
- * @magentoAppArea adminhtml
+ * @magentoAppArea Adminhtml
  */
 class ConfigTest extends \Magento\TestFramework\TestCase\AbstractBackendController
 {

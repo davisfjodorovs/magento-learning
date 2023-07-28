@@ -9,7 +9,7 @@ use Magento\TestFramework\Bootstrap;
 
 /**
  * Test class for \Magento\Backend\App\AbstractAction.
- * @magentoAppArea adminhtml
+ * @magentoAppArea Adminhtml
  */
 class AbstractActionTest extends \Magento\TestFramework\TestCase\AbstractBackendController
 {

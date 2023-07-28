@@ -7,7 +7,7 @@ namespace Magento\User\Controller\Adminhtml\User;
 
 /**
  * Test class for \Magento\User\Controller\Adminhtml\User\Delete
- * @magentoAppArea adminhtml
+ * @magentoAppArea Adminhtml
  */
 class DeleteTest extends \Magento\TestFramework\TestCase\AbstractBackendController
 {

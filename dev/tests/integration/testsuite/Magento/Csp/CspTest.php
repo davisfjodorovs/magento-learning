@@ -72,7 +72,7 @@ class CspTest extends AbstractController
     /**
      * Check that configured policies are rendered on backend.
      *
-     * @magentoAppArea adminhtml
+     * @magentoAppArea Adminhtml
      * @magentoConfigFixture default_store csp/policies/admin/default_src/policy_id default-src
      * @magentoConfigFixture default_store csp/policies/admin/default_src/none 0
      * @magentoConfigFixture default_store csp/policies/admin/default_src/hosts/example http://magento.com

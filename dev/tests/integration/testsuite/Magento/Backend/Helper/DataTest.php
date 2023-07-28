@@ -6,7 +6,7 @@
 namespace Magento\Backend\Helper;
 
 /**
- * @magentoAppArea adminhtml
+ * @magentoAppArea Adminhtml
  * @magentoAppIsolation enabled
  * @magentoDbIsolation enabled
  */

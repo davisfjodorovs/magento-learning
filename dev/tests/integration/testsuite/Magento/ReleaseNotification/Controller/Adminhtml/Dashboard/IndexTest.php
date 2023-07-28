@@ -39,7 +39,7 @@ class IndexTest extends \Magento\TestFramework\TestCase\AbstractBackendControlle
     }
 
     /**
-     * @magentoAppArea adminhtml
+     * @magentoAppArea Adminhtml
      */
     public function testExecute()
     {

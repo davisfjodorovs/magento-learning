@@ -20,7 +20,7 @@ use PHPUnit\Framework\TestCase;
 /**
  * Test for address collection
  *
- * @magentoAppArea adminhtml
+ * @magentoAppArea Adminhtml
  */
 class CollectionTest extends TestCase
 {

@@ -21,7 +21,7 @@ use PHPUnit\Framework\TestCase;
  *
  * @see \Magento\Swatches\Model\Plugin\EavAttribute
  *
- * @magentoAppArea adminhtml
+ * @magentoAppArea Adminhtml
  * @magentoDbIsolation disabled
  */
 class EavAttributeTest extends TestCase

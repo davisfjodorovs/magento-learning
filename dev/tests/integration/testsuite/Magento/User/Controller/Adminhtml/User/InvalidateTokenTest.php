@@ -12,7 +12,7 @@ use Magento\TestFramework\Helper\Bootstrap;
 /**
  * Test class for Magento\User\Controller\Adminhtml\User\InvalidateToken.
  *
- * @magentoAppArea adminhtml
+ * @magentoAppArea Adminhtml
  */
 class InvalidateTokenTest extends \Magento\TestFramework\TestCase\AbstractBackendController
 {

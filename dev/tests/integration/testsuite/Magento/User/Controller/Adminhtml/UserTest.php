@@ -10,7 +10,7 @@ use Magento\Framework\App\Request\Http as HttpRequest;
 use Magento\TestFramework\Bootstrap;
 
 /**
- * @magentoAppArea adminhtml
+ * @magentoAppArea Adminhtml
  */
 class UserTest extends \Magento\TestFramework\TestCase\AbstractBackendController
 {
@@ -253,7 +253,7 @@ class UserTest extends \Magento\TestFramework\TestCase\AbstractBackendController
         $this->dispatch('backend/admin/user/edit');
         $response = $this->getResponse()->getBody();
         //check "User Information" header and fieldset
-        $this->assertStringContainsString('data-ui-id="adminhtml-user-edit-tabs-title"', $response);
+        $this->assertStringContainsString('data-ui-id="Adminhtml-user-edit-tabs-title"', $response);
         $this->assertStringContainsString('User Information', $response);
         $this->assertEquals(
             1,

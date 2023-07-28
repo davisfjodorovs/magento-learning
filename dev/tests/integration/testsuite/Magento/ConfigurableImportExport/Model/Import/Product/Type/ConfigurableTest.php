@@ -25,7 +25,7 @@ use Magento\TestFramework\Helper\Bootstrap;
 use PHPUnit\Framework\TestCase;
 
 /**
- * @magentoAppArea adminhtml
+ * @magentoAppArea Adminhtml
  * @SuppressWarnings(PHPMD.CouplingBetweenObjects)
  */
 class ConfigurableTest extends TestCase
@@ -113,7 +113,7 @@ class ConfigurableTest extends TestCase
      * @param string $productName Name/sku of configurable product
      * @param array $optionSkuList Name of variations for configurable product
      * @magentoDataFixture Magento/ConfigurableProduct/_files/configurable_attribute.php
-     * @magentoAppArea adminhtml
+     * @magentoAppArea Adminhtml
      * @magentoAppIsolation enabled
      * @dataProvider configurableImportDataProvider
      */
@@ -185,7 +185,7 @@ class ConfigurableTest extends TestCase
      * @magentoDataFixture Magento/Catalog/_files/enable_reindex_schedule.php
      * @magentoDataFixture Magento/Store/_files/second_store.php
      * @magentoDataFixture Magento/ConfigurableProduct/_files/configurable_attribute.php
-     * @magentoAppArea adminhtml
+     * @magentoAppArea Adminhtml
      * @magentoAppIsolation enabled
      * @magentoDbIsolation disabled
      */
@@ -220,7 +220,7 @@ class ConfigurableTest extends TestCase
      * @magentoDataFixture Magento/Store/_files/second_store.php
      * @magentoDataFixture Magento/ConfigurableProduct/_files/configurable_attribute.php
      * @magentoDbIsolation disabled
-     * @magentoAppArea adminhtml
+     * @magentoAppArea Adminhtml
      */
     public function testConfigurableImportWithStoreSpecifiedMainItem()
     {

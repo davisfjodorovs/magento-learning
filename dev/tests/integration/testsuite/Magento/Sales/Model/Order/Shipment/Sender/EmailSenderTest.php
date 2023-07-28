@@ -37,7 +37,7 @@ class EmailSenderTest extends TestCase
      * @magentoConfigFixture sales_email/general/async_sending 1
      * @magentoConfigFixture default_store sales_email/shipment/enabled 0
      * @magentoConfigFixture fixturestore_store sales_email/shipment/enabled 1
-     * @magentoAppArea adminhtml
+     * @magentoAppArea Adminhtml
      * @magentoDbIsolation disabled
      */
     public function testSendShipmentEmailFromNonDefaultStore()

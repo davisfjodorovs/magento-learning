@@ -13,7 +13,7 @@ use PHPUnit\Framework\Constraint\StringContains;
  * Class verifies shipment creation functionality.
  *
  * @magentoDbIsolation enabled
- * @magentoAppArea adminhtml
+ * @magentoAppArea Adminhtml
  * @magentoDataFixture Magento/Sales/_files/order.php
  */
 class SaveTest extends AbstractShipmentControllerTest

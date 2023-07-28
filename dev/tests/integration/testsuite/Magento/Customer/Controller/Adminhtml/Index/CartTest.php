@@ -17,7 +17,7 @@ use Magento\TestFramework\TestCase\AbstractBackendController;
  * Class checks customer's shopping cart controller.
  *
  * @see \Magento\Customer\Controller\Adminhtml\Index\Cart
- * @magentoAppArea adminhtml
+ * @magentoAppArea Adminhtml
  */
 class CartTest extends AbstractBackendController
 {

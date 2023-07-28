@@ -11,7 +11,7 @@ use Magento\Framework\Serialize\Serializer\Json;
 /**
  * Magento\Downloadable\Controller\Adminhtml\Downloadable\File
  *
- * @magentoAppArea adminhtml
+ * @magentoAppArea Adminhtml
  */
 class FileTest extends \Magento\TestFramework\TestCase\AbstractBackendController
 {

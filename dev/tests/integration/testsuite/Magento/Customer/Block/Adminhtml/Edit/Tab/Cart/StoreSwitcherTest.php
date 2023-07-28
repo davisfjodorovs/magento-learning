@@ -20,7 +20,7 @@ use PHPUnit\Framework\TestCase;
  *
  * @see \Magento\Customer\Block\Adminhtml\Edit\Tab\Cart
  *
- * @magentoAppArea adminhtml
+ * @magentoAppArea Adminhtml
  * @magentoDbIsolation enabled
  */
 class StoreSwitcherTest extends TestCase

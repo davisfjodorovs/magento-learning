@@ -14,7 +14,7 @@ use Magento\Framework\View\LayoutInterface;
  *
  * @see \Magento\Catalog\Block\Adminhtml\Product\Edit\Tab\Alerts\Stock
  *
- * @magentoAppArea adminhtml
+ * @magentoAppArea Adminhtml
  */
 class StockTest extends AbstractAlertTest
 {

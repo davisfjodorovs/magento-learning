@@ -23,7 +23,7 @@ use Magento\Framework\App\Filesystem\DirectoryList;
 /**
  * Test tablerates import and export.
  *
- * @magentoAppArea adminhtml
+ * @magentoAppArea Adminhtml
  */
 class ImportExportTableratesTest extends \Magento\TestFramework\TestCase\AbstractBackendController
 {

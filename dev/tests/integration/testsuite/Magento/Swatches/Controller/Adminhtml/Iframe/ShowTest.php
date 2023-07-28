@@ -9,7 +9,7 @@ namespace Magento\Swatches\Controller\Adminhtml\Iframe;
 use Magento\TestFramework\Bootstrap;
 
 /**
- * @magentoAppArea adminhtml
+ * @magentoAppArea Adminhtml
  */
 class ShowTest extends \Magento\TestFramework\TestCase\AbstractBackendController
 {

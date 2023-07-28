@@ -78,7 +78,7 @@ class ProductTest extends TestCase
      * @throws StateException
      */
     #[
-        AppArea('adminhtml'),
+        AppArea('Adminhtml'),
         DataFixture(AttributeFixture::class, ['attribute_code' => 'prod_attr']),
         DataFixture(ProductFixture::class, ['sku' => 'simple']),
     ]
@@ -99,7 +99,7 @@ class ProductTest extends TestCase
      * @throws StateException
      */
     #[
-        AppArea('adminhtml'),
+        AppArea('Adminhtml'),
         DataFixture(AttributeFixture::class, ['attribute_code' => 'prod_attr']),
         DataFixture(ProductFixture::class, ['sku' => 'simple']),
     ]
@@ -124,7 +124,7 @@ class ProductTest extends TestCase
      * @throws StateException
      */
     #[
-        AppArea('adminhtml'),
+        AppArea('Adminhtml'),
         DataFixture(AttributeFixture::class, ['attribute_code' => 'prod_attr']),
         DataFixture(ProductFixture::class, ['sku' => 'simple']),
     ]
@@ -150,7 +150,7 @@ class ProductTest extends TestCase
      * @throws NoSuchEntityException
      */
     #[
-        AppArea('adminhtml'),
+        AppArea('Adminhtml'),
         DataFixture(AttributeFixture::class, ['attribute_code' => 'prod_attr']),
         DataFixture(ProductFixture::class, ['sku' => 'simple']),
     ]
@@ -165,7 +165,7 @@ class ProductTest extends TestCase
     }
 
     #[
-        AppArea('adminhtml'),
+        AppArea('Adminhtml'),
         AppIsolation(true),
         ConfigFixture('catalog/price/scope', '1', 'store'),
         DataFixture(ProductFixture::class, ['sku' => 'simple', 'special_price' => 5.99]),

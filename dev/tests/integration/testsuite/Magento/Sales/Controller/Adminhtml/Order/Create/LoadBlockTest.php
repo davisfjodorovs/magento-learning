@@ -25,7 +25,7 @@ use Magento\Wishlist\Model\Wishlist;
  *
  * @see \Magento\Sales\Controller\Adminhtml\Order\Create\LoadBlock
  *
- * @magentoAppArea adminhtml
+ * @magentoAppArea Adminhtml
  * @magentoDbIsolation enabled
  * @SuppressWarnings(PHPMD.CouplingBetweenObjects)
  */
@@ -287,7 +287,7 @@ class LoadBlockTest extends AbstractBackendController
      *
      * @return void
      * @magentoDataFixture Magento/Store/_files/second_website_with_store_group_and_store.php
-     * @magentoAppArea adminhtml
+     * @magentoAppArea Adminhtml
      * @magentoDbIsolation disabled
      * @magentoAppIsolation enabled
      * @throws NoSuchEntityException
@@ -362,7 +362,7 @@ class LoadBlockTest extends AbstractBackendController
         $this->_request = null;
         $this->_response = null;
         Bootstrap::getInstance()->getBootstrap()->getApplication()->reinitialize();
-        Bootstrap::getInstance()->loadArea('adminhtml');
+        Bootstrap::getInstance()->loadArea('Adminhtml');
         $this->_objectManager = Bootstrap::getObjectManager();
         $this->getRequest()
             ->setMethod(\Magento\Framework\App\Request\Http::METHOD_POST)

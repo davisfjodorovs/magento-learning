@@ -204,7 +204,7 @@ class QuoteManagementTest extends TestCase
      * Tries to create order with product that has child items and one of them was deleted.
      *
      * @magentoConfigFixture cataloginventory/options/enable_inventory_check 1
-     * @magentoAppArea adminhtml
+     * @magentoAppArea Adminhtml
      * @magentoAppIsolation enabled
      * @magentoDataFixture Magento/Sales/_files/quote_with_bundle.php
      */
@@ -222,7 +222,7 @@ class QuoteManagementTest extends TestCase
      * Tries to create order with product that has child items and one of them
      * was deleted when item data check is disabled on quote load.
      * @magentoConfigFixture cataloginventory/options/enable_inventory_check 0
-     * @magentoAppArea adminhtml
+     * @magentoAppArea Adminhtml
      * @magentoAppIsolation enabled
      * @magentoDataFixture Magento/Sales/_files/quote_with_bundle.php
      */

@@ -12,7 +12,7 @@ use Magento\Framework\App\Request\Http as HttpRequest;
 use Magento\TestFramework\Helper\Bootstrap;
 
 /**
- * @magentoAppArea adminhtml
+ * @magentoAppArea Adminhtml
  */
 class ConfigTest extends \Magento\TestFramework\TestCase\AbstractBackendController
 {

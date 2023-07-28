@@ -37,7 +37,7 @@ class UserExpirationTest extends TestCase
      *
      * @magentoDataFixture Magento/User/_files/dummy_user.php
      * @dataProvider userExpirationSaveDataProvider
-     * @magentoAppArea adminhtml
+     * @magentoAppArea Adminhtml
      * @return void
      */
     public function testUserExpirationSave(string $locale): void

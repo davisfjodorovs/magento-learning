@@ -141,7 +141,7 @@ class StorageTest extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     * @magentoAppArea adminhtml
+     * @magentoAppArea Adminhtml
      * @return void
      */
     public function testGetThumbsPath(): void

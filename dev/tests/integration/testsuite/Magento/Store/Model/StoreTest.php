@@ -383,7 +383,7 @@ class StoreTest extends \PHPUnit\Framework\TestCase
 
     /**
      * @magentoAppIsolation enabled
-     * @magentoAppArea adminhtml
+     * @magentoAppArea Adminhtml
      * @magentoDbIsolation enabled
      */
     public function testCRUD()
@@ -411,7 +411,7 @@ class StoreTest extends \PHPUnit\Framework\TestCase
      *
      * @dataProvider saveValidationDataProvider
      * @magentoAppIsolation enabled
-     * @magentoAppArea adminhtml
+     * @magentoAppArea Adminhtml
      * @magentoDbIsolation enabled
      */
     public function testSaveValidation($badStoreData)

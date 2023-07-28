@@ -17,7 +17,7 @@ use Magento\Widget\Model\ResourceModel\Widget\Instance\CollectionFactory;
  * Test for delete widget controller
  *
  * @see \Magento\Widget\Controller\Adminhtml\Widget\Instance\Delete
- * @magentoAppArea adminhtml
+ * @magentoAppArea Adminhtml
  * @magentoDbIsolation enabled
  */
 class DeleteTest extends AbstractBackendController

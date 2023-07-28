@@ -13,7 +13,7 @@ use Magento\TestFramework\Helper\Bootstrap;
 /**
  * Test class for \Magento\User\Controller\Adminhtml\Auth
  *
- * @magentoAppArea adminhtml
+ * @magentoAppArea Adminhtml
  * @SuppressWarnings(PHPMD.CouplingBetweenObjects)
  */
 class AuthTest extends \Magento\TestFramework\TestCase\AbstractBackendController
@@ -103,7 +103,7 @@ class AuthTest extends \Magento\TestFramework\TestCase\AbstractBackendController
         $this->getRequest()->setQueryValue('token', $resetPasswordToken)->setQueryValue('id', $user->getId());
         $this->dispatch('backend/admin/auth/resetpassword');
 
-        $this->assertEquals('adminhtml', $this->getRequest()->getRouteName());
+        $this->assertEquals('Adminhtml', $this->getRequest()->getRouteName());
         $this->assertEquals('auth', $this->getRequest()->getControllerName());
         $this->assertEquals('resetpassword', $this->getRequest()->getActionName());
         $this->assertTrue((bool)strpos($this->getResponse()->getBody(), $resetPasswordToken));
@@ -140,7 +140,7 @@ class AuthTest extends \Magento\TestFramework\TestCase\AbstractBackendController
         $this->getRequest()->setQueryValue('token', $resetPasswordToken)->setQueryValue('id', $user->getId());
         $this->dispatch('backend/admin/auth/resetpassword');
 
-        $this->assertEquals('adminhtml', $this->getRequest()->getRouteName());
+        $this->assertEquals('Adminhtml', $this->getRequest()->getRouteName());
         $this->assertEquals('auth', $this->getRequest()->getControllerName());
         $this->assertEquals('resetpassword', $this->getRequest()->getActionName());
         $this->assertTrue((bool)strpos($this->getResponse()->getBody(), $resetPasswordToken));

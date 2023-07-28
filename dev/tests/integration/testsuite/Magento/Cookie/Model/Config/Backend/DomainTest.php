@@ -12,7 +12,7 @@ use PHPUnit\Framework\TestCase;
 /**
  * Test \Magento\Cookie\Model\Config\Backend\Domain
  *
- * @magentoAppArea adminhtml
+ * @magentoAppArea Adminhtml
  */
 class DomainTest extends TestCase
 {

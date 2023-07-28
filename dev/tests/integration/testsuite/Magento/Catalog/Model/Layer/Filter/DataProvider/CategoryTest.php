@@ -19,7 +19,7 @@ use PHPUnit\Framework\TestCase;
  *
  * @see \Magento\Catalog\Model\Layer\Filter\DataProvider\Category
  *
- * @magentoAppArea adminhtml
+ * @magentoAppArea Adminhtml
  */
 class CategoryTest extends TestCase
 {

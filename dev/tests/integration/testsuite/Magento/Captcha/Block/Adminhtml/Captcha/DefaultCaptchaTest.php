@@ -24,7 +24,7 @@ class DefaultCaptchaTest extends \PHPUnit\Framework\TestCase
     /**
      * @magentoDbIsolation enabled
      * @magentoAppIsolation enabled
-     * @magentoAppArea adminhtml
+     * @magentoAppArea Adminhtml
      */
     public function testGetRefreshUrl()
     {

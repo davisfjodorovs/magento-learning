@@ -21,7 +21,7 @@ use Magento\TestFramework\Helper\Bootstrap as BootstrapHelper;
 /**
  * Integration test for \Magento\CatalogImportExport\Model\Import\Product class.
  *
- * @magentoAppArea adminhtml
+ * @magentoAppArea Adminhtml
  * @magentoDataFixtureBeforeTransaction Magento/Catalog/_files/enable_reindex_schedule.php
  * @magentoDataFixtureBeforeTransaction Magento/Catalog/_files/enable_catalog_product_reindex_schedule.php
  */
@@ -62,7 +62,7 @@ class ProductValidationTest extends ProductTestBase
      * @param array $row
      * @param string|null $behavior
      * @param bool $expectedResult
-     * @magentoAppArea adminhtml
+     * @magentoAppArea Adminhtml
      * @magentoDataFixture Magento/Catalog/Model/ResourceModel/_files/product_simple.php
      * @dataProvider validateRowDataProvider
      */
@@ -207,7 +207,7 @@ class ProductValidationTest extends ProductTestBase
      * @param bool $expectedResultUpsell
      *
      * @magentoDataFixture Magento/CatalogImportExport/_files/product_export_with_product_links_data.php
-     * @magentoAppArea adminhtml
+     * @magentoAppArea Adminhtml
      * @magentoAppIsolation enabled
      * @dataProvider getEmptyLinkedData
      */

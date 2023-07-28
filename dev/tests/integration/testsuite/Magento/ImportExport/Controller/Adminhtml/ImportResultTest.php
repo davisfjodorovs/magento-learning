@@ -16,7 +16,7 @@ use Magento\ImportExport\Controller\Adminhtml\Import\HttpFactoryMock;
 /**
  * Test for \Magento\ImportExport\Controller\Adminhtml\ImportResult class.
  *
- * @magentoAppArea adminhtml
+ * @magentoAppArea Adminhtml
  */
 class ImportResultTest extends \Magento\TestFramework\TestCase\AbstractBackendController
 {

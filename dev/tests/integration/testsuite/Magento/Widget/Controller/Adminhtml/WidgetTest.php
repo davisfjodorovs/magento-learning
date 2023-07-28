@@ -6,7 +6,7 @@
 namespace Magento\Widget\Controller\Adminhtml;
 
 /**
- * @magentoAppArea adminhtml
+ * @magentoAppArea Adminhtml
  */
 class WidgetTest extends \Magento\TestFramework\TestCase\AbstractBackendController
 {

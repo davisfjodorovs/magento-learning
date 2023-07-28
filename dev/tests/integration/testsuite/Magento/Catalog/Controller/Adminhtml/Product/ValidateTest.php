@@ -13,7 +13,7 @@ use Magento\Framework\App\Request\Http as HttpRequest;
 use Magento\Catalog\Model\Product\Type;
 
 /**
- * @magentoAppArea adminhtml
+ * @magentoAppArea Adminhtml
  */
 class ValidateTest extends AbstractBackendController
 {

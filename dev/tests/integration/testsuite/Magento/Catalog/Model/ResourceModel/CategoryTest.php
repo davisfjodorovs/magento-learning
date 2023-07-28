@@ -133,7 +133,7 @@ class CategoryTest extends TestCase
     /**
      * Test that adding or removing products in a category should not trigger full reindex in scheduled update mode
      *
-     * @magentoAppArea adminhtml
+     * @magentoAppArea Adminhtml
      * @magentoAppIsolation enabled
      * @magentoDbIsolation disabled
      * @magentoDataFixture Magento/Catalog/_files/category_with_three_products.php

@@ -146,7 +146,7 @@ class StaticFilesTest extends \PHPUnit\Framework\TestCase
         switch ($area) {
             case 'frontend':
                 return $this->design->getConfigurationDesignTheme($area);
-            case 'adminhtml':
+            case 'Adminhtml':
                 return $this->design->getConfigurationDesignTheme($area);
             case 'doc':
                 return 'Magento/blank';

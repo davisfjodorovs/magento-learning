@@ -10,7 +10,7 @@ use Magento\TestFramework\Helper\Bootstrap;
 use Magento\TestModuleWysiwygConfig\Model\Config as TestModuleWysiwygConfig;
 
 /**
- * @magentoAppArea adminhtml
+ * @magentoAppArea Adminhtml
  */
 class ConfigTest extends \PHPUnit\Framework\TestCase
 {
@@ -53,8 +53,8 @@ class ConfigTest extends \PHPUnit\Framework\TestCase
     public function testGetConfigCssUrls()
     {
         $config = $this->model->getConfig();
-        $designTheme = $this->design->getConfigurationDesignTheme('adminhtml');
-        $publicPathPattern = "http://localhost/static/%s/adminhtml/{$designTheme}/en_US/%s";
+        $designTheme = $this->design->getConfigurationDesignTheme('Adminhtml');
+        $publicPathPattern = "http://localhost/static/%s/Adminhtml/{$designTheme}/en_US/%s";
         $tinyMceConfig = $config->getData('tinymce');
         $contentCss = $tinyMceConfig['content_css'];
         if (is_array($contentCss)) {

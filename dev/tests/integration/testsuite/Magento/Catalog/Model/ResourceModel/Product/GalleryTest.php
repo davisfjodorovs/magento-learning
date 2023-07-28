@@ -16,7 +16,7 @@ use Magento\Framework\App\ResourceConnection;
 /**
  * Test for \Magento\Catalog\Model\ResourceModel\Product\Gallery.
  *
- * @magentoAppArea adminhtml
+ * @magentoAppArea Adminhtml
  */
 class GalleryTest extends TestCase
 {

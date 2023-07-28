@@ -20,7 +20,7 @@ use PHPUnit\Framework\Constraint\StringContains;
  * @see \Magento\Sales\Controller\Adminhtml\Order\Invoice\Save
  *
  * @magentoDbIsolation enabled
- * @magentoAppArea adminhtml
+ * @magentoAppArea Adminhtml
  */
 class SaveTest extends AbstractInvoiceControllerTest
 {

@@ -17,7 +17,7 @@ use Magento\Store\Model\StoreManagerInterface;
  *
  * @magentoAppIsolation enabled
  * @magentoDbIsolation disabled
- * @magentoAppArea adminhtml
+ * @magentoAppArea Adminhtml
  * @magentoDataFixtureBeforeTransaction Magento/Catalog/_files/enable_reindex_schedule.php
  * @magentoDataFixtureBeforeTransaction Magento/Catalog/_files/enable_catalog_product_reindex_schedule.php
  * @SuppressWarnings(PHPMD.CouplingBetweenObjects)

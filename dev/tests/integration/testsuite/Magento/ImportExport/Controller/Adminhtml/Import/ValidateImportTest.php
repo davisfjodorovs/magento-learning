@@ -12,7 +12,7 @@ use Magento\ImportExport\Model\Import;
 use Magento\ImportExport\Model\Import\ErrorProcessing\ProcessingErrorAggregatorInterface;
 
 /**
- * @magentoAppArea adminhtml
+ * @magentoAppArea Adminhtml
  */
 class ValidateImportTest extends \Magento\TestFramework\TestCase\AbstractBackendController
 {

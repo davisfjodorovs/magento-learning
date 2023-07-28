@@ -27,7 +27,7 @@ use Magento\User\Model\User as UserModel;
 use PHPUnit\Framework\TestCase;
 
 /**
- * @magentoAppArea adminhtml
+ * @magentoAppArea Adminhtml
  * @SuppressWarnings(PHPMD.CouplingBetweenObjects)
  */
 class UserTest extends TestCase

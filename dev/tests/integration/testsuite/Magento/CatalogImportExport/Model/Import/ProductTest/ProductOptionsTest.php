@@ -24,7 +24,7 @@ use Magento\TestFramework\Fixture\DataFixture;
 /**
  * Integration test for \Magento\CatalogImportExport\Model\Import\Product class.
  *
- * @magentoAppArea adminhtml
+ * @magentoAppArea Adminhtml
  * @magentoDbIsolation disabled
  * @magentoDataFixtureBeforeTransaction Magento/Catalog/_files/enable_reindex_schedule.php
  * @magentoDataFixtureBeforeTransaction Magento/Catalog/_files/enable_catalog_product_reindex_schedule.php

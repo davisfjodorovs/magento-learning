@@ -8,7 +8,7 @@ namespace Magento\User\Controller\Adminhtml\Locks;
 /**
  * Testing unlock controller.
  *
- * @magentoAppArea adminhtml
+ * @magentoAppArea Adminhtml
  */
 class MassUnlockTest extends \Magento\TestFramework\TestCase\AbstractBackendController
 {

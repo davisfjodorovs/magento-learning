@@ -20,7 +20,7 @@ use Magento\Catalog\Model\ResourceModel\Category\CollectionFactory;
 /**
  * Test cases for save category controller.
  *
- * @magentoAppArea adminhtml
+ * @magentoAppArea Adminhtml
  * @magentoDbIsolation enabled
  */
 class SaveCategoryTest extends AbstractSaveCategoryTest

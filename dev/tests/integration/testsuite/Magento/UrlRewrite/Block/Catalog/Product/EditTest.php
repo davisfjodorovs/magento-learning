@@ -21,7 +21,7 @@ use Magento\UrlRewrite\Model\UrlRewrite;
 use PHPUnit\Framework\TestCase;
 
 /**
- * @magentoAppArea adminhtml
+ * @magentoAppArea Adminhtml
  * @SuppressWarnings(PHPMD.CouplingBetweenObjects)
  */
 class EditTest extends TestCase

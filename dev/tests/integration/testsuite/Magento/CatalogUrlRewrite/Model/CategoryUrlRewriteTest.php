@@ -315,7 +315,7 @@ class CategoryUrlRewriteTest extends TestCase
     /**
      * @magentoConfigFixture default/catalog/seo/generate_category_product_rewrites 1
      * @magentoDataFixture Magento/Catalog/_files/category.php
-     * @magentoAppArea adminhtml
+     * @magentoAppArea Adminhtml
      * @return void
      */
     public function testUrlRewritesAfterCategoryDelete(): void
@@ -331,7 +331,7 @@ class CategoryUrlRewriteTest extends TestCase
 
     /**
      * @magentoConfigFixture default/catalog/seo/generate_category_product_rewrites 1
-     * @magentoAppArea adminhtml
+     * @magentoAppArea Adminhtml
      * @magentoDataFixture Magento/CatalogUrlRewrite/_files/categories_with_product_ids.php
      * @return void
      */

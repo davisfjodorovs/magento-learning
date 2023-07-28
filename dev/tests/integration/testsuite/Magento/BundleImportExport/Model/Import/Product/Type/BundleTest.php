@@ -23,7 +23,7 @@ use Magento\TestFramework\Helper\Bootstrap;
 use Magento\Framework\App\Filesystem\DirectoryList;
 
 /**
- * @magentoAppArea adminhtml
+ * @magentoAppArea Adminhtml
  * @magentoAppIsolation enabled
  * @SuppressWarnings(PHPMD.CouplingBetweenObjects)
  */
@@ -75,7 +75,7 @@ class BundleTest extends \Magento\TestFramework\Indexer\TestCase
     }
 
     /**
-     * @magentoAppArea adminhtml
+     * @magentoAppArea Adminhtml
      * @magentoDbIsolation enabled
      * @magentoAppIsolation enabled
      */
@@ -132,7 +132,7 @@ class BundleTest extends \Magento\TestFramework\Indexer\TestCase
      *
      * @dataProvider valuesDataProvider
      *
-     * @magentoAppArea adminhtml
+     * @magentoAppArea Adminhtml
      * @magentoDbIsolation enabled
      * @magentoAppIsolation enabled
      * @param array $expectedValues
@@ -182,7 +182,7 @@ class BundleTest extends \Magento\TestFramework\Indexer\TestCase
      * Test that Bundle options with question mark are updated correctly by import
      *
      *
-     * @magentoAppArea adminhtml
+     * @magentoAppArea Adminhtml
      * @magentoDbIsolation enabled
      * @magentoAppIsolation enabled
      * @return void
@@ -219,7 +219,7 @@ class BundleTest extends \Magento\TestFramework\Indexer\TestCase
     /**
      * @magentoDataFixture Magento/Store/_files/second_store.php
      * @magentoDbIsolation disabled
-     * @magentoAppArea adminhtml
+     * @magentoAppArea Adminhtml
      * @return void
      */
     public function testBundleImportWithMultipleStoreViews(): void

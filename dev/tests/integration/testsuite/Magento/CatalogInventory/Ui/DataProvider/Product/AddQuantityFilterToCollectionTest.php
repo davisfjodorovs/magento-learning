@@ -18,7 +18,7 @@ use PHPUnit\Framework\TestCase;
 /**
  * Checks that the product quantity filter is working correctly
  *
- * @magentoAppArea adminhtml
+ * @magentoAppArea Adminhtml
  */
 class AddQuantityFilterToCollectionTest extends TestCase
 {

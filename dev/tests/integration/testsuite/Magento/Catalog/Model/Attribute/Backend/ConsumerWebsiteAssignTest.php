@@ -28,7 +28,7 @@ use PHPUnit\Framework\TestCase;
  * @see \Magento\Catalog\Model\Attribute\Backend\ConsumerWebsiteAssign
  *
  * @magentoDbIsolation disabled
- * @magentoAppArea adminhtml
+ * @magentoAppArea Adminhtml
  * @SuppressWarnings(PHPMD.CouplingBetweenObjects)
  */
 class ConsumerWebsiteAssignTest extends TestCase

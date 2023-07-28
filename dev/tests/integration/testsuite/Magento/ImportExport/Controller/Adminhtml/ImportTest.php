@@ -8,7 +8,7 @@ namespace Magento\ImportExport\Controller\Adminhtml;
 use Magento\Framework\Filesystem\DirectoryList;
 
 /**
- * @magentoAppArea adminhtml
+ * @magentoAppArea Adminhtml
  */
 class ImportTest extends \Magento\TestFramework\TestCase\AbstractBackendController
 {

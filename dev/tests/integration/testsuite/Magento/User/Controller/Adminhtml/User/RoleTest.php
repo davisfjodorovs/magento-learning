@@ -8,7 +8,7 @@ namespace Magento\User\Controller\Adminhtml\User;
 /**
  * Test class for \Magento\User\Controller\Adminhtml\User\Role.
  *
- * @magentoAppArea adminhtml
+ * @magentoAppArea Adminhtml
  */
 class RoleTest extends \Magento\TestFramework\TestCase\AbstractBackendController
 {

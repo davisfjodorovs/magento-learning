@@ -18,7 +18,7 @@ use Magento\Framework\Stdlib\DateTime;
 /**
  * Verify chart data by different period.
  *
- * @magentoAppArea adminhtml
+ * @magentoAppArea Adminhtml
  */
 class ChartTest extends TestCase
 {

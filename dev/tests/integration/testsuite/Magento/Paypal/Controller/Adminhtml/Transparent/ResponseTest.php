@@ -20,7 +20,7 @@ use Magento\TestFramework\TestCase\AbstractController;
 /**
  * Tests PayPal transparent response controller.
  *
- * @magentoAppArea adminhtml
+ * @magentoAppArea Adminhtml
  */
 class ResponseTest extends AbstractController
 {

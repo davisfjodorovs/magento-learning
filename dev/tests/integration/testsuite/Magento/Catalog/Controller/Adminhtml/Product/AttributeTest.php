@@ -9,7 +9,7 @@ use Magento\Framework\Exception\LocalizedException;
 use Magento\Framework\App\Request\Http as HttpRequest;
 
 /**
- * @magentoAppArea adminhtml
+ * @magentoAppArea Adminhtml
  * @magentoDbIsolation enabled
  *
  * @SuppressWarnings(PHPMD.CouplingBetweenObjects)

@@ -9,7 +9,7 @@ use Magento\TestFramework\Helper\Xpath;
 use Magento\TestFramework\TestCase\AbstractBackendController;
 
 /**
- * @magentoAppArea adminhtml
+ * @magentoAppArea Adminhtml
  */
 class ExportTest extends AbstractBackendController
 {

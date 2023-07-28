@@ -47,7 +47,7 @@ class CategoryTest extends TestCase
 
     /**
      * @magentoDataFixture Magento/Catalog/_files/indexer_catalog_category.php
-     * @magentoAppArea adminhtml
+     * @magentoAppArea Adminhtml
      */
     public function testIndexerInvalidatedAfterCategoryDelete()
     {

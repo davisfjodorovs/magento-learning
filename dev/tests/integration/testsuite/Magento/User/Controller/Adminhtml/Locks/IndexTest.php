@@ -9,7 +9,7 @@ namespace Magento\User\Controller\Adminhtml\Locks;
 /**
  * Locked users page test.
  *
- * @magentoAppArea adminhtml
+ * @magentoAppArea Adminhtml
  */
 class IndexTest extends \Magento\TestFramework\TestCase\AbstractBackendController
 {

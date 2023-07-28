@@ -15,7 +15,7 @@ use Magento\TestFramework\TestCase\AbstractBackendController;
  * Tests for catalog category grid controller
  *
  * @see \Magento\Catalog\Controller\Adminhtml\Category\Grid
- * @magentoAppArea adminhtml
+ * @magentoAppArea Adminhtml
  */
 class GridTest extends AbstractBackendController
 {

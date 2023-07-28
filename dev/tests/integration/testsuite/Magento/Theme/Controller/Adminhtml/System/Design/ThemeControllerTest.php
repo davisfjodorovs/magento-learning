@@ -9,7 +9,7 @@ use Magento\Framework\Filesystem;
 use Magento\Framework\Filesystem\DirectoryList;
 
 /**
- * @magentoAppArea adminhtml
+ * @magentoAppArea Adminhtml
  */
 class ThemeControllerTest extends \Magento\TestFramework\TestCase\AbstractBackendController
 {

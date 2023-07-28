@@ -20,7 +20,7 @@ use Magento\RemoteStorage\Model\Filesystem\Directory\WriteFactory;
 /**
  * Test for \Magento\Cms\Controller\Adminhtml\Wysiwyg\Images\DeleteFiles class.
  *
- * @magentoAppArea adminhtml
+ * @magentoAppArea Adminhtml
  *
  * @SuppressWarnings(PHPMD.CouplingBetweenObjects)
  */

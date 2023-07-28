@@ -33,7 +33,7 @@ use PHPUnit\Framework\TestCase;
  *
  * @see \Magento\CatalogImportExport\Model\Import\Product
  *
- * @magentoAppArea adminhtml
+ * @magentoAppArea Adminhtml
  * @SuppressWarnings(PHPMD.CouplingBetweenObjects)
  */
 class ImportWithNotExistImagesTest extends TestCase

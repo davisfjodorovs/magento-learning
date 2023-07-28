@@ -10,7 +10,7 @@ use Magento\Catalog\Model\Product;
 use Magento\TestFramework\Helper\CacheCleaner;
 
 /**
- * @magentoAppArea adminhtml
+ * @magentoAppArea Adminhtml
  * @magentoDataFixture Magento/Catalog/_files/categories.php
  * @magentoDbIsolation enabled
  * @magentoAppIsolation enabled

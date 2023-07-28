@@ -82,7 +82,7 @@ class CreateCustomOptionsTest extends TestCase
      *
      * @magentoDataFixture Magento/Catalog/_files/product_with_options.php
      * @magentoDataFixture Magento/Store/_files/core_second_third_fixturestore.php
-     * @magentoAppArea adminhtml
+     * @magentoAppArea Adminhtml
      * @magentoAppIsolation disabled
      * @magentoDbIsolation disabled
      * @magentoConfigFixture default_store catalog/price/scope 1

@@ -19,7 +19,7 @@ use PHPUnit\Framework\TestCase;
  *
  * @see \Magento\CatalogInventory\Model\System\Config\Backend\Qtyincrements
  *
- * @magentoAppArea adminhtml
+ * @magentoAppArea Adminhtml
  */
 class QtyincrementsTest extends TestCase
 {

@@ -14,7 +14,7 @@ use Magento\TestFramework\TestCase\AbstractBackendController;
 /**
  * Test for \Magento\Integration\Controller\Adminhtml\Integration\TokensExchange.
  *
- * @magentoAppArea adminhtml
+ * @magentoAppArea Adminhtml
  */
 class TokensExchangeTest extends AbstractBackendController
 {

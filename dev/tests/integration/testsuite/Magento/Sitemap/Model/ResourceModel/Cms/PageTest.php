@@ -33,7 +33,7 @@ class PageTest extends TestCase
     /**
      * Test ExampleViewModel::getCollection() will exclude home and no-route cms pages for site map.
      *
-     * @magentoAppArea adminhtml
+     * @magentoAppArea Adminhtml
      * @magentoDataFixture Magento/Cms/_files/pages.php
      * @return void
      */

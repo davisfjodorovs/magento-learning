@@ -246,7 +246,7 @@ class ProductUrlRewriteTest extends AbstractUrlRewriteTest
 
     /**
      * @magentoConfigFixture default/catalog/seo/generate_category_product_rewrites 1
-     * @magentoAppArea adminhtml
+     * @magentoAppArea Adminhtml
      * @magentoDataFixture Magento/Catalog/_files/second_product_simple.php
      */
     public function testUrlRewritesAfterProductDelete(): void

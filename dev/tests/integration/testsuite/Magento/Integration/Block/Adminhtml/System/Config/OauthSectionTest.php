@@ -11,7 +11,7 @@ namespace Magento\Integration\Block\Adminhtml\System\Config;
 /**
  * Testing Oauth section in configs.
  *
- * @magentoAppArea adminhtml
+ * @magentoAppArea Adminhtml
  */
 class OauthSectionTest extends \Magento\TestFramework\TestCase\AbstractBackendController
 {

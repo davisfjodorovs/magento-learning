@@ -6,7 +6,7 @@
 namespace Magento\Widget\Model\Widget;
 
 /**
- * @magentoAppArea adminhtml
+ * @magentoAppArea Adminhtml
  */
 class ConfigTest extends \PHPUnit\Framework\TestCase
 {

@@ -12,7 +12,7 @@ namespace Magento\Catalog\Controller\Adminhtml\Product;
  *
  * @see \Magento\Catalog\Controller\Adminhtml\Product\AlertsPriceGrid
  *
- * @magentoAppArea adminhtml
+ * @magentoAppArea Adminhtml
  * @magentoDbIsolation disabled
  */
 class AlertsPriceGridTest extends AbstractAlertTest

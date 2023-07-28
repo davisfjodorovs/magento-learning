@@ -14,7 +14,7 @@ use Magento\Framework\Filesystem\Driver\File;
 /**
  * Test for \Magento\Cms\Controller\Adminhtml\Wysiwyg\Images\DeleteFolder class.
  *
- * @magentoAppArea adminhtml
+ * @magentoAppArea Adminhtml
  */
 class DeleteFolderTest extends \PHPUnit\Framework\TestCase
 {

@@ -22,7 +22,7 @@ use Magento\TestFramework\TestCase\AbstractBackendController;
  *
  * @see \Magento\ImportExport\Controller\Adminhtml\Export\Export
  *
- * @magentoAppArea adminhtml
+ * @magentoAppArea Adminhtml
  * @magentoDbIsolation enabled
  */
 class ExportTest extends AbstractBackendController

@@ -12,7 +12,7 @@ use Magento\TestFramework\TestCase\AbstractBackendController;
 /**
  * Test for \Magento\Reports\Block\Adminhtml\Config\Form\Field\YtdStart.
  *
- * @magentoAppArea adminhtml
+ * @magentoAppArea Adminhtml
  */
 class YtdStartTest extends AbstractBackendController
 {

@@ -14,7 +14,7 @@ use Magento\TestFramework\Helper\Bootstrap;
 use Magento\Eav\Model\ResourceModel\UpdateHandler;
 
 /**
- * @magentoAppArea adminhtml
+ * @magentoAppArea Adminhtml
  * @magentoAppIsolation enabled
  */
 class ExecuteProcessForCustomAttributeInCustomStoreTest extends UpdateHandlerAbstract

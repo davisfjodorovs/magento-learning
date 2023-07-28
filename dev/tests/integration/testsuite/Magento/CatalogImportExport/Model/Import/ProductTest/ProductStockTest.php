@@ -17,7 +17,7 @@ use Magento\Framework\App\Filesystem\DirectoryList;
  * Integration test for \Magento\CatalogImportExport\Model\Import\Product class.
  *
  * @magentoDbIsolation enabled
- * @magentoAppArea adminhtml
+ * @magentoAppArea Adminhtml
  * @magentoDataFixtureBeforeTransaction Magento/Catalog/_files/enable_reindex_schedule.php
  * @magentoDataFixtureBeforeTransaction Magento/Catalog/_files/enable_catalog_product_reindex_schedule.php
  */

@@ -272,7 +272,7 @@ class WishlistTest extends TestCase
     /**
      * Test that admin user should be able to update wishlist on second website
      *
-     * @magentoAppArea adminhtml
+     * @magentoAppArea Adminhtml
      * @magentoDbIsolation disabled
      * @magentoDataFixture Magento/Wishlist/_files/wishlist_on_second_website.php
      *

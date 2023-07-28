@@ -21,7 +21,7 @@ use Magento\Catalog\Api\Data\ProductInterface;
  * Checks grid data on the tab 'Products in Category' category view page.
  *
  * @see \Magento\Catalog\Block\Adminhtml\Category\Tab\Product
- * @magentoAppArea adminhtml
+ * @magentoAppArea Adminhtml
  * @magentoDbIsolation enabled
  * @magentoAppIsolation enabled
  */

@@ -12,7 +12,7 @@ namespace Magento\Catalog\Controller\Adminhtml\Product;
  *
  * @see \Magento\Catalog\Controller\Adminhtml\Product\AlertsStockGrid
  *
- * @magentoAppArea adminhtml
+ * @magentoAppArea Adminhtml
  * @magentoDbIsolation disabled
  */
 class AlertsStockGridTest extends AbstractAlertTest

@@ -7,7 +7,7 @@ namespace Magento\UrlRewrite\Block;
 
 /**
  * Test for \Magento\UrlRewrite\Block\Selector
- * @magentoAppArea adminhtml
+ * @magentoAppArea Adminhtml
  */
 class SelectorTest extends \PHPUnit\Framework\TestCase
 {

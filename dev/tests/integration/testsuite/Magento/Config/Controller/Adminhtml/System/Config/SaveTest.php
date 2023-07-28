@@ -18,7 +18,7 @@ use Magento\TestFramework\TestCase\AbstractBackendController;
  * Checks saving and updating of configuration data
  *
  * @see \Magento\Config\Controller\Adminhtml\System\Config\Save
- * @magentoAppArea adminhtml
+ * @magentoAppArea Adminhtml
  */
 class SaveTest extends AbstractBackendController
 {

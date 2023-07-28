@@ -118,7 +118,7 @@ class RendererTest extends TestCase
      *
      * @magentoDataFixture Magento/Store/_files/second_website_with_store_group_and_store.php
      * @magentoDataFixture Magento/Sales/_files/order_on_second_website.php
-     * @magentoAppArea adminhtml
+     * @magentoAppArea Adminhtml
      * @magentoDbIsolation disabled
      * @magentoAppIsolation enabled
      */

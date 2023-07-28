@@ -29,7 +29,7 @@ use Magento\Catalog\Model\CategoryFactory as CategoryModelFactory;
 /**
  * Test for admin category functionality.
  *
- * @magentoAppArea adminhtml
+ * @magentoAppArea Adminhtml
  * @SuppressWarnings(PHPMD.CouplingBetweenObjects)
  */
 class CategoryTest extends AbstractBackendController

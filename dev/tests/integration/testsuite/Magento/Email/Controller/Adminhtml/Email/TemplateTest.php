@@ -6,7 +6,7 @@
 namespace Magento\Email\Controller\Adminhtml\Email;
 
 /**
- * @magentoAppArea adminhtml
+ * @magentoAppArea Adminhtml
  */
 class TemplateTest extends \Magento\TestFramework\TestCase\AbstractBackendController
 {

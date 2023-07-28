@@ -16,7 +16,7 @@ use Magento\Framework\Message\ManagerInterface;
 use Magento\Framework\App\Request\Http as HttpRequest;
 
 /**
- * @magentoAppArea adminhtml
+ * @magentoAppArea Adminhtml
  */
 class StoreTest extends \Magento\TestFramework\TestCase\AbstractBackendController
 {

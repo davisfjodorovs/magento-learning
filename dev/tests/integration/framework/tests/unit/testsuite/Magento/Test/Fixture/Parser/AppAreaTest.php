@@ -12,7 +12,7 @@ use Magento\TestFramework\Fixture\ParserInterface;
 use PHPUnit\Framework\TestCase;
 
 #[
-    AppArea('adminhtml')
+    AppArea('Adminhtml')
 ]
 class AppAreaTest extends TestCase
 {
@@ -35,7 +35,7 @@ class AppAreaTest extends TestCase
     {
         $model = new \Magento\TestFramework\Fixture\Parser\AppArea();
         $this->assertEquals(
-            [['area' => 'adminhtml']],
+            [['area' => 'Adminhtml']],
             $model->parse($this, ParserInterface::SCOPE_CLASS)
         );
     }

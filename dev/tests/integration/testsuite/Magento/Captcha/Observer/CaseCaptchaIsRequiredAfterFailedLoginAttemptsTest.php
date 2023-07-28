@@ -10,7 +10,7 @@ use Magento\Framework\Message\MessageInterface;
 /**
  * Test captcha observer behavior.
  *
- * @magentoAppArea adminhtml
+ * @magentoAppArea Adminhtml
  */
 class CaseCaptchaIsRequiredAfterFailedLoginAttemptsTest extends \Magento\TestFramework\TestCase\AbstractController
 {

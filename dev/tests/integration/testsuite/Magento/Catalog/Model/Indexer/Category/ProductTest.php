@@ -72,7 +72,7 @@ class ProductTest extends TestCase
     }
 
     /**
-     * @magentoAppArea adminhtml
+     * @magentoAppArea Adminhtml
      */
     public function testReindexAll()
     {
@@ -110,7 +110,7 @@ class ProductTest extends TestCase
     }
 
     /**
-     * @magentoAppArea adminhtml
+     * @magentoAppArea Adminhtml
      */
     public function testCategoryMove()
     {
@@ -156,7 +156,7 @@ class ProductTest extends TestCase
     }
 
     /**
-     * @magentoAppArea adminhtml
+     * @magentoAppArea Adminhtml
      * @depends testReindexAll
      */
     public function testCategoryDelete()
@@ -188,7 +188,7 @@ class ProductTest extends TestCase
     /**
      * Verify that indexer still valid after deleting inactive category
      *
-     * @magentoAppArea adminhtml
+     * @magentoAppArea Adminhtml
      * @magentoDataFixture Magento/Catalog/_files/categories_disabled.php
      *
      * @return void
@@ -253,7 +253,7 @@ class ProductTest extends TestCase
     }
 
     /**
-     * @magentoAppArea adminhtml
+     * @magentoAppArea Adminhtml
      *
      * @magentoDataFixture Magento/Catalog/_files/category_tree.php
      *

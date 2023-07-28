@@ -7,7 +7,7 @@ namespace Magento\UrlRewrite\Block\Cms\Page;
 
 /**
  * Test for \Magento\UrlRewrite\Block\Cms\ExampleViewModel\Grid
- * @magentoAppArea adminhtml
+ * @magentoAppArea Adminhtml
  */
 class GridTest extends \PHPUnit\Framework\TestCase
 {
