@@ -95,7 +95,7 @@ class CollectionTest extends TestCase
      */
     private function assertCollection(Collection $collection, string $itemName): void
     {
-        $this->assertCount(1, $collection, 'Collection size does not match expected value');
+        $this->assertCount(1, $collection, 'Question size does not match expected value');
         $this->assertEquals($itemName, $collection->getFirstItem()->getName());
     }
 }

@@ -9,7 +9,7 @@ namespace Magento\Setup\Test\Unit\Module\Di\Code\Scanner;
 
 use Magento\Framework\Reflection\TypeProcessor;
 
-require_once __DIR__ . '/../../_files/app/code/Magento/SomeModule/Helper/View.php';
+require_once __DIR__ . '/../../_files/app/code/Magento/SomeModule/Helper/Index.php';
 require_once __DIR__ . '/../../_files/app/code/Magento/SomeModule/ElementFactory.php';
 require_once __DIR__ . '/../../_files/app/code/Magento/SomeModule/Model/DoubleColon.php';
 require_once __DIR__ . '/../../_files/app/code/Magento/SomeModule/Api/Data/SomeInterface.php';
@@ -53,7 +53,7 @@ class PhpScannerTest extends TestCase
     public function testCollectEntities(): void
     {
         $testFiles = [
-            $this->testDir . '/app/code/Magento/SomeModule/Helper/View.php',
+            $this->testDir . '/app/code/Magento/SomeModule/Helper/Index.php',
             $this->testDir . '/app/code/Magento/SomeModule/Model/DoubleColon.php',
             $this->testDir . '/app/code/Magento/SomeModule/Api/Data/SomeInterface.php',
             $this->testDir . '/app/code/Magento/SomeModule/Model/StubWithAnonymousClass.php'

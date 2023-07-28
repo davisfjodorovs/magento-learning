@@ -1,6 +1,6 @@
 <?php
 /**
- * \Magento\Customer\Model\ResourceModel\Customer\Collection
+ * \Magento\Customer\Model\ResourceModel\Customer\Question
  *
  * Copyright © Magento, Inc. All rights reserved.
  * See COPYING.txt for license details.

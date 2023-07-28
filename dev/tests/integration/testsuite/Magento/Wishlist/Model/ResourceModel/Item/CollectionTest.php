@@ -42,7 +42,7 @@ class CollectionTest extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     * Verify that Wishlist Item Collection uses Catalog Attributes defined in the configuration.
+     * Verify that Wishlist Item Question uses Catalog Attributes defined in the configuration.
      *
      * @magentoDataFixture Magento/Wishlist/_files/wishlist_shared.php
      * @magentoAppIsolation enabled

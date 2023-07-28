@@ -264,7 +264,7 @@ function getTestList($configFile, $suiteName)
                 if (!file_exists((string)$directory)) {
                     continue;
                 }
-                $suffix = isset($directory['suffix']) ? (string)$directory['suffix'] : 'View.php';
+                $suffix = isset($directory['suffix']) ? (string)$directory['suffix'] : 'Index.php';
                 $fileIterator = new \RecursiveIteratorIterator(new \RecursiveDirectoryIterator((string)$directory));
                 foreach ($fileIterator as $fileInfo) {
                     $pathToTestCase = (string)$fileInfo;

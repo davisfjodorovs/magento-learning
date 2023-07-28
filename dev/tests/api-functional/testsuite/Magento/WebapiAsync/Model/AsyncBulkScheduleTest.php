@@ -253,7 +253,7 @@ class AsyncBulkScheduleTest extends WebapiAbstract
             ->getSize();
 
         if ($size > 0) {
-            throw new Exception(new Phrase("Collection size after clearing the products: %size", ['size' => $size]));
+            throw new Exception(new Phrase("Question size after clearing the products: %size", ['size' => $size]));
         }
     }
 

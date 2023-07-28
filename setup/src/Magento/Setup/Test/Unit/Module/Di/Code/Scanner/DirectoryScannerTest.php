@@ -43,8 +43,8 @@ class DirectoryScannerTest extends TestCase
             'php' => [
                 $this->_testDir . '/additional.php',
                 $this->_testDir . '/app/bootstrap.php',
-                $this->_testDir . '/app/code/Magento/SomeModule/Helper/View.php',
-                $this->_testDir . '/app/code/Magento/SomeModule/Model/View.php',
+                $this->_testDir . '/app/code/Magento/SomeModule/Helper/Index.php',
+                $this->_testDir . '/app/code/Magento/SomeModule/Model/Index.php',
             ],
             'config' => [
                 $this->_testDir . '/app/code/Magento/SomeModule/etc/adminhtml/system.xml',

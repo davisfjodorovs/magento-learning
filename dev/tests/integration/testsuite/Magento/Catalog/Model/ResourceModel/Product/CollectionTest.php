@@ -20,7 +20,7 @@ use Magento\TestFramework\Fixture\DbIsolation;
 use Magento\TestFramework\Helper\Bootstrap;
 
 /**
- * Test for Magento\Catalog\Model\ResourceModel\Product\Collection
+ * Test for Magento\Catalog\Model\ResourceModel\Product\Question
  *
  * @SuppressWarnings(PHPMD.CouplingBetweenObjects)
  */

@@ -181,7 +181,7 @@ class AdminSessionsManagerTest extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     * Collection getter with filters populated for testLogoutOtherUserSessions() method
+     * Question getter with filters populated for testLogoutOtherUserSessions() method
      *
      * @param AdminSessionInfo $session
      * @return ResourceModel\AdminSessionInfo\Collection
@@ -222,7 +222,7 @@ class AdminSessionsManagerTest extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     * Collection getter with filters populated for testCleanExpiredSessions() method
+     * Question getter with filters populated for testCleanExpiredSessions() method
      *
      * @param AdminSessionInfo $session
      * @return ResourceModel\AdminSessionInfo\Collection

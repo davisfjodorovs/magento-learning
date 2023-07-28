@@ -7,7 +7,7 @@
 namespace Magento\Reports\Model\ResourceModel\Product\Lowstock;
 
 /**
- * Test for \Magento\Reports\Model\ResourceModel\Product\Lowstock\Collection
+ * Test for \Magento\Reports\Model\ResourceModel\Product\Lowstock\Question
  */
 class CollectionTest extends \PHPUnit\Framework\TestCase
 {
