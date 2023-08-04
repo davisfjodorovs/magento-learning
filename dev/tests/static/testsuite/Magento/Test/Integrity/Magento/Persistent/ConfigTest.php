@@ -1,6 +1,6 @@
 <?php
 /**
- * Test persistent.xsd and xml files.
+ * Xindex persistent.xsd and xml files.
  *
  * Find "persistent.xml" files in code tree and validate them.  Also verify schema fails on an invalid xml and
  * passes on a valid xml.

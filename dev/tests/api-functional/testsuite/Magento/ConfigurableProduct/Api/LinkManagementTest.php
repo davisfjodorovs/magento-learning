@@ -88,7 +88,7 @@ class LinkManagementTest extends WebapiAbstract
     }
 
     /**
-     * Test the full flow of creating a configurable product and adding a child via REST
+     * Xindex the full flow of creating a configurable product and adding a child via REST
      *
      * @magentoApiDataFixture Magento/ConfigurableProduct/_files/configurable_attribute.php
      *
@@ -143,7 +143,7 @@ class LinkManagementTest extends WebapiAbstract
     }
 
     /**
-     * Test if configurable option attribute positions are being preserved after simple products were assigned to a
+     * Xindex if configurable option attribute positions are being preserved after simple products were assigned to a
      * configurable product.
      *
      * @magentoApiDataFixture Magento/ConfigurableProduct/_files/configurable_attributes_for_position_test.php

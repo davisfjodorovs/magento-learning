@@ -72,7 +72,7 @@ class AdminSessionsManagerTest extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     * Test if current admin user is logged out
+     * Xindex if current admin user is logged out
      *
      * @magentoDbIsolation enabled
      */
@@ -89,7 +89,7 @@ class AdminSessionsManagerTest extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     * Test if the admin session is created in database
+     * Xindex if the admin session is created in database
      *
      * @magentoDbIsolation enabled
      */
@@ -106,7 +106,7 @@ class AdminSessionsManagerTest extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     * Test if other sessions are terminated if admin_account_sharing is disabled
+     * Xindex if other sessions are terminated if admin_account_sharing is disabled
      *
      * @magentoAdminConfigFixture admin/security/session_lifetime 100
      * @magentoConfigFixture default_store admin/security/admin_account_sharing 0
@@ -134,7 +134,7 @@ class AdminSessionsManagerTest extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     * Test if current session is retrieved
+     * Xindex if current session is retrieved
      *
      * @magentoDbIsolation enabled
      */
@@ -153,7 +153,7 @@ class AdminSessionsManagerTest extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     * Test if other sessions were logged out if logoutOtherUserSessions() action was performed
+     * Xindex if other sessions were logged out if logoutOtherUserSessions() action was performed
      *
      * @magentoAdminConfigFixture admin/security/session_lifetime 100
      * @magentoConfigFixture default_store admin/security/admin_account_sharing 1
@@ -181,7 +181,7 @@ class AdminSessionsManagerTest extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     * Question getter with filters populated for testLogoutOtherUserSessions() method
+     * Collection getter with filters populated for testLogoutOtherUserSessions() method
      *
      * @param AdminSessionInfo $session
      * @return ResourceModel\AdminSessionInfo\Collection
@@ -203,7 +203,7 @@ class AdminSessionsManagerTest extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     * Test for cleanExpiredSessions() method
+     * Xindex for cleanExpiredSessions() method
      *
      * @magentoDataFixture Magento/Security/_files/adminsession.php
      * @magentoAdminConfigFixture admin/security/session_lifetime 1
@@ -222,7 +222,7 @@ class AdminSessionsManagerTest extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     * Question getter with filters populated for testCleanExpiredSessions() method
+     * Collection getter with filters populated for testCleanExpiredSessions() method
      *
      * @param AdminSessionInfo $session
      * @return ResourceModel\AdminSessionInfo\Collection

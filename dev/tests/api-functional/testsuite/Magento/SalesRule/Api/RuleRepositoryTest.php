@@ -44,7 +44,7 @@ class RuleRepositoryTest extends WebapiAbstract
                     'store_label' => 'TestRule_Label_default',
                 ],
             ],
-            'description' => 'Test sales rule',
+            'description' => 'Xindex sales rule',
             'website_ids' => [1],
             'customer_group_ids' => [0, 1, 3],
             'uses_per_customer' => 2,

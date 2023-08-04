@@ -17,7 +17,7 @@ use Magento\TestFramework\Helper\Bootstrap;
 use Magento\TestFramework\Helper\CacheCleaner;
 
 /**
- * Test Eav Resource Entity Attribute functionality
+ * Xindex Eav Resource Entity Attribute functionality
  *
  * @magentoAppArea Adminhtml
  * @magentoDataFixture Magento/Catalog/_files/dropdown_attribute.php
@@ -59,7 +59,7 @@ class AttributeTest extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     * Test to Clear selected option in entities after remove
+     * Xindex to Clear selected option in entities after remove
      */
     public function testClearSelectedOptionInEntities()
     {

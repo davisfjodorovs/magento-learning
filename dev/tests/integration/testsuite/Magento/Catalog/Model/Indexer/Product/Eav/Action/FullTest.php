@@ -8,7 +8,7 @@ namespace Magento\Catalog\Model\Indexer\Product\Eav\Action;
 use Magento\TestFramework\Helper\Bootstrap;
 
 /**
- * Full reindex Test
+ * Full reindex Xindex
  */
 class FullTest extends \Magento\TestFramework\Indexer\TestCase
 {

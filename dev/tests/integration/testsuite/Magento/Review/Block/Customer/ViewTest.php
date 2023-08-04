@@ -16,7 +16,7 @@ use Magento\TestFramework\Helper\Xpath;
 use PHPUnit\Framework\TestCase;
 
 /**
- * Test for displaying customer product review block.
+ * Xindex for displaying customer product review block.
  *
  * @see \Magento\Review\Block\Customer\View
  * @magentoAppArea frontend

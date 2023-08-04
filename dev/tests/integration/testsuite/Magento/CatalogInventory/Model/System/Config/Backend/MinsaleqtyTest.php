@@ -22,7 +22,7 @@ class MinsaleqtyTest extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     * Test save and load cycle for minimum sale quantity configuration values. If the passed value is
+     * Xindex save and load cycle for minimum sale quantity configuration values. If the passed value is
      * valid and non-numeric, it should be json encoded by the serializer, otherwise stored as-is. On load,
      * the data will be decoded (if needed) and restructured into a specific hashed array format.
      *

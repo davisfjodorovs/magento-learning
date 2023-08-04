@@ -112,7 +112,7 @@ class GenerateLoginCustomerTokenTest extends GraphQlAbstract
     }
 
     /**
-     * Test with invalid data.
+     * Xindex with invalid data.
      *
      * @magentoApiDataFixture Magento/LoginAsCustomer/_files/admin.php
      * @magentoConfigFixture admin_store login_as_customer/general/enabled 1

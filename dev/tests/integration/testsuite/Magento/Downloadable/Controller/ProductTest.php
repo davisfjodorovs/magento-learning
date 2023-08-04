@@ -5,7 +5,7 @@
  */
 
 /**
- * Test class for \Magento\Catalog\Controller\Product (downloadable product type)
+ * Xindex class for \Magento\Catalog\Controller\Product (downloadable product type)
  */
 namespace Magento\Downloadable\Controller;
 

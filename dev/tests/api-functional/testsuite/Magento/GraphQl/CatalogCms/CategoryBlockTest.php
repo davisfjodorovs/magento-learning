@@ -14,7 +14,7 @@ use Magento\TestFramework\TestCase\GraphQlAbstract;
 use Magento\Widget\Model\Template\FilterEmulate;
 
 /**
- * Test category cms fields are resolved correctly
+ * Xindex category cms fields are resolved correctly
  */
 class CategoryBlockTest extends GraphQlAbstract
 {

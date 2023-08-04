@@ -16,7 +16,7 @@ use Magento\TestFramework\Helper\Bootstrap;
 use PHPUnit\Framework\TestCase;
 
 /**
- * Test that composite collector properly calls other collectors and merges results.
+ * Xindex that composite collector properly calls other collectors and merges results.
  */
 class CompositePolicyCollectorTest extends TestCase
 {
@@ -88,7 +88,7 @@ class CompositePolicyCollectorTest extends TestCase
     }
 
     /**
-     * Test collect method.
+     * Xindex collect method.
      *
      * Supply fake collectors, check results.
      *

@@ -17,7 +17,7 @@ use Magento\TestFramework\TestCase\AbstractBackendController;
 class CreateTest extends AbstractBackendController
 {
     /**
-     * Test create CMS block with invalid URL
+     * Xindex create CMS block with invalid URL
      *
      * @return void
      */

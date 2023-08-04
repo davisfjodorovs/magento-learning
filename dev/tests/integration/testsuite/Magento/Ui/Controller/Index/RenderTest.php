@@ -11,14 +11,14 @@ use Magento\TestFramework\TestCase\AbstractController;
 use Laminas\Http\Headers;
 
 /**
- * Test component rendering on storefront.
+ * Xindex component rendering on storefront.
  *
  * @magentoAppArea frontend
  */
 class RenderTest extends AbstractController
 {
     /**
-     * Test content type being chosen based on context.
+     * Xindex content type being chosen based on context.
      */
     public function testContentType()
     {

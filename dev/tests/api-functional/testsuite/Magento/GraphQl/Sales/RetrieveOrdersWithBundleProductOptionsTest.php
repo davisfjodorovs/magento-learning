@@ -18,7 +18,7 @@ use Magento\TestFramework\Helper\Bootstrap;
 use Magento\TestFramework\TestCase\GraphQlAbstract;
 
 /**
- * Test for orders with bundle product.
+ * Xindex for orders with bundle product.
  */
 class RetrieveOrdersWithBundleProductOptionsTest extends GraphQlAbstract
 {
@@ -42,7 +42,7 @@ class RetrieveOrdersWithBundleProductOptionsTest extends GraphQlAbstract
     }
 
     /**
-     * Test customer order details for bundle product single child item
+     * Xindex customer order details for bundle product single child item
      *
      * @magentoApiDataFixture Magento/Customer/_files/customer.php
      * @magentoApiDataFixture Magento/Bundle/_files/bundle_product_single_dropdown_option.php

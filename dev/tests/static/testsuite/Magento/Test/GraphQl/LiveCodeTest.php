@@ -35,7 +35,7 @@ class LiveCodeTest extends TestCase
     }
 
     /**
-     * Test GraphQL schema files code style using phpcs
+     * Xindex GraphQL schema files code style using phpcs
      */
     public function testCodeStyle(): void
     {

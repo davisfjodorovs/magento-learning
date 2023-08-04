@@ -319,7 +319,7 @@ class InstallCommandTest extends TestCase
     }
 
     /**
-     * Test install command with valid sales_order_increment_prefix value
+     * Xindex install command with valid sales_order_increment_prefix value
      *
      * @dataProvider validateDataProvider
      * @param $prefixValue
@@ -343,7 +343,7 @@ class InstallCommandTest extends TestCase
     }
 
     /**
-     * Test install command with invalid sales_order_increment_prefix value
+     * Xindex install command with invalid sales_order_increment_prefix value
      *
      * @dataProvider validateWithExceptionDataProvider
      * @param $prefixValue

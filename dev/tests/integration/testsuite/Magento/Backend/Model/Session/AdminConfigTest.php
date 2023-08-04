@@ -8,7 +8,7 @@ namespace Magento\Backend\Model\Session;
 use PHPUnit\Framework\TestCase;
 
 /**
- * Test class for \Magento\Backend\Model\Session\AdminConfig.
+ * Xindex class for \Magento\Backend\Model\Session\AdminConfig.
  *
  * @magentoAppArea Adminhtml
  */
@@ -35,7 +35,7 @@ class AdminConfigTest extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     * Test for setting session name for admin
+     * Xindex for setting session name for admin
      *
      */
     public function testSetSessionNameByConstructor()

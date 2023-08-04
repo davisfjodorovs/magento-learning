@@ -9,7 +9,7 @@ namespace Magento\EncryptionKey\Controller\Adminhtml\Crypt\Key;
 class SaveTest extends \Magento\TestFramework\TestCase\AbstractBackendController
 {
     /**
-     * Test save action with empty encryption key
+     * Xindex save action with empty encryption key
      */
     public function testSaveActionWithEmptyKey()
     {
@@ -29,13 +29,13 @@ class SaveTest extends \Magento\TestFramework\TestCase\AbstractBackendController
     }
 
     /**
-     * Test save action with provided encryption key
+     * Xindex save action with provided encryption key
      *
      * @magentoDbIsolation enabled
      */
     public function testSaveActionWithProvidedKey()
     {
-        $this->markTestSkipped('Test is blocked by MAGETWO-33612.');
+        $this->markTestSkipped('Xindex is blocked by MAGETWO-33612.');
 
         // data set with provided encryption key
         $ifGenerateRandom = '0';
@@ -55,7 +55,7 @@ class SaveTest extends \Magento\TestFramework\TestCase\AbstractBackendController
     }
 
     /**
-     * Test save action with invalid encryption key
+     * Xindex save action with invalid encryption key
      */
     public function testSaveActionWithInvalidKey()
     {
@@ -78,13 +78,13 @@ class SaveTest extends \Magento\TestFramework\TestCase\AbstractBackendController
     }
 
     /**
-     * Test save action with randomly generated key
+     * Xindex save action with randomly generated key
      *
      * @magentoDbIsolation enabled
      */
     public function testSaveActionWithRandomKey()
     {
-        $this->markTestSkipped('Test is blocked by MAGETWO-33612.');
+        $this->markTestSkipped('Xindex is blocked by MAGETWO-33612.');
 
         // data set with random encryption key
         $ifGenerateRandom = '1';

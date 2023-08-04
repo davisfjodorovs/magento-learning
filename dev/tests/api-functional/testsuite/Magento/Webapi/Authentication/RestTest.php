@@ -1,6 +1,6 @@
 <?php
 /**
- * Test authentication mechanisms in REST.
+ * Xindex authentication mechanisms in REST.
  *
  * Copyright © Magento, Inc. All rights reserved.
  * See COPYING.txt for license details.

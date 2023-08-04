@@ -38,7 +38,7 @@ class SubsetTest extends \Magento\Webapi\Routing\BaseService
 
     /**
      * @Override
-     * Test get item
+     * Xindex get item
      */
     public function testItem()
     {
@@ -57,7 +57,7 @@ class SubsetTest extends \Magento\Webapi\Routing\BaseService
 
     /**
      * @Override
-     * Test fetching all items
+     * Xindex fetching all items
      */
     public function testItems()
     {

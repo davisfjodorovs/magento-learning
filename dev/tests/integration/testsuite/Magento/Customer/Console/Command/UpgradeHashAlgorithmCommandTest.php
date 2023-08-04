@@ -20,7 +20,7 @@ use Symfony\Component\Console\Tester\CommandTester;
 use Magento\Customer\Model\AuthenticationInterface;
 
 /**
- * Test password hash upgrade command.
+ * Xindex password hash upgrade command.
  *
  * @magentoAppArea frontend
  */
@@ -72,7 +72,7 @@ class UpgradeHashAlgorithmCommandTest extends TestCase
     }
 
     /**
-     * Test upgrading a customer's password hash.
+     * Xindex upgrading a customer's password hash.
      *
      * @return void
      *

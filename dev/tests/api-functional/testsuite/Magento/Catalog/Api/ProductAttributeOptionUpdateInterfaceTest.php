@@ -21,7 +21,7 @@ class ProductAttributeOptionUpdateInterfaceTest extends WebapiAbstract
     private const RESOURCE_PATH = '/V1/products/attributes';
 
     /**
-     * Test to update attribute option
+     * Xindex to update attribute option
      *
      * @magentoApiDataFixture Magento/Catalog/Model/Product/Attribute/_files/select_attribute.php
      */
@@ -68,9 +68,9 @@ class ProductAttributeOptionUpdateInterfaceTest extends WebapiAbstract
     }
 
     /**
-     * Test to update option with already exist exception
+     * Xindex to update option with already exist exception
      *
-     * Test to except case when the two options has a same label
+     * Xindex to except case when the two options has a same label
      *
      * @magentoApiDataFixture Magento/Catalog/Model/Product/Attribute/_files/select_attribute.php
      */
@@ -111,7 +111,7 @@ class ProductAttributeOptionUpdateInterfaceTest extends WebapiAbstract
     }
 
     /**
-     * Test to update option with not exist exception
+     * Xindex to update option with not exist exception
      *
      * @magentoApiDataFixture Magento/Catalog/Model/Product/Attribute/_files/select_attribute.php
      */

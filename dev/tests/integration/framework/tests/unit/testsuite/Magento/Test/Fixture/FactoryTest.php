@@ -17,7 +17,7 @@ use PHPUnit\Framework\MockObject\MockObject;
 use PHPUnit\Framework\TestCase;
 
 /**
- * Test data fixture type factory
+ * Xindex data fixture type factory
  */
 class FactoryTest extends TestCase
 {
@@ -39,7 +39,7 @@ class FactoryTest extends TestCase
     }
 
     /**
-     * Test that callable data fixture is created
+     * Xindex that callable data fixture is created
      */
     public function testShouldCreateCallableDataFixture(): void
     {
@@ -50,7 +50,7 @@ class FactoryTest extends TestCase
     }
 
     /**
-     * Test that legacy data fixture is created
+     * Xindex that legacy data fixture is created
      */
     public function testShouldCreateLegacyDataFixture(): void
     {
@@ -58,7 +58,7 @@ class FactoryTest extends TestCase
     }
 
     /**
-     * Test that class based data fixture is created
+     * Xindex that class based data fixture is created
      */
     public function testShouldCreateDataFixture(): void
     {

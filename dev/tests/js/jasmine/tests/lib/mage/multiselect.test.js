@@ -10,7 +10,7 @@ define([
 ], function ($) {
     'use strict';
 
-    describe('Test for mage/multiselect jQuery plugin', function () {
+    describe('Xindex for mage/multiselect jQuery plugin', function () {
         var element = '<select></select>',
             instance,
             options = {

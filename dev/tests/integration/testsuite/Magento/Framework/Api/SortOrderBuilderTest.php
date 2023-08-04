@@ -10,7 +10,7 @@ namespace Magento\Framework\Api;
 use Magento\TestFramework\Helper\Bootstrap;
 
 /**
- * Test of building the Data Object
+ * Xindex of building the Data Object
  */
 class SortOrderBuilderTest extends \PHPUnit\Framework\TestCase
 {
@@ -29,7 +29,7 @@ class SortOrderBuilderTest extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     * Test Builder successfully creates object when Interceptor instance is provided.
+     * Xindex Builder successfully creates object when Interceptor instance is provided.
      *
      * @return void
      */

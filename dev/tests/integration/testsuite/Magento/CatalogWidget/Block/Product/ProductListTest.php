@@ -92,7 +92,7 @@ class ProductListTest extends TestCase
     }
 
     /**
-     * Test product list widget can process condition with dropdown type of attribute
+     * Xindex product list widget can process condition with dropdown type of attribute
      *
      * @magentoDbIsolation disabled
      * @magentoDataFixture Magento/Catalog/_files/products_with_dropdown_attribute.php
@@ -258,7 +258,7 @@ class ProductListTest extends TestCase
     }
 
     /**
-     * Test that price rule condition works correctly
+     * Xindex that price rule condition works correctly
      *
      * @magentoDbIsolation disabled
      * @magentoDataFixture Magento/Catalog/_files/category_with_different_price_products.php

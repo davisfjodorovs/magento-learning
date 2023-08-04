@@ -4,9 +4,9 @@ declare(strict_types=1);
 
 namespace Magebit\Faq\Api;
 
-use Magebit\Faq\Api\Data\QuestionInterface;
-
 /**
+ * Question management interface
+ *
  * @api
  */
 interface QuestionManagementInterface
@@ -14,16 +14,16 @@ interface QuestionManagementInterface
     /**
      * Enable a question
      *
-     * @param QuestionInterface $question
-     * @return bool true if successful
+     * @param \Magebit\Faq\Api\Data\QuestionInterface $question
+     * @return \Magebit\Faq\Api\Data\Questioninterface
      */
-    public function enableQuestion(QuestionInterface $question): bool;
+    public function enableQuestion(\Magebit\Faq\Api\Data\QuestionInterface $question): Data\QuestionInterface;
 
     /**
      * Disable a question
      *
-     * @param QuestionInterface $question
-     * @return bool true if successful
+     * @param \Magebit\Faq\Api\Data\QuestionInterface $question
+     * @return \Magebit\Faq\Api\Data\Questioninterface
      */
-    public function disableQuestion(QuestionInterface $question): bool;
+    public function disableQuestion(\Magebit\Faq\Api\Data\QuestionInterface $question): Data\QuestionInterface;
 }

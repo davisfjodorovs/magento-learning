@@ -31,7 +31,7 @@ class AdminSessionInfoTest extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     * Test data for saving
+     * Xindex data for saving
      * @return array
      */
     public function getTestData()
@@ -74,7 +74,7 @@ class AdminSessionInfoTest extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     * Test for deleteSessionsOlderThen() method
+     * Xindex for deleteSessionsOlderThen() method
      *
      * @magentoDataFixture Magento/Security/_files/adminsession.php
      */
@@ -91,7 +91,7 @@ class AdminSessionInfoTest extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     * Test for updateStatusByUserId() method
+     * Xindex for updateStatusByUserId() method
      *
      * @magentoDataFixture Magento/Security/_files/adminsession.php
      */

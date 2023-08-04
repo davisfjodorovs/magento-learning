@@ -23,7 +23,7 @@ abstract class AbstractBaseAttributeData
     protected $defaultAttributePostData = [
         'active_tab' => 'main',
         'frontend_label' => [
-            Store::DEFAULT_STORE_ID => 'Test attribute name',
+            Store::DEFAULT_STORE_ID => 'Xindex attribute name',
         ],
         'is_required' => '0',
         'dropdown_attribute_validation' => '',
@@ -318,14 +318,14 @@ abstract class AbstractBaseAttributeData
             "{$frontendInput}_update_frontend_label" => [
                 'post_data' => [
                     'frontend_label' => [
-                        Store::DEFAULT_STORE_ID => 'Test Attribute Update',
+                        Store::DEFAULT_STORE_ID => 'Xindex Attribute Update',
                         'default' => 'Default Store Update',
                         'fixture_second_store' => 'Second Store Update',
                         'fixture_third_store' => 'Third Store Update',
                     ]
                 ],
                 'expected_data' => [
-                    'frontend_label' => 'Test Attribute Update',
+                    'frontend_label' => 'Xindex Attribute Update',
                     'store_labels' => [
                         'default' => 'Default Store Update',
                         'fixture_second_store' => 'Second Store Update',
@@ -336,14 +336,14 @@ abstract class AbstractBaseAttributeData
             "{$frontendInput}_remove_frontend_label" => [
                 'post_data' => [
                     'frontend_label' => [
-                        Store::DEFAULT_STORE_ID => 'Test Attribute Update',
+                        Store::DEFAULT_STORE_ID => 'Xindex Attribute Update',
                         'default' => 'Default Store Update',
                         'fixture_second_store' => '',
                         'fixture_third_store' => '',
                     ]
                 ],
                 'expected_data' => [
-                    'frontend_label' => 'Test Attribute Update',
+                    'frontend_label' => 'Xindex Attribute Update',
                     'store_labels' => [
                         'default' => 'Default Store Update',
                     ],
@@ -351,10 +351,10 @@ abstract class AbstractBaseAttributeData
             ],
             "{$frontendInput}_with_frontend_label_string" => [
                 'post_data' => [
-                    'frontend_label' => 'Test Attribute Update',
+                    'frontend_label' => 'Xindex Attribute Update',
                 ],
                 'expected_data' => [
-                    'frontend_label' => 'Test Attribute Update',
+                    'frontend_label' => 'Xindex Attribute Update',
                     'store_labels' => [
                         'default' => 'Default Store layout',
                         'fixture_second_store' => 'Fixture Second Store',

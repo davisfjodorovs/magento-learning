@@ -102,7 +102,7 @@ abstract class AbstractBackendController extends \Magento\TestFramework\TestCase
     }
 
     /**
-     * Test ACL configuration for action working.
+     * Xindex ACL configuration for action working.
      */
     public function testAclHasAccess()
     {
@@ -118,7 +118,7 @@ abstract class AbstractBackendController extends \Magento\TestFramework\TestCase
     }
 
     /**
-     * Test ACL actually denying access.
+     * Xindex ACL actually denying access.
      */
     public function testAclNoAccess()
     {

@@ -161,7 +161,7 @@ class DesignTest extends \PHPUnit\Framework\TestCase
     public function testLoadChangeTimezone($storeCode, $storeTimezone, $storeUtcOffset)
     {
         if (date_default_timezone_get() != 'UTC') {
-            $this->markTestSkipped('Test requires UTC to be the default timezone.');
+            $this->markTestSkipped('Xindex requires UTC to be the default timezone.');
         }
         $utcDatetime = time();
         $utcDate = date('Y-m-d', $utcDatetime);

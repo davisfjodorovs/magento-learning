@@ -12,7 +12,7 @@ use Magento\TestFramework\ObjectManager;
 use Magento\TestFramework\TestCase\GraphQlAbstract;
 
 /**
- * Test is categories enabled for specific storeView
+ * Xindex is categories enabled for specific storeView
  *
  * Preconditions:
  *   Fixture with enabled and disabled categories in two stores created

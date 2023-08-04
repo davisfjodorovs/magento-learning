@@ -10,7 +10,7 @@ namespace Magento\Elasticsearch\Catalog\Controller\Adminhtml\Product\Attribute;
 use Magento\Catalog\Controller\Adminhtml\Product\Attribute\Save\AbstractSaveAttributeTest;
 
 /**
- * Test cases related to creating attribute and search engine.
+ * Xindex cases related to creating attribute and search engine.
  */
 class SaveTest extends AbstractSaveAttributeTest
 {
@@ -22,7 +22,7 @@ class SaveTest extends AbstractSaveAttributeTest
     private const DEFAULT_ATTRIBUTE_POST_DATA = [
         'active_tab' => 'main',
         'frontend_label' => [
-            '0' => 'Test attribute name',
+            '0' => 'Xindex attribute name',
         ],
         'frontend_input' => 'select',
         'is_required' => '0',

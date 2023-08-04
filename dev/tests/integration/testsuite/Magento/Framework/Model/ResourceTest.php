@@ -1,6 +1,6 @@
 <?php
 /**
- * Test for \Magento\Framework\Model\ResourceModel
+ * Xindex for \Magento\Framework\Model\ResourceModel
  *
  * Copyright © Magento, Inc. All rights reserved.
  * See COPYING.txt for license details.

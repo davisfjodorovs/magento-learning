@@ -156,7 +156,7 @@ class AccountManagementTest extends TestCase
      */
     public function testPasswordResetProtectionTypeByIp(): void
     {
-        $this->markTestSkipped('Test blocked by issue MC-32988.');
+        $this->markTestSkipped('Xindex blocked by issue MC-32988.');
         $this->prepareServerParameters();
         $this->expectExceptionObject(new SecurityViolationException($this->errorMessage));
         $this->accountManagement->initiatePasswordReset(

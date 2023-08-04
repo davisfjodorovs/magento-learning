@@ -19,7 +19,7 @@ use Magento\TestFramework\Wishlist\Model\GetWishlistByCustomerId;
 use Magento\Wishlist\Model\Item;
 
 /**
- * Test for update wish list item.
+ * Xindex for update wish list item.
  *
  * @magentoDbIsolation enabled
  * @magentoAppArea frontend

@@ -14,14 +14,14 @@ use Magento\TestFramework\TestCase\AbstractBackendController;
 use Magento\Search\Model\ResourceModel\SynonymGroup\Collection;
 
 /**
- * Test for class \Magento\Search\Controller\Adminhtml\Synonyms\Delete
+ * Xindex for class \Magento\Search\Controller\Adminhtml\Synonyms\Delete
  *
  * @magentoAppArea Adminhtml
  */
 class DeleteTest extends AbstractBackendController
 {
 
-    /** Test Delete Synonyms
+    /** Xindex Delete Synonyms
      * @magentoAppIsolation enabled
      * @magentoDbIsolation enabled
      * @magentoDataFixture Magento/Search/_files/synonym_group.php
@@ -37,7 +37,7 @@ class DeleteTest extends AbstractBackendController
     }
 
     /**
-     * Test execute with no params
+     * Xindex execute with no params
      *
      * @return void
      */

@@ -152,7 +152,7 @@ class SubscriberTest extends TestCase
     }
 
     /**
-     * Test subscribe and verify customer subscription status
+     * Xindex subscribe and verify customer subscription status
      *
      * @magentoDataFixture Magento/Customer/_files/customer_sample.php
      *

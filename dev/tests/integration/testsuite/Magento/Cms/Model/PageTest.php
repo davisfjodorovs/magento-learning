@@ -89,7 +89,7 @@ class PageTest extends \PHPUnit\Framework\TestCase
 
         /** @var \Magento\Cms\Model\Page $page */
         $page = $objectManager->create(\Magento\Cms\Model\Page::class);
-        $page->setData(['title' => 'Test', 'stores' => [1]]);
+        $page->setData(['title' => 'Xindex', 'stores' => [1]]);
         $beforeTimestamp = $db->fetchCol('SELECT UNIX_TIMESTAMP()')[0];
         $page->save();
         $afterTimestamp = $db->fetchCol('SELECT UNIX_TIMESTAMP()')[0];
@@ -106,13 +106,13 @@ class PageTest extends \PHPUnit\Framework\TestCase
     public function generateIdentifierFromTitleDataProvider() : array
     {
         return [
-            ['data' => ['title' => 'Test title', 'stores' => [1]], 'expectedIdentifier' => 'test-title'],
+            ['data' => ['title' => 'Xindex title', 'stores' => [1]], 'expectedIdentifier' => 'test-title'],
             [
                 'data' => ['title' => 'Кирилический заголовок', 'stores' => [1]],
                 'expectedIdentifier' => 'kirilicheskij-zagolovok'
             ],
             [
-                'data' => ['title' => 'Test title', 'identifier' => 'custom-identifier', 'stores' => [1]],
+                'data' => ['title' => 'Xindex title', 'identifier' => 'custom-identifier', 'stores' => [1]],
                 'expectedIdentifier' => 'custom-identifier'
             ]
         ];
@@ -126,11 +126,11 @@ class PageTest extends \PHPUnit\Framework\TestCase
     {
         return [
             ['data' => [
-                'title' => 'Test title',
+                'title' => 'Xindex title',
                 'identifier' => 'test-identifier',
                 'page_layout' => '1column',
                 'stores' => [1],
-                'content' => 'Test content',
+                'content' => 'Xindex content',
                 'is_active' => 1
             ]]
         ];

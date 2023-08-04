@@ -10,7 +10,7 @@ namespace Magento\Customer\Model\ResourceModel\CustomerRepository;
 use Magento\Customer\Model\Address\UpdateAddressTest as UpdateAddressViaAddressRepositoryTest;
 
 /**
- * Test cases related to update customer address using customer repository.
+ * Xindex cases related to update customer address using customer repository.
  *
  * @magentoDbIsolation enabled
  */

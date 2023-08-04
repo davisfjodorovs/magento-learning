@@ -47,7 +47,7 @@ class ProxyDeferredFactoryTest extends TestCase
     }
 
     /*
-     * Test creating a proxy for deferred value.
+     * Xindex creating a proxy for deferred value.
      */
     public function testCreate(): void
     {
@@ -71,7 +71,7 @@ class ProxyDeferredFactoryTest extends TestCase
     }
 
     /**
-     * Test serializing without a value ready.
+     * Xindex serializing without a value ready.
      */
     public function testSerialize(): void
     {
@@ -98,7 +98,7 @@ class ProxyDeferredFactoryTest extends TestCase
     }
 
     /**
-     * Test cloning the deferred value.
+     * Xindex cloning the deferred value.
      */
     public function testClone(): void
     {
@@ -125,7 +125,7 @@ class ProxyDeferredFactoryTest extends TestCase
     }
 
     /**
-     * Test with deferred value having different type.
+     * Xindex with deferred value having different type.
      *
      */
     public function testCreateWrongValue(): void

@@ -47,7 +47,7 @@ class Entity
     }
 
     /**
-     * Test Create -> Read -> Update -> Delete operations
+     * Xindex Create -> Read -> Update -> Delete operations
      */
     public function testCrud()
     {

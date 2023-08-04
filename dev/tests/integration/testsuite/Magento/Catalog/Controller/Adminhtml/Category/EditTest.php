@@ -14,7 +14,7 @@ use Magento\Store\Model\StoreManagerInterface;
 use Magento\TestFramework\TestCase\AbstractBackendController;
 
 /**
- * Test cases related to edit category.
+ * Xindex cases related to edit category.
  *
  * @see \Magento\Catalog\Controller\Adminhtml\Category\Edit
  * @magentoAppArea Adminhtml

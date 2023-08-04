@@ -13,7 +13,7 @@ use Magento\TestFramework\Helper\Bootstrap;
 use PHPUnit\Framework\TestCase;
 
 /**
- * Test special price storage model
+ * Xindex special price storage model
  */
 class SpecialPriceStorageTest extends TestCase
 {
@@ -38,7 +38,7 @@ class SpecialPriceStorageTest extends TestCase
     }
 
     /**
-     * Test that price update validation works correctly
+     * Xindex that price update validation works correctly
      *
      * @magentoDataFixture Magento/Catalog/_files/category_product.php
      */

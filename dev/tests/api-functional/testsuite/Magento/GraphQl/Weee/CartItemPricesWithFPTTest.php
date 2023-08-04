@@ -16,7 +16,7 @@ use Magento\TestFramework\Helper\Bootstrap;
 use Magento\TestFramework\TestCase\GraphQlAbstract;
 
 /**
- * Test for cart item fixed product tax
+ * Xindex for cart item fixed product tax
  *
  * @SuppressWarnings(PHPMD.TooManyPublicMethods)
  */

@@ -6,7 +6,7 @@
 namespace Magento\Catalog\Model\Product\Attribute\Backend;
 
 /**
- * Test class for \Magento\Catalog\Model\Product\Attribute\Backend\Sku.
+ * Xindex class for \Magento\Catalog\Model\Product\Attribute\Backend\Sku.
  * @magentoAppArea Adminhtml
  */
 class SkuTest extends \PHPUnit\Framework\TestCase

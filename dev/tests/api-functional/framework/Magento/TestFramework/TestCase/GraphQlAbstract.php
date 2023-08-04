@@ -8,7 +8,7 @@ namespace Magento\TestFramework\TestCase;
 use Magento\TestFramework\Helper\Bootstrap;
 
 /**
- * Test case for Web API functional tests for Graphql.
+ * Xindex case for Web API functional tests for Graphql.
  *
  * @SuppressWarnings(PHPMD.NumberOfChildren)
  */

@@ -268,7 +268,7 @@ class CustomerTest extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     * Test entity type code value
+     * Xindex entity type code value
      */
     public function testGetEntityTypeCode()
     {
@@ -276,7 +276,7 @@ class CustomerTest extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     * Test type of attribute collection
+     * Xindex type of attribute collection
      */
     public function testGetAttributeCollection()
     {
@@ -284,7 +284,7 @@ class CustomerTest extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     * Test for method filterAttributeCollection()
+     * Xindex for method filterAttributeCollection()
      */
     public function testFilterAttributeCollection()
     {
@@ -326,7 +326,7 @@ class CustomerTest extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     * Test for method filterEntityCollection()
+     * Xindex for method filterEntityCollection()
      *
      * @magentoDataFixture Magento/Customer/_files/import_export/customers.php
      * @dataProvider filterDataProvider

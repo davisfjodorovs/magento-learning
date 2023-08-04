@@ -19,7 +19,7 @@ use Magento\TestFramework\Helper\Bootstrap;
 use Magento\TestFramework\TestCase\GraphQlAbstract;
 
 /**
- * Test change customer password
+ * Xindex change customer password
  */
 class ChangeCustomerPasswordTest extends GraphQlAbstract
 {

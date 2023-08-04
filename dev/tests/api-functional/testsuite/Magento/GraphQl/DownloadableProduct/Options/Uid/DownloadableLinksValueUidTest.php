@@ -10,7 +10,7 @@ namespace Magento\GraphQl\DownloadableProduct\Options\Uid;
 use Magento\TestFramework\TestCase\GraphQlAbstract;
 
 /**
- * Test for downloadable product links uid
+ * Xindex for downloadable product links uid
  */
 class DownloadableLinksValueUidTest extends GraphQlAbstract
 {

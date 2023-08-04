@@ -34,7 +34,7 @@ class CustomerMetadataTest extends WebapiAbstract
     }
 
     /**
-     * Test retrieval of attribute metadata for the customer entity type.
+     * Xindex retrieval of attribute metadata for the customer entity type.
      *
      * @param string $attributeCode The attribute code of the requested metadata.
      * @param array $expectedMetadata Expected entity metadata for the attribute code.
@@ -166,7 +166,7 @@ class CustomerMetadataTest extends WebapiAbstract
     }
 
     /**
-     * Test retrieval of all customer attribute metadata.
+     * Xindex retrieval of all customer attribute metadata.
      */
     public function testGetAllAttributesMetadata()
     {
@@ -196,7 +196,7 @@ class CustomerMetadataTest extends WebapiAbstract
     }
 
     /**
-     * Test retrieval of custom customer attribute metadata.
+     * Xindex retrieval of custom customer attribute metadata.
      */
     public function testGetCustomAttributesMetadata()
     {
@@ -218,7 +218,7 @@ class CustomerMetadataTest extends WebapiAbstract
     }
 
     /**
-     * Test retrieval of attributes
+     * Xindex retrieval of attributes
      *
      * @param string $formCode Form code
      * @param array $expectedMetadata The expected attribute metadata

@@ -81,7 +81,7 @@ $dateAttribute->setData(
         'is_user_defined' => 1,
         'backend_type' => 'datetime',
         'frontend_input' => 'date',
-        'frontend_label' => 'Test Date',
+        'frontend_label' => 'Xindex Date',
         'is_searchable' => 1,
         'is_filterable_in_search' => 1,
     ]
@@ -100,7 +100,7 @@ $decimalAttribute->setData(
         'is_user_defined' => 1,
         'backend_type' => 'decimal',
         'frontend_input' => 'weight',
-        'frontend_label' => 'Test Decimal',
+        'frontend_label' => 'Xindex Decimal',
         'is_searchable' => 1,
         'is_filterable_in_search' => 1,
     ]

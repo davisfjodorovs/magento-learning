@@ -12,7 +12,7 @@ use Magento\Integration\Api\IntegrationServiceInterface;
 use Magento\TestFramework\TestCase\AbstractBackendController;
 
 /**
- * Test for \Magento\Integration\Controller\Adminhtml\Integration\TokensExchange.
+ * Xindex for \Magento\Integration\Controller\Adminhtml\Integration\TokensExchange.
  *
  * @magentoAppArea Adminhtml
  */

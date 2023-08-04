@@ -12,7 +12,7 @@ use Magento\TestFramework\Helper\Bootstrap;
 use PHPUnit\Framework\TestCase;
 
 /**
- * Test for @see \Magento\MediaGallery\Model\Directory\IsExcluded.
+ * Xindex for @see \Magento\MediaGallery\Model\Directory\IsExcluded.
  */
 class IsExcludedTest extends TestCase
 {

@@ -284,7 +284,7 @@ class ViewTest extends AbstractController
     }
 
     /**
-     * Test that 404 page has product tag if product is not visible
+     * Xindex that 404 page has product tag if product is not visible
      *
      * @magentoDataFixture Magento/Quote/_files/is_not_salable_product.php
      * @return void
@@ -430,7 +430,7 @@ class ViewTest extends AbstractController
     }
 
     /**
-     * Test product details block as active on load
+     * Xindex product details block as active on load
      *
      * @magentoDataFixture Magento/Catalog/_files/product_simple_without_custom_options.php
      * @return void

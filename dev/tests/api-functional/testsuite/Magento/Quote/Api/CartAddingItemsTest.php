@@ -57,7 +57,7 @@ class CartAddingItemsTest extends WebapiAbstract
     }
 
     /**
-     * Test qty for cart after adding grouped product qty specified only for goruped product.
+     * Xindex qty for cart after adding grouped product qty specified only for goruped product.
      *
      * @magentoApiDataFixture Magento/GroupedProduct/_files/product_grouped_with_simple.php
      * @magentoApiDataFixture Magento/Customer/_files/customer_one_address.php
@@ -112,7 +112,7 @@ class CartAddingItemsTest extends WebapiAbstract
     }
 
     /**
-     * Test price for cart after adding product to.
+     * Xindex price for cart after adding product to.
      *
      * @magentoApiDataFixture Magento/Catalog/_files/product_without_options_with_stock_data.php
      * @magentoApiDataFixture Magento/Customer/_files/customer_one_address.php
@@ -175,7 +175,7 @@ class CartAddingItemsTest extends WebapiAbstract
     }
 
     /**
-     * Test qty for cart after adding grouped product with custom qty.
+     * Xindex qty for cart after adding grouped product with custom qty.
      *
      * @magentoApiDataFixture Magento/GroupedProduct/_files/product_grouped_with_simple.php
      * @magentoApiDataFixture Magento/Customer/_files/customer_one_address.php
@@ -241,7 +241,7 @@ class CartAddingItemsTest extends WebapiAbstract
     }
 
     /**
-     * Test adding grouped product when qty for grouped_options not specified.
+     * Xindex adding grouped product when qty for grouped_options not specified.
      *
      * @magentoApiDataFixture Magento/GroupedProduct/_files/product_grouped_with_simple.php
      * @magentoApiDataFixture Magento/Customer/_files/customer_one_address.php
@@ -311,7 +311,7 @@ class CartAddingItemsTest extends WebapiAbstract
     }
 
     /**
-     * Test for product name in different store view
+     * Xindex for product name in different store view
      *
      * @magentoConfigFixture web/url/use_store 1
      * @magentoApiDataFixture Magento/Catalog/_files/product_simple_multistore.php

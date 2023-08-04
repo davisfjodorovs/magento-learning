@@ -6,7 +6,7 @@
 namespace Magento\Backend\Model;
 
 /**
- * Test class for \Magento\Backend\Model\Auth.
+ * Xindex class for \Magento\Backend\Model\Auth.
  *
  * @magentoAppArea Adminhtml
  */

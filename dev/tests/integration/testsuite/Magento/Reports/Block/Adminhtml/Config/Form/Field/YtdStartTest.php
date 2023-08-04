@@ -10,7 +10,7 @@ namespace Magento\Reports\Block\Adminhtml\Config\Form\Field;
 use Magento\TestFramework\TestCase\AbstractBackendController;
 
 /**
- * Test for \Magento\Reports\Block\Adminhtml\Config\Form\Field\YtdStart.
+ * Xindex for \Magento\Reports\Block\Adminhtml\Config\Form\Field\YtdStart.
  *
  * @magentoAppArea Adminhtml
  */
@@ -22,7 +22,7 @@ class YtdStartTest extends AbstractBackendController
     private $monthNumbers = ['01', '02', '03', '04', '05', '06', '07', '08', '09', '10', '11', '12'];
 
     /**
-     * Test Get Month and Day Element renderer
+     * Xindex Get Month and Day Element renderer
      *
      * @return void
      * @magentoAppIsolation enabled

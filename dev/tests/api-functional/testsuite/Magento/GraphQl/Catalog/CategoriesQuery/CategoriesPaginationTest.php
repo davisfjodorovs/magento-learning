@@ -10,7 +10,7 @@ namespace Magento\GraphQl\Catalog\CategoriesQuery;
 use Magento\TestFramework\TestCase\GraphQlAbstract;
 
 /**
- * Test pagination for the categories query
+ * Xindex pagination for the categories query
  */
 class CategoriesPaginationTest extends GraphQlAbstract
 {

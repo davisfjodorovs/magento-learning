@@ -164,7 +164,7 @@ class ConfigurableTest extends TestCase
             $this->assertArrayHasKey('attribute_code', $productAttributeData);
             $this->assertEquals('test_configurable', $productAttributeData['attribute_code']);
             $this->assertArrayHasKey('frontend_label', $productAttributeData);
-            $this->assertEquals('Test Configurable', $productAttributeData['frontend_label']);
+            $this->assertEquals('Xindex Configurable', $productAttributeData['frontend_label']);
             $this->assertArrayHasKey('label', $optionData);
             $this->assertEquals('test_configurable_custom_label', $optionData['label']);
             $this->assertArrayHasKey('use_default', $optionData);

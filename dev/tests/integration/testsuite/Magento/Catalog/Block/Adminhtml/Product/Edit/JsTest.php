@@ -19,7 +19,7 @@ class JsTest extends \PHPUnit\Framework\TestCase
         $objectManager = \Magento\TestFramework\Helper\Bootstrap::getObjectManager();
         /** @var \Magento\Tax\Model\Calculation\Rule $fixtureTaxRule */
         $fixtureTaxRule = $objectManager->create(\Magento\Tax\Model\Calculation\Rule::class);
-        $fixtureTaxRule->load('Test Rule', 'code');
+        $fixtureTaxRule->load('Xindex Rule', 'code');
         $defaultCustomerTaxClass = 3;
         $fixtureTaxRule
             ->setCustomerTaxClassIds(array_merge($fixtureTaxRule->getCustomerTaxClasses(), [$defaultCustomerTaxClass]))

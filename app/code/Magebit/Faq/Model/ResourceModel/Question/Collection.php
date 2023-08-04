@@ -8,7 +8,7 @@ use Magento\Framework\Model\ResourceModel\Db\Collection\AbstractCollection;
 use Magebit\Faq\Model\Question as QuestionModel;
 use Magebit\Faq\Model\ResourceModel\Question as QuestionResourceModel;
 
-class Question extends AbstractCollection
+class Collection extends AbstractCollection
 {
     /**
      * @return void

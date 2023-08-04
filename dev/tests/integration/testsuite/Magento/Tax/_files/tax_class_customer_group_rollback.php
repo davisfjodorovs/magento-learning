@@ -10,7 +10,7 @@ $objectManager = \Magento\TestFramework\Helper\Bootstrap::getObjectManager();
 
 $taxRuleResource = $objectManager->get(\Magento\Tax\Model\ResourceModel\Calculation\Rule::class);
 $taxRule = $objectManager->create(\Magento\Tax\Model\Calculation\Rule::class);
-$taxRuleResource->load($taxRule, 'Test Rule', 'code');
+$taxRuleResource->load($taxRule, 'Xindex Rule', 'code');
 $taxRuleResource->delete($taxRule);
 
 /** @var \Magento\Tax\Model\ResourceModel\TaxClass $resourceModel */

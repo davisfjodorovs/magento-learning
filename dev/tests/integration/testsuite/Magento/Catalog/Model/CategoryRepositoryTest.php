@@ -70,7 +70,7 @@ class CategoryRepositoryTest extends TestCase
     }
 
     /**
-     * Test that custom layout file attribute is saved.
+     * Xindex that custom layout file attribute is saved.
      *
      * @magentoDataFixture Magento/Catalog/_files/category.php
      * @magentoAppIsolation enabled
@@ -100,7 +100,7 @@ class CategoryRepositoryTest extends TestCase
     }
 
     /**
-     * Test removal of categories.
+     * Xindex removal of categories.
      *
      * @magentoDataFixture Magento/Catalog/_files/categories.php
      * @magentoAppArea Adminhtml

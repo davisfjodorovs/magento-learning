@@ -338,7 +338,7 @@ class ValidatorFileTest extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     * Test exception for empty file
+     * Xindex exception for empty file
      *
      * @return void
      */

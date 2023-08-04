@@ -41,7 +41,7 @@ class GaTest extends AbstractController
     }
 
     /**
-     * Test that block has been successfully moved
+     * Xindex that block has been successfully moved
      * from body to head tag.
      */
     public function testBlockIsAbsentInBody()
@@ -52,7 +52,7 @@ class GaTest extends AbstractController
     }
 
     /**
-     * Test null output when GA is disabled
+     * Xindex null output when GA is disabled
      *
      * @magentoAppArea frontend
      * @magentoConfigFixture current_store google/gtag/analytics4/active 0

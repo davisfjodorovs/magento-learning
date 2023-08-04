@@ -39,7 +39,7 @@ class PlaceOrderWithPayflowProTest extends PaypalPayflowProAbstractTest
     }
 
     /**
-     * Test end to end test to process a paypal payflow pro order
+     * Xindex end to end test to process a paypal payflow pro order
      *
      * @return void
      * @magentoDataFixture Magento/Sales/_files/default_rollback.php

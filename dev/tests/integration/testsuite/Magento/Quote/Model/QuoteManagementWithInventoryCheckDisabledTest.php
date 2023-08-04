@@ -55,7 +55,7 @@ class QuoteManagementWithInventoryCheckDisabledTest extends TestCase
     }
 
     /**
-     * Test order placement with disabled inventory check, different quantity and out of stock status.
+     * Xindex order placement with disabled inventory check, different quantity and out of stock status.
      *
      * @param int $qty
      * @param int $stockStatus
@@ -99,7 +99,7 @@ class QuoteManagementWithInventoryCheckDisabledTest extends TestCase
     }
 
     /**
-     * Test order placement with disabled inventory check, positive quantity and in stock status.
+     * Xindex order placement with disabled inventory check, positive quantity and in stock status.
      *
      * @magentoDataFixture Magento/Sales/_files/quote_with_purchase_order.php
      * @magentoConfigFixture cataloginventory/options/enable_inventory_check 0

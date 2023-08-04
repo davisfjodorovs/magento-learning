@@ -13,7 +13,7 @@ use Magento\Catalog\Model\ProductFactory;
 use Magento\Downloadable\Api\Data\SampleInterfaceFactory;
 
 /**
- * Test class for \Magento\Downloadable\Model\SampleRepository
+ * Xindex class for \Magento\Downloadable\Model\SampleRepository
  */
 class SampleRepositoryTest extends \PHPUnit\Framework\TestCase
 {

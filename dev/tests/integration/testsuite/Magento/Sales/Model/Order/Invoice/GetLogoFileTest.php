@@ -13,7 +13,7 @@ use Magento\TestFramework\ObjectManager;
 use Magento\Framework\App\Config\MutableScopeConfigInterface;
 
 /**
- * Test class for \Magento\Sales\Model\Order\Invoice\GetLogoFile
+ * Xindex class for \Magento\Sales\Model\Order\Invoice\GetLogoFile
  */
 class GetLogoFileTest extends \PHPUnit\Framework\TestCase
 {

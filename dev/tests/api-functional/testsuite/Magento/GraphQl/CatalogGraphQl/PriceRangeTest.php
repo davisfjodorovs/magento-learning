@@ -13,7 +13,7 @@ use Magento\TestFramework\ObjectManager;
 use Magento\TestFramework\TestCase\GraphQlAbstract;
 
 /**
- * Test class to verify catalog price rule is applied for
+ * Xindex class to verify catalog price rule is applied for
  * tier prices for different customer groups.
  */
 class PriceRangeTest extends GraphQlAbstract
@@ -63,7 +63,7 @@ class PriceRangeTest extends GraphQlAbstract
     }
 
     /**
-     * Test for checking if catalog rule price has been applied for all customer group
+     * Xindex for checking if catalog rule price has been applied for all customer group
      *
      * @magentoApiDataFixture Magento/Catalog/_files/product_simple.php
      * @magentoApiDataFixture Magento/CatalogRule/_files/catalog_rule_25_customer_group_all.php
@@ -88,7 +88,7 @@ class PriceRangeTest extends GraphQlAbstract
     }
 
     /**
-     * Test for checking if catalog rule price has been applied for registered customer
+     * Xindex for checking if catalog rule price has been applied for registered customer
      *
      * @magentoApiDataFixture Magento/Customer/_files/customer.php
      * @magentoApiDataFixture Magento/Catalog/_files/simple_product_with_tier_prices_for_logged_in_group.php
@@ -118,7 +118,7 @@ class PriceRangeTest extends GraphQlAbstract
     }
 
     /**
-     * Test for checking if catalog rule price has been applied for guest
+     * Xindex for checking if catalog rule price has been applied for guest
      *
      * @magentoApiDataFixture Magento/Catalog/_files/simple_product_with_tier_prices_for_not_logged_in_group.php
      * @magentoApiDataFixture Magento/CatalogRule/_files/catalog_rule_10_off_not_logged.php
@@ -142,7 +142,7 @@ class PriceRangeTest extends GraphQlAbstract
     }
 
     /**
-     * Test to make sure tax amount is displayed correctly for a logged-in user
+     * Xindex to make sure tax amount is displayed correctly for a logged-in user
      *
      * @magentoConfigFixture default_store tax/display/type 2
      *
@@ -171,7 +171,7 @@ class PriceRangeTest extends GraphQlAbstract
     }
 
     /**
-     * Test to make sure tax rule is not applied in display for guest
+     * Xindex to make sure tax rule is not applied in display for guest
      *
      * @magentoConfigFixture default_store tax/display/type 2
      *
@@ -193,7 +193,7 @@ class PriceRangeTest extends GraphQlAbstract
     }
 
     /**
-     * Test to make sure tax rule is applied for customer group
+     * Xindex to make sure tax rule is applied for customer group
      *
      * @magentoConfigFixture default_store tax/display/type 2
      *
@@ -221,7 +221,7 @@ class PriceRangeTest extends GraphQlAbstract
     }
 
     /**
-     * Test to make sure tax rule is not applied for a customer in the wrong group
+     * Xindex to make sure tax rule is not applied for a customer in the wrong group
      *
      * @magentoConfigFixture default_store tax/display/type 2
      *

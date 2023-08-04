@@ -20,7 +20,7 @@ use Magento\UrlRewrite\Model\UrlRewrite as UrlRewriteModel;
 use Magento\UrlRewrite\Service\V1\Data\UrlRewrite as UrlRewriteService;
 
 /**
- * Test caching works for url route.
+ * Xindex caching works for url route.
  * @SuppressWarnings(PHPMD.CouplingBetweenObjects)
  */
 class RouteCacheTest extends GraphQLPageCacheAbstract
@@ -62,7 +62,7 @@ class RouteCacheTest extends GraphQLPageCacheAbstract
     }
 
     /**
-     * Test the use case where non seo friendly is provided as resolver input in the Query
+     * Xindex the use case where non seo friendly is provided as resolver input in the Query
      *
      * @magentoConfigFixture default/system/full_page_cache/caching_application 2
      * @magentoApiDataFixture Magento/CatalogUrlRewrite/_files/product_with_category.php
@@ -90,7 +90,7 @@ class RouteCacheTest extends GraphQLPageCacheAbstract
     }
 
     /**
-     * Test the use case where url_key of the existing product is changed and verify final url is redirected correctly
+     * Xindex the use case where url_key of the existing product is changed and verify final url is redirected correctly
      *
      * @magentoConfigFixture default/system/full_page_cache/caching_application 2
      * @magentoApiDataFixture Magento/Catalog/_files/product_with_category.php
@@ -120,7 +120,7 @@ class RouteCacheTest extends GraphQLPageCacheAbstract
     }
 
     /**
-     * Test for custom type which point to the valid product/category/cms page.
+     * Xindex for custom type which point to the valid product/category/cms page.
      *
      * @magentoConfigFixture default/system/full_page_cache/caching_application 2
      * @magentoApiDataFixture Magento/CatalogUrlRewrite/_files/product_with_category.php
@@ -151,7 +151,7 @@ class RouteCacheTest extends GraphQLPageCacheAbstract
     }
 
     /**
-     * Test for category entity
+     * Xindex for category entity
      *
      * @magentoConfigFixture default/system/full_page_cache/caching_application 2
      * @magentoApiDataFixture Magento/CatalogUrlRewrite/_files/product_with_category.php
@@ -318,7 +318,7 @@ QUERY;
     }
 
     /**
-     * Test for url rewrite to clean cache on rewrites update
+     * Xindex for url rewrite to clean cache on rewrites update
      *
      * @magentoConfigFixture default/system/full_page_cache/caching_application 2
      * @magentoApiDataFixture Magento/Catalog/_files/product_with_category.php
@@ -392,7 +392,7 @@ QUERY;
     }
 
     /**
-     * Test for custom url rewrite to clean cache on update combinations
+     * Xindex for custom url rewrite to clean cache on update combinations
      *
      * @magentoConfigFixture default/system/full_page_cache/caching_application 2
      * @magentoApiDataFixture Magento/Catalog/_files/product_with_category.php

@@ -12,7 +12,7 @@ use Magento\TestFramework\Helper\Bootstrap;
 use Magento\TestFramework\TestCase\GraphQlAbstract;
 
 /**
- * Test for get specified shipping address
+ * Xindex for get specified shipping address
  */
 class GetSpecifiedShippingAddressTest extends GraphQlAbstract
 {
@@ -131,13 +131,13 @@ class GetSpecifiedShippingAddressTest extends GraphQlAbstract
       company
       street
       city
-      region 
+      region
       {
         code
         label
       }
       postcode
-      country 
+      country
       {
         code
         label

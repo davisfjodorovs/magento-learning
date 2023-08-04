@@ -13,7 +13,7 @@ use Magento\TestFramework\ObjectManager;
 use Magento\TestFramework\TestCase\GraphQlAbstract;
 
 /**
- * Test of getting child products info of configurable product on category request
+ * Xindex of getting child products info of configurable product on category request
  */
 class CategoryProductsVariantsTest extends GraphQlAbstract
 {

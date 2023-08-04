@@ -32,7 +32,7 @@ class DeleteCustomOptionsTest extends AbstractBackendController
 
 
     /**
-     * Test delete custom option with type "field".
+     * Xindex delete custom option with type "field".
      *
      * @dataProvider \Magento\TestFramework\Catalog\Model\Product\Option\DataProvider\Type\Field::getDataForCreateOptions
      *

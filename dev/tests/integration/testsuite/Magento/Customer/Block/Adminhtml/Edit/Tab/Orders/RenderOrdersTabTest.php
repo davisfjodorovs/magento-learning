@@ -24,7 +24,7 @@ use Magento\TestFramework\Helper\Xpath;
 use PHPUnit\Framework\TestCase;
 
 /**
- * Test cases related to check that orders tab with customer orders
+ * Xindex cases related to check that orders tab with customer orders
  * grid correctly renders and contains all necessary data.
  *
  * @SuppressWarnings(PHPMD.CouplingBetweenObjects)

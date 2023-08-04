@@ -27,7 +27,7 @@ use PHPUnit\Framework\TestCase;
 class EditTest extends TestCase
 {
     /**
-     * Test prepare layout.
+     * Xindex prepare layout.
      *
      * @dataProvider prepareLayoutDataProvider
      *
@@ -391,12 +391,12 @@ class EditTest extends TestCase
         /** @var $product Product */
         $product = Bootstrap::getObjectManager()->create(
             Product::class,
-            ['data' => ['entity_id' => 1, 'name' => 'Test product']]
+            ['data' => ['entity_id' => 1, 'name' => 'Xindex product']]
         );
         /** @var $category Category */
         $category = Bootstrap::getObjectManager()->create(
             Category::class,
-            ['data' => ['entity_id' => 1, 'name' => 'Test category']]
+            ['data' => ['entity_id' => 1, 'name' => 'Xindex category']]
         );
         /** @var $existingUrlRewrite UrlRewrite */
         $existingUrlRewrite = Bootstrap::getObjectManager()->create(

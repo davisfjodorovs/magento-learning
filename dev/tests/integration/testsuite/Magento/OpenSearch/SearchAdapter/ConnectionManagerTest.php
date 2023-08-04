@@ -37,7 +37,7 @@ class ConnectionManagerTest extends TestCase
     }
 
     /**
-     * Test if 'opensearch' search engine returned by connection manager.
+     * Xindex if 'opensearch' search engine returned by connection manager.
      *
      * @magentoAppIsolation enabled
      * @magentoConfigFixture default/catalog/search/engine opensearch

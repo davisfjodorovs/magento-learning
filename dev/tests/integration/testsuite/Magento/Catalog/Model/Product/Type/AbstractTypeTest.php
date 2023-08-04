@@ -477,10 +477,10 @@ class AbstractTypeTest extends TestCase
         $product->load(1);
         // fixture
         $data = $this->_model->getSearchableData($product);
-        $this->assertContains('Test Field', $data);
-        $this->assertContains('Test Date and Time', $data);
-        $this->assertContains('Test Select', $data);
-        $this->assertContains('Test Radio', $data);
+        $this->assertContains('Xindex Field', $data);
+        $this->assertContains('Xindex Date and Time', $data);
+        $this->assertContains('Xindex Select', $data);
+        $this->assertContains('Xindex Radio', $data);
         $this->assertContains('Option 1', $data);
         $this->assertContains('Option 2', $data);
     }
@@ -508,7 +508,7 @@ class AbstractTypeTest extends TestCase
     }
 
     /**
-     * Test that only one exception appears instead of multiple identical exceptions
+     * Xindex that only one exception appears instead of multiple identical exceptions
      *
      * @magentoDataFixture Magento/Catalog/_files/product_simple.php
      *
@@ -539,7 +539,7 @@ class AbstractTypeTest extends TestCase
     }
 
     /**
-     * Test if product can be prepared for cart with more than one custom file option
+     * Xindex if product can be prepared for cart with more than one custom file option
      *
      * @magentoAppIsolation enabled
      * @magentoDataFixture Magento/Catalog/_files/product_simple_with_two_custom_file_options.php
@@ -573,7 +573,7 @@ class AbstractTypeTest extends TestCase
     }
 
     /**
-     * Test if exception occurs in case if file is not uploaded
+     * Xindex if exception occurs in case if file is not uploaded
      *
      * @magentoAppIsolation enabled
      * @magentoDataFixture Magento/Catalog/_files/product_simple_with_two_custom_file_options.php

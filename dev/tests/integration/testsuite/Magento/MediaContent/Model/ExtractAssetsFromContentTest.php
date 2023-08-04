@@ -13,7 +13,7 @@ use Magento\TestFramework\Helper\Bootstrap;
 use PHPUnit\Framework\TestCase;
 
 /**
- * Test for ExtractAssetsFromContent
+ * Xindex for ExtractAssetsFromContent
  */
 class ExtractAssetsFromContentTest extends TestCase
 {

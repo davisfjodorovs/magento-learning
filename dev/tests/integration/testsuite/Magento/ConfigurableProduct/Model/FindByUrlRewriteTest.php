@@ -19,7 +19,7 @@ use Magento\UrlRewrite\Service\V1\Data\UrlRewrite;
 use PHPUnit\Framework\TestCase;
 
 /**
- * Test cases related to check that URL rewrite has created or not.
+ * Xindex cases related to check that URL rewrite has created or not.
  */
 class FindByUrlRewriteTest extends TestCase
 {

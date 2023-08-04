@@ -20,7 +20,7 @@ use Magento\TestFramework\ObjectManager;
 use Magento\TestFramework\TestCase\GraphQlAbstract;
 
 /**
- * Test category tree data is returned correctly from "categories" query
+ * Xindex category tree data is returned correctly from "categories" query
  */
 class CategoryTreeTest extends GraphQlAbstract
 {
@@ -101,7 +101,7 @@ QUERY;
         $this->assertArrayHasKey('categories', $response);
         $baseCategory = $response['categories']['items'][0];
         $this->assertEquals(
-            'Its a description of Test Category 1.2',
+            'Its a description of Xindex Category 1.2',
             $baseCategory['children'][0]['children'][1]['description']
         );
         $this->assertEquals('default-category', $baseCategory['url_key']);
@@ -160,7 +160,7 @@ QUERY;
         $this->assertArrayHasKey('categories', $response);
         $baseCategory = $response['categories']['items'][0];
         $this->assertEquals(
-            'Its a description of Test Category 1.2',
+            'Its a description of Xindex Category 1.2',
             $baseCategory['children'][0]['children'][1]['description']
         );
         $this->assertEquals('default-category', $baseCategory['url_key']);
@@ -538,7 +538,7 @@ QUERY;
     }
 
     /**
-     * Test category image is returned as full url (not relative path)
+     * Xindex category image is returned as full url (not relative path)
      *
      * @param string $imagePrefix
      * @magentoApiDataFixture Magento/Catalog/_files/catalog_category_with_image.php
@@ -624,7 +624,7 @@ QUERY;
     }
 
     /**
-     * Test categories query when category image is not found or missing.
+     * Xindex categories query when category image is not found or missing.
      *
      * @magentoApiDataFixture Magento/Catalog/_files/catalog_category_with_missing_image.php
      */

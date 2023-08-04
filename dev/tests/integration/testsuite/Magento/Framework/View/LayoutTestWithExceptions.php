@@ -40,7 +40,7 @@ class LayoutTestWithExceptions extends TestCase
     }
 
     /**
-     * Test to Create structure of elements from the loaded XML configuration with exception
+     * Xindex to Create structure of elements from the loaded XML configuration with exception
      */
     public function testProcessWithExceptionsDeveloperMode()
     {
@@ -51,7 +51,7 @@ class LayoutTestWithExceptions extends TestCase
     }
 
     /**
-     * Test to Get all blocks marked for output with exceptions
+     * Xindex to Get all blocks marked for output with exceptions
      *
      * @magentoAppIsolation enabled
      */

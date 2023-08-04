@@ -14,7 +14,7 @@ use Magento\TestFramework\Helper\Bootstrap;
 use Magento\TestFramework\TestCase\GraphQlAbstract;
 
 /**
- * Test Reorder with and without products overlay in shopping cart.
+ * Xindex Reorder with and without products overlay in shopping cart.
  */
 class ReorderOverlayProductTest extends GraphQlAbstract
 {

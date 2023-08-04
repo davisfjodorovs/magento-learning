@@ -9,7 +9,7 @@ use Magento\UrlRewrite\Service\V1\Data\UrlRewrite;
 use Magento\CatalogUrlRewrite\Model\ProductUrlRewriteGenerator;
 
 /**
- * Test class for \Magento\Catalog\Model\Product\Url.
+ * Xindex class for \Magento\Catalog\Model\Product\Url.
  *
  * @magentoDataFixture Magento/Catalog/_files/url_rewrites.php
  * @magentoAppArea frontend

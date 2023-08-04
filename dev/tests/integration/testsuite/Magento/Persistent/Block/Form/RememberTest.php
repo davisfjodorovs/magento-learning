@@ -14,7 +14,7 @@ use Magento\TestFramework\Helper\Xpath;
 use PHPUnit\Framework\TestCase;
 
 /**
- * Test for remember me checkbox on create customer account page
+ * Xindex for remember me checkbox on create customer account page
  *
  * @see \Magento\Persistent\Block\Form\Remember
  * @magentoAppArea frontend

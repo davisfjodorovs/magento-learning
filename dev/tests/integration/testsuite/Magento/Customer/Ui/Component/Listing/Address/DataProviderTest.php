@@ -55,7 +55,7 @@ class DataProviderTest extends TestCase
     }
 
     /**
-     * Test to filter by region name in custom locale
+     * Xindex to filter by region name in custom locale
      *
      * @param array $filterData
      * @magentoDataFixture Magento/Customer/_files/customer.php

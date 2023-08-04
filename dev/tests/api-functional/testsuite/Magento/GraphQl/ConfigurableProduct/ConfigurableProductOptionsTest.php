@@ -10,7 +10,7 @@ namespace Magento\GraphQl\ConfigurableProduct;
 use Magento\TestFramework\TestCase\GraphQlAbstract;
 
 /**
- * Test products query for configurable product options
+ * Xindex products query for configurable product options
  */
 class ConfigurableProductOptionsTest extends GraphQlAbstract
 {
@@ -144,7 +144,7 @@ QUERY;
                             'configurable_options' =>
                                 [
                                     [
-                                        'label' => 'Test Configurable First',
+                                        'label' => 'Xindex Configurable First',
                                         'position' => 0,
                                         'use_default' => false,
                                         'attribute_code' => 'test_configurable_first',
@@ -165,7 +165,7 @@ QUERY;
                                             ],
                                     ],
                                     [
-                                        'label' => 'Test Configurable Second',
+                                        'label' => 'Xindex Configurable Second',
                                         'position' => 1,
                                         'use_default' => false,
                                         'attribute_code' => 'test_configurable_second',
@@ -193,7 +193,7 @@ QUERY;
                             'configurable_options' =>
                                 [
                                     [
-                                        'label' => 'Test Configurable First',
+                                        'label' => 'Xindex Configurable First',
                                         'position' => 0,
                                         'use_default' => false,
                                         'attribute_code' => 'test_configurable_first',
@@ -214,7 +214,7 @@ QUERY;
                                             ],
                                     ],
                                     [
-                                        'label' => 'Test Configurable Second',
+                                        'label' => 'Xindex Configurable Second',
                                         'position' => 1,
                                         'use_default' => false,
                                         'attribute_code' => 'test_configurable_second',

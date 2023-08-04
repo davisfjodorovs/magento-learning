@@ -36,7 +36,7 @@ class IntegrationTest extends \PHPUnit\Framework\TestCase
             ]
         )->save();
         $this->integration = $objectManager->create(\Magento\Integration\Model\Integration::class);
-        $this->integration->setName('Test Integration')
+        $this->integration->setName('Xindex Integration')
             ->setConsumerId($this->consumer->getId())
             ->setStatus(\Magento\Integration\Model\Integration::STATUS_ACTIVE)
             ->save();

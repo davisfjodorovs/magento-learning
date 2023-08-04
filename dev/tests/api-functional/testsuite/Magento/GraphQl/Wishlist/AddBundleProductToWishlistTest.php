@@ -21,7 +21,7 @@ use Magento\Wishlist\Model\Item;
 use Magento\Wishlist\Model\WishlistFactory;
 
 /**
- * Test coverage for adding a bundle product to wishlist
+ * Xindex coverage for adding a bundle product to wishlist
  */
 class AddBundleProductToWishlistTest extends GraphQlAbstract
 {

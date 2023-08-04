@@ -45,7 +45,7 @@ class GroupTest extends \Magento\TestFramework\TestCase\AbstractBackendControlle
     }
 
     /**
-     * Test new group form.
+     * Xindex new group form.
      */
     public function testNewActionNoCustomerGroupDataInSession()
     {
@@ -61,7 +61,7 @@ class GroupTest extends \Magento\TestFramework\TestCase\AbstractBackendControlle
     }
 
     /**
-     * Test form filling with data in session.
+     * Xindex form filling with data in session.
      */
     public function testNewActionWithCustomerGroupDataInSession()
     {
@@ -93,7 +93,7 @@ class GroupTest extends \Magento\TestFramework\TestCase\AbstractBackendControlle
     }
 
     /**
-     * Test calling delete without an ID.
+     * Xindex calling delete without an ID.
      *
      * @magentoDataFixture Magento/Customer/_files/customer_group.php
      */
@@ -105,7 +105,7 @@ class GroupTest extends \Magento\TestFramework\TestCase\AbstractBackendControlle
     }
 
     /**
-     * Test deleting a group.
+     * Xindex deleting a group.
      *
      * @magentoDataFixture Magento/Customer/_files/customer_group.php
      */
@@ -148,7 +148,7 @@ class GroupTest extends \Magento\TestFramework\TestCase\AbstractBackendControlle
     }
 
     /**
-     * Test saving a valid group.
+     * Xindex saving a valid group.
      *
      * @magentoDataFixture Magento/Customer/_files/customer_group.php
      */
@@ -191,7 +191,7 @@ class GroupTest extends \Magento\TestFramework\TestCase\AbstractBackendControlle
     }
 
     /**
-     * Test saving an invalid group.
+     * Xindex saving an invalid group.
      */
     public function testSaveActionCreateNewGroupWithoutCode()
     {
@@ -207,7 +207,7 @@ class GroupTest extends \Magento\TestFramework\TestCase\AbstractBackendControlle
     }
 
     /**
-     * Test saving an empty group.
+     * Xindex saving an empty group.
      */
     public function testSaveActionForwardNewCreateNewGroup()
     {
@@ -221,7 +221,7 @@ class GroupTest extends \Magento\TestFramework\TestCase\AbstractBackendControlle
     }
 
     /**
-     * Test saving an existing group.
+     * Xindex saving an existing group.
      *
      * @magentoDataFixture Magento/Customer/_files/customer_group.php
      */
@@ -240,7 +240,7 @@ class GroupTest extends \Magento\TestFramework\TestCase\AbstractBackendControlle
     }
 
     /**
-     * Test using an invalid ID.
+     * Xindex using an invalid ID.
      */
     public function testSaveActionNonExistingGroupId()
     {
@@ -261,7 +261,7 @@ class GroupTest extends \Magento\TestFramework\TestCase\AbstractBackendControlle
     }
 
     /**
-     * Test using existing code.
+     * Xindex using existing code.
      *
      * @magentoDataFixture Magento/Customer/_files/customer_group.php
      */
@@ -285,7 +285,7 @@ class GroupTest extends \Magento\TestFramework\TestCase\AbstractBackendControlle
     }
 
     /**
-     * Test saving an invalid group.
+     * Xindex saving an invalid group.
      *
      * @magentoDataFixture Magento/Customer/_files/customer_group.php
      */

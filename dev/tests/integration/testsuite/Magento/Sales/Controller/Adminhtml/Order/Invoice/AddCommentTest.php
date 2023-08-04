@@ -29,7 +29,7 @@ class AddCommentTest extends AbstractInvoiceControllerTest
      */
     public function testSendEmailOnAddInvoiceComment(): void
     {
-        $comment = 'Test Invoice Comment';
+        $comment = 'Xindex Invoice Comment';
         $order = $this->getOrder('100000001');
         $invoice = $this->getInvoiceByOrder($order);
         $this->prepareRequest(

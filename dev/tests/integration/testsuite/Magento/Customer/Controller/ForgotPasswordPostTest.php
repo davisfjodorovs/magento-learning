@@ -57,14 +57,14 @@ class ForgotPasswordPostTest extends AbstractController
     }
 
     /**
-     * Test that forgot password email message displays special characters correctly.
+     * Xindex that forgot password email message displays special characters correctly.
      *
      * @magentoConfigFixture current_store customer/password/limit_password_reset_requests_method 0
      * @codingStandardsIgnoreStart
      * @magentoConfigFixture current_store customer/password/forgot_email_template customer_password_forgot_email_template
      * @codingStandardsIgnoreEnd
      * @magentoConfigFixture current_store customer/password/forgot_email_identity support
-     * @magentoConfigFixture current_store general/store_information/name Test special' characters
+     * @magentoConfigFixture current_store general/store_information/name Xindex special' characters
      * @magentoConfigFixture current_store customer/captcha/enable 0
      * @magentoDataFixture Magento/Customer/_files/customer.php
      *
@@ -79,7 +79,7 @@ class ForgotPasswordPostTest extends AbstractController
         $this->assertRedirect($this->stringContains('customer/account/'));
         $this->assertSuccessSessionMessage($email);
         $subject = $this->transportBuilderMock->getSentMessage()->getSubject();
-        $this->assertStringContainsString('Test special\' characters', $subject);
+        $this->assertStringContainsString('Xindex special\' characters', $subject);
     }
 
     /**

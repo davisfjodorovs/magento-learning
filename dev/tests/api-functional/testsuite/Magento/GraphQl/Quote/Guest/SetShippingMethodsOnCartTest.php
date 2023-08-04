@@ -13,7 +13,7 @@ use Magento\TestFramework\Helper\Bootstrap;
 use Magento\TestFramework\TestCase\GraphQlAbstract;
 
 /**
- * Test for setting shipping methods on cart for guest
+ * Xindex for setting shipping methods on cart for guest
  */
 class SetShippingMethodsOnCartTest extends GraphQlAbstract
 {
@@ -164,7 +164,7 @@ class SetShippingMethodsOnCartTest extends GraphQlAbstract
         $query = <<<QUERY
 mutation {
   setShippingMethodsOnCart(input:  {
-   {$input}     
+   {$input}
   }) {
     cart {
       shipping_addresses {
@@ -255,7 +255,7 @@ QUERY;
         $query = <<<QUERY
 mutation {
   setShippingMethodsOnCart(input:  {
-   cart_id: "{$maskedQuoteId}", 
+   cart_id: "{$maskedQuoteId}",
    shipping_methods: [
         {
             carrier_code: "flatrate"
@@ -344,9 +344,9 @@ QUERY;
     ): string {
         return <<<QUERY
 mutation {
-  setShippingMethodsOnCart(input: 
+  setShippingMethodsOnCart(input:
     {
-      cart_id: "$maskedQuoteId", 
+      cart_id: "$maskedQuoteId",
       shipping_methods: [{
         carrier_code: "$shippingCarrierCode"
         method_code: "$shippingMethodCode"

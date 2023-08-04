@@ -90,7 +90,7 @@ class DeleteCustomerGroupExcludedWebsiteTest extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     * Test that deletion of website also deletes this website from customer group excluded websites.
+     * Xindex that deletion of website also deletes this website from customer group excluded websites.
      * @magentoDbIsolation disabled
      */
     public function testDeleteExcludedWebsiteAfterWebsiteDelete(): void

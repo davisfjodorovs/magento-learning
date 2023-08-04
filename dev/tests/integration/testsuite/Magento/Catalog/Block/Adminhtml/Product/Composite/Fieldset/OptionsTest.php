@@ -19,7 +19,7 @@ use Magento\Framework\DataObjectFactory;
 use Magento\TestFramework\Helper\Xpath;
 
 /**
- * Test cases related to check that simple product custom option renders as expected.
+ * Xindex cases related to check that simple product custom option renders as expected.
  *
  * @magentoAppArea Adminhtml
  */
@@ -84,7 +84,7 @@ class OptionsTest extends AbstractRenderCustomOptionsTest
         return [
             'type_text_required_field' => [
                 [
-                    Option::KEY_TITLE => 'Test option type text 1',
+                    Option::KEY_TITLE => 'Xindex option type text 1',
                     Option::KEY_TYPE => ProductCustomOptionInterface::OPTION_TYPE_FIELD,
                     Option::KEY_IS_REQUIRE => 0,
                     Option::KEY_PRICE => 0,
@@ -94,7 +94,7 @@ class OptionsTest extends AbstractRenderCustomOptionsTest
                 [
                     'contains' => [
                         'block_with_required_class' => '<div class="field admin__field">',
-                        'title' => 'Test option type text 1',
+                        'title' => 'Xindex option type text 1',
                     ],
                     'equals_xpath' => [
                         'zero_price' => [
@@ -107,7 +107,7 @@ class OptionsTest extends AbstractRenderCustomOptionsTest
             ],
             'type_text_is_required_option' => [
                 [
-                    Option::KEY_TITLE => 'Test option type text 2',
+                    Option::KEY_TITLE => 'Xindex option type text 2',
                     Option::KEY_TYPE => ProductCustomOptionInterface::OPTION_TYPE_FIELD,
                     Option::KEY_IS_REQUIRE => 1,
                     Option::KEY_PRICE => 0,
@@ -122,7 +122,7 @@ class OptionsTest extends AbstractRenderCustomOptionsTest
             ],
             'type_text_fixed_positive_price' => [
                 [
-                    Option::KEY_TITLE => 'Test option type text 3',
+                    Option::KEY_TITLE => 'Xindex option type text 3',
                     Option::KEY_TYPE => ProductCustomOptionInterface::OPTION_TYPE_FIELD,
                     Option::KEY_IS_REQUIRE => 0,
                     Option::KEY_PRICE => 50,
@@ -143,7 +143,7 @@ class OptionsTest extends AbstractRenderCustomOptionsTest
             ],
             'type_text_fixed_negative_price' => [
                 [
-                    Option::KEY_TITLE => 'Test option type text 4',
+                    Option::KEY_TITLE => 'Xindex option type text 4',
                     Option::KEY_TYPE => ProductCustomOptionInterface::OPTION_TYPE_FIELD,
                     Option::KEY_IS_REQUIRE => 0,
                     Option::KEY_PRICE => -50,
@@ -164,7 +164,7 @@ class OptionsTest extends AbstractRenderCustomOptionsTest
             ],
             'type_text_percent_price' => [
                 [
-                    Option::KEY_TITLE => 'Test option type text 5',
+                    Option::KEY_TITLE => 'Xindex option type text 5',
                     Option::KEY_TYPE => ProductCustomOptionInterface::OPTION_TYPE_FIELD,
                     Option::KEY_IS_REQUIRE => 0,
                     Option::KEY_PRICE => 50,
@@ -179,7 +179,7 @@ class OptionsTest extends AbstractRenderCustomOptionsTest
             ],
             'type_text_max_characters' => [
                 [
-                    Option::KEY_TITLE => 'Test option type text 6',
+                    Option::KEY_TITLE => 'Xindex option type text 6',
                     Option::KEY_TYPE => ProductCustomOptionInterface::OPTION_TYPE_FIELD,
                     Option::KEY_IS_REQUIRE => 0,
                     Option::KEY_PRICE => 10,
@@ -192,7 +192,7 @@ class OptionsTest extends AbstractRenderCustomOptionsTest
             ],
             'type_field' => [
                 [
-                    Option::KEY_TITLE => 'Test option type field 1',
+                    Option::KEY_TITLE => 'Xindex option type field 1',
                     Option::KEY_TYPE => ProductCustomOptionInterface::OPTION_TYPE_FIELD,
                     Option::KEY_IS_REQUIRE => 0,
                     Option::KEY_PRICE => 10,
@@ -215,7 +215,7 @@ class OptionsTest extends AbstractRenderCustomOptionsTest
             ],
             'type_area' => [
                 [
-                    Option::KEY_TITLE => 'Test option type area 1',
+                    Option::KEY_TITLE => 'Xindex option type area 1',
                     Option::KEY_TYPE => ProductCustomOptionInterface::OPTION_TYPE_AREA,
                     Option::KEY_IS_REQUIRE => 0,
                     Option::KEY_PRICE => 10,
@@ -269,7 +269,7 @@ class OptionsTest extends AbstractRenderCustomOptionsTest
         return [
             'type_select_required_field' => [
                 [
-                    Option::KEY_TITLE => 'Test option type select 1',
+                    Option::KEY_TITLE => 'Xindex option type select 1',
                     Option::KEY_TYPE => ProductCustomOptionInterface::OPTION_TYPE_DROP_DOWN,
                     Option::KEY_IS_REQUIRE => 0,
                 ],
@@ -281,7 +281,7 @@ class OptionsTest extends AbstractRenderCustomOptionsTest
                 [
                     'contains' => [
                         'block_with_required_class' => '<div class="admin__field field">',
-                        'title' => '<span>Test option type select 1</span>',
+                        'title' => '<span>Xindex option type select 1</span>',
                     ],
                     'equals_xpath' => [
                         'required_element' => [
@@ -293,7 +293,7 @@ class OptionsTest extends AbstractRenderCustomOptionsTest
             ],
             'type_select_is_required_option' => [
                 [
-                    Option::KEY_TITLE => 'Test option type select 2',
+                    Option::KEY_TITLE => 'Xindex option type select 2',
                     Option::KEY_TYPE => ProductCustomOptionInterface::OPTION_TYPE_DROP_DOWN,
                     Option::KEY_IS_REQUIRE => 1,
                 ],
@@ -310,7 +310,7 @@ class OptionsTest extends AbstractRenderCustomOptionsTest
             ],
             'type_drop_down_with_selected' => [
                 [
-                    Option::KEY_TITLE => 'Test option type drop-down 1',
+                    Option::KEY_TITLE => 'Xindex option type drop-down 1',
                     Option::KEY_TYPE => ProductCustomOptionInterface::OPTION_TYPE_DROP_DOWN,
                     Option::KEY_IS_REQUIRE => 0,
                     'configure_option_value' => 'Drop-down value 1',
@@ -339,7 +339,7 @@ class OptionsTest extends AbstractRenderCustomOptionsTest
             ],
             'type_multiple_with_selected' => [
                 [
-                    Option::KEY_TITLE => 'Test option type multiple 1',
+                    Option::KEY_TITLE => 'Xindex option type multiple 1',
                     Option::KEY_TYPE => ProductCustomOptionInterface::OPTION_TYPE_MULTIPLE,
                     Option::KEY_IS_REQUIRE => 0,
                     'configure_option_value' => 'Multiple value 1',
@@ -365,7 +365,7 @@ class OptionsTest extends AbstractRenderCustomOptionsTest
             ],
             'type_checkable_required_field' => [
                 [
-                    Option::KEY_TITLE => 'Test option type checkable 1',
+                    Option::KEY_TITLE => 'Xindex option type checkable 1',
                     Option::KEY_TYPE => ProductCustomOptionInterface::OPTION_TYPE_RADIO,
                     Option::KEY_IS_REQUIRE => 0,
                 ],
@@ -389,7 +389,7 @@ class OptionsTest extends AbstractRenderCustomOptionsTest
             ],
             'type_radio_is_required_option' => [
                 [
-                    Option::KEY_TITLE => 'Test option type radio 1',
+                    Option::KEY_TITLE => 'Xindex option type radio 1',
                     Option::KEY_TYPE => ProductCustomOptionInterface::OPTION_TYPE_RADIO,
                     Option::KEY_IS_REQUIRE => 1,
                 ],
@@ -414,7 +414,7 @@ class OptionsTest extends AbstractRenderCustomOptionsTest
             ],
             'type_radio_with_selected' => [
                 [
-                    Option::KEY_TITLE => 'Test option type radio 2',
+                    Option::KEY_TITLE => 'Xindex option type radio 2',
                     Option::KEY_TYPE => ProductCustomOptionInterface::OPTION_TYPE_RADIO,
                     Option::KEY_IS_REQUIRE => 0,
                     'configure_option_value' => 'Radio value 1',
@@ -443,7 +443,7 @@ class OptionsTest extends AbstractRenderCustomOptionsTest
             ],
             'type_checkbox_is_required_option' => [
                 [
-                    Option::KEY_TITLE => 'Test option type checkbox 1',
+                    Option::KEY_TITLE => 'Xindex option type checkbox 1',
                     Option::KEY_TYPE => ProductCustomOptionInterface::OPTION_TYPE_CHECKBOX,
                     Option::KEY_IS_REQUIRE => 1,
                 ],
@@ -464,7 +464,7 @@ class OptionsTest extends AbstractRenderCustomOptionsTest
             ],
             'type_checkbox_with_selected' => [
                 [
-                    Option::KEY_TITLE => 'Test option type checkbox 2',
+                    Option::KEY_TITLE => 'Xindex option type checkbox 2',
                     Option::KEY_TYPE => ProductCustomOptionInterface::OPTION_TYPE_CHECKBOX,
                     Option::KEY_IS_REQUIRE => 0,
                     'configure_option_value' => 'Checkbox value 1',

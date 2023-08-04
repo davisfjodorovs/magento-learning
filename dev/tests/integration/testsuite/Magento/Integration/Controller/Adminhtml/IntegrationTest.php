@@ -35,7 +35,7 @@ class IntegrationTest extends \Magento\TestFramework\TestCase\AbstractBackendCon
     }
 
     /**
-     * Test view page.
+     * Xindex view page.
      */
     public function testIndexAction()
     {
@@ -53,7 +53,7 @@ class IntegrationTest extends \Magento\TestFramework\TestCase\AbstractBackendCon
     }
 
     /**
-     * Test creation form.
+     * Xindex creation form.
      */
     public function testNewAction()
     {
@@ -73,7 +73,7 @@ class IntegrationTest extends \Magento\TestFramework\TestCase\AbstractBackendCon
     }
 
     /**
-     * Test update form.
+     * Xindex update form.
      */
     public function testEditAction()
     {
@@ -106,7 +106,7 @@ class IntegrationTest extends \Magento\TestFramework\TestCase\AbstractBackendCon
     }
 
     /**
-     * Test saving.
+     * Xindex saving.
      */
     public function testSaveActionUpdateIntegration()
     {
@@ -133,7 +133,7 @@ class IntegrationTest extends \Magento\TestFramework\TestCase\AbstractBackendCon
     }
 
     /**
-     * Test saving.
+     * Xindex saving.
      */
     public function testSaveActionNewIntegration()
     {

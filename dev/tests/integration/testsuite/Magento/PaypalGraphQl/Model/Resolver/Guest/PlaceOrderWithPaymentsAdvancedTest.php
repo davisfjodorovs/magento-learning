@@ -89,7 +89,7 @@ class PlaceOrderWithPaymentsAdvancedTest extends TestCase
     }
 
     /**
-     * Test successful place Order with Payments Advanced
+     * Xindex successful place Order with Payments Advanced
      *
      * @magentoConfigFixture default_store payment/payflow_advanced/active 1
      * @magentoConfigFixture default_store payment/payflow_advanced/sandbox_flag 1
@@ -155,7 +155,7 @@ class PlaceOrderWithPaymentsAdvancedTest extends TestCase
     }
 
     /**
-     * Test place Order with Payments Advanced with Invalid Url.
+     * Xindex place Order with Payments Advanced with Invalid Url.
      *
      * @magentoConfigFixture default_store payment/payflow_advanced/active 1
      * @magentoConfigFixture default_store payment/payflow_advanced/sandbox_flag 1
@@ -183,7 +183,7 @@ class PlaceOrderWithPaymentsAdvancedTest extends TestCase
     }
 
     /**
-     * Test place Order with PaymentAdvanced with a declined status
+     * Xindex place Order with PaymentAdvanced with a declined status
      *
      * @magentoConfigFixture default_store payment/payflow_advanced/active 1
      * @magentoConfigFixture default_store payment/payflow_advanced/sandbox_flag 1

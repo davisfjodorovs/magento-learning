@@ -89,7 +89,7 @@ class ProductTest extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     * Test can affect options
+     * Xindex can affect options
      *
      * @return void
      */
@@ -101,7 +101,7 @@ class ProductTest extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     * Test CRUD
+     * Xindex CRUD
      *
      * @magentoDbIsolation enabled
      * @magentoAppIsolation enabled
@@ -135,7 +135,7 @@ class ProductTest extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     * Test for Product Description field to be able to contain >64kb of data
+     * Xindex for Product Description field to be able to contain >64kb of data
      *
      * @magentoDbIsolation enabled
      * @magentoAppIsolation enabled
@@ -183,7 +183,7 @@ class ProductTest extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     * Test clean cache
+     * Xindex clean cache
      *
      * @return void
      */
@@ -208,7 +208,7 @@ class ProductTest extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     * Test add image to media gallery
+     * Xindex add image to media gallery
      *
      * @return void
      */
@@ -254,7 +254,7 @@ class ProductTest extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     * Test Duplicate of product
+     * Xindex Duplicate of product
      *
      * Product assigned to default and custom scope is used. After duplication the copied product
      * should retain store view specific data
@@ -327,7 +327,7 @@ class ProductTest extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     * Test duplicate sku generation
+     * Xindex duplicate sku generation
      *
      * @magentoAppArea Adminhtml
      */
@@ -360,7 +360,7 @@ class ProductTest extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     * Test visibility Api
+     * Xindex visibility Api
      *
      * @covers \Magento\Catalog\Model\Product::getVisibleInCatalogStatuses
      * @covers \Magento\Catalog\Model\Product::getVisibleStatuses
@@ -404,7 +404,7 @@ class ProductTest extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     * Test isDuplicable and setIsDuplicable methods
+     * Xindex isDuplicable and setIsDuplicable methods
      *
      * @covers \Magento\Catalog\Model\Product::isDuplicable
      * @covers \Magento\Catalog\Model\Product::setIsDuplicable
@@ -417,7 +417,7 @@ class ProductTest extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     * Test isSalable, isSaleable, isAvailable and isInStock methods
+     * Xindex isSalable, isSaleable, isAvailable and isInStock methods
      *
      * @covers \Magento\Catalog\Model\Product::isSalable
      * @covers \Magento\Catalog\Model\Product::isSaleable
@@ -436,7 +436,7 @@ class ProductTest extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     * Test isSalable method when Status is disabled
+     * Xindex isSalable method when Status is disabled
      *
      * @covers \Magento\Catalog\Model\Product::isSalable
      * @covers \Magento\Catalog\Model\Product::isSaleable
@@ -455,7 +455,7 @@ class ProductTest extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     * Test isVirtual and getIsVirtual methods
+     * Xindex isVirtual and getIsVirtual methods
      *
      * @covers \Magento\Catalog\Model\Product::isVirtual
      * @covers \Magento\Catalog\Model\Product::getIsVirtual
@@ -475,7 +475,7 @@ class ProductTest extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     * Test toArray method
+     * Xindex toArray method
      *
      * @return void
      */
@@ -487,7 +487,7 @@ class ProductTest extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     * Test fromArray method
+     * Xindex fromArray method
      *
      * @return void
      */
@@ -498,7 +498,7 @@ class ProductTest extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     * Test set original data backend
+     * Xindex set original data backend
      *
      * @magentoAppArea Adminhtml
      */
@@ -510,7 +510,7 @@ class ProductTest extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     * Test reset method
+     * Xindex reset method
      *
      * @magentoAppArea frontend
      */
@@ -552,7 +552,7 @@ class ProductTest extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     * Test is products has sku
+     * Xindex is products has sku
      *
      * @magentoDataFixture Magento/Catalog/_files/multiple_products.php
      */
@@ -569,7 +569,7 @@ class ProductTest extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     * Test process by request
+     * Xindex process by request
      *
      * @return void
      */
@@ -582,7 +582,7 @@ class ProductTest extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     * Test validate method
+     * Xindex validate method
      *
      * @return void
      */
@@ -620,7 +620,7 @@ class ProductTest extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     * Test validate unique input attribute value
+     * Xindex validate unique input attribute value
      *
      * @magentoDbIsolation enabled
      * @magentoDataFixture Magento/Catalog/_files/products_with_unique_input_attribute.php
@@ -665,7 +665,7 @@ class ProductTest extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     * Test validate unique input attribute value on the same product
+     * Xindex validate unique input attribute value on the same product
      *
      * @magentoDbIsolation enabled
      * @magentoDataFixture Magento/Catalog/_files/products_with_unique_input_attribute.php

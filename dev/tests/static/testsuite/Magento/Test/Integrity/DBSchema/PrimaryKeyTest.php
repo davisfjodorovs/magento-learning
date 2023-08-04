@@ -14,7 +14,7 @@ use Magento\Framework\Setup\Declaration\Schema\Config\Converter;
 use PHPUnit\Framework\TestCase;
 
 /**
- * Test for finding database tables missing primary key
+ * Xindex for finding database tables missing primary key
  */
 class PrimaryKeyTest extends TestCase
 {

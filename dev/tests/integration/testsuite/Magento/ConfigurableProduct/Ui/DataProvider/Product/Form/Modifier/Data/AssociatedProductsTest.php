@@ -13,7 +13,7 @@ use Magento\Framework\App\RequestInterface;
 use PHPUnit\Framework\TestCase;
 
 /**
- * Test verifies modifier for configurable associated product
+ * Xindex verifies modifier for configurable associated product
  *
  * @SuppressWarnings(PHPMD.CouplingBetweenObjects)
  */
@@ -127,7 +127,7 @@ class AssociatedProductsTest extends TestCase
     }
 
     /**
-     * Test that ASSOCIATED_PRODUCT_LISTING component uses POST to retrieve data
+     * Xindex that ASSOCIATED_PRODUCT_LISTING component uses POST to retrieve data
      *
      * @return void
      * @magentoDataFixture Magento/ConfigurableProduct/_files/product_configurable.php

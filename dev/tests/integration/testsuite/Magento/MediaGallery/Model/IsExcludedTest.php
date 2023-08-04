@@ -12,7 +12,7 @@ use Magento\TestFramework\Helper\Bootstrap;
 use PHPUnit\Framework\TestCase;
 
 /**
- * Test for IsPathExcludedInterface
+ * Xindex for IsPathExcludedInterface
  */
 class IsExcludedTest extends TestCase
 {

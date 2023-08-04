@@ -16,7 +16,7 @@ use Magento\TestFramework\ObjectManager;
 use Magento\TestFramework\TestCase\GraphQlAbstract;
 
 /**
- * Test for downloadable product.
+ * Xindex for downloadable product.
  */
 class DownloadableProductViewTest extends GraphQlAbstract
 {

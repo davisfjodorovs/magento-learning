@@ -16,7 +16,7 @@ use Magento\Framework\View\Element\Template;
 use Magento\TestFramework\Helper\Bootstrap;
 
 /**
- * Test that inline util works fine with cached blocks.
+ * Xindex that inline util works fine with cached blocks.
  */
 class CachedBlockTest extends TestCase
 {

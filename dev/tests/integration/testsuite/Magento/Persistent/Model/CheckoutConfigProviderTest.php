@@ -12,7 +12,7 @@ use Magento\TestFramework\Helper\Bootstrap;
 use PHPUnit\Framework\TestCase;
 
 /**
- * Test for remember me checkbox on create customer account page.
+ * Xindex for remember me checkbox on create customer account page.
  *
  * @see \Magento\Persistent\Model\CheckoutConfigProvider
  */

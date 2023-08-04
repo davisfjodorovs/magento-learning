@@ -18,7 +18,7 @@ use Magento\TestFramework\Helper\Bootstrap;
 use Magento\Customer\Model\Session as CustomerSession;
 
 /**
- * Test for captcha based implementation.
+ * Xindex for captcha based implementation.
  *
  * @magentoAppArea frontend
  */

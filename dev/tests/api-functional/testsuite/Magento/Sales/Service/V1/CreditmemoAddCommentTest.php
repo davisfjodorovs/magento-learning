@@ -44,7 +44,7 @@ class CreditmemoAddCommentTest extends WebapiAbstract
     }
 
     /**
-     * Test creditmemo add comment service
+     * Xindex creditmemo add comment service
      *
      * @magentoApiDataFixture Magento/Sales/_files/creditmemo_with_list.php
      */

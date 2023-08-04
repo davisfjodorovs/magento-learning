@@ -21,7 +21,7 @@ use Magento\TestFramework\Eav\Model\GetAttributeSetByName;
 use Magento\TestFramework\TestCase\AbstractBackendController;
 
 /**
- * Test update attribute set.
+ * Xindex update attribute set.
  */
 class UpdateTest extends AbstractBackendController
 {
@@ -64,7 +64,7 @@ class UpdateTest extends AbstractBackendController
     }
 
     /**
-     * Test that name of attribute set will update/change correctly.
+     * Xindex that name of attribute set will update/change correctly.
      *
      * @magentoDataFixture Magento/Catalog/_files/attribute_set_based_on_default.php
      *
@@ -92,7 +92,7 @@ class UpdateTest extends AbstractBackendController
     }
 
     /**
-     * Test add new group to custom attribute set.
+     * Xindex add new group to custom attribute set.
      *
      * @magentoDataFixture Magento/Catalog/_files/attribute_set_based_on_default.php
      *
@@ -106,7 +106,7 @@ class UpdateTest extends AbstractBackendController
         $this->assertNotNull($currentAttrSet);
         $attrSetId = (int)$currentAttrSet->getAttributeSetId();
         $currentAttrGroups = $this->getAttributeSetGroupCollection($attrSetId)->getItems();
-        $newGroupName = 'Test attribute group name';
+        $newGroupName = 'Xindex attribute group name';
         $newGroupSortOrder = 11;
         $postData = $this->prepareDataToRequest($currentAttrSet);
         $postData['groups'][] = [
@@ -129,7 +129,7 @@ class UpdateTest extends AbstractBackendController
     }
 
     /**
-     * Test delete custom group from custom attribute set.
+     * Xindex delete custom group from custom attribute set.
      *
      * @magentoDataFixture Magento/Catalog/_files/attribute_set_based_on_default_with_custom_group.php
      *
@@ -139,7 +139,7 @@ class UpdateTest extends AbstractBackendController
      */
     public function testDeleteCustomGroupFromCustomAttributeSet(): void
     {
-        $testGroupName = 'Test attribute group name';
+        $testGroupName = 'Xindex attribute group name';
         $currentAttrSet = $this->getAttributeSetByName->execute('new_attribute_set');
         $this->assertNotNull($currentAttrSet);
         $attrSetId = (int)$currentAttrSet->getAttributeSetId();

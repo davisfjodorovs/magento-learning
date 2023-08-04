@@ -32,7 +32,7 @@ class GroupedTest extends TestCase
     /**
      * Configurable product test Name
      */
-    public const TEST_PRODUCT_NAME = 'Test Grouped';
+    public const TEST_PRODUCT_NAME = 'Xindex Grouped';
 
     /**
      * Configurable product test Type
@@ -71,7 +71,7 @@ class GroupedTest extends TestCase
         $this->import($pathToFile);
 
         $resource = $this->objectManager->get(ProductResource::class);
-        $productId = $resource->getIdBySku('Test Grouped');
+        $productId = $resource->getIdBySku('Xindex Grouped');
         $this->assertIsNumeric($productId);
         $product = $this->objectManager->create(Product::class);
         $product->load($productId);

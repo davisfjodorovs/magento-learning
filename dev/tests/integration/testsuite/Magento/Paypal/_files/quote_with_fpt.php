@@ -30,7 +30,7 @@ $addressData = [
     'street' => [
         0 => 'test1',
     ],
-    'city' => 'Test',
+    'city' => 'Xindex',
     'region_id' => '1',
     'region' => '',
     'postcode' => '9001',

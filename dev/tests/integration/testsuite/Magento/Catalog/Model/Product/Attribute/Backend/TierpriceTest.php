@@ -10,7 +10,7 @@ namespace Magento\Catalog\Model\Product\Attribute\Backend;
 use Magento\Catalog\Api\Data\ProductInterface;
 
 /**
- * Test class for \Magento\Catalog\Model\Product\Attribute\Backend\Tierprice.
+ * Xindex class for \Magento\Catalog\Model\Product\Attribute\Backend\Tierprice.
  *
  * @magentoDataFixture Magento/Catalog/_files/product_simple.php
  * @SuppressWarnings(PHPMD.CouplingBetweenObjects)
@@ -75,7 +75,7 @@ class TierpriceTest extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     * Test that duplicated tier price values issues exception during validation.
+     * Xindex that duplicated tier price values issues exception during validation.
      *
      * @dataProvider validateDuplicateDataProvider
      */

@@ -36,7 +36,7 @@ class CsvImportHandlerTest extends \PHPUnit\Framework\TestCase
         $importedRuleCA = $objectManager->create(
             \Magento\Tax\Model\Calculation\Rate::class
         )->loadByCode(
-            'US-CA-*-Rate Import Test'
+            'US-CA-*-Rate Import Xindex'
         );
         $this->assertNotEmpty($importedRuleCA->getId());
         $this->assertEquals(8.25, (double)$importedRuleCA->getRate());
@@ -46,7 +46,7 @@ class CsvImportHandlerTest extends \PHPUnit\Framework\TestCase
         $importedRuleFL = $objectManager->create(
             \Magento\Tax\Model\Calculation\Rate::class
         )->loadByCode(
-            'US-FL-*-Rate Import Test'
+            'US-FL-*-Rate Import Xindex'
         );
         $this->assertNotEmpty($importedRuleFL->getId());
         $this->assertEquals(15, (double)$importedRuleFL->getRate());

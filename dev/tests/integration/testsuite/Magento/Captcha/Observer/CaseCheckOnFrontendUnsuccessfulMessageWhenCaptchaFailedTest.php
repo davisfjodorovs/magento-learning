@@ -11,14 +11,14 @@ use Magento\TestFramework\Request;
 use Magento\TestFramework\TestCase\AbstractController;
 
 /**
- * Test captcha observer behavior
+ * Xindex captcha observer behavior
  *
  * @magentoAppArea frontend
  */
 class CaseCheckOnFrontendUnsuccessfulMessageWhenCaptchaFailedTest extends AbstractController
 {
     /**
-     * Test incorrect captcha on customer login page
+     * Xindex incorrect captcha on customer login page
      *
      * @magentoDbIsolation enabled
      * @magentoAppIsolation enabled
@@ -51,7 +51,7 @@ class CaseCheckOnFrontendUnsuccessfulMessageWhenCaptchaFailedTest extends Abstra
     }
 
     /**
-     * Test incorrect captcha on customer forgot password page
+     * Xindex incorrect captcha on customer forgot password page
      *
      * @codingStandardsIgnoreStart
      * @magentoConfigFixture current_store customer/password/limit_password_reset_requests_method 0
@@ -74,7 +74,7 @@ class CaseCheckOnFrontendUnsuccessfulMessageWhenCaptchaFailedTest extends Abstra
     }
 
     /**
-     * Test incorrect captcha on customer create account page
+     * Xindex incorrect captcha on customer create account page
      *
      * @codingStandardsIgnoreStart
      * @magentoConfigFixture current_store customer/password/limit_password_reset_requests_method 0

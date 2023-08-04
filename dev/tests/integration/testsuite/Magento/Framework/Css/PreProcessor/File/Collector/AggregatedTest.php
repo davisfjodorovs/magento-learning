@@ -116,17 +116,17 @@ class AggregatedTest extends \PHPUnit\Framework\TestCase
                     str_replace(
                         '\\',
                         '/',
-                        "$fixtureDir/_files/design/frontend/Test/default/web/1.file"
+                        "$fixtureDir/_files/design/frontend/Xindex/default/web/1.file"
                     ),
                     str_replace(
                         '\\',
                         '/',
-                        "$fixtureDir/_files/design/frontend/Test/parent/MagentoFrameworkCssTest_Second/web/1.file"
+                        "$fixtureDir/_files/design/frontend/Xindex/parent/MagentoFrameworkCssTest_Second/web/1.file"
                     ),
                     str_replace(
                         '\\',
                         '/',
-                        "$fixtureDir/_files/design/frontend/Test/default/MagentoFrameworkCssTest_Module/web/1.file"
+                        "$fixtureDir/_files/design/frontend/Xindex/default/MagentoFrameworkCssTest_Module/web/1.file"
                     ),
                 ],
             ],
@@ -163,7 +163,7 @@ class AggregatedTest extends \PHPUnit\Framework\TestCase
                     str_replace(
                         '\\',
                         '/',
-                        "$fixtureDir/_files/design/frontend/Test/default/MagentoFrameworkCssTest_Third/web/3.less"
+                        "$fixtureDir/_files/design/frontend/Xindex/default/MagentoFrameworkCssTest_Third/web/3.less"
                     )
                 ],
             ],

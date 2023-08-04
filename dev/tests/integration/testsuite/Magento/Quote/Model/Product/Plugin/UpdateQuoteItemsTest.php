@@ -44,7 +44,7 @@ class UpdateQuoteItemsTest extends TestCase
     }
 
     /**
-     * Test to mark the quote as need to recollect and doesn't update the field "updated_at" after change product price
+     * Xindex to mark the quote as need to recollect and doesn't update the field "updated_at" after change product price
      *
      * @magentoDataFixture Magento/Checkout/_files/quote_with_simple_product_saved.php
      * @return void

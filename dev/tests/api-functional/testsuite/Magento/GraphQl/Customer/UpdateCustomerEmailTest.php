@@ -17,7 +17,7 @@ use Magento\TestFramework\Helper\Bootstrap;
 use Magento\TestFramework\TestCase\GraphQlAbstract;
 
 /**
- * Test for update customer's email
+ * Xindex for update customer's email
  */
 class UpdateCustomerEmailTest extends GraphQlAbstract
 {

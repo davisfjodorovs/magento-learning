@@ -62,7 +62,7 @@ $registry->unregister('_fixture/Magento_Tax_Model_Calculation_Rate');
 $registry->register('_fixture/Magento_Tax_Model_Calculation_Rate', $rate);
 
 $ruleData = [
-    'code' => 'Test Rule',
+    'code' => 'Xindex Rule',
     'priority' => '0',
     'position' => '0',
     'customer_tax_class_ids' => [$customerTaxClass1->getId(), $customerTaxClass2->getId()],
@@ -76,6 +76,6 @@ $taxRule = $objectManager->create(\Magento\Tax\Model\Calculation\Rule::class)->s
 $registry->unregister('_fixture/Magento_Tax_Model_Calculation_Rule');
 $registry->register('_fixture/Magento_Tax_Model_Calculation_Rule', $taxRule);
 
-$ruleData['code'] = 'Test Rule Duplicate';
+$ruleData['code'] = 'Xindex Rule Duplicate';
 
 $objectManager->create(\Magento\Tax\Model\Calculation\Rule::class)->setData($ruleData)->save();

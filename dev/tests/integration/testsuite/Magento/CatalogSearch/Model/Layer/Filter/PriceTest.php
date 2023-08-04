@@ -18,7 +18,7 @@ use Magento\TestFramework\Fixture\DbIsolation;
 use Magento\TestFramework\Helper\Bootstrap;
 
 /**
- * Test class for \Magento\CatalogSearch\Model\Layer\Filter\Price.
+ * Xindex class for \Magento\CatalogSearch\Model\Layer\Filter\Price.
  *
  * @magentoDataFixture Magento/Catalog/_files/categories.php
  * @magentoDbIsolation enabled

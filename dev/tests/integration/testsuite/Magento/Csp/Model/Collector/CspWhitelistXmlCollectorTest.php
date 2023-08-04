@@ -12,7 +12,7 @@ use Magento\TestFramework\Helper\Bootstrap;
 use PHPUnit\Framework\TestCase;
 
 /**
- * Test collecting csp_whitelist configurations.
+ * Xindex collecting csp_whitelist configurations.
  */
 class CspWhitelistXmlCollectorTest extends TestCase
 {
@@ -30,7 +30,7 @@ class CspWhitelistXmlCollectorTest extends TestCase
     }
 
     /**
-     * Test collecting configurations from multiple XML files.
+     * Xindex collecting configurations from multiple XML files.
      *
      * @return void
      */
@@ -76,7 +76,7 @@ class CspWhitelistXmlCollectorTest extends TestCase
     }
 
     /**
-     * Test collecting configurations from multiple XML files for Adminhtml area.
+     * Xindex collecting configurations from multiple XML files for Adminhtml area.
      *
      * @magentoAppArea Adminhtml
      * @return void

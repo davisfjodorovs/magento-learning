@@ -16,7 +16,7 @@ use Magento\TestFramework\ObjectManager;
 use Magento\TestFramework\TestCase\WebapiAbstract;
 
 /**
- * Test class for Magento\Integration\Api\CustomerTokenServiceInterface
+ * Xindex class for Magento\Integration\Api\CustomerTokenServiceInterface
  */
 class AccountManagementRevokeCustomerTokenTest extends WebapiAbstract
 {
@@ -25,7 +25,7 @@ class AccountManagementRevokeCustomerTokenTest extends WebapiAbstract
     public const SERVICE_VERSION = 'V1';
 
     /**
-     * Test token revoking for authenticated customer
+     * Xindex token revoking for authenticated customer
      *
      * @magentoApiDataFixture Magento/Customer/_files/customer.php
      */
@@ -71,7 +71,7 @@ class AccountManagementRevokeCustomerTokenTest extends WebapiAbstract
     }
 
     /**
-     * Test token revoking for guest customer
+     * Xindex token revoking for guest customer
      */
     public function testRevokeCustomerTokenForGuestCustomer(): void
     {

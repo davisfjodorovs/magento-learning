@@ -12,7 +12,7 @@ use Magento\TestFramework\Helper\Bootstrap;
 use Magento\TestFramework\TestCase\GraphQlAbstract;
 
 /**
- * Test for getting is_virtual from cart
+ * Xindex for getting is_virtual from cart
  */
 class GetCartIsVirtualTest extends GraphQlAbstract
 {
@@ -88,7 +88,7 @@ class GetCartIsVirtualTest extends GraphQlAbstract
     {
         return <<<QUERY
 {
-  cart(cart_id:"$maskedQuoteId") {    
+  cart(cart_id:"$maskedQuoteId") {
     is_virtual
   }
 }

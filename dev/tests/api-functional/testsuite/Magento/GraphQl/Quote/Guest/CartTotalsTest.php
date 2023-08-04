@@ -21,7 +21,7 @@ use Magento\TestFramework\Helper\Bootstrap;
 use Magento\TestFramework\TestCase\GraphQlAbstract;
 
 /**
- * Test getting cart totals for guest
+ * Xindex getting cart totals for guest
  */
 class CartTotalsTest extends GraphQlAbstract
 {

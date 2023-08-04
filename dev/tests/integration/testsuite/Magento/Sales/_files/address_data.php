@@ -8,7 +8,7 @@ return [
     'region' => 'CA',
     'region_id' => '12',
     'postcode' => '11111',
-    'company' => 'Test Company',
+    'company' => 'Xindex Company',
     'lastname' => 'lastname',
     'firstname' => 'firstname',
     'street' => 'street',

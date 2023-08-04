@@ -12,7 +12,7 @@ use Magento\TestFramework\Helper\Bootstrap;
 use Magento\TestFramework\TestCase\GraphQlAbstract;
 
 /**
- * Test retrieving of customer downloadable products.
+ * Xindex retrieving of customer downloadable products.
  */
 class CustomerDownloadableProductTest extends GraphQlAbstract
 {

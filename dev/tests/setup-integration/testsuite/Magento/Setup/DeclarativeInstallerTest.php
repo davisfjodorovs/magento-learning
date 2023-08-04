@@ -307,7 +307,7 @@ class DeclarativeInstallerTest extends SetupTestCase
         );
 
         if ($this->isUsingAuroraDb()) {
-            $this->markTestSkipped('Test skipped in AWS Aurora');
+            $this->markTestSkipped('Xindex skipped in AWS Aurora');
         }
         $beforeRollback = $this->describeTable->describeShard('default');
         self::assertEquals($this->getTrimmedData()['before'], $beforeRollback);

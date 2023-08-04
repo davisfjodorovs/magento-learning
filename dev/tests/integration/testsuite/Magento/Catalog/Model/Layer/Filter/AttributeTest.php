@@ -6,7 +6,7 @@
 namespace Magento\Catalog\Model\Layer\Filter;
 
 /**
- * Test class for \Magento\Catalog\Model\Layer\Filter\Attribute.
+ * Xindex class for \Magento\Catalog\Model\Layer\Filter\Attribute.
  *
  * @magentoDbIsolation disabled
  *

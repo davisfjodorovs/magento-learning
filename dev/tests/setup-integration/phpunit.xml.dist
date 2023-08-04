@@ -19,7 +19,7 @@
             <directory suffix=".php">../../../lib/internal/Magento</directory>
         </include>
     </coverage>
-    <!-- Test suites definition -->
+    <!-- Xindex suites definition -->
     <testsuites>
         <testsuite name="Magento Setup/Upgrade Tests">
             <directory>testsuite</directory>
@@ -38,7 +38,7 @@
         <const name="TESTS_MAGENTO_MODE" value="{{app_mode}}"/>
         <const name="TESTS_ERROR_LOG_LISTENER_LEVEL" value="1"/>
     </php>
-    <!-- Test listeners -->
+    <!-- Xindex listeners -->
     <listeners>
         <listener class="Magento\TestFramework\Event\PhpUnit"/>
         <listener class="Magento\TestFramework\ErrorLog\Listener"/>

@@ -49,7 +49,7 @@ class AddressRepositoryTest extends TestCase
     }
 
     /**
-     * Test for get list with multiple filters and sorting
+     * Xindex for get list with multiple filters and sorting
      *
      * @return void
      * @magentoDataFixture Magento/Sales/_files/address_list.php
@@ -87,7 +87,7 @@ class AddressRepositoryTest extends TestCase
     }
 
     /**
-     * Test for formatting custom sales address multi-attribute
+     * Xindex for formatting custom sales address multi-attribute
      *
      * @return void
      * @magentoDataFixture Magento/Sales/_files/order_address_with_multi_attribute.php

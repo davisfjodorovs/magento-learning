@@ -17,7 +17,7 @@ use PHPUnit\Framework\TestCase;
 use Magento\Store\Model\StoreManagerInterface;
 
 /**
- * Test registry locator
+ * Xindex registry locator
  *
  * @see \Magento\Catalog\Model\Locator\RegistryLocator
  * @magentoAppArea frontend

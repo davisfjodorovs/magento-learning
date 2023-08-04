@@ -12,7 +12,7 @@ use PHPUnit\Framework\TestCase;
 class FilesSearchTest extends TestCase
 {
     /**
-     * Test files list extraction from file.
+     * Xindex files list extraction from file.
      */
     public function testGetFiles(): void
     {
@@ -32,7 +32,7 @@ class FilesSearchTest extends TestCase
     }
 
     /**
-     * Test callblack function in case when files with lists did not found.
+     * Xindex callblack function in case when files with lists did not found.
      */
     public function testGetEmptyList(): void
     {

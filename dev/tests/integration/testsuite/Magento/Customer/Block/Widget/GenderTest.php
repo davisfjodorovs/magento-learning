@@ -19,7 +19,7 @@ class GenderTest extends \PHPUnit\Framework\TestCase
     private $_model;
 
     /**
-     * Test initialization and set up. Create the Gender block.
+     * Xindex initialization and set up. Create the Gender block.
      * @return void
      */
     protected function setUp(): void
@@ -36,7 +36,7 @@ class GenderTest extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     * Test the Gender::getGenderOptions() method.
+     * Xindex the Gender::getGenderOptions() method.
      * @return void
      */
     public function testGetGenderOptions()
@@ -48,7 +48,7 @@ class GenderTest extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     * Test the Gender::toHtml() method.
+     * Xindex the Gender::toHtml() method.
      * @return void
      */
     public function testToHtml()

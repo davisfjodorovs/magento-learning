@@ -1,6 +1,6 @@
 <?php
 /**
- * Test for \Magento\Framework\Filesystem\Io\File
+ * Xindex for \Magento\Framework\Filesystem\Io\File
  *
  * Copyright © Magento, Inc. All rights reserved.
  * See COPYING.txt for license details.

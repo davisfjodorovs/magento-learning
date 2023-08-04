@@ -19,7 +19,7 @@ use Magento\TestFramework\Quote\Model\GetQuoteByReservedOrderId;
 use PHPUnit\Framework\TestCase;
 
 /**
- * Test for quote item persister model.
+ * Xindex for quote item persister model.
  *
  * @see \Magento\Quote\Model\Quote\Item\CartItemPersister
  * @magentoDbIsolation enabled

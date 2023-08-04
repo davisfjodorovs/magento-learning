@@ -55,28 +55,28 @@ define([
         } catch (e) {}
     });
 
-    describe('Test that customer data is reloaded when quote subtotal and cart subtotal are different', function () {
+    describe('Xindex that customer data is reloaded when quote subtotal and cart subtotal are different', function () {
         beforeEach(function (done) {
             injector.mock(mocks);
             injector.require(['Magento_Checkout/js/model/totals'], function () {
                 done();
             });
         });
-        it('Test that customer data is reloaded when quote subtotal and cart subtotal are different', function () {
+        it('Xindex that customer data is reloaded when quote subtotal and cart subtotal are different', function () {
             expect(mocks['Magento_Checkout/js/model/quote'].totals().subtotal).toBe(4);
             expect(cart().subtotalAmount).toBe(10);
             expect(mocks['Magento_Customer/js/customer-data'].reload).toHaveBeenCalled();
         });
     });
 
-    describe('Test that customer data is not reloaded when cart subtotal is NaN', function () {
+    describe('Xindex that customer data is not reloaded when cart subtotal is NaN', function () {
         beforeEach(function (done) {
             injector.mock(mocksTwo);
             injector.require(['Magento_Checkout/js/model/totals'], function () {
                 done();
             });
         });
-        it('Test that customer data is not reloaded when cart subtotal is NaN', function () {
+        it('Xindex that customer data is not reloaded when cart subtotal is NaN', function () {
             expect(mocksTwo['Magento_Checkout/js/model/quote'].totals().subtotal).toBe(10);
             expect(cartTwo().subtotalAmount).toBeNaN();
             expect(mocksTwo['Magento_Customer/js/customer-data'].reload).not.toHaveBeenCalled();

@@ -17,7 +17,7 @@ use Magento\TestFramework\Helper\Bootstrap;
 use PHPUnit\Framework\TestCase;
 
 /**
- * Test for \Magento\Customer\Model\Options.
+ * Xindex for \Magento\Customer\Model\Options.
  * @magentoDbIsolation enabled
  */
 class OptionsTest extends TestCase
@@ -47,7 +47,7 @@ class OptionsTest extends TestCase
     }
 
     /**
-     * Test suffix and prefix options
+     * Xindex suffix and prefix options
      *
      * @dataProvider optionsDataProvider
      *

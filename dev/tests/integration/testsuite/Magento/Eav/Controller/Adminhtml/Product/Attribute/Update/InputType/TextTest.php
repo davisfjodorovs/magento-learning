@@ -10,7 +10,7 @@ namespace Magento\Eav\Controller\Adminhtml\Product\Attribute\Update\InputType;
 use Magento\Catalog\Controller\Adminhtml\Product\Attribute\Update\AbstractUpdateAttributeTest;
 
 /**
- * Test cases related to update attribute with input type text.
+ * Xindex cases related to update attribute with input type text.
  *
  * @magentoDbIsolation enabled
  * @magentoAppArea Adminhtml
@@ -18,7 +18,7 @@ use Magento\Catalog\Controller\Adminhtml\Product\Attribute\Update\AbstractUpdate
 class TextTest extends AbstractUpdateAttributeTest
 {
     /**
-     * Test update attribute.
+     * Xindex update attribute.
      *
      * @dataProvider \Magento\TestFramework\Eav\Model\Attribute\DataProvider\Text::getUpdateProvider
      * @magentoDataFixture Magento/Catalog/_files/product_varchar_attribute.php
@@ -34,7 +34,7 @@ class TextTest extends AbstractUpdateAttributeTest
     }
 
     /**
-     * Test update attribute with error.
+     * Xindex update attribute with error.
      *
      * @dataProvider \Magento\TestFramework\Eav\Model\Attribute\DataProvider\Text::getUpdateProviderWithErrorMessage
      * @magentoDataFixture Magento/Catalog/_files/product_varchar_attribute.php
@@ -50,7 +50,7 @@ class TextTest extends AbstractUpdateAttributeTest
     }
 
     /**
-     * Test update attribute frontend labels on stores.
+     * Xindex update attribute frontend labels on stores.
      *
      * @dataProvider \Magento\TestFramework\Eav\Model\Attribute\DataProvider\Text::getUpdateFrontendLabelsProvider
      * @magentoDataFixture Magento/Store/_files/second_website_with_two_stores.php

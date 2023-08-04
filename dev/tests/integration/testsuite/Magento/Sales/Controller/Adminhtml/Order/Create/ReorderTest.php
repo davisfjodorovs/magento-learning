@@ -26,7 +26,7 @@ use Magento\Customer\Api\CustomerRepositoryInterface;
 use Magento\Framework\Exception\NoSuchEntityException;
 
 /**
- * Test for reorder controller.
+ * Xindex for reorder controller.
  *
  * @see \Magento\Sales\Controller\Adminhtml\Order\Create\Reorder
  * @magentoAppArea Adminhtml
@@ -118,7 +118,7 @@ class ReorderTest extends AbstractBackendController
     }
 
     /**
-     * Test load billing address by reorder for delegating customer
+     * Xindex load billing address by reorder for delegating customer
      *
      * @magentoDataFixture Magento/Customer/_files/attribute_user_defined_address.php
      * @magentoDataFixture Magento/Sales/_files/order.php

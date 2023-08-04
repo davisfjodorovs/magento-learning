@@ -28,7 +28,7 @@ class AttributeLoaderTest extends \Magento\TestFramework\Indexer\TestCase
             MetadataPool::class,
             [
                 'metadata' => [
-                    'Test\Entity\Type' => [
+                    'Xindex\Entity\Type' => [
                         'entityTableName' => 'test_entity',
                         'eavEntityType' => 'test',
                         'identifierField' => 'entity_id',
@@ -46,14 +46,14 @@ class AttributeLoaderTest extends \Magento\TestFramework\Indexer\TestCase
      */
     public function testGetAttributes($expectedAttributeCodes, $attributeSetId = null)
     {
-        $attributes = $this->attributeLoader->getAttributes('Test\Entity\Type', $attributeSetId);
+        $attributes = $this->attributeLoader->getAttributes('Xindex\Entity\Type', $attributeSetId);
         $this->assertEquals(count($expectedAttributeCodes), count($attributes));
         $attributeCodes = [];
         foreach ($attributes as $attribute) {
             $attributeCodes[] = $attribute->getAttributeCode();
         }
         $this->assertEquals($expectedAttributeCodes, $attributeCodes);
-        $attributes2 = $this->attributeLoader->getAttributes('Test\Entity\Type', $attributeSetId);
+        $attributes2 = $this->attributeLoader->getAttributes('Xindex\Entity\Type', $attributeSetId);
         $this->assertEquals($attributes, $attributes2);
     }
 

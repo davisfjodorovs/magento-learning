@@ -15,7 +15,7 @@ use Magento\TestFramework\Helper\Bootstrap;
 class NotProtectedExtensionTest extends \PHPUnit\Framework\TestCase
 {
     /**
-     * Test that phpt, pht is invalid extension type
+     * Xindex that phpt, pht is invalid extension type
      * @dataProvider isValidDataProvider
      */
     public function testIsValid($extension)

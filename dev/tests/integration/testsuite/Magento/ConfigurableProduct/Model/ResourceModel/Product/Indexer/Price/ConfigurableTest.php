@@ -21,7 +21,7 @@ use PHPUnit\Framework\TestCase;
 use Magento\Catalog\Api\Data\ProductInterface;
 
 /**
- * Test reindex of configurable products
+ * Xindex reindex of configurable products
  *
  * @SuppressWarnings(PHPMD.CouplingBetweenObjects)
  * @magentoAppArea Adminhtml
@@ -54,7 +54,7 @@ class ConfigurableTest extends TestCase
     }
 
     /**
-     * Test get product final price if one of child is disabled
+     * Xindex get product final price if one of child is disabled
      *
      * @magentoDataFixture Magento/ConfigurableProduct/_files/product_configurable.php
      * @magentoDbIsolation disabled
@@ -83,7 +83,7 @@ class ConfigurableTest extends TestCase
     }
 
     /**
-     * Test get product final price if one of child is disabled per store
+     * Xindex get product final price if one of child is disabled per store
      *
      * @magentoDataFixture Magento/ConfigurableProduct/_files/product_configurable.php
      * @magentoDbIsolation disabled
@@ -114,7 +114,7 @@ class ConfigurableTest extends TestCase
     }
 
     /**
-     * Test get product minimal price if one child is out of stock
+     * Xindex get product minimal price if one child is out of stock
      *
      * @magentoConfigFixture current_store cataloginventory/options/show_out_of_stock 1
      * @magentoDataFixture Magento/ConfigurableProduct/_files/product_configurable.php
@@ -160,7 +160,7 @@ class ConfigurableTest extends TestCase
     }
 
     /**
-     * Test get product minimal price if all children is out of stock
+     * Xindex get product minimal price if all children is out of stock
      *
      * @magentoConfigFixture current_store cataloginventory/options/show_out_of_stock 1
      * @magentoDataFixture Magento/ConfigurableProduct/_files/product_configurable.php

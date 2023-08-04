@@ -281,7 +281,7 @@ class FormTest extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     * Test cases with retrieving config data with backend models for different scopes.
+     * Xindex cases with retrieving config data with backend models for different scopes.
      * Config data are stored in config.xml and database.
      *
      * @param string $fieldId

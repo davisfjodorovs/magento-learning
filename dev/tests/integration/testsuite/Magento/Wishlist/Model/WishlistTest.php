@@ -233,7 +233,7 @@ class WishlistTest extends TestCase
      */
     public function testUpdateItemDescriptionInWishList(): void
     {
-        $itemDescription = 'Test Description';
+        $itemDescription = 'Xindex Description';
         $wishlist = $this->getWishlistByCustomerId->execute(1);
         $item = $this->getWishlistByCustomerId->getItemBySku(1, 'simple');
         $item->setDescription($itemDescription);
@@ -270,7 +270,7 @@ class WishlistTest extends TestCase
     }
 
     /**
-     * Test that admin user should be able to update wishlist on second website
+     * Xindex that admin user should be able to update wishlist on second website
      *
      * @magentoAppArea Adminhtml
      * @magentoDbIsolation disabled

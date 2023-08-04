@@ -17,7 +17,7 @@ use Magento\Framework\Config\DataInterface as ConfigData;
 use Magento\Framework\Config\DataInterfaceFactory as ConfigDataFactory;
 
 /**
- * Test the component factory.
+ * Xindex the component factory.
  */
 class UiComponentFactoryTest extends TestCase
 {
@@ -57,7 +57,7 @@ class UiComponentFactoryTest extends TestCase
     }
 
     /**
-     * Test creating a component.
+     * Xindex creating a component.
      *
      * @return void
      * @magentoAppArea Adminhtml

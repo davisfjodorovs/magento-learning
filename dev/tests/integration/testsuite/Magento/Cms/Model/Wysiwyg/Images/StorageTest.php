@@ -16,7 +16,7 @@ use Magento\Framework\Filesystem\DriverInterface;
 use Magento\TestFramework\Helper\Bootstrap;
 
 /**
- * Test methods of class Storage
+ * Xindex methods of class Storage
  *
  * @SuppressWarnings(PHPMD.LongVariable)
  * @SuppressWarnings(PHPMD.CouplingBetweenObjects)

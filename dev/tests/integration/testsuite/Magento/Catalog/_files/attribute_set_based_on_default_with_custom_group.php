@@ -38,7 +38,7 @@ $attributeSet->initFromSkeleton($entityType->getDefaultAttributeSetId());
 /** @var AttributeGroupInterface $newGroup */
 $newGroup = $objectManager->get(GroupFactory::class)->create();
 $newGroup->setId(null)
-    ->setAttributeGroupName('Test attribute group name')
+    ->setAttributeGroupName('Xindex attribute group name')
     ->setAttributeSetId($attributeSet->getAttributeSetId())
     ->setSortOrder(11)
     ->setAttributes([]);

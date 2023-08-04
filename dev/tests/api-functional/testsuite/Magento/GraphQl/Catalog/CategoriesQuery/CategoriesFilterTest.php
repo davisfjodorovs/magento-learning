@@ -13,7 +13,7 @@ use Magento\TestFramework\Helper\Bootstrap;
 use Magento\TestFramework\TestCase\GraphQlAbstract;
 
 /**
- * Test categories query filtering works as expected
+ * Xindex categories query filtering works as expected
  */
 class CategoriesFilterTest extends GraphQlAbstract
 {
@@ -200,7 +200,7 @@ QUERY;
         //Check base category children
         $expectedBaseCategoryChildren = [
             ['name' => 'Category 1.1', 'description' => 'Category 1.1 description.'],
-            ['name' => 'Category 1.2', 'description' => 'Its a description of Test Category 1.2']
+            ['name' => 'Category 1.2', 'description' => 'Its a description of Xindex Category 1.2']
         ];
         $this->assertCategoryChildren($baseCategory, $expectedBaseCategoryChildren);
 
@@ -218,7 +218,7 @@ QUERY;
         //Check second child category
         $secondChildCategory = $baseCategory['children'][1];
         $this->assertEquals('Category 1.2', $secondChildCategory['name']);
-        $this->assertEquals('Its a description of Test Category 1.2', $secondChildCategory['description']);
+        $this->assertEquals('Its a description of Xindex Category 1.2', $secondChildCategory['description']);
         $firstChildCategoryExpectedProducts = [
             ['sku' => 'simple-4', 'name' => 'Simple Product Three'],
             ['sku' => 'simple', 'name' => 'Simple Product']
@@ -293,14 +293,14 @@ QUERY;
         $this->assertCategoryProducts($baseCategory, $expectedBaseCategoryProducts);
         //Check base category children
         $expectedBaseCategoryChildren = [
-            ['name' => 'Category 1.2', 'description' => 'Its a description of Test Category 1.2']
+            ['name' => 'Category 1.2', 'description' => 'Its a description of Xindex Category 1.2']
         ];
         $this->assertCategoryChildren($baseCategory, $expectedBaseCategoryChildren);
 
         //Check first child category
         $firstChildCategory = $baseCategory['children'][0];
         $this->assertEquals('Category 1.2', $firstChildCategory['name']);
-        $this->assertEquals('Its a description of Test Category 1.2', $firstChildCategory['description']);
+        $this->assertEquals('Its a description of Xindex Category 1.2', $firstChildCategory['description']);
 
         $firstChildCategoryExpectedProducts = [
             ['sku' => 'simple-4', 'name' => 'Simple Product Three'],
@@ -401,7 +401,7 @@ QUERY;
     }
 
     /**
-     * Test category image full name is returned
+     * Xindex category image full name is returned
      *
      * @magentoApiDataFixture Magento/Catalog/_files/catalog_category_with_long_image_name.php
      * @magentoConfigFixture default_store web/seo/use_rewrites 0

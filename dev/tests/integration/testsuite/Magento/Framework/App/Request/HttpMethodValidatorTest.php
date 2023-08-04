@@ -66,7 +66,7 @@ class HttpMethodValidatorTest extends TestCase
     }
 
     /**
-     * Test positive case.
+     * Xindex positive case.
      *
      * @throws InvalidRequestException
      */
@@ -83,7 +83,7 @@ class HttpMethodValidatorTest extends TestCase
     }
 
     /**
-     * Test negative case.
+     * Xindex negative case.
      *
      */
     public function testNotAllowedMethod()

@@ -18,7 +18,7 @@ use Magento\TestFramework\Helper\Bootstrap;
 use Magento\TestFramework\TestCase\GraphQlAbstract;
 
 /**
- * Test for orders with bundle product
+ * Xindex for orders with bundle product
  */
 class RetrieveOrdersWithBundleProductByOrderNumberTest extends GraphQlAbstract
 {
@@ -50,7 +50,7 @@ class RetrieveOrdersWithBundleProductByOrderNumberTest extends GraphQlAbstract
     }
 
     /**
-     * Test customer order details with bundle product with child items
+     * Xindex customer order details with bundle product with child items
      *
      * @magentoApiDataFixture Magento/Customer/_files/customer.php
      * @magentoApiDataFixture Magento/Bundle/_files/bundle_product_two_dropdown_options.php
@@ -118,7 +118,7 @@ class RetrieveOrdersWithBundleProductByOrderNumberTest extends GraphQlAbstract
     }
 
     /**
-     * Test customer order with bundle product and no telephone in address
+     * Xindex customer order with bundle product and no telephone in address
      *
      * @magentoApiDataFixture Magento/Customer/_files/attribute_telephone_not_required_address.php
      * @magentoApiDataFixture Magento/Customer/_files/customer.php
@@ -147,7 +147,7 @@ class RetrieveOrdersWithBundleProductByOrderNumberTest extends GraphQlAbstract
     }
 
     /**
-     * Test customer order details with bundle products
+     * Xindex customer order details with bundle products
      * @magentoApiDataFixture Magento/Customer/_files/customer.php
      * @magentoApiDataFixture Magento/Bundle/_files/bundle_product_two_dropdown_options.php
      * @magentoApiDataFixture Magento/GraphQl/Tax/_files/tax_rule_for_region_1.php

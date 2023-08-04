@@ -22,7 +22,7 @@ use PHPUnit\Framework\MockObject\MockObject;
 use PHPUnit\Framework\TestCase;
 
 /**
- * Test for \Magento\Setup\Mvc\Bootstrap\InitParamListener
+ * Xindex for \Magento\Setup\Mvc\Bootstrap\InitParamListener
  * @SuppressWarnings(PHPMD.CouplingBetweenObjects)
  */
 class InitParamListenerTest extends TestCase

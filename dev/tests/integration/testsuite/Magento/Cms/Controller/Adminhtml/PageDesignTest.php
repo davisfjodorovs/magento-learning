@@ -26,7 +26,7 @@ use Magento\UrlRewrite\Model\ResourceModel\UrlRewriteCollectionFactory;
 use Magento\UrlRewrite\Model\UrlRewrite;
 
 /**
- * Test the saving CMS pages design via admin area interface.
+ * Xindex the saving CMS pages design via admin area interface.
  *
  * @magentoAppArea Adminhtml
  * @SuppressWarnings(PHPMD.CouplingBetweenObjects)
@@ -144,7 +144,7 @@ class PageDesignTest extends AbstractBackendController
     {
         //Expected list of sessions messages collected throughout the controller calls.
         $sessionMessages = ['You are not allowed to change CMS pages design settings'];
-        //Test page data.
+        //Xindex page data.
         $id = 'test-page' .rand(1111, 9999);
         $requestData = [
             PageInterface::IDENTIFIER => $id,
@@ -211,7 +211,7 @@ class PageDesignTest extends AbstractBackendController
      */
     public function testSaveDesignWithDefaults(): void
     {
-        //Test page data.
+        //Xindex page data.
         $id = 'test-page' .rand(1111, 9999);
         $defaultLayout = $this->scopeConfig->getValue('web/default_layouts/default_cms_layout');
         $requestData = [
@@ -239,7 +239,7 @@ class PageDesignTest extends AbstractBackendController
     }
 
     /**
-     * Test that custom layout update fields are dealt with properly.
+     * Xindex that custom layout update fields are dealt with properly.
      *
      * @magentoDataFixture Magento/Cms/_files/pages_with_layout_xml.php
      * @throws \Throwable
@@ -286,7 +286,7 @@ class PageDesignTest extends AbstractBackendController
     }
 
     /**
-     * Test create CMS page with invalid URL
+     * Xindex create CMS page with invalid URL
      *
      * @return void
      */
@@ -317,7 +317,7 @@ class PageDesignTest extends AbstractBackendController
     }
 
     /**
-     * Test create CMS page with invalid layout update
+     * Xindex create CMS page with invalid layout update
      *
      * @return void
      */

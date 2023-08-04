@@ -27,7 +27,7 @@ use Magento\UrlRewrite\Model\Storage\DbStorage;
 use Magento\UrlRewrite\Service\V1\Data\UrlRewrite;
 
 /**
- * Test repository web API.
+ * Xindex repository web API.
  *
  * @SuppressWarnings(PHPMD.CouplingBetweenObjects)
  */
@@ -140,13 +140,13 @@ class CategoryRepositoryTest extends WebapiAbstract
     }
 
     /**
-     * Test for create category process
+     * Xindex for create category process
      *
      * @magentoApiDataFixture Magento/Catalog/Model/Category/_files/service_category_create.php
      */
     public function testCreate()
     {
-        $categoryData = $this->getSimpleCategoryData(['name' => 'Test Category Name']);
+        $categoryData = $this->getSimpleCategoryData(['name' => 'Xindex Category Name']);
         $result = $this->createCategory($categoryData);
         $this->assertGreaterThan(0, $result['id']);
         foreach (['name', 'parent_id', 'available_sort_by'] as $fieldName) {
@@ -249,12 +249,12 @@ class CategoryRepositoryTest extends WebapiAbstract
     {
         $categoryId = $this->fixtures->get('category')->getId();
         $categoryData = [
-            'name' => 'Update Category Test',
+            'name' => 'Update Category Xindex',
             'is_active' => false,
             'custom_attributes' => [
                 [
                     'attribute_code' => 'description',
-                    'value' => "Update Category Description Test",
+                    'value' => "Update Category Description Xindex",
                 ],
             ],
         ];
@@ -264,8 +264,8 @@ class CategoryRepositoryTest extends WebapiAbstract
         $model = Bootstrap::getObjectManager()->get(Category::class);
         $category = $model->load($categoryId);
         $this->assertFalse((bool)$category->getIsActive(), 'Category "is_active" must equal to false');
-        $this->assertEquals("Update Category Test", $category->getName());
-        $this->assertEquals("Update Category Description Test", $category->getDescription());
+        $this->assertEquals("Update Category Xindex", $category->getName());
+        $this->assertEquals("Update Category Description Xindex", $category->getDescription());
         $this->createdCategories = [$categoryId];
     }
 
@@ -276,7 +276,7 @@ class CategoryRepositoryTest extends WebapiAbstract
     {
         $categoryId = 333;
         $categoryData = [
-            'name' => 'Update Category Test With default_sort_by Attribute',
+            'name' => 'Update Category Xindex With default_sort_by Attribute',
             'is_active' => true,
             "available_sort_by" => [],
             'custom_attributes' => [
@@ -292,7 +292,7 @@ class CategoryRepositoryTest extends WebapiAbstract
         $model = Bootstrap::getObjectManager()->get(Category::class);
         $category = $model->load($categoryId);
         $this->assertTrue((bool)$category->getIsActive(), 'Category "is_active" must equal to true');
-        $this->assertEquals("Update Category Test With default_sort_by Attribute", $category->getName());
+        $this->assertEquals("Update Category Xindex With default_sort_by Attribute", $category->getName());
         $this->assertEquals("name", $category->getDefaultSortBy());
         $this->createdCategories = [$categoryId];
     }
@@ -306,11 +306,11 @@ class CategoryRepositoryTest extends WebapiAbstract
 
         $categoryId = $this->fixtures->get('category')->getId();
         $categoryData = [
-            'name' => 'Update Category Test Old Name',
+            'name' => 'Update Category Xindex Old Name',
             'custom_attributes' => [
                 [
                     'attribute_code' => 'url_key',
-                    'value' => "Update Category Test Old Name",
+                    'value' => "Update Category Xindex Old Name",
                 ],
             ],
         ];
@@ -318,11 +318,11 @@ class CategoryRepositoryTest extends WebapiAbstract
         $this->assertEquals($categoryId, $result['id']);
 
         $categoryData = [
-            'name' => 'Update Category Test New Name',
+            'name' => 'Update Category Xindex New Name',
             'custom_attributes' => [
                 [
                     'attribute_code' => 'url_key',
-                    'value' => "Update Category Test New Name",
+                    'value' => "Update Category Xindex New Name",
                 ],
                 [
                     'attribute_code' => 'save_rewrites_history',
@@ -335,7 +335,7 @@ class CategoryRepositoryTest extends WebapiAbstract
         /** @var Category $model */
         $model = Bootstrap::getObjectManager()->get(Category::class);
         $category = $model->load($categoryId);
-        $this->assertEquals("Update Category Test New Name", $category->getName());
+        $this->assertEquals("Update Category Xindex New Name", $category->getName());
 
         // check for the url rewrite for the new name
         $storage = Bootstrap::getObjectManager()->get(DbStorage::class);
@@ -517,7 +517,7 @@ class CategoryRepositoryTest extends WebapiAbstract
     }
 
     /**
-     * Test design settings authorization
+     * Xindex design settings authorization
      *
      * @magentoApiDataFixture Magento/User/_files/user_with_custom_role.php
      * @throws \Throwable

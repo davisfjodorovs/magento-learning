@@ -16,7 +16,7 @@ use PHPUnit\Framework\TestCase;
 class PageTest extends TestCase
 {
     /**
-     * Test subject.
+     * Xindex subject.
      *
      * @var Page
      */
@@ -31,7 +31,7 @@ class PageTest extends TestCase
     }
 
     /**
-     * Test ExampleViewModel::getCollection() will exclude home and no-route cms pages for site map.
+     * Xindex ExampleViewModel::getCollection() will exclude home and no-route cms pages for site map.
      *
      * @magentoAppArea Adminhtml
      * @magentoDataFixture Magento/Cms/_files/pages.php

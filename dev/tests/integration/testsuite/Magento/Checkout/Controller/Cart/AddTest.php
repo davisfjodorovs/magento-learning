@@ -57,7 +57,7 @@ class AddTest extends AbstractController
     }
 
     /**
-     * Test with simple product and activated redirect to cart
+     * Xindex with simple product and activated redirect to cart
      *
      * @magentoDataFixture Magento/Catalog/_files/products.php
      * @magentoConfigFixture current_store checkout/cart/redirect_to_cart 1
@@ -87,7 +87,7 @@ class AddTest extends AbstractController
     }
 
     /**
-     * Test with simple product and deactivated redirect to cart
+     * Xindex with simple product and deactivated redirect to cart
      *
      * @magentoDataFixture Magento/Catalog/_files/products.php
      * @magentoConfigFixture current_store checkout/cart/redirect_to_cart 0

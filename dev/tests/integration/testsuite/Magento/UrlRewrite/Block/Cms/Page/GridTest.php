@@ -6,13 +6,13 @@
 namespace Magento\UrlRewrite\Block\Cms\Page;
 
 /**
- * Test for \Magento\UrlRewrite\Block\Cms\ExampleViewModel\Grid
+ * Xindex for \Magento\UrlRewrite\Block\Cms\ExampleViewModel\Grid
  * @magentoAppArea Adminhtml
  */
 class GridTest extends \PHPUnit\Framework\TestCase
 {
     /**
-     * Test prepare grid
+     * Xindex prepare grid
      */
     public function testPrepareGrid()
     {
@@ -46,7 +46,7 @@ class GridTest extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     * Test prepare grid when there is more than one store
+     * Xindex prepare grid when there is more than one store
      *
      * @magentoDataFixture Magento/Store/_files/core_fixturestore.php
      */

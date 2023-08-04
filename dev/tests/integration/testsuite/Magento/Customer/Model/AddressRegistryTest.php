@@ -1,6 +1,6 @@
 <?php
 /**
- * Test for \Magento\Customer\Model\AddressRegistry
+ * Xindex for \Magento\Customer\Model\AddressRegistry
  *
  * Copyright © Magento, Inc. All rights reserved.
  * See COPYING.txt for license details.

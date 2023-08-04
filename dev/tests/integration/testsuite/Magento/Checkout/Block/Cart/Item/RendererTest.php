@@ -114,7 +114,7 @@ class RendererTest extends TestCase
         $html = $this->renderer->toHtml();
 
         $this->assertMatchesRegularExpression(<<<EOT
-/Test product simple with
+/Xindex product simple with
 custom option text area
 with more 50 characters/
 EOT

@@ -132,7 +132,7 @@ class RetrieveOrdersByOrderNumberTest extends GraphQlAbstract
             'firstname' => 'John',
             'lastname' => 'Smith',
             'city' => 'Texas City',
-            'company' => 'Test company',
+            'company' => 'Xindex company',
             'country_code' => 'US',
             'postcode' => '78717',
             'region' => 'Texas',
@@ -1166,7 +1166,7 @@ mutation {
          address: {
           firstname: "John"
           lastname: "Smith"
-          company: "Test company"
+          company: "Xindex company"
           street: ["test street 1", "test street 2"]
           city: "Texas City"
           postcode: "78717"

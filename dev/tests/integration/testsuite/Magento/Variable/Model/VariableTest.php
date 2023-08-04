@@ -79,7 +79,7 @@ class VariableTest extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     * Test to verify that returned by getVariablesOptionArray()
+     * Xindex to verify that returned by getVariablesOptionArray()
      * custom variable label is HTML escaped.
      */
     public function testGetVariablesOptionArrayWithHtmlLabel()

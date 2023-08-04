@@ -160,9 +160,9 @@ class LayoutTest extends TestCase
     public function testGetElementProperty(): void
     {
         $name = 'test';
-        $this->layout->addContainer($name, 'Test', ['option1' => 1, 'option2' => 2]);
+        $this->layout->addContainer($name, 'Xindex', ['option1' => 1, 'option2' => 2]);
         $this->assertEquals(
-            'Test',
+            'Xindex',
             $this->layout->getElementProperty($name, Element::CONTAINER_OPT_LABEL)
         );
         $this->assertEquals(

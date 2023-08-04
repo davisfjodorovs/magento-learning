@@ -158,7 +158,7 @@ class AddressTest extends \PHPUnit\Framework\TestCase
         $data = [
             'firstname' => 'John',
             'lastname' => 'Smith',
-            'company' => 'Test Company',
+            'company' => 'Xindex Company',
             'street' => 'Green str, 67',
             'city' => 'Culver City',
             'country_id' => 'US',

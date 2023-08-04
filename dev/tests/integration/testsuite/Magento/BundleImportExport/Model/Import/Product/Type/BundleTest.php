@@ -128,7 +128,7 @@ class BundleTest extends \Magento\TestFramework\Indexer\TestCase
     }
 
     /**
-     * Test that Bundle options are updated correctly by import
+     * Xindex that Bundle options are updated correctly by import
      *
      * @dataProvider valuesDataProvider
      *
@@ -179,7 +179,7 @@ class BundleTest extends \Magento\TestFramework\Indexer\TestCase
     }
 
     /**
-     * Test that Bundle options with question mark are updated correctly by import
+     * Xindex that Bundle options with question mark are updated correctly by import
      *
      *
      * @magentoAppArea Adminhtml

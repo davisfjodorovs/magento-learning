@@ -626,7 +626,7 @@ QUERY;
                     'request_var' => 'cat'
                 ],
                 [
-                    'name' => 'Second Test Configurable',
+                    'name' => 'Second Xindex Configurable',
                     'request_var' => 'second_test_configurable'
                 ]
             ];
@@ -676,7 +676,7 @@ QUERY;
             [
                 'attribute_code' => $attribute_code,
                 'count' => 1,
-                'label' => 'Second Test Configurable',
+                'label' => 'Second Xindex Configurable',
                 'position' => 1,
                 'options' => [
                     [
@@ -1084,7 +1084,7 @@ QUERY;
                 ],
             ],
             [
-                'name' => 'Test Configurable',
+                'name' => 'Xindex Configurable',
                 'filter_items_count' => 1,
                 'request_var' => 'test_configurable',
                 'filter_items' => [
@@ -1394,7 +1394,7 @@ QUERY;
     }
 
     /**
-     * Test products with the same relevance reverse position with ASC and DESC sorting
+     * Xindex products with the same relevance reverse position with ASC and DESC sorting
      *
      * @magentoApiDataFixture Magento/Catalog/_files/category_with_three_products.php
      */

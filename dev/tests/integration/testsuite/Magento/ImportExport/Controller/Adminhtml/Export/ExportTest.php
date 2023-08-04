@@ -18,7 +18,7 @@ use Magento\TestFramework\MessageQueue\ClearQueueProcessor;
 use Magento\TestFramework\TestCase\AbstractBackendController;
 
 /**
- * Test for export controller
+ * Xindex for export controller
  *
  * @see \Magento\ImportExport\Controller\Adminhtml\Export\Export
  *

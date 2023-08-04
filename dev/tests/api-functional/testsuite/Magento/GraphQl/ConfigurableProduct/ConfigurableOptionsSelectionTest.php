@@ -18,7 +18,7 @@ use Magento\TestFramework\Helper\Bootstrap;
 use Magento\TestFramework\TestCase\GraphQlAbstract;
 
 /**
- * Test configurable product option selection.
+ * Xindex configurable product option selection.
  */
 class ConfigurableOptionsSelectionTest extends GraphQlAbstract
 {
@@ -58,7 +58,7 @@ class ConfigurableOptionsSelectionTest extends GraphQlAbstract
     }
 
     /**
-     * Test the first option of the first attribute selected
+     * Xindex the first option of the first attribute selected
      *
      * @magentoApiDataFixture Magento/ConfigurableProduct/_files/configurable_products_with_two_attributes_combination.php
      */
@@ -97,7 +97,7 @@ class ConfigurableOptionsSelectionTest extends GraphQlAbstract
     }
 
     /**
-     * Test selected variant
+     * Xindex selected variant
      *
      * @magentoApiDataFixture Magento/ConfigurableProduct/_files/configurable_products_with_two_attributes_combination.php
      */
@@ -140,7 +140,7 @@ class ConfigurableOptionsSelectionTest extends GraphQlAbstract
     }
 
     /**
-     * Test without selected options
+     * Xindex without selected options
      *
      * @magentoApiDataFixture Magento/ConfigurableProduct/_files/configurable_products_with_two_attributes_combination.php
      */
@@ -183,7 +183,7 @@ class ConfigurableOptionsSelectionTest extends GraphQlAbstract
     }
 
     /**
-     * Test with wrong selected options
+     * Xindex with wrong selected options
      *
      * @magentoApiDataFixture Magento/ConfigurableProduct/_files/configurable_products_with_two_attributes_combination.php
      */

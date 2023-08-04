@@ -13,7 +13,7 @@ use Magento\Review\Model\ResourceModel\Review\CollectionFactory as ReviewCollect
 use Magento\TestFramework\TestCase\AbstractController;
 
 /**
- * Test checks that product review is removed when the corresponding product is removed
+ * Xindex checks that product review is removed when the corresponding product is removed
  */
 class ProcessProductAfterDeleteEventObserverTest extends AbstractController
 {

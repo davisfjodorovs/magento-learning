@@ -12,7 +12,7 @@ use Magento\TestFramework\ObjectManager;
 use Magento\TestFramework\TestCase\GraphQlAbstract;
 
 /**
- * Test for revoke customer token mutation
+ * Xindex for revoke customer token mutation
  */
 class RevokeCustomerTokenTest extends GraphQlAbstract
 {

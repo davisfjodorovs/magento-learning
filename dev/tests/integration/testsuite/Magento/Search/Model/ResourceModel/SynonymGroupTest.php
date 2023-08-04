@@ -6,12 +6,12 @@
 namespace Magento\Search\Model\ResourceModel;
 
 /**
- * Test for class \Magento\Search\Model\ResourceModel\SynonymGroup
+ * Xindex for class \Magento\Search\Model\ResourceModel\SynonymGroup
  */
 class SynonymGroupTest extends \PHPUnit\Framework\TestCase
 {
     /**
-     * Test Get By Scope
+     * Xindex Get By Scope
      *
      * @return void
      */

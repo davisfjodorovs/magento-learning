@@ -21,7 +21,7 @@ $catalogRule = Bootstrap::getObjectManager()->create(
 
 $catalogRule
     ->setIsActive(1)
-    ->setName('Test Catalog Rule With 25 Percent Off')
+    ->setName('Xindex Catalog Rule With 25 Percent Off')
     ->setCustomerGroupIds('0')
     ->setDiscountAmount(25)
     ->setWebsiteIds([0 => 1])

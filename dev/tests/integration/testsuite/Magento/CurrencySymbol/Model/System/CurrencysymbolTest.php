@@ -9,7 +9,7 @@ namespace Magento\CurrencySymbol\Model\System;
 use Magento\TestFramework\Helper\Bootstrap;
 
 /**
- * Test for Magento\CurrencySymbol\Model\System\Currencysymbol
+ * Xindex for Magento\CurrencySymbol\Model\System\Currencysymbol
  *
  * @magentoAppArea Adminhtml
  */
@@ -41,7 +41,7 @@ class CurrencysymbolTest extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     * Test that getCurrencySymbolsData method returns valid data
+     * Xindex that getCurrencySymbolsData method returns valid data
      *
      * @return void
      */
@@ -92,7 +92,7 @@ class CurrencysymbolTest extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     * Test that method returns valid data
+     * Xindex that method returns valid data
      *
      * @return void
      */
@@ -102,7 +102,7 @@ class CurrencysymbolTest extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     * Test that default symbol can be set to use explicitly in the system
+     * Xindex that default symbol can be set to use explicitly in the system
      *
      * @return void
      */

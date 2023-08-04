@@ -50,7 +50,7 @@ $taxRuleRepository = $objectManager->get(TaxRuleRepositoryInterface::class);
 $taxRuleFactory = $objectManager->get(TaxRuleInterfaceFactory::class);
 /** @var TaxRuleInterface $taxRule */
 $taxRule = $taxRuleFactory->create();
-$taxRule->setCode('Test Rule')
+$taxRule->setCode('Xindex Rule')
     ->setCustomerTaxClassIds([$taxCustomerClassId])
     ->setProductTaxClassIds([$taxProductClassId])
     ->setTaxRateIds([$taxRate->getId()])

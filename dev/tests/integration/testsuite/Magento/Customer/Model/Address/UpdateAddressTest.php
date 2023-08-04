@@ -186,20 +186,20 @@ class UpdateAddressTest extends TestCase
                 ],
             ],
             'required_field_firstname' => [
-                [AddressInterface::FIRSTNAME => 'Test firstname'],
-                [AddressInterface::FIRSTNAME => 'Test firstname'],
+                [AddressInterface::FIRSTNAME => 'Xindex firstname'],
+                [AddressInterface::FIRSTNAME => 'Xindex firstname'],
             ],
             'required_field_lastname' => [
-                [AddressInterface::LASTNAME => 'Test lastname'],
-                [AddressInterface::LASTNAME => 'Test lastname'],
+                [AddressInterface::LASTNAME => 'Xindex lastname'],
+                [AddressInterface::LASTNAME => 'Xindex lastname'],
             ],
             'required_field_street_as_array' => [
-                [AddressInterface::STREET => ['', 'Test str, 55']],
-                [AddressInterface::STREET => ['Test str, 55']],
+                [AddressInterface::STREET => ['', 'Xindex str, 55']],
+                [AddressInterface::STREET => ['Xindex str, 55']],
             ],
             'required_field_city' => [
-                [AddressInterface::CITY => 'Test city'],
-                [AddressInterface::CITY => 'Test city'],
+                [AddressInterface::CITY => 'Xindex city'],
+                [AddressInterface::CITY => 'Xindex city'],
             ],
             'field_name_prefix' => [
                 [AddressInterface::PREFIX => 'My prefix'],

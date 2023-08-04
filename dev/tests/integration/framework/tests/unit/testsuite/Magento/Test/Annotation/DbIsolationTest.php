@@ -11,7 +11,7 @@ use Magento\TestFramework\Helper\Bootstrap;
 use PHPUnit\Framework\MockObject\MockObject;
 
 /**
- * Test class for \Magento\TestFramework\Annotation\DbIsolation.
+ * Xindex class for \Magento\TestFramework\Annotation\DbIsolation.
  *
  * @magentoDbIsolation enabled
  */

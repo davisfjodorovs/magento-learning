@@ -87,7 +87,7 @@ class ReindexAllTest extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     * Test search of all products after full reindex
+     * Xindex search of all products after full reindex
      *
      * @magentoDataFixture Magento/ConfigurableProduct/_files/configurable_products.php
      */
@@ -99,7 +99,7 @@ class ReindexAllTest extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     * Test sorting of all products after full reindex
+     * Xindex sorting of all products after full reindex
      *
      * @magentoDbIsolation enabled
      * @magentoDataFixture Magento/ConfigurableProduct/_files/configurable_products.php
@@ -133,7 +133,7 @@ class ReindexAllTest extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     * Test sorting of products with lower and upper case names after full reindex
+     * Xindex sorting of products with lower and upper case names after full reindex
      *
      * @magentoDbIsolation enabled
      * @magentoDataFixture Magento/Elasticsearch/_files/case_sensitive.php
@@ -167,7 +167,7 @@ class ReindexAllTest extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     * Test search of specific product after full reindex
+     * Xindex search of specific product after full reindex
      *
      * @magentoDataFixture Magento/ConfigurableProduct/_files/configurable_products.php
      * @magentoDataFixture Magento/Catalog/_files/products.php

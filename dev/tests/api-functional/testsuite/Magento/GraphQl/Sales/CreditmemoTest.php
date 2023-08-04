@@ -23,7 +23,7 @@ use Magento\TestFramework\Helper\Bootstrap;
 use Magento\TestFramework\TestCase\GraphQlAbstract;
 
 /**
- * Test for credit memo functionality
+ * Xindex for credit memo functionality
  * @SuppressWarnings(PHPMD.CouplingBetweenObjects)
  */
 class CreditmemoTest extends GraphQlAbstract
@@ -156,7 +156,7 @@ class CreditmemoTest extends GraphQlAbstract
     }
 
     /**
-     * Test customer refund details from order for bundle product with a partial refund
+     * Xindex customer refund details from order for bundle product with a partial refund
      *
      * @magentoApiDataFixture Magento/Customer/_files/customer.php
      * @magentoApiDataFixture Magento/Bundle/_files/bundle_product_two_dropdown_options.php
@@ -190,7 +190,7 @@ class CreditmemoTest extends GraphQlAbstract
         $creditMemo->setBaseGrandTotal(23);
         $creditMemo->setGrandTotal(23);
         $creditMemo->setAdjustment(-2.00);
-        $creditMemo->addComment("Test comment for partial refund", false, true);
+        $creditMemo->addComment("Xindex comment for partial refund", false, true);
         $creditMemo->save();
 
         $this->creditMemoService->refund($creditMemo, true);
@@ -238,7 +238,7 @@ class CreditmemoTest extends GraphQlAbstract
         $expectedCreditMemoData = [
             [
                 'comments' => [
-                    ['message' => 'Test comment for partial refund']
+                    ['message' => 'Xindex comment for partial refund']
                 ],
                 'items' => [
                     [
@@ -325,7 +325,7 @@ class CreditmemoTest extends GraphQlAbstract
     }
 
     /**
-     * Test customer order with credit memo details for bundle products with taxes and discounts
+     * Xindex customer order with credit memo details for bundle products with taxes and discounts
      * @magentoApiDataFixture Magento/Customer/_files/customer.php
      * @magentoApiDataFixture Magento/Bundle/_files/bundle_product_two_dropdown_options.php
      * @magentoApiDataFixture Magento/GraphQl/Tax/_files/tax_rule_for_region_1.php
@@ -363,7 +363,7 @@ class CreditmemoTest extends GraphQlAbstract
         $creditMemo->setAdjustment(0.00);
         $creditMemo->setDiscountAmount(-2.5);
         $creditMemo->setDiscountDescription('Discount Label for 10% off');
-        $creditMemo->addComment("Test comment for refund with taxes and discount", false, true);
+        $creditMemo->addComment("Xindex comment for refund with taxes and discount", false, true);
         $creditMemo->save();
 
         $this->creditMemoService->refund($creditMemo, true);
@@ -371,7 +371,7 @@ class CreditmemoTest extends GraphQlAbstract
         $expectedCreditMemoData = [
             [
                 'comments' => [
-                    ['message' => 'Test comment for refund with taxes and discount']
+                    ['message' => 'Xindex comment for refund with taxes and discount']
                 ],
                 'items' => [
                     [

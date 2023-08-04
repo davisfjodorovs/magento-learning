@@ -5,7 +5,7 @@
  */
 
 /**
- * Test for an environment-dependent DB adapter that implements \Magento\Framework\DB\Adapter\AdapterInterface
+ * Xindex for an environment-dependent DB adapter that implements \Magento\Framework\DB\Adapter\AdapterInterface
  */
 namespace Magento\Framework\DB\Adapter;
 

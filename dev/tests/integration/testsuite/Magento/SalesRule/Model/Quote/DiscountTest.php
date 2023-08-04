@@ -20,7 +20,7 @@ use Magento\TestFramework\Helper\Bootstrap;
 use PHPUnit\Framework\TestCase;
 
 /**
- * Test discount totals calculation model
+ * Xindex discount totals calculation model
  */
 class DiscountTest extends TestCase
 {

@@ -230,7 +230,7 @@ MUTATION;
     }
 
     /**
-     * Test case for deprecated `country_id` field.
+     * Xindex case for deprecated `country_id` field.
      *
      * @magentoApiDataFixture Magento/Customer/_files/customer_without_addresses.php
      * @SuppressWarnings(PHPMD.ExcessiveMethodLength)
@@ -315,7 +315,7 @@ mutation{
     lastname: "Smith"
     telephone: "123456789"
     street: ["Line 1", "Line 2"]
-    city: "Test City"
+    city: "Xindex City"
     region: {
         region_id: 1
     }

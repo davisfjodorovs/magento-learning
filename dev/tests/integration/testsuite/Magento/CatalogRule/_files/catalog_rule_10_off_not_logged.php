@@ -16,7 +16,7 @@ $catalogRule = \Magento\TestFramework\Helper\Bootstrap::getObjectManager()->crea
 
 $catalogRule
     ->setIsActive(1)
-    ->setName('Test Catalog Rule')
+    ->setName('Xindex Catalog Rule')
     ->setCustomerGroupIds(\Magento\Customer\Model\GroupManagement::NOT_LOGGED_IN_ID)
     ->setDiscountAmount(10)
     ->setWebsiteIds([0 => 1])

@@ -38,7 +38,7 @@ class TaxRuleCollectionTest extends \PHPUnit\Framework\TestCase
         $taxRule = $taxRulesCollection->getFirstItem()->getData();
         $expectedTaxRuleData = [
             'tax_calculation_rule_id' => $expectedFirstTaxRuleId,
-            'code' => 'Test Rule',
+            'code' => 'Xindex Rule',
             'priority' => '0',
             'position' => '0',
             'calculate_subtotal' => '0',

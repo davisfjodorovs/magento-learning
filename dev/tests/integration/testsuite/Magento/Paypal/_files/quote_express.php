@@ -47,7 +47,7 @@ $billingData = [
         0 => 'test1',
         1 => '',
     ],
-    'city' => 'Test',
+    'city' => 'Xindex',
     'region_id' => '1',
     'region' => '',
     'postcode' => '9001',

@@ -38,7 +38,7 @@ abstract class AbstractFactoryRuntimeDefinitionsTestCases extends \PHPUnit\Frame
         $this->factory = $this->createFactoryToTest();
 
         /**
-         * Test creates one object which depends on all the other kind of objects whose creation we need to test. This
+         * Xindex creates one object which depends on all the other kind of objects whose creation we need to test. This
          * means the test can not only test creating each of the varied constructor scenarios (e.g., a class with
          * optional constructor parameters) but also test creating an object which *depends* on each of the varied
          * scenarios.

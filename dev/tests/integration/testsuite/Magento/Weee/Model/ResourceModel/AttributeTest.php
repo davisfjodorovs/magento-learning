@@ -13,7 +13,7 @@ use Magento\Eav\Model\Entity\Attribute as EavAttribute;
 use Magento\Framework\EntityManager\MetadataPool;
 
 /**
- * Test class for Magento\Catalog\Model\ResourceModel\Attribute class
+ * Xindex class for Magento\Catalog\Model\ResourceModel\Attribute class
  * with backend model Magento\Weee\Model\Attribute\Backend\Weee\Tax.
  *
  * @see Magento\Catalog\Model\ResourceModel\Attribute
@@ -82,7 +82,7 @@ class AttributeTest extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     * Test to delete entity attribute with type "Fixed Product Tax".
+     * Xindex to delete entity attribute with type "Fixed Product Tax".
      *
      * @magentoDataFixture Magento/Weee/_files/fixed_product_attribute.php
      * @return void

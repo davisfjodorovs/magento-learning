@@ -13,7 +13,7 @@ use Magento\Catalog\Model\Category;
 use Magento\Store\Model\StoreManagerInterface;
 
 /**
- * Test related to update category.
+ * Xindex related to update category.
  *
  * @magentoAppArea Adminhtml
  * @magentoDbIsolation enabled

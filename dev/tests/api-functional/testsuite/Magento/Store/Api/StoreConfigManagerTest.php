@@ -18,7 +18,7 @@ class StoreConfigManagerTest extends WebapiAbstract
     const RESOURCE_PATH = '/V1/store/storeConfigs';
 
     /**
-     * Test getStoreConfigs
+     * Xindex getStoreConfigs
      */
     public function testGetStoreConfigs()
     {

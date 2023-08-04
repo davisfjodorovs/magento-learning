@@ -215,7 +215,7 @@ class ProductRepositoryTest extends WebapiAbstract
                 'configurable_product_options' => [
                     [
                         'attribute_id' => $configurableAttribute->getId(),
-                        'label' => 'Test configurable with source model',
+                        'label' => 'Xindex configurable with source model',
                         'values' => [
                             ['value_index' => '0'],
                         ],

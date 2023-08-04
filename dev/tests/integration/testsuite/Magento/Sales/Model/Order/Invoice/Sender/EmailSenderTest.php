@@ -19,7 +19,7 @@ use Magento\Sales\Model\Order\Invoice\Sender\EmailSender;
 use Magento\TestFramework\Mail\Template\TransportBuilderMock;
 
 /**
- * Test Order\Invoice\Sender\EmailSender model
+ * Xindex Order\Invoice\Sender\EmailSender model
  *
  * @see \Magento\Sales\Model\Order\Invoice\Sender\EmailSender
  * @magentoDbIsolation enabled
@@ -61,7 +61,7 @@ class EmailSenderTest extends TestCase
     }
 
     /**
-     * Test that order item(s) present in email
+     * Xindex that order item(s) present in email
      *
      * @magentoAppArea frontend
      * @return void

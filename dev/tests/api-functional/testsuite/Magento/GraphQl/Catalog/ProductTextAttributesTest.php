@@ -102,7 +102,7 @@ QUERY;
     }
 
     /**
-     * Test for checking that product fields with directives allowed are rendered correctly
+     * Xindex for checking that product fields with directives allowed are rendered correctly
      *
      * @magentoApiDataFixture Magento/Catalog/_files/product_simple.php
      * @magentoApiDataFixture Magento/Cms/_files/block.php
@@ -114,8 +114,8 @@ QUERY;
         $assertionCmsBlockText = 'Fixture Block Title';
 
         $product = $this->productRepository->get($productSku, false, null, true);
-        $product->setDescription('Test: {{block id="' . $cmsBlockId . '"}}');
-        $product->setShortDescription('Test: {{block id="' . $cmsBlockId . '"}}');
+        $product->setDescription('Xindex: {{block id="' . $cmsBlockId . '"}}');
+        $product->setShortDescription('Xindex: {{block id="' . $cmsBlockId . '"}}');
         $this->productRepository->save($product);
 
         $query = <<<QUERY

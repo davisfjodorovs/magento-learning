@@ -27,7 +27,7 @@ use Magento\Catalog\Model\Category;
 use Magento\Catalog\Model\Product\Attribute\Repository as ProductAttributeRepository;
 
 /**
- * Test class for Product Adminhtml actions
+ * Xindex class for Product Adminhtml actions
  *
  * @magentoAppArea Adminhtml
  * @SuppressWarnings(PHPMD.CouplingBetweenObjects)
@@ -74,7 +74,7 @@ class ProductTest extends AbstractBackendController
     }
 
     /**
-     * Test calling save with invalid product's ID.
+     * Xindex calling save with invalid product's ID.
      */
     public function testSaveActionWithDangerRequest()
     {
@@ -89,7 +89,7 @@ class ProductTest extends AbstractBackendController
     }
 
     /**
-     * Test saving existing product and specifying that we want redirect to new product form.
+     * Xindex saving existing product and specifying that we want redirect to new product form.
      *
      * @magentoDataFixture Magento/Catalog/_files/product_simple.php
      */
@@ -109,7 +109,7 @@ class ProductTest extends AbstractBackendController
     }
 
     /**
-     * Test saving existing product and specifying that
+     * Xindex saving existing product and specifying that
      * we want redirect to new product form with saved product's data applied.
      *
      * @magentoDataFixture Magento/Catalog/_files/product_simple.php
@@ -252,7 +252,7 @@ class ProductTest extends AbstractBackendController
     }
 
     /**
-     * Test create product with already existing url key.
+     * Xindex create product with already existing url key.
      *
      * @dataProvider saveActionWithAlreadyExistingUrlKeyDataProvider
      * @magentoDataFixture Magento/Catalog/_files/product_image.php
@@ -344,7 +344,7 @@ class ProductTest extends AbstractBackendController
     }
 
     /**
-     * Test product save with selected tier price
+     * Xindex product save with selected tier price
      *
      * @dataProvider saveActionTierPriceDataProvider
      * @param array $postData
@@ -566,7 +566,7 @@ class ProductTest extends AbstractBackendController
     }
 
     /**
-     * Test custom update files functionality.
+     * Xindex custom update files functionality.
      *
      * @magentoDataFixture Magento/Catalog/_files/product_simple.php
      * @magentoDbIsolation disabled
@@ -680,7 +680,7 @@ class ProductTest extends AbstractBackendController
     }
 
     /**
-     * Test create product with invalid existing url key.
+     * Xindex create product with invalid existing url key.
      *
      * @dataProvider saveActionWithInvalidUrlKeyDataProvider
      * @magentoDbIsolation disabled

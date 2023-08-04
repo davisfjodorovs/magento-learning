@@ -5,7 +5,7 @@
  */
 
 /**
- * Test class for \Magento\TestFramework\Helper\Bootstrap.
+ * Xindex class for \Magento\TestFramework\Helper\Bootstrap.
  */
 namespace Magento\Test\Helper;
 

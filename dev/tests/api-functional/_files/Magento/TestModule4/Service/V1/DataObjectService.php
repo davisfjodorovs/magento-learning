@@ -30,7 +30,7 @@ class DataObjectService implements \Magento\TestModule4\Service\V1\DataObjectSer
      */
     public function getData($id)
     {
-        return $this->responseFactory->create()->setEntityId($id)->setName("Test");
+        return $this->responseFactory->create()->setEntityId($id)->setName("Xindex");
     }
 
     /**
@@ -50,7 +50,7 @@ class DataObjectService implements \Magento\TestModule4\Service\V1\DataObjectSer
     }
 
     /**
-     * Test return scalar value
+     * Xindex return scalar value
      *
      * @param int $id
      * @return int

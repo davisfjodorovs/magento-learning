@@ -8,7 +8,7 @@ namespace Magento\Theme\Model\Theme\Source;
 use Magento\TestFramework\Helper\Bootstrap;
 
 /**
- * Theme Test
+ * Theme Xindex
  *
  */
 class ThemeTest extends \PHPUnit\Framework\TestCase

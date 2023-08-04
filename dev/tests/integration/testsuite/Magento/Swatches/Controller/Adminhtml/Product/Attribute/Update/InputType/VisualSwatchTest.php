@@ -11,7 +11,7 @@ use Magento\Swatches\Controller\Adminhtml\Product\Attribute\Update\AbstractUpdat
 use Magento\Swatches\Model\Swatch;
 
 /**
- * Test cases related to update attribute with input type visual swatch.
+ * Xindex cases related to update attribute with input type visual swatch.
  *
  * @magentoDbIsolation enabled
  * @magentoAppArea Adminhtml
@@ -19,7 +19,7 @@ use Magento\Swatches\Model\Swatch;
 class VisualSwatchTest extends AbstractUpdateSwatchAttributeTest
 {
     /**
-     * Test update attribute.
+     * Xindex update attribute.
      *
      * @dataProvider \Magento\TestFramework\Swatches\Model\Attribute\DataProvider\VisualSwatch::getUpdateProvider
      * @magentoDataFixture Magento/Swatches/_files/product_visual_swatch_attribute.php
@@ -35,7 +35,7 @@ class VisualSwatchTest extends AbstractUpdateSwatchAttributeTest
     }
 
     /**
-     * Test update attribute with error.
+     * Xindex update attribute with error.
      *
      * @dataProvider \Magento\TestFramework\Swatches\Model\Attribute\DataProvider\VisualSwatch::getUpdateProviderWithErrorMessage
      * @magentoDataFixture Magento/Swatches/_files/product_visual_swatch_attribute.php
@@ -51,7 +51,7 @@ class VisualSwatchTest extends AbstractUpdateSwatchAttributeTest
     }
 
     /**
-     * Test update attribute frontend labels on stores.
+     * Xindex update attribute frontend labels on stores.
      *
      * @dataProvider \Magento\TestFramework\Swatches\Model\Attribute\DataProvider\VisualSwatch::getUpdateFrontendLabelsProvider
      * @magentoDataFixture Magento/Store/_files/second_website_with_two_stores.php
@@ -67,7 +67,7 @@ class VisualSwatchTest extends AbstractUpdateSwatchAttributeTest
     }
 
     /**
-     * Test update attribute options on stores.
+     * Xindex update attribute options on stores.
      *
      * @dataProvider \Magento\TestFramework\Swatches\Model\Attribute\DataProvider\VisualSwatch::getUpdateOptionsProvider
      * @magentoDataFixture Magento/Store/_files/second_website_with_two_stores.php

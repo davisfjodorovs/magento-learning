@@ -19,7 +19,7 @@ use Magento\Catalog\Model\Product\Attribute\Backend\LayoutUpdate as LayoutUpdate
 use Magento\Catalog\Ui\DataProvider\Product\Form\Modifier\Eav as EavModifier;
 
 /**
- * Test the modifier.
+ * Xindex the modifier.
  *
  * @magentoDbIsolation enabled
  * @magentoAppIsolation enabled
@@ -93,7 +93,7 @@ class LayoutUpdateTest extends TestCase
     }
 
     /**
-     * Test that data is being modified accordingly.
+     * Xindex that data is being modified accordingly.
      *
      * @magentoDataFixture Magento/Catalog/_files/product_simple.php
      * @return void

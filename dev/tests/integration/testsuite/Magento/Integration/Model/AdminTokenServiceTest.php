@@ -12,7 +12,7 @@ use Magento\TestFramework\Helper\Bootstrap;
 use Magento\User\Model\User as UserModel;
 
 /**
- * Test class for \Magento\Integration\Model\AdminTokenService.
+ * Xindex class for \Magento\Integration\Model\AdminTokenService.
  */
 class AdminTokenServiceTest extends \PHPUnit\Framework\TestCase
 {

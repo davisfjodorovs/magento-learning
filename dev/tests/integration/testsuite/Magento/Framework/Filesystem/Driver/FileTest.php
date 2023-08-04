@@ -11,7 +11,7 @@ use Magento\Framework\Exception\FileSystemException;
 use PHPUnit\Framework\TestCase;
 
 /**
- * Test for \Magento\Framework\Filesystem\Driver\File
+ * Xindex for \Magento\Framework\Filesystem\Driver\File
  * Verify File class
  */
 class FileTest extends TestCase

@@ -143,7 +143,7 @@ class TaxRuleRepositoryInterfaceTest extends WebapiAbstract
         ];
         $requestData = [
             'rule' => [
-                'code' => 'Test Rule ' . microtime(),
+                'code' => 'Xindex Rule ' . microtime(),
                 'position' => 10,
                 'priority' => 5,
                 'customer_tax_class_ids' => [3],
@@ -180,7 +180,7 @@ class TaxRuleRepositoryInterfaceTest extends WebapiAbstract
         ];
         $requestData = [
             'rule' => [
-                'code' => 'Test Rule ' . microtime(),
+                'code' => 'Xindex Rule ' . microtime(),
                 'position' => 10,
                 'priority' => 5,
                 'customer_tax_class_ids' => [2],
@@ -211,7 +211,7 @@ class TaxRuleRepositoryInterfaceTest extends WebapiAbstract
         $expectedMessage = '%1 already exists.';
         $requestData = [
             'rule' => [
-                'code' => 'Test Rule ' . microtime(),
+                'code' => 'Xindex Rule ' . microtime(),
                 'position' => 10,
                 'priority' => 5,
                 'customer_tax_class_ids' => [3],
@@ -277,7 +277,7 @@ class TaxRuleRepositoryInterfaceTest extends WebapiAbstract
 
         $expectedRuleData = [
             'id' => $taxRuleId,
-            'code' => 'Test Rule Duplicate',
+            'code' => 'Xindex Rule Duplicate',
             'priority' => '0',
             'position' => '0',
             'customer_tax_class_ids' => array_values(array_unique($fixtureRule->getCustomerTaxClasses())),
@@ -295,9 +295,9 @@ class TaxRuleRepositoryInterfaceTest extends WebapiAbstract
      */
     public function testSearchTaxRulesSimple()
     {
-        // Find rules whose code is 'Test Rule'
+        // Find rules whose code is 'Xindex Rule'
         $filter = $this->filterBuilder->setField('code')
-            ->setValue('Test Rule')
+            ->setValue('Xindex Rule')
             ->create();
 
         $this->searchCriteriaBuilder->addFilters([$filter]);
@@ -326,7 +326,7 @@ class TaxRuleRepositoryInterfaceTest extends WebapiAbstract
         $expectedRuleData = [
             [
                 'id' => $fixtureRule->getId(),
-                'code' => 'Test Rule',
+                'code' => 'Xindex Rule',
                 'priority' => 0,
                 'position' => 0,
                 'calculate_subtotal' => 0,
@@ -392,7 +392,7 @@ class TaxRuleRepositoryInterfaceTest extends WebapiAbstract
         $expectedRuleData = [
             [
                 'id' => $this->getFixtureTaxRules()[0]->getId(),
-                'code' => 'Test Rule Duplicate',
+                'code' => 'Xindex Rule Duplicate',
                 'priority' => 0,
                 'position' => 0,
                 'calculate_subtotal' => 0,
@@ -402,7 +402,7 @@ class TaxRuleRepositoryInterfaceTest extends WebapiAbstract
             ],
             [
                 'id' => $fixtureRule->getId(),
-                'code' => 'Test Rule',
+                'code' => 'Xindex Rule',
                 'priority' => 0,
                 'position' => 0,
                 'calculate_subtotal' => 0,
@@ -452,7 +452,7 @@ class TaxRuleRepositoryInterfaceTest extends WebapiAbstract
         $requestData = [
             'rule' => [
                 'id' => $fixtureRule->getId(),
-                'code' => 'Test Rule ' . microtime(),
+                'code' => 'Xindex Rule ' . microtime(),
                 'position' => 10,
                 'priority' => 5,
                 'customer_tax_class_ids' => [3],
@@ -521,7 +521,7 @@ class TaxRuleRepositoryInterfaceTest extends WebapiAbstract
         $requestData = [
             'rule' => [
                 'id' => 12345,
-                'code' => 'Test Rule ' . microtime(),
+                'code' => 'Xindex Rule ' . microtime(),
                 'position' => 10,
                 'priority' => 5,
                 'customer_tax_class_ids' => [3],
@@ -639,7 +639,7 @@ class TaxRuleRepositoryInterfaceTest extends WebapiAbstract
     {
         if ($this->fixtureTaxRules === null) {
             $this->fixtureTaxRules = [];
-            $taxRuleCodes = ['Test Rule Duplicate', 'Test Rule'];
+            $taxRuleCodes = ['Xindex Rule Duplicate', 'Xindex Rule'];
             foreach ($taxRuleCodes as $taxRuleCode) {
                 /** @var \Magento\Tax\Model\Calculation\Rule $taxRule */
                 $taxRule = Bootstrap::getObjectManager()->create(\Magento\Tax\Model\Calculation\Rule::class);

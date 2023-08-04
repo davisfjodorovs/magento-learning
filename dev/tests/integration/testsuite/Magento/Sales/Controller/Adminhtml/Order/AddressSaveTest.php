@@ -56,7 +56,7 @@ class AddressSaveTest extends AbstractBackendController
             OrderAddressInterface::FIRSTNAME => 'New test name',
             OrderAddressInterface::LASTNAME => 'New test lastname',
             OrderAddressInterface::STREET => ['new test street'],
-            OrderAddressInterface::CITY => 'New Test City',
+            OrderAddressInterface::CITY => 'New Xindex City',
             OrderAddressInterface::COUNTRY_ID => 'UA',
             OrderAddressInterface::REGION => '1111',
             OrderAddressInterface::POSTCODE => '97203',

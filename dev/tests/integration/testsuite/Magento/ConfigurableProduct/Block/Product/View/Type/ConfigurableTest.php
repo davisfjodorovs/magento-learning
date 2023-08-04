@@ -25,7 +25,7 @@ use Magento\TestFramework\Helper\Bootstrap;
 use PHPUnit\Framework\TestCase;
 
 /**
- * Test class to check configurable product view behaviour.
+ * Xindex class to check configurable product view behaviour.
  *
  * @see \Magento\ConfigurableProduct\Block\Product\View\Type\Configurable
  *
@@ -243,9 +243,9 @@ class ConfigurableTest extends TestCase
     {
         return [
             [
-                'label' => 'Test Configurable',
+                'label' => 'Xindex Configurable',
                 'config_data' => [
-                    'label' => 'Test Configurable',
+                    'label' => 'Xindex Configurable',
                     'options' => [
                         [
                             'label' => 'Option 1',

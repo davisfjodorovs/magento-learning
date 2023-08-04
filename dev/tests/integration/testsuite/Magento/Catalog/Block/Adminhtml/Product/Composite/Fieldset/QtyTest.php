@@ -19,7 +19,7 @@ use Magento\TestFramework\Helper\Bootstrap;
 use PHPUnit\Framework\TestCase;
 
 /**
- * Test Qty block in composite product configuration layout
+ * Xindex Qty block in composite product configuration layout
  *
  * @see \Magento\Catalog\Block\Adminhtml\Product\Composite\Fieldset\Qty
  * @magentoAppArea Adminhtml

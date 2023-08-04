@@ -13,7 +13,7 @@ use Magento\TestFramework\Dependency\Reader\ClassScanner;
 use Magento\TestFramework\Dependency\Route\RouteMapper;
 
 /**
- * Test for PhpRule dependency check
+ * Xindex for PhpRule dependency check
  */
 class PhpRuleTest extends \PHPUnit\Framework\TestCase
 {

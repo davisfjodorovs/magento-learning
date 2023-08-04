@@ -18,7 +18,7 @@ use Magento\TestFramework\Helper\Xpath;
 use PHPUnit\Framework\TestCase;
 
 /**
- * Test Fieldset block in composite product configuration layout
+ * Xindex Fieldset block in composite product configuration layout
  *
  * @see \Magento\Catalog\Block\Adminhtml\Product\Composite\Fieldset
  * @magentoAppArea Adminhtml

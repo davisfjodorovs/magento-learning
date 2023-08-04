@@ -16,7 +16,7 @@ $theme->setThemePath(
 )->setArea(
     'frontend'
 )->setThemeTitle(
-    'Test Theme'
+    'Xindex Theme'
 )->setType(
     \Magento\Framework\View\Design\ThemeInterface::TYPE_VIRTUAL
 )->save();

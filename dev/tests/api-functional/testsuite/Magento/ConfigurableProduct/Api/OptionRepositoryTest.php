@@ -79,7 +79,7 @@ class OptionRepositoryTest extends \Magento\TestFramework\TestCase\WebapiAbstrac
 
         $this->assertArrayHasKey('id', $option);
         $this->assertArrayHasKey('label', $option);
-        $this->assertEquals($option['label'], 'Test Configurable');
+        $this->assertEquals($option['label'], 'Xindex Configurable');
 
         $this->assertArrayHasKey('values', $option);
         $this->assertIsArray($option);
@@ -183,7 +183,7 @@ class OptionRepositoryTest extends \Magento\TestFramework\TestCase\WebapiAbstrac
         ];
         $option = [
             'attribute_id' => $attribute->getAttributeId(),
-            'label' => 'Test',
+            'label' => 'Xindex',
             'values' => [
                 [
                     'value_index' => 1,
@@ -222,7 +222,7 @@ class OptionRepositoryTest extends \Magento\TestFramework\TestCase\WebapiAbstrac
 
         $requestBody = [
             'option' => [
-                'label' => 'Update Test Configurable',
+                'label' => 'Update Xindex Configurable',
             ]
         ];
 
@@ -266,7 +266,7 @@ class OptionRepositoryTest extends \Magento\TestFramework\TestCase\WebapiAbstrac
 
         $option = [
             'attribute_id' => $attribute->getAttributeId(),
-            'label' => 'Update Test Configurable with sku and attribute_id',
+            'label' => 'Update Xindex Configurable with sku and attribute_id',
             'values' => [
                 [
                     'value_index' => 1,

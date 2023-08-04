@@ -16,7 +16,7 @@ use Magento\TestFramework\Helper\Bootstrap;
 use PHPUnit\Framework\TestCase;
 
 /**
- * Test links query.
+ * Xindex links query.
  */
 class ProductLinkQueryTest extends TestCase
 {
@@ -96,7 +96,7 @@ class ProductLinkQueryTest extends TestCase
     }
 
     /**
-     * Test getting links for a list of products.
+     * Xindex getting links for a list of products.
      *
      * @magentoDataFixture Magento/Catalog/_files/multiple_related_products.php
      * @return void

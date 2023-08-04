@@ -12,7 +12,7 @@ define([
 ], function ($, reviewProcessor) {
     'use strict';
 
-    describe('Test product page reviews processor', function () {
+    describe('Xindex product page reviews processor', function () {
         var element,
             originaljQueryAjax,
             config = {

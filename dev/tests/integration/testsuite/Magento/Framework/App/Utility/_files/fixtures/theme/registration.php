@@ -6,4 +6,4 @@
 
 use Magento\Framework\Component\ComponentRegistrar;
 
-ComponentRegistrar::register(ComponentRegistrar::THEME, 'frontend/Test/theme', __DIR__);
+ComponentRegistrar::register(ComponentRegistrar::THEME, 'frontend/Xindex/theme', __DIR__);

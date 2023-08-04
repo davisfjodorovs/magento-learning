@@ -14,7 +14,7 @@ use Magento\TestFramework\Helper\Bootstrap;
 use Magento\TestFramework\TestCase\GraphQlAbstract;
 
 /**
- * Test Reorder with different types of product.
+ * Xindex Reorder with different types of product.
  */
 class ReorderMultipleProductsTest extends GraphQlAbstract
 {
@@ -82,7 +82,7 @@ class ReorderMultipleProductsTest extends GraphQlAbstract
                         ],
                         'configurable_options' => [
                             [
-                                'option_label' => 'Test Configurable',
+                                'option_label' => 'Xindex Configurable',
                                 'value_label' => 'Option 1',
                             ],
                         ],

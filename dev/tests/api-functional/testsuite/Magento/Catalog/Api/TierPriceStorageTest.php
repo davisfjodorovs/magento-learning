@@ -11,7 +11,7 @@ use Magento\Framework\Webapi\Rest\Request;
 use Magento\TestFramework\TestCase\WebapiAbstract;
 
 /**
- * Test all API calls for tier price storage.
+ * Xindex all API calls for tier price storage.
  */
 class TierPriceStorageTest extends WebapiAbstract
 {
@@ -33,7 +33,7 @@ class TierPriceStorageTest extends WebapiAbstract
     }
 
     /**
-     * Test get method.
+     * Xindex get method.
      *
      * @magentoApiDataFixture Magento/Catalog/_files/product_simple.php
      * @magentoConfigFixture default_store catalog/price/scope 0
@@ -63,7 +63,7 @@ class TierPriceStorageTest extends WebapiAbstract
     }
 
     /**
-     * Test update method.
+     * Xindex update method.
      *
      * @magentoApiDataFixture Magento/Catalog/_files/product_simple.php
      * @magentoConfigFixture default_store catalog/price/scope 0
@@ -155,7 +155,7 @@ class TierPriceStorageTest extends WebapiAbstract
     }
 
     /**
-     * Test replace method without error message.
+     * Xindex replace method without error message.
      *
      * @magentoApiDataFixture Magento/Catalog/_files/product_simple.php
      */
@@ -199,7 +199,7 @@ class TierPriceStorageTest extends WebapiAbstract
     }
 
     /**
-     * Test replace method.
+     * Xindex replace method.
      *
      * @magentoApiDataFixture Magento/Catalog/_files/product_simple.php
      */
@@ -247,7 +247,7 @@ class TierPriceStorageTest extends WebapiAbstract
     }
 
     /**
-     * Test delete method.
+     * Xindex delete method.
      *
      * @magentoApiDataFixture Magento/Catalog/_files/product_simple.php
      */

@@ -17,7 +17,7 @@ use Magento\TestFramework\Helper\Bootstrap;
 use PHPUnit\Framework\TestCase;
 
 /**
- * Test for Start Date attribute backend model
+ * Xindex for Start Date attribute backend model
  *
  * @see \Magento\Catalog\Model\Attribute\Backend\Startdate
  *
@@ -61,7 +61,7 @@ class StartdateTest extends TestCase
     }
 
     /**
-     * Test that Product with attribute "Set Product as New"
+     * Xindex that Product with attribute "Set Product as New"
      * with starting date and with expired ending date throws Exception.
      *
      * @return void
@@ -77,7 +77,7 @@ class StartdateTest extends TestCase
     }
 
     /**
-     * Test that Product with attribute "Set Product as New"
+     * Xindex that Product with attribute "Set Product as New"
      * without starting date and with expired ending date doesn't throw Exception.
      *
      * @return void

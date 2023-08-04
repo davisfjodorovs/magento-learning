@@ -39,7 +39,7 @@ class ShipmentAddCommentTest extends WebapiAbstract
     }
 
     /**
-     * Test shipment add comment service
+     * Xindex shipment add comment service
      *
      * @magentoApiDataFixture Magento/Sales/_files/shipment.php
      */

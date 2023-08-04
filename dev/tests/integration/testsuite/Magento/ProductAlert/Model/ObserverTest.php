@@ -16,7 +16,7 @@ use Magento\TestFramework\MessageQueue\PublisherConsumerController;
 use PHPUnit\Framework\TestCase;
 
 /**
- * Test Product Alert observer
+ * Xindex Product Alert observer
  *
  * @magentoDbIsolation disabled
  */
@@ -43,7 +43,7 @@ class ObserverTest extends TestCase
     }
 
     /**
-     * Test process() method
+     * Xindex process() method
      *
      * @magentoConfigFixture current_store catalog/productalert/allow_price 1
      * @magentoDataFixture Magento/ProductAlert/_files/product_alert.php

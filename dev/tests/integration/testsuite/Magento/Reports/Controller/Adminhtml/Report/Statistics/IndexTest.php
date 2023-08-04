@@ -14,7 +14,7 @@ namespace Magento\Reports\Controller\Adminhtml\Report\Statistics;
 class IndexTest extends \Magento\TestFramework\TestCase\AbstractBackendController
 {
     /**
-     * Test load page
+     * Xindex load page
      */
     public function testExecute()
     {

@@ -34,7 +34,7 @@ class FormTest extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     * Test content of form after _prepareForm
+     * Xindex content of form after _prepareForm
      */
     public function testPrepareForm()
     {

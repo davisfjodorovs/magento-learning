@@ -11,7 +11,7 @@ use Magento\Framework\EntityManager\HydratorPool;
 use Magento\TestFramework\Helper\Bootstrap;
 
 /**
- * Test Product Hydrator
+ * Xindex Product Hydrator
  */
 class ProductHydratorTest extends \PHPUnit\Framework\TestCase
 {
@@ -35,7 +35,7 @@ class ProductHydratorTest extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     * Test that Hydrator correctly populates entity with data
+     * Xindex that Hydrator correctly populates entity with data
      */
     public function testProductHydrator()
     {

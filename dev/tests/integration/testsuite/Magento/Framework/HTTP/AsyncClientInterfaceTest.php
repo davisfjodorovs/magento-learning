@@ -54,7 +54,7 @@ class AsyncClientInterfaceTest extends TestCase
     }
 
     /**
-     * Test cancelling a request.
+     * Xindex cancelling a request.
      *
      */
     public function testCancel(): void
@@ -70,7 +70,7 @@ class AsyncClientInterfaceTest extends TestCase
     }
 
     /**
-     * Test failing cancelling a request.
+     * Xindex failing cancelling a request.
      *
      */
     public function testCancelFail(): void

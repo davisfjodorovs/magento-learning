@@ -38,7 +38,7 @@ class DeleteAssetsTest extends TestCase
     }
 
     /**
-     * Test deletion of assets by path
+     * Xindex deletion of assets by path
      *
      * @magentoDataFixture Magento/MediaGallery/_files/media_asset.php
      *
@@ -55,7 +55,7 @@ class DeleteAssetsTest extends TestCase
     }
 
     /**
-     * Test scenarios where delete operation should not delete an asset
+     * Xindex scenarios where delete operation should not delete an asset
      *
      * @magentoDataFixture Magento/MediaGallery/_files/media_asset.php
      *

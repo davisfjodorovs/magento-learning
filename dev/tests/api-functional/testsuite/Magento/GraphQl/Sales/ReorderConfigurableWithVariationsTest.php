@@ -17,7 +17,7 @@ use Magento\TestFramework\TestCase\GraphQlAbstract;
 
 /**
  * @SuppressWarnings(PHPMD.CouplingBetweenObjects)
- * Test Reorder with and without products overlay in shopping cart.
+ * Xindex Reorder with and without products overlay in shopping cart.
  */
 class ReorderConfigurableWithVariationsTest extends GraphQlAbstract
 {
@@ -102,7 +102,7 @@ class ReorderConfigurableWithVariationsTest extends GraphQlAbstract
                         ],
                         'configurable_options' => [
                             [
-                                'option_label' => 'Test Configurable',
+                                'option_label' => 'Xindex Configurable',
                                 'value_label' => 'Option 1',
                             ]
                         ],
@@ -114,7 +114,7 @@ class ReorderConfigurableWithVariationsTest extends GraphQlAbstract
                         ],
                         'configurable_options' => [
                             [
-                                'option_label' => 'Test Configurable',
+                                'option_label' => 'Xindex Configurable',
                                 'value_label' => 'Option 2',
                             ],
                         ],
@@ -220,7 +220,7 @@ class ReorderConfigurableWithVariationsTest extends GraphQlAbstract
                         ],
                         'configurable_options' => [
                             [
-                                'option_label' => 'Test Configurable',
+                                'option_label' => 'Xindex Configurable',
                                 'value_label' => 'Option 1',
                             ],
                         ],
@@ -259,7 +259,7 @@ class ReorderConfigurableWithVariationsTest extends GraphQlAbstract
                         ],
                         'configurable_options' => [
                             [
-                                'option_label' => 'Test Configurable',
+                                'option_label' => 'Xindex Configurable',
                                 'value_label' => 'Option 1',
                             ],
                         ],

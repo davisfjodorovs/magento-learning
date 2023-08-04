@@ -284,7 +284,7 @@ class DataProviderTest extends TestCase
 
         /** @var Category $category */
         $category = $this->categoryFactory->create();
-        $category->setName('Net Test Category');
+        $category->setName('Net Xindex Category');
 
         $this->registry->register('category', $category);
         $meta = $this->dataProvider->getMeta();

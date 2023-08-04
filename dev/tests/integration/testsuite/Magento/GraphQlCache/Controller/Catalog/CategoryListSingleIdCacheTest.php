@@ -10,7 +10,7 @@ namespace Magento\GraphQlCache\Controller\Catalog;
 use Magento\GraphQlCache\Controller\AbstractGraphqlCacheTest;
 
 /**
- * Test caching for categoryList query
+ * Xindex caching for categoryList query
  *
  * @magentoAppArea graphql
  * @magentoCache full_page enabled
@@ -19,7 +19,7 @@ use Magento\GraphQlCache\Controller\AbstractGraphqlCacheTest;
 class CategoryListSingleIdCacheTest extends AbstractGraphqlCacheTest
 {
     /**
-     * Test request is served from cache. Expected cache tags are equal in both MISS and HIT cases.
+     * Xindex request is served from cache. Expected cache tags are equal in both MISS and HIT cases.
      *
      * @magentoDataFixture Magento/Catalog/_files/category_product.php
      */

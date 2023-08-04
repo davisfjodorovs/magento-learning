@@ -12,7 +12,7 @@ use Magento\TestFramework\Helper\Bootstrap;
 use Laminas\Stdlib\Parameters;
 
 /**
- * Test CookieScope
+ * Xindex CookieScope
  *
  */
 class CookieScopeTest extends \PHPUnit\Framework\TestCase

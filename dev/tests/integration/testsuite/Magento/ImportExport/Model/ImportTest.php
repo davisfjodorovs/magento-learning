@@ -82,7 +82,7 @@ class ImportTest extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     * Test validation of images directory against provided base directory.
+     * Xindex validation of images directory against provided base directory.
      *
      * @return void
      */
@@ -191,7 +191,7 @@ class ImportTest extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     * Test getEntityBehaviors with all required data
+     * Xindex getEntityBehaviors with all required data
      * Can't check array on equality because this test should be useful for CE
      *
      * @covers \Magento\ImportExport\Model\Import::getEntityBehaviors
@@ -210,7 +210,7 @@ class ImportTest extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     * Test getEntityBehaviors with not existing behavior class
+     * Xindex getEntityBehaviors with not existing behavior class
      *
      */
     public function testGetEntityBehaviorsWithUnknownBehavior()
@@ -227,7 +227,7 @@ class ImportTest extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     * Test getUniqueEntityBehaviors with all required data
+     * Xindex getUniqueEntityBehaviors with all required data
      * Can't check array on equality because this test should be useful for CE
      *
      * @covers \Magento\ImportExport\Model\Import::getUniqueEntityBehaviors

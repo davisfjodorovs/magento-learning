@@ -18,7 +18,7 @@ class GroupRepositoryTest extends WebapiAbstract
     const RESOURCE_PATH = '/V1/store/storeGroups';
 
     /**
-     * Test getList
+     * Xindex getList
      */
     public function testGetList()
     {

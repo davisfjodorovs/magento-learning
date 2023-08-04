@@ -120,7 +120,7 @@ class UserTest extends TestCase
     }
 
     /**
-     * Test that user role is updated after save
+     * Xindex that user role is updated after save
      *
      * @magentoDataFixture roleDataFixture
      */

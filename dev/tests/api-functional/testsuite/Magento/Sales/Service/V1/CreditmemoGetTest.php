@@ -93,7 +93,7 @@ class CreditmemoGetTest extends WebapiAbstract
     }
 
     /**
-     * Test creditmemo get service
+     * Xindex creditmemo get service
      */
     #[
         DataFixture(ProductFixture::class, as: 'product'),

@@ -10,7 +10,7 @@ namespace Magento\Eav\Controller\Adminhtml\Product\Attribute\Save\InputType;
 use Magento\Catalog\Controller\Adminhtml\Product\Attribute\Save\AbstractSaveAttributeTest;
 
 /**
- * Test cases related to create attribute with input type text_editor.
+ * Xindex cases related to create attribute with input type text_editor.
  *
  * @magentoDbIsolation enabled
  * @magentoAppArea Adminhtml
@@ -18,7 +18,7 @@ use Magento\Catalog\Controller\Adminhtml\Product\Attribute\Save\AbstractSaveAttr
 class TextEditorTest extends AbstractSaveAttributeTest
 {
     /**
-     * Test create attribute and compare attribute data and input data.
+     * Xindex create attribute and compare attribute data and input data.
      *
      * @dataProvider \Magento\TestFramework\Eav\Model\Attribute\DataProvider\TextEditor::getAttributeDataWithCheckArray
      *
@@ -32,7 +32,7 @@ class TextEditorTest extends AbstractSaveAttributeTest
     }
 
     /**
-     * Test create attribute with error.
+     * Xindex create attribute with error.
      *
      * @dataProvider \Magento\TestFramework\Eav\Model\Attribute\DataProvider\TextEditor::getAttributeDataWithErrorMessage
      *

@@ -64,7 +64,7 @@ class LayoutDirectivesTest extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     * Test scheduled operations in the rendering of elements
+     * Xindex scheduled operations in the rendering of elements
      *
      * Expected behavior:
      * 1) block1 was not declared at the moment when "1" invocation declared. The operation is scheduled

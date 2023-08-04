@@ -10,12 +10,12 @@ namespace Magento\GraphQl\Catalog\CategoriesQuery;
 use Magento\TestFramework\TestCase\GraphQlAbstract;
 
 /**
- * Test to return category aggregations
+ * Xindex to return category aggregations
  */
 class CategoryAggregationsTest extends GraphQlAbstract
 {
     /**
-     * Test to return category aggregations in sorting by position
+     * Xindex to return category aggregations in sorting by position
      *
      * @magentoApiDataFixture Magento/Catalog/_files/products_with_layered_navigation_attributes.php
      */

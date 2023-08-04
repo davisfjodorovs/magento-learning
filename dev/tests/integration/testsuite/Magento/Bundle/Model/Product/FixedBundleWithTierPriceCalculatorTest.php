@@ -68,7 +68,7 @@ class FixedBundleWithTierPriceCalculatorTest extends BundlePriceAbstract
     }
 
     /**
-     * Test cases for current test
+     * Xindex cases for current test
      * @return array
      * @SuppressWarnings(PHPMD.ExcessiveMethodLength)
      */
@@ -175,7 +175,7 @@ class FixedBundleWithTierPriceCalculatorTest extends BundlePriceAbstract
             ],
 
             '
-                #7 Testing product price 
+                #7 Testing product price
                 with tier price, percent sub items and percent options
             ' => [
                 'strategy' => $this->getProductConfiguration3(
@@ -548,7 +548,7 @@ class FixedBundleWithTierPriceCalculatorTest extends BundlePriceAbstract
         $customOptionsData = [
             [
                 'price_type' => $customOptionsPriceType,
-                'title' => 'Test Field',
+                'title' => 'Xindex Field',
                 'type' => 'field',
                 'is_require' => 1,
                 'price' => 100,
@@ -606,7 +606,7 @@ class FixedBundleWithTierPriceCalculatorTest extends BundlePriceAbstract
         $customOptionsData = [
             [
                 'price_type' => $customOptionsPriceType,
-                'title' => 'Test Field',
+                'title' => 'Xindex Field',
                 'type' => 'field',
                 'is_require' => 1,
                 'price' => 100,
@@ -670,7 +670,7 @@ class FixedBundleWithTierPriceCalculatorTest extends BundlePriceAbstract
         $customOptionsData = [
             [
                 'price_type' => $customOptionsPriceType,
-                'title' => 'Test Field',
+                'title' => 'Xindex Field',
                 'type' => 'field',
                 'is_require' => 1,
                 'price' => 100,
@@ -734,7 +734,7 @@ class FixedBundleWithTierPriceCalculatorTest extends BundlePriceAbstract
         $customOptionsData = [
             [
                 'price_type' => $customOptionsPriceType,
-                'title' => 'Test Field',
+                'title' => 'Xindex Field',
                 'type' => 'field',
                 'is_require' => 1,
                 'price' => 100,
@@ -798,7 +798,7 @@ class FixedBundleWithTierPriceCalculatorTest extends BundlePriceAbstract
         $customOptionsData = [
             [
                 'price_type' => $customOptionsPriceType,
-                'title' => 'Test Field',
+                'title' => 'Xindex Field',
                 'type' => 'field',
                 'is_require' => 1,
                 'price' => 100,
@@ -881,7 +881,7 @@ class FixedBundleWithTierPriceCalculatorTest extends BundlePriceAbstract
         $customOptionsData = [
             [
                 'price_type' => $customOptionsPriceType,
-                'title' => 'Test Field',
+                'title' => 'Xindex Field',
                 'type' => 'field',
                 'is_require' => 1,
                 'price' => 100,

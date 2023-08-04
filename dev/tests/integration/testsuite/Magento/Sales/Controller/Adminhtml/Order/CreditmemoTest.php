@@ -31,7 +31,7 @@ class CreditmemoTest extends \Magento\TestFramework\TestCase\AbstractBackendCont
         $order->load('100000001', 'increment_id');
         $items = $order->getCreditmemosCollection()->getItems();
         $creditmemo = array_shift($items);
-        $comment = 'Test Comment 02';
+        $comment = 'Xindex Comment 02';
         $this->getRequest()->setParam('creditmemo_id', $creditmemo->getId());
         $this->getRequest()->setPostValue('comment', ['comment' => $comment]);
         $this->dispatch('backend/sales/order_creditmemo/addComment/id/' . $creditmemo->getId());

@@ -18,7 +18,7 @@ use Magento\Ui\Component\FormFactory;
 use Magento\Framework\View\Element\UiComponent\DataProvider\DataProviderInterface;
 
 /**
- * Test UI component context.
+ * Xindex UI component context.
  */
 class ContextTest extends TestCase
 {

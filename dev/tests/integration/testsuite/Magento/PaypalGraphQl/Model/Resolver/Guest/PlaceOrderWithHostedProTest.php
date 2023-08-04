@@ -76,7 +76,7 @@ class PlaceOrderWithHostedProTest extends TestCase
     }
 
     /**
-     * Test successful place order with Hosted Pro
+     * Xindex successful place order with Hosted Pro
      *
      * @magentoConfigFixture default_store payment/hosted_pro/active 1
      * @magentoConfigFixture default_store paypal/wpp/sandbox_flag 1
@@ -150,7 +150,7 @@ QUERY;
     }
 
     /**
-     * Test place order with Hosted Pro with a declined status
+     * Xindex place order with Hosted Pro with a declined status
      *
      * @magentoConfigFixture default_store payment/hosted_pro/active 1
      * @magentoConfigFixture default_store paypal/wpp/sandbox_flag 1
@@ -212,7 +212,7 @@ QUERY;
     }
 
     /**
-     * Test setPaymentMethodOnCart with invalid url inputs
+     * Xindex setPaymentMethodOnCart with invalid url inputs
      *
      * @magentoConfigFixture default_store payment/hosted_pro/active 1
      * @magentoConfigFixture default_store paypal/wpp/sandbox_flag 1

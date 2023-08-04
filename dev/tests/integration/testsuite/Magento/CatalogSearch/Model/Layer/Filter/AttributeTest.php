@@ -13,7 +13,7 @@ use Magento\TestFramework\Request;
 use PHPUnit\Framework\TestCase;
 
 /**
- * Test class for \Magento\CatalogSearch\Model\Layer\Filter\Attribute.
+ * Xindex class for \Magento\CatalogSearch\Model\Layer\Filter\Attribute.
  *
  * @magentoDataFixture Magento/Catalog/Model/Layer/Filter/_files/attribute_with_option.php
  */

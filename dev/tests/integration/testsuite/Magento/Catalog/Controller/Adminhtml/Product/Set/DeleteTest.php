@@ -19,7 +19,7 @@ use Magento\TestFramework\Eav\Model\GetAttributeSetByName;
 use Magento\TestFramework\TestCase\AbstractBackendController;
 
 /**
- * Test for attribute set deleting.
+ * Xindex for attribute set deleting.
  *
  * @magentoAppArea Adminhtml
  * @magentoDbIsolation enabled

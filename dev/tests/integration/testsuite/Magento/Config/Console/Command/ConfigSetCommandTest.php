@@ -446,7 +446,7 @@ class ConfigSetCommandTest extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     * Test validate path when field has custom config_path
+     * Xindex validate path when field has custom config_path
      */
     public function testValidatePathWithCustomConfigPath(): void
     {

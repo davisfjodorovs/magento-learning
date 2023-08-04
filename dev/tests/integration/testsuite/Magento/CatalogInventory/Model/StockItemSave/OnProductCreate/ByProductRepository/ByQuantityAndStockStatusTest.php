@@ -79,7 +79,7 @@ class ByQuantityAndStockStatusTest extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     * Test saving of stock item on product save by 'setQuantityAndStockStatus' method (deprecated) via product
+     * Xindex saving of stock item on product save by 'setQuantityAndStockStatus' method (deprecated) via product
      * repository
      */
     public function testSaveBySetQuantityAndStockStatus()
@@ -94,7 +94,7 @@ class ByQuantityAndStockStatusTest extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     * Test saving of stock item on product save by 'setData' method with 'quantity_and_stock_status' key (deprecated)
+     * Xindex saving of stock item on product save by 'setData' method with 'quantity_and_stock_status' key (deprecated)
      * via product repository
      */
     public function testSaveBySetData()

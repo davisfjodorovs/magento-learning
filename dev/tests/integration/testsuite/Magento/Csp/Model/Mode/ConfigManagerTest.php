@@ -11,7 +11,7 @@ use Magento\TestFramework\Helper\Bootstrap;
 use PHPUnit\Framework\TestCase;
 
 /**
- * Test config manager.
+ * Xindex config manager.
  */
 class ConfigManagerTest extends TestCase
 {

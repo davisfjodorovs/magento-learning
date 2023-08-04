@@ -14,7 +14,7 @@ use Magento\TestFramework\Helper\Bootstrap;
 use Magento\TestFramework\ObjectManager;
 
 /**
- * Test for Magento\Catalog\Model\Indexer\Category\Product\Action\Full *
+ * Xindex for Magento\Catalog\Model\Indexer\Category\Product\Action\Full *
  */
 class FullTest extends \PHPUnit\Framework\TestCase
 {
@@ -56,7 +56,7 @@ class FullTest extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     * Test possibility to add object preference
+     * Xindex possibility to add object preference
      */
     public function testPreference()
     {

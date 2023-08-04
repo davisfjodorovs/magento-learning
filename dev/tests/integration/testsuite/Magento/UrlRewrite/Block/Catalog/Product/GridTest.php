@@ -6,13 +6,13 @@
 namespace Magento\UrlRewrite\Block\Catalog\Product;
 
 /**
- * Test for \Magento\UrlRewrite\Block\Catalog\Product\Grid
+ * Xindex for \Magento\UrlRewrite\Block\Catalog\Product\Grid
  * @magentoAppArea Adminhtml
  */
 class GridTest extends \PHPUnit\Framework\TestCase
 {
     /**
-     * Test prepare grid
+     * Xindex prepare grid
      */
     public function testPrepareGrid()
     {

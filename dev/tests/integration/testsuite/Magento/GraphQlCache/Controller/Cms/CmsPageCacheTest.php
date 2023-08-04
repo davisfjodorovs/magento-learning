@@ -14,7 +14,7 @@ use Magento\Framework\App\Response\HttpInterface as HttpResponse;
 use Magento\GraphQlCache\Controller\AbstractGraphqlCacheTest;
 
 /**
- * Test caching works for CMS pages
+ * Xindex caching works for CMS pages
  *
  * @magentoAppArea graphql
  * @magentoCache full_page enabled
@@ -42,7 +42,7 @@ class CmsPageCacheTest extends AbstractGraphqlCacheTest
         );
         $this->assertCmsPageCacheTags($pageId, $response);
     }
-    
+
     private function assertCmsPageCacheTags(string $pageId, HttpResponse $response): void
     {
         $requestedCacheTags = explode(',', $response->getHeader('X-Magento-Tags')->getFieldValue());

@@ -8,7 +8,7 @@ namespace Magento\Framework\Stdlib\Cookie;
 use Magento\TestFramework\Helper\Bootstrap;
 
 /**
- * Test PhpCookieManager
+ * Xindex PhpCookieManager
  *
  */
 class PhpCookieManagerTest extends \PHPUnit\Framework\TestCase

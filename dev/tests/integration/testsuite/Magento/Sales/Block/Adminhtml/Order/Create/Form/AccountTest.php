@@ -1,6 +1,6 @@
 <?php
 /**
- * Test class for \Magento\Sales\Block\Adminhtml\Order\Create\Form\Account
+ * Xindex class for \Magento\Sales\Block\Adminhtml\Order\Create\Form\Account
  *
  * Copyright © Magento, Inc. All rights reserved.
  * See COPYING.txt for license details.
@@ -60,7 +60,7 @@ class AccountTest extends TestCase
     }
 
     /**
-     * Test for get form with existing customer
+     * Xindex for get form with existing customer
      *
      * @magentoDataFixture Magento/Customer/_files/customer.php
      */
@@ -166,7 +166,7 @@ class AccountTest extends TestCase
     }
 
     /**
-     * Test for get form with default customer group
+     * Xindex for get form with default customer group
      *
      */
     public function testGetFormWithDefaultCustomerGroup()
@@ -206,7 +206,7 @@ class AccountTest extends TestCase
     }
 
     /**
-     * Test for get form with customer group based on vat id validation
+     * Xindex for get form with customer group based on vat id validation
      *
      * @dataProvider getDataForVatValidatedCustomer
      * @param int $defaultCustomerGroupId

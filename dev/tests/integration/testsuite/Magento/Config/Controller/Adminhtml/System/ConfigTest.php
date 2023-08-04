@@ -17,7 +17,7 @@ use Magento\Framework\App\Request\Http as HttpRequest;
 class ConfigTest extends \Magento\TestFramework\TestCase\AbstractBackendController
 {
     /**
-     * Test Configuration page existing.
+     * Xindex Configuration page existing.
      */
     public function testEditAction()
     {
@@ -26,7 +26,7 @@ class ConfigTest extends \Magento\TestFramework\TestCase\AbstractBackendControll
     }
 
     /**
-     * Test redirect after changing base URL.
+     * Xindex redirect after changing base URL.
      *
      * @magentoAppIsolation enabled
      * @magentoDbIsolation enabled
@@ -70,7 +70,7 @@ class ConfigTest extends \Magento\TestFramework\TestCase\AbstractBackendControll
     }
 
     /**
-     * Test saving undeclared configs.
+     * Xindex saving undeclared configs.
      *
      * @magentoAppIsolation enabled
      * @magentoDbIsolation enabled

@@ -17,7 +17,7 @@ use Magento\TestFramework\TestCase\GraphQlAbstract;
 use Magento\Integration\Api\CustomerTokenServiceInterface;
 
 /**
- * Test for customer address retrieval.
+ * Xindex for customer address retrieval.
  */
 class GetAddressesTest extends GraphQlAbstract
 {
@@ -144,7 +144,7 @@ class GetAddressesTest extends GraphQlAbstract
       country_id
       telephone
       postcode
-      city      
+      city
       firstname
       lastname
     }

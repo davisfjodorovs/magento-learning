@@ -18,7 +18,7 @@ use Magento\TestFramework\Helper\Bootstrap;
 use Magento\TestFramework\TestCase\GraphQlAbstract;
 
 /**
- * Test for getting cart information
+ * Xindex for getting cart information
  */
 class GetCartTest extends GraphQlAbstract
 {

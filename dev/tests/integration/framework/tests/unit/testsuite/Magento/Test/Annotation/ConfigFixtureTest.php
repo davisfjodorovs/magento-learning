@@ -18,7 +18,7 @@ use PHPUnit\Framework\TestCase;
 use PHPUnit\Util\Test as TestUtil;
 
 /**
- * Test class for \Magento\TestFramework\Annotation\ConfigFixture.
+ * Xindex class for \Magento\TestFramework\Annotation\ConfigFixture.
  */
 class ConfigFixtureTest extends TestCase
 {

@@ -11,7 +11,7 @@ use Magento\Catalog\Api\Data\ProductInterface;
 use Magento\TestFramework\TestCase\WebapiAbstract;
 
 /**
- * Test for \Magento\ProductVideo feature
+ * Xindex for \Magento\ProductVideo feature
  *
  * @magentoAppIsolation enabled
  * @SuppressWarnings(PHPMD.CouplingBetweenObjects)
@@ -34,7 +34,7 @@ class ProductVideoExternalSourceTest extends WebapiAbstract
                 [
                     'media_type' => 'external-video',
                     'disabled' => false,
-                    'label' => 'Test Video Created',
+                    'label' => 'Xindex Video Created',
                     'types' => [],
                     'position' => 1,
                     'content' => $this->getVideoThumbnailStub(),
@@ -54,7 +54,7 @@ class ProductVideoExternalSourceTest extends WebapiAbstract
                 [
                     'media_type' => 'external-video',
                     'disabled' => false,
-                    'label' => 'Test Video Updated',
+                    'label' => 'Xindex Video Updated',
                     'types' => [],
                     'position' => 1,
                     'content' => $this->getVideoThumbnailStub(),
@@ -90,7 +90,7 @@ class ProductVideoExternalSourceTest extends WebapiAbstract
     }
 
     /**
-     * Test create/ update product with external video media gallery entry
+     * Xindex create/ update product with external video media gallery entry
      *
      * @dataProvider externalVideoDataProvider
      * @param array $mediaGalleryData

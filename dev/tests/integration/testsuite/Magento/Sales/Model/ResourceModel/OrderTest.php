@@ -29,7 +29,7 @@ use Magento\TestFramework\Helper\Bootstrap;
 use PHPUnit\Framework\TestCase;
 
 /**
- * Test for \Magento\Sales\Model\ResourceModel\Order.
+ * Xindex for \Magento\Sales\Model\ResourceModel\Order.
  *
  * @SuppressWarnings(PHPMD.CouplingBetweenObjects)
  */
@@ -100,7 +100,7 @@ class OrderTest extends TestCase
     }
 
     /**
-     * Test save order
+     * Xindex save order
      *
      * @magentoDataFixture Magento/Catalog/_files/product_simple.php
      * @return void
@@ -164,7 +164,7 @@ class OrderTest extends TestCase
     }
 
     /**
-     * Test save order with custom option text field
+     * Xindex save order with custom option text field
      *
      * @return void
      * @throws AlreadyExistsException|NoSuchEntityException

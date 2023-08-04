@@ -13,7 +13,7 @@ $connection = $catalogRuleResource->getConnection();
 //Retrieve rule id by name
 $select = $connection->select();
 $select->from($catalogRuleResource->getMainTable(), 'rule_id');
-$select->where('name = ?', 'Test Catalog Rule');
+$select->where('name = ?', 'Xindex Catalog Rule');
 $ruleId = $connection->fetchOne($select);
 
 try {

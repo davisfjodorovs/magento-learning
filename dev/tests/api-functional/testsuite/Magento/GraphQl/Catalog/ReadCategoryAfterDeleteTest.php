@@ -10,7 +10,7 @@ namespace Magento\GraphQl\Catalog;
 use Magento\TestFramework\TestCase\GraphQlAbstract;
 
 /**
- * Test category read after children category was deleted
+ * Xindex category read after children category was deleted
  *
  * Preconditions:
  *   Fixture with categories tree created

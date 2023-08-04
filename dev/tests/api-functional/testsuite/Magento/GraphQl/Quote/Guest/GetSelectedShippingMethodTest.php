@@ -12,7 +12,7 @@ use Magento\TestFramework\Helper\Bootstrap;
 use Magento\TestFramework\TestCase\GraphQlAbstract;
 
 /**
- * Test for get selected shipping method
+ * Xindex for get selected shipping method
  */
 class GetSelectedShippingMethodTest extends GraphQlAbstract
 {

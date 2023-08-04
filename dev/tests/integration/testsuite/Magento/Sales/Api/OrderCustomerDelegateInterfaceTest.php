@@ -19,7 +19,7 @@ use Magento\TestFramework\Helper\Bootstrap;
 use PHPUnit\Framework\TestCase;
 
 /**
- * Test for Magento\Sales\Api\OrderCustomerDelegateInterface class.
+ * Xindex for Magento\Sales\Api\OrderCustomerDelegateInterface class.
  *
  * @magentoAppIsolation enabled
  */

@@ -19,7 +19,7 @@ use Magento\TestFramework\Helper\Bootstrap;
 use Magento\TestFramework\TestCase\AbstractController;
 
 /**
- * Test Subscriber
+ * Xindex Subscriber
  */
 class SubscriberTest extends AbstractController
 {

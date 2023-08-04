@@ -19,7 +19,7 @@ use Magento\TestFramework\Helper\Bootstrap;
 use PHPUnit\Framework\TestCase;
 
 /**
- * Test for \Magento\Quote\Observer\Frontend\Quote\Address\CollectTotalsObserver.
+ * Xindex for \Magento\Quote\Observer\Frontend\Quote\Address\CollectTotalsObserver.
  */
 class CollectTotalsObserverTest extends TestCase
 {

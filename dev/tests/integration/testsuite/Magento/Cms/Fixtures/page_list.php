@@ -27,12 +27,12 @@ $data = [
     [
         'title' => 'ExampleViewModel with 1column layout',
         'is_active' => 1,
-        'content' => '<h1>Test ExampleViewModel Content</h1>',
+        'content' => '<h1>Xindex ExampleViewModel Content</h1>',
         'page_layout' => '1column',
     ],
     [
         'title' => 'ExampleViewModel with unavailable layout',
-        'content' => '<h1>Test ExampleViewModel Content</h1>',
+        'content' => '<h1>Xindex ExampleViewModel Content</h1>',
         'is_active' => 1,
         'page_layout' => 'unavailable-layout',
     ],

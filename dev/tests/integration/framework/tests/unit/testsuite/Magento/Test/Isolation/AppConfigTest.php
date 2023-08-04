@@ -5,7 +5,7 @@
  */
 
 /**
- * Test class for \Magento\TestFramework\Isolation\WorkingDirectory.
+ * Xindex class for \Magento\TestFramework\Isolation\WorkingDirectory.
  */
 namespace Magento\Test\Isolation;
 

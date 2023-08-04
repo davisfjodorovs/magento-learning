@@ -1,6 +1,6 @@
 <?php
 /**
- * Test for \Magento\Framework\Filesystem\File\Read
+ * Xindex for \Magento\Framework\Filesystem\File\Read
  *
  * Copyright © Magento, Inc. All rights reserved.
  * See COPYING.txt for license details.
@@ -12,7 +12,7 @@ use Magento\TestFramework\Helper\Bootstrap;
 class ReadTest extends \PHPUnit\Framework\TestCase
 {
     /**
-     * Test instance of Read
+     * Xindex instance of Read
      */
     public function testInstance()
     {
@@ -21,7 +21,7 @@ class ReadTest extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     * Test for assertValid method
+     * Xindex for assertValid method
      * Expected exception for file that does not exist and file without access
      *
      * @dataProvider providerNotValidFiles
@@ -45,7 +45,7 @@ class ReadTest extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     * Test for read method
+     * Xindex for read method
      *
      * @dataProvider providerRead
      * @param string $path
@@ -70,7 +70,7 @@ class ReadTest extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     * Test readAll
+     * Xindex readAll
      *
      * @dataProvider readAllProvider
      * @param string $path
@@ -96,7 +96,7 @@ class ReadTest extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     * Test readLine
+     * Xindex readLine
      *
      * @dataProvider readLineProvider
      * @param string $path
@@ -127,7 +127,7 @@ class ReadTest extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     * Test for stat method
+     * Xindex for stat method
      *
      * @dataProvider statProvider
      * @param string $path
@@ -167,7 +167,7 @@ class ReadTest extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     * Test for readCsv method
+     * Xindex for readCsv method
      *
      * @dataProvider providerCsv
      * @param string $path
@@ -198,7 +198,7 @@ class ReadTest extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     * Test for tell method
+     * Xindex for tell method
      *
      * @dataProvider providerPosition
      * @param string $path
@@ -222,7 +222,7 @@ class ReadTest extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     * Test for seek method
+     * Xindex for seek method
      *
      * @dataProvider providerSeek
      * @param string $path
@@ -252,7 +252,7 @@ class ReadTest extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     * Test for eof method
+     * Xindex for eof method
      *
      * @dataProvider providerEof
      * @param string $path
@@ -276,7 +276,7 @@ class ReadTest extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     * Test for eof method
+     * Xindex for eof method
      */
     public function testEofTrue()
     {
@@ -287,7 +287,7 @@ class ReadTest extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     * Test for close method
+     * Xindex for close method
      */
     public function testClose()
     {

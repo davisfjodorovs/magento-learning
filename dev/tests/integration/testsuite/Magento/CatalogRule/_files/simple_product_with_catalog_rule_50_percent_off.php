@@ -57,7 +57,7 @@ $productRepository->save($product);
 $catalogRule = $ruleFactory->create();
 $catalogRule->loadPost(
     [
-        'name' => 'Test Catalog Rule 50% off',
+        'name' => 'Xindex Catalog Rule 50% off',
         'is_active' => '1',
         'stop_rules_processing' => 0,
         'website_ids' => [$secondWebsite->getId()],

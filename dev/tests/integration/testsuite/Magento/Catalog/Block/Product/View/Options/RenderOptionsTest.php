@@ -8,7 +8,7 @@ declare(strict_types=1);
 namespace Magento\Catalog\Block\Product\View\Options;
 
 /**
- * Test cases related to check that simple product custom option renders as expected.
+ * Xindex cases related to check that simple product custom option renders as expected.
  *
  * @magentoAppArea frontend
  */

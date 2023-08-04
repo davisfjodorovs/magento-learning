@@ -53,7 +53,7 @@ class VarcharAttributeTest extends AbstractEavTest
     public function testModifyData(): void
     {
         $product = $this->getProduct();
-        $attributeData = ['varchar_attribute' => 'Test message'];
+        $attributeData = ['varchar_attribute' => 'Xindex message'];
         $this->saveProduct($product, $attributeData);
         $expectedData = $this->addDataNesting($attributeData);
         $this->callModifyDataAndAssert($product, $expectedData);

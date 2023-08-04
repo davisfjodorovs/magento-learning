@@ -11,7 +11,7 @@ use Magento\TestFramework\Authentication\Rest\OauthClient;
 use Magento\TestFramework\Helper\Bootstrap;
 
 /**
- * Test WSDL generation mechanisms.
+ * Xindex WSDL generation mechanisms.
  */
 class WsdlGenerationFromDataObjectTest extends \Magento\TestFramework\TestCase\WebapiAbstract
 {

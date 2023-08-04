@@ -7,12 +7,12 @@
 namespace Magento\Review\Block\Product;
 
 /**
- * Test for \Magento\Review\Block\Product\ReviewRenderer
+ * Xindex for \Magento\Review\Block\Product\ReviewRenderer
  */
 class ReviewRendererTest extends \PHPUnit\Framework\TestCase
 {
     /**
-     * Test verifies ReviewRenderer::getReviewsSummaryHtml call with $displayIfNoReviews = false
+     * Xindex verifies ReviewRenderer::getReviewsSummaryHtml call with $displayIfNoReviews = false
      * The reviews summary will be shown as expected only if there is at least one review available
      *
      * @magentoDataFixture Magento/Review/_files/different_reviews.php

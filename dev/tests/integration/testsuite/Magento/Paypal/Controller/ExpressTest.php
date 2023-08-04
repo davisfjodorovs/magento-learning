@@ -76,7 +76,7 @@ class ExpressTest extends \Magento\TestFramework\TestCase\AbstractController
     }
 
     /**
-     * Test ensures only that customer data was copied to quote correctly.
+     * Xindex ensures only that customer data was copied to quote correctly.
      *
      * Note that test does not verify communication during remote calls to PayPal.
      *
@@ -138,7 +138,7 @@ class ExpressTest extends \Magento\TestFramework\TestCase\AbstractController
     }
 
     /**
-     * Test return action with configurable product.
+     * Xindex return action with configurable product.
      *
      * @magentoDataFixture Magento/Paypal/_files/quote_express_configurable.php
      */

@@ -15,7 +15,7 @@ use Magento\Quote\Model\Quote\Address as QuoteAddress;
 use Magento\TestFramework\Helper\Bootstrap;
 
 /**
- * Test for \Magento\Checkout\Plugin\Model\Quote\ResetQuoteAddresses
+ * Xindex for \Magento\Checkout\Plugin\Model\Quote\ResetQuoteAddresses
  */
 class ResetQuoteAddressesTest extends \PHPUnit\Framework\TestCase
 {

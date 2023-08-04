@@ -11,13 +11,13 @@ use Magento\TestFramework\TestCase\GraphQlAbstract;
 use Magento\TestFramework\TestCase\GraphQl\ResponseContainsErrorsException;
 
 /**
- * Test that required input parameters are properly validated on framework level
+ * Xindex that required input parameters are properly validated on framework level
  */
 class RequiredInputArgumentTest extends GraphQlAbstract
 {
 
     /**
-     * Test that a simple input value will be treated as required
+     * Xindex that a simple input value will be treated as required
      *
      * We should see error message from framework not the Resolver
      * urlResolver query has required input arg "url"
@@ -43,7 +43,7 @@ QUERY;
     }
 
     /**
-     * Test that a more complex required argument is handled properly
+     * Xindex that a more complex required argument is handled properly
      *
      * testInputQueryWithMandatoryArguments mutation has required parameter input.query_items.query_item_id
      */

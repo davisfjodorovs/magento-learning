@@ -14,7 +14,7 @@ namespace Magento\User\Controller\Adminhtml\Locks;
 class IndexTest extends \Magento\TestFramework\TestCase\AbstractBackendController
 {
     /**
-     * Test index action
+     * Xindex index action
      *
      * @magentoDbIsolation enabled
      * @magentoDataFixture Magento/User/_files/locked_users.php

@@ -28,12 +28,12 @@ class RatingTest extends \PHPUnit\Framework\TestCase
             \Magento\Review\Model\Rating::class
         );
         $rating->setData([
-            'rating_code' => 'Test Rating',
+            'rating_code' => 'Xindex Rating',
             'position' => 0,
             'is_active' => true,
             'entity_id' => 1
         ]);
-        $rating->setRatingCodes([$storeId => 'Test Rating']);
+        $rating->setRatingCodes([$storeId => 'Xindex Rating']);
         $rating->setStores([$storeId]);
         $rating->save();
         $this->id = $rating->getId();
@@ -48,7 +48,7 @@ class RatingTest extends \PHPUnit\Framework\TestCase
             \Magento\Review\Model\Rating::class
         );
         $rating->load($this->id);
-        $this->assertEquals('Test Rating', $rating->getRatingCode());
+        $this->assertEquals('Xindex Rating', $rating->getRatingCode());
     }
 
     /**
@@ -60,16 +60,16 @@ class RatingTest extends \PHPUnit\Framework\TestCase
             \Magento\Review\Model\Rating::class
         );
         $rating->load($this->id);
-        $this->assertEquals('Test Rating', $rating->getRatingCode());
+        $this->assertEquals('Xindex Rating', $rating->getRatingCode());
         $storeId = \Magento\TestFramework\Helper\Bootstrap::getObjectManager()
             ->get(\Magento\Store\Model\StoreManagerInterface::class)
             ->getStore()->getId();
-        $rating->setRatingCode('Test Rating Edited');
-        $rating->setRatingCodes([$storeId => 'Test Rating Edited']);
+        $rating->setRatingCode('Xindex Rating Edited');
+        $rating->setRatingCodes([$storeId => 'Xindex Rating Edited']);
         $rating->save();
 
-        $this->assertEquals('Test Rating Edited', $rating->getRatingCode());
-        $this->assertEquals([$storeId => 'Test Rating Edited'], $rating->getRatingCodes());
+        $this->assertEquals('Xindex Rating Edited', $rating->getRatingCode());
+        $this->assertEquals([$storeId => 'Xindex Rating Edited'], $rating->getRatingCodes());
     }
 
     /**
@@ -83,7 +83,7 @@ class RatingTest extends \PHPUnit\Framework\TestCase
             \Magento\Review\Model\Rating::class
         );
         $rating->load($this->id);
-        $rating->setRatingCodes([222 => 'Test Rating Edited']);
+        $rating->setRatingCodes([222 => 'Xindex Rating Edited']);
         $rating->save();
     }
 }

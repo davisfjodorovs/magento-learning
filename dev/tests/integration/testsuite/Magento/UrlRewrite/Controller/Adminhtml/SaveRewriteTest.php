@@ -13,7 +13,7 @@ use Magento\Framework\App\Request\Http as HttpRequest;
 class SaveRewriteTest extends \Magento\TestFramework\TestCase\AbstractBackendController
 {
     /**
-     * Test create url rewrite with invalid target path
+     * Xindex create url rewrite with invalid target path
      *
      * @return void
      */

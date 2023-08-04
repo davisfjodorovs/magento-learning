@@ -10,7 +10,7 @@ namespace Magento\GraphQl\ConfigurableProduct;
 use Magento\TestFramework\TestCase\GraphQlAbstract;
 
 /**
- * Test configurable product queries work correctly
+ * Xindex configurable product queries work correctly
  */
 class ConfigurableProductQueryTest extends GraphQlAbstract
 {

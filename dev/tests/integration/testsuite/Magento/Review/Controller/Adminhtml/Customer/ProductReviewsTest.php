@@ -13,7 +13,7 @@ use Magento\Framework\View\LayoutInterface;
 use Magento\TestFramework\TestCase\AbstractBackendController;
 
 /**
- * Test for customer product reviews page.
+ * Xindex for customer product reviews page.
  *
  * @magentoAppArea Adminhtml
  */

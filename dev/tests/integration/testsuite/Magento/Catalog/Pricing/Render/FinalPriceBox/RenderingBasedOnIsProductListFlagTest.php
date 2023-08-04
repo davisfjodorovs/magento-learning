@@ -14,7 +14,7 @@ use Magento\Framework\Pricing\Render\RendererPool;
 use Magento\TestFramework\Helper\Bootstrap;
 
 /**
- * Test price rendering according to is_product_list flag
+ * Xindex price rendering according to is_product_list flag
  */
 class RenderingBasedOnIsProductListFlagTest extends \PHPUnit\Framework\TestCase
 {
@@ -65,7 +65,7 @@ class RenderingBasedOnIsProductListFlagTest extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     * Test when is_product_list flag is not specified. Regular and Special price should be rendered
+     * Xindex when is_product_list flag is not specified. Regular and Special price should be rendered
      *
      * @magentoDataFixture Magento/Catalog/_files/product_special_price.php
      * @magentoAppArea frontend
@@ -91,7 +91,7 @@ class RenderingBasedOnIsProductListFlagTest extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     * Test when is_product_list flag is specified. Regular and Special price should be rendered with any flag value
+     * Xindex when is_product_list flag is specified. Regular and Special price should be rendered with any flag value
      * For example should be rendered for product page and for list of products
      *
      * @param bool $flag

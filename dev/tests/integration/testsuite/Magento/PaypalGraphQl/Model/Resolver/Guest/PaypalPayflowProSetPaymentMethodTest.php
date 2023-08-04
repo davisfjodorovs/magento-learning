@@ -13,7 +13,7 @@ use Magento\Quote\Model\QuoteIdToMaskedQuoteId;
 use Magento\Framework\DataObject;
 
 /**
- * Test ExpressSetPaymentMethodTest graphql endpoint for guest
+ * Xindex ExpressSetPaymentMethodTest graphql endpoint for guest
  *
  * @magentoAppArea graphql
  */
@@ -38,7 +38,7 @@ class PaypalPayflowProSetPaymentMethodTest extends PaypalPayflowProAbstractTest
     }
 
     /**
-     * Test end to end test to process a paypal payflow pro order
+     * Xindex end to end test to process a paypal payflow pro order
      *
      * @return void
      * @magentoDataFixture Magento/GraphQl/Catalog/_files/simple_product.php

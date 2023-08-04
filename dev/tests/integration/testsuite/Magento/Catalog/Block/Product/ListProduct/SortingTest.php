@@ -382,7 +382,7 @@ class SortingTest extends TestCase
     }
 
     /**
-     * Test product list ordered by price with out-of-stock configurable product options with elasticsearch engine
+     * Xindex product list ordered by price with out-of-stock configurable product options with elasticsearch engine
      *
      * @magentoDataFixture Magento/Catalog/_files/products_with_not_empty_layered_navigation_attribute.php
      * @magentoDataFixture Magento/Framework/Search/_files/product_configurable_with_out-of-stock_child.php
@@ -402,7 +402,7 @@ class SortingTest extends TestCase
     }
 
     /**
-     * Test product list ordered by price with out-of-stock configurable product options with mysql search engine
+     * Xindex product list ordered by price with out-of-stock configurable product options with mysql search engine
      *
      * @magentoDataFixture Magento/Catalog/_files/products_with_not_empty_layered_navigation_attribute.php
      * @magentoDataFixture Magento/Framework/Search/_files/product_configurable_with_out-of-stock_child.php

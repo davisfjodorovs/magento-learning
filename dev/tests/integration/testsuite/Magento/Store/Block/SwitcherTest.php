@@ -37,7 +37,7 @@ class SwitcherTest extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     * Test that GetTargetStorePostData() method returns correct data.
+     * Xindex that GetTargetStorePostData() method returns correct data.
      *
      * @magentoDataFixture Magento/Store/_files/store.php
      * @return void

@@ -1,6 +1,6 @@
 <?php
 /**
- * Test layout declaration and usage of block elements
+ * Xindex layout declaration and usage of block elements
  *
  * Copyright © Magento, Inc. All rights reserved.
  * See COPYING.txt for license details.
@@ -43,7 +43,7 @@ class TemplatesTest extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     * Test that references to template files follows canonical format.
+     * Xindex that references to template files follows canonical format.
      *
      * path/to/template.phtml Format is prohibited.
      * @return void

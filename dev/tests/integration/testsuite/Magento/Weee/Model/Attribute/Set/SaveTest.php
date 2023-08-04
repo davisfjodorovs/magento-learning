@@ -19,7 +19,7 @@ use Magento\Weee\Model\ResourceModel\Tax as WeeTaxResource;
 use PHPUnit\Framework\TestCase;
 
 /**
- * Test checks that wee attributes data was deleted after unassigning wee attributes from attribute set.
+ * Xindex checks that wee attributes data was deleted after unassigning wee attributes from attribute set.
  *
  * @magentoDbIsolation enabled
  * @magentoDataFixture Magento/Catalog/_files/product_simple_duplicated.php

@@ -18,7 +18,7 @@ class OrderCommentsListTest extends WebapiAbstract
      */
     public function testOrderCommentsList()
     {
-        $comment = 'Test comment';
+        $comment = 'Xindex comment';
         $objectManager = \Magento\TestFramework\Helper\Bootstrap::getObjectManager();
 
         /** @var \Magento\Sales\Model\Order $order */

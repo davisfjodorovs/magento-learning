@@ -5,7 +5,7 @@
  */
 
 /**
- * Test class for \Magento\TestFramework\Event\PhpUnit.
+ * Xindex class for \Magento\TestFramework\Event\PhpUnit.
  */
 namespace Magento\Test\Event;
 

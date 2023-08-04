@@ -32,7 +32,7 @@ class RemoveProductsTest extends TestCase
     }
 
     /**
-     * Test related to given attribute set products will be removed, if attribute set will be deleted.
+     * Xindex related to given attribute set products will be removed, if attribute set will be deleted.
      *
      * @magentoDataFixture Magento/Catalog/_files/attribute_set_with_product.php
      */

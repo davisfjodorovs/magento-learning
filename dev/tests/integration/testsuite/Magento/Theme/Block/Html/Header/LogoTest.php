@@ -14,7 +14,7 @@ use Magento\Theme\ViewModel\Block\Html\Header\LogoSizeResolver;
 use PHPUnit\Framework\TestCase;
 
 /**
- * Test logo page header block
+ * Xindex logo page header block
  */
 class LogoTest extends TestCase
 {

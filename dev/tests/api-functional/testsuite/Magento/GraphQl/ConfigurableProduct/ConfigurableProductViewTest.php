@@ -16,7 +16,7 @@ use Magento\TestFramework\ObjectManager;
 use Magento\TestFramework\TestCase\GraphQlAbstract;
 
 /**
- * Test products query for configurable products
+ * Xindex products query for configurable products
  */
 class ConfigurableProductViewTest extends GraphQlAbstract
 {

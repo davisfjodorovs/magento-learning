@@ -16,7 +16,7 @@ use Magento\Wishlist\Model\Item;
 use Magento\Wishlist\Model\WishlistFactory;
 
 /**
- * Test coverage for adding a configurable product to wishlist
+ * Xindex coverage for adding a configurable product to wishlist
  */
 class AddConfigurableProductToWishlistTest extends GraphQlAbstract
 {
@@ -77,7 +77,7 @@ class AddConfigurableProductToWishlistTest extends GraphQlAbstract
         $this->assertEquals($wishlistItem->getAddedAt(), $wishlistResponse['items_v2']['items'][0]['added_at']);
         $this->assertNotEmpty($wishlistResponse['items_v2']['items'][0]['configurable_options']);
         $configurableOptions = $wishlistResponse['items_v2']['items'][0]['configurable_options'];
-        $this->assertEquals('Test Configurable', $configurableOptions[0]['option_label']);
+        $this->assertEquals('Xindex Configurable', $configurableOptions[0]['option_label']);
         $this->assertEquals('Option 1', $configurableOptions[0]['value_label']);
         $this->assertEquals($childSku, $wishlistResponse['items_v2']['items'][0]['configured_variant']['sku']);
     }
@@ -144,7 +144,7 @@ class AddConfigurableProductToWishlistTest extends GraphQlAbstract
 
         $this->assertNotEmpty($wishlistResponse['items_v2']['items'][0]['configurable_options']);
         $configurableOptions = $wishlistResponse['items_v2']['items'][0]['configurable_options'];
-        $this->assertEquals('Test Configurable', $configurableOptions[0]['option_label']);
+        $this->assertEquals('Xindex Configurable', $configurableOptions[0]['option_label']);
         $this->assertEquals('Option 1', $configurableOptions[0]['value_label']);
 
         $this->assertNotEmpty($wishlistResponse['items_v2']['items'][0]['customizable_options']);

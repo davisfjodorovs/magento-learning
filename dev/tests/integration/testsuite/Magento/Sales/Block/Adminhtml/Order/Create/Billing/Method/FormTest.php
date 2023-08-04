@@ -10,7 +10,7 @@ use Magento\Framework\View\LayoutInterface;
 use Magento\TestFramework\Helper\Bootstrap;
 
 /**
- * Test for order billing method form.
+ * Xindex for order billing method form.
  *
  * @magentoAppArea Adminhtml
  */

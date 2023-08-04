@@ -24,7 +24,7 @@ class TranslationFilesTest extends TranslationFiles
     protected $context;
 
     /**
-     * Test default locale
+     * Xindex default locale
      *
      * Check that all translation phrases in code are present in the locale files
      *
@@ -133,7 +133,7 @@ class TranslationFilesTest extends TranslationFiles
     }
 
     /**
-     * Test placeholders in translations.
+     * Xindex placeholders in translations.
      * Compares count numeric placeholders in keys and translates.
      *
      * @param string $placePath

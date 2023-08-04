@@ -18,7 +18,7 @@ use Magento\Framework\Config\FileIterator;
 use Magento\Framework\Component\ComponentRegistrar;
 
 /**
- * Test of the stitching of graphql schemas together
+ * Xindex of the stitching of graphql schemas together
  */
 class GraphQlReaderTest extends TestCase
 {

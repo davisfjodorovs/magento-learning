@@ -45,7 +45,7 @@ class DataProviderTest extends TestCase
     }
 
     /**
-     * Test translation data.
+     * Xindex translation data.
      *
      * @magentoAppArea frontend
      * @magentoConfigFixture default_store dev/translate_inline/active 1

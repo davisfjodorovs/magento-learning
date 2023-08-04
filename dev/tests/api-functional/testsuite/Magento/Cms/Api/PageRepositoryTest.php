@@ -159,7 +159,7 @@ class PageRepositoryTest extends WebapiAbstract
     }
 
     /**
-     * Test get page
+     * Xindex get page
      *
      * @return void
      */
@@ -218,7 +218,7 @@ class PageRepositoryTest extends WebapiAbstract
     }
 
     /**
-     * Test create page
+     * Xindex create page
      *
      * @return void
      */
@@ -273,7 +273,7 @@ class PageRepositoryTest extends WebapiAbstract
     }
 
     /**
-     * Test update \Magento\Cms\Api\Data\PageInterface
+     * Xindex update \Magento\Cms\Api\Data\PageInterface
      *
      * @return void
      */
@@ -310,7 +310,7 @@ class PageRepositoryTest extends WebapiAbstract
     }
 
     /**
-     * Test update page one field
+     * Xindex update page one field
      *
      * @return void
      */
@@ -389,7 +389,7 @@ class PageRepositoryTest extends WebapiAbstract
     }
 
     /**
-     * Test delete \Magento\Cms\Api\Data\PageInterface
+     * Xindex delete \Magento\Cms\Api\Data\PageInterface
      *
      * @return void
      */
@@ -446,7 +446,7 @@ class PageRepositoryTest extends WebapiAbstract
     }
 
     /**
-     * Test search \Magento\Cms\Api\Data\PageInterface
+     * Xindex search \Magento\Cms\Api\Data\PageInterface
      *
      * @return void
      */

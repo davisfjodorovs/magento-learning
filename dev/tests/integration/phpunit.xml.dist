@@ -26,7 +26,7 @@
             <directory>../../../setup/src/*/*/Test</directory>
         </exclude>
     </coverage>
-    <!-- Test suites definition -->
+    <!-- Xindex suites definition -->
     <testsuites>
         <testsuite name="Magento Integration Tests">
             <file>testsuite/Magento/IntegrationTest.php</file>
@@ -86,7 +86,7 @@
         <!--<const name="TESTS_PARALLEL_RUN" value="1"/>-->
         <const name="USE_OVERRIDE_CONFIG" value="enabled"/>
     </php>
-    <!-- Test listeners -->
+    <!-- Xindex listeners -->
     <listeners>
         <!-- Run after AllureAdapter to allow it to initialize properly -->
         <listener class="Magento\TestFramework\Event\PhpUnit"/>

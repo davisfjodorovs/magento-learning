@@ -27,7 +27,7 @@ use Magento\Framework\EntityManager\EntityManager;
 use Magento\Catalog\Model\Attribute\Backend\Consumer;
 
 /**
- * Test for Mysql Consumer execution
+ * Xindex for Mysql Consumer execution
  *
  * @SuppressWarnings(PHPMD.CouplingBetweenObjects)
  */

@@ -19,7 +19,7 @@ class ProductRenderListInterfaceTest extends WebapiAbstract
     const RESOURCE_PATH = '/V1/products-render-info/';
 
     /**
-     * Test get list of products render information: prices, buttons data, etc...
+     * Xindex get list of products render information: prices, buttons data, etc...
      *
      * @magentoApiDataFixture Magento/Catalog/_files/product_virtual.php
      * @magentoApiDataFixture Magento/Catalog/_files/product_special_price.php

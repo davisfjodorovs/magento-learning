@@ -16,7 +16,7 @@ use Magento\TestFramework\Helper\Bootstrap;
 use PHPUnit\Framework\TestCase;
 
 /**
- * Test class for backend stock attribute model.
+ * Xindex class for backend stock attribute model.
  *
  * @see \Magento\Catalog\Model\Product\Attribute\Backend\Stock
  *

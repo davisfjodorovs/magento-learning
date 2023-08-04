@@ -16,7 +16,7 @@ use Magento\TestFramework\TestCase\GraphQlAbstract;
 use Magento\CatalogInventory\Model\Configuration;
 
 /**
- * Test for the product only x left in stock
+ * Xindex for the product only x left in stock
  */
 class ProductOnlyXLeftInStockTest extends GraphQlAbstract
 {
@@ -91,7 +91,7 @@ QUERY;
             products(filter: {sku: {eq: "{$productSku}"}})
             {
                 items {
-                    only_x_left_in_stock            
+                    only_x_left_in_stock
                 }
             }
         }
@@ -118,13 +118,13 @@ QUERY;
         // need to resave product to reindex it with new configuration.
         $product = $this->productRepository->get($productSku);
         $this->productRepository->save($product);
-        
+
         $query = <<<QUERY
         {
             products(filter: {sku: {eq: "{$productSku}"}})
             {
                 items {
-                    only_x_left_in_stock            
+                    only_x_left_in_stock
                 }
             }
         }

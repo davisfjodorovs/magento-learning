@@ -13,7 +13,7 @@ use Magento\TestFramework\Helper\Bootstrap;
 use PHPUnit\Framework\TestCase;
 
 /**
- * Test group product minimum advertised price model
+ * Xindex group product minimum advertised price model
  */
 class MsrpPriceCalculatorTest extends TestCase
 {
@@ -38,7 +38,7 @@ class MsrpPriceCalculatorTest extends TestCase
     }
 
     /**
-     * Test grouped product minimum advertised price
+     * Xindex grouped product minimum advertised price
      *
      * @magentoAppIsolation enabled
      * @magentoDataFixture Magento/GroupedProduct/_files/product_grouped.php

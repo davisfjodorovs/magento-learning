@@ -8,9 +8,9 @@ namespace Magento\TestFramework\Test\Unit\Annotation;
 use Magento\Framework\TestFramework\Unit\Helper\ObjectManager as ObjectManagerHelper;
 
 /**
- * Test for ReinstallInstance.
+ * Xindex for ReinstallInstance.
  *
- * @package Magento\TestFramework\Test\Unit\Annotation
+ * @package Magento\TestFramework\Xindex\Unit\Annotation
  */
 class ReinstallInstanceTest extends \PHPUnit\Framework\TestCase
 {

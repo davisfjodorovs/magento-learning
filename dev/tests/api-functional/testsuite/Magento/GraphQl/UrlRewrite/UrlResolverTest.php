@@ -17,7 +17,7 @@ use Magento\UrlRewrite\Model\UrlRewrite as UrlRewriteModel;
 use Magento\UrlRewrite\Service\V1\Data\UrlRewrite as UrlRewriteService;
 
 /**
- * Test the GraphQL endpoint's URLResolver query to verify canonical URL's are correctly returned.
+ * Xindex the GraphQL endpoint's URLResolver query to verify canonical URL's are correctly returned.
  */
 class UrlResolverTest extends GraphQlAbstract
 {
@@ -30,7 +30,7 @@ class UrlResolverTest extends GraphQlAbstract
     }
 
     /**
-     * Test for custom type which point to the invalid product/category/cms page.
+     * Xindex for custom type which point to the invalid product/category/cms page.
      *
      * @magentoApiDataFixture Magento/UrlRewrite/_files/url_rewrite_not_existing_entity.php
      */
@@ -58,7 +58,7 @@ QUERY;
     }
 
     /**
-     * Test for url rewrite to clean cache on rewrites update
+     * Xindex for url rewrite to clean cache on rewrites update
      *
      * @magentoApiDataFixture Magento/Catalog/_files/product_with_category.php
      * @magentoApiDataFixture Magento/Cms/_files/pages.php
@@ -121,7 +121,7 @@ QUERY;
     }
 
     /**
-     * Test for custom url rewrite to clean cache on update combinations
+     * Xindex for custom url rewrite to clean cache on update combinations
      *
      * @magentoApiDataFixture Magento/Catalog/_files/product_with_category.php
      * @magentoApiDataFixture Magento/Cms/_files/pages.php

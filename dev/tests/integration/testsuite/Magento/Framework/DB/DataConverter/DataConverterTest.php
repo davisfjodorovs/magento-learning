@@ -142,7 +142,7 @@ class DataConverterTest extends TestCase
     }
 
     /**
-     * Test that exception with valid text is thrown when data is corrupted
+     * Xindex that exception with valid text is thrown when data is corrupted
      *
      */
     public function testDataConvertErrorReporting()

@@ -12,7 +12,7 @@ use Magento\Eav\Api\Data\AttributeInterface;
 use Magento\Eav\Model\Entity\Attribute\Source\Table;
 
 /**
- * Test cases related to create attribute with input type visual swatch.
+ * Xindex cases related to create attribute with input type visual swatch.
  *
  * @magentoDbIsolation enabled
  * @magentoAppArea Adminhtml
@@ -20,7 +20,7 @@ use Magento\Eav\Model\Entity\Attribute\Source\Table;
 class VisualSwatchTest extends AbstractSaveAttributeTest
 {
     /**
-     * Test create attribute and compare attribute data and input data.
+     * Xindex create attribute and compare attribute data and input data.
      *
      * @dataProvider \Magento\TestFramework\Swatches\Model\Attribute\DataProvider\VisualSwatch::getAttributeDataWithCheckArray
      *
@@ -34,7 +34,7 @@ class VisualSwatchTest extends AbstractSaveAttributeTest
     }
 
     /**
-     * Test create attribute with error.
+     * Xindex create attribute with error.
      *
      * @dataProvider \Magento\TestFramework\Swatches\Model\Attribute\DataProvider\VisualSwatch::getAttributeDataWithErrorMessage
      *

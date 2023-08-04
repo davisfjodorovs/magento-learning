@@ -18,7 +18,7 @@ class CollectionTest extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     * Test setClassTypeFilter with correct Class Type
+     * Xindex setClassTypeFilter with correct Class Type
      *
      * @param $classType
      * @param $elementId
@@ -52,7 +52,7 @@ class CollectionTest extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     * Test setClassTypeFilter with wrong Class Type
+     * Xindex setClassTypeFilter with wrong Class Type
      *
      */
     public function testSetClassTypeFilterWithWrongType()

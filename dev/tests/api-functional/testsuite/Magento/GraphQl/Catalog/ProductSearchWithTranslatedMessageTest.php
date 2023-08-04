@@ -18,7 +18,7 @@ use Magento\TestFramework\Helper\CacheCleaner;
 class ProductSearchWithTranslatedMessageTest extends GraphQlAbstract
 {
     /**
-     * Test translated error message in non default store
+     * Xindex translated error message in non default store
      *
      * @magentoApiDataFixture Magento/Store/_files/second_store.php
      * @magentoApiDataFixture Magento/Translation/_files/catalog_message_translate.php

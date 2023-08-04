@@ -47,7 +47,7 @@ class FileTest extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     * Test crud operations for theme files model using valid data
+     * Xindex crud operations for theme files model using valid data
      */
     public function testCrud()
     {

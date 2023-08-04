@@ -24,7 +24,7 @@ class ExportTest extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     * Test method '_getEntityAdapter' in case when entity is valid
+     * Xindex method '_getEntityAdapter' in case when entity is valid
      *
      * @param string $entity
      * @param string $expectedEntityType
@@ -66,7 +66,7 @@ class ExportTest extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     * Test method '_getEntityAdapter' in case when entity is invalid
+     * Xindex method '_getEntityAdapter' in case when entity is invalid
      *
      * @covers \Magento\ImportExport\Model\Export::_getEntityAdapter
      */

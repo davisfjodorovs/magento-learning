@@ -11,7 +11,7 @@ use Magento\Framework\App\RequestInterface;
 use Magento\Reports\Model\ResourceModel\Product\Sold\Collection\Initial;
 
 /**
- * Test class for \Magento\Reports\Block\Adminhtml\Grid
+ * Xindex class for \Magento\Reports\Block\Adminhtml\Grid
  * @magentoAppArea Adminhtml
  */
 class GridTest extends \PHPUnit\Framework\TestCase
@@ -37,7 +37,7 @@ class GridTest extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     *  Test apply filtering to collection
+     *  Xindex apply filtering to collection
      *
      * @param string $from
      * @param string $to

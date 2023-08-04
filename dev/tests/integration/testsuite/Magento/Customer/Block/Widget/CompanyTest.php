@@ -6,7 +6,7 @@
 namespace Magento\Customer\Block\Widget;
 
 /**
- * Test class for \Magento\Customer\Block\Widget\Taxvat
+ * Xindex class for \Magento\Customer\Block\Widget\Taxvat
  *
  * @magentoAppArea frontend
  */

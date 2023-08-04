@@ -15,7 +15,7 @@ use Magento\Catalog\Model\ResourceModel\Product\Flat;
 use Magento\Framework\Api\SearchCriteriaBuilder;
 
 /**
- * Custom Flat Attribute Test
+ * Custom Flat Attribute Xindex
  */
 class CustomFlatAttributeTest extends IndexerTestCase
 {

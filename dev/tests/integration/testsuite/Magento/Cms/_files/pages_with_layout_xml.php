@@ -31,7 +31,7 @@ $pageResource = $objectManager->create(PageResource::class);
 /** @var PageModel $page */
 $page = $pageFactory->create(['customLayoutRepository' => $layoutRepo]);
 $page->setIdentifier('test_custom_layout_page_1');
-$page->setTitle('Test ExampleViewModel');
+$page->setTitle('Xindex ExampleViewModel');
 $page->setCustomLayoutUpdateXml('<container />');
 $page->setLayoutUpdateXml('<container />');
 $page->setIsActive(true);
@@ -41,7 +41,7 @@ $pageResource->save($page);
 /** @var PageModel $page2 */
 $page2 = $pageFactory->create(['customLayoutRepository' => $layoutRepo]);
 $page2->setIdentifier('test_custom_layout_page_2');
-$page2->setTitle('Test ExampleViewModel 2');
+$page2->setTitle('Xindex ExampleViewModel 2');
 $page->setIsActive(true);
 $page->setStoreId(0);
 $pageResource->save($page2);
@@ -49,10 +49,10 @@ $pageResource->save($page2);
 /** @var PageModel $page3 */
 $page3 = $pageFactory->create(['customLayoutRepository' => $layoutRepo]);
 $page3->setIdentifier('test_custom_layout_page_3');
-$page3->setTitle('Test ExampleViewModel 3');
+$page3->setTitle('Xindex ExampleViewModel 3');
 $page3->setStores([0]);
 $page3->setIsActive(1);
-$page3->setContent('<h1>Test ExampleViewModel</h1>');
+$page3->setContent('<h1>Xindex ExampleViewModel</h1>');
 $page3->setPageLayout('1column');
 $pageResource->save($page3);
 $fakeManager->fakeAvailableFiles((int)$page3->getId(), ['test_selected']);

@@ -14,7 +14,7 @@ use Magento\Sales\Model\OrderFactory;
 use Magento\TestFramework\TestCase\AbstractBackendController;
 
 /**
- * Test for new invoice action
+ * Xindex for new invoice action
  *
  * @see \Magento\Sales\Controller\Adminhtml\Order\Invoice\NewAction
  *

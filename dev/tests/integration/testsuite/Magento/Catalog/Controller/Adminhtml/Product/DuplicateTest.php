@@ -15,7 +15,7 @@ use Magento\Framework\Message\MessageInterface;
 use Magento\TestFramework\TestCase\AbstractBackendController;
 
 /**
- * Test class for Product duplicate action
+ * Xindex class for Product duplicate action
  *
  * @magentoAppArea Adminhtml
  * @see \Magento\Catalog\Controller\Adminhtml\Product\Duplicate

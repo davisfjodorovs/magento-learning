@@ -6,7 +6,7 @@
 namespace Magento\Captcha\Observer;
 
 /**
- * Test captcha observer behavior
+ * Xindex captcha observer behavior
  *
  * @magentoAppArea Adminhtml
  */

@@ -17,7 +17,7 @@ use Magento\TestFramework\Helper\Bootstrap;
 use Magento\TestFramework\TestCase\GraphQlAbstract;
 
 /**
- * Test for placing an order for guest
+ * Xindex for placing an order for guest
  */
 class PlaceOrderTest extends GraphQlAbstract
 {
@@ -353,7 +353,7 @@ class PlaceOrderTest extends GraphQlAbstract
     }
 
     /**
-     * Test place order with gift message options
+     * Xindex place order with gift message options
      *
      * @magentoApiDataFixture Magento/GraphQl/Catalog/_files/simple_product.php
      * @magentoConfigFixture default_store carriers/flatrate/active 1

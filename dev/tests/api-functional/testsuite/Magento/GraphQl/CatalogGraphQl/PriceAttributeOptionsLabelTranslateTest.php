@@ -19,7 +19,7 @@ use Magento\TestFramework\Helper\Bootstrap;
 use Magento\TestFramework\TestCase\GraphQlAbstract;
 
 /**
- * Test class to verify the translated price attribute option label based on the store view.
+ * Xindex class to verify the translated price attribute option label based on the store view.
  */
 class PriceAttributeOptionsLabelTranslateTest extends GraphQlAbstract
 {

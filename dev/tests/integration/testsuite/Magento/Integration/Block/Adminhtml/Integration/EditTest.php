@@ -12,7 +12,7 @@ use Magento\Integration\Model\Integration;
 use Magento\TestFramework\Helper\Bootstrap;
 
 /**
- * Test class for \Magento\Integration\Block\Adminhtml\Integration\Edit
+ * Xindex class for \Magento\Integration\Block\Adminhtml\Integration\Edit
  *
  * @magentoAppArea Adminhtml
  */
@@ -58,7 +58,7 @@ class EditTest extends \PHPUnit\Framework\TestCase
     public function testGetHeaderTextEditIntegration()
     {
         $integrationId = 1;
-        $integrationName = 'Test Name';
+        $integrationName = 'Xindex Name';
 
         $integrationData = [
             Integration::ID => $integrationId,
@@ -80,7 +80,7 @@ class EditTest extends \PHPUnit\Framework\TestCase
     public function testGetHeaderTextEditIntegrationConfigType()
     {
         $integrationId = 2;
-        $integrationName = 'Test Name 2';
+        $integrationName = 'Xindex Name 2';
 
         $integrationData = [
             Integration::ID => $integrationId,

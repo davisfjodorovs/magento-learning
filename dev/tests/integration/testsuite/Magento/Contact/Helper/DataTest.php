@@ -9,7 +9,7 @@ namespace Magento\Contact\Helper;
 use Magento\TestFramework\Helper\Bootstrap;
 
 /**
- * Test for Magento\Contact\Helper\Data
+ * Xindex for Magento\Contact\Helper\Data
  *
  * @magentoDataFixture Magento/Customer/_files/customer.php
  */

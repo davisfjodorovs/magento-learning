@@ -43,7 +43,7 @@ class AddSimpleProductWithCustomOptionsToCartTest extends GraphQlAbstract
     }
 
     /**
-     * Test adding a simple product to the shopping cart with all supported
+     * Xindex adding a simple product to the shopping cart with all supported
      * customizable options assigned
      *
      * @magentoApiDataFixture Magento/Catalog/_files/product_simple_with_options.php
@@ -84,7 +84,7 @@ class AddSimpleProductWithCustomOptionsToCartTest extends GraphQlAbstract
     }
 
     /**
-     * Test adding a simple product with empty values for required options
+     * Xindex adding a simple product with empty values for required options
      *
      * @magentoApiDataFixture Magento/Catalog/_files/product_simple_with_options.php
      * @magentoApiDataFixture Magento/Checkout/_files/active_quote.php
@@ -105,7 +105,7 @@ class AddSimpleProductWithCustomOptionsToCartTest extends GraphQlAbstract
     }
 
     /**
-     * Test adding a simple product with wrong format value for date option
+     * Xindex adding a simple product with wrong format value for date option
      *
      * @magentoApiDataFixture Magento/Catalog/_files/product_simple_with_options.php
      * @magentoApiDataFixture Magento/Checkout/_files/active_quote.php
@@ -141,10 +141,10 @@ class AddSimpleProductWithCustomOptionsToCartTest extends GraphQlAbstract
     private function getQuery(string $maskedQuoteId, string $sku, float $quantity, string $customizableOptions): string
     {
         return <<<QUERY
-mutation {  
+mutation {
   addSimpleProductsToCart(
     input: {
-      cart_id: "{$maskedQuoteId}", 
+      cart_id: "{$maskedQuoteId}",
       cart_items: [
         {
           data: {

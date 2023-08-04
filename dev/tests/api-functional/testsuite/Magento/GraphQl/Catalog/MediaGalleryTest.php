@@ -10,7 +10,7 @@ namespace Magento\GraphQl\Catalog;
 use Magento\TestFramework\TestCase\GraphQlAbstract;
 
 /**
- * Test cases for product media gallery data retrieval.
+ * Xindex cases for product media gallery data retrieval.
  */
 class MediaGalleryTest extends GraphQlAbstract
 {
@@ -39,7 +39,7 @@ QUERY;
     }
 
     /**
-     * Test for get product image placeholder
+     * Xindex for get product image placeholder
      *
      * @magentoApiDataFixture Magento/Catalog/_files/product_simple.php
      */

@@ -19,7 +19,7 @@ use Magento\TestFramework\Fixture\DataFixtureStorageManager;
 use Magento\TestFramework\TestCase\GraphQlAbstract;
 
 /**
- * Test for product categories
+ * Xindex for product categories
  */
 class ProductCategoriesTest extends GraphQlAbstract
 {

@@ -366,7 +366,7 @@ class InterfaceTest extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     * Test if alpha transparency is correctly handled
+     * Xindex if alpha transparency is correctly handled
      *
      * @param string $image
      * @param string $watermark

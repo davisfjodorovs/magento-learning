@@ -195,7 +195,7 @@ class IpnTest extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     * Test processIpnRequest() currency check for paypal_express and paypal_standard payment methods
+     * Xindex processIpnRequest() currency check for paypal_express and paypal_standard payment methods
      *
      * @param string $currencyCode
      */

@@ -14,7 +14,7 @@ use Magento\TestFramework\ObjectManager;
 use PHPUnit\Framework\TestCase;
 
 /**
- * Test founded products order after quick search with changed attribute search weight using mysql search engine.
+ * Xindex founded products order after quick search with changed attribute search weight using mysql search engine.
  *
  * @magentoAppIsolation enabled
  */

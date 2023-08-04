@@ -1,6 +1,6 @@
 <?php
 /**
- * Test class for Form
+ * Xindex class for Form
  *
  * Copyright © Magento, Inc. All rights reserved.
  * See COPYING.txt for license details.

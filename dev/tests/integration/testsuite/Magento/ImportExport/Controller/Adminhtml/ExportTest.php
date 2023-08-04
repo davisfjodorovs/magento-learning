@@ -45,7 +45,7 @@ class ExportTest extends AbstractBackendController
     }
 
     /**
-     * Test getFilter action
+     * Xindex getFilter action
      *
      * @dataProvider getEntityTypesDataProvider
      *
@@ -102,7 +102,7 @@ class ExportTest extends AbstractBackendController
     }
 
     /**
-     * Test index action
+     * Xindex index action
      */
     public function testIndexAction()
     {

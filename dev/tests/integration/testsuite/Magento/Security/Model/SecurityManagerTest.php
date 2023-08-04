@@ -57,7 +57,7 @@ class SecurityManagerTest extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     * Test for performSecurityCheck() method
+     * Xindex for performSecurityCheck() method
      *
      * @magentoConfigFixture current_store customer/password/limit_password_reset_requests_method 0
      * @magentoDbIsolation enabled
@@ -98,7 +98,7 @@ class SecurityManagerTest extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     * Test for performSecurityCheck() method when number of password reset events is exceeded
+     * Xindex for performSecurityCheck() method when number of password reset events is exceeded
      *
      * @magentoConfigFixture current_store customer/password/limit_password_reset_requests_method 1
      * @magentoConfigFixture current_store customer/password/max_number_password_reset_requests 1
@@ -133,7 +133,7 @@ class SecurityManagerTest extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     * Test for performSecurityCheck() method when time between password reset events is exceeded
+     * Xindex for performSecurityCheck() method when time between password reset events is exceeded
      *
      * @magentoConfigFixture current_store customer/password/limit_password_reset_requests_method 1
      * @magentoConfigFixture current_store customer/password/max_number_password_reset_requests 0

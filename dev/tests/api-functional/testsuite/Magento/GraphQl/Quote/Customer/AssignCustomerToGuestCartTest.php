@@ -14,7 +14,7 @@ use Magento\TestFramework\TestCase\GraphQlAbstract;
 use Magento\Integration\Api\CustomerTokenServiceInterface;
 
 /**
- * Test for assigning customer to the guest cart
+ * Xindex for assigning customer to the guest cart
  */
 class AssignCustomerToGuestCartTest extends GraphQlAbstract
 {
@@ -45,7 +45,7 @@ class AssignCustomerToGuestCartTest extends GraphQlAbstract
     }
 
     /**
-     * Test for assigning customer to the guest cart
+     * Xindex for assigning customer to the guest cart
      *
      * @magentoApiDataFixture Magento/Checkout/_files/quote_with_virtual_product_saved.php
      * @magentoApiDataFixture Magento/Customer/_files/customer.php
@@ -81,7 +81,7 @@ class AssignCustomerToGuestCartTest extends GraphQlAbstract
     }
 
     /**
-     * Test that customer cart is expired after assigning
+     * Xindex that customer cart is expired after assigning
      *
      * @magentoApiDataFixture Magento/Checkout/_files/quote_with_virtual_product_saved.php
      * @magentoApiDataFixture Magento/Customer/_files/customer.php
@@ -115,7 +115,7 @@ class AssignCustomerToGuestCartTest extends GraphQlAbstract
     }
 
     /**
-     * Test for assigning customer to non existent cart
+     * Xindex for assigning customer to non existent cart
      *
      * @magentoApiDataFixture Magento/Customer/_files/customer.php
      */
@@ -134,7 +134,7 @@ class AssignCustomerToGuestCartTest extends GraphQlAbstract
     }
 
     /**
-     * Test for assigning customer to the customer cart
+     * Xindex for assigning customer to the customer cart
      *
      * @magentoApiDataFixture Magento/Customer/_files/customer.php
      * @magentoApiDataFixture Magento/GraphQl/Catalog/_files/simple_product.php

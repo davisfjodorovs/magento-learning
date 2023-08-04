@@ -42,7 +42,7 @@ class MagicMethodsTest extends RuleTestCase
     }
 
     /**
-     * Test Data Object Reflection extension.
+     * Xindex Data Object Reflection extension.
      */
     public function testExtension()
     {

@@ -54,7 +54,7 @@ $rateRepository->save($rate);
 
 $rule = $ruleFactory->create();
 $ruleData = [
-    Rule::KEY_CODE=> 'GraphQl Test Rule',
+    Rule::KEY_CODE=> 'GraphQl Xindex Rule',
     Rule::KEY_PRIORITY => '0',
     Rule::KEY_POSITION => '0',
     Rule::KEY_CUSTOMER_TAX_CLASS_IDS => [3],

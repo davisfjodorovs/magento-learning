@@ -116,7 +116,7 @@ class CategoryUrlRewriteTest extends TestCase
             'without_url_key' => [
                 [
                     'data' => [
-                        'name' => 'Test Category',
+                        'name' => 'Xindex Category',
                         'attribute_set_id' => '3',
                         'parent_id' => 2,
                         'path' => '1/2',
@@ -131,7 +131,7 @@ class CategoryUrlRewriteTest extends TestCase
             'subcategory_without_url_key' => [
                 [
                     'data' => [
-                        'name' => 'Test Sub Category',
+                        'name' => 'Xindex Sub Category',
                         'attribute_set_id' => '3',
                         'parent_id' => 444,
                         'path' => '1/2/444',
@@ -213,7 +213,7 @@ class CategoryUrlRewriteTest extends TestCase
         return [
             'with_specified_existing_product_url_key' => [
                 'data' => [
-                    'name' => 'Test Category',
+                    'name' => 'Xindex Category',
                     'attribute_set_id' => '3',
                     'parent_id' => 2,
                     'path' => '1/2',
@@ -232,7 +232,7 @@ class CategoryUrlRewriteTest extends TestCase
             ],
             'with_specified_existing_category_url_key' => [
                 'data' => [
-                    'name' => 'Test Category',
+                    'name' => 'Xindex Category',
                     'attribute_set_id' => '3',
                     'parent_id' => 2,
                     'path' => '1/2',

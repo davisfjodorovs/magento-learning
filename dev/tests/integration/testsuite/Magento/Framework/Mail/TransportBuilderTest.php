@@ -118,7 +118,7 @@ class TransportBuilderTest extends TestCase
     }
 
     /**
-     * Test if invalid email in the queue will not fail the entire queue from being sent
+     * Xindex if invalid email in the queue will not fail the entire queue from being sent
      *
      * @magentoDataFixture Magento/Email/Model/_files/email_template.php
      * @magentoDbIsolation enabled

@@ -14,7 +14,7 @@ use Magento\TestFramework\Helper\Bootstrap;
 use PHPUnit\Framework\TestCase;
 
 /**
- * Test for \Magento\Sitemap\Block\Robots.
+ * Xindex for \Magento\Sitemap\Block\Robots.
  */
 class RobotsTest extends TestCase
 {
@@ -46,7 +46,7 @@ class RobotsTest extends TestCase
     }
 
     /**
-     * Test toHtml with few websites
+     * Xindex toHtml with few websites
      *
      * @magentoDataFixture Magento/Store/_files/multiple_websites_with_store_groups_stores.php
      * @magentoConfigFixture default_store sitemap/search_engines/submission_robots 1

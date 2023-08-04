@@ -45,7 +45,7 @@ class FrontControllerEventsTest extends TestCase
     }
 
     /**
-     * Test if frontend controller dispatches events
+     * Xindex if frontend controller dispatches events
      *
      * @magentoAppArea frontend
      *
@@ -64,7 +64,7 @@ class FrontControllerEventsTest extends TestCase
     }
 
     /**
-     * Test if no dispatch flag prevents dispatching action
+     * Xindex if no dispatch flag prevents dispatching action
      *
      * @magentoAppArea frontend
      *

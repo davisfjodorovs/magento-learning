@@ -107,7 +107,7 @@ class DataPatchInstallationTest extends SetupTestCase
 
         $this->movePatches();
         /**
-         * Test whether installation give the same result as upgrade
+         * Xindex whether installation give the same result as upgrade
          */
         $this->cliCommad->install(
             ['Magento_TestSetupDeclarationModule3']

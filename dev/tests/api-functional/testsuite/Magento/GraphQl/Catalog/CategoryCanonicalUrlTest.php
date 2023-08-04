@@ -14,7 +14,7 @@ use Magento\TestFramework\TestCase\GraphQlAbstract;
 use Magento\Catalog\Api\Data\CategoryInterface;
 
 /**
- * Test for getting canonical url data from category
+ * Xindex for getting canonical url data from category
  */
 class CategoryCanonicalUrlTest extends GraphQlAbstract
 {

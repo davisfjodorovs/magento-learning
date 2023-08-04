@@ -10,7 +10,7 @@ namespace Magento\GraphQl\SendFriend;
 use Magento\TestFramework\TestCase\GraphQlAbstract;
 
 /**
- * Test SendFriend configuration resolves correctly in StoreConfig
+ * Xindex SendFriend configuration resolves correctly in StoreConfig
  */
 class StoreConfigTest extends GraphQlAbstract
 {

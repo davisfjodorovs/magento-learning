@@ -21,7 +21,7 @@ $website->load('test', 'code');
 if (!$website->getId()) {
     $website->setData([
         'code' => 'test',
-        'name' => 'Test Website',
+        'name' => 'Xindex Website',
         'is_default' => '0',
     ]);
     $website->save();

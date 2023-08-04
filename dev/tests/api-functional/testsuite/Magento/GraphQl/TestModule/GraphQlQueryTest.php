@@ -10,7 +10,7 @@ namespace Magento\GraphQl\TestModule;
 use Magento\TestFramework\TestCase\GraphQlAbstract;
 
 /**
- * Test for basic GraphQl features
+ * Xindex for basic GraphQl features
  */
 class GraphQlQueryTest extends GraphQlAbstract
 {

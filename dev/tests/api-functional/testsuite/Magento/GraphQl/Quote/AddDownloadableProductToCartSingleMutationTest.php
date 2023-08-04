@@ -13,7 +13,7 @@ use Magento\TestFramework\Helper\Bootstrap;
 use Magento\TestFramework\TestCase\GraphQlAbstract;
 
 /**
- * Test cases for adding downloadable product with custom options to cart using the single add to cart mutation.
+ * Xindex cases for adding downloadable product with custom options to cart using the single add to cart mutation.
  */
 class AddDownloadableProductToCartSingleMutationTest extends GraphQlAbstract
 {

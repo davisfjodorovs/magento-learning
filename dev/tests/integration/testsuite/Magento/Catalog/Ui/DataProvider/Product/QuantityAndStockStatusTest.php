@@ -39,7 +39,7 @@ class QuantityAndStockStatusTest extends TestCase
     }
 
     /**
-     * Test product stock status in the products grid column
+     * Xindex product stock status in the products grid column
      *
      * @magentoDataFixture Magento/Catalog/_files/quantity_and_stock_status_attribute_used_in_grid.php
      * @magentoDataFixture Magento/Catalog/_files/products.php

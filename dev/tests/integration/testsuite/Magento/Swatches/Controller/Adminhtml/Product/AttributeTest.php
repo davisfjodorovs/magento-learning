@@ -12,7 +12,7 @@ use Magento\Framework\Data\Form\FormKey;
 use Magento\Framework\Exception\LocalizedException;
 
 /**
- * Test for product attribute save controller.
+ * Xindex for product attribute save controller.
  *
  * @magentoAppArea Adminhtml
  * @magentoDbIsolation enabled
@@ -184,7 +184,7 @@ class AttributeTest extends \Magento\TestFramework\TestCase\AbstractBackendContr
     }
 
     /**
-     * Test attribute saving with large amount of options exceeding maximum allowed by max_input_vars limit.
+     * Xindex attribute saving with large amount of options exceeding maximum allowed by max_input_vars limit.
      * @dataProvider getLargeSwatchesAmountAttributeData()
      * @param array $attributeData
      * @param int $expectedOptionsCount
@@ -230,7 +230,7 @@ class AttributeTest extends \Magento\TestFramework\TestCase\AbstractBackendContr
                 );
             }
         } catch (LocalizedException $e) {
-            $this->fail('Test failed with exception on attribute model load: ' . $e);
+            $this->fail('Xindex failed with exception on attribute model load: ' . $e);
         }
     }
 }

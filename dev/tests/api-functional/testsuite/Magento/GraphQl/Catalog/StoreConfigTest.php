@@ -10,7 +10,7 @@ namespace Magento\GraphQl\Catalog;
 use Magento\TestFramework\TestCase\GraphQlAbstract;
 
 /**
- * Test the GraphQL endpoint's StoreConfigs query for Catalog Configs
+ * Xindex the GraphQL endpoint's StoreConfigs query for Catalog Configs
  */
 class StoreConfigTest extends GraphQlAbstract
 {

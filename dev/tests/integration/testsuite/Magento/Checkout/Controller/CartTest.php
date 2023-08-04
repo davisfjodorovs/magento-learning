@@ -5,7 +5,7 @@
  */
 
 /**
- * Test class for \Magento\Checkout\Controller\Cart
+ * Xindex class for \Magento\Checkout\Controller\Cart
  */
 namespace Magento\Checkout\Controller;
 
@@ -53,7 +53,7 @@ class CartTest extends \Magento\TestFramework\TestCase\AbstractController
     }
 
     /**
-     * Test for \Magento\Checkout\Controller\Cart::configureAction() with simple product
+     * Xindex for \Magento\Checkout\Controller\Cart::configureAction() with simple product
      *
      * @magentoDataFixture Magento/Checkout/_files/quote_with_simple_product.php
      */
@@ -88,7 +88,7 @@ class CartTest extends \Magento\TestFramework\TestCase\AbstractController
     }
 
     /**
-     * Test for \Magento\Checkout\Controller\Cart::configureAction() with simple product and custom option
+     * Xindex for \Magento\Checkout\Controller\Cart::configureAction() with simple product and custom option
      *
      * @magentoDataFixture Magento/Checkout/_files/cart_with_simple_product_and_custom_options.php
      */
@@ -133,7 +133,7 @@ class CartTest extends \Magento\TestFramework\TestCase\AbstractController
     }
 
     /**
-     * Test for \Magento\Checkout\Controller\Cart::configureAction() with bundle product
+     * Xindex for \Magento\Checkout\Controller\Cart::configureAction() with bundle product
      *
      * @magentoDataFixture Magento/Checkout/_files/quote_with_bundle_product.php
      * @magentoDbIsolation disabled
@@ -169,7 +169,7 @@ class CartTest extends \Magento\TestFramework\TestCase\AbstractController
     }
 
     /**
-     * Test for \Magento\Checkout\Controller\Cart::configureAction() with downloadable product
+     * Xindex for \Magento\Checkout\Controller\Cart::configureAction() with downloadable product
      *
      * @magentoDataFixture Magento/Checkout/_files/quote_with_downloadable_product.php
      */
@@ -305,7 +305,7 @@ class CartTest extends \Magento\TestFramework\TestCase\AbstractController
     }
 
     /**
-     * Test for \Magento\Checkout\Controller\Cart::execute() with simple product
+     * Xindex for \Magento\Checkout\Controller\Cart::execute() with simple product
      *
      * @param string $area
      * @param string $expectedPrice
@@ -355,7 +355,7 @@ class CartTest extends \Magento\TestFramework\TestCase\AbstractController
     /**
      * @covers \Magento\Checkout\Controller\Cart\Addgroup::execute()
      *
-     * Test customer can add items to cart only if they belong to him.
+     * Xindex customer can add items to cart only if they belong to him.
      *
      * @param bool $loggedIn
      * @param string $request

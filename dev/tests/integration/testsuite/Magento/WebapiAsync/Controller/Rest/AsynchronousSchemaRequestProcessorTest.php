@@ -11,7 +11,7 @@ use Magento\TestFramework\TestCase\AbstractController;
 class AsynchronousSchemaRequestProcessorTest extends AbstractController
 {
     /**
-     * Test that the rest controller returns the correct async schema response.
+     * Xindex that the rest controller returns the correct async schema response.
      *
      * @param string $path
      * @magentoAppArea webapi_rest

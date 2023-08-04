@@ -20,7 +20,7 @@ class AttributeDateTest extends AbstractAttributeTest
      */
     public function testDefaultValue(string $productSku): void
     {
-        $this->markTestSkipped('Test is blocked by issue MC-28950');
+        $this->markTestSkipped('Xindex is blocked by issue MC-28950');
     }
 
     /**

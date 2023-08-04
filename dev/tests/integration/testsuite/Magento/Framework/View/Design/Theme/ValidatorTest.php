@@ -5,14 +5,14 @@
  */
 
 /**
- * Test theme data validator
+ * Xindex theme data validator
  */
 namespace Magento\Framework\View\Design\Theme;
 
 class ValidatorTest extends \PHPUnit\Framework\TestCase
 {
     /**
-     * Test validator with valid data
+     * Xindex validator with valid data
      */
     public function testValidateWithValidData()
     {
@@ -28,7 +28,7 @@ class ValidatorTest extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     * Test validator with invalid data
+     * Xindex validator with invalid data
      */
     public function testValidateWithInvalidData()
     {

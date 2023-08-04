@@ -10,7 +10,7 @@ namespace Magento\Weee\Controller\Adminhtml\Product\Attribute\Update\InputType;
 use Magento\Catalog\Controller\Adminhtml\Product\Attribute\Update\AbstractUpdateAttributeTest;
 
 /**
- * Test cases related to update attribute with input type fixed product tax.
+ * Xindex cases related to update attribute with input type fixed product tax.
  *
  * @magentoDbIsolation enabled
  * @magentoAppArea Adminhtml
@@ -18,7 +18,7 @@ use Magento\Catalog\Controller\Adminhtml\Product\Attribute\Update\AbstractUpdate
 class FixedProductTaxTest extends AbstractUpdateAttributeTest
 {
     /**
-     * Test update attribute.
+     * Xindex update attribute.
      *
      * @dataProvider \Magento\TestFramework\Weee\Model\Attribute\DataProvider\FixedProductTax::getUpdateProvider
      * @magentoDataFixture Magento/Weee/_files/fixed_product_attribute.php
@@ -34,7 +34,7 @@ class FixedProductTaxTest extends AbstractUpdateAttributeTest
     }
 
     /**
-     * Test update attribute with error.
+     * Xindex update attribute with error.
      *
      * @dataProvider \Magento\TestFramework\Weee\Model\Attribute\DataProvider\FixedProductTax::getUpdateProviderWithErrorMessage
      * @magentoDataFixture Magento/Weee/_files/fixed_product_attribute.php
@@ -50,7 +50,7 @@ class FixedProductTaxTest extends AbstractUpdateAttributeTest
     }
 
     /**
-     * Test update attribute frontend labels on stores.
+     * Xindex update attribute frontend labels on stores.
      *
      * @dataProvider \Magento\TestFramework\Weee\Model\Attribute\DataProvider\FixedProductTax::getUpdateFrontendLabelsProvider
      * @magentoDataFixture Magento/Store/_files/second_website_with_two_stores.php

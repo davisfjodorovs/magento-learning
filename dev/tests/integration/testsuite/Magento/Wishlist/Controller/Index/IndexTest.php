@@ -12,7 +12,7 @@ use Magento\TestFramework\Helper\Xpath;
 use Magento\TestFramework\TestCase\AbstractController;
 
 /**
- * Test wish list on customer account page.
+ * Xindex wish list on customer account page.
  *
  * @magentoDbIsolation disabled
  * @magentoAppArea frontend
@@ -46,7 +46,7 @@ class IndexTest extends AbstractController
      * Verify wishlist view action
      *
      * The following is verified:
-     * - \Magento\Wishlist\Model\ResourceModel\Item\Question
+     * - \Magento\Wishlist\Model\ResourceModel\Item\Collection
      * - \Magento\Wishlist\Block\Customer\Wishlist
      * - \Magento\Wishlist\Block\Customer\Wishlist\Items
      * - \Magento\Wishlist\Block\Customer\Wishlist\Item\Column

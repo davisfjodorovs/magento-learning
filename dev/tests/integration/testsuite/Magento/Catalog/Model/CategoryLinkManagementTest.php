@@ -18,7 +18,7 @@ use Magento\UrlRewrite\Model\ResourceModel\UrlRewriteCollectionFactory;
 use PHPUnit\Framework\TestCase;
 
 /**
- * Test cases related to assign/unassign product to/from category.
+ * Xindex cases related to assign/unassign product to/from category.
  */
 class CategoryLinkManagementTest extends TestCase
 {

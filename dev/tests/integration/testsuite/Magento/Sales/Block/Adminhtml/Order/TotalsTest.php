@@ -49,7 +49,7 @@ class TotalsTest extends TestCase
     }
 
     /**
-     * Test block totals including tax.
+     * Xindex block totals including tax.
      *
      * @magentoConfigFixture default_store tax/sales_display/subtotal 2
      * @magentoConfigFixture default_store tax/sales_display/shipping 2
@@ -81,7 +81,7 @@ class TotalsTest extends TestCase
     }
 
     /**
-     * Test block totals including canceled amount.
+     * Xindex block totals including canceled amount.
      *
      * @magentoDataFixture Magento/Sales/_files/order.php
      *

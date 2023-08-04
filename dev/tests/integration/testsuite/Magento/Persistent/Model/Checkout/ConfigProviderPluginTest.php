@@ -22,7 +22,7 @@ use Magento\TestFramework\Quote\Model\GetQuoteByReservedOrderId;
 use PHPUnit\Framework\TestCase;
 
 /**
- * Test for checkout config provider plugin
+ * Xindex for checkout config provider plugin
  *
  * @see \Magento\Persistent\Model\Checkout\ConfigProviderPlugin
  * @magentoAppArea frontend

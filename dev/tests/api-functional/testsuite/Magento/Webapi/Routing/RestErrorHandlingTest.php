@@ -1,6 +1,6 @@
 <?php
 /**
- * Test Web API error codes.
+ * Xindex Web API error codes.
  *
  * Copyright © Magento, Inc. All rights reserved.
  * See COPYING.txt for license details.

@@ -249,7 +249,7 @@ class AddressTest extends TestCase
     }
 
     /**
-     * Test to get same as billing flag after change quote customer
+     * Xindex to get same as billing flag after change quote customer
      */
     public function testSameAsBillingAfterCustomerWesChanged()
     {
@@ -319,7 +319,7 @@ class AddressTest extends TestCase
     }
 
     /**
-     * Test to Set the required fields
+     * Xindex to Set the required fields
      */
     public function testPopulateBeforeSaveData()
     {
@@ -354,7 +354,7 @@ class AddressTest extends TestCase
     }
 
     /**
-     * Test to retrieve applied taxes
+     * Xindex to retrieve applied taxes
      *
      * @param $taxes
      * @param $expected
@@ -382,7 +382,7 @@ class AddressTest extends TestCase
     }
 
     /**
-     * Test to sate shipping address without region
+     * Xindex to sate shipping address without region
      */
     public function testSaveShippingAddressWithEmptyRegionId()
     {

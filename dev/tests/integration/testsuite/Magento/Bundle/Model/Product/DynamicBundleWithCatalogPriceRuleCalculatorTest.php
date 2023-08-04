@@ -44,7 +44,7 @@ class DynamicBundleWithCatalogPriceRuleCalculatorTest extends BundlePriceAbstrac
     }
 
     /**
-     * Test cases for current test
+     * Xindex cases for current test
      * @return array
      * @SuppressWarnings(PHPMD.ExcessiveMethodLength)
      */

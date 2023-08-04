@@ -13,7 +13,7 @@ use PHPUnit\Framework\TestCase;
 use PHPUnit\Util\Test as TestUtil;
 
 /**
- * Test class for \Magento\TestFramework\Annotation\AdminConfigFixture.
+ * Xindex class for \Magento\TestFramework\Annotation\AdminConfigFixture.
  */
 class AdminConfigFixtureTest extends TestCase
 {

@@ -17,7 +17,7 @@ use Magento\TestFramework\Helper\Bootstrap;
 use Magento\TestFramework\TestCase\GraphQlAbstract;
 
 /**
- * Test for setting payment methods on cart by customer
+ * Xindex for setting payment methods on cart by customer
  */
 class SetPaymentMethodOnCartTest extends GraphQlAbstract
 {

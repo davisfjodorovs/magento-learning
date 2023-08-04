@@ -119,7 +119,7 @@ class AddressRepositoryTest extends TestCase
     }
 
     /**
-     * Test for save address changes.
+     * Xindex for save address changes.
      *
      * @magentoDataFixture  Magento/Customer/_files/customer.php
      * @magentoDataFixture  Magento/Customer/_files/customer_address.php
@@ -143,7 +143,7 @@ class AddressRepositoryTest extends TestCase
     }
 
     /**
-     * Test for method save address with new id.
+     * Xindex for method save address with new id.
      *
      * @magentoDataFixture  Magento/Customer/_files/customer.php
      * @magentoDataFixture  Magento/Customer/_files/customer_address.php
@@ -168,7 +168,7 @@ class AddressRepositoryTest extends TestCase
     }
 
     /**
-     * Test for method get address by id.
+     * Xindex for method get address by id.
      *
      * @magentoDataFixture  Magento/Customer/_files/customer.php
      * @magentoDataFixture  Magento/Customer/_files/customer_address.php
@@ -184,7 +184,7 @@ class AddressRepositoryTest extends TestCase
     }
 
     /**
-     * Test for method get address by id with incorrect id.
+     * Xindex for method get address by id with incorrect id.
      *
      * @magentoDataFixture Magento/Customer/_files/customer.php
      * @return void
@@ -205,7 +205,7 @@ class AddressRepositoryTest extends TestCase
     }
 
     /**
-     * Test for method save new address.
+     * Xindex for method save new address.
      *
      * @magentoDataFixture  Magento/Customer/_files/customer.php
      * @magentoDataFixture  Magento/Customer/_files/customer_address.php
@@ -234,7 +234,7 @@ class AddressRepositoryTest extends TestCase
     }
 
     /**
-     * Test for method saaveNewAddress with new attributes.
+     * Xindex for method saaveNewAddress with new attributes.
      *
      * @magentoDataFixture  Magento/Customer/_files/customer.php
      * @magentoDataFixture  Magento/Customer/_files/customer_address.php
@@ -262,7 +262,7 @@ class AddressRepositoryTest extends TestCase
     }
 
     /**
-     * Test for saving address with invalid address.
+     * Xindex for saving address with invalid address.
      *
      * @magentoDataFixture  Magento/Customer/_files/customer.php
      * @magentoDataFixture  Magento/Customer/_files/customer_address.php
@@ -289,7 +289,7 @@ class AddressRepositoryTest extends TestCase
     }
 
     /**
-     * Test for saving address without existing customer.
+     * Xindex for saving address without existing customer.
      *
      * @return void
      */
@@ -309,7 +309,7 @@ class AddressRepositoryTest extends TestCase
     }
 
     /**
-     * Test for saving addresses with invalid customer id.
+     * Xindex for saving addresses with invalid customer id.
      *
      * @return void
      */
@@ -329,7 +329,7 @@ class AddressRepositoryTest extends TestCase
     }
 
     /**
-     * Test for delete method.
+     * Xindex for delete method.
      *
      * @magentoDataFixture Magento/Customer/_files/customer.php
      * @magentoDataFixture Magento/Customer/_files/customer_address.php
@@ -356,7 +356,7 @@ class AddressRepositoryTest extends TestCase
     }
 
     /**
-     * Test for deleteAddressById.
+     * Xindex for deleteAddressById.
      *
      * @magentoDataFixture Magento/Customer/_files/customer.php
      * @magentoDataFixture Magento/Customer/_files/customer_address.php
@@ -384,7 +384,7 @@ class AddressRepositoryTest extends TestCase
     }
 
     /**
-     * Test delete address from customer with incorrect address id.
+     * Xindex delete address from customer with incorrect address id.
      *
      * @magentoDataFixture Magento/Customer/_files/customer.php
      * @return void
@@ -404,7 +404,7 @@ class AddressRepositoryTest extends TestCase
     }
 
     /**
-     * Test for searching addressed.
+     * Xindex for searching addressed.
      *
      * @param Filter[] $filters
      * @param Filter[] $filterGroup
@@ -540,7 +540,7 @@ class AddressRepositoryTest extends TestCase
     }
 
     /**
-     * Test for save addresses with restricted countries.
+     * Xindex for save addresses with restricted countries.
      *
      * @magentoDataFixture Magento/Customer/Fixtures/customer_sec_website.php
      * @return void
@@ -570,7 +570,7 @@ class AddressRepositoryTest extends TestCase
     }
 
     /**
-     * Test for saving address with extra spaces in phone.
+     * Xindex for saving address with extra spaces in phone.
      *
      * @magentoDataFixture  Magento/Customer/_files/customer.php
      * @magentoDataFixture  Magento/Customer/_files/customer_address.php

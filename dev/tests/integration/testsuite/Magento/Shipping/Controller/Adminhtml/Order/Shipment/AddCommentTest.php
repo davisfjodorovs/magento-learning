@@ -29,7 +29,7 @@ class AddCommentTest extends AbstractShipmentControllerTest
      */
     public function testSendEmailOnShipmentCommentAdd(): void
     {
-        $comment = 'Test Shipment Comment';
+        $comment = 'Xindex Shipment Comment';
         $order = $this->prepareRequest(
             [
                 'comment' => ['comment' => $comment, 'is_customer_notified' => true],

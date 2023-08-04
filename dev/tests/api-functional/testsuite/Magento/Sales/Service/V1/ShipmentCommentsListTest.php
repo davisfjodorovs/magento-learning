@@ -21,7 +21,7 @@ class ShipmentCommentsListTest extends WebapiAbstract
      */
     public function testShipmentCommentsList()
     {
-        $comment = 'Test comment';
+        $comment = 'Xindex comment';
         $objectManager = \Magento\TestFramework\Helper\Bootstrap::getObjectManager();
 
         /** @var \Magento\Sales\Model\ResourceModel\Order\Shipment\Collection $shipmentCollection */
@@ -45,7 +45,7 @@ class ShipmentCommentsListTest extends WebapiAbstract
         ];
         $requestData = ['id' => $shipment->getId()];
         $result = $this->_webApiCall($serviceInfo, $requestData);
-        // TODO Test fails, due to the inability of the framework API to handle data collection
+        // TODO Xindex fails, due to the inability of the framework API to handle data collection
         foreach ($result['items'] as $item) {
             /** @var \Magento\Sales\Model\Order\Shipment\Comment $shipmentHistoryStatus */
             $shipmentHistoryStatus = $objectManager->get(\Magento\Sales\Model\Order\Shipment\Comment::class)

@@ -26,7 +26,7 @@ use Magento\TestFramework\HTTP\AsyncClientInterfaceMock;
 use PHPUnit\Framework\TestCase;
 
 /**
- * Test for DHL integration.
+ * Xindex for DHL integration.
  *
  * @SuppressWarnings(PHPMD.CouplingBetweenObjects)
  */
@@ -86,7 +86,7 @@ class CarrierTest extends TestCase
     }
 
     /**
-     * Test sending tracking requests.
+     * Xindex sending tracking requests.
      *
      * @magentoConfigFixture default_store carriers/dhl/id CustomerSiteID
      * @magentoConfigFixture default_store carriers/dhl/password CustomerPassword
@@ -252,7 +252,7 @@ class CarrierTest extends TestCase
     }
 
     /**
-     * Test sending shipping requests.
+     * Xindex sending shipping requests.
      *
      * @magentoConfigFixture default_store carriers/dhl/id some ID
      * @magentoConfigFixture default_store carriers/dhl/password some password
@@ -525,7 +525,7 @@ class CarrierTest extends TestCase
     }
 
     /**
-     * Test get carriers rates if has HttpException.
+     * Xindex get carriers rates if has HttpException.
      *
      * @magentoConfigFixture default_store carriers/dhl/active 1
      */

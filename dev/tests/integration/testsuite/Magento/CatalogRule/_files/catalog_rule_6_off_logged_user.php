@@ -22,7 +22,7 @@ $catalogRule = $catalogRuleFactory->create(
     [
         'data' => [
             RuleInterface::IS_ACTIVE => 1,
-            RuleInterface::NAME => 'Test Catalog Rule for logged user',
+            RuleInterface::NAME => 'Xindex Catalog Rule for logged user',
             'customer_group_ids' => 1,
             RuleInterface::DISCOUNT_AMOUNT => 6,
             'website_ids' => [1],

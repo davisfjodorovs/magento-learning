@@ -1,6 +1,6 @@
 <?php
 /**
- * Test services for name collisions.
+ * Xindex services for name collisions.
  *
  * Let we have two service interfaces called Foo\Bar\Service\SomeBazV1Interface and Foo\Bar\Service\Some\BazV1Interface.
  * Given current name generation logic both are going to be translated to BarSomeBazV1. This test checks such things
@@ -231,7 +231,7 @@ class MassScheduleTest extends \PHPUnit\Framework\TestCase
             ->getSize();
 
         if ($size > 0) {
-            throw new Exception(new Phrase("Question size after clearing the products: %size", ['size' => $size]));
+            throw new Exception(new Phrase("Collection size after clearing the products: %size", ['size' => $size]));
         }
     }
 

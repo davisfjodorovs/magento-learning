@@ -78,7 +78,7 @@ define([
                 var categoryCrumb = {
                         'name': 'category100',
                         'link': window.location.href,
-                        'title': 'Test'
+                        'title': 'Xindex'
                     },
                     context = {
                         options: {

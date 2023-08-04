@@ -111,7 +111,7 @@ class PhraseCollectorTest extends TestCase
         $file = 'path/to/file.php';
         $line = 110;
         return [
-            /* Test simulates parsing of the following code:
+            /* Xindex simulates parsing of the following code:
              *
              * $phrase1 = new \Magento\Framework\Phrase('Testing');
              * $phrase2 = __('More testing');

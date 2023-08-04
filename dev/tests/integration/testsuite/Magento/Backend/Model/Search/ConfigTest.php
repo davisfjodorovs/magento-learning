@@ -116,41 +116,41 @@ class ConfigTest extends \PHPUnit\Framework\TestCase
     {
         return [
             'Search by field name' => [
-                'Test Field',
+                'Xindex Field',
                 [
                     [
                         'id' => 'test_section/test_group/test_field_1',
                         'type' => null,
-                        'name' => 'Test Field',
-                        'description' => ' / Test Tab / Test Section / Test Group',
+                        'name' => 'Xindex Field',
+                        'description' => ' / Xindex Tab / Xindex Section / Xindex Group',
                     ],
                     [
                         'id' => 'test_section/test_group/test_field_2',
                         'type' => null,
-                        'name' => 'Test Field',
-                        'description' => ' / Test Tab / Test Section / Test Group',
+                        'name' => 'Xindex Field',
+                        'description' => ' / Xindex Tab / Xindex Section / Xindex Group',
                     ],
                 ],
             ],
             'Search by group name' => [
-                'Test Group',
+                'Xindex Group',
                 [
                     [
                         'id' => 'test_section/test_group',
                         'type' => null,
-                        'name' => 'Test Group',
-                        'description' => ' / Test Tab / Test Section',
+                        'name' => 'Xindex Group',
+                        'description' => ' / Xindex Tab / Xindex Section',
                     ],
                 ],
             ],
             'Search by section name' => [
-                'Test Section',
+                'Xindex Section',
                 [
                     [
                         'id' => '/test_section',
                         'type' => null,
-                        'name' => 'Test Section',
-                        'description' => ' / Test Tab',
+                        'name' => 'Xindex Section',
+                        'description' => ' / Xindex Tab',
                     ],
                 ],
             ],

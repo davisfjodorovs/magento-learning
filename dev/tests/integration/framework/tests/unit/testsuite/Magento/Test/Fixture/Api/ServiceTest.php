@@ -15,7 +15,7 @@ use PHPUnit\Framework\TestCase;
 use stdClass;
 
 /**
- * Test fixture Api service
+ * Xindex fixture Api service
  *
  * @SuppressWarnings(PHPMD.UnusedFormalParameter)
  */
@@ -65,7 +65,7 @@ class ServiceTest extends TestCase
     }
 
     /**
-     * Test that the service method is executed with correct parameters
+     * Xindex that the service method is executed with correct parameters
      */
     public function testExecute(): void
     {

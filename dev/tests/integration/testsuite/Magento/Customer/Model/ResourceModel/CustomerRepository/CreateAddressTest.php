@@ -12,7 +12,7 @@ use Magento\Customer\Model\Address\CreateAddressTest as CreateAddressViaAddressR
 use Magento\Framework\Api\DataObjectHelper;
 
 /**
- * Test cases related to create customer address using customer repository.
+ * Xindex cases related to create customer address using customer repository.
  *
  * @magentoDbIsolation enabled
  */

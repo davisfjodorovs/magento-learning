@@ -16,7 +16,7 @@ use Magento\TestFramework\Helper\Xpath;
 use PHPUnit\Framework\TestCase;
 
 /**
- * Test for customer product reviews grid.
+ * Xindex for customer product reviews grid.
  *
  * @see \Magento\Review\Block\Customer\ListCustomer
  * @magentoAppArea frontend

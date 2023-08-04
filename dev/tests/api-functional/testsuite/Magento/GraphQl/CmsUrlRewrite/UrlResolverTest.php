@@ -15,7 +15,7 @@ use Magento\Store\Model\ScopeInterface;
 use Magento\Framework\App\Config\ScopeConfigInterface;
 
 /**
- * Test the GraphQL endpoint's URLResolver query to verify canonical URL's are correctly returned.
+ * Xindex the GraphQL endpoint's URLResolver query to verify canonical URL's are correctly returned.
  */
 class UrlResolverTest extends GraphQlAbstract
 {
@@ -80,7 +80,7 @@ class UrlResolverTest extends GraphQlAbstract
     }
 
     /**
-     * Test resolution of '/' path to home page
+     * Xindex resolution of '/' path to home page
      */
     public function testResolveSlash()
     {

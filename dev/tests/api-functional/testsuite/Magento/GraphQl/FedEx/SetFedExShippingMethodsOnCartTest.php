@@ -13,7 +13,7 @@ use Magento\TestFramework\Helper\Bootstrap;
 use Magento\TestFramework\TestCase\GraphQlAbstract;
 
 /**
- * Test for setting FedEx shipping method on cart.
+ * Xindex for setting FedEx shipping method on cart.
  * Current class covers following base FedEx shipping methods:
  *
  * | Code                   | Label
@@ -203,9 +203,9 @@ mutation {
           method_title
         }
       }
-    } 
+    }
   }
-}        
+}
 QUERY;
     }
 

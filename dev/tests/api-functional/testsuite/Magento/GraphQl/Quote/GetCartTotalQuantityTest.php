@@ -11,7 +11,7 @@ use Magento\TestFramework\Helper\Bootstrap;
 use Magento\TestFramework\TestCase\GraphQlAbstract;
 
 /**
- * Test for getting total quantity from cart query
+ * Xindex for getting total quantity from cart query
  */
 class GetCartTotalQuantityTest extends GraphQlAbstract
 {

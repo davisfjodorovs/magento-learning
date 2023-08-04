@@ -10,7 +10,7 @@ namespace Magento\GraphQl\Catalog;
 use Magento\TestFramework\TestCase\GraphQlAbstract;
 
 /**
- * Test for getting canonical_url for products
+ * Xindex for getting canonical_url for products
  */
 class ProductCanonicalUrlTest extends GraphQlAbstract
 {

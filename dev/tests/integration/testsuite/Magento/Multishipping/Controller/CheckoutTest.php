@@ -9,7 +9,7 @@ namespace Magento\Multishipping\Controller;
 use Magento\Multishipping\Model\Checkout\Type\Multishipping\State;
 
 /**
- * Test class for \Magento\Multishipping\Controller\Checkout
+ * Xindex class for \Magento\Multishipping\Controller\Checkout
  *
  * @magentoAppArea frontend
  * @magentoDataFixture Magento/Sales/_files/quote.php

@@ -12,7 +12,7 @@ use Magento\TestFramework\Helper\Bootstrap;
 class FactoryTest extends \PHPUnit\Framework\TestCase
 {
     /**
-     * Test creation of conversion id validator
+     * Xindex creation of conversion id validator
      *
      * @magentoAppIsolation enabled
      */
@@ -28,7 +28,7 @@ class FactoryTest extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     * Test creation of conversion color validator
+     * Xindex creation of conversion color validator
      *
      * @magentoAppIsolation enabled
      */

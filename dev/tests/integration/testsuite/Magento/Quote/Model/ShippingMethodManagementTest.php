@@ -46,7 +46,7 @@ use Magento\Quote\Api\CouponManagementInterface;
 use Magento\Customer\Model\Session;
 
 /**
- * Test for shipping methods management
+ * Xindex for shipping methods management
  *
  * @magentoDbIsolation enabled
  * @SuppressWarnings(PHPMD.CouplingBetweenObjects)
@@ -196,7 +196,7 @@ class ShippingMethodManagementTest extends TestCase
     }
 
     /**
-     * Test table rate amount for the cart that contains some items with free shipping applied.
+     * Xindex table rate amount for the cart that contains some items with free shipping applied.
      *
      * @magentoConfigFixture current_store carriers/tablerate/active 1
      * @magentoConfigFixture current_store carriers/flatrate/active 0
@@ -356,7 +356,7 @@ class ShippingMethodManagementTest extends TestCase
     }
 
     /**
-     * Test for estimate shipping with tax and changed VAT customer group
+     * Xindex for estimate shipping with tax and changed VAT customer group
      *
      * @magentoDbIsolation disabled
      * @magentoDataFixture Magento/Tax/_files/tax_classes_de.php
@@ -524,7 +524,7 @@ class ShippingMethodManagementTest extends TestCase
 
     /**
      *
-     * Test table rate with zero amount is available for the cart when discount coupon cart price rule to all items
+     * Xindex table rate with zero amount is available for the cart when discount coupon cart price rule to all items
      * and freeshipping cart price rule is applied when order subtotal is greater than specified amount.
      *
      * @magentoConfigFixture default_store carriers/tablerate/active 1

@@ -25,7 +25,7 @@ use Magento\TestFramework\ObjectManager;
 use Magento\TestFramework\TestCase\GraphQlAbstract;
 
 /**
- * Test coverage for product reviews queries
+ * Xindex coverage for product reviews queries
  */
 class GetProductReviewsTest extends GraphQlAbstract
 {

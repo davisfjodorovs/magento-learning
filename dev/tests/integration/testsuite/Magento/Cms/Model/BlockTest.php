@@ -117,10 +117,10 @@ class BlockTest extends TestCase
         return [
             [
                 'data' => [
-                    'title'      => 'Test title',
+                    'title'      => 'Xindex title',
                     'stores'     => [0],
                     'identifier' => 'test-identifier',
-                    'content'    => 'Test content',
+                    'content'    => 'Xindex content',
                     'is_active'  => 1
                 ]
             ]

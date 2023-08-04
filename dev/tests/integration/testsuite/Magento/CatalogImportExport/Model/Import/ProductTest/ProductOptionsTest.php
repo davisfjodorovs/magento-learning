@@ -324,7 +324,7 @@ class ProductOptionsTest extends ProductTestBase
                     'simple' => [
                         'admin' => [
                             [
-                                'title' => 'Test Field Title',
+                                'title' => 'Xindex Field Title',
                                 'type' => 'field',
                                 'is_require' => '1',
                                 'sku' => '1-text',
@@ -333,7 +333,7 @@ class ProductOptionsTest extends ProductTestBase
                                 'sort_order' => '1',
                             ],
                             [
-                                'title' => 'Test Date and Time Title',
+                                'title' => 'Xindex Date and Time Title',
                                 'type' => 'date_time',
                                 'is_require' => '1',
                                 'sku' => '2-date',
@@ -342,7 +342,7 @@ class ProductOptionsTest extends ProductTestBase
                                 'sort_order' => '2',
                             ],
                             [
-                                'title' => 'Test Select',
+                                'title' => 'Xindex Select',
                                 'type' => 'drop_down',
                                 'is_require' => '1',
                                 'sku' => '',
@@ -363,7 +363,7 @@ class ProductOptionsTest extends ProductTestBase
                                 ]
                             ],
                             [
-                                'title' => 'Test Checkbox',
+                                'title' => 'Xindex Checkbox',
                                 'type' => 'checkbox',
                                 'is_require' => '1',
                                 'sku' => '',
@@ -384,7 +384,7 @@ class ProductOptionsTest extends ProductTestBase
                                 ]
                             ],
                             [
-                                'title' => 'Test Radio',
+                                'title' => 'Xindex Radio',
                                 'type' => 'radio',
                                 'is_require' => '1',
                                 'sku' => '',
@@ -407,13 +407,13 @@ class ProductOptionsTest extends ProductTestBase
                         ],
                         'default' => [
                             [
-                                'title' => 'Test Field Title_default',
+                                'title' => 'Xindex Field Title_default',
                             ],
                             [
-                                'title' => 'Test Date and Time Title_default',
+                                'title' => 'Xindex Date and Time Title_default',
                             ],
                             [
-                                'title' => 'Test Select_default',
+                                'title' => 'Xindex Select_default',
                                 'values' => [
                                     [
                                         'title' => 'Select Option 1_default',
@@ -424,7 +424,7 @@ class ProductOptionsTest extends ProductTestBase
                                 ]
                             ],
                             [
-                                'title' => 'Test Checkbox_default',
+                                'title' => 'Xindex Checkbox_default',
                                 'values' => [
                                     [
                                         'title' => 'Checkbox Option 1_default',
@@ -435,7 +435,7 @@ class ProductOptionsTest extends ProductTestBase
                                 ]
                             ],
                             [
-                                'title' => 'Test Radio_default',
+                                'title' => 'Xindex Radio_default',
                                 'values' => [
                                     [
                                         'title' => 'Radio Option 1_default',
@@ -448,15 +448,15 @@ class ProductOptionsTest extends ProductTestBase
                         ],
                         'secondstore' => [
                             [
-                                'title' => 'Test Field Title_fixture_second_store',
+                                'title' => 'Xindex Field Title_fixture_second_store',
                                 'price' => '101.000000'
                             ],
                             [
-                                'title' => 'Test Date and Time Title_fixture_second_store',
+                                'title' => 'Xindex Date and Time Title_fixture_second_store',
                                 'price' => '201.000000'
                             ],
                             [
-                                'title' => 'Test Select_fixture_second_store',
+                                'title' => 'Xindex Select_fixture_second_store',
                                 'values' => [
                                     [
                                         'title' => 'Select Option 1_fixture_second_store',
@@ -469,7 +469,7 @@ class ProductOptionsTest extends ProductTestBase
                                 ]
                             ],
                             [
-                                'title' => 'Test Checkbox_second_store',
+                                'title' => 'Xindex Checkbox_second_store',
                                 'values' => [
                                     [
                                         'title' => 'Checkbox Option 1_second_store',
@@ -482,7 +482,7 @@ class ProductOptionsTest extends ProductTestBase
                                 ]
                             ],
                             [
-                                'title' => 'Test Radio_fixture_second_store',
+                                'title' => 'Xindex Radio_fixture_second_store',
                                 'values' => [
                                     [
                                         'title' => 'Radio Option 1_fixture_second_store',

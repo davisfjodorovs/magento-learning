@@ -87,7 +87,7 @@ class ProductAttributeRepositoryTest extends \Magento\TestFramework\TestCase\Web
     }
 
     /**
-     * Test create attribute
+     * Xindex create attribute
      *
      * @dataProvider attributeCodeDataProvider
      * @magentoApiDataFixture Magento/Catalog/Model/Product/Attribute/_files/create_attribute_service.php

@@ -45,7 +45,7 @@ class AddressMetadataTest extends WebapiAbstract
     }
 
     /**
-     * Test retrieval of attribute metadata for the address entity type.
+     * Xindex retrieval of attribute metadata for the address entity type.
      *
      * @param string $attributeCode The attribute code of the requested metadata.
      * @param array $expectedMetadata Expected entity metadata for the attribute code.
@@ -196,7 +196,7 @@ class AddressMetadataTest extends WebapiAbstract
     }
 
     /**
-     * Test retrieval of all address attribute metadata.
+     * Xindex retrieval of all address attribute metadata.
      */
     public function testGetAllAttributesMetadata()
     {
@@ -221,7 +221,7 @@ class AddressMetadataTest extends WebapiAbstract
     }
 
     /**
-     * Test retrieval of custom address attribute metadata.
+     * Xindex retrieval of custom address attribute metadata.
      *
      * @magentoApiDataFixture Magento/Customer/_files/attribute_user_defined_address_custom_attribute.php
      */
@@ -247,7 +247,7 @@ class AddressMetadataTest extends WebapiAbstract
     }
 
     /**
-     * Test retrieval of attributes
+     * Xindex retrieval of attributes
      *
      * @param string $formCode Form code
      * @param array $expectedMetadata The expected attribute metadata

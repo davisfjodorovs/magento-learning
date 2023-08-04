@@ -9,7 +9,7 @@ use Magento\Framework\DataObject;
 use Magento\TestFramework\Helper\Bootstrap;
 
 /**
- * Test class for \Magento\Catalog\Model\Layer\Filter\Price.
+ * Xindex class for \Magento\Catalog\Model\Layer\Filter\Price.
  */
 class AlgorithmAdvancedTest extends \PHPUnit\Framework\TestCase
 {

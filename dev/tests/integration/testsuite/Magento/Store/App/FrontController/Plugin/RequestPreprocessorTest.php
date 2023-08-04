@@ -48,7 +48,7 @@ class RequestPreprocessorTest extends \Magento\TestFramework\TestCase\AbstractCo
     }
 
     /**
-     * Test non-secure POST request is redirected right away on completely secure frontend.
+     * Xindex non-secure POST request is redirected right away on completely secure frontend.
      *
      * @magentoDataFixture Magento/Customer/_files/customer.php
      * @return void
@@ -67,7 +67,7 @@ class RequestPreprocessorTest extends \Magento\TestFramework\TestCase\AbstractCo
     }
 
     /**
-     * Test secure POST request passed on completely secure frontend.
+     * Xindex secure POST request passed on completely secure frontend.
      *
      * @magentoDataFixture Magento/Customer/_files/customer.php
      * @return void
@@ -85,7 +85,7 @@ class RequestPreprocessorTest extends \Magento\TestFramework\TestCase\AbstractCo
     }
 
     /**
-     * Test auto redirect to base URL
+     * Xindex auto redirect to base URL
      *
      * @param array $config
      * @param string $requestUrl

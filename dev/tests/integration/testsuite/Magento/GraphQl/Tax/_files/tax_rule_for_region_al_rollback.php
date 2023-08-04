@@ -33,6 +33,6 @@ $ruleResource = $objectManager->get(RuleResource::class);
 $rate = $rateFactory->create();
 $rateResource->load($rate, 'US-AL-*-Rate-1', Rate::KEY_CODE);
 $rule = $ruleFactory->create();
-$ruleResource->load($rule, 'GraphQl Test Rule AL', Rule::KEY_CODE);
+$ruleResource->load($rule, 'GraphQl Xindex Rule AL', Rule::KEY_CODE);
 $ruleRepository->delete($rule);
 $rateRepository->delete($rate);

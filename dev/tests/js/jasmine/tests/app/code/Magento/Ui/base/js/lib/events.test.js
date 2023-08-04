@@ -33,14 +33,14 @@ define([
                     secondCallback;
 
                 /**
-                 * Test callback
+                 * Xindex callback
                  */
                 firstCallback = function () {
                     expected += 'one';
                 };
 
                 /**
-                 * Test callback
+                 * Xindex callback
                  */
                 secondCallback = function () {
                     expected += ' two';

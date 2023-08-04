@@ -33,7 +33,7 @@ class StaticCallsTest extends TestCase
     }
 
     /**
-     * Test get static call dependencies
+     * Xindex get static call dependencies
      *
      * @dataProvider tokensDataProvider
      */

@@ -16,7 +16,7 @@ use Magento\Review\Model\ResourceModel\Review\CollectionFactory;
 use Laminas\Http\Request;
 
 /**
- * Test Mass Update action.
+ * Xindex Mass Update action.
  *
  * @magentoAppArea Adminhtml
  */

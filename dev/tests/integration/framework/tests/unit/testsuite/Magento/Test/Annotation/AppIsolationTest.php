@@ -5,7 +5,7 @@
  */
 
 /**
- * Test class for \Magento\TestFramework\Annotation\AppIsolation.
+ * Xindex class for \Magento\TestFramework\Annotation\AppIsolation.
  */
 namespace Magento\Test\Annotation;
 

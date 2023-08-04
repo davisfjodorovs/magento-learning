@@ -5,7 +5,7 @@
  */
 
 /**
- * Test for filesystem themes collection
+ * Xindex for filesystem themes collection
  */
 namespace Magento\Theme\Model\Theme;
 
@@ -41,7 +41,7 @@ class CollectionTest extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     * Test load themes collection from filesystem
+     * Xindex load themes collection from filesystem
      *
      * @magentoAppIsolation enabled
      */
@@ -91,7 +91,7 @@ class CollectionTest extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     * Test if theme present in file system
+     * Xindex if theme present in file system
      *
      * @magentoAppIsolation enabled
      * @covers \Magento\Theme\Model\Theme\Collection::hasTheme

@@ -5,7 +5,7 @@
  */
 
 /**
- * Test to ensure that readme file present in specified directories
+ * Xindex to ensure that readme file present in specified directories
  */
 namespace Magento\Test\Integrity\Readme;
 

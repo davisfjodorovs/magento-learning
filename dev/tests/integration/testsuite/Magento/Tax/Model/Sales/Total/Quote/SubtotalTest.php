@@ -11,7 +11,7 @@ namespace Magento\Tax\Model\Sales\Total\Quote;
 use Magento\TestFramework\Helper\Bootstrap;
 
 /**
- * Test \Magento\Tax\Model\Sales\Total\Quote\Subtotal
+ * Xindex \Magento\Tax\Model\Sales\Total\Quote\Subtotal
  *
  * @SuppressWarnings(PHPMD.CouplingBetweenObjects)
  */

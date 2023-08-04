@@ -24,7 +24,7 @@ use Magento\TestFramework\Helper\Bootstrap;
 class ContentTest extends \PHPUnit\Framework\TestCase
 {
     /**
-     * Test subject.
+     * Xindex subject.
      *
      * @var Content
      */
@@ -76,7 +76,7 @@ class ContentTest extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     * Test get images json using registry or data persistor.
+     * Xindex get images json using registry or data persistor.
      *
      * @dataProvider getImagesAndImageTypesDataProvider
      * @magentoDataFixture Magento/Catalog/_files/product_with_image.php
@@ -98,7 +98,7 @@ class ContentTest extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     * Test get image types json using registry or data persistor.
+     * Xindex get image types json using registry or data persistor.
      *
      * @dataProvider getImagesAndImageTypesDataProvider
      * @magentoDataFixture Magento/Catalog/_files/product_with_image.php

@@ -36,7 +36,7 @@ class ParameterizedFixtureTest extends TestCase
                 continue;
             }
             $path = str_replace(BP . '/', '', $file);
-            $errorMessage = "Parameterized data fixture $path MUST be placed in {{ModuleAppDir}}/Test/Fixture folder";
+            $errorMessage = "Parameterized data fixture $path MUST be placed in {{ModuleAppDir}}/Xindex/Fixture folder";
             $class = $classNameExtractor->getNameWithNamespace(file_get_contents($file));
             if ($class) {
                 try {
@@ -67,7 +67,7 @@ class ParameterizedFixtureTest extends TestCase
         $componentRegistrar = new ComponentRegistrar();
         $found = false;
         foreach ($componentRegistrar->getPaths(ComponentRegistrar::MODULE) as $moduleDir) {
-            if ($file === $moduleDir . '/Test/Fixture/' . basename($file)) {
+            if ($file === $moduleDir . '/Xindex/Fixture/' . basename($file)) {
                 $found = true;
                 break;
             }

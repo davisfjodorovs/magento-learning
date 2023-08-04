@@ -9,7 +9,7 @@ namespace Magento\Webapi;
 use Magento\TestFramework\Helper\Bootstrap;
 
 /**
- * Test WSDL generation mechanisms.
+ * Xindex WSDL generation mechanisms.
  */
 class CustomAttributeTypeWsdlGenerationTest extends \Magento\TestFramework\TestCase\WebapiAbstract
 {

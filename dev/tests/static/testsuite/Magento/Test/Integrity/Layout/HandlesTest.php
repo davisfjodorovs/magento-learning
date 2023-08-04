@@ -1,6 +1,6 @@
 <?php
 /**
- * Test format of layout files
+ * Xindex format of layout files
  *
  * Copyright © Magento, Inc. All rights reserved.
  * See COPYING.txt for license details.
@@ -17,7 +17,7 @@ class HandlesTest extends \PHPUnit\Framework\TestCase
         $invoker = new \Magento\Framework\App\Utility\AggregateInvoker($this);
         $invoker(
             /**
-             * Test dependencies between handle attributes that is out of coverage by XSD
+             * Xindex dependencies between handle attributes that is out of coverage by XSD
              *
              * @param string $layoutFile
              */
@@ -45,7 +45,7 @@ class HandlesTest extends \PHPUnit\Framework\TestCase
         $invoker = new \Magento\Framework\App\Utility\AggregateInvoker($this);
         $invoker(
             /**
-             * Test dependencies between container attributes that is out of coverage by XSD
+             * Xindex dependencies between container attributes that is out of coverage by XSD
              *
              * @param string $layoutFile
              */
@@ -79,7 +79,7 @@ class HandlesTest extends \PHPUnit\Framework\TestCase
         $invoker = new \Magento\Framework\App\Utility\AggregateInvoker($this);
         $invoker(
             /**
-             * Test validate that head block doesn't exist in layout
+             * Xindex validate that head block doesn't exist in layout
              *
              * @param string $layoutFile
              */

@@ -20,7 +20,7 @@ use Magento\GraphQlCache\Controller\AbstractGraphqlCacheTest;
 class ProductsCacheTest extends AbstractGraphqlCacheTest
 {
     /**
-     * Test request is dispatched and response is checked for debug headers and cache tags
+     * Xindex request is dispatched and response is checked for debug headers and cache tags
      *
      * @magentoDataFixture Magento/Catalog/_files/product_simple_with_url_key.php
      */
@@ -56,7 +56,7 @@ QUERY;
     }
 
     /**
-     * Test request is checked for debug headers and no cache tags for not existing product
+     * Xindex request is checked for debug headers and no cache tags for not existing product
      */
     public function testRequestNoTagsForNonExistingProducts(): void
     {
@@ -141,7 +141,7 @@ QUERY;
     }
 
     /**
-     * Test response has category tags when products are filtered by category id
+     * Xindex response has category tags when products are filtered by category id
      *
      * @magentoDataFixture Magento/Catalog/_files/category_product.php
      */

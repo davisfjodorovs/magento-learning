@@ -13,7 +13,7 @@ use Magento\Framework\App\Response\HttpInterface as HttpResponse;
 use Magento\GraphQlCache\Controller\AbstractGraphqlCacheTest;
 
 /**
- * Test caching works for CMS blocks
+ * Xindex caching works for CMS blocks
  *
  * @magentoAppArea graphql
  * @magentoCache full_page enabled

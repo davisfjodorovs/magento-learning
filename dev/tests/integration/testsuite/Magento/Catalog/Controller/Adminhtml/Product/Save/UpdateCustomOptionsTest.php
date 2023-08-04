@@ -32,7 +32,7 @@ class UpdateCustomOptionsTest extends AbstractBackendController
     protected $productSku = 'simple';
 
     /**
-     * Test add to product custom option with type "field".
+     * Xindex add to product custom option with type "field".
      *
      * @dataProvider \Magento\TestFramework\Catalog\Model\Product\Option\DataProvider\Type\Field::getDataForUpdateOptions
      *

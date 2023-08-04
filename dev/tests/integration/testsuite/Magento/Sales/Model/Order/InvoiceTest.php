@@ -71,7 +71,7 @@ class InvoiceTest extends TestCase
     }
 
     /**
-     * Test order with exactly one configurable.
+     * Xindex order with exactly one configurable.
      *
      * @return void
      * @magentoDataFixture Magento/Sales/_files/order_configurable_product.php

@@ -1,6 +1,6 @@
 <?php
 /**
- * Test declarations of handles in theme layout updates
+ * Xindex declarations of handles in theme layout updates
  *
  * Copyright © Magento, Inc. All rights reserved.
  * See COPYING.txt for license details.

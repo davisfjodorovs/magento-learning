@@ -28,7 +28,7 @@ $dateAttribute->setData(
         'is_user_defined' => 1,
         'backend_type' => 'datetime',
         'frontend_input' => 'date',
-        'frontend_label' => 'Test Date',
+        'frontend_label' => 'Xindex Date',
     ]
 );
 $dateAttribute->save();

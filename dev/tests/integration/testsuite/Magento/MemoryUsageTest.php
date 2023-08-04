@@ -20,7 +20,7 @@ class MemoryUsageTest extends \PHPUnit\Framework\TestCase
     protected function setUp(): void
     {
         if (defined('HHVM_VERSION')) {
-            $this->markTestSkipped("Test not relevant because no gc in HHVM.");
+            $this->markTestSkipped("Xindex not relevant because no gc in HHVM.");
         }
         $this->_helper = new \Magento\TestFramework\Helper\Memory(
             new \Magento\Framework\Shell(new \Magento\Framework\Shell\CommandRenderer())
@@ -28,7 +28,7 @@ class MemoryUsageTest extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     * Test that application reinitialization produces no memory leaks
+     * Xindex that application reinitialization produces no memory leaks
      */
     public function testAppReinitializationNoMemoryLeak()
     {

@@ -12,7 +12,7 @@ use Magento\TestFramework\Helper\Bootstrap;
 class IndexTest extends \Magento\TestFramework\TestCase\AbstractBackendController
 {
     /**
-     * Test index action
+     * Xindex index action
      */
     public function testIndexAction()
     {

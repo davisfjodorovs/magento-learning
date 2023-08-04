@@ -19,7 +19,7 @@ use Magento\Customer\Api\CustomerRepositoryInterface;
 use Magento\Framework\Registry;
 
 /**
- * Test coverage for customer wishlists
+ * Xindex coverage for customer wishlists
  */
 class CustomerWishlistsTest extends GraphQlAbstract
 {
@@ -43,7 +43,7 @@ class CustomerWishlistsTest extends GraphQlAbstract
     }
 
     /**
-     * Test fetching customer wishlist
+     * Xindex fetching customer wishlist
      *
      * @magentoConfigFixture default_store wishlist/general/active 1
      * @magentoApiDataFixture Magento/Wishlist/_files/wishlist.php
@@ -163,7 +163,7 @@ QUERY;
     }
 
     /**
-     * Test wishlist fetching for a guest customer
+     * Xindex wishlist fetching for a guest customer
      *
      * @magentoConfigFixture default_store wishlist/general/active 1
      */

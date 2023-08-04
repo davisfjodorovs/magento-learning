@@ -11,7 +11,7 @@ use Magento\TestFramework\Annotation\Parser\DataFixture;
 use PHPUnit\Framework\TestCase;
 
 /**
- * Test data fixture annotations parser service
+ * Xindex data fixture annotations parser service
  *
  * @magentoDataFixture path/to/fixture0.php
  */
@@ -32,7 +32,7 @@ class DataFixtureTest extends TestCase
     }
 
     /**
-     * Test parse correct format
+     * Xindex parse correct format
      *
      * @magentoDataFixture path/to/fixture1.php
      * @magentoDataFixture path/to/fixture2.php

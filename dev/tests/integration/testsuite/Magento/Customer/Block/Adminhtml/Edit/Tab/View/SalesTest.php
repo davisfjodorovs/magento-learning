@@ -9,7 +9,7 @@ use Magento\Customer\Controller\RegistryConstants;
 use Magento\TestFramework\Helper\Bootstrap;
 
 /**
- * Test for \Magento\Customer\Block\Adminhtml\Edit\Tab\layout\Sales
+ * Xindex for \Magento\Customer\Block\Adminhtml\Edit\Tab\layout\Sales
  *
  * @magentoAppArea Adminhtml
  */
@@ -71,7 +71,7 @@ class SalesTest extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     * Test basic currency formatting on the Main Website.
+     * Xindex basic currency formatting on the Main Website.
      */
     public function testFormatCurrency()
     {

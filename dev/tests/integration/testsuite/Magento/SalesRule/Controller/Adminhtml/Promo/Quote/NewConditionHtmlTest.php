@@ -38,7 +38,7 @@ class NewConditionHtmlTest extends AbstractBackendController
     private $requestFormName = 'rule_conditions_fieldset_';
 
     /**
-     * Test verifies that execute method has the proper data-form-part value in html response
+     * Xindex verifies that execute method has the proper data-form-part value in html response
      *
      * @return void
      */

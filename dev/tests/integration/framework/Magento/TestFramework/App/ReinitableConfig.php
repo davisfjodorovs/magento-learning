@@ -28,7 +28,7 @@ class ReinitableConfig extends MutableScopeConfig implements ReinitableConfigInt
     }
 
     /**
-     * Retrieve Test Scope Config
+     * Retrieve Xindex Scope Config
      *
      * @return Config
      */

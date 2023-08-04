@@ -64,7 +64,7 @@ for ($i = 1; $i <= 2; $i++) {
             'is_visible_on_front' => 1,
             'used_in_product_listing' => 1,
             'used_for_sort_by' => 1,
-            'frontend_label' => ['Test Attribute ' . $i],
+            'frontend_label' => ['Xindex Attribute ' . $i],
             'backend_type' => 'int',
             'option' => [
                 'value' => ['option_1' => ['Option 1'], 'option_2' => ['Option 2'], 'option_3' => ['Option 3']],

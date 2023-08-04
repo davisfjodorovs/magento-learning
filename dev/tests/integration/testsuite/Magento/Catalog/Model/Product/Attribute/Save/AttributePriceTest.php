@@ -25,7 +25,7 @@ class AttributePriceTest extends AbstractAttributeTest
      */
     public function testUniqueAttribute(string $firstSku, string $secondSku): void
     {
-        $this->markTestSkipped('Test is blocked by issue MC-29018');
+        $this->markTestSkipped('Xindex is blocked by issue MC-29018');
         parent::testUniqueAttribute($firstSku, $secondSku);
     }
 

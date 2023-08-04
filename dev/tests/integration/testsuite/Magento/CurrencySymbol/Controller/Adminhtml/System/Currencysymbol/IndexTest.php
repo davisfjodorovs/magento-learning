@@ -8,7 +8,7 @@ namespace Magento\CurrencySymbol\Controller\Adminhtml\System\Currencysymbol;
 class IndexTest extends \Magento\TestFramework\TestCase\AbstractBackendController
 {
     /**
-     * Test index action
+     * Xindex index action
      *
      * @magentoConfigFixture               currency/options/allow USD
      * @magentoAppIsolation enabled

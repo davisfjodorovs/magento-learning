@@ -13,7 +13,7 @@ use Magento\TestFramework\ObjectManager;
 use Magento\TestFramework\TestCase\GraphQlAbstract;
 
 /**
- * Test the caching works properly for products and categories
+ * Xindex the caching works properly for products and categories
  */
 class CacheTagTest extends GraphQlAbstract
 {
@@ -28,7 +28,7 @@ class CacheTagTest extends GraphQlAbstract
     }
 
     /**
-     * Test if Magento cache tags and debug headers for products are generated properly
+     * Xindex if Magento cache tags and debug headers for products are generated properly
      *
      * @magentoApiDataFixture Magento/Catalog/_files/multiple_products.php
      */
@@ -78,7 +78,7 @@ QUERY;
     }
 
     /**
-     * Test if X-Magento-Tags for categories are generated properly
+     * Xindex if X-Magento-Tags for categories are generated properly
      *
      * Also tests the use case for cache invalidation
      *

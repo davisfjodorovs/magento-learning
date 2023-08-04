@@ -6,7 +6,7 @@
 namespace Magento\User\Controller\Adminhtml\User;
 
 /**
- * Test class for \Magento\User\Controller\Adminhtml\User\Role.
+ * Xindex class for \Magento\User\Controller\Adminhtml\User\Role.
  *
  * @magentoAppArea Adminhtml
  */

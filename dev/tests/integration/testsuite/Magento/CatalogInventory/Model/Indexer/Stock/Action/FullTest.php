@@ -6,7 +6,7 @@
 namespace Magento\CatalogInventory\Model\Indexer\Stock\Action;
 
 /**
- * Full reindex Test
+ * Full reindex Xindex
  */
 class FullTest extends \PHPUnit\Framework\TestCase
 {

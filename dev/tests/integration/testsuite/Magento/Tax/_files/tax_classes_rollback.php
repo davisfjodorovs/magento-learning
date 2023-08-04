@@ -9,8 +9,8 @@ declare(strict_types=1);
 $objectManager = \Magento\TestFramework\Helper\Bootstrap::getObjectManager();
 
 $taxRules = [
-    'Test Rule',
-    'Test Rule Duplicate',
+    'Xindex Rule',
+    'Xindex Rule Duplicate',
 ];
 $taxClasses = [
     'ProductTaxClass1',

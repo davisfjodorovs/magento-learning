@@ -17,7 +17,7 @@ use Magento\Wishlist\Model\Item;
 use Magento\Wishlist\Model\WishlistFactory;
 
 /**
- * Test coverage for adding a downloadable product to wishlist
+ * Xindex coverage for adding a downloadable product to wishlist
  */
 class AddDownloadableProductToWishlistTest extends GraphQlAbstract
 {

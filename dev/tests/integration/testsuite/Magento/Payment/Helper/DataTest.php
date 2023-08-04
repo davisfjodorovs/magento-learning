@@ -11,7 +11,7 @@ use Magento\Payment\Model\Info;
 use Magento\TestFramework\Helper\Bootstrap;
 
 /**
- * Test class for \Magento\Payment\Helper\Data
+ * Xindex class for \Magento\Payment\Helper\Data
  */
 class DataTest extends TestCase
 {
@@ -44,7 +44,7 @@ class DataTest extends TestCase
     }
 
     /**
-     * Test to load Payment method title from store config
+     * Xindex to load Payment method title from store config
      *
      * @magentoConfigFixture current_store payment/cashondelivery/title Cash On Delivery Title Of The Method
      */

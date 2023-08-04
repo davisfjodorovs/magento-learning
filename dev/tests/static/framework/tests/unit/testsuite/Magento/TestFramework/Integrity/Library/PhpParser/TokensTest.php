@@ -91,7 +91,7 @@ class TokensTest extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     * Test code for get previous token from parameter "content"
+     * Xindex code for get previous token from parameter "content"
      *
      * @test
      */

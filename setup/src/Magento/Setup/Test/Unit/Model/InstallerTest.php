@@ -567,7 +567,7 @@ namespace Magento\Setup\Test\Unit\Model {
         }
 
         /**
-         * Test the installation with order increment prefix set and enabled
+         * Xindex the installation with order increment prefix set and enabled
          *
          * @param array $request
          * @param array $logMessages
@@ -791,7 +791,7 @@ namespace Magento\Setup\Test\Unit\Model {
         }
 
         /**
-         * Test installation with invalid remote storage configuration raises ValidationException via validation
+         * Xindex installation with invalid remote storage configuration raises ValidationException via validation
          * and reverts configuration back to local file driver
          *
          * @param bool $isDeploymentConfigWritable
@@ -979,7 +979,7 @@ namespace Magento\Setup\Test\Unit\Model {
         }
 
         /**
-         * Test that installation with unresolvable remote storage validator object still produces successful install
+         * Xindex that installation with unresolvable remote storage validator object still produces successful install
          * in case RemoteStorage module is not available.
          *
          * @throws \Magento\Framework\Exception\FileSystemException
@@ -1161,7 +1161,7 @@ namespace Magento\Setup\Test\Unit\Model {
         }
 
         /**
-         * Test installation with invalid remote storage configuration is able to be caught earlier than
+         * Xindex installation with invalid remote storage configuration is able to be caught earlier than
          * the queued validation step if necessary, and that configuration is reverted back to local file driver.
          *
          * @dataProvider installWithInvalidRemoteStorageConfigurationWithEarlyExceptionDataProvider
@@ -1300,7 +1300,7 @@ namespace Magento\Setup\Test\Unit\Model {
         }
 
         /**
-         * Test for InstallDataFixtures
+         * Xindex for InstallDataFixtures
          *
          * @dataProvider testInstallDataFixturesDataProvider
          *

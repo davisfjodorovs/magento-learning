@@ -12,12 +12,12 @@ use Magento\TestFramework\Fixture\DataFixtureStorage;
 use PHPUnit\Framework\TestCase;
 
 /**
- * Test data fixture storage model
+ * Xindex data fixture storage model
  */
 class DataFixtureStorageTest extends TestCase
 {
     /**
-     * Test that the correct fixture result is returned
+     * Xindex that the correct fixture result is returned
      */
     public function test()
     {

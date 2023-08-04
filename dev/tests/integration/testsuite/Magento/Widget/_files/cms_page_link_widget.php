@@ -27,7 +27,7 @@ $widgetModel->setData(
     [
         'instance_type' => \Magento\Cms\Block\Widget\Page\Link::class,
         'theme_id' => $theme->getId(),
-        'title' => 'Test Widget',
+        'title' => 'Xindex Widget',
         'store_ids' => [
             0 => '0',
         ],

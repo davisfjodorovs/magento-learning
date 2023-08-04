@@ -14,7 +14,7 @@ use Magento\TestFramework\Helper\Bootstrap;
 use Magento\TestFramework\TestCase\GraphQlAbstract;
 
 /**
- * Test cases for adding downloadable product to cart.
+ * Xindex cases for adding downloadable product to cart.
  */
 class AddDownloadableProductToCartTest extends GraphQlAbstract
 {
@@ -56,11 +56,11 @@ class AddDownloadableProductToCartTest extends GraphQlAbstract
 mutation {
     addDownloadableProductsToCart(
         input: {
-            cart_id: "{$maskedQuoteId}", 
+            cart_id: "{$maskedQuoteId}",
             cart_items: [
                 {
                     data: {
-                        quantity: {$qty}, 
+                        quantity: {$qty},
                         sku: "{$sku}"
                     },
                     downloadable_product_links: [

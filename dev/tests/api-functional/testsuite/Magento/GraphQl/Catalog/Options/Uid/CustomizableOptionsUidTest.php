@@ -10,7 +10,7 @@ namespace Magento\GraphQl\Catalog\Options\Uid;
 use Magento\TestFramework\TestCase\GraphQlAbstract;
 
 /**
- * Test for product custom options uid
+ * Xindex for product custom options uid
  */
 class CustomizableOptionsUidTest extends GraphQlAbstract
 {

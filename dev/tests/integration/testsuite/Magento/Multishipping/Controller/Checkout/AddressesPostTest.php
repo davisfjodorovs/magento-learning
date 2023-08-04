@@ -19,7 +19,7 @@ use Magento\TestFramework\TestCase\AbstractController;
 use Psr\Log\LoggerInterface;
 
 /**
- * Test class for @see \Magento\Multishipping\Controller\Checkout\AddressesPost.
+ * Xindex class for @see \Magento\Multishipping\Controller\Checkout\AddressesPost.
  *
  * @magentoAppArea frontend
  */

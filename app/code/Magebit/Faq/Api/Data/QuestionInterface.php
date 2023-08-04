@@ -11,12 +11,21 @@ namespace Magebit\Faq\Api\Data;
  */
 interface QuestionInterface
 {
-    /**
-     * Get ID.
-     *
-     * @return int|null
+    /**#@+
+     * Constants for keys of data array. Identical to the name of the getter in snake case
      */
-    public function getId(): int|null;
+    const ID                       = 'id';
+    const QUESTION                 = 'question';
+    const ANSWER                   = 'answer';
+    const STATUS                   = 'status';
+    const POSITION                 = 'position';
+    const UPDATE_TIME              = 'updated_at';
+    /**#@-*/
+
+    /**
+     * @return int
+     */
+    public function getId(): int;
 
     /**
      * Get question.
@@ -49,35 +58,39 @@ interface QuestionInterface
     /**
      * Get update time.
      *
-     * @return string
+     * @return string|null
      */
-    public function getUpdateTime(): string;
+    public function getUpdateTime(): ?string;
 
     /**
-     * Set question.
+     * Set item question
      *
-     * @return QuestionInterface
+     * @param string $question
+     * @return \Magebit\Faq\Api\Data\QuestionInterface
      */
-    public function setQuestion(): QuestionInterface;
+    public function setQuestion(string $question): QuestionInterface;
 
     /**
-     * Set array of answers.
+     * Set item answer
      *
-     * @return QuestionInterface
+     * @param string $answer
+     * @return \Magebit\Faq\Api\Data\QuestionInterface
      */
-    public function setAnswer(): QuestionInterface;
+    public function setAnswer(string $answer): QuestionInterface;
 
     /**
-     * Set item status.
+     * Set item status
      *
-     * @return QuestionInterface
+     * @param int $status
+     * @return \Magebit\Faq\Api\Data\QuestionInterface
      */
-    public function setStatus(): QuestionInterface;
+    public function setStatus(int $status): QuestionInterface;
 
     /**
-     * Set item position.
+     * Set item position
      *
-     * @return QuestionInterface
+     * @param int $position
+     * @return \Magebit\Faq\Api\Data\QuestionInterface
      */
-    public function setPosition(): QuestionInterface;
+    public function setPosition(int $position): QuestionInterface;
 }

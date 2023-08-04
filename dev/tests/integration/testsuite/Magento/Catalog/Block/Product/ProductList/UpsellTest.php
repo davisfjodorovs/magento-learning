@@ -63,7 +63,7 @@ class UpsellTest extends AbstractLinksTest
     }
 
     /**
-     * Test the display of up-sell products in the block
+     * Xindex the display of up-sell products in the block
      *
      * @dataProvider displayLinkedProductsProvider
      * @magentoDataFixture Magento/Catalog/_files/product_simple.php
@@ -87,7 +87,7 @@ class UpsellTest extends AbstractLinksTest
     }
 
     /**
-     * Test the position of up-sell products in the block
+     * Xindex the position of up-sell products in the block
      *
      * @magentoDataFixture Magento/Catalog/_files/product_simple.php
      * @magentoDataFixture Magento/Catalog/_files/products_list.php
@@ -109,7 +109,7 @@ class UpsellTest extends AbstractLinksTest
     }
 
     /**
-     * Test the display of up-sell products in the block on different websites
+     * Xindex the display of up-sell products in the block on different websites
      *
      * @dataProvider multipleWebsitesLinkedProductsProvider
      * @magentoDataFixture Magento/Catalog/_files/products_with_websites_and_stores.php

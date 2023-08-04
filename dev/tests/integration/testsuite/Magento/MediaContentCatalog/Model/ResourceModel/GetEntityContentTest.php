@@ -15,7 +15,7 @@ use Magento\TestFramework\Helper\Bootstrap;
 use PHPUnit\Framework\TestCase;
 
 /**
- * Test for GetEntityContentsInterface
+ * Xindex for GetEntityContentsInterface
  */
 class GetEntityContentTest extends TestCase
 {
@@ -51,7 +51,7 @@ class GetEntityContentTest extends TestCase
     }
 
     /**
-     * Test for get content from product in different store views
+     * Xindex for get content from product in different store views
      *
      * @magentoDataFixture Magento/Catalog/_files/product_simple.php
      */
@@ -72,7 +72,7 @@ class GetEntityContentTest extends TestCase
     }
 
     /**
-     * Test for get content from product in different store views
+     * Xindex for get content from product in different store views
      *
      * @magentoDataFixture Magento/Catalog/_files/product_multiwebsite_different_description.php
      */

@@ -16,7 +16,7 @@ use Magento\TestFramework\Utility\ChildrenClassesSearch;
 use PHPUnit\Framework\TestCase;
 
 /**
- * Test newly created controllers must do not extend AbstractAction.
+ * Xindex newly created controllers must do not extend AbstractAction.
  */
 class AbstractActionTest extends TestCase
 {
@@ -40,7 +40,7 @@ class AbstractActionTest extends TestCase
     }
 
     /**
-     * Test newly created controllers do not extend deprecated AbstractAction.
+     * Xindex newly created controllers do not extend deprecated AbstractAction.
      *
      * @throws \ReflectionException
      */
@@ -80,6 +80,6 @@ class AbstractActionTest extends TestCase
     private function getChangedFilesBaseDir(): string
     {
         return BP . DIRECTORY_SEPARATOR . 'dev' . DIRECTORY_SEPARATOR . 'tests' . DIRECTORY_SEPARATOR . 'static' .
-            DIRECTORY_SEPARATOR . 'testsuite' . DIRECTORY_SEPARATOR . 'Magento' . DIRECTORY_SEPARATOR . 'Test';
+            DIRECTORY_SEPARATOR . 'testsuite' . DIRECTORY_SEPARATOR . 'Magento' . DIRECTORY_SEPARATOR . 'Xindex';
     }
 }

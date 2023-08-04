@@ -1,6 +1,6 @@
 <?php
 /**
- * Test services for name collisions.
+ * Xindex services for name collisions.
  *
  * Let we have two service interfaces called Foo\Bar\Service\SomeBazV1Interface and Foo\Bar\Service\Some\BazV1Interface.
  * Given current name generation logic both are going to be translated to BarSomeBazV1. This test checks such things
@@ -16,7 +16,7 @@ use Magento\Webapi\Model\Config\Converter;
 class ServiceNameCollisionTest extends \PHPUnit\Framework\TestCase
 {
     /**
-     * Test there are no collisions between service names.
+     * Xindex there are no collisions between service names.
      *
      * @see \Magento\Webapi\Model\Soap\Config::getServiceName()
      * @SuppressWarnings(PHPMD.UnusedLocalVariable)

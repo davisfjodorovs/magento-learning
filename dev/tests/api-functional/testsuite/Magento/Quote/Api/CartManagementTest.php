@@ -422,7 +422,7 @@ class CartManagementTest extends WebapiAbstract
     }
 
     /**
-     * Test to get my cart based on customer authentication token or session
+     * Xindex to get my cart based on customer authentication token or session
      *
      * @magentoApiDataFixture Magento/Sales/_files/quote_with_customer.php
      */

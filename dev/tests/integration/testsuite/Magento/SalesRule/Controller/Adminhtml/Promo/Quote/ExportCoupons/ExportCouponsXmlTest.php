@@ -14,7 +14,7 @@ use Magento\TestFramework\TestCase\AbstractBackendController;
 use Magento\TestFramework\Helper\Bootstrap;
 
 /**
- * Test export coupon xml
+ * Xindex export coupon xml
  *
  * Verify export xml
  * @magentoAppArea Adminhtml
@@ -95,7 +95,7 @@ class ExportCouponsXmlTest extends AbstractBackendController
     }
 
     /**
-     * Test export xml
+     * Xindex export xml
      *
      * @return void
      */

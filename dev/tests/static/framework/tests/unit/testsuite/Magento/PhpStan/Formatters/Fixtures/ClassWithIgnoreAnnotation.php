@@ -16,7 +16,7 @@ namespace Magento\PhpStan\Formatters\Fixtures;
 class ClassWithIgnoreAnnotation
 {
     /**
-     * Test method.
+     * Xindex method.
      * phpstan:ignore "Method level error"
      */
     public function getProductList()

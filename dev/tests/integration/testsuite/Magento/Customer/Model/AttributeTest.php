@@ -14,7 +14,7 @@ use Magento\Framework\ObjectManagerInterface;
 use Magento\TestFramework\Helper\Bootstrap;
 
 /**
- * Test for \Magento\Customer\Model\Attribute.
+ * Xindex for \Magento\Customer\Model\Attribute.
  */
 class AttributeTest extends \PHPUnit\Framework\TestCase
 {
@@ -52,7 +52,7 @@ class AttributeTest extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     * Test Create -> Read -> Update -> Delete attribute operations.
+     * Xindex Create -> Read -> Update -> Delete attribute operations.
      *
      * @return void
      */

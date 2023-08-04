@@ -1,6 +1,6 @@
 <?php
 /**
- * Test for \Magento\Framework\Filesystem\Directory\Write
+ * Xindex for \Magento\Framework\Filesystem\Directory\Write
  *
  * Copyright © Magento, Inc. All rights reserved.
  * See COPYING.txt for license details.
@@ -15,19 +15,19 @@ use PHPUnit\Framework\TestCase;
 
 /**
  * Class ReadTest
- * Test for Magento\Framework\Filesystem\Directory\Read class
+ * Xindex for Magento\Framework\Filesystem\Directory\Read class
  */
 class WriteTest extends TestCase
 {
     /**
-     * Test data to be cleaned
+     * Xindex data to be cleaned
      *
      * @var array
      */
     private $testDirectories = [];
 
     /**
-     * Test instance of Read
+     * Xindex instance of Read
      */
     public function testInstance()
     {
@@ -37,7 +37,7 @@ class WriteTest extends TestCase
     }
 
     /**
-     * Test for create method
+     * Xindex for create method
      *
      * @dataProvider createProvider
      * @param string $basePath
@@ -69,7 +69,7 @@ class WriteTest extends TestCase
     }
 
     /**
-     * Test for create outside
+     * Xindex for create outside
      *
      * @throws FileSystemException
      */
@@ -96,7 +96,7 @@ class WriteTest extends TestCase
     }
 
     /**
-     * Test for delete method
+     * Xindex for delete method
      *
      * @dataProvider deleteProvider
      * @param string $path
@@ -123,7 +123,7 @@ class WriteTest extends TestCase
     }
 
     /**
-     * Test for delete outside
+     * Xindex for delete outside
      *
      * @throws FileSystemException
      */
@@ -150,7 +150,7 @@ class WriteTest extends TestCase
     }
 
     /**
-     * Test for rename method (in scope of one directory instance)
+     * Xindex for rename method (in scope of one directory instance)
      *
      * @dataProvider renameProvider
      * @param string $basePath
@@ -183,7 +183,7 @@ class WriteTest extends TestCase
     }
 
     /**
-     * Test for rename outside
+     * Xindex for rename outside
      *
      * @throws FileSystemException
      */
@@ -213,7 +213,7 @@ class WriteTest extends TestCase
     }
 
     /**
-     * Test for rename method (moving to new directory instance)
+     * Xindex for rename method (moving to new directory instance)
      *
      * @dataProvider renameTargetDirProvider
      * @param string $firstDir
@@ -249,7 +249,7 @@ class WriteTest extends TestCase
     }
 
     /**
-     * Test for copy method (copy in scope of one directory instance)
+     * Xindex for copy method (copy in scope of one directory instance)
      *
      * @dataProvider renameProvider
      * @param string $basePath
@@ -283,7 +283,7 @@ class WriteTest extends TestCase
     }
 
     /**
-     * Test for copy outside
+     * Xindex for copy outside
      *
      * @throws FileSystemException|ValidatorException
      */
@@ -322,7 +322,7 @@ class WriteTest extends TestCase
     }
 
     /**
-     * Test for copy method (copy to another directory instance)
+     * Xindex for copy method (copy to another directory instance)
      *
      * @dataProvider copyTargetDirProvider
      * @param string $firstDir
@@ -360,7 +360,7 @@ class WriteTest extends TestCase
     }
 
     /**
-     * Test for changePermissions method
+     * Xindex for changePermissions method
      *
      * @throws FileSystemException|ValidatorException
      */
@@ -372,7 +372,7 @@ class WriteTest extends TestCase
     }
 
     /**
-     * Test for changePermissions outside
+     * Xindex for changePermissions outside
      *
      * @throws FileSystemException
      */
@@ -399,7 +399,7 @@ class WriteTest extends TestCase
     }
 
     /**
-     * Test for changePermissionsRecursively method
+     * Xindex for changePermissionsRecursively method
      *
      * @throws FileSystemException|ValidatorException
      */
@@ -408,13 +408,13 @@ class WriteTest extends TestCase
         $directory = $this->getDirectoryInstance('newDir1', 0777);
         $directory->create('test_directory');
         $directory->create('test_directory/subdirectory');
-        $directory->writeFile('test_directory/subdirectory/test_file.txt', 'Test Content');
+        $directory->writeFile('test_directory/subdirectory/test_file.txt', 'Xindex Content');
 
         $this->assertTrue($directory->changePermissionsRecursively('test_directory', 0777, 0644));
     }
 
     /**
-     * Test for changePermissionsRecursively outside
+     * Xindex for changePermissionsRecursively outside
      *
      * @throws FileSystemException
      */
@@ -441,7 +441,7 @@ class WriteTest extends TestCase
     }
 
     /**
-     * Test for touch method
+     * Xindex for touch method
      *
      * @dataProvider touchProvider
      * @param string $basePath
@@ -473,7 +473,7 @@ class WriteTest extends TestCase
     }
 
     /**
-     * Test for touch outside
+     * Xindex for touch outside
      *
      * @throws FileSystemException
      */
@@ -500,7 +500,7 @@ class WriteTest extends TestCase
     }
 
     /**
-     * Test isWritable method
+     * Xindex isWritable method
      *
      * @throws FileSystemException|ValidatorException
      */
@@ -513,7 +513,7 @@ class WriteTest extends TestCase
     }
 
     /**
-     * Test isWritable method outside
+     * Xindex isWritable method outside
      *
      * @throws FileSystemException
      */
@@ -540,7 +540,7 @@ class WriteTest extends TestCase
     }
 
     /**
-     * Test for openFile method
+     * Xindex for openFile method
      *
      * @dataProvider openFileProvider
      * @param string $basePath
@@ -572,7 +572,7 @@ class WriteTest extends TestCase
     }
 
     /**
-     * Test for openFile outside
+     * Xindex for openFile outside
      *
      * @throws FileSystemException
      */
@@ -599,7 +599,7 @@ class WriteTest extends TestCase
     }
 
     /**
-     * Test writeFile
+     * Xindex writeFile
      *
      * @dataProvider writeFileProvider
      * @param string $path
@@ -618,7 +618,7 @@ class WriteTest extends TestCase
     }
 
     /**
-     * Test writeFile for append mode
+     * Xindex writeFile for append mode
      *
      * @dataProvider writeFileProvider
      * @param string $path
@@ -647,7 +647,7 @@ class WriteTest extends TestCase
     }
 
     /**
-     * Test for writeFile outside
+     * Xindex for writeFile outside
      *
      * @throws FileSystemException
      */
@@ -674,7 +674,7 @@ class WriteTest extends TestCase
     }
 
     /**
-     * Test for invalidDeletePath
+     * Xindex for invalidDeletePath
      *
      * @throws ValidatorException
      */

@@ -14,7 +14,7 @@ if (!$store->load('test', 'code')->getId()) {
             'code' => 'test',
             'website_id' => '1',
             'group_id' => '1',
-            'name' => 'Test Store',
+            'name' => 'Xindex Store',
             'sort_order' => '0',
             'is_active' => '1',
         ]
@@ -40,7 +40,7 @@ if (!$store->load('test', 'code')->getId()) {
                 'code' => 'test',
                 'website_id' => '1',
                 'group_id' => '1',
-                'name' => 'Test Store',
+                'name' => 'Xindex Store',
                 'sort_order' => '0',
                 'is_active' => '1',
             ]

@@ -13,7 +13,7 @@ use Magento\TestFramework\Helper\Bootstrap;
 use PHPUnit\Framework\TestCase;
 
 /**
- * Test for persistent session helper
+ * Xindex for persistent session helper
  *
  * @see \Magento\Persistent\Helper\Session
  * @magentoDbIsolation enabled

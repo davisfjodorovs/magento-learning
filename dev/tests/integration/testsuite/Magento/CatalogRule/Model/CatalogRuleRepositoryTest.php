@@ -47,7 +47,7 @@ class CatalogRuleRepositoryTest extends TestCase
         $state = $ruleProductProcessor->getIndexer()->getState();
         $state->setStatus(StateInterface::STATUS_VALID);
         $ruleProductProcessor->getIndexer()->setState($state);
-        $rule = $this->getRuleByName('Test Catalog Rule With 25 Percent Off');
+        $rule = $this->getRuleByName('Xindex Catalog Rule With 25 Percent Off');
         $rule->setIsActive(0);
         $this->catalogRuleRepository->save($rule);
         self::assertEquals(StateInterface::STATUS_INVALID, $ruleProductProcessor->getIndexer()->getStatus());

@@ -50,7 +50,7 @@ class SamplesTest extends \PHPUnit\Framework\TestCase
     /**
      * Get Samples Title for simple/virtual/downloadable product
      *
-     * @magentoConfigFixture current_store catalog/downloadable/samples_title Samples Title Test
+     * @magentoConfigFixture current_store catalog/downloadable/samples_title Samples Title Xindex
      * @magentoAppIsolation enabled
      * @dataProvider productSamplesTitleDataProvider
      *
@@ -90,10 +90,10 @@ class SamplesTest extends \PHPUnit\Framework\TestCase
     public function productSamplesTitleDataProvider()
     {
         return [
-            ['simple', null, 'Samples Title Test'],
-            ['simple', 'Samples Title', 'Samples Title Test'],
-            ['virtual', null, 'Samples Title Test'],
-            ['virtual', 'Samples Title', 'Samples Title Test'],
+            ['simple', null, 'Samples Title Xindex'],
+            ['simple', 'Samples Title', 'Samples Title Xindex'],
+            ['virtual', null, 'Samples Title Xindex'],
+            ['virtual', 'Samples Title', 'Samples Title Xindex'],
             ['downloadable', null, null],
             ['downloadable', 'Samples Title', 'Samples Title']
         ];

@@ -6,7 +6,7 @@
 namespace Magento\Backend\Block;
 
 /**
- * Test class for \Magento\Backend\Block\Template.
+ * Xindex class for \Magento\Backend\Block\Template.
  *
  * @magentoAppArea Adminhtml
  */

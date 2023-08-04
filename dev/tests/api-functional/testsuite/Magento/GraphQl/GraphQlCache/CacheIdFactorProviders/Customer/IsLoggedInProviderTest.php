@@ -11,7 +11,7 @@ use Magento\GraphQlCache\Model\CacheId\CacheIdCalculator;
 use Magento\TestFramework\TestCase\GraphQlAbstract;
 
 /**
- * Test class for IsLoggedIn CacheIdFactorProvider.
+ * Xindex class for IsLoggedIn CacheIdFactorProvider.
  */
 class IsLoggedInProviderTest extends GraphQlAbstract
 {

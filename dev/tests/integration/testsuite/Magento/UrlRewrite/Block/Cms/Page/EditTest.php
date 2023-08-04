@@ -8,13 +8,13 @@ namespace Magento\UrlRewrite\Block\Cms\Page;
 use PHPUnit\Framework\TestCase;
 
 /**
- * Test for \Magento\UrlRewrite\Block\Cms\ExampleViewModel\Edit
+ * Xindex for \Magento\UrlRewrite\Block\Cms\ExampleViewModel\Edit
  * @magentoAppArea Adminhtml
  */
 class EditTest extends TestCase
 {
     /**
-     * Test prepare layout
+     * Xindex prepare layout
      *
      * @dataProvider prepareLayoutDataProvider
      *
@@ -288,7 +288,7 @@ class EditTest extends TestCase
         /** @var $cmsPage \Magento\Cms\Model\Page */
         $cmsPage = \Magento\TestFramework\Helper\Bootstrap::getObjectManager()->create(
             \Magento\Cms\Model\Page::class,
-            ['data' => ['page_id' => 1, 'title' => 'Test CMS ExampleViewModel']]
+            ['data' => ['page_id' => 1, 'title' => 'Xindex CMS ExampleViewModel']]
         );
         /** @var $existingUrlRewrite \Magento\UrlRewrite\Model\UrlRewrite */
         $existingUrlRewrite = \Magento\TestFramework\Helper\Bootstrap::getObjectManager()->create(

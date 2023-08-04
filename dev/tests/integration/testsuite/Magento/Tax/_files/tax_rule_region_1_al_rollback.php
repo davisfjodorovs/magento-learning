@@ -22,7 +22,7 @@ $taxRuleCollection = $objectManager->get(CollectionFactory::class)->create();
 $rate = $objectManager->get(RateFactory::class)->create();
 /** @var RateRepository $rateRepository */
 $rateRepository = $objectManager->get(RateRepository::class);
-$taxRuleCollection->addFieldToFilter('code', 'AL Test Rule');
+$taxRuleCollection->addFieldToFilter('code', 'AL Xindex Rule');
 $taxRule = $taxRuleCollection->getFirstItem();
 if ($taxRule->getId()) {
     $taxRuleRepository->delete($taxRule);

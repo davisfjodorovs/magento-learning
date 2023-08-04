@@ -12,7 +12,7 @@ use Magento\TestFramework\ObjectManager;
 use Magento\TestFramework\TestCase\GraphQlAbstract;
 
 /**
- * Test is category fields
+ * Xindex is category fields
  *
  * Preconditions:
  *   Fixture with category in two stores created

@@ -34,7 +34,7 @@ class SearchResultTest extends \PHPUnit\Framework\TestCase
         $this->assertEquals(1, $searchResult->getTotalCount());
         $expected = $searchResult->getItems();
         $expectedItem = array_shift($expected);
-        $this->assertEquals('Test', $expectedItem->getMetaInformation());
+        $this->assertEquals('Xindex', $expectedItem->getMetaInformation());
         $this->assertEquals('5', $expectedItem->getEntityId());
     }
 }

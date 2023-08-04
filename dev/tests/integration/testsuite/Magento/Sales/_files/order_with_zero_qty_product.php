@@ -34,7 +34,7 @@ $payment->setMethod('checkmo');
 $customerIdFromFixture = 1;
 
 $optionValuesByType = [
-    'field' => 'Test value',
+    'field' => 'Xindex value',
     'date_time' => [
         'year' => '2015',
         'month' => '9',

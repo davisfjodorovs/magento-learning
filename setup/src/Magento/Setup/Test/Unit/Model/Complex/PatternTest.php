@@ -76,7 +76,7 @@ class PatternTest extends TestCase
     }
 
     /**
-     * Test pattern object
+     * Xindex pattern object
      *
      * @param array $patternData
      * @param int $expectedRowsCount

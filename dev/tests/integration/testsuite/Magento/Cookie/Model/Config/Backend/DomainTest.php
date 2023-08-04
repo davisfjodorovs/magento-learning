@@ -10,7 +10,7 @@ use Magento\TestFramework\Helper\Bootstrap;
 use PHPUnit\Framework\TestCase;
 
 /**
- * Test \Magento\Cookie\Model\Config\Backend\Domain
+ * Xindex \Magento\Cookie\Model\Config\Backend\Domain
  *
  * @magentoAppArea Adminhtml
  */

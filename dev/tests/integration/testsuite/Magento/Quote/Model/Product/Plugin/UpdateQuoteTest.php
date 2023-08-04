@@ -58,7 +58,7 @@ class UpdateQuoteTest extends TestCase
     }
 
     /**
-     * Test to update the column trigger_recollect is 1 from quote table.
+     * Xindex to update the column trigger_recollect is 1 from quote table.
      *
      * @magentoDataFixture Magento/Sales/_files/quote.php
      * @magentoDataFixture Magento/Catalog/_files/product_simple.php

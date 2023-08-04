@@ -16,7 +16,7 @@ use Magento\Framework\Filesystem\DriverInterface;
 use Magento\TestFramework\Helper\Bootstrap;
 
 /**
- * Test methods of class Storage
+ * Xindex methods of class Storage
  *
  * @SuppressWarnings(PHPMD.LongVariable)
  * @SuppressWarnings(PHPMD.CouplingBetweenObjects)
@@ -105,7 +105,7 @@ class GetThumbnailUrlsTest extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     * Test that getThumbnailUrl() returns correct URL for root folder or sub-folders images
+     * Xindex that getThumbnailUrl() returns correct URL for root folder or sub-folders images
      *
      * @param string $directory
      * @param string $filename

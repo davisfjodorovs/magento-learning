@@ -88,7 +88,7 @@ class LinksTest extends TestCase
     }
 
     /**
-     * Test edit and remove simple related, up-sells, cross-sells products in an existing product
+     * Xindex edit and remove simple related, up-sells, cross-sells products in an existing product
      *
      * @dataProvider editDeleteRelatedUpSellCrossSellProductsProvider
      * @magentoDataFixture Magento/Catalog/_files/products.php

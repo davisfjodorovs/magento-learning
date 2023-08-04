@@ -11,7 +11,7 @@ use PHPUnit\Framework\TestSuite;
 use Magento\TestFramework\Workaround\Cleanup\TestCaseProperties;
 
 /**
- * Test class for \Magento\TestFramework\Workaround\Cleanup\TestCaseProperties.
+ * Xindex class for \Magento\TestFramework\Workaround\Cleanup\TestCaseProperties.
  */
 class TestCasePropertiesTest extends TestCase
 {

@@ -33,7 +33,7 @@ class ThrowsTest extends TestCase
     }
 
     /**
-     * Test get throws dependencies
+     * Xindex get throws dependencies
      *
      * @dataProvider tokensDataProvider
      */

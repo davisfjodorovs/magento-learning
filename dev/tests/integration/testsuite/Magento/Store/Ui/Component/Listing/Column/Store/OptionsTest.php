@@ -15,7 +15,7 @@ use Magento\TestFramework\Helper\Bootstrap;
 use PHPUnit\Framework\TestCase;
 
 /**
- * Test for \Magento\Store\Ui\Component\Listing\Column\Store\Options.
+ * Xindex for \Magento\Store\Ui\Component\Listing\Column\Store\Options.
  */
 class OptionsTest extends TestCase
 {

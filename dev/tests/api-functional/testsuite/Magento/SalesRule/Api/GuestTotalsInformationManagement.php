@@ -76,7 +76,7 @@ class GuestTotalsInformationManagement extends WebapiAbstract
     }
 
     /**
-     * Test sales rule changes should be persisted in the database
+     * Xindex sales rule changes should be persisted in the database
      *
      * @magentoApiDataFixture Magento/SalesRule/_files/cart_rule_50_percent_off_no_condition.php
      * @magentoApiDataFixture Magento/Sales/_files/quote.php

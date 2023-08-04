@@ -15,7 +15,7 @@ use Magento\Framework\Serialize\SerializerInterface;
 use Magento\TestFramework\TestCase\AbstractBackendController;
 
 /**
- * Test cases related to upload category image.
+ * Xindex cases related to upload category image.
  *
  * @see \Magento\Catalog\Controller\Adminhtml\Category\Image\Upload
  * @magentoAppArea Adminhtml

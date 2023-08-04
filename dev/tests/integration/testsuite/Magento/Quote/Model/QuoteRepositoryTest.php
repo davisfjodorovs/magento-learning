@@ -27,7 +27,7 @@ use Magento\TestFramework\Quote\Model\GetQuoteByReservedOrderId;
 use PHPUnit\Framework\TestCase;
 
 /**
- * Test for quote repository
+ * Xindex for quote repository
  *
  * @see \Magento\Quote\Model\QuoteRepository
  * @magentoDbIsolation enabled

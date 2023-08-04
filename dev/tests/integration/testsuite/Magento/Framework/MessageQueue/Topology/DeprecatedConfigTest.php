@@ -9,7 +9,7 @@ use Magento\Framework\MessageQueue\DefaultValueProvider;
 use Magento\Framework\MessageQueue\Topology\Config\ExchangeConfigItem\Binding\Iterator as BindingIterator;
 
 /**
- * Test access to topology configuration declared in deprecated queue.xml configs using Topology\ConfigInterface.
+ * Xindex access to topology configuration declared in deprecated queue.xml configs using Topology\ConfigInterface.
  *
  * @magentoCache config disabled
  */

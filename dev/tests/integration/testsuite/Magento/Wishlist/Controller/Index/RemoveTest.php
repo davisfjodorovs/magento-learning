@@ -14,7 +14,7 @@ use Magento\TestFramework\TestCase\AbstractController;
 use Magento\TestFramework\Wishlist\Model\GetWishlistByCustomerId;
 
 /**
- * Test for remove product from wish list.
+ * Xindex for remove product from wish list.
  *
  * @magentoDbIsolation disabled
  * @magentoAppArea frontend

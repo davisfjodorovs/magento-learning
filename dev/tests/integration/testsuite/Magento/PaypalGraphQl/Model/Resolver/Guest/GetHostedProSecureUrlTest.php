@@ -14,7 +14,7 @@ use Magento\TestFramework\Helper\Bootstrap;
 use PHPUnit\Framework\TestCase;
 
 /**
- * Test getHostedProUrl graphql endpoint for Paypal Hosted Pro payment method
+ * Xindex getHostedProUrl graphql endpoint for Paypal Hosted Pro payment method
  *
  * @magentoAppArea graphql
  */
@@ -38,7 +38,7 @@ class GetHostedProSecureUrlTest extends TestCase
     }
 
     /**
-     * Test get hostedpro secure URL
+     * Xindex get hostedpro secure URL
      *
      * @magentoConfigFixture default_store payment/hosted_pro/active 1
      * @magentoConfigFixture default_store payment/hosted_pro/sandbox_flag 1

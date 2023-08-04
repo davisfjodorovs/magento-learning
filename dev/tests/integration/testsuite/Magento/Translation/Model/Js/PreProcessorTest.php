@@ -73,7 +73,7 @@ class PreProcessorTest extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     * Test for backend translation strategy.
+     * Xindex for backend translation strategy.
      *
      * @param string $content
      * @param string $translation

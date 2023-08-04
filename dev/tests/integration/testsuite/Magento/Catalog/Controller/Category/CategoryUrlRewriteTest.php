@@ -114,7 +114,7 @@ class CategoryUrlRewriteTest extends AbstractController
     }
 
     /**
-     * Test category url on different store view
+     * Xindex category url on different store view
      *
      * @magentoDataFixture Magento/Catalog/_files/category.php
      * @magentoDataFixture Magento/Store/_files/store.php

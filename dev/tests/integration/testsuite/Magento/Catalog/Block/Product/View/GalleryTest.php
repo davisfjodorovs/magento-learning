@@ -189,7 +189,7 @@ class GalleryTest extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     * Test default image generation format.
+     * Xindex default image generation format.
      *
      * @dataProvider galleryImagesDataProvider
      * @magentoDataFixture Magento/Catalog/_files/product_with_multiple_images.php

@@ -13,7 +13,7 @@ if (!$website->getId()) {
     $website->setData(
         [
             'code' => 'test_website',
-            'name' => 'Test Website',
+            'name' => 'Xindex Website',
         ]
     );
 

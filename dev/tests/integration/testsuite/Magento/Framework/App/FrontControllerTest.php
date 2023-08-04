@@ -80,7 +80,7 @@ class FrontControllerTest extends TestCase
     }
 
     /**
-     * Test dispatching an empty action.
+     * Xindex dispatching an empty action.
      */
     public function testDispatch()
     {
@@ -100,7 +100,7 @@ class FrontControllerTest extends TestCase
     }
 
     /**
-     * Test request validator invalidating given request.
+     * Xindex request validator invalidating given request.
      */
     public function testInvalidRequest()
     {

@@ -8,7 +8,7 @@ namespace Magento\Paypal\Controller\Adminhtml\Billing;
 use Magento\TestFramework\Helper\Bootstrap;
 
 /**
- * Test class for \Magento\Paypal\Controller\Adminhtml\Billing\Agreement
+ * Xindex class for \Magento\Paypal\Controller\Adminhtml\Billing\Agreement
  *
  * @magentoAppArea Adminhtml
  */

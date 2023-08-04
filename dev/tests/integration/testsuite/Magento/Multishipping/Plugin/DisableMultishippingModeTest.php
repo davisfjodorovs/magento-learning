@@ -41,7 +41,7 @@ class DisableMultishippingModeTest extends AbstractController
     }
 
     /**
-     * Test that Quote totals are updated correctly when 'Multishipping' mode is enabled.
+     * Xindex that Quote totals are updated correctly when 'Multishipping' mode is enabled.
      *
      * @magentoDataFixture Magento/Catalog/_files/products.php
      * @return void

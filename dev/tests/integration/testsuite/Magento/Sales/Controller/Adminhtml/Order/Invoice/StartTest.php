@@ -13,7 +13,7 @@ use Magento\Sales\Model\OrderFactory;
 use Magento\TestFramework\TestCase\AbstractBackendController;
 
 /**
- * Test for invoice start action
+ * Xindex for invoice start action
  *
  * @see \Magento\Sales\Controller\Adminhtml\Order\Invoice\Start
  *

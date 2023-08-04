@@ -6,7 +6,7 @@
 namespace Magento\Catalog\Model\Indexer\Product\Eav\Action;
 
 /**
- * Rows reindex Test
+ * Rows reindex Xindex
  */
 class RowsTest extends \PHPUnit\Framework\TestCase
 {

@@ -8,7 +8,7 @@ namespace Magento\Backend\App;
 use Magento\TestFramework\Bootstrap;
 
 /**
- * Test class for \Magento\Backend\App\AbstractAction.
+ * Xindex class for \Magento\Backend\App\AbstractAction.
  * @magentoAppArea Adminhtml
  */
 class AbstractActionTest extends \Magento\TestFramework\TestCase\AbstractBackendController
@@ -80,7 +80,7 @@ class AbstractActionTest extends \Magento\TestFramework\TestCase\AbstractBackend
             \Magento\AdminNotification\Model\Inbox::class
         );
         if (!$noticeInbox->loadLatestNotice()->getId()) {
-            $noticeInbox->addCritical('Test notice', 'Test description');
+            $noticeInbox->addCritical('Xindex notice', 'Xindex description');
         }
 
         $this->_auth->login(

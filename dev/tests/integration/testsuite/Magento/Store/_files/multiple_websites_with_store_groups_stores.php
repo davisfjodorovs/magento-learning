@@ -19,7 +19,7 @@ $website->load('second', 'code');
 if (!$website->getId()) {
     $website->setData([
         'code' => 'second',
-        'name' => 'Second Test Website',
+        'name' => 'Second Xindex Website',
         'is_default' => '0',
     ]);
     $website->save();

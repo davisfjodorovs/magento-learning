@@ -94,7 +94,7 @@ class InvoiceSenderTest extends TestCase
     }
 
     /**
-     * Test that when a customer email is modified, the invoice is sent to the new email
+     * Xindex that when a customer email is modified, the invoice is sent to the new email
      *
      * @magentoDataFixture Magento/Sales/_files/order_with_customer.php
      * @magentoAppArea frontend
@@ -117,7 +117,7 @@ class InvoiceSenderTest extends TestCase
     }
 
     /**
-     * Test that when a customer email is not modified, the invoice is sent to the old customer email
+     * Xindex that when a customer email is not modified, the invoice is sent to the old customer email
      *
      * @magentoDataFixture Magento/Sales/_files/order_with_customer.php
      * @magentoAppArea frontend
@@ -137,7 +137,7 @@ class InvoiceSenderTest extends TestCase
     }
 
     /**
-     * Test that when an order has not customer the invoice is sent to the order email
+     * Xindex that when an order has not customer the invoice is sent to the order email
      *
      * @magentoDataFixture Magento/Sales/_files/order.php
      * @magentoAppArea frontend

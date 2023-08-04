@@ -11,7 +11,7 @@ use Magento\TestFramework\TestCase\AbstractController;
 use Laminas\Stdlib\Parameters;
 
 /**
- * Test cases for catalog advanced index using params.
+ * Xindex cases for catalog advanced index using params.
  *
  * @magentoDbIsolation disabled
  * @magentoAppIsolation enabled

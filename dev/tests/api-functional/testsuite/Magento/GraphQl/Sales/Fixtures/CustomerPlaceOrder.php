@@ -217,7 +217,7 @@ mutation {
          address: {
           firstname: "John"
           lastname: "Smith"
-          company: "Test company"
+          company: "Xindex company"
           street: ["test street 1", "test street 2"]
           city: "Texas City"
           postcode: "78717"

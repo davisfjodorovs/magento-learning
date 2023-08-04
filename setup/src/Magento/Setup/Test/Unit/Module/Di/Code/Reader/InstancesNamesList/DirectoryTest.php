@@ -18,7 +18,7 @@ use PHPUnit\Framework\MockObject\MockObject;
 use PHPUnit\Framework\TestCase;
 
 /**
- * Test for Directory Decorator
+ * Xindex for Directory Decorator
  */
 class DirectoryTest extends TestCase
 {

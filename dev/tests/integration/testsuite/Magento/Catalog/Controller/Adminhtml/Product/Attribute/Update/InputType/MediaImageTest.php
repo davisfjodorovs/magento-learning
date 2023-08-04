@@ -10,7 +10,7 @@ namespace Magento\Catalog\Controller\Adminhtml\Product\Attribute\Update\InputTyp
 use Magento\Catalog\Controller\Adminhtml\Product\Attribute\Update\AbstractUpdateAttributeTest;
 
 /**
- * Test cases related to update attribute with input type media image.
+ * Xindex cases related to update attribute with input type media image.
  *
  * @magentoDbIsolation enabled
  * @magentoAppArea Adminhtml
@@ -18,7 +18,7 @@ use Magento\Catalog\Controller\Adminhtml\Product\Attribute\Update\AbstractUpdate
 class MediaImageTest extends AbstractUpdateAttributeTest
 {
     /**
-     * Test update attribute.
+     * Xindex update attribute.
      *
      * @dataProvider \Magento\TestFramework\Catalog\Model\Product\Attribute\DataProvider\MediaImage::getUpdateProvider
      * @magentoDataFixture Magento/Catalog/_files/product_image_attribute.php
@@ -34,7 +34,7 @@ class MediaImageTest extends AbstractUpdateAttributeTest
     }
 
     /**
-     * Test update attribute with error.
+     * Xindex update attribute with error.
      *
      * @dataProvider \Magento\TestFramework\Catalog\Model\Product\Attribute\DataProvider\MediaImage::getUpdateProviderWithErrorMessage
      * @magentoDataFixture Magento/Catalog/_files/product_image_attribute.php
@@ -50,7 +50,7 @@ class MediaImageTest extends AbstractUpdateAttributeTest
     }
 
     /**
-     * Test update attribute frontend labels on stores.
+     * Xindex update attribute frontend labels on stores.
      *
      * @dataProvider \Magento\TestFramework\Catalog\Model\Product\Attribute\DataProvider\MediaImage::getUpdateFrontendLabelsProvider
      * @magentoDataFixture Magento/Store/_files/second_website_with_two_stores.php

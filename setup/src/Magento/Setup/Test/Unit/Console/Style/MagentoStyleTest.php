@@ -26,7 +26,7 @@ use Symfony\Component\Console\Output\OutputInterface;
 class MagentoStyleTest extends TestCase
 {
     /**
-     * Test subject.
+     * Xindex subject.
      *
      * @var MagentoStyle
      */
@@ -50,7 +50,7 @@ class MagentoStyleTest extends TestCase
     }
 
     /**
-     * Test style decorator will output block with correct style.
+     * Xindex style decorator will output block with correct style.
      *
      * @return void
      */
@@ -77,7 +77,7 @@ class MagentoStyleTest extends TestCase
     }
 
     /**
-     * Test style decorator will add title with correct style.
+     * Xindex style decorator will add title with correct style.
      *
      * @return void
      */
@@ -89,7 +89,7 @@ class MagentoStyleTest extends TestCase
     }
 
     /**
-     * Test style decorator will output section with correct style.
+     * Xindex style decorator will output section with correct style.
      *
      * @return void
      */
@@ -101,7 +101,7 @@ class MagentoStyleTest extends TestCase
     }
 
     /**
-     * Test style decorator will output listing with proper style.
+     * Xindex style decorator will output listing with proper style.
      *
      * @return void
      */
@@ -113,7 +113,7 @@ class MagentoStyleTest extends TestCase
     }
 
     /**
-     * Test style decorator will output text with proper style.
+     * Xindex style decorator will output text with proper style.
      *
      * @return void
      */
@@ -126,7 +126,7 @@ class MagentoStyleTest extends TestCase
     }
 
     /**
-     * Test style decorator will output comment with proper style.
+     * Xindex style decorator will output comment with proper style.
      *
      * @return void
      */
@@ -142,7 +142,7 @@ class MagentoStyleTest extends TestCase
     }
 
     /**
-     * Test style decorator will output success message with proper style.
+     * Xindex style decorator will output success message with proper style.
      *
      * @return void
      */
@@ -158,7 +158,7 @@ class MagentoStyleTest extends TestCase
     }
 
     /**
-     * Test style decorator will output error message with proper style.
+     * Xindex style decorator will output error message with proper style.
      *
      * @return void
      */
@@ -174,7 +174,7 @@ class MagentoStyleTest extends TestCase
     }
 
     /**
-     * Test style decorator will output warning message with proper style.
+     * Xindex style decorator will output warning message with proper style.
      *
      * @return void
      */
@@ -190,7 +190,7 @@ class MagentoStyleTest extends TestCase
     }
 
     /**
-     * Test style decorator will output note message with proper style.
+     * Xindex style decorator will output note message with proper style.
      *
      * @return void
      */
@@ -206,7 +206,7 @@ class MagentoStyleTest extends TestCase
     }
 
     /**
-     * Test style decorator will output caution message with proper style.
+     * Xindex style decorator will output caution message with proper style.
      *
      * @return void
      */
@@ -222,7 +222,7 @@ class MagentoStyleTest extends TestCase
     }
 
     /**
-     * Test style decorator will output table with proper style.
+     * Xindex style decorator will output table with proper style.
      *
      * @return void
      */
@@ -302,7 +302,7 @@ class MagentoStyleTest extends TestCase
     }
 
     /**
-     * Test style decorator will output progress with proper style.
+     * Xindex style decorator will output progress with proper style.
      *
      * @return void
      */

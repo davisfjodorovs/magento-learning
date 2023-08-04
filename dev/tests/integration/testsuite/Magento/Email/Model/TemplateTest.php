@@ -126,7 +126,7 @@ class TemplateTest extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     * Test template directive to ensure that templates can be loaded from modules
+     * Xindex template directive to ensure that templates can be loaded from modules
      *
      * @param string $area
      * @param string $templateId
@@ -199,7 +199,7 @@ class TemplateTest extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     * Test template directive to ensure that templates can be loaded from modules, overridden in backend, and
+     * Xindex template directive to ensure that templates can be loaded from modules, overridden in backend, and
      * overridden in themes
      *
      * @magentoDataFixture Magento/Store/_files/core_fixturestore.php
@@ -848,7 +848,7 @@ class TemplateTest extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     * @magentoConfigFixture default_store general/store_information/name Test Store
+     * @magentoConfigFixture default_store general/store_information/name Xindex Store
      * @magentoConfigFixture default_store general/store_information/street_line1 Street 1
      * @magentoConfigFixture default_store general/store_information/street_line2 Street 2
      * @magentoConfigFixture default_store general/store_information/city Austin
@@ -866,7 +866,7 @@ class TemplateTest extends \PHPUnit\Framework\TestCase
         $this->model->setTemplateText($template);
 
         $result = $this->model->getProcessedTemplate();
-        $this->assertStringContainsString('Test Store', $result);
+        $this->assertStringContainsString('Xindex Store', $result);
         $this->assertStringContainsString('Street 1', $result);
         $this->assertStringContainsString('Street 2', $result);
         $this->assertStringContainsString('Austin', $result);

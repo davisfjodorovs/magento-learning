@@ -148,7 +148,7 @@ class ProductImportImagesTest extends ProductTestBase
     }
 
     /**
-     * Test that product import with images for non-default store works properly.
+     * Xindex that product import with images for non-default store works properly.
      *
      * @magentoDataFixture mediaImportImageFixture
      */
@@ -232,7 +232,7 @@ class ProductImportImagesTest extends ProductTestBase
     }
 
     /**
-     * Test that configurable product images are imported correctly.
+     * Xindex that configurable product images are imported correctly.
      *
      * @magentoDataFixture mediaImportImageFixture
      * @magentoDataFixture Magento/Store/_files/core_fixturestore.php

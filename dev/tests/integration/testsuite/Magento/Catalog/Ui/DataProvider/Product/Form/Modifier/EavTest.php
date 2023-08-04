@@ -124,7 +124,7 @@ class EavTest extends AbstractEavTest
                 'attribute_meta' => $textAttributeMeta,
             ],
             'new_attribute_in_new_group' => [
-                'group_name' => 'Test',
+                'group_name' => 'Xindex',
                 'group_code' => 'test',
                 'attribute_code' => 'text_attribute',
                 'attribute_meta' => array_merge($textAttributeMeta, ['source' => 'test']),
@@ -136,7 +136,7 @@ class EavTest extends AbstractEavTest
                 'attribute_meta' => $urlKeyAttributeMeta,
             ],
             'old_attribute_moved_to_new_group' => [
-                'group_name' => 'Test',
+                'group_name' => 'Xindex',
                 'group_code' => 'test',
                 'attribute_code' => 'url_key',
                 'attribute_meta' => array_merge($urlKeyAttributeMeta, ['source' => 'test']),

@@ -32,7 +32,7 @@ class NewsletterTemplateTest extends \Magento\TestFramework\TestCase\AbstractBac
             'code' => 'test data',
             'subject' => 'test data2',
             'sender_email' => 'sender@email.com',
-            'sender_name' => 'Test Sender Name',
+            'sender_name' => 'Xindex Sender Name',
             'text' => 'Template Content',
             'form_key' => $this->formKey,
         ];

@@ -72,7 +72,7 @@ class BlockRepositoryTest extends WebapiAbstract
     }
 
     /**
-     * Test get \Magento\Cms\Api\Data\BlockInterface
+     * Xindex get \Magento\Cms\Api\Data\BlockInterface
      */
     public function testGet()
     {
@@ -105,7 +105,7 @@ class BlockRepositoryTest extends WebapiAbstract
     }
 
     /**
-     * Test create \Magento\Cms\Api\Data\BlockInterface
+     * Xindex create \Magento\Cms\Api\Data\BlockInterface
      */
     public function testCreate()
     {
@@ -142,7 +142,7 @@ class BlockRepositoryTest extends WebapiAbstract
     }
 
     /**
-     * Test update \Magento\Cms\Api\Data\BlockInterface
+     * Xindex update \Magento\Cms\Api\Data\BlockInterface
      */
     public function testUpdate()
     {
@@ -184,7 +184,7 @@ class BlockRepositoryTest extends WebapiAbstract
     }
 
     /**
-     * Test delete \Magento\Cms\Api\Data\BlockInterface
+     * Xindex delete \Magento\Cms\Api\Data\BlockInterface
      */
     public function testDelete()
     {
@@ -215,7 +215,7 @@ class BlockRepositoryTest extends WebapiAbstract
     }
 
     /**
-     * Test search \Magento\Cms\Api\Data\BlockInterface
+     * Xindex search \Magento\Cms\Api\Data\BlockInterface
      */
     public function testSearch()
     {

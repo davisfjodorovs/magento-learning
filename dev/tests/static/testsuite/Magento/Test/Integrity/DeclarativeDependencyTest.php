@@ -19,7 +19,7 @@ use PHPUnit\Framework\TestCase;
 
 /**
  * Class DeclarativeDependencyTest
- * Test for undeclared dependencies in declarative schema
+ * Xindex for undeclared dependencies in declarative schema
  */
 class DeclarativeDependencyTest extends TestCase
 {

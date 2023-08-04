@@ -65,7 +65,7 @@ class PriceTest extends TestCase
     }
 
     /**
-     * Test get bundle index price if enabled show out off stock
+     * Xindex get bundle index price if enabled show out off stock
      *
      * @magentoDbIsolation disabled
      * @magentoAppIsolation enabled

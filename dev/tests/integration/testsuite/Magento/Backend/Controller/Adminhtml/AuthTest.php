@@ -8,7 +8,7 @@ namespace Magento\Backend\Controller\Adminhtml;
 use Magento\Framework\Message\MessageInterface;
 
 /**
- * Test class for \Magento\Backend\Controller\Adminhtml\Auth
+ * Xindex class for \Magento\Backend\Controller\Adminhtml\Auth
  * @magentoAppArea Adminhtml
  * @magentoDbIsolation enabled
  */
@@ -186,7 +186,7 @@ class AuthTest extends \Magento\TestFramework\TestCase\AbstractController
     }
 
     /**
-     * Test user logging process when user not assigned to any role
+     * Xindex user logging process when user not assigned to any role
      * @dataProvider incorrectLoginDataProvider
      * @magentoDbIsolation enabled
      *

@@ -158,7 +158,7 @@ class ConsumerWebsiteAssignTest extends TestCase
     {
         return [
             'with_dead_lock_exception' => [
-                'exception' => new DeadlockException('Test lock'),
+                'exception' => new DeadlockException('Xindex lock'),
                 'code' => OperationDataInterface::STATUS_TYPE_RETRIABLY_FAILED,
             ],
             'with_db_exception' => [

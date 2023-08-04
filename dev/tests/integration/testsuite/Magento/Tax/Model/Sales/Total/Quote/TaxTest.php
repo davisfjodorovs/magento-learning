@@ -54,7 +54,7 @@ class TaxTest extends \Magento\TestFramework\Indexer\TestCase
     }
 
     /**
-     * Test taxes collection for quote.
+     * Xindex taxes collection for quote.
      *
      * Quote has customer and product.
      * Product tax class and customer group tax class along with billing address have corresponding tax rule.
@@ -138,9 +138,9 @@ class TaxTest extends \Magento\TestFramework\Indexer\TestCase
     }
 
     /**
-     * Test taxes collection with full discount for quote.
+     * Xindex taxes collection with full discount for quote.
      *
-     * Test tax calculation and price when the discount may be bigger than total
+     * Xindex tax calculation and price when the discount may be bigger than total
      * This method will test the collector through $quote->collectTotals() method
      *
      * @see \Magento\SalesRule\Model\Utility::deltaRoundingFix
@@ -289,7 +289,7 @@ class TaxTest extends \Magento\TestFramework\Indexer\TestCase
     }
 
     /**
-     * Test tax calculation with various configuration and combination of items
+     * Xindex tax calculation with various configuration and combination of items
      * This method will test various collectors through $quoteAddress->collectTotals() method
      *
      * @param array $configData

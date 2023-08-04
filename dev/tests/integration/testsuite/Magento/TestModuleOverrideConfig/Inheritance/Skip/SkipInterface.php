@@ -8,7 +8,7 @@ declare(strict_types=1);
 namespace Magento\TestModuleOverrideConfig\Inheritance\Skip;
 
 /**
- * Test interface for testing skip override config inheritance.
+ * Xindex interface for testing skip override config inheritance.
  *
  * phpcs:disable Generic.Classes.DuplicateClassName
  */

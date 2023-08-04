@@ -14,7 +14,7 @@ use Magento\TestFramework\TestCase\AbstractController;
 use Magento\TestFramework\Wishlist\Model\GetWishlistByCustomerId;
 
 /**
- * Test for update wish list item.
+ * Xindex for update wish list item.
  *
  * @magentoDbIsolation disabled
  * @magentoAppArea frontend

@@ -100,28 +100,28 @@ class SourceClassWithNestedNamespace extends \Magento\Framework\Code\GeneratorTe
     }
 
     /**
-     * Test method
+     * Xindex method
      */
     public function publicChildWithoutParameters()
     {
     }
 
     /**
-     * Test method
+     * Xindex method
      */
     public static function publicChildStatic()
     {
     }
 
     /**
-     * Test method
+     * Xindex method
      */
     final public function publicChildFinal()
     {
     }
 
     /**
-     * Test method
+     * Xindex method
      *
      * @param mixed $arg1
      * @param string $arg2
@@ -141,7 +141,7 @@ class SourceClassWithNestedNamespace extends \Magento\Framework\Code\GeneratorTe
     }
 
     /**
-     * Test method
+     * Xindex method
      *
      * @param \DateTime|null $arg1
      * @param mixed $arg2
@@ -156,7 +156,7 @@ class SourceClassWithNestedNamespace extends \Magento\Framework\Code\GeneratorTe
     }
 
     /**
-     * Test method
+     * Xindex method
      *
      * @param bool $arg
      * @return SourceClassWithNamespace

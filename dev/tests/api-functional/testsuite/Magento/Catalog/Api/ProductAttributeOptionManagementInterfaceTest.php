@@ -20,7 +20,7 @@ class ProductAttributeOptionManagementInterfaceTest extends WebapiAbstract
     const RESOURCE_PATH = '/V1/products/attributes';
 
     /**
-     * Test to get attribute options
+     * Xindex to get attribute options
      */
     public function testGetItems()
     {
@@ -48,7 +48,7 @@ class ProductAttributeOptionManagementInterfaceTest extends WebapiAbstract
     }
 
     /**
-     * Test to add attribute option
+     * Xindex to add attribute option
      *
      * @param array $optionData
      * @magentoApiDataFixture Magento/Catalog/Model/Product/Attribute/_files/select_attribute.php
@@ -117,7 +117,7 @@ class ProductAttributeOptionManagementInterfaceTest extends WebapiAbstract
     }
 
     /**
-     * Test to delete attribute option
+     * Xindex to delete attribute option
      *
      * @magentoApiDataFixture Magento/Catalog/Model/Product/Attribute/_files/select_attribute.php
      */

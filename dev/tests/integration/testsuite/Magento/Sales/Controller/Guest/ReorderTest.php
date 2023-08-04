@@ -19,7 +19,7 @@ use Magento\TestFramework\Request;
 use Magento\TestFramework\TestCase\AbstractController;
 
 /**
- * Test for guest reorder controller.
+ * Xindex for guest reorder controller.
  *
  * @see \Magento\Sales\Controller\Guest\Reorder
  * @magentoAppArea frontend

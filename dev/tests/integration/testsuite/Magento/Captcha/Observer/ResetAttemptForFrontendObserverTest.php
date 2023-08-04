@@ -17,7 +17,7 @@ use Magento\Framework\ObjectManagerInterface;
 /**
  * Class ResetAttemptForFrontendObserverTest
  *
- * Test for checking that the customer login attempts are removed after a successful login
+ * Xindex for checking that the customer login attempts are removed after a successful login
  */
 class ResetAttemptForFrontendObserverTest extends \PHPUnit\Framework\TestCase
 {

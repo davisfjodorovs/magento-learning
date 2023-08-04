@@ -5,14 +5,14 @@
  */
 
 /**
- * Test class for \Magento\ImportExport\Block\Adminhtml\Import\Edit\Before
+ * Xindex class for \Magento\ImportExport\Block\Adminhtml\Import\Edit\Before
  */
 namespace Magento\ImportExport\Block\Adminhtml\Import\Edit;
 
 class BeforeTest extends \PHPUnit\Framework\TestCase
 {
     /**
-     * Test model
+     * Xindex model
      *
      * @var \Magento\ImportExport\Block\Adminhtml\Import\Edit\Before
      */
@@ -83,7 +83,7 @@ class BeforeTest extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     * Test for getEntityBehaviors method
+     * Xindex for getEntityBehaviors method
      *
      * @covers \Magento\ImportExport\Block\Adminhtml\Import\Edit\Before::getEntityBehaviors
      */
@@ -95,7 +95,7 @@ class BeforeTest extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     * Test for getUniqueBehaviors method
+     * Xindex for getUniqueBehaviors method
      *
      * @covers \Magento\ImportExport\Block\Adminhtml\Import\Edit\Before::getUniqueBehaviors
      */

@@ -12,7 +12,7 @@ use Magento\TestFramework\Helper\Bootstrap;
 use Magento\TestFramework\TestCase\GraphQlAbstract;
 
 /**
- * Test for set billing address on cart mutation
+ * Xindex for set billing address on cart mutation
  */
 class SetBillingAddressOnCartTest extends GraphQlAbstract
 {

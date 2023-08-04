@@ -51,7 +51,7 @@ class ComplexGeneratorTest extends TestCase
     }
 
     /**
-     * Test complex generator iterator interface
+     * Xindex complex generator iterator interface
      *
      * @return void
      */
@@ -76,7 +76,7 @@ class ComplexGeneratorTest extends TestCase
     }
 
     /**
-     * Test generator getIndex
+     * Xindex generator getIndex
      *
      * @return void
      */

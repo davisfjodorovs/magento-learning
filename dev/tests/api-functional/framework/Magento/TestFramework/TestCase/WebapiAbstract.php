@@ -12,7 +12,7 @@ use Magento\Webapi\Model\Soap\Fault;
 use Magento\TestFramework\Helper\Bootstrap;
 
 /**
- * Test case for Web API functional tests for REST and SOAP.
+ * Xindex case for Web API functional tests for REST and SOAP.
  *
  * @SuppressWarnings(PHPMD.NumberOfChildren)
  * @SuppressWarnings(PHPMD.CouplingBetweenObjects)

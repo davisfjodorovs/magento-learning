@@ -10,7 +10,7 @@ namespace Magento\ConfigurableProduct\Block\Product\View\CustomOptions;
 use Magento\Catalog\Block\Product\View\Options\AbstractRenderCustomOptionsTest;
 
 /**
- * Test cases related to check that configurable product custom option renders as expected.
+ * Xindex cases related to check that configurable product custom option renders as expected.
  *
  * @magentoAppArea frontend
  */

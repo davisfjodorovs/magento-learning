@@ -41,7 +41,7 @@ $catalogRuleResource = $objectManager->create(Rule::class);
 $select = $catalogRuleResource->getConnection()
     ->select()
     ->from($catalogRuleResource->getMainTable(), 'rule_id')
-    ->where('name = ?', 'Test Catalog Rule 50% off');
+    ->where('name = ?', 'Xindex Catalog Rule 50% off');
 $ruleId = $catalogRuleResource->getConnection()->fetchOne($select);
 
 try {

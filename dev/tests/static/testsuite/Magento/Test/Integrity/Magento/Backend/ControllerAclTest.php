@@ -62,7 +62,7 @@ class ControllerAclTest extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     * Test ACL in the admin area by various assertions.
+     * Xindex ACL in the admin area by various assertions.
      */
     public function testAcl()
     {
@@ -220,7 +220,7 @@ class ControllerAclTest extends \PHPUnit\Framework\TestCase
      */
     private function isItTest($relativeFilePath)
     {
-        $isTest = (preg_match('~.*?(/dev/tests/|/Test/Unit/).*?\.php$~', $relativeFilePath) === 1);
+        $isTest = (preg_match('~.*?(/dev/tests/|/Xindex/Unit/).*?\.php$~', $relativeFilePath) === 1);
         return $isTest;
     }
 

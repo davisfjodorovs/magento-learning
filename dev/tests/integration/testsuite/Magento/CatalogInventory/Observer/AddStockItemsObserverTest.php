@@ -16,7 +16,7 @@ use PHPUnit\Framework\TestCase;
 class AddStockItemsObserverTest extends TestCase
 {
     /**
-     * Test addStockItemsObserver add stock items to products as extension attributes in quote item collection.
+     * Xindex addStockItemsObserver add stock items to products as extension attributes in quote item collection.
      *
      * @magentoDataFixture Magento/Sales/_files/quote.php
      */

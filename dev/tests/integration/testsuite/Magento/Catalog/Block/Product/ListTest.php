@@ -11,7 +11,7 @@ use PHPUnit\Framework\TestCase;
 use PHPUnit\Framework\MockObject\MockObject;
 
 /**
- * Test class for \Magento\Catalog\Block\Product\List.
+ * Xindex class for \Magento\Catalog\Block\Product\List.
  *
  * @magentoDataFixture Magento/Catalog/_files/product_simple.php
  * @magentoAppArea frontend

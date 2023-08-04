@@ -4,60 +4,56 @@ declare(strict_types=1);
 
 namespace Magebit\Faq\Api;
 
-use Magebit\Faq\Api\Data\QuestionInterface;
-use Magebit\Faq\Api\Data\QuestionSearchResultInterface;
-use Magento\Framework\Api\SearchCriteriaInterface;
-use Magento\Framework\Exception\LocalizedException;
-use Magento\Framework\Exception\NoSuchEntityException;
-
 /**
+ * Question repository interface
+ *
  * @api
  */
 interface QuestionRepositoryInterface
 {
     /**
-     * Save question.
+     * Save page.
      *
-     * @param QuestionInterface $question
-     * @return QuestionInterface
-     * @throws LocalizedException
+     * @param \Magebit\Faq\Api\Data\QuestionInterface $question
+     * @return \Magebit\Faq\Api\Data\QuestionInterface
+     * @throws \Magento\Framework\Exception\LocalizedException
      */
-    public function save(QuestionInterface $question): QuestionInterface;
+    public function save(\Magebit\Faq\Api\Data\QuestionInterface $question): Data\QuestionInterface;
 
     /**
-     * Retrieve question.
+     * Retrieve page.
      *
-     * @param string $questionId
-     * @return QuestionInterface
-     * @throws LocalizedException
+     * @param int $questionId
+     * @return \Magebit\Faq\Api\Data\QuestionInterface
+     * @throws \Magento\Framework\Exception\LocalizedException
      */
-    public function getById(string $questionId): QuestionInterface;
+    public function getById(int $questionId): Data\QuestionInterface;
 
     /**
-     * Retrieve questions matching the specified criteria.
+     * Retrieve pages matching the specified criteria.
      *
-     * @param SearchCriteriaInterface $searchCriteria
-     * @return QuestionSearchResultInterface
-     * @throws LocalizedException
+     * @param \Magento\Framework\Api\SearchCriteriaInterface $searchCriteria
+     * @return \Magebit\Faq\Api\Data\QuestionSearchResultInterface
+     * @throws \Magento\Framework\Exception\LocalizedException
      */
-    public function getList(SearchCriteriaInterface $searchCriteria): QuestionSearchResultInterface;
+    public function getList(\Magento\Framework\Api\SearchCriteriaInterface $searchCriteria): Data\QuestionSearchResultInterface;
 
     /**
-     * Delete question.
+     * Delete page.
      *
-     * @param QuestionInterface $question
+     * @param \Magebit\Faq\Api\Data\QuestionInterface $question
      * @return bool true on success
-     * @throws LocalizedException
+     * @throws \Magento\Framework\Exception\LocalizedException
      */
-    public function delete(QuestionInterface $question): bool;
+    public function delete(\Magebit\Faq\Api\Data\QuestionInterface $question): bool;
 
     /**
-     * Delete question by ID.
+     * Delete page by ID.
      *
-     * @param string $questionId
+     * @param int $questionId
      * @return bool true on success
-     * @throws NoSuchEntityException
-     * @throws LocalizedException
+     * @throws \Magento\Framework\Exception\NoSuchEntityException
+     * @throws \Magento\Framework\Exception\LocalizedException
      */
-    public function deleteById(string $questionId): bool;
+    public function deleteById(int $questionId): bool;
 }

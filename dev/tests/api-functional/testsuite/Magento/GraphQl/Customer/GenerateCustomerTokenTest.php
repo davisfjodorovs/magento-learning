@@ -48,7 +48,7 @@ class GenerateCustomerTokenTest extends GraphQlAbstract
     }
 
     /**
-     * Test customer with invalid data.
+     * Xindex customer with invalid data.
      *
      * @magentoApiDataFixture Magento/Customer/_files/customer.php
      *
@@ -67,7 +67,7 @@ class GenerateCustomerTokenTest extends GraphQlAbstract
     }
 
     /**
-     * Test customer token regeneration.
+     * Xindex customer token regeneration.
      *
      * @magentoApiDataFixture Magento/Customer/_files/customer.php
      */

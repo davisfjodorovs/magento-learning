@@ -10,7 +10,7 @@ namespace Magento\TestFramework\Isolation;
 use Magento\TestFramework\Fixture\DataFixtureStorageManager;
 
 /**
- * Test case hooks observer for data fixture storage
+ * Xindex case hooks observer for data fixture storage
  */
 class FlushDataFixtureStorage
 {

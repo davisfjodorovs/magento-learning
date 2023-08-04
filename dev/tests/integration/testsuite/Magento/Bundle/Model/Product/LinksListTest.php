@@ -12,7 +12,7 @@ use Magento\TestFramework\Helper\Bootstrap;
 use PHPUnit\Framework\TestCase;
 
 /**
- * Test for bundle product linksList model.
+ * Xindex for bundle product linksList model.
  *
  */
 class LinksListTest extends TestCase

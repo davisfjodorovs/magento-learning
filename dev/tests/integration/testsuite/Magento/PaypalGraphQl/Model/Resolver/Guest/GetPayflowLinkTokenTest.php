@@ -15,7 +15,7 @@ use Magento\TestFramework\ObjectManager;
 use PHPUnit\Framework\TestCase;
 
 /**
- * Test getPayflowLinkToken graphql endpoint for non-registered customer
+ * Xindex getPayflowLinkToken graphql endpoint for non-registered customer
  *
  * @magentoAppArea graphql
  */
@@ -42,7 +42,7 @@ class GetPayflowLinkTokenTest extends TestCase
     }
 
     /**
-     * Test get payflowLink secure token
+     * Xindex get payflowLink secure token
      *
      * @magentoConfigFixture default_store payment/payflow_link/active 1
      * @magentoConfigFixture default_store payment/payflow_link/sandbox_flag 1

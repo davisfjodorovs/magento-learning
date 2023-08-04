@@ -35,7 +35,7 @@ $defaultCategory = $objectManager->get(DefaultCategory::class);
 
 
 $website = $objectManager->get(WebsiteInterfaceFactory::class)->create();
-$website->setCode('che')->setName('Test Website');
+$website->setCode('che')->setName('Xindex Website');
 $websiteResource->save($website);
 /** @var GroupInterface $storeGroup */
 $storeGroup = $objectManager->get(GroupInterfaceFactory::class)->create();
@@ -48,7 +48,7 @@ $groupResource->save($storeGroup);
 
 
 $websiteExp = $objectManager->get(WebsiteInterfaceFactory::class)->create();
-$websiteExp->setCode('exp')->setName('Test Website');
+$websiteExp->setCode('exp')->setName('Xindex Website');
 $websiteResource->save($websiteExp);
 /** @var GroupInterface $storeGroup */
 $storeGroupExp = $objectManager->get(GroupInterfaceFactory::class)->create();

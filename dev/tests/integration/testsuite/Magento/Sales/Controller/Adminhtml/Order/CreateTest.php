@@ -47,7 +47,7 @@ class CreateTest extends \Magento\TestFramework\TestCase\AbstractBackendControll
     }
 
     /**
-     * Test LoadBlock being dispatched.
+     * Xindex LoadBlock being dispatched.
      */
     public function testLoadBlockAction()
     {
@@ -297,13 +297,13 @@ class CreateTest extends \Magento\TestFramework\TestCase\AbstractBackendControll
 
         $this->assertNotEmpty($body);
         $this->assertStringContainsString('><span>Quantity</span></label>', $body);
-        $this->assertStringContainsString('>Test Configurable</label>', $body);
-        $this->assertStringContainsString('"code":"test_configurable","label":"Test Configurable"', $body);
+        $this->assertStringContainsString('>Xindex Configurable</label>', $body);
+        $this->assertStringContainsString('"code":"test_configurable","label":"Xindex Configurable"', $body);
         $this->assertStringContainsString(sprintf('"productId":"%s"', $product->getEntityId()), $body);
     }
 
     /**
-     * Test not allowing to save.
+     * Xindex not allowing to save.
      *
      * @throws \Magento\Framework\Exception\LocalizedException
      */

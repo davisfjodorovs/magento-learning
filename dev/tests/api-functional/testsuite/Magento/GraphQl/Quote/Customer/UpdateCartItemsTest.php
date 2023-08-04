@@ -16,7 +16,7 @@ use Magento\TestFramework\Helper\Bootstrap;
 use Magento\TestFramework\TestCase\GraphQlAbstract;
 
 /**
- * Test for updating shopping cart items
+ * Xindex for updating shopping cart items
  */
 class UpdateCartItemsTest extends GraphQlAbstract
 {

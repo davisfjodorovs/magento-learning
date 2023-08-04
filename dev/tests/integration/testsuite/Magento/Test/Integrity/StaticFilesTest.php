@@ -231,7 +231,7 @@ class StaticFilesTest extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     * Test if references $this->getViewFileUrl() in .phtml-files are correct
+     * Xindex if references $this->getViewFileUrl() in .phtml-files are correct
      *
      * @param string $phtmlFile
      * @param string $area

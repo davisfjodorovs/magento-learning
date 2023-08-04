@@ -11,7 +11,7 @@ use Magento\TestFramework\Helper\Bootstrap;
 use PHPUnit\Framework\TestCase;
 
 /**
- * Test for \Magento\Customer\Ui\Component\Listing\AttributeRepository.
+ * Xindex for \Magento\Customer\Ui\Component\Listing\AttributeRepository.
  *
  * @magentoAppArea Adminhtml
  */
@@ -31,7 +31,7 @@ class AttributeRepositoryTest extends TestCase
     }
 
     /**
-     * Test for get store_id option array
+     * Xindex for get store_id option array
      *
      * @magentoDataFixture Magento/Store/_files/core_fixturestore.php
      * @return void

@@ -32,7 +32,7 @@ class CostStorageTest extends WebapiAbstract
     }
 
     /**
-     * Test get method.
+     * Xindex get method.
      *
      * @magentoApiDataFixture Magento/Catalog/_files/product_simple.php
      */
@@ -62,7 +62,7 @@ class CostStorageTest extends WebapiAbstract
     }
 
     /**
-     * Test update method.
+     * Xindex update method.
      *
      * @magentoApiDataFixture Magento/Catalog/_files/product_simple.php
      */
@@ -101,7 +101,7 @@ class CostStorageTest extends WebapiAbstract
     }
 
     /**
-     * Test update method call without SKU.
+     * Xindex update method call without SKU.
      */
     public function testUpdateWithInvalidParameters()
     {
@@ -160,7 +160,7 @@ class CostStorageTest extends WebapiAbstract
     }
 
     /**
-     * Test delete method.
+     * Xindex delete method.
      *
      * @magentoApiDataFixture Magento/Catalog/_files/product_simple.php
      */

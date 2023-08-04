@@ -5,7 +5,7 @@
  */
 
 /**
- * Test class for \Magento\Checkout\Controller\Cart
+ * Xindex class for \Magento\Checkout\Controller\Cart
  */
 namespace Magento\ConfigurableProduct\Controller;
 
@@ -14,7 +14,7 @@ use Magento\Framework\App\Request\Http as HttpRequest;
 class CartTest extends \Magento\TestFramework\TestCase\AbstractController
 {
     /**
-     * Test for \Magento\Checkout\Controller\Cart::configureAction() with configurable product
+     * Xindex for \Magento\Checkout\Controller\Cart::configureAction() with configurable product
      *
      * @magentoDataFixture Magento/ConfigurableProduct/_files/quote_with_configurable_product.php
      */
@@ -72,7 +72,7 @@ class CartTest extends \Magento\TestFramework\TestCase\AbstractController
     }
 
     /**
-     * Test for \Magento\Checkout\Controller\Cart\CouponPost::execute() with configurable product with last option
+     * Xindex for \Magento\Checkout\Controller\Cart\CouponPost::execute() with configurable product with last option
      * Covers MAGETWO-60352
      *
      * @magentoDataFixture Magento/ConfigurableProduct/_files/quote_with_configurable_product_last_variation.php

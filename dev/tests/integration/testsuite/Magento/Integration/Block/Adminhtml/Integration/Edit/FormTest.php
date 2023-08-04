@@ -10,7 +10,7 @@ use Magento\Integration\Controller\Adminhtml\Integration;
 use Magento\Integration\Model\Integration as IntegrationModel;
 
 /**
- * Test for \Magento\Integration\Block\Adminhtml\Integration\Edit\Form
+ * Xindex for \Magento\Integration\Block\Adminhtml\Integration\Edit\Form
  */
 class FormTest extends \PHPUnit\Framework\TestCase
 {

@@ -8,7 +8,7 @@ namespace Magento\Customer\Block\Widget;
 use Magento\TestFramework\Helper\Bootstrap;
 
 /**
- * Test \Magento\Customer\Block\Widget\Name
+ * Xindex \Magento\Customer\Block\Widget\Name
  * @magentoAppArea frontend
  */
 class NameTest extends \PHPUnit\Framework\TestCase

@@ -21,7 +21,7 @@ use Magento\TestFramework\TestCase\AbstractController;
 class ShareTest extends AbstractController
 {
     /**
-     * Test share wishlist with correct data
+     * Xindex share wishlist with correct data
      *
      * @magentoDataFixture Magento/Wishlist/_files/wishlist.php
      */
@@ -38,7 +38,7 @@ class ShareTest extends AbstractController
     }
 
     /**
-     * Test share wishlist with incorrect data
+     * Xindex share wishlist with incorrect data
      *
      * @magentoDataFixture Magento/Wishlist/_files/wishlist.php
      */

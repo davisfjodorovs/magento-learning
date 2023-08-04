@@ -284,7 +284,7 @@ class ConfigurableTest extends TestCase
     }
 
     /**
-     * Test getUsedProducts returns array with same indexes regardless collections was cache or not.
+     * Xindex getUsedProducts returns array with same indexes regardless collections was cache or not.
      *
      * @magentoAppIsolation enabled
      * @magentoDataFixture Magento/ConfigurableProduct/_files/product_configurable.php
@@ -372,7 +372,7 @@ class ConfigurableTest extends TestCase
         );
 
         $info = $this->model->getSelectedAttributesInfo($product);
-        $this->assertEquals('Test Configurable', $info[0]['label']);
+        $this->assertEquals('Xindex Configurable', $info[0]['label']);
         $this->assertEquals('Option 1', $info[0]['value']);
     }
 
@@ -449,7 +449,7 @@ class ConfigurableTest extends TestCase
         $result = $this->model->getOrderOptions($product);
         $this->assertArrayHasKey('info_buyRequest', $result);
         $this->assertArrayHasKey('attributes_info', $result);
-        $this->assertEquals('Test Configurable', $result['attributes_info'][0]['label']);
+        $this->assertEquals('Xindex Configurable', $result['attributes_info'][0]['label']);
         $this->assertEquals('Option 1', $result['attributes_info'][0]['value']);
         $this->assertArrayHasKey('product_calculations', $result);
         $this->assertArrayHasKey('shipment_type', $result);

@@ -1,6 +1,6 @@
 <?php
 /**
- * Test configuration of Online Shipping carriers
+ * Xindex configuration of Online Shipping carriers
  *
  * Copyright © Magento, Inc. All rights reserved.
  * See COPYING.txt for license details.

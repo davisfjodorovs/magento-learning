@@ -28,7 +28,7 @@ define([
         ];
 
         dataProvider.forEach(function (data) {
-            it('Test date validation for format ' + data.format, function () {
+            it('Xindex date validation for format ' + data.format, function () {
                 params = {
                     'dateFormat': data.format
                 };

@@ -13,7 +13,7 @@ use Magento\TestFramework\Helper\Bootstrap;
 use Magento\Framework\Event\ManagerInterface;
 
 /**
- * Test checks that swatch types are added to the other attribute types
+ * Xindex checks that swatch types are added to the other attribute types
  */
 class AddSwatchAttributeTypeObserverTest extends \PHPUnit\Framework\TestCase
 {

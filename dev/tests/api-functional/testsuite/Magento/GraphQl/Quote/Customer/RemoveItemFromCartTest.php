@@ -15,7 +15,7 @@ use Magento\TestFramework\TestCase\GraphQl\ResponseContainsErrorsException;
 use Magento\TestFramework\TestCase\GraphQlAbstract;
 
 /**
- *  Test for removeItemFromCartTest mutation
+ *  Xindex for removeItemFromCartTest mutation
  */
 class RemoveItemFromCartTest extends GraphQlAbstract
 {

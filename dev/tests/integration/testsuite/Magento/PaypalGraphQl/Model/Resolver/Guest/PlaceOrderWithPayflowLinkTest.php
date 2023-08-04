@@ -92,7 +92,7 @@ class PlaceOrderWithPayflowLinkTest extends TestCase
     }
 
     /**
-     * Test successful place Order with Payflow link
+     * Xindex successful place Order with Payflow link
      *
      * @magentoConfigFixture default_store payment/payflow_link/active 1
      * @magentoConfigFixture default_store payment/payflow_link/sandbox_flag 1
@@ -193,7 +193,7 @@ QUERY;
     }
 
     /**
-     * Test place Order with Payflow link with a declined status
+     * Xindex place Order with Payflow link with a declined status
      *
      * @magentoConfigFixture default_store payment/payflow_link/active 1
      * @magentoConfigFixture default_store payment/payflow_link/sandbox_flag 1

@@ -1,6 +1,6 @@
 <?php
 /**
- * Test case for \Magento\Framework\Profiler\Driver\Standard\Output\Csvfile
+ * Xindex case for \Magento\Framework\Profiler\Driver\Standard\Output\Csvfile
  *
  * Copyright © Magento, Inc. All rights reserved.
  * See COPYING.txt for license details.
@@ -25,7 +25,7 @@ class CsvfileTest extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     * Test display method
+     * Xindex display method
      *
      * @dataProvider displayDataProvider
      * @param string $statFile

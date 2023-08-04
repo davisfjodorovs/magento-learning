@@ -9,7 +9,7 @@ use Magento\Framework\MessageQueue\Consumer\Config\ConsumerConfigItem\Handler\It
 use Magento\Framework\MessageQueue\DefaultValueProvider;
 
 /**
- * Test access to consumer configuration declared in deprecated queue.xml configs using Consumer\ConfigInterface.
+ * Xindex access to consumer configuration declared in deprecated queue.xml configs using Consumer\ConfigInterface.
  *
  * @magentoCache config disabled
  */

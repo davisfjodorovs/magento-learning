@@ -10,7 +10,7 @@ namespace Magento\TestModuleOverrideConfig\Inheritance\Fixtures;
 use Magento\TestModuleOverrideConfig\AbstractOverridesTest;
 
 /**
- * Test abstract class for testing fixtures override config inheritance.
+ * Xindex abstract class for testing fixtures override config inheritance.
  *
  * phpcs:disable Generic.Classes.DuplicateClassName
  */

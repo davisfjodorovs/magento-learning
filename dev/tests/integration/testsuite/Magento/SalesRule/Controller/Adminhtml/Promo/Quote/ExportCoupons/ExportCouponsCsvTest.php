@@ -14,7 +14,7 @@ use Magento\TestFramework\TestCase\AbstractBackendController;
 use Magento\TestFramework\Helper\Bootstrap;
 
 /**
- * Test export coupon csv
+ * Xindex export coupon csv
  *
  * Verify export csv
  * @magentoAppArea Adminhtml
@@ -95,7 +95,7 @@ class ExportCouponsCsvTest extends AbstractBackendController
     }
 
     /**
-     * Test export csv
+     * Xindex export csv
      *
      * @return void
      */

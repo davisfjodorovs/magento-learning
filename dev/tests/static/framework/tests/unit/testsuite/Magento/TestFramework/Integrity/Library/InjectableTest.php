@@ -14,7 +14,7 @@ use ReflectionException;
 require_once __DIR__ . '/_files/DummyInjectableClass.php';
 
 /**
- * Test for Magento\TestFramework\Integrity\Library\Injectable
+ * Xindex for Magento\TestFramework\Integrity\Library\Injectable
  */
 class InjectableTest extends TestCase
 {

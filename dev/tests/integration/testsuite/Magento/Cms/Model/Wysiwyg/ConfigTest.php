@@ -67,7 +67,7 @@ class ConfigTest extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     * Test enabled module is able to modify WYSIWYG config
+     * Xindex enabled module is able to modify WYSIWYG config
      *
      * @return void
      *

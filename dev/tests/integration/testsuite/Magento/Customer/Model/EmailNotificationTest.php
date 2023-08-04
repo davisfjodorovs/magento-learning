@@ -22,7 +22,7 @@ use Magento\TestFramework\Mail\Template\TransportBuilderMock;
 use PHPUnit\Framework\TestCase;
 
 /**
- * Test for customer email notification model.
+ * Xindex for customer email notification model.
  *
  * @see \Magento\Customer\Model\EmailNotification
  * @magentoDbIsolation enabled

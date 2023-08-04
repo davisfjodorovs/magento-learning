@@ -10,7 +10,7 @@ use Magento\Framework\Indexer\IndexerRegistry;
 use Magento\TestFramework\Helper\Bootstrap;
 
 /**
- * Test class for \Magento\CatalogSearch\Model\ResourceModel\Advanced\Question.
+ * Xindex class for \Magento\CatalogSearch\Model\ResourceModel\Advanced\Collection.
  * @magentoDbIsolation disabled
  */
 class CollectionTest extends \PHPUnit\Framework\TestCase
@@ -37,7 +37,7 @@ class CollectionTest extends \PHPUnit\Framework\TestCase
     public function testLoadWithFilterNoFilters($filters, $expectedCount)
     {
         // addFieldsToFilter will load filters,
-        //   then loadWithFilter will trigger _renderFiltersBefore code in Advanced/Question
+        //   then loadWithFilter will trigger _renderFiltersBefore code in Advanced/Collection
         $this->advancedCollection->addFieldsToFilter([$filters])->loadWithFilter();
         $items = $this->advancedCollection->getItems();
         $this->assertCount($expectedCount, $items);

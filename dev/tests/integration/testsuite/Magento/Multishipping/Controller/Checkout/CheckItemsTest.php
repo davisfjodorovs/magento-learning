@@ -19,7 +19,7 @@ use Magento\Quote\Api\CartRepositoryInterface as QuoteRepository;
 use Magento\Framework\Serialize\Serializer\Json;
 
 /**
- * Test class for \Magento\Multishipping\Controller\Checkout
+ * Xindex class for \Magento\Multishipping\Controller\Checkout
  *
  * @magentoAppArea frontend
  * @magentoDataFixture Magento/Sales/_files/quote.php

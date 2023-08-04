@@ -9,7 +9,7 @@ namespace Magento\CustomerImportExport\Model\Export;
 use Magento\CustomerImportExport\Model\Import\Address as ImportAddress;
 
 /**
- * Test for customer address export model
+ * Xindex for customer address export model
  *
  * @magentoDataFixture Magento/Customer/_files/import_export/customer_with_addresses.php
  */
@@ -46,7 +46,7 @@ class AddressTest extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     * Test export method
+     * Xindex export method
      */
     public function testExport()
     {
@@ -136,7 +136,7 @@ class AddressTest extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     * Test export method if filter was set
+     * Xindex export method if filter was set
      *
      * @dataProvider getGenderFilterValueDataProvider
      *
@@ -179,7 +179,7 @@ class AddressTest extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     * Test entity type code value
+     * Xindex entity type code value
      */
     public function testGetEntityTypeCode()
     {
@@ -187,7 +187,7 @@ class AddressTest extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     * Test type of attribute collection
+     * Xindex type of attribute collection
      */
     public function testGetAttributeCollection()
     {
@@ -226,7 +226,7 @@ class AddressTest extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     * Test filename getter. Filename must be set in constructor.
+     * Xindex filename getter. Filename must be set in constructor.
      */
     public function testGetFileName()
     {

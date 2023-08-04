@@ -19,7 +19,7 @@ class StatusTest extends \PHPUnit\Framework\TestCase
     protected $resourceModel;
 
     /**
-     * Test setUp
+     * Xindex setUp
      */
     protected function setUp(): void
     {

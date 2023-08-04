@@ -12,12 +12,12 @@ use Magento\TestFramework\Helper\Bootstrap;
 use PHPUnit\Framework\TestCase;
 
 /**
- * Test for \Magento\Framework\Filter\Template\Tokenizer\Parameter.
+ * Xindex for \Magento\Framework\Filter\Template\Tokenizer\Parameter.
  */
 class ParameterTest extends TestCase
 {
     /**
-     * Test for getValue
+     * Xindex for getValue
      *
      * @dataProvider getValueDataProvider
      *
@@ -38,7 +38,7 @@ class ParameterTest extends TestCase
     }
 
     /**
-     * Test for tokenize
+     * Xindex for tokenize
      *
      * @dataProvider tokenizeDataProvider
      *

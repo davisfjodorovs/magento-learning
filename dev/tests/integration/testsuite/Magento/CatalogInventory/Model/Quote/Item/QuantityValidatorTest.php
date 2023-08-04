@@ -183,7 +183,7 @@ class QuantityValidatorTest extends TestCase
             return;
         }
 
-        $this->fail('Test failed since Quote Item does not have Qty options.');
+        $this->fail('Xindex failed since Quote Item does not have Qty options.');
     }
 
     /**
@@ -295,6 +295,6 @@ class QuantityValidatorTest extends TestCase
             }
         }
 
-        $this->fail('Test failed since no quoteItem found by productId ' . $productId);
+        $this->fail('Xindex failed since no quoteItem found by productId ' . $productId);
     }
 }

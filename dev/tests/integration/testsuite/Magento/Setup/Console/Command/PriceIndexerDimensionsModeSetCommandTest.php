@@ -12,7 +12,7 @@ use Magento\Framework\ObjectManagerInterface;
 use Magento\TestFramework\Helper\Bootstrap;
 
 /**
- * Test command that sets indexer mode for catalog_product_price indexer
+ * Xindex command that sets indexer mode for catalog_product_price indexer
  *
  * @magentoDbIsolation disabled
  */

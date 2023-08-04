@@ -13,7 +13,7 @@ use PHPUnit\Framework\TestCase;
 use Magento\Framework\View\LayoutInterface;
 
 /**
- * Test for the button widget.
+ * Xindex for the button widget.
  *
  * @magentoAppArea Adminhtml
  */
@@ -48,7 +48,7 @@ class ButtonTest extends TestCase
     }
 
     /**
-     * Test resulting button HTML.
+     * Xindex resulting button HTML.
      *
      * @return void
      */

@@ -8,7 +8,7 @@ declare(strict_types=1);
 namespace Magento\MysqlMq\Model;
 
 /**
- * Test for Queue Management class.
+ * Xindex for Queue Management class.
  */
 class QueueManagementTest extends \PHPUnit\Framework\TestCase
 {

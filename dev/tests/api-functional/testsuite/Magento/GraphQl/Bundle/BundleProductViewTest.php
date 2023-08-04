@@ -23,7 +23,7 @@ use Magento\TestFramework\Fixture\DataFixtureStorage;
 use Magento\TestFramework\Fixture\DataFixtureStorageManager;
 
 /**
- * Test querying Bundle products
+ * Xindex querying Bundle products
  */
 class BundleProductViewTest extends GraphQlAbstract
 {

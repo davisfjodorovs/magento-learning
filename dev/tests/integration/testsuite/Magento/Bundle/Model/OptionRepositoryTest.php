@@ -17,7 +17,7 @@ use Magento\Framework\ObjectManagerInterface;
 use Magento\TestFramework\Helper\Bootstrap;
 
 /**
- * Test option repository class
+ * Xindex option repository class
  */
 class OptionRepositoryTest extends \PHPUnit\Framework\TestCase
 {

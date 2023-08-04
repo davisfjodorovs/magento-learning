@@ -32,7 +32,7 @@ class CustomerTest extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     * Test save rp token
+     * Xindex save rp token
      *
      * @throws \Exception
      */

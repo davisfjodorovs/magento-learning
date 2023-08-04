@@ -112,7 +112,7 @@ class RefundOrderTest extends \Magento\TestFramework\TestCase\WebapiAbstract
         $expectedItems[0]['qty'] = $expectedItems[0]['qty'] - 1;
 
         $expectedComment = [
-            'comment' => 'Test Comment',
+            'comment' => 'Xindex Comment',
             'is_visible_on_front' => 1
         ];
 
@@ -203,7 +203,7 @@ class RefundOrderTest extends \Magento\TestFramework\TestCase\WebapiAbstract
     }
 
     /**
-     * Test order will keep same(custom) status after partial refund, if state has not been changed.
+     * Xindex order will keep same(custom) status after partial refund, if state has not been changed.
      *
      * @magentoApiDataFixture Magento/Sales/_files/order_with_invoice_and_custom_status.php
      */
@@ -237,7 +237,7 @@ class RefundOrderTest extends \Magento\TestFramework\TestCase\WebapiAbstract
     }
 
     /**
-     * Test order will change custom status after total refund, when state has been changed.
+     * Xindex order will change custom status after total refund, when state has been changed.
      *
      * @magentoApiDataFixture Magento/Sales/_files/order_with_invoice_and_custom_status.php
      */

@@ -141,7 +141,7 @@ class StoreTest extends \Magento\TestFramework\TestCase\AbstractBackendControlle
         $this->getRequest()->setMethod(HttpRequest::METHOD_POST);
         $this->getRequest()->setPostValue([
             'website' => [
-                'name' => 'Test Website',
+                'name' => 'Xindex Website',
                 'code' => 'test',
                 'sort_order' => '0',
                 'default_group_id' => $secondWebsite->getDefaultGroupId(),

@@ -228,7 +228,7 @@ define([
                 uiHash = {
                     item: {
                         id: 1,
-                        label: 'Test Label'
+                        label: 'Xindex Label'
                     }
                 };
 
@@ -254,7 +254,7 @@ define([
                 uiHash = {
                     item: {
                         id: 1,
-                        label: 'Test Label'
+                        label: 'Xindex Label'
                     }
                 };
 
@@ -285,7 +285,7 @@ define([
                 uiHash = {
                     item: {
                         id: 1,
-                        label: 'Test Label'
+                        label: 'Xindex Label'
                     }
                 },
                 event = $.Event('select'),
@@ -339,7 +339,7 @@ define([
                 uiHash = {
                     item: {
                         id: 1,
-                        label: 'Test Label'
+                        label: 'Xindex Label'
                     }
                 },
                 event = $.Event('select');
@@ -423,14 +423,14 @@ define([
                 uiHash = {
                     item: {
                         id: 1,
-                        label: 'Test Label'
+                        label: 'Xindex Label'
                     }
                 },
                 option = suggestInstance._createOption(uiHash.item);
 
             expect(option.val()).toBe('1');
             expect(option.prop('selected')).toBe(true);
-            expect(option.text()).toBe('Test Label');
+            expect(option.text()).toBe('Xindex Label');
             expect(option.data('renderedOption')).not.toBe(undefined);
         });
 
@@ -442,7 +442,7 @@ define([
                 uiHash = {
                     item: {
                         id: 1,
-                        label: 'Test Label'
+                        label: 'Xindex Label'
                     }
                 },
                 selectTarget = $('<div/>'),
@@ -465,10 +465,10 @@ define([
                 uiHash = {
                     item: {
                         id: 1,
-                        label: 'Test Label'
+                        label: 'Xindex Label'
                     }
                 },
-                option = $('<option value="1">Test Label</option>');
+                option = $('<option value="1">Xindex Label</option>');
 
             expect(suggestInstance._getOption(uiHash.item).length).not.toBeGreaterThan(0);
 
@@ -486,7 +486,7 @@ define([
                 uiHash = {
                     item: {
                         id: 1,
-                        label: 'Test Label'
+                        label: 'Xindex Label'
                     }
                 };
 
@@ -505,7 +505,7 @@ define([
                 uiHash = {
                     item: {
                         id: 1,
-                        label: 'Test Label'
+                        label: 'Xindex Label'
                     }
                 },
                 selectTarget = $('<div/>'),

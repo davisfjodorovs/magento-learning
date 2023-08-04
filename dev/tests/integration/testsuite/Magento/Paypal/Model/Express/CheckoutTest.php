@@ -489,7 +489,7 @@ class CheckoutTest extends TestCase
     }
 
     /**
-     * Test case when customer doesn't have either billing or shipping addresses.
+     * Xindex case when customer doesn't have either billing or shipping addresses.
      * Customer add virtual product to quote and place order using PayPal Express method.
      * After return from PayPal quote billing address have to be updated by PayPal Express address.
      *
@@ -513,7 +513,7 @@ class CheckoutTest extends TestCase
     }
 
     /**
-     * Test case when customer doesn't have either billing or shipping addresses.
+     * Xindex case when customer doesn't have either billing or shipping addresses.
      * Customer add virtual product to quote and place order using PayPal Express method.
      * Default store country is in PayPal Express allowed specific country list.
      *
@@ -536,7 +536,7 @@ class CheckoutTest extends TestCase
     }
 
     /**
-     * Test case when customer doesn't have either billing or shipping addresses.
+     * Xindex case when customer doesn't have either billing or shipping addresses.
      * Customer add virtual product to quote and place order using PayPal Express method.
      * PayPal Express allowed specific country list doesn't contain default store country.
      *

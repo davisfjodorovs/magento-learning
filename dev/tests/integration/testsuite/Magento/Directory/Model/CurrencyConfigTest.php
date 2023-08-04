@@ -56,7 +56,7 @@ class CurrencyConfigTest extends TestCase
     }
 
     /**
-     * Test get currency config for admin, crontab and storefront areas.
+     * Xindex get currency config for admin, crontab and storefront areas.
      *
      * @dataProvider getConfigCurrenciesDataProvider
      * @magentoDataFixture Magento/Store/_files/store.php

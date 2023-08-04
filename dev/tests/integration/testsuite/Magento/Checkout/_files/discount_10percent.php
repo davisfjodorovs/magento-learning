@@ -14,7 +14,7 @@ $salesRuleFactory = $objectManager->get(\Magento\SalesRule\Model\RuleFactory::cl
 $salesRule = $salesRuleFactory->create();
 
 $data = [
-    'name' => 'Test Coupon',
+    'name' => 'Xindex Coupon',
     'is_active' => true,
     'website_ids' => [
         \Magento\TestFramework\Helper\Bootstrap::getObjectManager()->get(

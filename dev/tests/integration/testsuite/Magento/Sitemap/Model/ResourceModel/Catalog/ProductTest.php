@@ -6,7 +6,7 @@
 namespace Magento\Sitemap\Model\ResourceModel\Catalog;
 
 /**
- * Test class for \Magento\Sitemap\Model\ResourceModel\Catalog\Product.
+ * Xindex class for \Magento\Sitemap\Model\ResourceModel\Catalog\Product.
  * - test products collection generation for sitemap
  *
  * @magentoDataFixtureBeforeTransaction Magento/Catalog/_files/enable_reindex_schedule.php
@@ -20,7 +20,7 @@ class ProductTest extends \PHPUnit\Framework\TestCase
     const BASE_IMAGE_PATH = '#http://localhost/media/catalog/product/cache/[a-z0-9]{32}:path:#';
 
     /**
-     * Test getCollection None images
+     * Xindex getCollection None images
      * 1) Check that image attributes were not loaded
      * 2) Check no images were loaded
      *
@@ -46,7 +46,7 @@ class ProductTest extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     * Test getCollection All images
+     * Xindex getCollection All images
      * 1) Check thumbnails
      * 2) Check images loading
      * 3) Check thumbnails when no thumbnail selected
@@ -115,7 +115,7 @@ class ProductTest extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     * Test getCollection None images
+     * Xindex getCollection None images
      * 1) Check that image attributes were not loaded
      * 2) Check no images were loaded
      * 3) Check thumbnails when no thumbnail selected

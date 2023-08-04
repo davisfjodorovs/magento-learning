@@ -25,7 +25,7 @@ use PHPUnit\Framework\TestCase;
 
 /**
  * @SuppressWarnings(PHPMD.CouplingBetweenObjects)
- * Test store switching
+ * Xindex store switching
  */
 class RewriteUrlTest extends TestCase
 {
@@ -63,7 +63,7 @@ class RewriteUrlTest extends TestCase
     }
 
     /**
-     * Test switching stores with non-existent cms pages and then redirecting to the homepage
+     * Xindex switching stores with non-existent cms pages and then redirecting to the homepage
      *
      * @magentoDataFixture Magento/Catalog/_files/category_product.php
      * @magentoDataFixture Magento/UrlRewrite/_files/url_rewrite.php
@@ -126,7 +126,7 @@ class RewriteUrlTest extends TestCase
     }
 
     /**
-     * Test store switching with logged in customer on cms page with different url_key
+     * Xindex store switching with logged in customer on cms page with different url_key
      *
      * @magentoDataFixture Magento/UrlRewrite/_files/url_rewrite.php
      * @magentoDataFixture Magento/Customer/_files/customer.php

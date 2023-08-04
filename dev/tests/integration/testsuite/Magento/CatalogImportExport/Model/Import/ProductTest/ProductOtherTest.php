@@ -31,7 +31,7 @@ use Magento\UrlRewrite\Model\ResourceModel\UrlRewriteCollection;
 class ProductOtherTest extends ProductTestBase
 {
     /**
-     * Test if visibility properly saved after import
+     * Xindex if visibility properly saved after import
      *
      * @magentoDataFixture Magento/Catalog/_files/multiple_products.php
      * @magentoAppIsolation enabled
@@ -83,7 +83,7 @@ class ProductOtherTest extends ProductTestBase
     }
 
     /**
-     * Test if datetime properly saved after import
+     * Xindex if datetime properly saved after import
      *
      * @magentoDataFixture Magento/Catalog/_files/multiple_products.php
      * @magentoAppIsolation enabled
@@ -467,7 +467,7 @@ class ProductOtherTest extends ProductTestBase
     }
 
     /**
-     * Test if we can change attribute set for product via import.
+     * Xindex if we can change attribute set for product via import.
      *
      * @magentoDataFixture Magento/Catalog/_files/attribute_set_with_renamed_group.php
      * @magentoDataFixture Magento/Catalog/_files/product_without_options.php
@@ -525,7 +525,7 @@ class ProductOtherTest extends ProductTestBase
     }
 
     /**
-     * Test importing products with changed SKU letter case.
+     * Xindex importing products with changed SKU letter case.
      */
     public function testImportWithDifferentSkuCase()
     {
@@ -708,7 +708,7 @@ class ProductOtherTest extends ProductTestBase
     }
 
     /**
-     * Test that product tax classes "none", "0" are imported correctly
+     * Xindex that product tax classes "none", "0" are imported correctly
      *
      * @magentoDataFixture Magento/Catalog/_files/product_simple.php
      * @magentoDataFixture Magento/Catalog/_files/second_product_simple.php

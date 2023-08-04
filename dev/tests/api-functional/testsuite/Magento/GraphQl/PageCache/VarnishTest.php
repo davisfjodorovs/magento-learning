@@ -10,12 +10,12 @@ namespace Magento\GraphQl\PageCache;
 use Magento\GraphQlCache\Model\CacheId\CacheIdCalculator;
 
 /**
- * Test that caching works properly for Varnish when using the X-Magento-Cache-Id
+ * Xindex that caching works properly for Varnish when using the X-Magento-Cache-Id
  */
 class VarnishTest extends GraphQLPageCacheAbstract
 {
     /**
-     * Test that we obtain cache MISS/HIT when expected for a guest.
+     * Xindex that we obtain cache MISS/HIT when expected for a guest.
      *
      * @magentoConfigFixture default/system/full_page_cache/caching_application 2
      * @magentoApiDataFixture Magento/Catalog/_files/multiple_products.php
@@ -38,7 +38,7 @@ class VarnishTest extends GraphQLPageCacheAbstract
     }
 
     /**
-     * Test that changing the Store header returns different cache results.
+     * Xindex that changing the Store header returns different cache results.
      *
      * @magentoConfigFixture default/system/full_page_cache/caching_application 2
      * @magentoApiDataFixture Magento/Store/_files/second_store.php
@@ -88,7 +88,7 @@ class VarnishTest extends GraphQLPageCacheAbstract
     }
 
     /**
-     * Test that changing the Content-Currency header returns different cache results.
+     * Xindex that changing the Content-Currency header returns different cache results.
      *
      * @magentoConfigFixture default/system/full_page_cache/caching_application 2
      * @magentoApiDataFixture Magento/Store/_files/multiple_currencies.php
@@ -141,7 +141,7 @@ class VarnishTest extends GraphQLPageCacheAbstract
     }
 
     /**
-     * Test that a request with a cache id which differs from the one returned by the response is not cacheable.
+     * Xindex that a request with a cache id which differs from the one returned by the response is not cacheable.
      *
      * @magentoConfigFixture default/system/full_page_cache/caching_application 2
      * @magentoApiDataFixture Magento/Store/_files/second_store.php
@@ -191,7 +191,7 @@ class VarnishTest extends GraphQLPageCacheAbstract
     }
 
     /**
-     * Test that we obtain cache MISS/HIT when expected for a customer.
+     * Xindex that we obtain cache MISS/HIT when expected for a customer.
      *
      * @magentoConfigFixture default/system/full_page_cache/caching_application 2
      * @magentoApiDataFixture Magento/Customer/_files/customer.php

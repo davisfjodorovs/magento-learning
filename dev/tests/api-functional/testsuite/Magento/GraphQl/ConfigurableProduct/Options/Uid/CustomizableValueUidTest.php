@@ -13,7 +13,7 @@ use Magento\TestFramework\Helper\Bootstrap;
 use Magento\TestFramework\TestCase\GraphQlAbstract;
 
 /**
- * Test for downloadable product links uid
+ * Xindex for downloadable product links uid
  */
 class CustomizableValueUidTest extends GraphQlAbstract
 {

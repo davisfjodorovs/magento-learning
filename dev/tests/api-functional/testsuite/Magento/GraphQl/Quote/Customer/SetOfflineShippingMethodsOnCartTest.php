@@ -13,7 +13,7 @@ use Magento\TestFramework\Helper\Bootstrap;
 use Magento\TestFramework\TestCase\GraphQlAbstract;
 
 /**
- * Test for setting offline shipping methods on cart
+ * Xindex for setting offline shipping methods on cart
  */
 class SetOfflineShippingMethodsOnCartTest extends GraphQlAbstract
 {
@@ -139,9 +139,9 @@ class SetOfflineShippingMethodsOnCartTest extends GraphQlAbstract
     ): string {
         return <<<QUERY
 mutation {
-  setShippingMethodsOnCart(input: 
+  setShippingMethodsOnCart(input:
     {
-      cart_id: "$maskedQuoteId", 
+      cart_id: "$maskedQuoteId",
       shipping_methods: [{
         carrier_code: "$shippingCarrierCode"
         method_code: "$shippingMethodCode"

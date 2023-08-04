@@ -13,7 +13,7 @@ use Magento\TestFramework\Helper\Bootstrap;
 use PHPUnit\Framework\TestCase;
 
 /**
- * Test for the secure HTML helper.
+ * Xindex for the secure HTML helper.
  */
 class SecureHtmlRendererTest extends TestCase
 {
@@ -56,7 +56,7 @@ class SecureHtmlRendererTest extends TestCase
     }
 
     /**
-     * Test tag rendering.
+     * Xindex tag rendering.
      *
      * @param TagData $tagData
      * @param string $expected Expected HTML.
@@ -77,7 +77,7 @@ class SecureHtmlRendererTest extends TestCase
     }
 
     /**
-     * Test rendering an event listener.
+     * Xindex rendering an event listener.
      *
      * @return void
      */
@@ -90,7 +90,7 @@ class SecureHtmlRendererTest extends TestCase
     }
 
     /**
-     * Test rendering JS listeners as separate tags.
+     * Xindex rendering JS listeners as separate tags.
      *
      * @return void
      */
@@ -114,7 +114,7 @@ class SecureHtmlRendererTest extends TestCase
     }
 
     /**
-     * Test rendering "style" attribute as separate tag.
+     * Xindex rendering "style" attribute as separate tag.
      *
      * @return void
      */

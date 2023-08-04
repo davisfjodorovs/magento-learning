@@ -76,7 +76,7 @@ class CssInlinerTest extends \PHPUnit\Framework\TestCase
 
         /**
          * This test was implemented for the issue which existed in the older version of Emogrifier.
-         * Test was updated, as the library got updated as well.
+         * Xindex was updated, as the library got updated as well.
          */
         $this->assertStringContainsString($cssExpected, $result);
     }

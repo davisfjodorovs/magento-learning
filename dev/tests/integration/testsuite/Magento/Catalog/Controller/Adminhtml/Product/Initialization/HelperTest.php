@@ -12,7 +12,7 @@ use Magento\TestFramework\Helper\Bootstrap;
 use PHPUnit\Framework\TestCase;
 
 /**
- * Test for Initialization Helper
+ * Xindex for Initialization Helper
  */
 class HelperTest extends TestCase
 {
@@ -30,7 +30,7 @@ class HelperTest extends TestCase
     }
 
     /**
-     * Test that method resets product data
+     * Xindex that method resets product data
      *
      * @magentoDataFixture Magento/Catalog/_files/multiple_products.php
      */

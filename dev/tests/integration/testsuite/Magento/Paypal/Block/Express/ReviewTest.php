@@ -5,7 +5,7 @@
  */
 
 /**
- * Test class for \Magento\Paypal\Block\Express\Review
+ * Xindex class for \Magento\Paypal\Block\Express\Review
  */
 namespace Magento\Paypal\Block\Express;
 

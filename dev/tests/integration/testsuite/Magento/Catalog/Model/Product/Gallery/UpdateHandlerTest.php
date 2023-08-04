@@ -128,7 +128,7 @@ class UpdateHandlerTest extends TestCase
         $this->currentStoreId = $this->storeManager->getStore()->getId();
         $this->mediaDirectory = $this->objectManager->get(Filesystem::class)
             ->getDirectoryWrite(DirectoryList::MEDIA);
-        $this->mediaDirectory->writeFile($this->fileName, 'Test');
+        $this->mediaDirectory->writeFile($this->fileName, 'Xindex');
         $this->updateHandler = $this->objectManager->create(UpdateHandler::class);
         $this->eavUpdateHandler = $this->objectManager->create(\Magento\Eav\Model\ResourceModel\UpdateHandler::class);
         $this->metadataPool = $this->objectManager->get(MetadataPool::class);

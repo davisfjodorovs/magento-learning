@@ -1173,7 +1173,7 @@ class GroupRepositoryTest extends WebapiAbstract
     }
 
     /**
-     * Test search customer group
+     * Xindex search customer group
      *
      * @param string $filterField Customer Group field to filter by
      * @param string $filterValue Value of the field to be filtered by
@@ -1273,7 +1273,7 @@ class GroupRepositoryTest extends WebapiAbstract
     }
 
     /**
-     * Test search customer group using GET
+     * Xindex search customer group using GET
      *
      * @param string $filterField Customer Group field to filter by
      * @param string $filterValue Value of the field to be filtered by

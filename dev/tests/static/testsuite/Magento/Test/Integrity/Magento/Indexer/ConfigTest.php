@@ -1,6 +1,6 @@
 <?php
 /**
- * Test indexer.xsd and xml files.
+ * Xindex indexer.xsd and xml files.
  *
  * Find "indexer.xml" files in code tree and validate them.  Also verify schema fails on an invalid xml and
  * passes on a valid xml.

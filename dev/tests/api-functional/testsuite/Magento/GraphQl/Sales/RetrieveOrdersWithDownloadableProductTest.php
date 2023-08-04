@@ -192,7 +192,7 @@ class RetrieveOrdersWithDownloadableProductTest extends GraphQlAbstract
         $creditMemo->setBaseGrandTotal(12);
         $creditMemo->setGrandTotal(12);
         $creditMemo->setAdjustment(-2.00);
-        $creditMemo->addComment("Test comment for downloadable refund", false, true);
+        $creditMemo->addComment("Xindex comment for downloadable refund", false, true);
         $creditMemo->save();
         $this->creditMemoService->refund($creditMemo, true);
         $response = $this->getCustomerOrderWithCreditMemoQuery();
@@ -203,7 +203,7 @@ class RetrieveOrdersWithDownloadableProductTest extends GraphQlAbstract
         $expectedCreditMemoData = [
             [
                 'comments' => [
-                    ['message' => 'Test comment for downloadable refund']
+                    ['message' => 'Xindex comment for downloadable refund']
                 ],
                 'items' => [
                     [

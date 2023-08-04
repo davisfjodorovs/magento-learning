@@ -10,7 +10,7 @@ namespace Magento\GraphQl\ConfigurableProduct;
 use Magento\TestFramework\TestCase\GraphQlAbstract;
 
 /**
- * Test configurable product queries work correctly with multiple websites
+ * Xindex configurable product queries work correctly with multiple websites
  */
 class ConfigurableProductMultipleStoreViewTest extends GraphQlAbstract
 {

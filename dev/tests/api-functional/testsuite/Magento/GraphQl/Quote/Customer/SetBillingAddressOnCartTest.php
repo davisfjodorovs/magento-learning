@@ -19,7 +19,7 @@ use Magento\TestFramework\Helper\Bootstrap;
 use Magento\TestFramework\TestCase\GraphQlAbstract;
 
 /**
- * Test for set billing address on cart mutation
+ * Xindex for set billing address on cart mutation
  */
 class SetBillingAddressOnCartTest extends GraphQlAbstract
 {
@@ -782,7 +782,7 @@ QUERY;
     }
 
     /**
-     * Test that an error occurs when ommitting required fields in the address input.
+     * Xindex that an error occurs when ommitting required fields in the address input.
      *
      * @magentoApiDataFixture Magento/Customer/_files/customer.php
      * @magentoApiDataFixture Magento/GraphQl/Catalog/_files/simple_product.php

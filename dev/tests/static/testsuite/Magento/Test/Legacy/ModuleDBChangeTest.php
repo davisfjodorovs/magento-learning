@@ -65,7 +65,7 @@ class ModuleDBChangeTest extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     * Test changes for files in Module Setup dir
+     * Xindex changes for files in Module Setup dir
      */
     public function testModuleSetupFiles()
     {

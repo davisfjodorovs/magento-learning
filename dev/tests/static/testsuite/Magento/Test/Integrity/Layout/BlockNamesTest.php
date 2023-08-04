@@ -1,6 +1,6 @@
 <?php
 /**
- * Test block names exists
+ * Xindex block names exists
  *
  * Copyright © Magento, Inc. All rights reserved.
  * See COPYING.txt for license details.
@@ -15,7 +15,7 @@ class BlockNamesTest extends \PHPUnit\Framework\TestCase
         $invoker = new \Magento\Framework\App\Utility\AggregateInvoker($this);
         $invoker(
             /**
-             * Test validate that blocks without name doesn't exist in layout file
+             * Xindex validate that blocks without name doesn't exist in layout file
              *
              * @param string $layoutFile
              */

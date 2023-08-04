@@ -452,7 +452,7 @@ abstract class CombinationAbstract extends TestCase
     {
         $optionData = [
             Option::KEY_PRODUCT_SKU => $product->getSku(),
-            Option::KEY_TITLE => 'Test option field title',
+            Option::KEY_TITLE => 'Xindex option field title',
             Option::KEY_TYPE => ProductCustomOptionInterface::OPTION_TYPE_FIELD,
             Option::KEY_IS_REQUIRE => 0,
             Option::KEY_PRICE => 50,
@@ -597,7 +597,7 @@ abstract class CombinationAbstract extends TestCase
         $baseWebsite = $this->websiteRepository->get($websiteCode);
         $staticRuleData = [
             RuleInterface::IS_ACTIVE => 1,
-            RuleInterface::NAME => 'Test rule name.',
+            RuleInterface::NAME => 'Xindex rule name.',
             'customer_group_ids' => Group::NOT_LOGGED_IN_ID,
             RuleInterface::SIMPLE_ACTION => 'by_fixed',
             RuleInterface::STOP_RULES_PROCESSING => false,

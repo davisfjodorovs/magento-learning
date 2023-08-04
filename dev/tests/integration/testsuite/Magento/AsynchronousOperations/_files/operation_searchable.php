@@ -47,7 +47,7 @@ $operations = [
     [
         'bulk_uuid' => 'bulk-uuid-searchable-6',
         'topic_name' => 'topic-5',
-        'serialized_data' => json_encode(['entity_id' => 5, 'meta_information' => 'Test']),
+        'serialized_data' => json_encode(['entity_id' => 5, 'meta_information' => 'Xindex']),
         'status' => OperationInterface::STATUS_TYPE_NOT_RETRIABLY_FAILED,
         'error_code' => 1111,
         'result_message' => 'Something went wrong during your request',

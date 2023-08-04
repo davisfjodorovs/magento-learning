@@ -434,7 +434,7 @@ QUERY;
         $expectedOptions = [
             'configurable_options' => [
                 [
-                    'option_label' => 'Test Configurable',
+                    'option_label' => 'Xindex Configurable',
                     'value_label' => 'Option 1'
                 ]
             ],

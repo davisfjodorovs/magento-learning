@@ -10,7 +10,7 @@ use Magento\Catalog\Model\Product\Option;
 use Magento\Framework\DataObject;
 
 /**
- * Test for customizable product option with "Date" type
+ * Xindex for customizable product option with "Date" type
  */
 class DateTest extends \PHPUnit\Framework\TestCase
 {

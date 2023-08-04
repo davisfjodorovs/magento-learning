@@ -98,7 +98,7 @@ class TopMenuTest extends TestCase
         return [
             'include_in_menu_disable' => [
                 'data' => [
-                    'name' => 'Test Category',
+                    'name' => 'Xindex Category',
                     'path' => '1/2/',
                     'is_active' => '1',
                     'include_in_menu' => false,
@@ -106,7 +106,7 @@ class TopMenuTest extends TestCase
             ],
             'category_disable' => [
                 'data' => [
-                    'name' => 'Test Category 2',
+                    'name' => 'Xindex Category 2',
                     'path' => '1/2/',
                     'is_active' => false,
                     'include_in_menu' => true,
@@ -413,7 +413,7 @@ class TopMenuTest extends TestCase
     }
 
     /**
-     * Test the display of category in menu on different websites
+     * Xindex the display of category in menu on different websites
      *
      * @dataProvider multipleWebsitesCategoryDisplayProvider
      * @magentoDataFixture Magento/Catalog/_files/category.php

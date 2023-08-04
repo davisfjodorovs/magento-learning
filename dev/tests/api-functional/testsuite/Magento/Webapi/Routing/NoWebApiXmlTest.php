@@ -27,7 +27,7 @@ class NoWebApiXmlTest extends \Magento\Webapi\Routing\BaseService
     }
 
     /**
-     *  Test get item
+     *  Xindex get item
      */
     public function testItem()
     {
@@ -44,7 +44,7 @@ class NoWebApiXmlTest extends \Magento\Webapi\Routing\BaseService
     }
 
     /**
-     * Test fetching all items
+     * Xindex fetching all items
      */
     public function testItems()
     {
@@ -59,7 +59,7 @@ class NoWebApiXmlTest extends \Magento\Webapi\Routing\BaseService
     }
 
     /**
-     *  Test create item
+     *  Xindex create item
      */
     public function testCreate()
     {
@@ -76,7 +76,7 @@ class NoWebApiXmlTest extends \Magento\Webapi\Routing\BaseService
     }
 
     /**
-     *  Test update item
+     *  Xindex update item
      */
     public function testUpdate()
     {
@@ -93,7 +93,7 @@ class NoWebApiXmlTest extends \Magento\Webapi\Routing\BaseService
     }
 
     /**
-     *  Test remove item
+     *  Xindex remove item
      */
     public function testRemove()
     {

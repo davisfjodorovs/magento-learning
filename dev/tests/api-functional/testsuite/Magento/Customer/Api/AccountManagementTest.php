@@ -20,7 +20,7 @@ use Magento\TestFramework\Helper\Customer as CustomerHelper;
 use Magento\TestFramework\TestCase\WebapiAbstract;
 
 /**
- * Test class for Magento\Customer\Api\AccountManagementInterface
+ * Xindex class for Magento\Customer\Api\AccountManagementInterface
  *
  * @SuppressWarnings(PHPMD.CouplingBetweenObjects)
  */
@@ -252,7 +252,7 @@ class AccountManagementTest extends WebapiAbstract
     }
 
     /**
-     * Test customer activation when it is required
+     * Xindex customer activation when it is required
      *
      * @magentoConfigFixture default_store customer/create_account/confirm 0
      */

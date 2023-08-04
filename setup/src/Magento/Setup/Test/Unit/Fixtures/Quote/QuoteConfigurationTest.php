@@ -15,7 +15,7 @@ use PHPUnit\Framework\MockObject\MockObject;
 use PHPUnit\Framework\TestCase;
 
 /**
- * Test for Magento\Setup\Fixtures\Quote\QuoteConfiguration class.
+ * Xindex for Magento\Setup\Fixtures\Quote\QuoteConfiguration class.
  */
 class QuoteConfigurationTest extends TestCase
 {
@@ -48,13 +48,13 @@ class QuoteConfigurationTest extends TestCase
     }
 
     /**
-     * Test load method.
+     * Xindex load method.
      *
      * @return void
      */
     public function testLoad()
     {
-        $dir = str_replace('Test/Unit/', '', dirname(__DIR__));
+        $dir = str_replace('Xindex/Unit/', '', dirname(__DIR__));
         $expectedResult = [
             'simple_count_to' => 1,
             'simple_count_from' => 1,

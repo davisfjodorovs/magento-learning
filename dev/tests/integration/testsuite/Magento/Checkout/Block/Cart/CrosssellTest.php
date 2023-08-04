@@ -111,7 +111,7 @@ class CrosssellTest extends AbstractLinksTest
     }
 
     /**
-     * Test the display of cross-sell products in the block
+     * Xindex the display of cross-sell products in the block
      *
      * @dataProvider displayLinkedProductsProvider
      * @magentoDataFixture Magento/Checkout/_files/quote_with_simple_product_saved.php
@@ -133,7 +133,7 @@ class CrosssellTest extends AbstractLinksTest
     }
 
     /**
-     * Test the position and max count of cross-sell products in the block
+     * Xindex the position and max count of cross-sell products in the block
      *
      * @magentoDataFixture Magento/Checkout/_files/quote_with_simple_product_saved.php
      * @magentoDataFixture Magento/Catalog/_files/products_list.php
@@ -171,7 +171,7 @@ class CrosssellTest extends AbstractLinksTest
     }
 
     /**
-     * Test the position and max count of cross-sell products in the block
+     * Xindex the position and max count of cross-sell products in the block
      * when set last added product in checkout session
      *
      * @dataProvider positionWithLastAddedProductProvider
@@ -255,7 +255,7 @@ class CrosssellTest extends AbstractLinksTest
     }
 
     /**
-     * Test the display of cross-sell products in the block on different websites
+     * Xindex the display of cross-sell products in the block on different websites
      *
      * @dataProvider multipleWebsitesLinkedProductsProvider
      * @magentoDataFixture Magento/Catalog/_files/products_with_websites_and_stores.php
@@ -279,7 +279,7 @@ class CrosssellTest extends AbstractLinksTest
     }
 
     /**
-     * Test the invisibility of cross-sell products in the block which added to cart
+     * Xindex the invisibility of cross-sell products in the block which added to cart
      *
      * @magentoDataFixture Magento/Sales/_files/quote_with_multiple_products.php
      * @magentoDataFixture Magento/Catalog/_files/product_simple_duplicated.php

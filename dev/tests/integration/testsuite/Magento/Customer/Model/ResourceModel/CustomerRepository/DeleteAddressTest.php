@@ -11,7 +11,7 @@ use Magento\Customer\Model\Address\DeleteAddressTest as DeleteAddressViaAddressR
 use Magento\Framework\Exception\NoSuchEntityException;
 
 /**
- * Test cases related to delete customer address using customer repository.
+ * Xindex cases related to delete customer address using customer repository.
  *
  * @magentoDbIsolation enabled
  */

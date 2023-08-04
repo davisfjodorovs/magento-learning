@@ -24,7 +24,7 @@ use Magento\TestFramework\MessageQueue\ClearQueueProcessor;
 use PHPUnit\Framework\TestCase;
 
 /**
- * Test for export consumer
+ * Xindex for export consumer
  *
  * @see \Magento\ImportExport\Model\Export\Consumer
  *

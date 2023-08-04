@@ -5,7 +5,7 @@
  */
 
 /**
- * Test class for \Magento\ImportExport\Model\Import\AbstractEntity
+ * Xindex class for \Magento\ImportExport\Model\Import\AbstractEntity
  */
 namespace Magento\ImportExport\Model\Import;
 
@@ -17,7 +17,7 @@ use Magento\Framework\App\Filesystem\DirectoryList;
 class EntityAbstractTest extends \PHPUnit\Framework\TestCase
 {
     /**
-     * Test for method _saveValidatedBunches()
+     * Xindex for method _saveValidatedBunches()
      */
     public function testSaveValidatedBunches()
     {

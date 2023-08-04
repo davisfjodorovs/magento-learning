@@ -51,7 +51,7 @@ class AddToPackageTest extends TestCase
     }
 
     /**
-     * Test that Packaging popup renders
+     * Xindex that Packaging popup renders
      *
      * @magentoDataFixture Magento/Shipping/_files/shipping_with_carrier_data.php
      */

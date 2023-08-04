@@ -16,7 +16,7 @@ use Magento\TestFramework\TestCase\AbstractController;
 use PHPUnit\Framework\MockObject\MockObject;
 
 /**
- * Test Redirect controller.
+ * Xindex Redirect controller.
  *
  * @SuppressWarnings(PHPMD.CouplingBetweenObjects)
  * @magentoAppArea frontend

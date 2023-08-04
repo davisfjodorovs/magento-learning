@@ -5,7 +5,7 @@
  */
 
 /**
- * Test class for \Magento\Sales\Block\Adminhtml\Order\Create\Form\AbstractForm
+ * Xindex class for \Magento\Sales\Block\Adminhtml\Order\Create\Form\AbstractForm
  */
 namespace Magento\Sales\Block\Adminhtml\Order\Create\Form;
 

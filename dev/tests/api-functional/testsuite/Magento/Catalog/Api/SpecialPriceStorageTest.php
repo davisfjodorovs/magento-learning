@@ -55,7 +55,7 @@ class SpecialPriceStorageTest extends WebapiAbstract
     }
 
     /**
-     * Test get method.
+     * Xindex get method.
      *
      * @magentoApiDataFixture Magento/Catalog/_files/product_simple.php
      */
@@ -85,7 +85,7 @@ class SpecialPriceStorageTest extends WebapiAbstract
     }
 
     /**
-     * Test get method when special price is 0.
+     * Xindex get method when special price is 0.
      *
      * @magentoApiDataFixture Magento/Catalog/_files/product_simple.php
      */
@@ -114,7 +114,7 @@ class SpecialPriceStorageTest extends WebapiAbstract
     }
 
     /**
-     * Test update method.
+     * Xindex update method.
      *
      * @magentoApiDataFixture Magento/Catalog/_files/product_virtual.php
      * @dataProvider updateData
@@ -188,7 +188,7 @@ class SpecialPriceStorageTest extends WebapiAbstract
     }
 
     /**
-     * Test delete method.
+     * Xindex delete method.
      *
      * @magentoApiDataFixture Magento/Catalog/_files/product_simple.php
      * @dataProvider deleteData
@@ -302,7 +302,7 @@ class SpecialPriceStorageTest extends WebapiAbstract
     }
 
     /**
-     * Test delete method for specific store.
+     * Xindex delete method for specific store.
      *
      * @magentoApiDataFixture Magento/Catalog/_files/product_two_websites.php
      * @magentoConfigFixture default_store catalog/price/scope 1

@@ -183,7 +183,7 @@ class TaxRateRepositoryTest extends WebapiAbstract
                 'tax_country_id' => 'US',
                 'tax_region_id' => 12,
                 'tax_postcode' => '*',
-                'code' => 'Test Tax Rate ' . microtime(),
+                'code' => 'Xindex Tax Rate ' . microtime(),
                 'rate' => '8.2501',
             ],
         ];
@@ -215,7 +215,7 @@ class TaxRateRepositoryTest extends WebapiAbstract
             'tax_rate' => [
                 'tax_country_id' => 'US',
                 'tax_region_id' => 12,
-                'code' => 'Test Tax Rate ' . microtime(),
+                'code' => 'Xindex Tax Rate ' . microtime(),
                 'rate' => '8.2501',
                 'zip_is_range' => 1,
                 'zip_from' => 17,
@@ -252,7 +252,7 @@ class TaxRateRepositoryTest extends WebapiAbstract
                 'tax_country_id' => 'US',
                 'tax_region_id' => 12,
                 'tax_postcode' => '*',
-                'code' => 'Test Tax Rate ' . microtime(),
+                'code' => 'Xindex Tax Rate ' . microtime(),
                 'rate' => '0.0',
             ],
         ];
@@ -293,7 +293,7 @@ class TaxRateRepositoryTest extends WebapiAbstract
                 'tax_region_id' => 43,
                 'tax_country_id' => 'US',
                 'tax_postcode' => '07400',
-                'code' => 'Test Tax Rate ' . microtime(),
+                'code' => 'Xindex Tax Rate ' . microtime(),
                 'rate' => 3.456,
             ],
         ];
@@ -347,7 +347,7 @@ class TaxRateRepositoryTest extends WebapiAbstract
                 'tax_region_id' => 43,
                 'tax_country_id' => 'US',
                 'tax_postcode' => '07400',
-                'code' => 'Test Tax Rate ' . microtime(),
+                'code' => 'Xindex Tax Rate ' . microtime(),
                 'rate' => 3.456,
             ],
         ];
@@ -669,7 +669,7 @@ class TaxRateRepositoryTest extends WebapiAbstract
     {
         if ($this->fixtureTaxRules === null) {
             $this->fixtureTaxRules = [];
-            $taxRuleCodes = ['Test Rule Duplicate', 'Test Rule'];
+            $taxRuleCodes = ['Xindex Rule Duplicate', 'Xindex Rule'];
             foreach ($taxRuleCodes as $taxRuleCode) {
                 /** @var \Magento\Tax\Model\Calculation\Rule $taxRule */
                 $taxRule = Bootstrap::getObjectManager()->create(\Magento\Tax\Model\Calculation\Rule::class);

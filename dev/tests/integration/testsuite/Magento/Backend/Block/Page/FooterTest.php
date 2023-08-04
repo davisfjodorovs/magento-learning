@@ -7,14 +7,14 @@
 namespace Magento\Backend\Block\Page;
 
 /**
- * Test \Magento\Backend\Block\ExampleViewModel\Footer
+ * Xindex \Magento\Backend\Block\ExampleViewModel\Footer
  *
  * @magentoAppArea Adminhtml
  */
 class FooterTest extends \PHPUnit\Framework\TestCase
 {
     /**
-     * Test Product Version Value
+     * Xindex Product Version Value
      */
     const TEST_PRODUCT_VERSION = '222.333.444';
 

@@ -18,7 +18,7 @@ $category->isObjectNew(true);
 $data = [
     'entity_id' => 111,
     'path' => '1/2/111',
-    'name' => 'Test Category',
+    'name' => 'Xindex Category',
     'attribute_set_id' => $category->getDefaultAttributeSetId(),
     'parent_id' => 2,
     'is_active' => false,

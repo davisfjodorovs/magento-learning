@@ -1,6 +1,6 @@
 <?php
 /**
- * Test for \Magento\Framework\Filesystem\Directory\Read
+ * Xindex for \Magento\Framework\Filesystem\Directory\Read
  *
  * Copyright © Magento, Inc. All rights reserved.
  * See COPYING.txt for license details.
@@ -12,12 +12,12 @@ use Magento\TestFramework\Helper\Bootstrap;
 
 /**
  * Class ReadTest
- * Test for Magento\Framework\Filesystem\Directory\Read class
+ * Xindex for Magento\Framework\Filesystem\Directory\Read class
  */
 class ReadTest extends \PHPUnit\Framework\TestCase
 {
     /**
-     * Test instance of Read
+     * Xindex instance of Read
      */
     public function testInstance()
     {
@@ -26,7 +26,7 @@ class ReadTest extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     * Test for getAbsolutePath method
+     * Xindex for getAbsolutePath method
      */
     public function testGetAbsolutePath()
     {
@@ -96,7 +96,7 @@ class ReadTest extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     * Test for read method
+     * Xindex for read method
      *
      * @dataProvider readProvider
      * @param string $dirPath
@@ -149,7 +149,7 @@ class ReadTest extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     * Test for search method
+     * Xindex for search method
      *
      * @dataProvider searchProvider
      * @param string $dirPath
@@ -202,7 +202,7 @@ class ReadTest extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     * Test for isExist method
+     * Xindex for isExist method
      *
      * @dataProvider existsProvider
      * @param string $dirPath
@@ -254,7 +254,7 @@ class ReadTest extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     * Test for stat method
+     * Xindex for stat method
      *
      * @dataProvider statProvider
      * @param string $dirPath
@@ -317,7 +317,7 @@ class ReadTest extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     * Test for isReadable method
+     * Xindex for isReadable method
      *
      * @dataProvider isReadableProvider
      * @param string $dirPath
@@ -353,7 +353,7 @@ class ReadTest extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     * Test for isFile method
+     * Xindex for isFile method
      *
      * @dataProvider isFileProvider
      * @param string $path
@@ -387,7 +387,7 @@ class ReadTest extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     * Test for isDirectory method
+     * Xindex for isDirectory method
      *
      * @dataProvider isDirectoryProvider
      * @param string $path
@@ -451,7 +451,7 @@ class ReadTest extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     * Test for openFile method
+     * Xindex for openFile method
      */
     public function testOpenFile()
     {
@@ -483,7 +483,7 @@ class ReadTest extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     * Test readFile
+     * Xindex readFile
      *
      * @dataProvider readFileProvider
      * @param string $path

@@ -59,7 +59,7 @@ class TokenizerTest extends TestCase
     }
 
     /**
-     * Test getting next Real token for PHP > 8, where namespaced names are treated as single token.
+     * Xindex getting next Real token for PHP > 8, where namespaced names are treated as single token.
      *
      * @requires PHP >= 8.0
      * @return void

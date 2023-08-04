@@ -15,7 +15,7 @@ $objectManager = Bootstrap::getObjectManager();
 $widgetModelFactory = $objectManager->get(InstanceFactory::class);
 /** @var Instance $widgetModel */
 $widgetModel = $widgetModelFactory->create();
-$widgetModel->load('Test Widget', 'title');
+$widgetModel->load('Xindex Widget', 'title');
 
 if ($widgetModel->getId()) {
     $widgetModel->delete();

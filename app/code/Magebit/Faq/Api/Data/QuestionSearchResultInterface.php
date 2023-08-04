@@ -4,26 +4,25 @@ declare(strict_types=1);
 
 namespace Magebit\Faq\Api\Data;
 
-use Magento\Framework\Api\SearchResultsInterface;
-
 /**
- * Interface for Question search results.
+ * Interface for Collection search results.
+ *
  * @api
  */
-interface QuestionSearchResultInterface extends SearchResultsInterface
+interface QuestionSearchResultInterface extends \Magento\Framework\Api\SearchResultsInterface
 {
     /**
-     * Get Question list.
+     * Get question list.
      *
-     * @return QuestionInterface[]
+     * @return \Magebit\Faq\Api\Data\QuestionInterface[]
      */
     public function getItems(): array;
 
     /**
-     * Set Question list.
+     * Set Collection list.
      *
-     * @param QuestionInterface[] $items
-     * @return QuestionSearchResultInterface
+     * @param \Magebit\Faq\Api\Data\QuestionInterface[] $items
+     * @return \Magebit\Faq\Api\Data\QuestionSearchResultInterface
      */
     public function setItems(array $items): QuestionSearchResultInterface;
 }

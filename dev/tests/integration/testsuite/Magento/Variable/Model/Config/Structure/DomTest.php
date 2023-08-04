@@ -48,11 +48,11 @@ class DomTest extends \PHPUnit\Framework\TestCase
 <config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Config:etc/system_file.xsd">
     <system>
         <section id="test_section" translate="label" type="text" sortOrder="80" showInDefault="1" showInWebsite="1" showInStore="1">
-            <label>Test Section</label>
+            <label>Xindex Section</label>
             <tab>catalog</tab>
             <resource>Magento_Catalog::catalog</resource>
             <group id="config" translate="label" type="text" sortOrder="1" showInDefault="1" showInWebsite="1" showInStore="1">
-                <label>Test Config</label>
+                <label>Xindex Config</label>
                 <field id="allowed" translate="label" type="select" sortOrder="10" showInDefault="1" showInWebsite="1" showInStore="1">
                     <label>Allowed Option</label>
                 </field>

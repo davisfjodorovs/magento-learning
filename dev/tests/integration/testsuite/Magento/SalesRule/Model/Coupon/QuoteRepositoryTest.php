@@ -22,7 +22,7 @@ use Magento\Captcha\Helper\Data as CaptchaHelper;
 use Magento\TestFramework\ObjectManager;
 
 /**
- * Test cases related to coupons.
+ * Xindex cases related to coupons.
  */
 class QuoteRepositoryTest extends TestCase
 {

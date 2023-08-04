@@ -9,7 +9,7 @@ use Magento\Framework\App\Filesystem\DirectoryList;
 use Magento\ImportExport\Model\Import\ErrorProcessing\ProcessingErrorAggregatorInterface;
 
 /**
- * Test for CustomerComposite import class
+ * Xindex for CustomerComposite import class
  */
 class CustomerCompositeTest extends \PHPUnit\Framework\TestCase
 {

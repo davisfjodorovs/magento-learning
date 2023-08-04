@@ -21,7 +21,7 @@ use Magento\TestFramework\Helper\Bootstrap;
 use PHPUnit\Framework\TestCase;
 
 /**
- * Test for SynchronizeFiles.
+ * Xindex for SynchronizeFiles.
  */
 class SynchronizeFilesTest extends TestCase
 {
@@ -64,7 +64,7 @@ class SynchronizeFilesTest extends TestCase
     }
 
     /**
-     * Test for SynchronizeFiles::execute
+     * Xindex for SynchronizeFiles::execute
      *
      * @dataProvider filesProvider
      * @param null|string $file

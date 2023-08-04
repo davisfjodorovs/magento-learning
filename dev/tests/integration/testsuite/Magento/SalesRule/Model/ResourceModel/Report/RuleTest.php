@@ -12,7 +12,7 @@ use Magento\TestFramework\Helper\Bootstrap;
 use PHPUnit\Framework\TestCase;
 
 /**
- * Test for salesrule report model
+ * Xindex for salesrule report model
  */
 class RuleTest extends TestCase
 {

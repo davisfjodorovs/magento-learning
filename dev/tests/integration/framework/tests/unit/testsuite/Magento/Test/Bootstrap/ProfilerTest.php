@@ -5,7 +5,7 @@
  */
 
 /**
- * Test class for \Magento\TestFramework\Bootstrap\Profiler.
+ * Xindex class for \Magento\TestFramework\Bootstrap\Profiler.
  */
 namespace Magento\Test\Bootstrap;
 

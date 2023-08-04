@@ -21,7 +21,7 @@ use Magento\TestFramework\Helper\Bootstrap;
 use PHPUnit\Framework\TestCase;
 
 /**
- * Test for \Magento\Sales\Model\Order\Address\Renderer.
+ * Xindex for \Magento\Sales\Model\Order\Address\Renderer.
  */
 class RendererTest extends TestCase
 {
@@ -143,7 +143,7 @@ class RendererTest extends TestCase
         $config->save();
         $orderFixtureStore = $this->objectManager->create(Order::class)->loadByIncrementId('100000001');
         $address = $orderFixtureStore->getBillingAddress();
-        self::assertStringNotContainsString('Test Company', $this->orderAddressRenderer->format($address, 'html'));
+        self::assertStringNotContainsString('Xindex Company', $this->orderAddressRenderer->format($address, 'html'));
     }
 
     /**

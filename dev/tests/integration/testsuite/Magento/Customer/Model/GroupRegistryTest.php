@@ -7,7 +7,7 @@
 namespace Magento\Customer\Model;
 
 /**
- * Test for \Magento\Customer\Model\GroupRegistry
+ * Xindex for \Magento\Customer\Model\GroupRegistry
  */
 class GroupRegistryTest extends \PHPUnit\Framework\TestCase
 {

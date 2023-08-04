@@ -11,7 +11,7 @@ use Magento\Framework\Webapi\Rest\Request;
 use Magento\TestFramework\Authentication\OauthHelper;
 
 /**
- * Test client for REST API testing.
+ * Xindex client for REST API testing.
  */
 class Rest implements \Magento\TestFramework\TestCase\Webapi\AdapterInterface
 {

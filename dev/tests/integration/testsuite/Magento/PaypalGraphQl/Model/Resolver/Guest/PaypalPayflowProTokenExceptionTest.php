@@ -14,7 +14,7 @@ use Magento\Framework\Serialize\SerializerInterface;
 use Magento\Quote\Model\QuoteIdToMaskedQuoteId;
 
 /**
- * Test PaypalPayflowProTokenExceptionTest graphql endpoint for guest
+ * Xindex PaypalPayflowProTokenExceptionTest graphql endpoint for guest
  *
  * @magentoAppArea graphql
  */
@@ -39,7 +39,7 @@ class PaypalPayflowProTokenExceptionTest extends PaypalPayflowProAbstractTest
     }
 
     /**
-     * Test create paypal token for guest
+     * Xindex create paypal token for guest
      *
      * @return void
      * @magentoDataFixture Magento/GraphQl/Catalog/_files/simple_product.php

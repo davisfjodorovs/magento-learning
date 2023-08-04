@@ -14,7 +14,7 @@ use Magento\TestFramework\Helper\Bootstrap;
 use Magento\TestFramework\TestCase\GraphQlAbstract;
 
 /**
- * Test for setting shipping methods on cart for customer
+ * Xindex for setting shipping methods on cart for customer
  */
 class SetShippingMethodsOnCartTest extends GraphQlAbstract
 {

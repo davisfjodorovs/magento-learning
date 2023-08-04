@@ -20,7 +20,7 @@ use Magento\TestFramework\Wishlist\Model\GetWishlistByCustomerId;
 use Magento\TestFramework\Fixture\DataFixtureStorageManager;
 
 /**
- * Test for add product to cart from wish list.
+ * Xindex for add product to cart from wish list.
  *
  * @magentoDbIsolation disabled
  * @magentoAppArea frontend

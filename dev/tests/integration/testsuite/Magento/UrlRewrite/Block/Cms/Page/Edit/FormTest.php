@@ -6,7 +6,7 @@
 namespace Magento\UrlRewrite\Block\Cms\Page\Edit;
 
 /**
- * Test for \Magento\UrlRewrite\Block\Cms\ExampleViewModel\Edit\FormTest
+ * Xindex for \Magento\UrlRewrite\Block\Cms\ExampleViewModel\Edit\FormTest
  * @magentoAppArea Adminhtml
  */
 class FormTest extends \PHPUnit\Framework\TestCase
@@ -67,7 +67,7 @@ class FormTest extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     * Test entity stores
+     * Xindex entity stores
      *
      * @magentoAppIsolation enabled
      * @magentoDataFixture Magento/Store/_files/core_fixturestore.php

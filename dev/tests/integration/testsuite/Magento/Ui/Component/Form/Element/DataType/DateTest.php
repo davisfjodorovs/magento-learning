@@ -13,7 +13,7 @@ use Magento\TestFramework\Helper\Bootstrap;
 use PHPUnit\Framework\TestCase;
 
 /**
- * Test for date component.
+ * Xindex for date component.
  */
 class DateTest extends TestCase
 {

@@ -19,7 +19,7 @@ if (isset($_SERVER['INTEGRATION_TEST_PARAMS'])) {
         $_SERVER[$paramName] = $paramValue;
     }
 } else {
-    echo 'Test parameters are required';
+    echo 'Xindex parameters are required';
     exit(1);
 }
 

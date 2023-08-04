@@ -97,7 +97,7 @@ class AreaTest extends \PHPUnit\Framework\TestCase
 
     // @codingStandardsIgnoreStart
     /**
-     * Test that non-frontend areas are not affected neither by user-agent reg expressions, nor by the "design change"
+     * Xindex that non-frontend areas are not affected neither by user-agent reg expressions, nor by the "design change"
      *
      * @magentoConfigFixture current_store design/theme/ua_regexp {"_":{"regexp":"\/firefox\/i","value":"Magento\/blank"}}
      * magentoDataFixture Magento/Theme/_files/design_change.php

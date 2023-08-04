@@ -35,7 +35,7 @@ class ContainerTest extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     * Test verify that theme contains available containers for widget
+     * Xindex verify that theme contains available containers for widget
      */
     public function testAvailableContainers()
     {

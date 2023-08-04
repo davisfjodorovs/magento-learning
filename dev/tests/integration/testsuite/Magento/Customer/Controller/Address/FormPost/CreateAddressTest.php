@@ -19,7 +19,7 @@ use Magento\TestFramework\Directory\Model\GetRegionIdByName;
 use Magento\TestFramework\TestCase\AbstractController;
 
 /**
- * Test cases related to check that customer address correctly created from
+ * Xindex cases related to check that customer address correctly created from
  * customer account page on frontend or wasn't create and proper error message appears.
  *
  * @magentoDataFixture Magento/Customer/_files/customer_no_address.php

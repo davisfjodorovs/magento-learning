@@ -18,7 +18,7 @@ use Magento\TestFramework\MessageQueue\PublisherConsumerController;
 use Magento\TestFramework\TestCase\WebapiAbstract;
 
 /**
- * Test order repository interface via async webapi
+ * Xindex order repository interface via async webapi
  */
 class OrderRepositoryInterfaceTest extends WebapiAbstract
 {

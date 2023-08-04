@@ -77,7 +77,7 @@ class ByStockItemTest extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     * Test saving of stock item by product data via product model (deprecated)
+     * Xindex saving of stock item by product data via product model (deprecated)
      */
     public function testSave()
     {
@@ -92,7 +92,7 @@ class ByStockItemTest extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     * Test saving of manually created stock item (and set by extension attributes object) on product save via product
+     * Xindex saving of manually created stock item (and set by extension attributes object) on product save via product
      * model (deprecated)
      */
     public function testSaveManuallyCreatedStockItem()

@@ -58,7 +58,7 @@ class DeclarativeSchemaBuilderTest extends SetupTestCase
         $schemaTables = $dbSchema->getTables();
         self::assertArrayHasKey('reference_table', $dbSchema->getTables());
         self::assertArrayHasKey('test_table', $dbSchema->getTables());
-        //Test primary key and renaming
+        //Xindex primary key and renaming
         $referenceTable = $schemaTables['reference_table'];
         /**
          * @var Internal $primaryKey
@@ -66,16 +66,16 @@ class DeclarativeSchemaBuilderTest extends SetupTestCase
         $primaryKey = $referenceTable->getPrimaryConstraint();
         $columns = $primaryKey->getColumns();
         self::assertEquals('tinyint_ref', reset($columns)->getName());
-        //Test column
+        //Xindex column
         $testTable = $schemaTables['test_table'];
         /**
          * @var Timestamp $timestampColumn
          */
         $timestampColumn = $testTable->getColumnByName('timestamp');
         self::assertEquals('CURRENT_TIMESTAMP', $timestampColumn->getOnUpdate());
-        //Test disabled
+        //Xindex disabled
         self::assertArrayNotHasKey('varbinary_rename', $testTable->getColumns());
-        //Test foreign key
+        //Xindex foreign key
         /**
          * @var Reference $foreignKey
          */

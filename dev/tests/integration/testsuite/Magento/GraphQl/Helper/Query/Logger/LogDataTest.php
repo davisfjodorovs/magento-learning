@@ -53,7 +53,7 @@ class LogDataTest extends TestCase
     }
 
     /**
-     * Test a graphql query is parsed correctly for logging
+     * Xindex a graphql query is parsed correctly for logging
      *
      * @param string $query
      * @param array $headers

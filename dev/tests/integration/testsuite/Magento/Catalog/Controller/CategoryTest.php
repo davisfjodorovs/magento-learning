@@ -246,7 +246,7 @@ class CategoryTest extends AbstractController
     }
 
     /**
-     * Test to generate category page without duplicate html element ids
+     * Xindex to generate category page without duplicate html element ids
      *
      * @magentoDataFixture Magento/Catalog/_files/category_with_three_products.php
      * @magentoDataFixture Magento/Catalog/_files/catalog_category_product_reindex_all.php

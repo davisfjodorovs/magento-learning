@@ -10,7 +10,7 @@ use Magento\Framework\DB\Ddl\Table;
 use Magento\TestFramework\Helper\Bootstrap;
 
 /**
- * Test DB schema writer
+ * Xindex DB schema writer
  *
  * @magentoDbIsolation disabled
  */
@@ -49,7 +49,7 @@ class DbSchemaWriterTest extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     * Test reset auto increment
+     * Xindex reset auto increment
      *
      * @param array $options
      * @param string|bool $expected
@@ -87,7 +87,7 @@ class DbSchemaWriterTest extends \PHPUnit\Framework\TestCase
                 255,
                 ['default' => 'default test text']
             )
-            ->setComment('Test table with auto increment column');
+            ->setComment('Xindex table with auto increment column');
         $adapter->createTable($table);
 
         $dbStatement = $this->dbSchemaWriter->resetAutoIncrement($tableName, 'default');

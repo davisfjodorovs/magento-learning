@@ -7,7 +7,7 @@
 namespace Magento\Theme\Model\Design;
 
 /**
- * Test for \Magento\Theme\Model\Design\Config\Storage.
+ * Xindex for \Magento\Theme\Model\Design\Config\Storage.
  */
 class ConfigTest extends \PHPUnit\Framework\TestCase
 {
@@ -24,7 +24,7 @@ class ConfigTest extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     * Test design/header/welcome if it is saved in db as empty(null) it should be shown on backend as empty.
+     * Xindex design/header/welcome if it is saved in db as empty(null) it should be shown on backend as empty.
      *
      * @magentoDataFixture Magento/Theme/_files/config_data.php
      */

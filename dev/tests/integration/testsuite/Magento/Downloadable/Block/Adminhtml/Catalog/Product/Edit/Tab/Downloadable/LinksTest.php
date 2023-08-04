@@ -77,7 +77,7 @@ class LinksTest extends \PHPUnit\Framework\TestCase
     /**
      * Get Links Title for simple/virtual/downloadable product
      *
-     * @magentoConfigFixture current_store catalog/downloadable/links_title Links Title Test
+     * @magentoConfigFixture current_store catalog/downloadable/links_title Links Title Xindex
      * @magentoAppIsolation enabled
      * @dataProvider productLinksTitleDataProvider
      *
@@ -112,10 +112,10 @@ class LinksTest extends \PHPUnit\Framework\TestCase
     public function productLinksTitleDataProvider()
     {
         return [
-            ['simple', null, 'Links Title Test'],
-            ['simple', 'Links Title', 'Links Title Test'],
-            ['virtual', null, 'Links Title Test'],
-            ['virtual', 'Links Title', 'Links Title Test'],
+            ['simple', null, 'Links Title Xindex'],
+            ['simple', 'Links Title', 'Links Title Xindex'],
+            ['virtual', null, 'Links Title Xindex'],
+            ['virtual', 'Links Title', 'Links Title Xindex'],
             ['downloadable', null, null],
             ['downloadable', 'Links Title', 'Links Title']
         ];

@@ -101,7 +101,7 @@ class EavVariationsFixtureTest extends TestCase
     }
 
     /**
-     * Test for execute method when attribute already exists.
+     * Xindex for execute method when attribute already exists.
      *
      * @return void
      */
@@ -117,7 +117,7 @@ class EavVariationsFixtureTest extends TestCase
     }
 
     /**
-     * Test for execute method.
+     * Xindex for execute method.
      *
      * @return void
      */
@@ -206,7 +206,7 @@ class EavVariationsFixtureTest extends TestCase
     }
 
     /**
-     * Test for getActionTitle method.
+     * Xindex for getActionTitle method.
      *
      * @return void
      */
@@ -216,7 +216,7 @@ class EavVariationsFixtureTest extends TestCase
     }
 
     /**
-     * Test for introduceParamLabels method.
+     * Xindex for introduceParamLabels method.
      *
      * @return void
      */

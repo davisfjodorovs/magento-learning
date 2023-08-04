@@ -41,7 +41,7 @@ class GridTest extends TestCase
     }
 
     /**
-     * Test to load wishlist collection by customer on second website
+     * Xindex to load wishlist collection by customer on second website
      *
      * @magentoDbIsolation disabled
      * @magentoDataFixture Magento/Wishlist/_files/wishlist_on_second_website.php

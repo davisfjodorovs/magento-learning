@@ -13,7 +13,7 @@ use PHPUnit\Framework\TestCase;
 use Magento\Framework\App\Response\Http as HttpResponse;
 
 /**
- * Test that rendering policies via headers works.
+ * Xindex that rendering policies via headers works.
  */
 class SimplePolicyHeaderRendererTest extends TestCase
 {
@@ -37,7 +37,7 @@ class SimplePolicyHeaderRendererTest extends TestCase
     }
 
     /**
-     * Test policy rendering in restrict mode.
+     * Xindex policy rendering in restrict mode.
      *
      * @magentoAppArea frontend
      * @magentoConfigFixture default_store csp/mode/storefront/report_only 0
@@ -57,7 +57,7 @@ class SimplePolicyHeaderRendererTest extends TestCase
     }
 
     /**
-     * Test policy rendering in restrict mode with report URL provided.
+     * Xindex policy rendering in restrict mode with report URL provided.
      *
      * @magentoAppArea frontend
      * @magentoConfigFixture default_store csp/mode/storefront/report_only 0
@@ -83,7 +83,7 @@ class SimplePolicyHeaderRendererTest extends TestCase
     }
 
     /**
-     * Test policy rendering in report-only mode.
+     * Xindex policy rendering in report-only mode.
      *
      * @magentoAppArea frontend
      * @magentoConfigFixture default_store csp/mode/storefront/report_only 1
@@ -120,7 +120,7 @@ class SimplePolicyHeaderRendererTest extends TestCase
     }
 
     /**
-     * Test rendering a fetch policy with inline allowed.
+     * Xindex rendering a fetch policy with inline allowed.
      *
      * @magentoAppArea frontend
      * @magentoConfigFixture default_store csp/mode/storefront/report_only 1
@@ -155,7 +155,7 @@ class SimplePolicyHeaderRendererTest extends TestCase
     }
 
     /**
-     * Test policy rendering in report-only mode with report URL provided.
+     * Xindex policy rendering in report-only mode with report URL provided.
      *
      * @magentoAppArea frontend
      * @magentoConfigFixture default_store csp/mode/storefront/report_only 1

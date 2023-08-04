@@ -16,7 +16,7 @@ use Magento\TestFramework\Helper\Bootstrap;
 use Magento\TestFramework\TestCase\GraphQlAbstract;
 
 /**
- * Test for setting offline payment methods on cart
+ * Xindex for setting offline payment methods on cart
  */
 class SetOfflinePaymentMethodsOnCartTest extends GraphQlAbstract
 {

@@ -11,7 +11,7 @@ define([
 ], function ($) {
     'use strict';
 
-    describe('Test for mage/form jQuery plugin', function () {
+    describe('Xindex for mage/form jQuery plugin', function () {
         var id = 'edit_form',
             elementId = '#' + id;
 

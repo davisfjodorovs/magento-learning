@@ -41,7 +41,7 @@ class CalculationTest extends TestCase
     }
 
     /**
-     * Test that Tax Rate applied only once
+     * Xindex that Tax Rate applied only once
      *
      * @magentoAppIsolation enabled
      * @magentoDataFixture Magento/Tax/_files/tax_classes.php

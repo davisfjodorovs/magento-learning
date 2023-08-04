@@ -100,7 +100,7 @@ class UserExpirationManagerTest extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     * Test deactivating without inputting a user.
+     * Xindex deactivating without inputting a user.
      *
      * @magentoDataFixture Magento/Security/_files/expired_users.php
      */

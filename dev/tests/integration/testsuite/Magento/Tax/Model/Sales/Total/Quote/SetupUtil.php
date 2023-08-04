@@ -374,7 +374,7 @@ class SetupUtil
         //By default create tax rule that covers all product tax classes except SHIPPING_TAX_CLASS
         //The tax rule will cover all tax rates except TAX_RATE_SHIPPING
         $taxRuleDefaultData = [
-            'code' => 'Test Rule',
+            'code' => 'Xindex Rule',
             'priority' => '0',
             'position' => '0',
             'customer_tax_class_ids' => $customerClassIds,

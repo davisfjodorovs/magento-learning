@@ -9,7 +9,7 @@ use Magento\Framework\Data\Form\FormKey;
 use Magento\Framework\Exception\AuthenticationException;
 
 /**
- * Test class for \Magento\Backend\Model\Auth.
+ * Xindex class for \Magento\Backend\Model\Auth.
  *
  * @magentoAppArea Adminhtml
  * @magentoAppIsolation enabled

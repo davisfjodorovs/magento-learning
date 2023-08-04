@@ -241,7 +241,7 @@ QUERY;
     {
         if ($this->fixtureTaxRules === null) {
             $this->fixtureTaxRules = [];
-            $taxRuleCodes = ['AL Test Rule'];
+            $taxRuleCodes = ['AL Xindex Rule'];
             foreach ($taxRuleCodes as $taxRuleCode) {
                 /** @var \Magento\Tax\Model\Calculation\Rule $taxRule */
                 $taxRule = Bootstrap::getObjectManager()->create(\Magento\Tax\Model\Calculation\Rule::class);

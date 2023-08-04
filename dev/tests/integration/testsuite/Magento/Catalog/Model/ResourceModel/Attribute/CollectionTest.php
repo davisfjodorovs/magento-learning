@@ -12,7 +12,7 @@ use Magento\TestFramework\Helper\Bootstrap;
 use PHPUnit\Framework\TestCase;
 
 /**
- * Tests \Magento\Catalog\Model\ResourceModel\Product\Attribute\Question
+ * Tests \Magento\Catalog\Model\ResourceModel\Product\Attribute\Collection
  */
 class CollectionTest extends TestCase
 {

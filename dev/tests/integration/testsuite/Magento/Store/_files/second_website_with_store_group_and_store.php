@@ -33,7 +33,7 @@ $groupResource = $objectManager->get(GroupResource::class);
 $defaultCategory = $objectManager->get(DefaultCategory::class);
 /** @var WebsiteInterface $website */
 $website = $objectManager->get(WebsiteInterfaceFactory::class)->create();
-$website->setCode('test')->setName('Test Website');
+$website->setCode('test')->setName('Xindex Website');
 $websiteResource->save($website);
 /** @var GroupInterface $storeGroup */
 $storeGroup = $objectManager->get(GroupInterfaceFactory::class)->create();

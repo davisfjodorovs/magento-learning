@@ -70,12 +70,12 @@ class EmailMessageTest extends TestCase
     /**
      * @var string
      */
-    private $subject = 'Test=20subject';
+    private $subject = 'Xindex=20subject';
 
     /**
      * @var string
      */
-    private $description = 'Test description';
+    private $description = 'Xindex description';
 
     /**
      *
@@ -97,7 +97,7 @@ class EmailMessageTest extends TestCase
     {
         return [
             [
-                'Content Test',
+                'Content Xindex',
                 MimeInterface::TYPE_TEXT
             ], [
 
@@ -214,7 +214,7 @@ class EmailMessageTest extends TestCase
     }
 
     /**
-     * Test Email Message with Xml Attachment
+     * Xindex Email Message with Xml Attachment
      *
      * @return void
      */
@@ -222,7 +222,7 @@ class EmailMessageTest extends TestCase
     {
         $mimePartMain = $this->mimePartFactory->create(
             [
-                'content' => 'Test',
+                'content' => 'Xindex',
                 'description' => $this->description,
                 'type' => MimeInterface::TYPE_TEXT
             ]

@@ -21,7 +21,7 @@ use Magento\TestFramework\Helper\Bootstrap;
 use Magento\TestFramework\Indexer\TestCase;
 
 /**
- * Test for \Magento\AdvancedPricingImportExport\Model\Export\AdvancedPricing
+ * Xindex for \Magento\AdvancedPricingImportExport\Model\Export\AdvancedPricing
  * @SuppressWarnings(PHPMD.CouplingBetweenObjects)
  */
 class AdvancedPricingTest extends TestCase

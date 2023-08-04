@@ -15,7 +15,7 @@ use Magento\TestFramework\TestCase\GraphQlAbstract;
 use Magento\UrlRewrite\Model\UrlFinderInterface;
 
 /**
- * Test caching works for url resolver.
+ * Xindex caching works for url resolver.
  */
 class UrlResolverCacheTest extends GraphQlAbstract
 {
@@ -108,7 +108,7 @@ class UrlResolverCacheTest extends GraphQlAbstract
         $this->assertEquals('CATEGORY', $responseHit['body']['urlResolver']['type']);
     }
     /**
-     * Test that X-Magento-Tags Cache debug headers are correct for cms page url resolver
+     * Xindex that X-Magento-Tags Cache debug headers are correct for cms page url resolver
      *
      * @magentoApiDataFixture Magento/Cms/_files/pages.php
      */

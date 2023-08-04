@@ -12,7 +12,7 @@ use Magento\TestFramework\ObjectManager;
 use Magento\TestFramework\TestCase\GraphQlAbstract;
 
 /**
- * Test that product is not present in GQL after it was deleted
+ * Xindex that product is not present in GQL after it was deleted
  */
 class ProductDeleteTest extends GraphQlAbstract
 {

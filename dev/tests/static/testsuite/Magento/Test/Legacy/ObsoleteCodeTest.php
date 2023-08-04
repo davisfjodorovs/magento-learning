@@ -319,7 +319,7 @@ class ObsoleteCodeTest extends \PHPUnit\Framework\TestCase
             $this->assertStringStartsNotWith($obsoletePath . '.', $relativePath, $message);
             $this->assertStringStartsNotWith($obsoletePath . 'Factory.', $relativePath, $message);
             $this->assertStringStartsNotWith($obsoletePath . 'Interface.', $relativePath, $message);
-            $this->assertStringStartsNotWith($obsoletePath . 'Test.', $relativePath, $message);
+            $this->assertStringStartsNotWith($obsoletePath . 'Xindex.', $relativePath, $message);
         }
     }
 

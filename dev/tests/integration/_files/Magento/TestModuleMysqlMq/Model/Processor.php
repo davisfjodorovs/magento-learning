@@ -9,7 +9,7 @@ use LogicException;
 use Magento\Framework\MessageQueue\ConnectionLostException;
 
 /**
- * Test message processor is used by \Magento\MysqlMq\Model\PublisherConsumerTest
+ * Xindex message processor is used by \Magento\MysqlMq\Model\PublisherConsumerTest
  */
 class Processor
 {

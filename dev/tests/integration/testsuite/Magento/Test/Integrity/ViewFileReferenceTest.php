@@ -1,6 +1,6 @@
 <?php
 /**
- * Test constructions of layout files
+ * Xindex constructions of layout files
  *
  * Copyright © Magento, Inc. All rights reserved.
  * See COPYING.txt for license details.

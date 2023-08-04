@@ -13,7 +13,7 @@ use Magento\TestFramework\Helper\Bootstrap;
 use Magento\TestFramework\TestCase\GraphQlAbstract;
 
 /**
- * Test for get available payment methods
+ * Xindex for get available payment methods
  */
 class GetAvailablePaymentMethodsTest extends GraphQlAbstract
 {

@@ -16,7 +16,7 @@ use Magento\TestFramework\Integrity\Library\PhpParser\Tokens;
 use PHPUnit\Framework\TestCase;
 
 /**
- * Test check if Magento library components contain incorrect dependencies to application layer
+ * Xindex check if Magento library components contain incorrect dependencies to application layer
  *
  */
 class DependencyTest extends TestCase
@@ -164,7 +164,7 @@ class DependencyTest extends TestCase
      */
     public function libraryDataProvider()
     {
-        // @TODO: remove this code when class Magento\Framework\Data\Question will fixed
+        // @TODO: remove this code when class Magento\Framework\Data\Collection will fixed
         $componentRegistrar = new ComponentRegistrar();
         include_once $componentRegistrar->getPath(ComponentRegistrar::LIBRARY, 'magento/framework')
             . '/Option/ArrayInterface.php';

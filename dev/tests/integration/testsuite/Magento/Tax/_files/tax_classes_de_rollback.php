@@ -23,7 +23,7 @@ $objectManager = Bootstrap::getObjectManager();
 $taxRuleRepository = $objectManager->get(TaxRuleRepositoryInterface::class);
 /** @var SearchCriteriaBuilder $searchBuilder */
 $searchBuilder = $objectManager->get(SearchCriteriaBuilder::class);
-$searchCriteria = $searchBuilder->addFilter(Rule::KEY_CODE, 'Test Rule')
+$searchCriteria = $searchBuilder->addFilter(Rule::KEY_CODE, 'Xindex Rule')
     ->create();
 $taxRules = $taxRuleRepository->getList($searchCriteria)
     ->getItems();

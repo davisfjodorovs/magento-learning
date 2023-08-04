@@ -23,7 +23,7 @@ class SuggestionsTest extends \PHPUnit\Framework\TestCase
         $suggestedQueries = $this->createMock(SuggestedQueriesInterface::CLASS);
         $suggestedQueries->expects($this->any())->method('getItems')->willReturn([
             new QueryResult('test item', 1),
-            new QueryResult("<script>alert('Test');</script>", 1)
+            new QueryResult("<script>alert('Xindex');</script>", 1)
         ]);
 
         $this->block = Bootstrap::getObjectManager()->create(\Magento\AdvancedSearch\Block\Suggestions::class, [
@@ -41,6 +41,6 @@ class SuggestionsTest extends \PHPUnit\Framework\TestCase
 
         $this->assertStringNotContainsString('<script>', $html);
         $this->assertStringContainsString('%3Cscript%3Ealert%28%27Test%27%29%3B%3C%2Fscript%3E', $html);
-        $this->assertStringContainsString("&lt;script&gt;alert(&#039;Test&#039;);&lt;/script&gt;", $html);
+        $this->assertStringContainsString("&lt;script&gt;alert(&#039;Xindex&#039;);&lt;/script&gt;", $html);
     }
 }

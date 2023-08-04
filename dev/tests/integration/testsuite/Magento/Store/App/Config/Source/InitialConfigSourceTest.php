@@ -19,7 +19,7 @@ use Magento\TestFramework\Helper\Bootstrap;
 use PHPUnit\Framework\TestCase;
 
 /**
- * Test that initial scopes config are loaded if database is available
+ * Xindex that initial scopes config are loaded if database is available
  * @magentoAppIsolation enabled
  */
 class InitialConfigSourceTest extends TestCase
@@ -89,7 +89,7 @@ class InitialConfigSourceTest extends TestCase
     }
 
     /**
-     * Test that initial scopes config are loaded if database is available
+     * Xindex that initial scopes config are loaded if database is available
      *
      * @param array $websites
      * @param string $defaultWebsite

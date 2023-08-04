@@ -13,7 +13,7 @@ use Magento\TestFramework\Quote\Model\GetQuoteByReservedOrderId;
 use Magento\TestFramework\TestCase\GraphQlAbstract;
 
 /**
- * Test for assigning guest to the guest cart
+ * Xindex for assigning guest to the guest cart
  */
 class AssignCustomerToGuestCartTest extends GraphQlAbstract
 {
@@ -38,7 +38,7 @@ class AssignCustomerToGuestCartTest extends GraphQlAbstract
     }
 
     /**
-     * Test for assigning guest to the guest cart
+     * Xindex for assigning guest to the guest cart
      *
      * @magentoApiDataFixture Magento/Checkout/_files/simple_product.php
      * @magentoApiDataFixture Magento/Checkout/_files/quote_with_simple_product_saved.php

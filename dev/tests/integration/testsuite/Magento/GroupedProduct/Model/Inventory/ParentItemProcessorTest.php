@@ -16,7 +16,7 @@ use Magento\TestFramework\Helper\Bootstrap;
 use Magento\Framework\ObjectManagerInterface;
 
 /**
- * Test stock status parent product
+ * Xindex stock status parent product
  */
 class ParentItemProcessorTest extends TestCase
 {
@@ -34,7 +34,7 @@ class ParentItemProcessorTest extends TestCase
     }
 
     /**
-     * Test stock status parent product if children are out of stock
+     * Xindex stock status parent product if children are out of stock
      *
      * @magentoDataFixture Magento/GroupedProduct/_files/product_grouped_with_simple_out_of_stock.php
      *

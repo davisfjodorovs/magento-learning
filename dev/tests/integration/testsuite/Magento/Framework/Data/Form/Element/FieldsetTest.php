@@ -35,7 +35,7 @@ class FieldsetTest extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     * Test whether fieldset contains advanced section or not
+     * Xindex whether fieldset contains advanced section or not
      *
      * @dataProvider fieldsDataProvider
      */
@@ -46,12 +46,12 @@ class FieldsetTest extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     * Test getting advanced section label
+     * Xindex getting advanced section label
      */
     public function testAdvancedLabel()
     {
         $this->assertEmpty($this->_fieldset->getAdvancedLabel());
-        $label = 'Test Label';
+        $label = 'Xindex Label';
         $this->_fieldset->setAdvancedLabel($label);
         $this->assertEquals($label, $this->_fieldset->getAdvancedLabel());
     }

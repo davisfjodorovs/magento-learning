@@ -6,7 +6,7 @@
 namespace Magento\Framework\Communication;
 
 /**
- * Test of communication configuration reading and parsing.
+ * Xindex of communication configuration reading and parsing.
  *
  * @magentoCache config disabled
  */

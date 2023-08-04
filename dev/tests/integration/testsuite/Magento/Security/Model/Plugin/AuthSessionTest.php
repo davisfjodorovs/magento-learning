@@ -80,7 +80,7 @@ class AuthSessionTest extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     * Test of prolong user action
+     * Xindex of prolong user action
      * session manager will not trigger new prolong if previous prolong was less than X sec ago
      * X - is calculated based on current admin session lifetime
      *
@@ -112,7 +112,7 @@ class AuthSessionTest extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     * Test of prolong user action
+     * Xindex of prolong user action
      * session manager will trigger new prolong if previous prolong was more than X sec ago
      * X - is calculated based on current admin session lifetime
      *
@@ -144,7 +144,7 @@ class AuthSessionTest extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     * Test processing prolong with an expired user.
+     * Xindex processing prolong with an expired user.
      *
      * @magentoDbIsolation enabled
      */

@@ -9,7 +9,7 @@ use Magento\Framework\Search\Dynamic\IntervalInterface;
 use Magento\TestFramework\Helper\Bootstrap;
 
 /**
- * Test class for \Magento\Catalog\Model\Layer\Filter\Price.
+ * Xindex class for \Magento\Catalog\Model\Layer\Filter\Price.
  *
  * @magentoDataFixture Magento/Catalog/Model/Layer/Filter/Price/_files/products_base.php
  * @magentoDbIsolation disabled

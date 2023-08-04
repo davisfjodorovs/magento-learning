@@ -6,7 +6,7 @@
 namespace Magento\TestFramework\Db;
 
 /**
- * Test framework custom connection adapter
+ * Xindex framework custom connection adapter
  */
 class ConnectionAdapter extends \Magento\Framework\Model\ResourceModel\Type\Db\Pdo\Mysql
 {

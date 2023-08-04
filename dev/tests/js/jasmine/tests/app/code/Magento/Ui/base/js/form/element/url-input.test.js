@@ -19,13 +19,13 @@ define([
                 dataScope: 'urlInput',
                 urlTypes: {
                     url: {
-                        label: 'Test label',
+                        label: 'Xindex label',
                         component: 'Magento_Ui/js/form/element/abstract',
                         template: 'ui/form/element/input',
                         sortOrder: 40
                     },
                     testUrl: {
-                        label: 'Test label 2',
+                        label: 'Xindex label 2',
                         component: 'Magento_Ui/js/form/element/abstract',
                         template: 'ui/form/element/input',
                         sortOrder: 10
@@ -49,12 +49,12 @@ define([
                 var expectedOptions = [
                     {
                         value: 'testUrl',
-                        label: 'Test label 2',
+                        label: 'Xindex label 2',
                         sortOrder: 10
                     },
                     {
                         value: 'url',
-                        label: 'Test label',
+                        label: 'Xindex label',
                         sortOrder: 40
                     }
                 ];
@@ -79,7 +79,7 @@ define([
                     disabled: true,
                     urlTypes: {
                         url: {
-                            label: 'Test label',
+                            label: 'Xindex label',
                             component: 'Magento_Ui/js/form/element/abstract',
                             template: 'ui/form/element/input',
                             sortOrder: 40
@@ -98,7 +98,7 @@ define([
                     visible: false,
                     urlTypes: {
                         url: {
-                            label: 'Test label',
+                            label: 'Xindex label',
                             component: 'Magento_Ui/js/form/element/abstract',
                             template: 'ui/form/element/input',
                             sortOrder: 40

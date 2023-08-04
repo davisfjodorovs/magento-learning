@@ -17,7 +17,7 @@ use Magento\TestFramework\ObjectManager;
 use Magento\TestFramework\TestCase\WebapiAbstract;
 
 /**
- * Test for Magento\Quote\Api\GuestCartItemRepositoryInterface.
+ * Xindex for Magento\Quote\Api\GuestCartItemRepositoryInterface.
  */
 class GuestCartItemRepositoryTest extends WebapiAbstract
 {
@@ -39,7 +39,7 @@ class GuestCartItemRepositoryTest extends WebapiAbstract
     }
 
     /**
-     * Test quote items
+     * Xindex quote items
      *
      * @magentoApiDataFixture Magento/Checkout/_files/quote_with_items_saved.php
      */

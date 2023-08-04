@@ -15,7 +15,7 @@ namespace Magento\PhpStan\Formatters\Fixtures;
 class ClassWithoutIgnoreAnnotation
 {
     /**
-     * Test method.
+     * Xindex method.
      */
     public function getProductList()
     {

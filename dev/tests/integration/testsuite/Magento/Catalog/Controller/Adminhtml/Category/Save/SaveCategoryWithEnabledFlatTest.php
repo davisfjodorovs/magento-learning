@@ -20,7 +20,7 @@ use Magento\UrlRewrite\Model\ResourceModel\UrlRewrite as UrlRewriteResource;
 use Magento\UrlRewrite\Service\V1\Data\UrlRewrite;
 
 /**
- * Test cases related to save category with enabled category flat.
+ * Xindex cases related to save category with enabled category flat.
  *
  * @magentoAppArea Adminhtml
  * @magentoDbIsolation disabled

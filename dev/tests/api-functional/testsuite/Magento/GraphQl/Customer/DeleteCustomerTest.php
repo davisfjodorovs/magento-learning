@@ -31,7 +31,7 @@ class DeleteCustomerTest extends GraphQlAbstract
     }
 
     /**
-     * Test deleting customer
+     * Xindex deleting customer
      *
      * @magentoApiDataFixture Magento/Customer/_files/customer.php
      */
@@ -43,7 +43,7 @@ class DeleteCustomerTest extends GraphQlAbstract
     }
 
     /**
-     * Test deleting non authorized customer
+     * Xindex deleting non authorized customer
      */
     public function testDeleteCustomerIfUserIsNotAuthorized(): void
     {
@@ -53,7 +53,7 @@ class DeleteCustomerTest extends GraphQlAbstract
     }
 
     /**
-     * Test deleting locked customer
+     * Xindex deleting locked customer
      *
      * @magentoApiDataFixture Magento/Customer/_files/locked_customer.php
      * @magentoApiDataFixture Magento/Customer/_files/customer_two_addresses.php

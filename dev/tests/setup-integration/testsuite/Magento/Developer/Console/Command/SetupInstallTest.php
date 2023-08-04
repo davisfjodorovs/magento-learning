@@ -14,7 +14,7 @@ use Magento\TestFramework\Helper\Bootstrap;
 use Magento\TestFramework\TestCase\SetupTestCase;
 
 /**
- * Test for Install command.
+ * Xindex for Install command.
  */
 class SetupInstallTest extends SetupTestCase
 {

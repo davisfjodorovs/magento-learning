@@ -41,7 +41,7 @@ class GuestCartAddingItemsTest extends WebapiAbstract
     }
 
     /**
-     * Test add to product with custom option and test with updating custom options.
+     * Xindex add to product with custom option and test with updating custom options.
      *
      * @magentoApiDataFixture Magento/Catalog/_files/product_simple_with_custom_options.php
      * @return void
@@ -129,7 +129,7 @@ class GuestCartAddingItemsTest extends WebapiAbstract
     }
 
     /**
-     * Test price for cart after deleting and adding product to.
+     * Xindex price for cart after deleting and adding product to.
      *
      * @magentoApiDataFixture Magento/Catalog/_files/product_without_options_with_stock_data.php
      * @return void

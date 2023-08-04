@@ -11,27 +11,27 @@ return [
     'cache_config_with_notallowed_attribute' => [
         '<?xml version="1.0"?><config>' .
         '<type name="test" translate="label,description" instance="Class\Name" notallowed="some value">' .
-        '<label>Test</label><description>Test</description></type></config>',
+        '<label>Xindex</label><description>Xindex</description></type></config>',
         ["Element 'type', attribute 'notallowed': The attribute 'notallowed' is not allowed.\nLine: 1\n"],
     ],
     'cache_config_without_name_attribute' => [
         '<?xml version="1.0"?><config><type translate="label,description" instance="Class\Name">' .
-        '<label>Test</label><description>Test</description></type></config>',
+        '<label>Xindex</label><description>Xindex</description></type></config>',
         ["Element 'type': The attribute 'name' is required but missing.\nLine: 1\n"],
     ],
     'cache_config_without_instance_attribute' => [
         '<?xml version="1.0"?><config><type name="test" translate="label,description">' .
-        '<label>Test</label><description>Test</description></type></config>',
+        '<label>Xindex</label><description>Xindex</description></type></config>',
         ["Element 'type': The attribute 'instance' is required but missing.\nLine: 1\n"],
     ],
     'cache_config_without_label_element' => [
         '<?xml version="1.0"?><config><type name="test" translate="label,description" instance="Class\Name">' .
-        '<description>Test</description></type></config>',
+        '<description>Xindex</description></type></config>',
         ["Element 'type': Missing child element(s). Expected is ( label ).\nLine: 1\n"],
     ],
     'cache_config_without_description_element' => [
         '<?xml version="1.0"?><config><type name="test" translate="label,description" instance="Class\Name">' .
-        '<label>Test</label></type></config>',
+        '<label>Xindex</label></type></config>',
         ["Element 'type': Missing child element(s). Expected is ( description ).\nLine: 1\n"],
     ],
     'cache_config_without_child_elements' => [

@@ -195,11 +195,11 @@ HTML;
         $pathToFile = $documentationDir;
         $fileName = null;
         foreach ($debugBackTrace as $traceItem) {
-            /** Test invocation trace item is the only item which has 3 elements, other trace items have 5 elements */
+            /** Xindex invocation trace item is the only item which has 3 elements, other trace items have 5 elements */
             if (count($traceItem) == 3) {
                 /** Remove 'test' prefix from method name, e.g. testCreate => create */
                 $fileName = lcfirst(substr($traceItem['function'], 4));
-                /** Remove 'Test' suffix from test class name */
+                /** Remove 'Xindex' suffix from test class name */
                 $pathToFile .= str_replace('\\', '/', substr($traceItem['class'], 0, -4)) . '/';
                 break;
             }

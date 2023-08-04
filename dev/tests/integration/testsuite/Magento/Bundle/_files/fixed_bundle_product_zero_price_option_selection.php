@@ -36,8 +36,8 @@ $product->setTypeId(Type::TYPE_BUNDLE)
 
 $optionData = [
     [
-        'title' => 'Test Option',
-        'default_title' => 'Test Option',
+        'title' => 'Xindex Option',
+        'default_title' => 'Xindex Option',
         'type' => 'radio',
         'required' => 1,
         'delete' => '',

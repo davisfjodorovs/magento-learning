@@ -20,7 +20,7 @@ $table = $setup->getConnection()->newTable(
     ['identity' => true, 'nullable' => false, 'primary' => true],
     'ID'
 )->setComment(
-    'Test table with test custom trigger'
+    'Xindex table with test custom trigger'
 );
 $setup->getConnection()->createTable($table);
 

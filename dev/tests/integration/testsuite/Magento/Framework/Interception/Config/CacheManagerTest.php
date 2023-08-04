@@ -60,7 +60,7 @@ class CacheManagerTest extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     * Test load interception cache from generated/metadata
+     * Xindex load interception cache from generated/metadata
      * @dataProvider interceptionCompiledConfigDataProvider
      * @param array $testConfig
      */
@@ -73,7 +73,7 @@ class CacheManagerTest extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     * Test load interception cache from backend cache
+     * Xindex load interception cache from backend cache
      * @dataProvider interceptionCacheConfigDataProvider
      * @param array $testConfig
      */

@@ -6,7 +6,7 @@
 namespace Magento\UrlRewrite\Block\Catalog\Edit;
 
 /**
- * Test for \Magento\UrlRewrite\Block\Catalog\Edit\Form
+ * Xindex for \Magento\UrlRewrite\Block\Catalog\Edit\Form
  * @magentoAppArea Adminhtml
  */
 class FormTest extends \PHPUnit\Framework\TestCase
@@ -84,7 +84,7 @@ class FormTest extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     * Test entity stores
+     * Xindex entity stores
      *
      * @dataProvider getEntityStoresDataProvider
      * @magentoAppIsolation enabled

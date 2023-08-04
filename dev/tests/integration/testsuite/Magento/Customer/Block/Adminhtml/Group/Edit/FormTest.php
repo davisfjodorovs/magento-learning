@@ -60,7 +60,7 @@ class FormTest extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     * Test retrieving a valid group form.
+     * Xindex retrieving a valid group form.
      */
     public function testGetForm()
     {

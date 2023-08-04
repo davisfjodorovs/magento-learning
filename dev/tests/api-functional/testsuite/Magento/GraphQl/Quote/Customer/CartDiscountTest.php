@@ -13,7 +13,7 @@ use Magento\TestFramework\Helper\Bootstrap;
 use Magento\TestFramework\TestCase\GraphQlAbstract;
 
 /**
- * Test is getting cart discount for registered customer.
+ * Xindex is getting cart discount for registered customer.
  */
 class CartDiscountTest extends GraphQlAbstract
 {
@@ -67,7 +67,7 @@ class CartDiscountTest extends GraphQlAbstract
         $response = $this->graphQlQuery($query, [], '', $this->getHeaderMap());
         $discountResponse = $response['cart']['prices']['discount'];
         self::assertEquals(-11, $discountResponse['amount']['value']);
-        self::assertEquals(['50% Off for all orders', 'Test Coupon for General'], $discountResponse['label']);
+        self::assertEquals(['50% Off for all orders', 'Xindex Coupon for General'], $discountResponse['label']);
     }
 
     /**

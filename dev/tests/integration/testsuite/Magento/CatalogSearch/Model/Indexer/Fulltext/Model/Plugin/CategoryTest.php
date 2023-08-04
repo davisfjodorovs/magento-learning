@@ -16,7 +16,7 @@ use Magento\TestFramework\Helper\Bootstrap;
 use PHPUnit\Framework\TestCase;
 
 /**
- * Test for category repository plugin
+ * Xindex for category repository plugin
  */
 class CategoryTest extends TestCase
 {

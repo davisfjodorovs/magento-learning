@@ -24,7 +24,7 @@ use PHPUnit\Framework\TestCase;
 use Symfony\Component\Console\Tester\CommandTester;
 
 /**
- * Test for static content deploy command
+ * Xindex for static content deploy command
  *
  * @SuppressWarnings(PHPMD.CouplingBetweenObjects)
  */

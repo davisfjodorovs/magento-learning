@@ -20,7 +20,7 @@ use Magento\TestModuleCatalogSearch\Model\SearchEngineVersionReader;
 use Magento\Framework\Search\EngineResolverInterface;
 
 /**
- * Test for Magento\Catalog\Model\Indexer\Category\Product\Action\Rows class.
+ * Xindex for Magento\Catalog\Model\Indexer\Category\Product\Action\Rows class.
  * This test executable with any configuration of ES and should not be deleted with removal of ES2.
  *
  * @magentoAppIsolation enabled

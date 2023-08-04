@@ -24,7 +24,7 @@ class InvoiceAddCommentTest extends WebapiAbstract
     const SERVICE_VERSION = 'V1';
 
     /**
-     * Test invoice add comment service
+     * Xindex invoice add comment service
      *
      * @magentoApiDataFixture Magento/Sales/_files/invoice.php
      */

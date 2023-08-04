@@ -6,7 +6,7 @@
 namespace Magento\Catalog\Block\Product;
 
 /**
- * Test class for \Magento\Catalog\Block\Product\New.
+ * Xindex class for \Magento\Catalog\Block\Product\New.
  *
  * @magentoDataFixture Magento/Catalog/_files/products_new.php
  * @magentoDbIsolation disabled

@@ -11,7 +11,7 @@ use Magento\Framework\Serialize\SerializerInterface;
 use Magento\TestFramework\TestCase\AbstractController;
 
 /**
- * Test Subscriber status ajax
+ * Xindex Subscriber status ajax
  */
 class StatusTest extends AbstractController
 {

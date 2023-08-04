@@ -67,7 +67,7 @@ class UploadTest extends AbstractBackendController
     }
 
     /**
-     * Test upload image on admin product page.
+     * Xindex upload image on admin product page.
      *
      * @dataProvider uploadActionDataProvider
      * @magentoDbIsolation enabled
@@ -144,7 +144,7 @@ class UploadTest extends AbstractBackendController
     }
 
     /**
-     * Test upload image on admin product page.
+     * Xindex upload image on admin product page.
      *
      * @dataProvider uploadActionWithErrorsDataProvider
      * @magentoDbIsolation enabled

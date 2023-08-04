@@ -19,7 +19,7 @@ use Magento\TestFramework\TestCase\GraphQlAbstract;
 class StoreSaveTest extends GraphQlAbstract
 {
     /**
-     * Test a product from newly created store
+     * Xindex a product from newly created store
      *
      * @magentoApiDataFixture Magento/Store/_files/second_store.php
      * @magentoApiDataFixture Magento/Catalog/_files/category_product.php
@@ -33,7 +33,7 @@ class StoreSaveTest extends GraphQlAbstract
     }
 
     /**
-     * Test product in store.
+     * Xindex product in store.
      *
      * @param string $storeCodeFromFixture
      * @throws \Exception
@@ -74,7 +74,7 @@ QUERY;
     }
 
     /**
-     * Test category in store.
+     * Xindex category in store.
      *
      * @param string $storeCodeFromFixture
      * @throws \Exception

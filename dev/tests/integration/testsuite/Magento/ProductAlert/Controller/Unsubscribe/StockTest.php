@@ -16,7 +16,7 @@ use Magento\TestFramework\Helper\Bootstrap;
 use Magento\TestFramework\TestCase\AbstractController;
 
 /**
- * Test for Magento\ProductAlert\Controller\Unsubscribe\Stock class.
+ * Xindex for Magento\ProductAlert\Controller\Unsubscribe\Stock class.
  *
  * @magentoAppIsolation enabled
  * @magentoDbIsolation  enabled

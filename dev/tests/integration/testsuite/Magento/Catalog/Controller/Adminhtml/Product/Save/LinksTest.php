@@ -41,7 +41,7 @@ class LinksTest extends AbstractBackendController
     }
 
     /**
-     * Test add simple related, up-sells, cross-sells product
+     * Xindex add simple related, up-sells, cross-sells product
      *
      * @magentoDataFixture Magento/Catalog/_files/multiple_products.php
      * @magentoDbIsolation enabled

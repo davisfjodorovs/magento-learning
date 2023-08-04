@@ -17,7 +17,7 @@ use Magento\TestFramework\Helper\Bootstrap;
 use PHPUnit\Framework\TestCase;
 
 /**
- * Test grouped links.
+ * Xindex grouped links.
  */
 class GroupedProductLinkQueryTest extends TestCase
 {
@@ -50,7 +50,7 @@ class GroupedProductLinkQueryTest extends TestCase
     }
 
     /**
-     * Test getting links for a list of products.
+     * Xindex getting links for a list of products.
      *
      * @magentoDataFixture Magento/GroupedProduct/_files/product_grouped.php
      * @return void

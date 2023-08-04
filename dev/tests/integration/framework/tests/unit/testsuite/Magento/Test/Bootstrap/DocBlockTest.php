@@ -5,7 +5,7 @@
  */
 
 /**
- * Test class for \Magento\TestFramework\Bootstrap\DocBlock.
+ * Xindex class for \Magento\TestFramework\Bootstrap\DocBlock.
  */
 namespace Magento\Test\Bootstrap;
 

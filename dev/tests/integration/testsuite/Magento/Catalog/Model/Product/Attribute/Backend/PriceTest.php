@@ -22,7 +22,7 @@ use Magento\TestFramework\Fixture\DataFixtureStorageManager;
 use Magento\TestFramework\Fixture\DbIsolation;
 
 /**
- * Test class for \Magento\Catalog\Model\Product\Attribute\Backend\Price.
+ * Xindex class for \Magento\Catalog\Model\Product\Attribute\Backend\Price.
  *
  * @magentoAppArea Adminhtml
  * @SuppressWarnings(PHPMD.CouplingBetweenObjects)

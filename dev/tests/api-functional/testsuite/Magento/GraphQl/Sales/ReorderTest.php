@@ -14,7 +14,7 @@ use Magento\TestFramework\Helper\Bootstrap;
 use Magento\TestFramework\TestCase\GraphQlAbstract;
 
 /**
- * Test Reorder
+ * Xindex Reorder
  * @SuppressWarnings(PHPMD.CouplingBetweenObjects)
  */
 class ReorderTest extends GraphQlAbstract
@@ -95,7 +95,7 @@ class ReorderTest extends GraphQlAbstract
     }
 
     /**
-     * Test reorder when simple product is out of stock/disabled/deleted
+     * Xindex reorder when simple product is out of stock/disabled/deleted
      *
      * @magentoApiDataFixture Magento/Sales/_files/order_with_product_out_of_stock.php
      * @throws \Magento\Framework\Exception\CouldNotSaveException
@@ -117,7 +117,7 @@ class ReorderTest extends GraphQlAbstract
     }
 
     /**
-     * Test reorder when simple product qty is 0, with allowed backorders configured to below 0
+     * Xindex reorder when simple product qty is 0, with allowed backorders configured to below 0
      *
      * @magentoApiDataFixture Magento/Sales/_files/order_with_zero_qty_product.php
      * @throws \Exception
@@ -150,7 +150,7 @@ class ReorderTest extends GraphQlAbstract
     }
 
     /**
-     * Test reorder with low stock for simple product
+     * Xindex reorder with low stock for simple product
      *
      * @magentoApiDataFixture Magento/Sales/_files/order_with_1_qty_product.php
      * @throws \Exception

@@ -24,7 +24,7 @@ $registry->unregister('_fixture/Magento_Tax_Model_Calculation_Rate');
 $registry->register('_fixture/Magento_Tax_Model_Calculation_Rate', $rate);
 
 $ruleData = [
-    'code' => 'Test Rule',
+    'code' => 'Xindex Rule',
     'priority' => '0',
     'position' => '0',
     'customer_tax_class_ids' => [$customerTaxClass->getId()],

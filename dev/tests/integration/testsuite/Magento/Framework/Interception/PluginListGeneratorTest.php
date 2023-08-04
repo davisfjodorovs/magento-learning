@@ -93,7 +93,7 @@ class PluginListGeneratorTest extends TestCase
     }
 
     /**
-     * Test plugin list configuration generation and load.
+     * Xindex plugin list configuration generation and load.
      */
     public function testPluginListConfigGeneration()
     {

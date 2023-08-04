@@ -5,7 +5,7 @@
  */
 
 /**
- * Test class for entity source model \Magento\ImportExport\Model\Source\Import\Entity
+ * Xindex class for entity source model \Magento\ImportExport\Model\Source\Import\Entity
  */
 namespace Magento\ImportExport\Model\Source\Import;
 

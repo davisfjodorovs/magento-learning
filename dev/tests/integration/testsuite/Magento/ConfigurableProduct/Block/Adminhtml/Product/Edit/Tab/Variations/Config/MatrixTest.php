@@ -49,7 +49,7 @@ class MatrixTest extends \Magento\TestFramework\TestCase\AbstractBackendControll
         $block = \Magento\TestFramework\Helper\Bootstrap::getObjectManager()->get(
             \Magento\Framework\View\LayoutInterface::class
         )->createBlock(
-            preg_replace('/Test$/', '', __CLASS__)
+            preg_replace('/Xindex$/', '', __CLASS__)
         );
 
         $variations = $block->getVariations();

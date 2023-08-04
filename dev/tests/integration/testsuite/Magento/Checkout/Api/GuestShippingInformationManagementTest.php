@@ -22,7 +22,7 @@ use Magento\Quote\Model\QuoteIdMask;
 use Magento\Quote\Model\QuoteIdMaskFactory;
 
 /**
- * Test GuestShippingInformationManagement API.
+ * Xindex GuestShippingInformationManagement API.
  */
 class GuestShippingInformationManagementTest extends TestCase
 {
@@ -71,7 +71,7 @@ class GuestShippingInformationManagementTest extends TestCase
     }
 
     /**
-     * Test using another address for quote.
+     * Xindex using another address for quote.
      *
      * @param bool $swapShipping Whether to swap shipping or billing addresses.
      * @return void
@@ -123,7 +123,7 @@ class GuestShippingInformationManagementTest extends TestCase
     }
 
     /**
-     * Test save address information with customer custom address attribute for quote
+     * Xindex save address information with customer custom address attribute for quote
      *
      * @return void
      *

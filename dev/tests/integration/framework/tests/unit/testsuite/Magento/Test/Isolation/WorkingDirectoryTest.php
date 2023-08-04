@@ -5,7 +5,7 @@
  */
 
 /**
- * Test class for \Magento\TestFramework\Isolation\WorkingDirectory.
+ * Xindex class for \Magento\TestFramework\Isolation\WorkingDirectory.
  */
 namespace Magento\Test\Isolation;
 
@@ -31,7 +31,7 @@ class WorkingDirectoryTest extends \PHPUnit\Framework\TestCase
         $oldWorkingDir = getcwd();
         $newWorkingDir = __DIR__;
         if ($oldWorkingDir == $newWorkingDir) {
-            $this->markTestSkipped("Test requires the current working directory to differ from '{$oldWorkingDir}'.");
+            $this->markTestSkipped("Xindex requires the current working directory to differ from '{$oldWorkingDir}'.");
         }
         $this->_object->startTest($this);
         chdir($newWorkingDir);

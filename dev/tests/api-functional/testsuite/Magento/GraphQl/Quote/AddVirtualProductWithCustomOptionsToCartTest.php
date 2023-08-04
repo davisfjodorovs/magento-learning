@@ -43,7 +43,7 @@ class AddVirtualProductWithCustomOptionsToCartTest extends GraphQlAbstract
     }
 
     /**
-     * Test adding a virtual product to the shopping cart with all supported
+     * Xindex adding a virtual product to the shopping cart with all supported
      * customizable options assigned
      *
      * @magentoApiDataFixture Magento/Catalog/_files/product_virtual_with_options.php
@@ -84,7 +84,7 @@ class AddVirtualProductWithCustomOptionsToCartTest extends GraphQlAbstract
     }
 
     /**
-     * Test adding a virtual product with empty values for required options
+     * Xindex adding a virtual product with empty values for required options
      *
      * @magentoApiDataFixture Magento/Catalog/_files/product_virtual_with_options.php
      * @magentoApiDataFixture Magento/Checkout/_files/active_quote.php
@@ -114,10 +114,10 @@ class AddVirtualProductWithCustomOptionsToCartTest extends GraphQlAbstract
     private function getQuery(string $maskedQuoteId, string $sku, float $quantity, string $customizableOptions): string
     {
         return <<<QUERY
-mutation {  
+mutation {
   addVirtualProductsToCart(
     input: {
-      cart_id: "{$maskedQuoteId}", 
+      cart_id: "{$maskedQuoteId}",
       cart_items: [
         {
           data: {

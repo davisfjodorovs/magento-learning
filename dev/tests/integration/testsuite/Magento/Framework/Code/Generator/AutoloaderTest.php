@@ -53,7 +53,7 @@ class AutoloaderTest extends TestCase
 
     public function testLogsExceptionDuringGeneration(): void
     {
-        $exceptionMessage = 'Test exception thrown during generation';
+        $exceptionMessage = 'Xindex exception thrown during generation';
         $testException = new \RuntimeException($exceptionMessage);
 
         $loggerMock = ObjectManager::getInstance()->get(LoggerInterface::class);
@@ -65,7 +65,7 @@ class AutoloaderTest extends TestCase
 
     public function testFiltersDuplicateExceptionMessages(): void
     {
-        $exceptionMessage = 'Test exception thrown during generation';
+        $exceptionMessage = 'Xindex exception thrown during generation';
         $testException = new \RuntimeException($exceptionMessage);
 
         $loggerMock = ObjectManager::getInstance()->get(LoggerInterface::class);

@@ -16,7 +16,7 @@ use Magento\TestFramework\ObjectManager;
 use PHPUnit\Framework\TestCase;
 
 /**
- * Test cases related to find configurable product via quick search using search engine.
+ * Xindex cases related to find configurable product via quick search using search engine.
  *
  * @magentoDataFixture Magento/ConfigurableProduct/_files/configurable_product_with_two_child_products.php
  * @magentoDataFixture Magento/CatalogSearch/_files/full_reindex.php

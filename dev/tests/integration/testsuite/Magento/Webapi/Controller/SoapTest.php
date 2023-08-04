@@ -7,7 +7,7 @@
 namespace Magento\Webapi\Controller;
 
 /**
- * Test for Magento\Webapi\Controller\Soap class.
+ * Xindex for Magento\Webapi\Controller\Soap class.
  */
 class SoapTest extends \PHPUnit\Framework\TestCase
 {

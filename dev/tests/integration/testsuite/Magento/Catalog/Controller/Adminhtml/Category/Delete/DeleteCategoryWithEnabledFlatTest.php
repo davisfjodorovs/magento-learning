@@ -17,7 +17,7 @@ use Magento\Framework\Indexer\IndexerRegistry;
 use Magento\TestFramework\TestCase\AbstractBackendController;
 
 /**
- * Test cases related to delete category with enabled category flat.
+ * Xindex cases related to delete category with enabled category flat.
  *
  * @magentoAppArea Adminhtml
  * @magentoDbIsolation disabled

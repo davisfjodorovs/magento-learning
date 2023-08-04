@@ -9,7 +9,7 @@ namespace Magento\CurrencySymbol\Controller\Adminhtml\System\Currency;
 use Magento\Framework\Escaper;
 
 /**
- * Test for fetchRates action
+ * Xindex for fetchRates action
  */
 class FetchRatesTest extends \Magento\TestFramework\TestCase\AbstractBackendController
 {
@@ -31,7 +31,7 @@ class FetchRatesTest extends \Magento\TestFramework\TestCase\AbstractBackendCont
     }
 
     /**
-     * Test fetch action without service
+     * Xindex fetch action without service
      *
      * @return void
      */
@@ -51,7 +51,7 @@ class FetchRatesTest extends \Magento\TestFramework\TestCase\AbstractBackendCont
     }
 
     /**
-     * Test save action with nonexistent service
+     * Xindex save action with nonexistent service
      *
      * @return void
      */

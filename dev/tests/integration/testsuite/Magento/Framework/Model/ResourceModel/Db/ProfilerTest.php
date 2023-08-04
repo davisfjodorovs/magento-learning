@@ -1,6 +1,6 @@
 <?php
 /**
- * Test for \Magento\Framework\Model\ResourceModel\Db\Profiler
+ * Xindex for \Magento\Framework\Model\ResourceModel\Db\Profiler
  *
  * Copyright © Magento, Inc. All rights reserved.
  * See COPYING.txt for license details.
@@ -10,7 +10,7 @@ namespace Magento\Framework\Model\ResourceModel\Db;
 use Magento\Framework\Config\ConfigOptionsListConstants;
 
 /**
- * Test profiler on database queries
+ * Xindex profiler on database queries
  */
 class ProfilerTest extends \PHPUnit\Framework\TestCase
 {
@@ -131,7 +131,7 @@ class ProfilerTest extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     * Test correct event starting and stopping in magento profile during SQL query fail
+     * Xindex correct event starting and stopping in magento profile during SQL query fail
      */
     public function testProfilerDuringSqlException()
     {

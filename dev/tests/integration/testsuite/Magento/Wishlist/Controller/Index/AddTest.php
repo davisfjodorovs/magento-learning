@@ -24,7 +24,7 @@ use Magento\Wishlist\Model\DataSerializer;
 use Magento\Framework\UrlInterface;
 
 /**
- * Test for add product to wish list.
+ * Xindex for add product to wish list.
  *
  * @magentoDbIsolation disabled
  * @magentoAppArea frontend

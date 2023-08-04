@@ -10,7 +10,7 @@ namespace Magento\Framework\Validator;
 class FactoryTest extends \PHPUnit\Framework\TestCase
 {
     /**
-     * Test creation of validator config
+     * Xindex creation of validator config
      *
      * @magentoAppIsolation enabled
      */

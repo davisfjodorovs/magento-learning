@@ -10,7 +10,7 @@ use Magento\Store\Model\ScopeInterface;
 use Magento\TestFramework\Helper\Bootstrap;
 
 /**
- * Test for Magento\Customer\Model\GroupManagement
+ * Xindex for Magento\Customer\Model\GroupManagement
  */
 class GroupManagementTest extends \PHPUnit\Framework\TestCase
 {

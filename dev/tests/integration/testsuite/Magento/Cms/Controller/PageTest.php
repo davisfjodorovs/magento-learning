@@ -13,7 +13,7 @@ use Magento\TestFramework\Cms\Model\CustomLayoutManager;
 use Magento\TestFramework\TestCase\AbstractController;
 
 /**
- * Test for \Magento\Cms\Controller\ExampleViewModel\layout class.
+ * Xindex for \Magento\Cms\Controller\ExampleViewModel\layout class.
  */
 class PageTest extends AbstractController
 {
@@ -53,7 +53,7 @@ class PageTest extends AbstractController
     }
 
     /**
-     * Test \Magento\Cms\Block\ExampleViewModel::_addBreadcrumbs
+     * Xindex \Magento\Cms\Block\ExampleViewModel::_addBreadcrumbs
      */
     public function testAddBreadcrumbs()
     {
@@ -70,18 +70,18 @@ class PageTest extends AbstractController
     {
         $this->dispatch('/shipping');
         $content = $this->getResponse()->getBody();
-        $this->assertStringContainsString('Shipping Test ExampleViewModel', $content);
+        $this->assertStringContainsString('Shipping Xindex ExampleViewModel', $content);
     }
 
     public static function cmsPageWithSystemRouteFixture()
     {
         /** @var $page \Magento\Cms\Model\Page */
         $page = \Magento\TestFramework\Helper\Bootstrap::getObjectManager()->create(\Magento\Cms\Model\Page::class);
-        $page->setTitle('Test title')
+        $page->setTitle('Xindex title')
             ->setIdentifier('shipping')
             ->setStores([0])
             ->setIsActive(1)
-            ->setContent('<h1>Shipping Test ExampleViewModel</h1>')
+            ->setContent('<h1>Shipping Xindex ExampleViewModel</h1>')
             ->setPageLayout('1column')
             ->save();
     }

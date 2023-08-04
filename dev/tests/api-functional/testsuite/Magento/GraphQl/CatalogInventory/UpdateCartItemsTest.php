@@ -13,7 +13,7 @@ use Magento\TestFramework\Helper\Bootstrap;
 use Magento\TestFramework\TestCase\GraphQlAbstract;
 
 /**
- * Test for updating/removing shopping cart items
+ * Xindex for updating/removing shopping cart items
  */
 class UpdateCartItemsTest extends GraphQlAbstract
 {

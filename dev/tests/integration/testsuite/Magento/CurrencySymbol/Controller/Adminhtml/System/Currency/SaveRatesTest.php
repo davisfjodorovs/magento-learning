@@ -36,7 +36,7 @@ class SaveRatesTest extends \Magento\TestFramework\TestCase\AbstractBackendContr
     }
 
     /**
-     * Test save action
+     * Xindex save action
      *
      * @magentoDbIsolation enabled
      */
@@ -69,7 +69,7 @@ class SaveRatesTest extends \Magento\TestFramework\TestCase\AbstractBackendContr
     }
 
     /**
-     * Test save action with warning
+     * Xindex save action with warning
      *
      * @magentoDbIsolation enabled
      */
@@ -100,7 +100,7 @@ class SaveRatesTest extends \Magento\TestFramework\TestCase\AbstractBackendContr
     }
 
     /**
-     * Test save action with warning
+     * Xindex save action with warning
      *
      * @magentoDbIsolation enabled
      */

@@ -23,7 +23,7 @@ use Magento\TestFramework\TestCase\AbstractBackendController;
 class ProductTest extends AbstractBackendController
 {
     /**
-     * Test bundle product duplicate won't remove bundle options from original product.
+     * Xindex bundle product duplicate won't remove bundle options from original product.
      *
      * @magentoDataFixture Magento/Catalog/_files/products_new.php
      * @return void

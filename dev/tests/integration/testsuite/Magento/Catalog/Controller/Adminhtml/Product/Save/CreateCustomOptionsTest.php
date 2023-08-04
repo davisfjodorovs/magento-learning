@@ -29,7 +29,7 @@ class CreateCustomOptionsTest extends AbstractBackendController
     protected $productSku = 'simple';
 
     /**
-     * Test add to product custom option with type "field".
+     * Xindex add to product custom option with type "field".
      *
      * @dataProvider productWithNewOptionsDataProvider
      *
@@ -78,24 +78,24 @@ class CreateCustomOptionsTest extends AbstractBackendController
                 [
                     'product' => [
                         'options' => [
-                            'Test option title 1' => [
+                            'Xindex option title 1' => [
                                 'record_id' => 0,
                                 'sort_order' => 1,
                                 'is_require' => 1,
                                 'sku' => 'test-option-title-1',
                                 'max_characters' => 50,
-                                'title' => 'Test option title 1',
+                                'title' => 'Xindex option title 1',
                                 'type' => 'field',
                                 'price' => 10,
                                 'price_type' => 'fixed',
                             ],
-                            'Test option title 2' => [
+                            'Xindex option title 2' => [
                                 'record_id' => 1,
                                 'sort_order' => 2,
                                 'is_require' => 1,
                                 'sku' => 'test-option-title-2',
                                 'max_characters' => 50,
-                                'title' => 'Test option title 2',
+                                'title' => 'Xindex option title 2',
                                 'type' => 'field',
                                 'price' => 10,
                                 'price_type' => 'fixed',
@@ -108,24 +108,24 @@ class CreateCustomOptionsTest extends AbstractBackendController
                 [
                     'product' => [
                         'options' => [
-                            'Test option title 1' => [
+                            'Xindex option title 1' => [
                                 'record_id' => 0,
                                 'sort_order' => 1,
                                 'is_require' => 0,
                                 'sku' => 'test-option-title-1',
                                 'max_characters' => 50,
-                                'title' => 'Test option title 1',
+                                'title' => 'Xindex option title 1',
                                 'type' => 'field',
                                 'price' => 10,
                                 'price_type' => 'fixed',
                             ],
-                            'Test option title 2' => [
+                            'Xindex option title 2' => [
                                 'record_id' => 1,
                                 'sort_order' => 2,
                                 'is_require' => 0,
                                 'sku' => 'test-option-title-2',
                                 'max_characters' => 50,
-                                'title' => 'Test option title 2',
+                                'title' => 'Xindex option title 2',
                                 'type' => 'field',
                                 'price' => 10,
                                 'price_type' => 'fixed',
@@ -138,24 +138,24 @@ class CreateCustomOptionsTest extends AbstractBackendController
                 [
                     'product' => [
                         'options' => [
-                            'Test option title 1' => [
+                            'Xindex option title 1' => [
                                 'record_id' => 0,
                                 'sort_order' => 1,
                                 'is_require' => 1,
                                 'sku' => 'test-option-title-1',
                                 'max_characters' => 50,
-                                'title' => 'Test option title 1',
+                                'title' => 'Xindex option title 1',
                                 'type' => 'field',
                                 'price' => 10,
                                 'price_type' => 'fixed',
                             ],
-                            'Test option title 2' => [
+                            'Xindex option title 2' => [
                                 'record_id' => 1,
                                 'sort_order' => 2,
                                 'is_require' => 1,
                                 'sku' => 'test-option-title-2',
                                 'max_characters' => 50,
-                                'title' => 'Test option title 2',
+                                'title' => 'Xindex option title 2',
                                 'type' => 'field',
                                 'price' => 10,
                                 'price_type' => 'percent',
@@ -168,24 +168,24 @@ class CreateCustomOptionsTest extends AbstractBackendController
                 [
                     'product' => [
                         'options' => [
-                            'Test option title 1' => [
+                            'Xindex option title 1' => [
                                 'record_id' => 0,
                                 'sort_order' => 1,
                                 'is_require' => 1,
                                 'sku' => 'test-option-title-1',
                                 'max_characters' => 50,
-                                'title' => 'Test option title 1',
+                                'title' => 'Xindex option title 1',
                                 'type' => 'field',
                                 'price' => 10,
                                 'price_type' => 'fixed',
                             ],
-                            'Test option title 2' => [
+                            'Xindex option title 2' => [
                                 'record_id' => 1,
                                 'sort_order' => 2,
                                 'is_require' => 1,
                                 'sku' => 'test-option-title-2',
                                 'max_characters' => 50,
-                                'title' => 'Test option title 2',
+                                'title' => 'Xindex option title 2',
                                 'type' => 'field',
                                 'price' => 20,
                                 'price_type' => 'percent',
@@ -198,24 +198,24 @@ class CreateCustomOptionsTest extends AbstractBackendController
                 [
                     'product' => [
                         'options' => [
-                            'Test option title 1' => [
+                            'Xindex option title 1' => [
                                 'record_id' => 0,
                                 'sort_order' => 1,
                                 'is_require' => 1,
                                 'sku' => 'test-option-title-1',
                                 'max_characters' => 30,
-                                'title' => 'Test option title 1',
+                                'title' => 'Xindex option title 1',
                                 'type' => 'field',
                                 'price' => 10,
                                 'price_type' => 'fixed',
                             ],
-                            'Test option title 2' => [
+                            'Xindex option title 2' => [
                                 'record_id' => 1,
                                 'sort_order' => 2,
                                 'is_require' => 1,
                                 'sku' => 'test-option-title-2',
                                 'max_characters' => 50,
-                                'title' => 'Test option title 2',
+                                'title' => 'Xindex option title 2',
                                 'type' => 'field',
                                 'price' => 10,
                                 'price_type' => 'fixed',
@@ -228,22 +228,22 @@ class CreateCustomOptionsTest extends AbstractBackendController
                 [
                     'product' => [
                         'options' => [
-                            'Test option title 1' => [
+                            'Xindex option title 1' => [
                                 'record_id' => 0,
                                 'sort_order' => 1,
                                 'is_require' => 1,
                                 'sku' => 'test-option-title-1',
-                                'title' => 'Test option title 1',
+                                'title' => 'Xindex option title 1',
                                 'type' => 'field',
                                 'price' => 10,
                                 'price_type' => 'fixed',
                             ],
-                            'Test option title 2' => [
+                            'Xindex option title 2' => [
                                 'record_id' => 1,
                                 'sort_order' => 2,
                                 'is_require' => 1,
                                 'sku' => 'test-option-title-2',
-                                'title' => 'Test option title 2',
+                                'title' => 'Xindex option title 2',
                                 'type' => 'field',
                                 'price' => 10,
                                 'price_type' => 'fixed',

@@ -20,7 +20,7 @@ use Magento\TestFramework\ObjectManager;
 use PHPUnit\Framework\TestCase;
 
 /**
- * Test cases related to render configurable options.
+ * Xindex cases related to render configurable options.
  *
  * @magentoAppArea frontend
  * @magentoDbIsolation enabled

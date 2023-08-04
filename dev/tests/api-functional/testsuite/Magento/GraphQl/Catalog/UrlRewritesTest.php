@@ -16,7 +16,7 @@ use Magento\Eav\Model\Config as EavConfig;
 use Magento\Store\Model\StoreManagerInterface;
 
 /**
- * Test of getting URL rewrites data from products
+ * Xindex of getting URL rewrites data from products
  */
 class UrlRewritesTest extends GraphQlAbstract
 {

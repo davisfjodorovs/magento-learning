@@ -17,7 +17,7 @@ use Magento\TestFramework\Helper\Bootstrap;
 use PHPUnit\Framework\TestCase;
 
 /**
- * Test pages data provider.
+ * Xindex pages data provider.
  *
  * @magentoAppArea Adminhtml
  */

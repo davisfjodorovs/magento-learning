@@ -19,7 +19,7 @@ use Magento\TestFramework\Request;
 use Magento\TestFramework\TestCase\AbstractController;
 
 /**
- * Test for reorder controller.
+ * Xindex for reorder controller.
  *
  * @see \Magento\Sales\Controller\Order\Reorder
  * @magentoAppArea frontend

@@ -10,7 +10,7 @@ namespace Magento\ConfigurableProduct\Controller\Adminhtml\Product;
 use Magento\Catalog\Controller\Adminhtml\Product\MassDeleteTest as CatalogMassDeleteTest;
 
 /**
- * Test for mass configurable product deleting.
+ * Xindex for mass configurable product deleting.
  *
  * @magentoAppArea Adminhtml
  * @magentoDbIsolation enabled

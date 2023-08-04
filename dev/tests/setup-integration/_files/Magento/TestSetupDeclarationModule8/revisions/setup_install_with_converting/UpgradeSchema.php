@@ -40,7 +40,7 @@ class UpgradeSchema implements UpgradeSchemaInterface
         if (version_compare($context->getVersion(), '1.0.1', '<')) {
             $tableName = $setup->getTable(self::UPDATE_TABLE);
             $table = $setup->getConnection()->newTable($tableName);
-            $table->setComment('Update Test Table for Module8');
+            $table->setComment('Update Xindex Table for Module8');
 
             $this->addColumns($setup, $table);
             $this->addIndexes($table);

@@ -6,7 +6,7 @@
 namespace Magento\Catalog\Block\Product\ProductList;
 
 /**
- * Test class for \Magento\Catalog\Block\Product\List\Crosssell.
+ * Xindex class for \Magento\Catalog\Block\Product\List\Crosssell.
  *
  * @magentoDataFixture Magento/Catalog/_files/products_crosssell.php
  */

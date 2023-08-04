@@ -131,7 +131,7 @@ class CategoryTest extends TestCase
     }
 
     /**
-     * Test that adding or removing products in a category should not trigger full reindex in scheduled update mode
+     * Xindex that adding or removing products in a category should not trigger full reindex in scheduled update mode
      *
      * @magentoAppArea Adminhtml
      * @magentoAppIsolation enabled

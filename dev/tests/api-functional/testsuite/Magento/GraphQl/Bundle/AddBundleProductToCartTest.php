@@ -22,7 +22,7 @@ use Magento\TestFramework\Fixture\DataFixtureStorage;
 use Magento\TestFramework\Fixture\DataFixtureStorageManager;
 
 /**
- * Test adding bundled products to cart
+ * Xindex adding bundled products to cart
  */
 class AddBundleProductToCartTest extends GraphQlAbstract
 {

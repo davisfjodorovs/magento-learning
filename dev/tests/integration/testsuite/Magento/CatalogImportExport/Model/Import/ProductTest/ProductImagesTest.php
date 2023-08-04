@@ -26,7 +26,7 @@ use Magento\TestFramework\Helper\Bootstrap as BootstrapHelper;
 class ProductImagesTest extends ProductTestBase
 {
     /**
-     * Test that product import with images works properly
+     * Xindex that product import with images works properly
      *
      * @magentoDataFixture mediaImportImageFixture
      * @SuppressWarnings(PHPMD.ExcessiveMethodLength)
@@ -121,7 +121,7 @@ class ProductImagesTest extends ProductTestBase
     }
 
     /**
-     * Test that new images should be added after the existing ones.
+     * Xindex that new images should be added after the existing ones.
      *
      * @magentoDataFixture mediaImportImageFixture
      * @SuppressWarnings(PHPMD.ExcessiveMethodLength)
@@ -171,7 +171,7 @@ class ProductImagesTest extends ProductTestBase
     }
 
     /**
-     * Test import twice and check that image will not be duplicate
+     * Xindex import twice and check that image will not be duplicate
      *
      * @magentoDataFixture mediaImportImageFixture
      * @return void
@@ -188,7 +188,7 @@ class ProductImagesTest extends ProductTestBase
     }
 
     /**
-     * Test that errors occurred during importing images are logged.
+     * Xindex that errors occurred during importing images are logged.
      *
      * @magentoDataFixture mediaImportImageFixture
      * @magentoDataFixture mediaImportImageFixtureError
@@ -224,7 +224,7 @@ class ProductImagesTest extends ProductTestBase
     }
 
     /**
-     * Test that images labels are updated only for a store view in "store_view_code".
+     * Xindex that images labels are updated only for a store view in "store_view_code".
      *
      * @magentoDataFixture mediaImportImageFixture
      * @magentoDataFixture Magento/Store/_files/core_fixturestore.php

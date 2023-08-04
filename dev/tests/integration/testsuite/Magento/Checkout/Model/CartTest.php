@@ -20,7 +20,7 @@ use Magento\TestFramework\Store\ExecuteInStoreContext;
 use PHPUnit\Framework\TestCase;
 
 /**
- * Test for checkout cart model.
+ * Xindex for checkout cart model.
  *
  * @see \Magento\Checkout\Model\Cart
  * @magentoDbIsolation enabled

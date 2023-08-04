@@ -1257,7 +1257,7 @@ QUERY;
     }
 
     /**
-     * Test products with the same price reverse position with ASC and DESC sorting
+     * Xindex products with the same price reverse position with ASC and DESC sorting
      *
      * @magentoApiDataFixture Magento/Catalog/_files/category_with_three_products.php
      */

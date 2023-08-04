@@ -137,7 +137,7 @@ class FlatTest extends \Magento\TestFramework\Indexer\TestCase
     }
 
     /**
-     * Test for reindex row action
+     * Xindex for reindex row action
      * Check that category data created at testCreateCategory() were syncing to flat structure
      *
      * @magentoConfigFixture current_store catalog/frontend/flat_catalog_category true
@@ -192,7 +192,7 @@ class FlatTest extends \Magento\TestFramework\Indexer\TestCase
     }
 
     /**
-     * Test for reindex list action
+     * Xindex for reindex list action
      * Check that category data created at testMoveCategory() were syncing to flat structure
      *
      * @magentoConfigFixture current_store catalog/frontend/flat_catalog_category true
@@ -241,7 +241,7 @@ class FlatTest extends \Magento\TestFramework\Indexer\TestCase
     }
 
     /**
-     * Test for reindex row action
+     * Xindex for reindex row action
      * Check that category data deleted at testDeleteCategory() were syncing to flat structure
      *
      * @magentoConfigFixture current_store catalog/frontend/flat_catalog_category true

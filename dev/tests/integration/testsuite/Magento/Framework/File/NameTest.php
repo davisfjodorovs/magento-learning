@@ -12,7 +12,7 @@ use Magento\TestFramework\Helper\Bootstrap;
 use Magento\Framework\Filesystem;
 
 /**
- * Test for \Magento\Framework\File\Name
+ * Xindex for \Magento\Framework\File\Name
  */
 class NameTest extends \PHPUnit\Framework\TestCase
 {

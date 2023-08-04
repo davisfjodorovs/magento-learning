@@ -20,7 +20,7 @@ use Magento\TestFramework\Helper\Bootstrap;
  * @magentoDbIsolation disabled
  * @magentoIndexerDimensionMode catalog_product_price website_and_customer_group
  * @group indexer_dimension
- * Test price rendering according to is_product_list flag for Configurable product
+ * Xindex price rendering according to is_product_list flag for Configurable product
  */
 class RenderingBasedOnIsProductListFlagWithDimensionTest extends \PHPUnit\Framework\TestCase
 {
@@ -79,7 +79,7 @@ class RenderingBasedOnIsProductListFlagWithDimensionTest extends \PHPUnit\Framew
     }
 
     /**
-     * Test when is_product_list flag is not specified. Regular and Special price should be rendered
+     * Xindex when is_product_list flag is not specified. Regular and Special price should be rendered
      *
      * @magentoDataFixture Magento/ConfigurableProduct/_files/product_configurable.php
      * @magentoAppArea frontend
@@ -106,7 +106,7 @@ class RenderingBasedOnIsProductListFlagWithDimensionTest extends \PHPUnit\Framew
     }
 
     /**
-     * Test when is_product_list flag is specified
+     * Xindex when is_product_list flag is specified
      *
      * Special price should be valid
      * FinalPriceBox::hasSpecialPrice should not be call

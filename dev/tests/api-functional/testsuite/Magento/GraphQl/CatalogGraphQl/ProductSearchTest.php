@@ -13,7 +13,7 @@ use Magento\TestFramework\ObjectManager;
 use Magento\TestFramework\TestCase\GraphQlAbstract;
 
 /**
- * Test class to verify product search, used for GraphQL resolver
+ * Xindex class to verify product search, used for GraphQL resolver
  * for configurable product returns only visible products.
  */
 class ProductSearchTest extends GraphQlAbstract
@@ -35,7 +35,7 @@ class ProductSearchTest extends GraphQlAbstract
     }
 
     /**
-     * Test for checking if graphQL query fpr configurable product returns
+     * Xindex for checking if graphQL query fpr configurable product returns
      * expected visible items
      *
      * @magentoApiDataFixture Magento/ConfigurableProduct/_files/configurable_products_with_different_super_attribute.php

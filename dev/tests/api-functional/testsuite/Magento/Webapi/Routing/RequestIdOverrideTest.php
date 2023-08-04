@@ -110,7 +110,7 @@ class RequestIdOverrideTest extends \Magento\Webapi\Routing\BaseService
     }
 
     /**
-     * Test if the framework works if camelCase path parameters are provided instead of valid snake case ones.
+     * Xindex if the framework works if camelCase path parameters are provided instead of valid snake case ones.
      * Webapi Framework currently accepts both cases due to shortcoming in Serialization (MAGETWO-29833).
      * Unless it is fixed this use case is valid.
      */

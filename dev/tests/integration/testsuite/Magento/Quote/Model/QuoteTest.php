@@ -381,7 +381,7 @@ class QuoteTest extends TestCase
     }
 
     /**
-     * Test to verify that reserved_order_id will be changed if it already in used
+     * Xindex to verify that reserved_order_id will be changed if it already in used
      *
      * @magentoDataFixture Magento/Sales/_files/order.php
      * @magentoDataFixture Magento/Quote/_files/empty_quote.php
@@ -398,7 +398,7 @@ class QuoteTest extends TestCase
     }
 
     /**
-     * Test to verify that disabled product cannot be added to cart
+     * Xindex to verify that disabled product cannot be added to cart
      * @magentoDataFixture Magento/Quote/_files/is_not_salable_product.php
      * @return void
      */

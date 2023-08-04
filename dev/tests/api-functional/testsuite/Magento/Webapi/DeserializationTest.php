@@ -27,7 +27,7 @@ class DeserializationTest extends \Magento\TestFramework\TestCase\WebapiAbstract
     }
 
     /**
-     *  Test POST request with empty body
+     *  Xindex POST request with empty body
      */
     public function testPostRequestWithEmptyBody()
     {
@@ -53,7 +53,7 @@ class DeserializationTest extends \Magento\TestFramework\TestCase\WebapiAbstract
     }
 
     /**
-     *  Test PUT request with empty body
+     *  Xindex PUT request with empty body
      */
     public function testPutRequestWithEmptyBody()
     {

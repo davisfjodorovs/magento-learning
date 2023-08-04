@@ -54,7 +54,7 @@ class ServiceVersionV1Test extends \Magento\Webapi\Routing\BaseService
     }
 
     /**
-     *  Test get item
+     *  Xindex get item
      */
     public function testItem()
     {
@@ -72,12 +72,12 @@ class ServiceVersionV1Test extends \Magento\Webapi\Routing\BaseService
     }
 
     /**
-     *  Test get item with any type
+     *  Xindex get item with any type
      * @SuppressWarnings(PHPMD.UnusedLocalVariable)
      */
     public function testItemAnyType()
     {
-        $this->_markTestAsRestOnly('Test will fail for SOAP because attribute values get converted to strings.');
+        $this->_markTestAsRestOnly('Xindex will fail for SOAP because attribute values get converted to strings.');
         $customerAttributes = [
             Item::CUSTOM_ATTRIBUTE_1 => [
                 AttributeValue::ATTRIBUTE_CODE => Item::CUSTOM_ATTRIBUTE_1,
@@ -138,7 +138,7 @@ class ServiceVersionV1Test extends \Magento\Webapi\Routing\BaseService
     }
 
     /**
-     * Test fetching all items
+     * Xindex fetching all items
      */
     public function testItems()
     {
@@ -155,7 +155,7 @@ class ServiceVersionV1Test extends \Magento\Webapi\Routing\BaseService
     }
 
     /**
-     *  Test create item
+     *  Xindex create item
      */
     public function testCreate()
     {
@@ -173,7 +173,7 @@ class ServiceVersionV1Test extends \Magento\Webapi\Routing\BaseService
     }
 
     /**
-     *  Test create item with missing proper resources
+     *  Xindex create item with missing proper resources
      */
     public function testCreateWithoutResources()
     {
@@ -201,7 +201,7 @@ class ServiceVersionV1Test extends \Magento\Webapi\Routing\BaseService
     }
 
     /**
-     *  Test update item
+     *  Xindex update item
      */
     public function testUpdate()
     {
@@ -219,7 +219,7 @@ class ServiceVersionV1Test extends \Magento\Webapi\Routing\BaseService
     }
 
     /**
-     *  Negative Test: Invoking non-existent delete Api which is only available in V2
+     *  Negative Xindex: Invoking non-existent delete Api which is only available in V2
      */
     public function testDelete()
     {

@@ -152,7 +152,7 @@ class PriceTest extends TestCase
     }
 
     /**
-     * Test calculate price by date.
+     * Xindex calculate price by date.
      *
      * @return void
      */
@@ -169,7 +169,7 @@ class PriceTest extends TestCase
     }
 
     /**
-     * Test calculate price by date.
+     * Xindex calculate price by date.
      *
      * @return void
      */

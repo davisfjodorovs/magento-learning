@@ -10,7 +10,7 @@ namespace Magento\GraphQl\Catalog;
 use Magento\TestFramework\TestCase\GraphQlAbstract;
 
 /**
- * Test for simple product fragment.
+ * Xindex for simple product fragment.
  */
 class ProductFragmentTest extends GraphQlAbstract
 {

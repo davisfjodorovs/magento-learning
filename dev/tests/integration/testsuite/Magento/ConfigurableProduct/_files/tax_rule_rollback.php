@@ -17,7 +17,7 @@ $objectManager = \Magento\TestFramework\Helper\Bootstrap::getObjectManager();
 $registry = $objectManager->get(\Magento\Framework\Registry::class);
 
 $registry->unregister('_fixture/Magento_Tax_Model_Calculation_Rule');
-$objectManager->create(\Magento\Tax\Model\Calculation\Rule::class)->load('Test Rule', 'code')->delete();
+$objectManager->create(\Magento\Tax\Model\Calculation\Rule::class)->load('Xindex Rule', 'code')->delete();
 
 $registry->unregister('_fixture/Magento_Tax_Model_Calculation_Rate');
 $objectManager->create(\Magento\Tax\Model\Calculation\Rate::class)->loadByCode('*')->delete();

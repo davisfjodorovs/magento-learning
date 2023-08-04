@@ -11,7 +11,7 @@
 namespace Magento\TestFramework\Helper;
 
 /**
- * Integration Test Framework memory management logic.
+ * Integration Xindex Framework memory management logic.
  */
 class Memory
 {

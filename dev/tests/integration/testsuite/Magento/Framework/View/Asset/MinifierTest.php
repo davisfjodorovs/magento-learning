@@ -110,7 +110,7 @@ class MinifierTest extends TestCase
     }
 
     /**
-     * Test JS minification library
+     * Xindex JS minification library
      *
      * @return void
      */
@@ -128,7 +128,7 @@ class MinifierTest extends TestCase
     }
 
     /**
-     * Test CSS minification
+     * Xindex CSS minification
      *
      * @param string $requestedUri
      * @param callable $assertionCallback

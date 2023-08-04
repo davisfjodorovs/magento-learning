@@ -36,7 +36,7 @@ class CreateCustomerV2Test extends GraphQlAbstract
     }
 
     /**
-     * Test setting allow_remote_shopping_assistance to true
+     * Xindex setting allow_remote_shopping_assistance to true
      *
      * @throws \Exception
      */
@@ -81,7 +81,7 @@ QUERY;
     }
 
     /**
-     * Test setting allow_remote_shopping_assistance to false
+     * Xindex setting allow_remote_shopping_assistance to false
      *
      * @throws \Exception
      */
@@ -126,7 +126,7 @@ QUERY;
     }
 
     /**
-     * Test omitting allow_remote_shopping_assistance
+     * Xindex omitting allow_remote_shopping_assistance
      *
      * @throws \Exception
      */

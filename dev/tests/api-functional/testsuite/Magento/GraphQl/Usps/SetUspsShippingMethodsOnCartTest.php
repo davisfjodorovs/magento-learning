@@ -13,7 +13,7 @@ use Magento\TestFramework\Helper\Bootstrap;
 use Magento\TestFramework\TestCase\GraphQlAbstract;
 
 /**
- * Test for setting USPS shipping method on cart.
+ * Xindex for setting USPS shipping method on cart.
  * Current class covers following base USPS shipping methods:
  *
  * | Code      | Label
@@ -249,9 +249,9 @@ mutation {
           method_title
         }
       }
-    } 
+    }
   }
-}        
+}
 QUERY;
     }
 

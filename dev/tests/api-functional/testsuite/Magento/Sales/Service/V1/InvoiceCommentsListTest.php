@@ -21,7 +21,7 @@ class InvoiceCommentsListTest extends WebapiAbstract
      */
     public function testInvoiceCommentsList()
     {
-        $comment = 'Test comment';
+        $comment = 'Xindex comment';
         $objectManager = \Magento\TestFramework\Helper\Bootstrap::getObjectManager();
 
         /** @var \Magento\Sales\Model\ResourceModel\Order\Invoice\Collection $invoiceCollection */
@@ -44,7 +44,7 @@ class InvoiceCommentsListTest extends WebapiAbstract
             ],
         ];
         $requestData = ['id' => $invoice->getId()];
-        // TODO Test fails, due to the inability of the framework API to handle data collection
+        // TODO Xindex fails, due to the inability of the framework API to handle data collection
         $result = $this->_webApiCall($serviceInfo, $requestData);
         foreach ($result['items'] as $item) {
             /** @var \Magento\Sales\Model\Order\Invoice\Comment $invoiceHistoryStatus */

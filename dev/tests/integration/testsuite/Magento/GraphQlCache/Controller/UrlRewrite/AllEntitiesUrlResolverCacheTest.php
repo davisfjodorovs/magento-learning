@@ -16,7 +16,7 @@ use Magento\Cms\Api\Data\PageInterface;
 use Magento\Cms\Api\GetPageByIdentifierInterface;
 
 /**
- * Test caching works for categoryUrlResolver
+ * Xindex caching works for categoryUrlResolver
  *
  * @magentoAppArea graphql
  * @magentoCache full_page enabled

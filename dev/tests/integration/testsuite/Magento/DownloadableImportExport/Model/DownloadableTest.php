@@ -9,7 +9,7 @@ use Magento\CatalogImportExport\Model\AbstractProductExportImportTestCase;
 use Magento\Catalog\Model\Product;
 
 /**
- * Test export and import downloadable products
+ * Xindex export and import downloadable products
  */
 class DownloadableTest extends AbstractProductExportImportTestCase
 {

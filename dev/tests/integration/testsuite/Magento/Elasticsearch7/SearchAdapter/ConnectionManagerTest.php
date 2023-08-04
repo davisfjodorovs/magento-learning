@@ -36,7 +36,7 @@ class ConnectionManagerTest extends TestCase
     }
 
     /**
-     * Test if 'elasticsearch7' search engine returned by connection manager.
+     * Xindex if 'elasticsearch7' search engine returned by connection manager.
      *
      * @magentoAppIsolation enabled
      * @magentoConfigFixture default/catalog/search/engine elasticsearch7

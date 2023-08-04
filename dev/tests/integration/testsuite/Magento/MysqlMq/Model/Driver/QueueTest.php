@@ -8,7 +8,7 @@ namespace Magento\MysqlMq\Model\Driver;
 use Magento\MysqlMq\Model\Driver\Queue;
 
 /**
- * Test for MySQL queue driver class.
+ * Xindex for MySQL queue driver class.
  *
  * @magentoDbIsolation disabled
  */

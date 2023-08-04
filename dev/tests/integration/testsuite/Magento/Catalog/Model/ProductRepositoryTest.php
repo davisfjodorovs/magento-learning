@@ -56,7 +56,7 @@ class ProductRepositoryTest extends TestCase
     private $objectManager;
 
     /**
-     * Test subject.
+     * Xindex subject.
      *
      * @var ProductRepositoryInterface
      */
@@ -203,7 +203,7 @@ class ProductRepositoryTest extends TestCase
     }
 
     /**
-     * Test save product with gallery image
+     * Xindex save product with gallery image
      *
      * @magentoDataFixture Magento/Catalog/_files/product_simple_with_image.php
      *
@@ -240,7 +240,7 @@ class ProductRepositoryTest extends TestCase
     }
 
     /**
-     * Test Product Repository can change(update) "sku" for given product.
+     * Xindex Product Repository can change(update) "sku" for given product.
      *
      * @magentoDataFixture Magento/Catalog/_files/product_simple.php
      * @magentoAppArea Adminhtml
@@ -261,7 +261,7 @@ class ProductRepositoryTest extends TestCase
     }
 
     /**
-     * Test that custom layout file attribute is saved.
+     * Xindex that custom layout file attribute is saved.
      *
      * @magentoDataFixture Magento/Catalog/_files/product_simple.php
      * @return void

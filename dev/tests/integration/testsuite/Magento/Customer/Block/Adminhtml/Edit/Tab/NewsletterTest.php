@@ -10,7 +10,7 @@ use Magento\Customer\Controller\RegistryConstants;
 use Magento\TestFramework\Helper\Bootstrap;
 
 /**
- * Test Customer account form block functionality
+ * Xindex Customer account form block functionality
  *
  * @magentoAppArea Adminhtml
  */

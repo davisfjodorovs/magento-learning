@@ -17,7 +17,7 @@ use Magento\Framework\Exception\InputException;
 use PHPUnit\Framework\TestCase;
 
 /**
- * Test ShippingInformationManagement API.
+ * Xindex ShippingInformationManagement API.
  */
 class ShippingInformationManagementTest extends TestCase
 {
@@ -54,7 +54,7 @@ class ShippingInformationManagementTest extends TestCase
     }
 
     /**
-     * Test using another address for quote.
+     * Xindex using another address for quote.
      *
      * @param bool $swapShipping Whether to swap shipping or billing addresses.
      * @return void

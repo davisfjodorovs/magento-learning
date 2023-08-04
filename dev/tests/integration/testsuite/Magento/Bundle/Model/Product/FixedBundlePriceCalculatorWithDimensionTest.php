@@ -94,7 +94,7 @@ class FixedBundlePriceCalculatorWithDimensionTest extends BundlePriceAbstract
     }
 
     /**
-     * Test cases for current test
+     * Xindex cases for current test
      * @return array
      * @SuppressWarnings(PHPMD.ExcessiveMethodLength)
      */
@@ -142,7 +142,7 @@ class FixedBundlePriceCalculatorWithDimensionTest extends BundlePriceAbstract
             ],
 
             '
-                #5 Testing price for fixed bundle product 
+                #5 Testing price for fixed bundle product
                 with fixed sub items, fixed options and without any discounts
             ' => [
                 'strategy' => $this->getBundleConfiguration3(
@@ -159,7 +159,7 @@ class FixedBundlePriceCalculatorWithDimensionTest extends BundlePriceAbstract
             ],
 
             '
-                #6 Testing price for fixed bundle product 
+                #6 Testing price for fixed bundle product
                 with percent sub items, percent options and without any discounts
             ' => [
                 'strategy' => $this->getBundleConfiguration3(
@@ -176,7 +176,7 @@ class FixedBundlePriceCalculatorWithDimensionTest extends BundlePriceAbstract
             ],
 
             '
-                #7 Testing price for fixed bundle product 
+                #7 Testing price for fixed bundle product
                 with fixed sub items, percent options and without any discounts
             ' => [
                 'strategy' => $this->getBundleConfiguration3(
@@ -193,7 +193,7 @@ class FixedBundlePriceCalculatorWithDimensionTest extends BundlePriceAbstract
             ],
 
             '
-                #8 Testing price for fixed bundle product 
+                #8 Testing price for fixed bundle product
                 with percent sub items, fixed options and without any discounts
             ' => [
                 'strategy' => $this->getBundleConfiguration3(
@@ -394,7 +394,7 @@ class FixedBundlePriceCalculatorWithDimensionTest extends BundlePriceAbstract
         $customOptionsData = [
             [
                 'price_type' => $customOptionsPriceType,
-                'title' => 'Test Field',
+                'title' => 'Xindex Field',
                 'type' => 'field',
                 'is_require' => 1,
                 'price' => 100,

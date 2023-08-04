@@ -5,7 +5,7 @@
  */
 
 /**
- * Test class for \Magento\CustomerImportExport\Model\Import\Address
+ * Xindex class for \Magento\CustomerImportExport\Model\Import\Address
  */
 namespace Magento\CustomerImportExport\Model\Import;
 
@@ -125,7 +125,7 @@ class AddressTest extends TestCase
     }
 
     /**
-     * Test _saveAddressEntity
+     * Xindex _saveAddressEntity
      *
      * @magentoDataFixture Magento/Customer/_files/import_export/customer_with_addresses.php
      */
@@ -183,7 +183,7 @@ class AddressTest extends TestCase
     }
 
     /**
-     * Test _saveAddressAttributes
+     * Xindex _saveAddressAttributes
      *
      * @magentoDataFixture Magento/Customer/_files/import_export/customer_with_addresses.php
      */
@@ -207,7 +207,7 @@ class AddressTest extends TestCase
         $addressId = $data[1];
         $attributeId = $attributeParams['id'];
         $attributeTable = $attributeParams['table'];
-        $attributeValue = 'Test City';
+        $attributeValue = 'Xindex City';
 
         $attributeArray = [];
         $attributeArray[$attributeTable][$addressId][$attributeId] = $attributeValue;
@@ -228,7 +228,7 @@ class AddressTest extends TestCase
     }
 
     /**
-     * Test _saveCustomerDefaults
+     * Xindex _saveCustomerDefaults
      *
      * @magentoDataFixture Magento/Customer/_files/import_export/customer_with_addresses.php
      */
@@ -297,7 +297,7 @@ class AddressTest extends TestCase
     }
 
     /**
-     * Test import data method with add/update behaviour
+     * Xindex import data method with add/update behaviour
      *
      * @magentoDataFixture Magento/Customer/_files/import_export/customers_for_address_import.php
      */
@@ -398,7 +398,7 @@ class AddressTest extends TestCase
     }
 
     /**
-     * Test import data method with delete behaviour
+     * Xindex import data method with delete behaviour
      *
      * @magentoDataFixture Magento/Customer/_files/import_export/customers_for_address_import.php
      */
@@ -476,7 +476,7 @@ class AddressTest extends TestCase
     }
 
     /**
-     * Test customer indexer gets invalidated after import when Update on Schedule mode is set
+     * Xindex customer indexer gets invalidated after import when Update on Schedule mode is set
      *
      * @magentoDbIsolation enabled
      */
@@ -502,7 +502,7 @@ class AddressTest extends TestCase
     }
 
     /**
-     * Test import address with region for a country that does not have regions defined
+     * Xindex import address with region for a country that does not have regions defined
      *
      * @magentoAppIsolation enabled
      * @magentoDataFixture Magento/Customer/_files/import_export/customer_with_addresses.php
@@ -525,7 +525,7 @@ class AddressTest extends TestCase
     }
 
     /**
-     * Test update first name and last name
+     * Xindex update first name and last name
      *
      * @magentoAppIsolation enabled
      * @magentoDataFixture Magento/Customer/_files/import_export/customer_with_addresses.php

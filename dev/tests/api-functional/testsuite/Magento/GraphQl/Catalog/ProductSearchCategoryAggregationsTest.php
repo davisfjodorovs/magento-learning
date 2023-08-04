@@ -13,7 +13,7 @@ use Magento\TestFramework\ObjectManager;
 use Magento\TestFramework\TestCase\GraphQlAbstract;
 
 /**
- * Test of search by category ID aggregation.
+ * Xindex of search by category ID aggregation.
  */
 class ProductSearchCategoryAggregationsTest extends GraphQlAbstract
 {
@@ -32,7 +32,7 @@ class ProductSearchCategoryAggregationsTest extends GraphQlAbstract
         $this->uid = $this->objectManager->get(Uid::class);
     }
     /**
-     * Test category_id aggregation on filter by "eq" category ID condition.
+     * Xindex category_id aggregation on filter by "eq" category ID condition.
      *
      * @magentoApiDataFixture Magento/Catalog/_files/categories.php
      */
@@ -45,7 +45,7 @@ class ProductSearchCategoryAggregationsTest extends GraphQlAbstract
     }
 
     /**
-     * Test to check aggregation with the store header
+     * Xindex to check aggregation with the store header
      *
      * @magentoApiDataFixture Magento/Catalog/_files/categories.php
      * @magentoApiDataFixture Magento/Store/_files/store_with_second_root_category.php
@@ -80,7 +80,7 @@ class ProductSearchCategoryAggregationsTest extends GraphQlAbstract
     }
 
     /**
-     * Test category_id aggregation on filter by "in" category ID condition.
+     * Xindex category_id aggregation on filter by "in" category ID condition.
      *
      * @magentoApiDataFixture Magento/Catalog/_files/categories.php
      */

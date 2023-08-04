@@ -135,7 +135,7 @@ class ProductAttributeMediaGalleryManagementInterfaceTest extends WebapiAbstract
     }
 
     /**
-     * Test create() method
+     * Xindex create() method
      *
      * @magentoApiDataFixture Magento/Catalog/_files/product_simple.php
      */
@@ -170,7 +170,7 @@ class ProductAttributeMediaGalleryManagementInterfaceTest extends WebapiAbstract
     }
 
     /**
-     * Test create() method without file
+     * Xindex create() method without file
      *
      * @magentoApiDataFixture Magento/Catalog/_files/product_simple.php
      */
@@ -205,7 +205,7 @@ class ProductAttributeMediaGalleryManagementInterfaceTest extends WebapiAbstract
     }
 
     /**
-     * Test create() method with not default store id
+     * Xindex create() method with not default store id
      *
      * @magentoApiDataFixture Magento/Catalog/_files/product_simple.php
      */
@@ -251,7 +251,7 @@ class ProductAttributeMediaGalleryManagementInterfaceTest extends WebapiAbstract
     }
 
     /**
-     * Test update() method
+     * Xindex update() method
      *
      * @magentoApiDataFixture Magento/Catalog/_files/product_with_image.php
      */
@@ -324,7 +324,7 @@ class ProductAttributeMediaGalleryManagementInterfaceTest extends WebapiAbstract
     }
 
     /**
-     * Test update() method with not default store id
+     * Xindex update() method with not default store id
      *
      * @magentoApiDataFixture Magento/Catalog/_files/product_with_image.php
      */
@@ -384,7 +384,7 @@ class ProductAttributeMediaGalleryManagementInterfaceTest extends WebapiAbstract
     }
 
     /**
-     * Test delete() method
+     * Xindex delete() method
      *
      * @magentoApiDataFixture Magento/Catalog/_files/product_with_image_without_types.php
      */
@@ -404,7 +404,7 @@ class ProductAttributeMediaGalleryManagementInterfaceTest extends WebapiAbstract
     }
 
     /**
-     * Test create() method if provided content is not base64 encoded
+     * Xindex create() method if provided content is not base64 encoded
      *
      * @magentoApiDataFixture Magento/Catalog/_files/product_simple.php
      */
@@ -432,7 +432,7 @@ class ProductAttributeMediaGalleryManagementInterfaceTest extends WebapiAbstract
     }
 
     /**
-     * Test create() method if provided content is not an image
+     * Xindex create() method if provided content is not an image
      *
      * @magentoApiDataFixture Magento/Catalog/_files/product_simple.php
      */
@@ -460,7 +460,7 @@ class ProductAttributeMediaGalleryManagementInterfaceTest extends WebapiAbstract
     }
 
     /**
-     * Test create() method if provided image has wrong MIME type
+     * Xindex create() method if provided image has wrong MIME type
      *
      * @magentoApiDataFixture Magento/Catalog/_files/product_simple.php
      */
@@ -488,7 +488,7 @@ class ProductAttributeMediaGalleryManagementInterfaceTest extends WebapiAbstract
     }
 
     /**
-     * Test create method if target product does not exist
+     * Xindex create method if target product does not exist
      *
      */
     public function testCreateThrowsExceptionIfTargetProductDoesNotExist()
@@ -518,7 +518,7 @@ class ProductAttributeMediaGalleryManagementInterfaceTest extends WebapiAbstract
     }
 
     /**
-     * Test create() method if provided image name contains forbidden characters
+     * Xindex create() method if provided image name contains forbidden characters
      *
      * @magentoApiDataFixture Magento/Catalog/_files/product_simple.php
      */
@@ -545,7 +545,7 @@ class ProductAttributeMediaGalleryManagementInterfaceTest extends WebapiAbstract
     }
 
     /**
-     * Test update() method if target product does not exist
+     * Xindex update() method if target product does not exist
      *
      */
     public function testUpdateThrowsExceptionIfTargetProductDoesNotExist()
@@ -573,7 +573,7 @@ class ProductAttributeMediaGalleryManagementInterfaceTest extends WebapiAbstract
     }
 
     /**
-     * Test update() method if there is no image with given id
+     * Xindex update() method if there is no image with given id
      *
      * @magentoApiDataFixture Magento/Catalog/_files/product_with_image.php
      */
@@ -601,7 +601,7 @@ class ProductAttributeMediaGalleryManagementInterfaceTest extends WebapiAbstract
     }
 
     /**
-     * Test delete() method if target product does not exist
+     * Xindex delete() method if target product does not exist
      *
      */
     public function testDeleteThrowsExceptionIfTargetProductDoesNotExist()
@@ -621,7 +621,7 @@ class ProductAttributeMediaGalleryManagementInterfaceTest extends WebapiAbstract
     }
 
     /**
-     * Test delete() method if there is no image with given id
+     * Xindex delete() method if there is no image with given id
      *
      * @magentoApiDataFixture Magento/Catalog/_files/product_with_image.php
      */
@@ -667,7 +667,7 @@ class ProductAttributeMediaGalleryManagementInterfaceTest extends WebapiAbstract
     }
 
     /**
-     * Test get() method
+     * Xindex get() method
      *
      * @magentoApiDataFixture Magento/Catalog/_files/product_with_image.php
      */
@@ -716,7 +716,7 @@ class ProductAttributeMediaGalleryManagementInterfaceTest extends WebapiAbstract
     }
 
     /**
-     * Test getList() method
+     * Xindex getList() method
      *
      * @magentoApiDataFixture Magento/Catalog/_files/product_with_image.php
      */
@@ -750,7 +750,7 @@ class ProductAttributeMediaGalleryManagementInterfaceTest extends WebapiAbstract
     }
 
     /**
-     * Test getList() method for absent sku
+     * Xindex getList() method for absent sku
      */
     public function testGetListForAbsentSku()
     {
@@ -783,7 +783,7 @@ class ProductAttributeMediaGalleryManagementInterfaceTest extends WebapiAbstract
     }
 
     /**
-     * Test addProductVideo() method
+     * Xindex addProductVideo() method
      *
      * @magentoApiDataFixture Magento/Catalog/_files/product_simple.php
      */
@@ -793,7 +793,7 @@ class ProductAttributeMediaGalleryManagementInterfaceTest extends WebapiAbstract
             'media_type' => 'external-video',
             'video_provider' => 'vimeo',
             'video_url' => 'https://vimeo.com/testUrl',
-            'video_title' => 'Vimeo Test Title',
+            'video_title' => 'Vimeo Xindex Title',
             'video_description' => 'test description',
             'video_metadata' => 'video meta data'
         ];

@@ -72,7 +72,7 @@ class AccountTest extends AbstractController
     }
 
     /**
-     * Test sign up form displaying.
+     * Xindex sign up form displaying.
      */
     public function testCreateAction()
     {
@@ -535,7 +535,7 @@ class AccountTest extends AbstractController
     }
 
     /**
-     * Test that confirmation email address displays special characters correctly.
+     * Xindex that confirmation email address displays special characters correctly.
      *
      * @magentoDbIsolation enabled
      * @magentoDataFixture Magento/Customer/_files/customer_confirmation_email_address_with_special_chars.php

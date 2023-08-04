@@ -17,7 +17,7 @@ use PHPUnit\Framework\TestCase;
 class ConfirmationTest extends TestCase
 {
     /**
-     * Test subject.
+     * Xindex subject.
      *
      * @var Confirmation
      */

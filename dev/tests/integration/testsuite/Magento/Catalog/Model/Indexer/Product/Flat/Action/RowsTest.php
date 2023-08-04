@@ -20,7 +20,7 @@ use Magento\TestFramework\Helper\Bootstrap;
 use Magento\TestFramework\Indexer\TestCase;
 
 /**
- * Test for \Magento\Catalog\Model\Indexer\Product\Flat\Action\Rows.
+ * Xindex for \Magento\Catalog\Model\Indexer\Product\Flat\Action\Rows.
  */
 class RowsTest extends TestCase
 {
@@ -63,7 +63,7 @@ class RowsTest extends TestCase
     }
 
     /**
-     * Test update category products
+     * Xindex update category products
      *
      * @magentoDbIsolation disabled
      * @magentoAppIsolation enabled

@@ -32,7 +32,7 @@ class BasePriceStorageTest extends WebapiAbstract
     }
 
     /**
-     * Test get method.
+     * Xindex get method.
      *
      * @magentoApiDataFixture Magento/Catalog/_files/product_simple.php
      */
@@ -60,7 +60,7 @@ class BasePriceStorageTest extends WebapiAbstract
     }
 
     /**
-     * Test update method.
+     * Xindex update method.
      *
      * @magentoApiDataFixture Magento/Catalog/_files/product_simple.php
      */
@@ -100,7 +100,7 @@ class BasePriceStorageTest extends WebapiAbstract
     }
 
     /**
-     * Test update method call with invalid parameters.
+     * Xindex update method call with invalid parameters.
      */
     public function testUpdateWithInvalidParameters()
     {

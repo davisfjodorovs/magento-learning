@@ -17,7 +17,7 @@ use Magento\TestFramework\Helper\Bootstrap;
 use Symfony\Component\Console\Tester\CommandTester;
 
 /**
- * Test for \Magento\MediaStorage\Console\Command\ImagesResizeCommand.
+ * Xindex for \Magento\MediaStorage\Console\Command\ImagesResizeCommand.
  */
 class ImageResizeCommandTest extends \PHPUnit\Framework\TestCase
 {
@@ -67,7 +67,7 @@ class ImageResizeCommandTest extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     * Test that catalog:image:resize command executed successfully with missing image file
+     * Xindex that catalog:image:resize command executed successfully with missing image file
      *
      * @magentoDataFixture Magento/MediaStorage/_files/product_with_missed_image.php
      */
@@ -78,7 +78,7 @@ class ImageResizeCommandTest extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     * Test command with zero byte file
+     * Xindex command with zero byte file
      *
      * @magentoDataFixture Magento/Catalog/_files/product_simple.php
      * @magentoDataFixture Magento/Catalog/_files/product_image.php
@@ -111,7 +111,7 @@ class ImageResizeCommandTest extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     * Test that catalog:image:resize command executes successfully in database storage mode
+     * Xindex that catalog:image:resize command executes successfully in database storage mode
      * with file missing from local folder
      *
      * @magentoDataFixture Magento/MediaStorage/_files/database_mode.php

@@ -15,7 +15,7 @@ use Magento\TestFramework\TestCase\GraphQlAbstract;
 use Magento\GraphQl\Quote\GetMaskedQuoteIdByReservedOrderId;
 
 /**
- * Test class to verify category uid, available as product aggregation type
+ * Xindex class to verify category uid, available as product aggregation type
  */
 class GraphQlSessionTest extends GraphQlAbstract
 {
@@ -46,7 +46,7 @@ class GraphQlSessionTest extends GraphQlAbstract
     }
 
     /**
-     * Test for checking if graphQL query sets session cookies
+     * Xindex for checking if graphQL query sets session cookies
      *
      * @magentoApiDataFixture Magento/Catalog/_files/categories.php
      * @magentoConfigFixture graphql/session/disable 0
@@ -80,7 +80,7 @@ QUERY;
     }
 
     /**
-     * Test for checking if graphQL query does not set session cookies when session is disabled
+     * Xindex for checking if graphQL query does not set session cookies when session is disabled
      *
      * @magentoApiDataFixture Magento/Catalog/_files/categories.php
      * @magentoConfigFixture graphql/session/disable 1

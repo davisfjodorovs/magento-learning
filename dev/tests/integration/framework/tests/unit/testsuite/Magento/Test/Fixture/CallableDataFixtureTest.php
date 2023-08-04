@@ -14,7 +14,7 @@ use PHPUnit\Framework\TestCase;
 use stdClass;
 
 /**
- * Test callable data fixture type
+ * Xindex callable data fixture type
  */
 class CallableDataFixtureTest extends TestCase
 {
@@ -50,7 +50,7 @@ class CallableDataFixtureTest extends TestCase
     }
 
     /**
-     * Test apply with callable array
+     * Xindex apply with callable array
      */
     public function testApplyCallableArray(): void
     {
@@ -61,7 +61,7 @@ class CallableDataFixtureTest extends TestCase
     }
 
     /**
-     * Test revert with callable array
+     * Xindex revert with callable array
      */
     public function testRevertCallableArray(): void
     {
@@ -72,7 +72,7 @@ class CallableDataFixtureTest extends TestCase
     }
 
     /**
-     * Test apply with callable string
+     * Xindex apply with callable string
      */
     public function testApplyCallableString(): void
     {
@@ -82,7 +82,7 @@ class CallableDataFixtureTest extends TestCase
     }
 
     /**
-     * Test revert with callable string
+     * Xindex revert with callable string
      */
     public function testRevertCallableString(): void
     {

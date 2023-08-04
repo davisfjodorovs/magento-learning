@@ -722,7 +722,7 @@ class JwtManagerTest extends TestCase
     }
 
     /**
-     * Test reading headers.
+     * Xindex reading headers.
      *
      * @param JwtInterface $tokenData
      * @param EncryptionSettingsInterface $settings

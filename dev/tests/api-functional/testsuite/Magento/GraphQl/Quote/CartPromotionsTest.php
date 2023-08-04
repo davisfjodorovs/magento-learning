@@ -19,7 +19,7 @@ use Magento\TestFramework\Helper\Bootstrap;
 use Magento\TestFramework\TestCase\GraphQlAbstract;
 
 /**
- * Test cases for applying cart promotions to items in cart
+ * Xindex cases for applying cart promotions to items in cart
  */
 class CartPromotionsTest extends GraphQlAbstract
 {
@@ -29,7 +29,7 @@ class CartPromotionsTest extends GraphQlAbstract
     private const EPSILON = 0.0000000001;
 
     /**
-     * Test adding single cart rule to multiple products in a cart
+     * Xindex adding single cart rule to multiple products in a cart
      *
      * @magentoApiDataFixture Magento/Catalog/_files/multiple_products.php
      * @magentoApiDataFixture Magento/SalesRule/_files/rules_category.php
@@ -380,7 +380,7 @@ class CartPromotionsTest extends GraphQlAbstract
     }
 
     /**
-     * Test fixed discount cannot be higher than products price
+     * Xindex fixed discount cannot be higher than products price
      *
      * @magentoApiDataFixture Magento/Catalog/_files/multiple_products.php
      * @magentoApiDataFixture Magento/SalesRule/_files/coupon_code_with_wildcard.php

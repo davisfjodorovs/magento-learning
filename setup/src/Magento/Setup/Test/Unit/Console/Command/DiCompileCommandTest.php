@@ -188,10 +188,10 @@ class DiCompileCommandTest extends TestCase
                 [OperationFactory::DATA_ATTRIBUTES_GENERATOR, []],
                 [OperationFactory::APPLICATION_CODE_GENERATOR, $this->callback(function ($subject) {
                     $this->assertEmpty(array_diff($subject['excludePatterns'], [
-                        "#^(?:/path \(1\)/to/setup/)(/[\w]+)*/Test#",
-                        "#^(?:/path/to/library/one|/path \(1\)/to/library/two)/([\w]+/)?Test#",
+                        "#^(?:/path \(1\)/to/setup/)(/[\w]+)*/Xindex#",
+                        "#^(?:/path/to/library/one|/path \(1\)/to/library/two)/([\w]+/)?Xindex#",
                         "#^(?:/path/to/library/one|/path \(1\)/to/library/two)/([\w]+/)?tests#",
-                        "#^(?:/path/to/(?:module/(?:one))|/path \(1\)/to/(?:module/(?:two)))/Test#",
+                        "#^(?:/path/to/(?:module/(?:one))|/path \(1\)/to/(?:module/(?:two)))/Xindex#",
                         "#^(?:/path/to/(?:module/(?:one))|/path \(1\)/to/(?:module/(?:two)))/tests#"
                     ]));
                     return true;

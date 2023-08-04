@@ -12,7 +12,7 @@ use Magento\TestFramework\Helper\Bootstrap;
 use Magento\TestFramework\TestCase\GraphQlAbstract;
 
 /**
- * Test is getting cart discount for guest customer.
+ * Xindex is getting cart discount for guest customer.
  */
 class CartDiscountTest extends GraphQlAbstract
 {

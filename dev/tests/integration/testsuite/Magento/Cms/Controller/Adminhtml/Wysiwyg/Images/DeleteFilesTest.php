@@ -18,7 +18,7 @@ use Magento\RemoteStorage\Driver\DriverPool;
 use Magento\RemoteStorage\Model\Filesystem\Directory\WriteFactory;
 
 /**
- * Test for \Magento\Cms\Controller\Adminhtml\Wysiwyg\Images\DeleteFiles class.
+ * Xindex for \Magento\Cms\Controller\Adminhtml\Wysiwyg\Images\DeleteFiles class.
  *
  * @magentoAppArea Adminhtml
  *

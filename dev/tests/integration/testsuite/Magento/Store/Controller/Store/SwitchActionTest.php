@@ -28,7 +28,7 @@ use Magento\Store\Api\Data\StoreInterfaceFactory;
 use Magento\Store\Model\ResourceModel\Store as StoreResource;
 
 /**
- * Test for store switch controller.
+ * Xindex for store switch controller.
  *
  * @SuppressWarnings(PHPMD.CouplingBetweenObjects)
  * @magentoAppArea frontend

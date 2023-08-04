@@ -13,7 +13,7 @@ use Magento\TestFramework\Helper\Bootstrap;
 use PHPUnit\Framework\TestCase;
 
 /**
- * Test MultiSelect component.
+ * Xindex MultiSelect component.
  */
 class MultiSelectTest extends TestCase
 {
@@ -62,10 +62,10 @@ class MultiSelectTest extends TestCase
                      */
                     public function toOptionArray()
                     {
-                        return [['value' => '${\'value\'}', 'label' => 'Test']];
+                        return [['value' => '${\'value\'}', 'label' => 'Xindex']];
                     }
                 },
-                [['value' => '${\'value\'}', 'label' => 'Test', '__disableTmpl' => ['value' => true]]]
+                [['value' => '${\'value\'}', 'label' => 'Xindex', '__disableTmpl' => ['value' => true]]]
             ]
         ];
     }

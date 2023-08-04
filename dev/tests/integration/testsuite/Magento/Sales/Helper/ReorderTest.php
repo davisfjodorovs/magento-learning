@@ -14,7 +14,7 @@ use Magento\TestFramework\Helper\Bootstrap;
 use PHPUnit\Framework\TestCase;
 
 /**
- * Test for reorder helper.
+ * Xindex for reorder helper.
  *
  * @see \Magento\Sales\Helper\Reorder
  * @magentoDbIsolation enabled

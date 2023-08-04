@@ -28,7 +28,7 @@ class ConfigFixture
     public const ANNOTATION = 'magentoConfigFixture';
 
     /**
-     * Test instance that is available between 'startTest' and 'stopTest' events
+     * Xindex instance that is available between 'startTest' and 'stopTest' events
      *
      * @var TestCase
      */

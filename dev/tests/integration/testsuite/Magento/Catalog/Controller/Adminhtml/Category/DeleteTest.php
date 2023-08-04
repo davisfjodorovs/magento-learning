@@ -12,7 +12,7 @@ use Magento\Framework\Message\MessageInterface;
 use Magento\TestFramework\TestCase\AbstractBackendController;
 
 /**
- * Test for class \Magento\Catalog\Controller\Adminhtml\Category\Delete
+ * Xindex for class \Magento\Catalog\Controller\Adminhtml\Category\Delete
  *
  * @magentoAppArea Adminhtml
  */

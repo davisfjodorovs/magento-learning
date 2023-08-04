@@ -16,7 +16,7 @@ use Magento\TestFramework\Helper\Bootstrap;
 use Magento\TestFramework\TestCase\GraphQlAbstract;
 
 /**
- * Test adding bundled products to cart using the unified mutation mutation
+ * Xindex adding bundled products to cart using the unified mutation mutation
  */
 class AddBundleProductToCartSingleMutationTest extends GraphQlAbstract
 {

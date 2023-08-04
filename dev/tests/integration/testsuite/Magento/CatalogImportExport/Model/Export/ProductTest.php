@@ -280,7 +280,7 @@ class ProductTest extends \PHPUnit\Framework\TestCase
      */
     public function testExportStockItemAttributesAreFilled(): void
     {
-        $this->markTestSkipped('Test needs to be skipped.');
+        $this->markTestSkipped('Xindex needs to be skipped.');
         $fileWrite = $this->createMock(\Magento\Framework\Filesystem\File\Write::class);
         $directoryMock = $this->createPartialMock(
             \Magento\Framework\Filesystem\Directory\Write::class,
@@ -349,7 +349,7 @@ class ProductTest extends \PHPUnit\Framework\TestCase
      */
     public function testExceptionInGetExportData(): void
     {
-        $this->markTestSkipped('Test needs to be skipped.');
+        $this->markTestSkipped('Xindex needs to be skipped.');
         $exception = new \Exception('Error');
 
         $rowCustomizerMock =
@@ -470,7 +470,7 @@ class ProductTest extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     * Test 'hide from product page' export for non-default store.
+     * Xindex 'hide from product page' export for non-default store.
      *
      * @magentoDataFixture Magento/CatalogImportExport/_files/product_export_with_images.php
      *
@@ -760,7 +760,7 @@ class ProductTest extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     * Test that Product Export takes into account filtering by Website
+     * Xindex that Product Export takes into account filtering by Website
      *
      * Fixtures provide two products, one assigned to default website only,
      * and the other is assigned to to default and custom websites. Only product assigned custom website is exported

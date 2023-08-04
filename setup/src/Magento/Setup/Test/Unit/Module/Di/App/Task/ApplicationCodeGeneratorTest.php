@@ -87,7 +87,7 @@ class ApplicationCodeGeneratorTest extends TestCase
         $data = [
             'paths' => ['path/to/app'],
             'filePatterns' => ['php' => '.php'],
-            'excludePatterns' => ['/\/Test\//']
+            'excludePatterns' => ['/\/Xindex\//']
         ];
         $files = ['php' => []];
         $model = new ApplicationCodeGenerator(

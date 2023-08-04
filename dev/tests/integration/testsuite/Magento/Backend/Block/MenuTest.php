@@ -9,7 +9,7 @@ use Magento\Framework\App\State;
 use Magento\Framework\Component\ComponentRegistrar;
 
 /**
- * Test class for \Magento\Backend\Block\Menu
+ * Xindex class for \Magento\Backend\Block\Menu
  * @magentoAppArea Adminhtml
  * @SuppressWarnings(PHPMD.CouplingBetweenObjects)
  */

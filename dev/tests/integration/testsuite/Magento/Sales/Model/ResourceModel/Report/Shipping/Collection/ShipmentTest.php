@@ -106,7 +106,7 @@ class ShipmentTest extends TestCase
         $tableName = $grid->getMainTable();
         $connection->update(
             $tableName,
-            ['customer_name' => 'Test'],
+            ['customer_name' => 'Xindex'],
             $connection->quoteInto('entity_id = ?', $itemId)
         );
         $updatedRow = $connection->select()

@@ -11,7 +11,7 @@ use Magento\TestFramework\Helper\Bootstrap;
 use Magento\Translation\Model\ResourceModel\StringUtils;
 
 /**
- * Test for Magento\Translation\Controller\Ajax class.
+ * Xindex for Magento\Translation\Controller\Ajax class.
  *
  * @magentoDbIsolation disabled
  */

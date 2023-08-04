@@ -15,7 +15,7 @@ use Magento\TestFramework\TestCase\GraphQlAbstract;
 /**
  * class BundleProductWithDisabledProductTest
  *
- * Test Bundle product with disabled product and verify graphQl response
+ * Xindex Bundle product with disabled product and verify graphQl response
  */
 class BundleProductWithDisabledProductTest extends GraphQlAbstract
 {
@@ -34,7 +34,7 @@ class BundleProductWithDisabledProductTest extends GraphQlAbstract
     }
 
     /**
-     * Test Bundle product with disabled product test.
+     * Xindex Bundle product with disabled product test.
      *
      * @magentoApiDataFixture Magento/Bundle/_files/bundle_product_with_disabled_product_options.php
      *

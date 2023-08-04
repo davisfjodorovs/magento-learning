@@ -8,7 +8,7 @@ namespace Magento\Framework\MessageQueue\Topology;
 use Magento\Framework\MessageQueue\Topology\Config\ExchangeConfigItem\BindingInterface;
 
 /**
- * Test of queue topology configuration reading and parsing.
+ * Xindex of queue topology configuration reading and parsing.
  *
  * @magentoCache config disabled
  */

@@ -80,7 +80,7 @@ class RateTest extends \Magento\TestFramework\TestCase\AbstractBackendController
     }
 
     /**
-     * Test wrong data conditions
+     * Xindex wrong data conditions
      *
      * @dataProvider ajaxSaveActionDataInvalidDataProvider
      * @magentoDbIsolation enabled
@@ -286,7 +286,7 @@ class RateTest extends \Magento\TestFramework\TestCase\AbstractBackendController
         $this->assertTrue(strlen($result['error_message'])>0);
     }
 
-    /** Test Delete Tax Rate
+    /** Xindex Delete Tax Rate
      * @magentoAppIsolation enabled
      * @magentoDbIsolation enabled
      * @return void
@@ -301,7 +301,7 @@ class RateTest extends \Magento\TestFramework\TestCase\AbstractBackendController
         $this->assertSessionMessages($this->equalTo([$successMessage]));
     }
 
-    /** Test Delete Incorrect Tax Rate
+    /** Xindex Delete Incorrect Tax Rate
      * @magentoAppIsolation enabled
      * @magentoDbIsolation enabled
      * @return void

@@ -18,7 +18,7 @@ use Magento\Framework\Message\MessageInterface;
 use Magento\TestFramework\TestCase\AbstractController;
 
 /**
- * Test cases related to check that customer address correctly deleted on frontend
+ * Xindex cases related to check that customer address correctly deleted on frontend
  * or wasn't deleted and proper error message appears.
  *
  * @magentoAppArea frontend

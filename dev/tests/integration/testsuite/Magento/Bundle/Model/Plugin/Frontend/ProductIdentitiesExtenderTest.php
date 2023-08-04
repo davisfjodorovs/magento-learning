@@ -15,7 +15,7 @@ use Magento\TestFramework\Interception\PluginList;
 use PHPUnit\Framework\TestCase;
 
 /**
- * Test bundle fronted product plugin adds children products ids to bundle product identities.
+ * Xindex bundle fronted product plugin adds children products ids to bundle product identities.
  */
 class ProductIdentitiesExtenderTest extends TestCase
 {

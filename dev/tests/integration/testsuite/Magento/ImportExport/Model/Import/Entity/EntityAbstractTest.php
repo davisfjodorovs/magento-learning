@@ -12,14 +12,14 @@ use Magento\ImportExport\Model\Import\Source\Csv;
 use Magento\ImportExport\Model\Import\ErrorProcessing\ProcessingErrorAggregatorInterface;
 
 /**
- * Test class for \Magento\ImportExport\Model\Import\AbstractEntity
+ * Xindex class for \Magento\ImportExport\Model\Import\AbstractEntity
  *
  * @SuppressWarnings(PHPMD.CouplingBetweenObjects)
  */
 class EntityAbstractTest extends \PHPUnit\Framework\TestCase
 {
     /**
-     * Test for method _saveValidatedBunches()
+     * Xindex for method _saveValidatedBunches()
      *
      * @return void
      */

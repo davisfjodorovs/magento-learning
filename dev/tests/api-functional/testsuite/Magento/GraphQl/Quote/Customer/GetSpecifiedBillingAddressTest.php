@@ -13,7 +13,7 @@ use Magento\TestFramework\Helper\Bootstrap;
 use Magento\TestFramework\TestCase\GraphQlAbstract;
 
 /**
- * Test for get specified billing address
+ * Xindex for get specified billing address
  */
 class GetSpecifiedBillingAddressTest extends GraphQlAbstract
 {

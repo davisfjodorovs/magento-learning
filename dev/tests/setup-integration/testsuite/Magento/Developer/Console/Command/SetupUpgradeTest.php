@@ -14,7 +14,7 @@ use Magento\TestFramework\Helper\Bootstrap;
 use Magento\TestFramework\TestCase\SetupTestCase;
 
 /**
- * Test for Upgrade command.
+ * Xindex for Upgrade command.
  */
 class SetupUpgradeTest extends SetupTestCase
 {

@@ -135,7 +135,7 @@ class SetTest extends \PHPUnit\Framework\TestCase
                 'attribute_code' => 'zzz',
             ],
             'add_to_new_group' => [
-                'group_name' => 'Test',
+                'group_name' => 'Xindex',
                 'attribute_code' => 'zzz',
             ],
             'move_to_existing_group' => [
@@ -143,7 +143,7 @@ class SetTest extends \PHPUnit\Framework\TestCase
                 'attribute_code' => 'description',
             ],
             'move_to_new_group' => [
-                'group_name' => 'Test',
+                'group_name' => 'Xindex',
                 'attribute_code' => 'description',
             ],
         ];

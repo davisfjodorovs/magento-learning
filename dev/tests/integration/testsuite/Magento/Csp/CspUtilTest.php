@@ -10,14 +10,14 @@ namespace Magento\Csp;
 use Magento\TestFramework\TestCase\AbstractController;
 
 /**
- * Test CSP util use cases.
+ * Xindex CSP util use cases.
  *
  * @magentoAppArea frontend
  */
 class CspUtilTest extends AbstractController
 {
     /**
-     * Test that CSP helper for templates works.
+     * Xindex that CSP helper for templates works.
      *
      * @return void
      * @magentoConfigFixture default_store csp/mode/storefront/report_only 0

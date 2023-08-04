@@ -12,12 +12,12 @@ use Magento\TestFramework\Helper\Bootstrap;
 use PHPUnit\Framework\TestCase;
 
 /**
- * Test deferring cache clean up
+ * Xindex deferring cache clean up
  */
 class DeferCacheCleaningTest extends TestCase
 {
     /**
-     * Test that cache tags registrations are deferred if cache context is deferred
+     * Xindex that cache tags registrations are deferred if cache context is deferred
      */
     public function testDeferredCacheCleaning(): void
     {

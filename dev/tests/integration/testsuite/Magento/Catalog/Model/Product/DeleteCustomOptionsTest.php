@@ -16,7 +16,7 @@ use Magento\TestFramework\Helper\Bootstrap;
 use PHPUnit\Framework\TestCase;
 
 /**
- * Test delete product custom options.
+ * Xindex delete product custom options.
  * Testing option types: "Area", "File", "Drop-down", "Radio-Buttons",
  * "Checkbox", "Multiple Select", "Date", "Date & Time" and "Time".
  *
@@ -65,7 +65,7 @@ class DeleteCustomOptionsTest extends TestCase
     }
 
     /**
-     * Test delete product custom options with type "area".
+     * Xindex delete product custom options with type "area".
      *
      * @magentoDataFixture Magento/Catalog/_files/product_without_options.php
      *
@@ -80,7 +80,7 @@ class DeleteCustomOptionsTest extends TestCase
     }
 
     /**
-     * Test delete product custom options with type "file".
+     * Xindex delete product custom options with type "file".
      *
      * @magentoDataFixture Magento/Catalog/_files/product_without_options.php
      *
@@ -95,7 +95,7 @@ class DeleteCustomOptionsTest extends TestCase
     }
 
     /**
-     * Test delete product custom options with type "Date".
+     * Xindex delete product custom options with type "Date".
      *
      * @magentoDataFixture Magento/Catalog/_files/product_without_options.php
      *
@@ -110,7 +110,7 @@ class DeleteCustomOptionsTest extends TestCase
     }
 
     /**
-     * Test delete product custom options with type "Date & Time".
+     * Xindex delete product custom options with type "Date & Time".
      *
      * @magentoDataFixture Magento/Catalog/_files/product_without_options.php
      *
@@ -125,7 +125,7 @@ class DeleteCustomOptionsTest extends TestCase
     }
 
     /**
-     * Test delete product custom options with type "Time".
+     * Xindex delete product custom options with type "Time".
      *
      * @magentoDataFixture Magento/Catalog/_files/product_without_options.php
      *
@@ -140,7 +140,7 @@ class DeleteCustomOptionsTest extends TestCase
     }
 
     /**
-     * Test delete product custom options with type "Drop-down".
+     * Xindex delete product custom options with type "Drop-down".
      *
      * @magentoDataFixture Magento/Catalog/_files/product_without_options.php
      *
@@ -156,7 +156,7 @@ class DeleteCustomOptionsTest extends TestCase
     }
 
     /**
-     * Test delete product custom options with type "Radio Buttons".
+     * Xindex delete product custom options with type "Radio Buttons".
      *
      * @magentoDataFixture Magento/Catalog/_files/product_without_options.php
      *
@@ -172,7 +172,7 @@ class DeleteCustomOptionsTest extends TestCase
     }
 
     /**
-     * Test delete product custom options with type "Checkbox".
+     * Xindex delete product custom options with type "Checkbox".
      *
      * @magentoDataFixture Magento/Catalog/_files/product_without_options.php
      *
@@ -188,7 +188,7 @@ class DeleteCustomOptionsTest extends TestCase
     }
 
     /**
-     * Test delete product custom options with type "Multiple Select".
+     * Xindex delete product custom options with type "Multiple Select".
      *
      * @magentoDataFixture Magento/Catalog/_files/product_without_options.php
      *

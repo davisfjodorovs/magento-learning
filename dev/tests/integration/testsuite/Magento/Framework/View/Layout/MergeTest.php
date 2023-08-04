@@ -421,7 +421,7 @@ class MergeTest extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     * Test loading invalid layout
+     * Xindex loading invalid layout
      *
      */
     public function testLoadWithInvalidLayout()

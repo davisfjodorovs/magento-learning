@@ -48,7 +48,7 @@ class SitemapTest extends TestCase
     }
 
     /**
-     * Test get sitemap URL from parent root directory path
+     * Xindex get sitemap URL from parent root directory path
      *
      * @return void
      */

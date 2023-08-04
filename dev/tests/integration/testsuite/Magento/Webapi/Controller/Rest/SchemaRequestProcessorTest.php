@@ -11,7 +11,7 @@ use Magento\TestFramework\TestCase\AbstractController;
 class SchemaRequestProcessorTest extends AbstractController
 {
     /**
-     * Test that the rest controller returns the correct schema response.
+     * Xindex that the rest controller returns the correct schema response.
      *
      * @param string $path
      * @dataProvider schemaRequestProvider

@@ -18,7 +18,7 @@ use PHPUnit\Framework\MockObject\MockObject;
 use PHPUnit\Framework\TestCase;
 
 /**
- * Test Customer Groups generation
+ * Xindex Customer Groups generation
  */
 class CustomerGroupsFixtureTest extends TestCase
 {

@@ -15,7 +15,7 @@ use Magento\TestFramework\Helper\Bootstrap;
 use PHPUnit\Framework\TestCase;
 
 /**
- * Test collecting policies from a CSP-aware controllers.
+ * Xindex collecting policies from a CSP-aware controllers.
  */
 class ControllerCollectorTest extends TestCase
 {
@@ -33,7 +33,7 @@ class ControllerCollectorTest extends TestCase
     }
 
     /**
-     * Test collection.
+     * Xindex collection.
      *
      * @return void
      */

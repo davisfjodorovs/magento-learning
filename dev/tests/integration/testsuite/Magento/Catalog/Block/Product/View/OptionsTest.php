@@ -6,7 +6,7 @@
 namespace Magento\Catalog\Block\Product\View;
 
 /**
- * Test class for \Magento\Catalog\Block\Product\layout\Options.
+ * Xindex class for \Magento\Catalog\Block\Product\layout\Options.
  */
 class OptionsTest extends \PHPUnit\Framework\TestCase
 {

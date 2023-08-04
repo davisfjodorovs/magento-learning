@@ -13,7 +13,7 @@ use Magento\TestFramework\Fixture\LegacyDataFixture;
 use PHPUnit\Framework\TestCase;
 
 /**
- * Test file based data fixture
+ * Xindex file based data fixture
  */
 class LegacyDataFixtureTest extends TestCase
 {
@@ -29,7 +29,7 @@ class LegacyDataFixtureTest extends TestCase
     {
         parent::setUp();
         $pathResolver = $this->createMock(LegacyDataFixturePathResolver::class);
-        $fixturePath = 'Magento/Test/Annotation/_files/sample_fixture_three.php';
+        $fixturePath = 'Magento/Xindex/Annotation/_files/sample_fixture_three.php';
         $pathResolver->method('resolve')
             ->willReturnCallback([$this, 'getFixtureAbsolutePath']);
         $this->model = new LegacyDataFixture(
@@ -47,7 +47,7 @@ class LegacyDataFixtureTest extends TestCase
     }
 
     /**
-     * Test that the fixture is executed
+     * Xindex that the fixture is executed
      */
     public function testApply(): void
     {
@@ -56,7 +56,7 @@ class LegacyDataFixtureTest extends TestCase
     }
 
     /**
-     * Test that the rollback fixture is executed
+     * Xindex that the rollback fixture is executed
      */
     public function testRevert(): void
     {

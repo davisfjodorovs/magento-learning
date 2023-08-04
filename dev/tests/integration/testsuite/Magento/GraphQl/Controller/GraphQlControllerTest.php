@@ -64,7 +64,7 @@ class GraphQlControllerTest extends \Magento\TestFramework\Indexer\TestCase
     }
 
     /**
-     * Test if a graphql schema is generated and request is dispatched and response generated
+     * Xindex if a graphql schema is generated and request is dispatched and response generated
      *
      * @return void
      */
@@ -114,7 +114,7 @@ QUERY;
     }
 
     /**
-     * Test request is dispatched and response generated when using GET request with query string
+     * Xindex request is dispatched and response generated when using GET request with query string
      *
      * @return void
      */
@@ -155,7 +155,7 @@ QUERY;
         $this->assertEquals($product->getName(), $output['data']['products']['items'][0]['name']);
     }
 
-    /** Test request is dispatched and response generated when using GET request with parameterized query string
+    /** Xindex request is dispatched and response generated when using GET request with parameterized query string
      *
      * @return void
      */
@@ -175,7 +175,7 @@ query GetProducts(\$filterInput:ProductAttributeFilterInput){
             id
             name
             sku
-        }  
+        }
     }
 }
 QUERY;
@@ -207,7 +207,7 @@ QUERY;
     }
 
     /**
-     * Test the errors on graphql output
+     * Xindex the errors on graphql output
      *
      * @return void
      */
@@ -223,12 +223,12 @@ QUERY;
     }
   ])
     {
-      items{        
+      items{
       attribute_code
       attribute_type
       entity_type
-    }      
-    }  
+    }
+    }
   }
 QUERY;
 

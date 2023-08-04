@@ -21,7 +21,7 @@ class LayoutConfigFilesTest extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     * Test a valid layout XML file
+     * Xindex a valid layout XML file
      */
     public function testValidLayoutXmlFile()
     {
@@ -37,7 +37,7 @@ class LayoutConfigFilesTest extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     * Test a layout XML file having an invalid tag element
+     * Xindex a layout XML file having an invalid tag element
      */
     public function testBrokenLayoutXmlFile()
     {

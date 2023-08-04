@@ -75,7 +75,7 @@ class UserTest extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     * Test that user role is not deleted after deleting empty user.
+     * Xindex that user role is not deleted after deleting empty user.
      *
      * @return void
      */
@@ -123,7 +123,7 @@ class UserTest extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     * Test save rp token
+     * Xindex save rp token
      *
      * @throws \Exception
      */

@@ -23,7 +23,7 @@ use Magento\TestFramework\Mail\Template\TransportBuilderMock;
 use PHPUnit\Framework\TestCase;
 
 /**
- * Test creating a customer through GraphQL
+ * Xindex creating a customer through GraphQL
  *
  * @magentoAppArea graphql
  */
@@ -65,7 +65,7 @@ class CreateCustomerTest extends TestCase
     }
 
     /**
-     * Test that creating a customer sends an email
+     * Xindex that creating a customer sends an email
      */
     public function testCreateCustomerSendsEmail()
     {
@@ -75,7 +75,7 @@ mutation createAccount {
     createCustomer(
         input: {
             email: "test@magento.com"
-            firstname: "Test"
+            firstname: "Xindex"
             lastname: "Magento"
             password: "T3stP4assw0rd"
             is_subscribed: false
@@ -96,7 +96,7 @@ QUERY;
 
         // Verify the customer was created and has the correct data
         $customer = $this->customerRepository->get('test@magento.com');
-        $this->assertEquals('Test', $customer->getFirstname());
+        $this->assertEquals('Xindex', $customer->getFirstname());
         $this->assertEquals('Magento', $customer->getLastname());
 
         /** @var TransportBuilderMock $transportBuilderMock */
@@ -105,7 +105,7 @@ QUERY;
 
         // Verify an email was dispatched to the correct user
         $this->assertNotNull($sentMessage);
-        $this->assertEquals('Test Magento', $sentMessage->getTo()[0]->getName());
+        $this->assertEquals('Xindex Magento', $sentMessage->getTo()[0]->getName());
         $this->assertEquals('test@magento.com', $sentMessage->getTo()[0]->getEmail());
 
         // Assert the email contains the expected content
@@ -115,7 +115,7 @@ QUERY;
     }
 
     /**
-     * Test that creating a customer on an alternative store sends an email
+     * Xindex that creating a customer on an alternative store sends an email
      *
      * @magentoDataFixture Magento/CustomerGraphQl/_files/website_store_with_store_view.php
      */
@@ -127,7 +127,7 @@ mutation createAccount {
     createCustomer(
         input: {
             email: "test@magento.com"
-            firstname: "Test"
+            firstname: "Xindex"
             lastname: "Magento"
             password: "T3stP4assw0rd"
             is_subscribed: false
@@ -155,9 +155,9 @@ QUERY;
 
         // Verify the customer was created and has the correct data
         $customer = $this->customerRepository->get('test@magento.com');
-        $this->assertEquals('Test', $customer->getFirstname());
+        $this->assertEquals('Xindex', $customer->getFirstname());
         $this->assertEquals('Magento', $customer->getLastname());
-        $this->assertEquals('Test Store layout', $customer->getCreatedIn());
+        $this->assertEquals('Xindex Store layout', $customer->getCreatedIn());
 
         $store = $this->storeRepository->getById($customer->getStoreId());
         $this->assertEquals('test_store_view', $store->getCode());
@@ -168,28 +168,28 @@ QUERY;
 
         // Verify an email was dispatched to the correct user
         $this->assertNotNull($sentMessage);
-        $this->assertEquals('Test Magento', $sentMessage->getTo()[0]->getName());
+        $this->assertEquals('Xindex Magento', $sentMessage->getTo()[0]->getName());
         $this->assertEquals('test@magento.com', $sentMessage->getTo()[0]->getEmail());
 
         // Assert the email contains the expected content
-        $this->assertEquals('Welcome to Test Group', $sentMessage->getSubject());
+        $this->assertEquals('Welcome to Xindex Group', $sentMessage->getSubject());
         $messageRaw = $sentMessage->getBody()->getParts()[0]->getRawContent();
-        $this->assertStringContainsString('Welcome to Test Group.', $messageRaw);
+        $this->assertStringContainsString('Welcome to Xindex Group.', $messageRaw);
     }
 
     /**
-     * Test that creating a customer on an alternative store sends an email in the translated language
+     * Xindex that creating a customer on an alternative store sends an email in the translated language
      */
     #[
         DataFixture(WebsiteFixture::class, as: 'website2'),
         DataFixture(
             StoreGroupFixture::class,
-            ['name' => 'Test Group', 'website_id' => '$website2.id$'],
+            ['name' => 'Xindex Group', 'website_id' => '$website2.id$'],
             'store_group2'
         ),
         DataFixture(
             StoreFixture::class,
-            ['code' => 'test_store_view', 'name' => 'Test Store layout', 'store_group_id' => '$store_group2.id$']
+            ['code' => 'test_store_view', 'name' => 'Xindex Store layout', 'store_group_id' => '$store_group2.id$']
         ),
         Config('general/locale/code', 'fr_FR', 'store', 'test_store_view'),
         ComponentsDir('Magento/CustomerGraphQl/_files')
@@ -202,7 +202,7 @@ mutation createAccount {
     createCustomer(
         input: {
             email: "test@magento.com"
-            firstname: "Test"
+            firstname: "Xindex"
             lastname: "Magento"
             password: "T3stP4assw0rd"
             is_subscribed: false
@@ -230,9 +230,9 @@ QUERY;
 
         // Verify the customer was created and has the correct data
         $customer = $this->customerRepository->get('test@magento.com');
-        $this->assertEquals('Test', $customer->getFirstname());
+        $this->assertEquals('Xindex', $customer->getFirstname());
         $this->assertEquals('Magento', $customer->getLastname());
-        $this->assertEquals('Test Store layout', $customer->getCreatedIn());
+        $this->assertEquals('Xindex Store layout', $customer->getCreatedIn());
 
         $store = $this->storeRepository->getById($customer->getStoreId());
         $this->assertEquals('test_store_view', $store->getCode());
@@ -243,12 +243,12 @@ QUERY;
 
         // Verify an email was dispatched to the correct user
         $this->assertNotNull($sentMessage);
-        $this->assertEquals('Test Magento', $sentMessage->getTo()[0]->getName());
+        $this->assertEquals('Xindex Magento', $sentMessage->getTo()[0]->getName());
         $this->assertEquals('test@magento.com', $sentMessage->getTo()[0]->getEmail());
 
         // Assert the email contains the expected content
-        $this->assertEquals('Bienvenue sur Test Group', $sentMessage->getSubject());
+        $this->assertEquals('Bienvenue sur Xindex Group', $sentMessage->getSubject());
         $messageRaw = $sentMessage->getBody()->getParts()[0]->getRawContent();
-        $this->assertStringContainsString('Bienvenue sur Test Group.', $messageRaw);
+        $this->assertStringContainsString('Bienvenue sur Xindex Group.', $messageRaw);
     }
 }

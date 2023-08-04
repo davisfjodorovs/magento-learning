@@ -59,7 +59,7 @@ class MysqlTest extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     * Test lost connection re-initializing
+     * Xindex lost connection re-initializing
      *
      * @throws \Exception
      */
@@ -163,7 +163,7 @@ class MysqlTest extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     * Test that Zend_Db_Expr can be used as a column default value.
+     * Xindex that Zend_Db_Expr can be used as a column default value.
      * @see https://github.com/magento/magento2/pull/9131
      */
     public function testCreateTableColumnWithExpressionAsColumnDefaultValue()
@@ -197,7 +197,7 @@ class MysqlTest extends \PHPUnit\Framework\TestCase
                 255,
                 ['default' => 'default test text']
             )
-            ->setComment('Test table column with expression as column default value');
+            ->setComment('Xindex table column with expression as column default value');
         $adapter->createTable($table);
 
         $tableDescription = $adapter->describeTable($tableName);
@@ -212,7 +212,7 @@ class MysqlTest extends \PHPUnit\Framework\TestCase
         $intColumn = $tableDescription['integer_column'];
         $stringColumn = $tableDescription['string_column'];
 
-        //Test default value with expression
+        //Xindex default value with expression
         $this->assertEquals('created_at', $dateColumn['COLUMN_NAME'], 'Incorrect column name');
         $this->assertEquals(Table::TYPE_DATETIME, $dateColumn['DATA_TYPE'], 'Incorrect column type');
         $this->assertMatchesRegularExpression(
@@ -221,19 +221,19 @@ class MysqlTest extends \PHPUnit\Framework\TestCase
             'Incorrect column default expression value'
         );
 
-        //Test default value with integer value
+        //Xindex default value with integer value
         $this->assertEquals('integer_column', $intColumn['COLUMN_NAME'], 'Incorrect column name');
         $this->assertEquals('int', $intColumn['DATA_TYPE'], 'Incorrect column type');
         $this->assertEquals(123456, $intColumn['DEFAULT'], 'Incorrect column default integer value');
 
-        //Test default value with string value
+        //Xindex default value with string value
         $this->assertEquals('string_column', $stringColumn['COLUMN_NAME'], 'Incorrect column name');
         $this->assertEquals('varchar', $stringColumn['DATA_TYPE'], 'Incorrect column type');
         $this->assertEquals('default test text', $stringColumn['DEFAULT'], 'Incorrect column default string value');
     }
 
     /**
-     * Test get auto increment field
+     * Xindex get auto increment field
      *
      * @param array $options
      * @param string|bool $expected
@@ -271,7 +271,7 @@ class MysqlTest extends \PHPUnit\Framework\TestCase
                 255,
                 ['default' => 'default test text']
             )
-            ->setComment('Test table with auto increment column');
+            ->setComment('Xindex table with auto increment column');
         $adapter->createTable($table);
         $autoIncrementField = $adapter->getAutoIncrementField($tableName);
         $this->assertEquals($expected, $autoIncrementField);

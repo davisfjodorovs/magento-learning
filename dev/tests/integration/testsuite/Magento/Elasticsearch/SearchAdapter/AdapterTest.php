@@ -143,7 +143,7 @@ class AdapterTest extends \PHPUnit\Framework\TestCase
     public function testMatchOrderedQuery()
     {
         $this->markTestSkipped(
-            'Elasticsearch not expected to order results by default. Test is skipped intentionally.'
+            'Elasticsearch not expected to order results by default. Xindex is skipped intentionally.'
         );
         $expectedIds = [8, 7, 6, 5, 2];
 
@@ -339,7 +339,7 @@ class AdapterTest extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     * Test bool filter with nested negative bool filter
+     * Xindex bool filter with nested negative bool filter
      *
      * @magentoAppIsolation enabled
      * phpcs:disable Generic.CodeAnalysis.UselessOverridingMethod
@@ -358,7 +358,7 @@ class AdapterTest extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     * Test range inside nested negative bool filter
+     * Xindex range inside nested negative bool filter
      *
      * @magentoAppIsolation enabled
      * phpcs:disable Generic.CodeAnalysis.UselessOverridingMethod
@@ -457,7 +457,7 @@ class AdapterTest extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     * Test filtering by two attributes.
+     * Xindex filtering by two attributes.
      *
      * @magentoAppIsolation enabled
      * @magentoDataFixture Magento/Framework/Search/_files/filterable_attributes.php

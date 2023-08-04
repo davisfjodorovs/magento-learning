@@ -18,7 +18,7 @@ use PHPUnit\Framework\TestCase;
 use Magento\Quote\Model\QuoteIdMaskFactory;
 
 /**
- * Test order confirmation email for downloadable product.
+ * Xindex order confirmation email for downloadable product.
  *
  * @magentoDbIsolation enabled
  * @magentoAppArea frontend

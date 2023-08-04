@@ -42,7 +42,7 @@ class DateAttributeTest extends AbstractAttributeTest
      */
     public function testAttributeWithDefaultValueView(): void
     {
-        $this->markTestSkipped('Test is blocked by issue MC-28950');
+        $this->markTestSkipped('Xindex is blocked by issue MC-28950');
         $this->processDefaultValueAttributeView('simple2', $this->getDefaultAttributeValue());
     }
 

@@ -11,7 +11,7 @@ use Magento\Framework\App\ProductMetadataInterface;
 use Magento\Store\Model\StoreManagerInterface;
 
 /**
- * Test REST schema generation mechanisms.
+ * Xindex REST schema generation mechanisms.
  */
 class JsonGenerationFromDataObjectTest extends \Magento\TestFramework\TestCase\WebapiAbstract
 {

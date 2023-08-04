@@ -19,7 +19,7 @@ use Magento\TestFramework\Helper\Bootstrap;
 use PHPUnit\Framework\TestCase;
 
 /**
- * Test for catalog_category_product indexer.
+ * Xindex for catalog_category_product indexer.
  *
  * @magentoDataFixture Magento/Catalog/_files/indexer_catalog_category.php
  * @magentoDataFixture Magento/Catalog/_files/indexer_catalog_products.php

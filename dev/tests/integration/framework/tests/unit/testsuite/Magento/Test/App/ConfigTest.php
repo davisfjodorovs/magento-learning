@@ -5,7 +5,7 @@
  */
 
 /**
- * Test class for \Magento\TestFramework\App\Config.
+ * Xindex class for \Magento\TestFramework\App\Config.
  */
 namespace Magento\Test\App;
 

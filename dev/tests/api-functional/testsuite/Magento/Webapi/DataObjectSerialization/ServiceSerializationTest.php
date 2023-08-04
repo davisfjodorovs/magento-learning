@@ -25,12 +25,12 @@ class ServiceSerializationTest extends \Magento\TestFramework\TestCase\WebapiAbs
     }
 
     /**
-     *  Test simple request data
+     *  Xindex simple request data
      */
     public function testGetServiceCall()
     {
         $itemId = 1;
-        $name = 'Test';
+        $name = 'Xindex';
         $serviceInfo = [
             'rest' => [
                 'resourcePath' => $this->_restResourcePath . $itemId,
@@ -43,12 +43,12 @@ class ServiceSerializationTest extends \Magento\TestFramework\TestCase\WebapiAbs
     }
 
     /**
-     *  Test multiple params with Data Object
+     *  Xindex multiple params with Data Object
      */
     public function testUpdateServiceCall()
     {
         $itemId = 1;
-        $name = 'Test';
+        $name = 'Xindex';
         $serviceInfo = [
             'rest' => [
                 'resourcePath' => $this->_restResourcePath . $itemId,
@@ -61,12 +61,12 @@ class ServiceSerializationTest extends \Magento\TestFramework\TestCase\WebapiAbs
     }
 
     /**
-     *  Test nested Data Object
+     *  Xindex nested Data Object
      */
     public function testNestedDataObjectCall()
     {
         $itemId = 1;
-        $name = 'Test';
+        $name = 'Xindex';
         $serviceInfo = [
             'rest' => [
                 'resourcePath' => $this->_restResourcePath . $itemId . '/nested',

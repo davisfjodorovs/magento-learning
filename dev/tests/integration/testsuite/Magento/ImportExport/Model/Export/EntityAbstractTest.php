@@ -5,7 +5,7 @@
  */
 
 /**
- * Test for abstract export model
+ * Xindex for abstract export model
  */
 namespace Magento\ImportExport\Model\Export;
 
@@ -43,7 +43,7 @@ class EntityAbstractTest extends \PHPUnit\Framework\TestCase
     {
         $errorCode = 'test_error';
         $errorNum = 1;
-        $errorMessage = 'Test error!';
+        $errorMessage = 'Xindex error!';
         $this->_model->addMessageTemplate($errorCode, $errorMessage);
         $this->_model->addRowError($errorCode, $errorNum);
 
@@ -77,7 +77,7 @@ class EntityAbstractTest extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     * Test for method filterAttributeCollection
+     * Xindex for method filterAttributeCollection
      */
     public function testFilterAttributeCollection()
     {

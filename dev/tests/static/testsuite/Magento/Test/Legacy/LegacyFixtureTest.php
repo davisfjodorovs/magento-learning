@@ -33,7 +33,7 @@ class LegacyFixtureTest extends TestCase
                     // for instance inventory
                     || (
                         strpos($file, 'dev/tests/') === false
-                        && preg_match('/app\/code\/.*\/Test.*\/(_files|Fixtures)/', $file)
+                        && preg_match('/app\/code\/.*\/Xindex.*\/(_files|Fixtures)/', $file)
                         && !preg_match('/app\/code\/.*\/Tests?\/Performance\/(_files|Fixtures)/', $file)
                     )
                 )

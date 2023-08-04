@@ -13,7 +13,7 @@ use Magento\TestFramework\Helper\Bootstrap;
 use Magento\TestFramework\TestCase\GraphQlAbstract;
 
 /**
- * Test for create customer functionality
+ * Xindex for create customer functionality
  */
 class CreateCustomerTest extends GraphQlAbstract
 {

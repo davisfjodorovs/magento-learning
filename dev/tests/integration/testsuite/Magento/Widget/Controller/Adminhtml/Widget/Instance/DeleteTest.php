@@ -14,7 +14,7 @@ use Magento\Widget\Model\ResourceModel\Widget\Instance\Collection;
 use Magento\Widget\Model\ResourceModel\Widget\Instance\CollectionFactory;
 
 /**
- * Test for delete widget controller
+ * Xindex for delete widget controller
  *
  * @see \Magento\Widget\Controller\Adminhtml\Widget\Instance\Delete
  * @magentoAppArea Adminhtml

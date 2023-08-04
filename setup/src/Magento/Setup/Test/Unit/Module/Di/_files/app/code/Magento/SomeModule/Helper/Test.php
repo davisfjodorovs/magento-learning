@@ -30,7 +30,7 @@ class Test
     protected $_newElementFactory;
 
     /**
-     * Test constructor.
+     * Xindex constructor.
      * @param \Magento\SomeModule\Module\Factory $factory
      * @param \Magento\SomeModule\Element\Factory $elementFactory
      * @param ElementFactory $rightElementFactory

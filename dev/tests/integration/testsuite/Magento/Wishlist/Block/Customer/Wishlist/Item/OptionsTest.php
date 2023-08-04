@@ -5,7 +5,7 @@
  */
 
 /**
- * Test class for \Magento\Wishlist\Block\Customer\Wishlist\Item\Options.
+ * Xindex class for \Magento\Wishlist\Block\Customer\Wishlist\Item\Options.
  */
 namespace Magento\Wishlist\Block\Customer\Wishlist\Item;
 

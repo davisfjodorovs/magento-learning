@@ -353,7 +353,7 @@ class CompilerTest extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     * Test consistency of plugin interfaces
+     * Xindex consistency of plugin interfaces
      */
     public function testPluginInterfaces()
     {

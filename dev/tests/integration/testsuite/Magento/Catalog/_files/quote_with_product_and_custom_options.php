@@ -9,7 +9,7 @@ Resolver::getInstance()->requireDataFixture('Magento/Catalog/_files/product_simp
 Resolver::getInstance()->requireDataFixture('Magento/Checkout/_files/active_quote.php');
 
 $optionValue = [
-    'field' => 'Test value',
+    'field' => 'Xindex value',
     'date_time' => [
         'year' => '2015',
         'month' => '9',

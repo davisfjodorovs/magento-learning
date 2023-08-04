@@ -17,7 +17,7 @@ use Magento\Catalog\Api\ProductRepositoryInterface;
 use Magento\Ui\Component\Form\Element\Select;
 
 /**
- * Test coverage for updating a bundle product from wishlist
+ * Xindex coverage for updating a bundle product from wishlist
  */
 class UpdateBundleProductsFromWishlistTest extends GraphQlAbstract
 {
@@ -48,7 +48,7 @@ class UpdateBundleProductsFromWishlistTest extends GraphQlAbstract
     }
 
     /**
-     * Test that a wishlist item bundle product is properly updated.
+     * Xindex that a wishlist item bundle product is properly updated.
      *
      * This includes the selected options for the bundle product.
      *

@@ -13,7 +13,7 @@ use Magento\TestFramework\Helper\Bootstrap;
 use Magento\TestFramework\TestCase\GraphQlAbstract;
 
 /**
- * Test for get available shipping methods
+ * Xindex for get available shipping methods
  */
 class GetAvailableShippingMethodsTest extends GraphQlAbstract
 {
@@ -38,7 +38,7 @@ class GetAvailableShippingMethodsTest extends GraphQlAbstract
     }
 
     /**
-     * Test case: get available shipping methods from current customer quote
+     * Xindex case: get available shipping methods from current customer quote
      *
      * @magentoApiDataFixture Magento/Customer/_files/customer.php
      * @magentoApiDataFixture Magento/GraphQl/Catalog/_files/simple_product.php
@@ -83,7 +83,7 @@ class GetAvailableShippingMethodsTest extends GraphQlAbstract
     }
 
     /**
-     * Test case: get available shipping methods from current customer quote with configurable product
+     * Xindex case: get available shipping methods from current customer quote with configurable product
      *
      * @magentoApiDataFixture Magento/Customer/_files/customer.php
      * @magentoApiDataFixture Magento/GraphQl/Quote/_files/customer/create_empty_cart.php
@@ -147,7 +147,7 @@ class GetAvailableShippingMethodsTest extends GraphQlAbstract
     }
 
     /**
-     * Test case: get available shipping methods from quote of another customer
+     * Xindex case: get available shipping methods from quote of another customer
      *
      * _security
      * @magentoApiDataFixture Magento/Customer/_files/three_customers.php
@@ -168,7 +168,7 @@ class GetAvailableShippingMethodsTest extends GraphQlAbstract
     }
 
     /**
-     * Test case: get available shipping methods when all shipping methods are disabled
+     * Xindex case: get available shipping methods when all shipping methods are disabled
      *
      * @magentoApiDataFixture Magento/Customer/_files/customer.php
      * @magentoApiDataFixture Magento/GraphQl/Catalog/_files/simple_product.php
@@ -188,7 +188,7 @@ class GetAvailableShippingMethodsTest extends GraphQlAbstract
     }
 
     /**
-     * Test case: get available shipping methods from non-existent cart
+     * Xindex case: get available shipping methods from non-existent cart
      *
      * @magentoApiDataFixture Magento/Customer/_files/customer.php
      */

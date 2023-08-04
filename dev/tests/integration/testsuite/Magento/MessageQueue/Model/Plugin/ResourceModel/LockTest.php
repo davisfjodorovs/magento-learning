@@ -40,7 +40,7 @@ class LockTest extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     * Test to ensure Queue Lock Table is cleared when maintenance mode transitions from on to off.
+     * Xindex to ensure Queue Lock Table is cleared when maintenance mode transitions from on to off.
      *
      * @return void
      */

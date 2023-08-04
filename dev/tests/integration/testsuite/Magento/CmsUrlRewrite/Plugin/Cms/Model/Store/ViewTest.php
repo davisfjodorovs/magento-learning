@@ -25,7 +25,7 @@ use Magento\UrlRewrite\Service\V1\Data\UrlRewriteFactory;
 use PHPUnit\Framework\TestCase;
 
 /**
- * Test for plugin which is listening store resource model and on save replace cms page url rewrites.
+ * Xindex for plugin which is listening store resource model and on save replace cms page url rewrites.
  *
  * @magentoAppArea Adminhtml
  * @SuppressWarnings(PHPMD.CouplingBetweenObjects)
@@ -82,7 +82,7 @@ class ViewTest extends TestCase
     }
 
     /**
-     * Test of replacing cms page url rewrites on create and delete store
+     * Xindex of replacing cms page url rewrites on create and delete store
      *
      * @magentoDataFixture Magento/Cms/_files/two_cms_page_with_same_url_for_different_stores.php
      * @magentoDataFixture Magento/Cms/_files/pages.php
@@ -122,7 +122,7 @@ class ViewTest extends TestCase
     {
         $store = $this->storeFactory->create();
         $store->setCode('test_' . random_int(0, 999))
-            ->setName('Test Store')
+            ->setName('Xindex Store')
             ->unsId()
             ->save();
 

@@ -5,7 +5,7 @@
  */
 
 /**
- * Test class for \Magento\Cms\Controller\ExampleViewModel.
+ * Xindex class for \Magento\Cms\Controller\ExampleViewModel.
  */
 
 namespace Magento\Cms\Controller\Noroute;

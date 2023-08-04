@@ -10,7 +10,7 @@ namespace Magento\GraphQl\PaymentGraphQl;
 use Magento\TestFramework\TestCase\GraphQlAbstract;
 
 /**
- * Test coverage for zero subtotal and check/money order payment methods in the store config
+ * Xindex coverage for zero subtotal and check/money order payment methods in the store config
  *
  * @magentoDbIsolation enabled
  */
@@ -41,7 +41,7 @@ class StoreConfigTest extends GraphQlAbstract
 QUERY;
 
     /**
-     * Test that storeConfig is correct for default configuration values.
+     * Xindex that storeConfig is correct for default configuration values.
      *
      * @throws \Exception
      */
@@ -86,7 +86,7 @@ QUERY;
     }
 
     /**
-     * Test that storeConfig is correct when zero subtotal and check/money order payment methods are disabled.
+     * Xindex that storeConfig is correct when zero subtotal and check/money order payment methods are disabled.
      *
      * @magentoConfigFixture default/payment/free/active 0
      * @magentoConfigFixture default/payment/checkmo/active 0
@@ -134,18 +134,18 @@ QUERY;
     }
 
     /**
-     * Test that storeConfig is correct for custom values.
+     * Xindex that storeConfig is correct for custom values.
      *
-     * @magentoConfigFixture default/payment/free/title Test Zero Subtotal Title
+     * @magentoConfigFixture default/payment/free/title Xindex Zero Subtotal Title
      * @magentoConfigFixture default/payment/free/order_status processing
      * @magentoConfigFixture default/payment/free/allowspecific 1
      * @magentoConfigFixture default/payment/free/specificcountry DZ
      * @magentoConfigFixture default/payment/free/sort_order 5
-     * @magentoConfigFixture default/payment/checkmo/title Test Check / Money Order Title
+     * @magentoConfigFixture default/payment/checkmo/title Xindex Check / Money Order Title
      * @magentoConfigFixture default/payment/checkmo/allowspecific 1
      * @magentoConfigFixture default/payment/checkmo/specificcountry BR
-     * @magentoConfigFixture default/payment/checkmo/payable_to Test Payee
-     * @magentoConfigFixture default/payment/checkmo/mailing_address Test Address
+     * @magentoConfigFixture default/payment/checkmo/payable_to Xindex Payee
+     * @magentoConfigFixture default/payment/checkmo/mailing_address Xindex Address
      * @magentoConfigFixture default/payment/checkmo/min_order_total 5.00
      * @magentoConfigFixture default/payment/checkmo/max_order_total 5555.00
      * @magentoConfigFixture default/payment/checkmo/sort_order 7
@@ -174,19 +174,19 @@ QUERY;
         self::assertArrayHasKey('check_money_order_sort_order', $response['storeConfig']);
 
         self::assertTrue($response['storeConfig']['zero_subtotal_enabled']);
-        self::assertEquals('Test Zero Subtotal Title', $response['storeConfig']['zero_subtotal_title']);
+        self::assertEquals('Xindex Zero Subtotal Title', $response['storeConfig']['zero_subtotal_title']);
         self::assertEquals('processing', $response['storeConfig']['zero_subtotal_new_order_status']);
         self::assertEquals('authorize_capture', $response['storeConfig']['zero_subtotal_payment_action']);
         self::assertTrue($response['storeConfig']['zero_subtotal_enable_for_specific_countries']);
         self::assertEquals('DZ', $response['storeConfig']['zero_subtotal_payment_from_specific_countries']);
         self::assertEquals(5, $response['storeConfig']['zero_subtotal_sort_order']);
         self::assertTrue($response['storeConfig']['check_money_order_enabled']);
-        self::assertEquals('Test Check / Money Order Title', $response['storeConfig']['check_money_order_title']);
+        self::assertEquals('Xindex Check / Money Order Title', $response['storeConfig']['check_money_order_title']);
         self::assertEquals('pending', $response['storeConfig']['check_money_order_new_order_status']);
         self::assertTrue($response['storeConfig']['check_money_order_enable_for_specific_countries']);
         self::assertEquals('BR', $response['storeConfig']['check_money_order_payment_from_specific_countries']);
-        self::assertEquals('Test Payee', $response['storeConfig']['check_money_order_make_check_payable_to']);
-        self::assertEquals('Test Address', $response['storeConfig']['check_money_order_send_check_to']);
+        self::assertEquals('Xindex Payee', $response['storeConfig']['check_money_order_make_check_payable_to']);
+        self::assertEquals('Xindex Address', $response['storeConfig']['check_money_order_send_check_to']);
         self::assertEquals('5.00', $response['storeConfig']['check_money_order_min_order_total']);
         self::assertEquals('5555.00', $response['storeConfig']['check_money_order_max_order_total']);
         self::assertEquals(7, $response['storeConfig']['check_money_order_sort_order']);

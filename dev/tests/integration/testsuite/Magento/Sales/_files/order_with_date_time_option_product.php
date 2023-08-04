@@ -29,7 +29,7 @@ $repository = $objectManager->create(\Magento\Catalog\Model\ProductRepository::c
 $product = $repository->get('simple');
 
 $optionValuesByType = [
-    'field' => 'Test value',
+    'field' => 'Xindex value',
     'date_time' => [
         'month' => '3',
         'day' => '5',

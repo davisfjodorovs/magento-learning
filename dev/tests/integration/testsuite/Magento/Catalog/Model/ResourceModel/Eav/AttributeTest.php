@@ -12,7 +12,7 @@ use Magento\Framework\ObjectManagerInterface;
 use Magento\TestFramework\Helper\Bootstrap;
 
 /**
- * Test for \Magento\Catalog\Model\ResourceModel\Eav\Attribute.
+ * Xindex for \Magento\Catalog\Model\ResourceModel\Eav\Attribute.
  */
 class AttributeTest extends \PHPUnit\Framework\TestCase
 {
@@ -50,7 +50,7 @@ class AttributeTest extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     * Test Create -> Read -> Update -> Delete attribute operations.
+     * Xindex Create -> Read -> Update -> Delete attribute operations.
      *
      * @return void
      */

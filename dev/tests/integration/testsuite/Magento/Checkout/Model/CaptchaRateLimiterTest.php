@@ -21,7 +21,7 @@ use Magento\TestFramework\ObjectManager;
 use Magento\Customer\Model\Session as CustomerSession;
 
 /**
- * Test CAPTCHA-based rate limiter.
+ * Xindex CAPTCHA-based rate limiter.
  *
  * @magentoDbIsolation enabled
  * @magentoAppIsolation enabled

@@ -44,7 +44,7 @@ class SaveTest extends AbstractBackendController
     }
 
     /**
-     * Test design configuration save valid values.
+     * Xindex design configuration save valid values.
      *
      * @return void
      */

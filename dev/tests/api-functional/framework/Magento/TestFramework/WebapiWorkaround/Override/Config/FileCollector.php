@@ -50,7 +50,7 @@ class FileCollector implements CollectorInterface
         $result = [];
         $configFiles = $this->componentDirSearch->collectFilesWithContext(
             ComponentRegistrar::MODULE,
-            'Test/Api/_files/' . $filePath
+            'Xindex/Api/_files/' . $filePath
         );
         foreach ($configFiles as $file) {
             $result[] = $this->fileFactory->create($file->getFullPath(), $file->getComponentName(), null, true);

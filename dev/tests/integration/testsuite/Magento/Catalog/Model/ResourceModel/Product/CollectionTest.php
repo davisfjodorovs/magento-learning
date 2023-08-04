@@ -20,7 +20,7 @@ use Magento\TestFramework\Fixture\DbIsolation;
 use Magento\TestFramework\Helper\Bootstrap;
 
 /**
- * Test for Magento\Catalog\Model\ResourceModel\Product\Question
+ * Xindex for Magento\Catalog\Model\ResourceModel\Product\Collection
  *
  * @SuppressWarnings(PHPMD.CouplingBetweenObjects)
  */
@@ -226,7 +226,7 @@ class CollectionTest extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     * Test addAttributeToSort() with attribute 'is_saleable' works properly on frontend.
+     * Xindex addAttributeToSort() with attribute 'is_saleable' works properly on frontend.
      *
      * @dataProvider addIsSaleableAttributeToSortDataProvider
      * @magentoDataFixture Magento/Catalog/_files/multiple_products_with_non_saleable_product.php
@@ -259,7 +259,7 @@ class CollectionTest extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     * Test addAttributeToSort() with attribute 'price' works properly on frontend.
+     * Xindex addAttributeToSort() with attribute 'price' works properly on frontend.
      *
      * @dataProvider addPriceAttributeToSortDataProvider
      * @magentoDataFixture Magento/Catalog/_files/product_simple.php

@@ -141,7 +141,7 @@ class ShipOrderTest extends \Magento\TestFramework\TestCase\WebapiAbstract
             'orderId' => $existingOrder->getId(),
             'items' => [],
             'comment' => [
-                'comment' => 'Test Comment',
+                'comment' => 'Xindex Comment',
                 'is_visible_on_front' => 1,
             ],
             'tracks' => [
@@ -202,7 +202,7 @@ class ShipOrderTest extends \Magento\TestFramework\TestCase\WebapiAbstract
         $requestData = [
             'orderId' => $existingOrder->getId(),
             'comment' => [
-                'comment' => 'Test Comment',
+                'comment' => 'Xindex Comment',
                 'is_visible_on_front' => 1,
             ],
             'tracks' => [
@@ -227,7 +227,7 @@ class ShipOrderTest extends \Magento\TestFramework\TestCase\WebapiAbstract
             'orderId' => $existingOrder->getId(),
             'items' => [],
             'comment' => [
-                'comment' => 'Test Comment',
+                'comment' => 'Xindex Comment',
                 'is_visible_on_front' => 1,
             ],
             'tracks' => [
@@ -287,7 +287,7 @@ class ShipOrderTest extends \Magento\TestFramework\TestCase\WebapiAbstract
             'orderId' => $order->getId(),
             'items' => [],
             'comment' => [
-                'comment' => 'Test Comment',
+                'comment' => 'Xindex Comment',
                 'is_visible_on_front' => 1,
             ],
             'tracks' => [],
@@ -351,7 +351,7 @@ class ShipOrderTest extends \Magento\TestFramework\TestCase\WebapiAbstract
             'orderId' => $order->getId(),
             'items' => [],
             'comment' => [
-                'comment' => 'Test Comment',
+                'comment' => 'Xindex Comment',
                 'is_visible_on_front' => 1,
             ],
             'tracks' => [],
@@ -406,7 +406,7 @@ class ShipOrderTest extends \Magento\TestFramework\TestCase\WebapiAbstract
             'orderId' => $order->getId(),
             'items' => [],
             'comment' => [
-                'comment' => 'Test Comment',
+                'comment' => 'Xindex Comment',
                 'is_visible_on_front' => 1,
             ],
             'tracks' => [],

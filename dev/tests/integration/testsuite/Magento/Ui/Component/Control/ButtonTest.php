@@ -13,7 +13,7 @@ use Magento\TestFramework\Helper\Bootstrap;
 use PHPUnit\Framework\TestCase;
 
 /**
- * Test for the button control.
+ * Xindex for the button control.
  *
  * @magentoAppArea frontend
  */
@@ -48,7 +48,7 @@ class ButtonTest extends TestCase
     }
 
     /**
-     * Test resulting button HTML.
+     * Xindex resulting button HTML.
      *
      * @return void
      */

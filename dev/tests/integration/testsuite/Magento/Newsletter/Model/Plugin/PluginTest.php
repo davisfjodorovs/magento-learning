@@ -207,7 +207,7 @@ class PluginTest extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     * Test get list customer, which have more then 2 subscribes in newsletter_subscriber.
+     * Xindex get list customer, which have more then 2 subscribes in newsletter_subscriber.
      *
      * @magentoAppArea frontend
      * @magentoDataFixture Magento/Newsletter/_files/subscribers.php

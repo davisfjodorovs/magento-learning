@@ -28,7 +28,7 @@ class UpdateTest extends \PHPUnit\Framework\TestCase
         $theme = \Magento\TestFramework\Helper\Bootstrap::getObjectManager()->create(
             \Magento\Framework\View\Design\ThemeInterface::class
         );
-        $theme->load('Test Theme', 'theme_title');
+        $theme->load('Xindex Theme', 'theme_title');
         $result = $this->_resourceModel->fetchUpdatesByHandle(
             'test_handle',
             $theme,

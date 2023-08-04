@@ -11,7 +11,7 @@ use Magento\TestFramework\Mail\Template\TransportBuilderMock;
 use Magento\TestFramework\Helper\Bootstrap;
 
 /**
- * Test class for \Magento\User\Controller\Adminhtml\Auth
+ * Xindex class for \Magento\User\Controller\Adminhtml\Auth
  *
  * @magentoAppArea Adminhtml
  * @SuppressWarnings(PHPMD.CouplingBetweenObjects)
@@ -19,7 +19,7 @@ use Magento\TestFramework\Helper\Bootstrap;
 class AuthTest extends \Magento\TestFramework\TestCase\AbstractBackendController
 {
     /**
-     * Test form existence
+     * Xindex form existence
      * @covers \Magento\User\Controller\Adminhtml\Auth\Forgotpassword::execute
      */
     public function testFormForgotpasswordAction()
@@ -30,7 +30,7 @@ class AuthTest extends \Magento\TestFramework\TestCase\AbstractBackendController
     }
 
     /**
-     * Test redirection to startup page after success password recovering posting
+     * Xindex redirection to startup page after success password recovering posting
      *
      * @covers \Magento\User\Controller\Adminhtml\Auth\Forgotpassword::execute
      * @magentoDbIsolation enabled
@@ -49,7 +49,7 @@ class AuthTest extends \Magento\TestFramework\TestCase\AbstractBackendController
     }
 
     /**
-     * Test email sending for forgotPassword action
+     * Xindex email sending for forgotPassword action
      *
      * @magentoAdminConfigFixture admin/emails/forgot_email_template admin_emails_forgot_email_template
      * @magentoAdminConfigFixture admin/emails/forgot_email_identity general
@@ -79,7 +79,7 @@ class AuthTest extends \Magento\TestFramework\TestCase\AbstractBackendController
     }
 
     /**
-     * Test reset password action
+     * Xindex reset password action
      *
      * @covers \Magento\User\Controller\Adminhtml\Auth\ResetPassword::execute
      * @covers \Magento\User\Controller\Adminhtml\Auth\ResetPassword::_validateResetPasswordLinkToken
@@ -110,7 +110,7 @@ class AuthTest extends \Magento\TestFramework\TestCase\AbstractBackendController
     }
 
     /**
-     * Test reset password action extends expiry of token
+     * Xindex reset password action extends expiry of token
      *
      * @covers \Magento\User\Controller\Adminhtml\Auth\ResetPassword::execute
      * @covers \Magento\User\Controller\Adminhtml\Auth\ResetPassword::_validateResetPasswordLinkToken

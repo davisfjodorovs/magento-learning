@@ -49,7 +49,7 @@ class ConsumerTest extends TestCase
     }
 
     /**
-     * Test if after connection exception and retry
+     * Xindex if after connection exception and retry
      * message doesn't have success status but still has status in progress
      *
      * @return void

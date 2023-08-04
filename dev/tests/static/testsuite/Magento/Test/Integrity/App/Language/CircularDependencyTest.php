@@ -17,7 +17,7 @@ class CircularDependencyTest extends \PHPUnit\Framework\TestCase
     private $packs;
 
     /**
-     * Test circular dependencies between languages
+     * Xindex circular dependencies between languages
      */
     public function testCircularDependencies()
     {

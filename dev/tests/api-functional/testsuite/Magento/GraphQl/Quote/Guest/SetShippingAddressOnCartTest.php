@@ -12,7 +12,7 @@ use Magento\TestFramework\Helper\Bootstrap;
 use Magento\TestFramework\TestCase\GraphQlAbstract;
 
 /**
- * Test for set shipping addresses on cart mutation
+ * Xindex for set shipping addresses on cart mutation
  */
 class SetShippingAddressOnCartTest extends GraphQlAbstract
 {
@@ -54,7 +54,7 @@ mutation {
             country_code: "US"
             telephone: "88776655"
           }
-          customer_notes: "Test note"
+          customer_notes: "Xindex note"
         }
       ]
     }
@@ -473,7 +473,7 @@ QUERY;
             ['response_field' => 'telephone', 'expected_value' => '88776655'],
             ['response_field' => 'country', 'expected_value' => ['code' => 'US', 'label' => 'US']],
             ['response_field' => '__typename', 'expected_value' => 'ShippingCartAddress'],
-            ['response_field' => 'customer_notes', 'expected_value' => 'Test note']
+            ['response_field' => 'customer_notes', 'expected_value' => 'Xindex note']
         ];
 
         $this->assertResponseFields($shippingAddressResponse, $assertionMap);

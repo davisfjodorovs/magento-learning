@@ -1,6 +1,6 @@
 <?php
 /**
- * Test search_request.xsd and xml files.
+ * Xindex search_request.xsd and xml files.
  *
  * Copyright © Magento, Inc. All rights reserved.
  * See COPYING.txt for license details.

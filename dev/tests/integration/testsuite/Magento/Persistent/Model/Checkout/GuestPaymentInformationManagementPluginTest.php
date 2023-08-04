@@ -112,7 +112,7 @@ class GuestPaymentInformationManagementPluginTest extends \PHPUnit\Framework\Tes
     }
 
     /**
-     * Test builds out a persistent customer shopping cart, emulates a
+     * Xindex builds out a persistent customer shopping cart, emulates a
      * session expiring, and checks out with the persisted cart as a guest.
      *
      * Expected - Order contains guest email, not customer email.

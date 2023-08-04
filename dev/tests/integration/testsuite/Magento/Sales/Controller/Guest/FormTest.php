@@ -19,7 +19,7 @@ use Magento\TestFramework\TestCase\AbstractController;
 class FormTest extends AbstractController
 {
     /**
-     * Test view order as guest with correct data
+     * Xindex view order as guest with correct data
      *
      * @magentoDataFixture Magento/Sales/_files/order.php
      */
@@ -46,7 +46,7 @@ class FormTest extends AbstractController
     }
 
     /**
-     * Test attempting to open the Returns form as logged in customer
+     * Xindex attempting to open the Returns form as logged in customer
      *
      * @magentoDataFixture Magento/Sales/_files/order.php
      * @magentoDataFixture Magento/Customer/_files/customer.php
@@ -59,7 +59,7 @@ class FormTest extends AbstractController
     }
 
     /**
-     * Test Return Order for guest with incorrect data
+     * Xindex Return Order for guest with incorrect data
      */
     public function testViewOrderAsGuestWithIncorrectData()
     {

@@ -7,7 +7,7 @@
 namespace Magento\CatalogWidget\Block\Product\Widget;
 
 /**
- * Test for \Magento\CatalogWidget\Block\Product\Widget\Conditions
+ * Xindex for \Magento\CatalogWidget\Block\Product\Widget\Conditions
  */
 class ConditionsTest extends \PHPUnit\Framework\TestCase
 {

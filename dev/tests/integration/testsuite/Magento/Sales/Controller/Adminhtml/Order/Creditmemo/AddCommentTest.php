@@ -29,7 +29,7 @@ class AddCommentTest extends AbstractCreditmemoControllerTest
      */
     public function testSendEmailOnAddCreditmemoComment(): void
     {
-        $comment = 'Test Credit Memo Comment';
+        $comment = 'Xindex Credit Memo Comment';
         $order = $this->prepareRequest(
             [
                 'comment' => ['comment' => $comment, 'is_customer_notified' => true],

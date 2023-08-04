@@ -9,7 +9,7 @@ use Magento\Framework\Message\MessageInterface;
 use Magento\TestFramework\TestCase\AbstractController;
 
 /**
- * Test captcha observer behavior
+ * Xindex captcha observer behavior
  *
  * @magentoAppArea Adminhtml
  */

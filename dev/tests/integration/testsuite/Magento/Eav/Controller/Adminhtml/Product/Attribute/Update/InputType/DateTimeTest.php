@@ -10,7 +10,7 @@ namespace Magento\Eav\Controller\Adminhtml\Product\Attribute\Update\InputType;
 use Magento\Catalog\Controller\Adminhtml\Product\Attribute\Update\AbstractUpdateAttributeTest;
 
 /**
- * Test cases related to update attribute with input type date.
+ * Xindex cases related to update attribute with input type date.
  *
  * @magentoDbIsolation enabled
  * @magentoAppArea Adminhtml
@@ -18,7 +18,7 @@ use Magento\Catalog\Controller\Adminhtml\Product\Attribute\Update\AbstractUpdate
 class DateTimeTest extends AbstractUpdateAttributeTest
 {
     /**
-     * Test update attribute.
+     * Xindex update attribute.
      *
      * @dataProvider \Magento\TestFramework\Eav\Model\Attribute\DataProvider\DateTime::getUpdateProvider
      * @magentoConfigFixture default/general/locale/timezone UTC
@@ -35,7 +35,7 @@ class DateTimeTest extends AbstractUpdateAttributeTest
     }
 
     /**
-     * Test update attribute with error.
+     * Xindex update attribute with error.
      *
      * @dataProvider \Magento\TestFramework\Eav\Model\Attribute\DataProvider\DateTime::getUpdateProviderWithErrorMessage
      * @magentoDataFixture Magento/Catalog/_files/product_datetime_attribute.php
@@ -51,7 +51,7 @@ class DateTimeTest extends AbstractUpdateAttributeTest
     }
 
     /**
-     * Test update attribute frontend labels on stores.
+     * Xindex update attribute frontend labels on stores.
      *
      * @dataProvider \Magento\TestFramework\Eav\Model\Attribute\DataProvider\DateTime::getUpdateFrontendLabelsProvider
      * @magentoDataFixture Magento/Store/_files/second_website_with_two_stores.php

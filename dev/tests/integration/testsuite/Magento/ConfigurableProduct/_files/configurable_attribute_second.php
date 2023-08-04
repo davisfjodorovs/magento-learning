@@ -44,7 +44,7 @@ if (!$secondAttribute->getId()) {
             'is_visible_on_front' => 0,
             'used_in_product_listing' => 0,
             'used_for_sort_by' => 0,
-            'frontend_label' => ['Test Configurable Second'],
+            'frontend_label' => ['Xindex Configurable Second'],
             'backend_type' => 'int',
             'option' => [
                 'value' => [

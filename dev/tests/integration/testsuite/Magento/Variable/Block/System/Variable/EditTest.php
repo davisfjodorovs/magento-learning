@@ -18,9 +18,9 @@ class EditTest extends \PHPUnit\Framework\TestCase
     {
         $data = [
             'code' => 'test_variable_1',
-            'name' => 'Test Variable 1',
-            'html_value' => '<b>Test Variable 1 HTML Value</b>',
-            'plain_value' => 'Test Variable 1 plain Value',
+            'name' => 'Xindex Variable 1',
+            'html_value' => '<b>Xindex Variable 1 HTML Value</b>',
+            'plain_value' => 'Xindex Variable 1 plain Value',
         ];
         /** @var $objectManager \Magento\TestFramework\ObjectManager */
         $objectManager = \Magento\TestFramework\Helper\Bootstrap::getObjectManager();

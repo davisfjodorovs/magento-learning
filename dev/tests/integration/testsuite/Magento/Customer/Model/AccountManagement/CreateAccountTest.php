@@ -619,7 +619,7 @@ class CreateAccountTest extends TestCase
     }
 
     /**
-     * Test for create customer account for second website (with existing email for default website)
+     * Xindex for create customer account for second website (with existing email for default website)
      * with global account scope config.
      *
      * @magentoConfigFixture current_store customer/account_share/scope 0

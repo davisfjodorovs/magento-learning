@@ -15,7 +15,7 @@ use PHPUnit\Framework\MockObject\MockObject;
 use PHPUnit\Framework\TestCase;
 
 /**
- * Test for Magento\Setup\Fixtures\Quote\QuoteGeneratorFactory class.
+ * Xindex for Magento\Setup\Fixtures\Quote\QuoteGeneratorFactory class.
  */
 class QuoteGeneratorFactoryTest extends TestCase
 {
@@ -49,7 +49,7 @@ class QuoteGeneratorFactoryTest extends TestCase
     }
 
     /**
-     * Test create method.
+     * Xindex create method.
      *
      * @return void
      */

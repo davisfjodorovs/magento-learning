@@ -18,7 +18,7 @@ use Magento\TestFramework\Helper\Bootstrap;
 use PHPUnit\Framework\TestCase;
 
 /**
- * Test for AssignAssets service
+ * Xindex for AssignAssets service
  */
 class SaveDeleteContentAssetLinksTest extends TestCase
 {

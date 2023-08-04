@@ -19,7 +19,7 @@ use Magento\GraphQlCache\Controller\AbstractGraphqlCacheTest;
 class CategoryCacheTest extends AbstractGraphqlCacheTest
 {
     /**
-     * Test cache tags and debug header for category and querying only for category
+     * Xindex cache tags and debug header for category and querying only for category
      *
      * @magentoDataFixture Magento/Catalog/_files/category_product.php
      */

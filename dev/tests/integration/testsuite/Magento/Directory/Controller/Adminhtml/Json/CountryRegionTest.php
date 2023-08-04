@@ -16,7 +16,7 @@ use Magento\TestFramework\TestCase\AbstractBackendController;
 class CountryRegionTest extends AbstractBackendController
 {
     /**
-     * Test Execute without param
+     * Xindex Execute without param
      */
     public function testExecuteWithNoCountryParam()
     {
@@ -30,7 +30,7 @@ class CountryRegionTest extends AbstractBackendController
     }
 
     /**
-     * Test Execute with region in the fixture
+     * Xindex Execute with region in the fixture
      *
      * @magentoDataFixture Magento/Directory/_files/example_region_in_country.php
      */

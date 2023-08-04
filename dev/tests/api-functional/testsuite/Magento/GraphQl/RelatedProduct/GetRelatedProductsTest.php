@@ -10,7 +10,7 @@ namespace Magento\GraphQl\RelatedProduct;
 use Magento\TestFramework\TestCase\GraphQlAbstract;
 
 /**
- * Test coverage for get related products
+ * Xindex coverage for get related products
  */
 class GetRelatedProductsTest extends GraphQlAbstract
 {
@@ -192,7 +192,7 @@ QUERY;
     }
 
     /**
-     * Test query with disabled linked product in the default store
+     * Xindex query with disabled linked product in the default store
      *
      * @magentoApiDataFixture Magento/Catalog/_files/products_related_disabled_in_store.php
      *

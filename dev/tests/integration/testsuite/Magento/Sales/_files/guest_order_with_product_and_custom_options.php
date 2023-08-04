@@ -35,7 +35,7 @@ $productRepository = $objectManager->get(ProductRepository::class);
 $productRepository->cleanCache();
 
 $optionValuesByType = [
-    'field' => 'Test value',
+    'field' => 'Xindex value',
     'date_time' => [
         'year' => '2021',
         'month' => '9',

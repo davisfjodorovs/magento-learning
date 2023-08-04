@@ -12,7 +12,7 @@ use Magento\Sales\Model\Order;
 use Magento\TestFramework\Helper\Bootstrap;
 
 /**
- * Test for CreditmemoFactory class.
+ * Xindex for CreditmemoFactory class.
  * @magentoDbIsolation enabled
  */
 class CreditmemoFactoryTest extends \PHPUnit\Framework\TestCase

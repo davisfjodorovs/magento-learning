@@ -11,7 +11,7 @@ use Magento\Framework\Encryption\EncryptorInterface;
 class DbTableTest extends \PHPUnit\Framework\TestCase
 {
     /**
-     * Test session ID
+     * Xindex session ID
      */
     const SESSION_ID = 'session_id_value';
 
@@ -36,7 +36,7 @@ class DbTableTest extends \PHPUnit\Framework\TestCase
     /**#@-*/
 
     /**
-     * Test session data
+     * Xindex session data
      *
      * @var array
      */

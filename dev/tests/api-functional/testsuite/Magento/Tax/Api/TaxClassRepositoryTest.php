@@ -73,7 +73,7 @@ class TaxClassRepositoryTest extends WebapiAbstract
     }
 
     /**
-     * Test create Data\TaxClassInterface
+     * Xindex create Data\TaxClassInterface
      */
     public function testCreateTaxClass()
     {
@@ -110,7 +110,7 @@ class TaxClassRepositoryTest extends WebapiAbstract
     }
 
     /**
-     * Test create Data\TaxClassInterface
+     * Xindex create Data\TaxClassInterface
      */
     public function testUpdateTaxClass()
     {
@@ -186,7 +186,7 @@ class TaxClassRepositoryTest extends WebapiAbstract
     }
 
     /**
-     * Test delete Tax class
+     * Xindex delete Tax class
      */
     public function testDeleteTaxClass()
     {
@@ -222,7 +222,7 @@ class TaxClassRepositoryTest extends WebapiAbstract
     }
 
     /**
-     * Test with a single filter
+     * Xindex with a single filter
      */
     public function testSearchTaxClass()
     {
@@ -251,7 +251,7 @@ class TaxClassRepositoryTest extends WebapiAbstract
     }
 
     /**
-     * Test using multiple filters
+     * Xindex using multiple filters
      */
     public function testSearchTaxClassMultipleFilterGroups()
     {

@@ -5,9 +5,9 @@
  */
 
 /**
- * Test DB "transparent transaction" features in DB adapter substitutes of integration tests
+ * Xindex DB "transparent transaction" features in DB adapter substitutes of integration tests
  *
- * Test behavior of all methods assumed by this interface
+ * Xindex behavior of all methods assumed by this interface
  * Due to current architecture of DB adapters, they are copy-pasted.
  * So we need to make sure all these classes have exactly the same behavior.
  */

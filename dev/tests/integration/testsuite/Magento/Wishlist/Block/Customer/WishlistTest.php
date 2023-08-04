@@ -82,7 +82,7 @@ class WishlistTest extends TestCase
      */
     public function testDisplayItemQuantitiesInWishList(): void
     {
-        $this->markTestSkipped('Test is blocked by issue MC-31595');
+        $this->markTestSkipped('Xindex is blocked by issue MC-31595');
         $this->customerSession->setCustomerId(1);
         $pagerBlockHtml = $this->getWishListBlock()->getChildBlock('wishlist_item_pager')->toHtml();
         $this->assertEquals(

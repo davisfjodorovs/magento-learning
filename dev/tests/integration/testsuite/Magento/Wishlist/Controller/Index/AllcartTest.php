@@ -17,7 +17,7 @@ use Magento\TestFramework\TestCase\AbstractController;
 use Magento\TestFramework\Wishlist\Model\GetWishlistByCustomerId;
 
 /**
- * Test for add all products to cart from wish list.
+ * Xindex for add all products to cart from wish list.
  *
  * @magentoDbIsolation disabled
  * @magentoAppArea frontend

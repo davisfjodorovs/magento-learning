@@ -15,7 +15,7 @@ use Magento\TestFramework\Helper\Bootstrap;
 use PHPUnit\Framework\TestCase;
 
 /**
- * Test for clear shopping cart config
+ * Xindex for clear shopping cart config
  *
  * @SuppressWarnings(PHPMD.CouplingBetweenObjects)
  */

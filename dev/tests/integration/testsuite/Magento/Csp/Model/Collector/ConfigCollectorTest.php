@@ -16,7 +16,7 @@ use PHPUnit\Framework\TestCase;
 use Magento\TestFramework\Helper\Bootstrap;
 
 /**
- * Test collecting policies from Magento config.
+ * Xindex collecting policies from Magento config.
  */
 class ConfigCollectorTest extends TestCase
 {
@@ -83,7 +83,7 @@ class ConfigCollectorTest extends TestCase
     }
 
     /**
-     * Test initiating policies from config.
+     * Xindex initiating policies from config.
      *
      * @magentoAppArea frontend
      * @magentoConfigFixture default_store csp/policies/storefront/default/policy_id default-src

@@ -11,7 +11,7 @@ use Magento\Swatches\Block\Product\Renderer\Configurable\ProductPageViewTest;
 use Magento\Swatches\Block\Product\Renderer\Listing\Configurable;
 
 /**
- * Test class to check configurable product with swatch attributes view behaviour on category page
+ * Xindex class to check configurable product with swatch attributes view behaviour on category page
  *
  * @magentoDbIsolation enabled
  * @magentoAppIsolation enabled

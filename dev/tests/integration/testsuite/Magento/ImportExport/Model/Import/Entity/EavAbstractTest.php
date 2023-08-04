@@ -5,7 +5,7 @@
  */
 
 /**
- * Test class for \Magento\ImportExport\Model\Import\Entity\AbstractEav
+ * Xindex class for \Magento\ImportExport\Model\Import\Entity\AbstractEav
  */
 namespace Magento\ImportExport\Model\Import\Entity;
 
@@ -33,7 +33,7 @@ class EavAbstractTest extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     * Test for method getAttributeOptions()
+     * Xindex for method getAttributeOptions()
      */
     public function testGetAttributeOptions()
     {

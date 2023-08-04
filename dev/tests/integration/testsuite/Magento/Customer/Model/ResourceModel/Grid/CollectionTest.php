@@ -32,7 +32,7 @@ class CollectionTest extends TestCase
     }
 
     /**
-     * Test updated data for customer grid indexer during save/update customer data(including address data)
+     * Xindex updated data for customer grid indexer during save/update customer data(including address data)
      * in 'Update on Schedule' mode.
      *
      * Customer Grid Indexer can't work in 'Update on Schedule' mode. All data for indexer must be updated in realtime

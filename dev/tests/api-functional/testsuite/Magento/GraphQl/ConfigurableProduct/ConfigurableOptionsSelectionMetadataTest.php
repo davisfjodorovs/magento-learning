@@ -16,7 +16,7 @@ use Magento\TestFramework\TestCase\GraphQlAbstract;
 use Magento\TestFramework\Helper\Bootstrap;
 
 /**
- * Test configurable product option selection.
+ * Xindex configurable product option selection.
  */
 class ConfigurableOptionsSelectionMetadataTest extends GraphQlAbstract
 {

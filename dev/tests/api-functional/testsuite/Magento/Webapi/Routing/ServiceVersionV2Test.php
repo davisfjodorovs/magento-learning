@@ -33,7 +33,7 @@ class ServiceVersionV2Test extends \Magento\Webapi\Routing\BaseService
     }
 
     /**
-     *  Test to assert overriding of the existing 'Item' Api in V2 version of the same service
+     *  Xindex to assert overriding of the existing 'Item' Api in V2 version of the same service
      */
     public function testItem()
     {
@@ -52,7 +52,7 @@ class ServiceVersionV2Test extends \Magento\Webapi\Routing\BaseService
     }
 
     /**
-     * Test fetching all items
+     * Xindex fetching all items
      */
     public function testItems()
     {
@@ -72,7 +72,7 @@ class ServiceVersionV2Test extends \Magento\Webapi\Routing\BaseService
     }
 
     /**
-     * Test fetching items when filters are applied
+     * Xindex fetching items when filters are applied
      *
      * @param string[] $filters
      * @param array $expectedResult
@@ -124,7 +124,7 @@ class ServiceVersionV2Test extends \Magento\Webapi\Routing\BaseService
     }
 
     /**
-     *  Test update item
+     *  Xindex update item
      */
     public function testUpdate()
     {
@@ -142,7 +142,7 @@ class ServiceVersionV2Test extends \Magento\Webapi\Routing\BaseService
     }
 
     /**
-     *  Test to assert presence of new 'delete' Api added in V2 version of the same service
+     *  Xindex to assert presence of new 'delete' Api added in V2 version of the same service
      */
     public function testDelete()
     {

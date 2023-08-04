@@ -28,7 +28,7 @@ class OrderIncrementIdCheckerTest extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     * Test to verify if isIncrementIdUsed method works with numeric increment ids.
+     * Xindex to verify if isIncrementIdUsed method works with numeric increment ids.
      *
      * @magentoDataFixture Magento/Sales/_files/order.php
      * @return void
@@ -39,7 +39,7 @@ class OrderIncrementIdCheckerTest extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     * Test to verify if isIncrementIdUsed method works with alphanumeric increment ids.
+     * Xindex to verify if isIncrementIdUsed method works with alphanumeric increment ids.
      *
      * @magentoDataFixture Magento/Sales/_files/order_alphanumeric_id.php
      * @return void

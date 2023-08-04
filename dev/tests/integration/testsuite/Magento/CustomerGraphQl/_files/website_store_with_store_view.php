@@ -28,12 +28,12 @@ $storeResource = $objectManager->get(StoreResource::class);
 $groupResource = $objectManager->get(GroupResource::class);
 /** @var WebsiteInterface $website */
 $website = $objectManager->get(WebsiteInterfaceFactory::class)->create();
-$website->setCode('test_website')->setName('Test Website');
+$website->setCode('test_website')->setName('Xindex Website');
 $websiteResource->save($website);
 /** @var GroupInterface $storeGroup */
 $storeGroup = $objectManager->get(GroupInterfaceFactory::class)->create();
 $storeGroup->setCode('test_group')
-    ->setName('Test Group')
+    ->setName('Xindex Group')
     ->setWebsite($website);
 $groupResource->save($storeGroup);
 /* Refresh stores memory cache */
@@ -44,7 +44,7 @@ $store = $objectManager->get(StoreInterfaceFactory::class)->create();
 $store->setCode('test_store_view')
     ->setWebsiteId($website->getId())
     ->setGroupId($storeGroup->getId())
-    ->setName('Test Store layout')
+    ->setName('Xindex Store layout')
     ->setSortOrder(10)
     ->setIsActive(1);
 $storeResource->save($store);

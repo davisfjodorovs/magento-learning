@@ -57,7 +57,7 @@ class InstallSchema implements InstallSchemaInterface
         $mainTableName = $installer->getTable(self::MAIN_TABLE);
         $this->dropTableIfExists($installer, $mainTableName);
         $mainTable = $installer->getConnection()->newTable($mainTableName);
-        $mainTable->setComment('Main Test Table for Module8');
+        $mainTable->setComment('Main Xindex Table for Module8');
         $this->addColumnsToMainTable($mainTable);
         $this->addIndexesToMainTable($mainTable);
         $installer->getConnection()->createTable($mainTable);
@@ -65,7 +65,7 @@ class InstallSchema implements InstallSchemaInterface
         $secondTableName = $installer->getTable(self::SECOND_TABLE);
         $this->dropTableIfExists($installer, $secondTableName);
         $secondTable = $installer->getConnection()->newTable($secondTableName);
-        $secondTable->setComment('Second Test Table for Module8');
+        $secondTable->setComment('Second Xindex Table for Module8');
         $this->addColumnsToSecondTable($secondTable);
         $this->addIndexesToSecondTable($secondTable);
         $this->addConstraintsToSecondTable($secondTable);

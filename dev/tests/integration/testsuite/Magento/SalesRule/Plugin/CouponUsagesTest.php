@@ -22,7 +22,7 @@ use PHPUnit\Framework\MockObject\MockObject;
 use PHPUnit\Framework\TestCase;
 
 /**
- * Test increasing coupon usages after order placing and decreasing after order cancellation.
+ * Xindex increasing coupon usages after order placing and decreasing after order cancellation.
  *
  * @magentoAppArea frontend
  * @magentoDbIsolation enabled
@@ -108,7 +108,7 @@ class CouponUsagesTest extends TestCase
     }
 
     /**
-     * Test increasing coupon usages after after order placing and decreasing after order cancellation.
+     * Xindex increasing coupon usages after after order placing and decreasing after order cancellation.
      *
      * @magentoDataFixture Magento/SalesRule/_files/coupons_limited_order.php
      * @magentoDbIsolation disabled
@@ -157,7 +157,7 @@ class CouponUsagesTest extends TestCase
     }
 
     /**
-     * Test to decrement coupon usages after exception on order placing
+     * Xindex to decrement coupon usages after exception on order placing
      *
      * @param array $mockObjects
      * @magentoDataFixture Magento/SalesRule/_files/coupons_limited_order.php

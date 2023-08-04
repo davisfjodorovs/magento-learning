@@ -17,7 +17,7 @@ use Magento\Framework\Exception\LocalizedException;
 use Magento\TestFramework\Helper\Bootstrap;
 
 /**
- * Test relation customization
+ * Xindex relation customization
  *
  * @magentoDbIsolation disabled
  */
@@ -83,7 +83,7 @@ class RelationTest extends \Magento\TestFramework\Indexer\TestCase
     }
 
     /**
-     * Test that SQL generated for relation customization is valid
+     * Xindex that SQL generated for relation customization is valid
      *
      * @return void
      * @throws LocalizedException

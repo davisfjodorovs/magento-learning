@@ -20,7 +20,7 @@ use Magento\TestFramework\Directory\Model\GetRegionIdByName;
 use Magento\TestFramework\TestCase\AbstractController;
 
 /**
- * Test cases related to check that customer address correctly updated from
+ * Xindex cases related to check that customer address correctly updated from
  * customer account page on frontend or wasn't updated and proper error message appears.
  *
  * @magentoDataFixture Magento/Customer/_files/customer.php

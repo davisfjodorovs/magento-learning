@@ -22,7 +22,7 @@ use Magento\TestFramework\Helper\Bootstrap;
 use Magento\TestFramework\TestCase\AbstractBackendController;
 
 /**
- * Test inline edit action on customers grid.
+ * Xindex inline edit action on customers grid.
  *
  * @magentoAppArea Adminhtml
  * @magentoDbIsolation enabled

@@ -26,7 +26,7 @@ use Magento\TestFramework\Helper\Bootstrap;
 use Magento\TestFramework\Indexer\TestCase;
 
 /**
- * Full reindex Test
+ * Full reindex Xindex
  */
 class FullTest extends TestCase
 {

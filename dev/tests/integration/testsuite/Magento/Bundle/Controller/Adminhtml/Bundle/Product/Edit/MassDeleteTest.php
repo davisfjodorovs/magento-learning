@@ -10,7 +10,7 @@ namespace Magento\Bundle\Controller\Adminhtml\Bundle\Product\Edit;
 use Magento\Catalog\Controller\Adminhtml\Product\MassDeleteTest as CatalogMassDeleteTest;
 
 /**
- * Test for mass bundle product deleting.
+ * Xindex for mass bundle product deleting.
  *
  * @see \Magento\Bundle\Controller\Adminhtml\Bundle\Product\Edit\MassDelete
  * @magentoAppArea Adminhtml

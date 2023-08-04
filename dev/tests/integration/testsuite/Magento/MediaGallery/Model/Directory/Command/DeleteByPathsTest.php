@@ -15,7 +15,7 @@ use Magento\MediaGalleryApi\Api\DeleteDirectoriesByPathsInterface;
 use Magento\TestFramework\Helper\Bootstrap;
 
 /**
- * Test for DeleteDirectoriesByPathsInterface
+ * Xindex for DeleteDirectoriesByPathsInterface
  */
 class DeleteByPathsTest extends \PHPUnit\Framework\TestCase
 {

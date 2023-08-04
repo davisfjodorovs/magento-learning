@@ -11,7 +11,7 @@ use Magento\Catalog\Api\ProductRepositoryInterface;
 use Magento\TestFramework\TestCase\GraphQlAbstract;
 
 /**
- * Test layered navigation filter.
+ * Xindex layered navigation filter.
  *
  * @package Magento\GraphQl\Swatches
  */
@@ -106,7 +106,7 @@ QUERY;
                 ],
             ],
             [
-                'name' => 'Test Swatch',
+                'name' => 'Xindex Swatch',
                 'filter_items_count' => 1,
                 'request_var' => 'color_swatch',
                 'filter_items' => [

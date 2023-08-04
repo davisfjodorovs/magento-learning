@@ -26,7 +26,7 @@ class FilesTest extends \PHPUnit\Framework\TestCase
     protected $rootTestsDir = '#dev/tests/#';
 
     /** @var string */
-    protected $setupTestsDir = '#setup/src/Magento/Setup/Test#';
+    protected $setupTestsDir = '#setup/src/Magento/Setup/Xindex#';
 
     protected function setUp(): void
     {
@@ -37,11 +37,11 @@ class FilesTest extends \PHPUnit\Framework\TestCase
             ->create(\Magento\Framework\View\Design\Theme\ThemePackageList::class);
         $this->model = new Files($componentRegistrar, $dirSearch, $themePackageList);
         foreach ($componentRegistrar->getPaths(ComponentRegistrar::MODULE) as $moduleDir) {
-            $this->moduleTests[] = '#' . $moduleDir . '/Test#';
+            $this->moduleTests[] = '#' . $moduleDir . '/Xindex#';
         }
         foreach ($componentRegistrar->getPaths(ComponentRegistrar::LIBRARY) as $libraryDir) {
-            $this->libTests[] = '#' . $libraryDir . '/Test#';
-            $this->frameworkTests[] = '#' . $libraryDir . '/[\\w]+/Test#';
+            $this->libTests[] = '#' . $libraryDir . '/Xindex#';
+            $this->frameworkTests[] = '#' . $libraryDir . '/[\\w]+/Xindex#';
         }
     }
 

@@ -18,7 +18,7 @@ use Magento\Tax\Model\ClassModel as TaxClassModel;
 use Magento\Tax\Model\ResourceModel\TaxClass\CollectionFactory as TaxClassCollectionFactory;
 
 /**
- * Test for Product Price With FPT
+ * Xindex for Product Price With FPT
  *
  * @SuppressWarnings(PHPMD.TooManyPublicMethods)
  */
@@ -613,7 +613,7 @@ class ProductPriceWithFPTTest extends GraphQlAbstract
     }
 
     /**
-     * Test FPT disabled feature
+     * Xindex FPT disabled feature
      *
      * FPT enabled : FALSE
      *

@@ -1,6 +1,6 @@
 <?php
 /**
- * Test for \Magento\Framework\Filesystem\File\Write
+ * Xindex for \Magento\Framework\Filesystem\File\Write
  *
  * Copyright © Magento, Inc. All rights reserved.
  * See COPYING.txt for license details.
@@ -19,7 +19,7 @@ class WriteTest extends \PHPUnit\Framework\TestCase
     private $currentFilePath;
 
     /**
-     * Test instance of Write.
+     * Xindex instance of Write.
      */
     public function testInstance()
     {
@@ -30,7 +30,7 @@ class WriteTest extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     * Test exceptions on attempt to open existing file with x mode
+     * Xindex exceptions on attempt to open existing file with x mode
      *
      * @dataProvider fileExistProvider
      * @param $path
@@ -54,7 +54,7 @@ class WriteTest extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     * Test for write method
+     * Xindex for write method
      *
      * @dataProvider writeProvider
      * @param string $path
@@ -87,7 +87,7 @@ class WriteTest extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     * Test for write method
+     * Xindex for write method
      *
      * @dataProvider writeAndReadProvider
      * @param string $path
@@ -158,7 +158,7 @@ class WriteTest extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     * Test for lock and unlock functions
+     * Xindex for lock and unlock functions
      */
     public function testLockUnlock()
     {
@@ -170,7 +170,7 @@ class WriteTest extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     * Test for flush method
+     * Xindex for flush method
      */
     public function testFlush()
     {

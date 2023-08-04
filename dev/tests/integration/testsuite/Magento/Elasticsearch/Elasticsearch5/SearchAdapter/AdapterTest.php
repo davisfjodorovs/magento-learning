@@ -86,7 +86,7 @@ class AdapterTest extends \PHPUnit\Framework\TestCase
         $this->requestBuilder->bind('fulltext_search_query', 'socks');
         $this->requestBuilder->setRequestName('one_match');
         $queryRequest = $this->requestBuilder->create();
-        $exception = new \Exception('Test Message');
+        $exception = new \Exception('Xindex Message');
         $this->loggerMock->expects($this->once())->method('critical')->with($exception);
         $this->clientMock->expects($this->once())->method('query')->willThrowException($exception);
         $actualResponse = $this->adapter->query($queryRequest);

@@ -49,7 +49,7 @@ class ShipmentRemoveTrackTest extends WebapiAbstract
     }
 
     /**
-     * Test shipment remove track service
+     * Xindex shipment remove track service
      *
      * @magentoApiDataFixture Magento/Sales/_files/shipment.php
      */

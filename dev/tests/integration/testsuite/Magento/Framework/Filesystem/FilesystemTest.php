@@ -1,6 +1,6 @@
 <?php
 /**
- * Test for \Magento\Framework\Filesystem
+ * Xindex for \Magento\Framework\Filesystem
  *
  * Copyright © Magento, Inc. All rights reserved.
  * See COPYING.txt for license details.
@@ -14,7 +14,7 @@ use Magento\TestFramework\Helper\Bootstrap;
 
 /**
  * Class FilesystemTest
- * Test for Magento\Framework\Filesystem class
+ * Xindex for Magento\Framework\Filesystem class
  *
  */
 class FilesystemTest extends \PHPUnit\Framework\TestCase
@@ -30,7 +30,7 @@ class FilesystemTest extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     * Test getDirectoryRead method return valid instance
+     * Xindex getDirectoryRead method return valid instance
      */
     public function testGetDirectoryReadInstance()
     {
@@ -39,7 +39,7 @@ class FilesystemTest extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     * Test getDirectoryWrite method return valid instance
+     * Xindex getDirectoryWrite method return valid instance
      */
     public function testGetDirectoryWriteInstance()
     {
@@ -48,7 +48,7 @@ class FilesystemTest extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     * Test getUri returns right uri
+     * Xindex getUri returns right uri
      */
     public function testGetUri()
     {

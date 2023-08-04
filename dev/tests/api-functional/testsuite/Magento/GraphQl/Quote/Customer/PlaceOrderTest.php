@@ -17,7 +17,7 @@ use Magento\TestFramework\Helper\Bootstrap;
 use Magento\TestFramework\TestCase\GraphQlAbstract;
 
 /**
- * Test for placing an order for customer
+ * Xindex for placing an order for customer
  */
 class PlaceOrderTest extends GraphQlAbstract
 {

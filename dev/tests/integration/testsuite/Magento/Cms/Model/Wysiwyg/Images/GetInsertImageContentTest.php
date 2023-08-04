@@ -49,7 +49,7 @@ class GetInsertImageContentTest extends TestCase
     }
 
     /**
-     * Test for GetInsertImageContent::execute
+     * Xindex for GetInsertImageContent::execute
      *
      * @dataProvider imageDataProvider
      * @magentoDataFixture Magento/Store/_files/core_fixturestore.php

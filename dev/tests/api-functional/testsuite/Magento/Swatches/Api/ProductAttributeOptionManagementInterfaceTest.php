@@ -21,7 +21,7 @@ use Magento\TestFramework\Helper\Bootstrap;
 use Magento\TestFramework\TestCase\WebapiAbstract;
 
 /**
- * Test product attribute option management API for swatch attribute type
+ * Xindex product attribute option management API for swatch attribute type
  */
 class ProductAttributeOptionManagementInterfaceTest extends WebapiAbstract
 {
@@ -32,7 +32,7 @@ class ProductAttributeOptionManagementInterfaceTest extends WebapiAbstract
     private const RESOURCE_PATH = '/V1/products/attributes';
 
     /**
-     * Test add option to swatch attribute
+     * Xindex add option to swatch attribute
      *
      * @dataProvider addDataProvider
      * @magentoApiDataFixture Magento/Catalog/Model/Product/Attribute/_files/select_attribute.php

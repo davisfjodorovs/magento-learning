@@ -15,7 +15,7 @@ use Magento\Framework\ObjectManagerInterface;
 /**
  * Class ResetAttemptForFrontendAccountEditObserverTest
  *
- * Test for checking that the customer login attempts are removed after account details edit
+ * Xindex for checking that the customer login attempts are removed after account details edit
  */
 class ResetAttemptForFrontendAccountEditObserverTest extends \PHPUnit\Framework\TestCase
 {

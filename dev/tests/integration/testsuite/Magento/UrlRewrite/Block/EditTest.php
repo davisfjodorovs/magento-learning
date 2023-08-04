@@ -6,13 +6,13 @@
 namespace Magento\UrlRewrite\Block;
 
 /**
- * Test for \Magento\UrlRewrite\Block\Edit
+ * Xindex for \Magento\UrlRewrite\Block\Edit
  * @magentoAppArea Adminhtml
  */
 class EditTest extends \PHPUnit\Framework\TestCase
 {
     /**
-     * Test prepare layout
+     * Xindex prepare layout
      *
      * @dataProvider prepareLayoutDataProvider
      *

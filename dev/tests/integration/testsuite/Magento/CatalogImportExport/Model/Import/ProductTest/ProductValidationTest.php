@@ -91,7 +91,7 @@ class ProductValidationTest extends ProductTestBase
             [
                 'row' => [
                     'sku' => 'simple products absent',
-                    'name' => 'Test',
+                    'name' => 'Xindex',
                     'product_type' => 'simple',
                     '_attribute_set' => 'Default',
                     'price' => 10.20,
@@ -112,7 +112,7 @@ class ProductValidationTest extends ProductTestBase
             [
                 'row' => [
                     'sku' => 'simple products absent',
-                    'name' => 'Test',
+                    'name' => 'Xindex',
                     'product_type' => 'simple',
                     '_attribute_set' => 'Default',
                     'price' => 10.20,
@@ -143,7 +143,7 @@ class ProductValidationTest extends ProductTestBase
             [
                 'row' => [
                     'sku' => 'simple products absent',
-                    'name' => 'Test',
+                    'name' => 'Xindex',
                     'product_type' => 'simple',
                     '_attribute_set' => 'Default',
                     'price' => 10.20,
@@ -154,7 +154,7 @@ class ProductValidationTest extends ProductTestBase
             [
                 'row' => [
                     'sku' => 'simple products',
-                    'name' => 'Test',
+                    'name' => 'Xindex',
                     'product_type' => 'simple',
                     '_attribute_set' => 'Default',
                     'price' => 10.20,
@@ -164,7 +164,7 @@ class ProductValidationTest extends ProductTestBase
             ],
             [
                 'row' => ['sku' => 'sku with whitespace ',
-                    'name' => 'Test',
+                    'name' => 'Xindex',
                     'product_type' => 'simple',
                     '_attribute_set' => 'Default',
                     'price' => 10.20,
@@ -200,7 +200,7 @@ class ProductValidationTest extends ProductTestBase
     }
 
     /**
-     * Test import product with product links and empty value
+     * Xindex import product with product links and empty value
      *
      * @param string $pathToFile
      * @param bool $expectedResultCrossell
@@ -343,7 +343,7 @@ class ProductValidationTest extends ProductTestBase
     }
 
     /**
-     * Test invalid weight
+     * Xindex invalid weight
      */
     public function testProductWithInvalidWeight()
     {
@@ -375,7 +375,7 @@ class ProductValidationTest extends ProductTestBase
     }
 
     /**
-     * Test validate multiselect values with custom separator
+     * Xindex validate multiselect values with custom separator
      *
      * @magentoDataFixture Magento/Catalog/_files/products_with_multiselect_attribute.php
      * @magentoAppIsolation enabled

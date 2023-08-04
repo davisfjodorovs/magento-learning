@@ -55,7 +55,7 @@ class SourceTest extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     * Test reindex for configurable product with both disabled and enabled variations.
+     * Xindex reindex for configurable product with both disabled and enabled variations.
      *
      * @magentoDataFixture Magento/ConfigurableProduct/_files/product_configurable.php
      * @magentoDbIsolation disabled
@@ -164,7 +164,7 @@ class SourceTest extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     * Test for indexing product attribute without "all store view" value
+     * Xindex for indexing product attribute without "all store view" value
      *
      * @magentoDataFixture Magento/Catalog/_files/products_with_dropdown_attribute_without_all_store_view.php
      * @magentoDbIsolation disabled

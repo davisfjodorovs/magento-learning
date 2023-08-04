@@ -89,7 +89,7 @@ class DynamicBundlePriceCalculatorTest extends BundlePriceAbstract
     }
 
     /**
-     * Test cases for current test
+     * Xindex cases for current test
      * @return array
      */
     public function getTestCases()

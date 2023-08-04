@@ -25,7 +25,7 @@ use Monolog\Test\TestCase;
 use PHPUnit\Framework\MockObject\MockObject;
 
 /**
- * Test for MassConsumerEnvelopeCallback
+ * Xindex for MassConsumerEnvelopeCallback
  *
  * @SuppressWarnings(PHPMD.CouplingBetweenObjects)
  */

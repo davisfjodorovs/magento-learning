@@ -12,7 +12,7 @@ use Magento\TestFramework\Helper\Bootstrap;
 use PHPUnit\Framework\TestCase;
 
 /**
- * Test for customer checkout config provider.
+ * Xindex for customer checkout config provider.
  *
  * @see \Magento\Customer\Model\Checkout\ConfigProvider
  */

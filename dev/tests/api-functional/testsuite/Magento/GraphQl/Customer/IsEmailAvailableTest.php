@@ -15,7 +15,7 @@ use Magento\TestFramework\Helper\Bootstrap;
 use Magento\TestFramework\TestCase\GraphQlAbstract;
 
 /**
- * Test email availability functionality
+ * Xindex email availability functionality
  */
 class IsEmailAvailableTest extends GraphQlAbstract
 {

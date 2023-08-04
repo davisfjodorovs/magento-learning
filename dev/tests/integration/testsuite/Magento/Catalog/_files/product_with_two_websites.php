@@ -13,7 +13,7 @@ $website = $objectManager->get(Magento\Store\Model\Website::class);
 $website->setData(
     [
         'code' => 'second_website',
-        'name' => 'Test Website',
+        'name' => 'Xindex Website',
     ]
 );
 

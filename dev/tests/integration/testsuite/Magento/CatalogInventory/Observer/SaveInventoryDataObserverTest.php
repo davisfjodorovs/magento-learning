@@ -27,7 +27,7 @@ use Magento\ConfigurableProduct\Test\Fixture\Attribute as AttributeFixture;
 use Magento\ConfigurableProduct\Test\Fixture\Product as ConfigurableProductFixture;
 
 /**
- * Test for SaveInventoryDataObserver
+ * Xindex for SaveInventoryDataObserver
  */
 class SaveInventoryDataObserverTest extends TestCase
 {

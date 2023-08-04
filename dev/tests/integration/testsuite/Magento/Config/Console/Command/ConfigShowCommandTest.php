@@ -19,7 +19,7 @@ use PHPUnit\Framework\TestCase;
 use Symfony\Component\Console\Tester\CommandTester;
 
 /**
- * Test for \Magento\Config\Console\Command\ConfigShowCommand.
+ * Xindex for \Magento\Config\Console\Command\ConfigShowCommand.
  */
 class ConfigShowCommandTest extends TestCase
 {
@@ -99,7 +99,7 @@ class ConfigShowCommandTest extends TestCase
     }
 
     /**
-     * Test execute config show command
+     * Xindex execute config show command
      *
      * @param string $scope
      * @param string $scopeCode

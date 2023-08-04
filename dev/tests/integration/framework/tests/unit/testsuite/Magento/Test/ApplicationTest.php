@@ -30,7 +30,7 @@ use ReflectionClass;
 class ApplicationTest extends \PHPUnit\Framework\TestCase
 {
     /**
-     * Test subject.
+     * Xindex subject.
      *
      * @var Application
      */
@@ -105,7 +105,7 @@ class ApplicationTest extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     * Test installation and post-installation shell commands
+     * Xindex installation and post-installation shell commands
      *
      * @param string $installConfigFilePath
      * @param string $globalConfigFilePath
@@ -260,7 +260,7 @@ class ApplicationTest extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     * Test \Magento\TestFramework\Application will correctly load specified areas.
+     * Xindex \Magento\TestFramework\Application will correctly load specified areas.
      *
      * @dataProvider partialLoadAreaDataProvider
      * @param string $areaCode

@@ -45,7 +45,7 @@ class FixedBundleWithCatalogPriceRuleCalculatorTest extends BundlePriceAbstract
     }
 
     /**
-     * Test cases for current test
+     * Xindex cases for current test
      * @return array
      * @SuppressWarnings(PHPMD.ExcessiveMethodLength)
      */
@@ -512,7 +512,7 @@ class FixedBundleWithCatalogPriceRuleCalculatorTest extends BundlePriceAbstract
         $customOptionsData = [
             [
                 'price_type' => $customOptionsPriceType,
-                'title' => 'Test Field',
+                'title' => 'Xindex Field',
                 'type' => 'field',
                 'is_require' => 1,
                 'price' => 100,
@@ -559,7 +559,7 @@ class FixedBundleWithCatalogPriceRuleCalculatorTest extends BundlePriceAbstract
         $customOptionsData = [
             [
                 'price_type' => $customOptionsPriceType,
-                'title' => 'Test Field',
+                'title' => 'Xindex Field',
                 'type' => 'field',
                 'is_require' => 1,
                 'price' => 100,
@@ -612,7 +612,7 @@ class FixedBundleWithCatalogPriceRuleCalculatorTest extends BundlePriceAbstract
         $customOptionsData = [
             [
                 'price_type' => $customOptionsPriceType,
-                'title' => 'Test Field',
+                'title' => 'Xindex Field',
                 'type' => 'field',
                 'is_require' => 1,
                 'price' => 100,
@@ -665,7 +665,7 @@ class FixedBundleWithCatalogPriceRuleCalculatorTest extends BundlePriceAbstract
         $customOptionsData = [
             [
                 'price_type' => $customOptionsPriceType,
-                'title' => 'Test Field',
+                'title' => 'Xindex Field',
                 'type' => 'field',
                 'is_require' => 1,
                 'price' => 100,
@@ -718,7 +718,7 @@ class FixedBundleWithCatalogPriceRuleCalculatorTest extends BundlePriceAbstract
         $customOptionsData = [
             [
                 'price_type' => $customOptionsPriceType,
-                'title' => 'Test Field',
+                'title' => 'Xindex Field',
                 'type' => 'field',
                 'is_require' => 1,
                 'price' => 100,
@@ -790,7 +790,7 @@ class FixedBundleWithCatalogPriceRuleCalculatorTest extends BundlePriceAbstract
         $customOptionsData = [
             [
                 'price_type' => $customOptionsPriceType,
-                'title' => 'Test Field',
+                'title' => 'Xindex Field',
                 'type' => 'field',
                 'is_require' => 1,
                 'price' => 100,

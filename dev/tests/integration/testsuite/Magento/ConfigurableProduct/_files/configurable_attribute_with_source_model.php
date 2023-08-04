@@ -16,7 +16,7 @@ $eavSetup->addAttribute(
         'type' => 'varchar',
         'backend' => '',
         'frontend' => '',
-        'label' => 'Test configurable with source model',
+        'label' => 'Xindex configurable with source model',
         'input' => 'select',
         'source' => \Magento\Catalog\Model\Category\Attribute\Source\Mode::class,
         'global' => \Magento\Eav\Model\Entity\Attribute\ScopedAttributeInterface::SCOPE_GLOBAL,

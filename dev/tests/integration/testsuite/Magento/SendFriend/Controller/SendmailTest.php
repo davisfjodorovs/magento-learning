@@ -41,7 +41,7 @@ class SendmailTest extends AbstractController
     /** @var array */
     private $staticData = [
         'sender' => [
-            'name' => 'Test',
+            'name' => 'Xindex',
             'email' => 'test@example.com',
             'message' => 'Message',
         ],

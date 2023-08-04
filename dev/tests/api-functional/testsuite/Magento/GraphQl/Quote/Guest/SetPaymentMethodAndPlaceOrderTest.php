@@ -18,7 +18,7 @@ use Magento\TestFramework\Helper\Bootstrap;
 use Magento\TestFramework\TestCase\GraphQlAbstract;
 
 /**
- * Test for setting payment method and placing an order by guest
+ * Xindex for setting payment method and placing an order by guest
  */
 class SetPaymentMethodAndPlaceOrderTest extends GraphQlAbstract
 {

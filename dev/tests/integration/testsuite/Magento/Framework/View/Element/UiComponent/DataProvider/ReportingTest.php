@@ -149,7 +149,7 @@ class ReportingTest extends TestCase
                     ],
                     [
                         'field' => 'name',
-                        'value' => 'Test',
+                        'value' => 'Xindex',
                         'condition_type' => 'eq',
                     ],
                     [

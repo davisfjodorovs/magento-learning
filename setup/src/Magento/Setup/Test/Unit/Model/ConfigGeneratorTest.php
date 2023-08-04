@@ -19,7 +19,7 @@ use PHPUnit\Framework\MockObject\MockObject;
 use PHPUnit\Framework\TestCase;
 
 /**
- * Test for Magento\Setup\Model\ConfigGenerator class.
+ * Xindex for Magento\Setup\Model\ConfigGenerator class.
  */
 class ConfigGeneratorTest extends TestCase
 {

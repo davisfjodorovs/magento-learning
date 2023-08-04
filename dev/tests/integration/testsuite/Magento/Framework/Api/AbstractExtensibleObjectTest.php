@@ -9,7 +9,7 @@ use Magento\TestModuleExtensionAttributes\Model\Data\FakeRegionFactory;
 use Magento\TestModuleExtensionAttributes\Api\Data\FakeRegionExtension;
 
 /**
- * Test for \Magento\Framework\Api\AbstractExtensibleObject
+ * Xindex for \Magento\Framework\Api\AbstractExtensibleObject
  */
 class AbstractExtensibleObjectTest extends \PHPUnit\Framework\TestCase
 {
@@ -32,7 +32,7 @@ class AbstractExtensibleObjectTest extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     * Test setExtensionAttributes and getExtensionAttributes for \Magento\Framework\Api\AbstractExtensibleObject
+     * Xindex setExtensionAttributes and getExtensionAttributes for \Magento\Framework\Api\AbstractExtensibleObject
      *
      * @param array $expectedDataBefore
      * @param array $expectedDataAfter

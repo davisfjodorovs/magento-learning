@@ -32,7 +32,7 @@ use Magento\TestFramework\Annotation\TestsIsolation;
 use ReflectionException;
 
 /**
- * Test class for \Magento\TestFramework\Annotation\DataFixture.
+ * Xindex class for \Magento\TestFramework\Annotation\DataFixture.
  *
  * @magentoDataFixture sampleFixtureOne
  * @SuppressWarnings(PHPMD.CouplingBetweenObjects)
@@ -199,7 +199,7 @@ class DataFixtureTest extends TestCase
 
     /**
      * @magentoDataFixture sampleFixtureTwo
-     * @magentoDataFixture Magento/Test/Annotation/_files/sample_fixture_three.php
+     * @magentoDataFixture Magento/Xindex/Annotation/_files/sample_fixture_three.php
      *
      * @return void
      */
@@ -220,7 +220,7 @@ class DataFixtureTest extends TestCase
     /**
      * @magentoDbIsolation disabled
      * @magentoDataFixture sampleFixtureTwo
-     * @magentoDataFixture Magento/Test/Annotation/_files/sample_fixture_three.php
+     * @magentoDataFixture Magento/Xindex/Annotation/_files/sample_fixture_three.php
      *
      * @return void
      */
@@ -240,7 +240,7 @@ class DataFixtureTest extends TestCase
 
     /**
      * @magentoDataFixture sampleFixtureTwo
-     * @magentoDataFixture Magento/Test/Annotation/_files/sample_fixture_three.php
+     * @magentoDataFixture Magento/Xindex/Annotation/_files/sample_fixture_three.php
      *
      * @return void
      */
@@ -269,7 +269,7 @@ class DataFixtureTest extends TestCase
 
     /**
      * @magentoDataFixture sampleFixtureTwo
-     * @magentoDataFixture Magento/Test/Annotation/_files/sample_fixture_three.php
+     * @magentoDataFixture Magento/Xindex/Annotation/_files/sample_fixture_three.php
      *
      * @return void
      */
@@ -297,7 +297,7 @@ class DataFixtureTest extends TestCase
     }
 
     /**
-     * @magentoDataFixture Magento/Test/Annotation/_files/sample_fixture_three.php
+     * @magentoDataFixture Magento/Xindex/Annotation/_files/sample_fixture_three.php
      *
      * @return void
      */

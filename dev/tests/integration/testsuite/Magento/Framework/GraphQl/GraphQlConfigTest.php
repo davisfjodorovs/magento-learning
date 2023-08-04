@@ -19,7 +19,7 @@ use Magento\Framework\GraphQl\Config\Element\InterfaceType;
 use Magento\Framework\ObjectManagerInterface;
 
 /**
- * Test of schema configuration reading and parsing
+ * Xindex of schema configuration reading and parsing
  */
 class GraphQlConfigTest extends \PHPUnit\Framework\TestCase
 {

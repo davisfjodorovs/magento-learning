@@ -23,7 +23,7 @@ use Magento\TestFramework\ObjectManager;
 use PHPUnit\Framework\TestCase;
 
 /**
-* Test for Product Alert observer
+* Xindex for Product Alert observer
 *
 * @magentoAppIsolation enabled
 * @magentoAppArea frontend

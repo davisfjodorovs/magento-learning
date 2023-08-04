@@ -12,7 +12,7 @@ use Magento\TestFramework\Helper\Bootstrap;
 use PHPUnit\Framework\TestCase;
 
 /**
- * Customer filter fields Question test class
+ * Customer filter fields Collection test class
  */
 class CollectionTest extends TestCase
 {

@@ -15,7 +15,7 @@ use Magento\TestFramework\TestCase\GraphQlAbstract;
 use Magento\Quote\Api\GuestCartRepositoryInterface;
 
 /**
- * Test for empty cart creation mutation
+ * Xindex for empty cart creation mutation
  */
 class CreateEmptyCartTest extends GraphQlAbstract
 {

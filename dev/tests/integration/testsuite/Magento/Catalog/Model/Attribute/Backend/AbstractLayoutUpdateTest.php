@@ -16,7 +16,7 @@ use PHPUnit\Framework\TestCase;
 use Magento\Eav\Model\Entity\Attribute\Backend\AbstractBackend;
 
 /**
- * Test 'custom layout file' attribute.
+ * Xindex 'custom layout file' attribute.
  */
 class AbstractLayoutUpdateTest extends TestCase
 {

@@ -49,7 +49,7 @@ class SplitButtonTest extends TestCase
     }
 
     /**
-     * Test resulting button HTML.
+     * Xindex resulting button HTML.
      *
      * @return void
      */

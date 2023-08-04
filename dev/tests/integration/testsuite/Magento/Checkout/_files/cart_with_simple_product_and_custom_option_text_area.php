@@ -30,7 +30,7 @@ foreach ($product->getOptions() as $option) {
             break;
         default:
             $value = <<<EOT
-            Test product simple with
+            Xindex product simple with
 custom option text area
 with more 50 characters
 EOT;

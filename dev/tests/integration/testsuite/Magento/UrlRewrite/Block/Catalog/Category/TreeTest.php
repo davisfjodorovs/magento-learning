@@ -7,7 +7,7 @@
 namespace Magento\UrlRewrite\Block\Catalog\Category;
 
 /**
- * Test for \Magento\UrlRewrite\Block\Catalog\Category\Tree
+ * Xindex for \Magento\UrlRewrite\Block\Catalog\Category\Tree
  *
  * @magentoAppArea Adminhtml
  */
@@ -32,7 +32,7 @@ class TreeTest extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     * Test for method \Magento\UrlRewrite\Block\Catalog\Category\Tree::getTreeArray()
+     * Xindex for method \Magento\UrlRewrite\Block\Catalog\Category\Tree::getTreeArray()
      * @magentoAppIsolation enabled
      * @magentoDataFixture Magento/Catalog/_files/indexer_catalog_category.php
      * @magentoDataFixture Magento/Catalog/_files/indexer_catalog_products.php
@@ -46,7 +46,7 @@ class TreeTest extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     * Test that the getTreeArray() method scrubs single quotes and apostrophes from names
+     * Xindex that the getTreeArray() method scrubs single quotes and apostrophes from names
      *
      * @magentoAppIsolation enabled
      * @magentoDataFixture Magento/Catalog/_files/catalog_category_with_apostrophe.php
@@ -63,7 +63,7 @@ class TreeTest extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     * Test that the getTreeArray() method scrubs single quotes and apostrophes from names
+     * Xindex that the getTreeArray() method scrubs single quotes and apostrophes from names
      *
      * @magentoAppIsolation enabled
      * @magentoDataFixture Magento/Catalog/_files/catalog_category_with_doublequotes.php
@@ -80,7 +80,7 @@ class TreeTest extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     * Test prepare grid
+     * Xindex prepare grid
      */
     public function testGetLoadTreeUrl()
     {
@@ -93,7 +93,7 @@ class TreeTest extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     * Test for method \Magento\UrlRewrite\Block\Catalog\Category\Tree::getCategoryCollection()
+     * Xindex for method \Magento\UrlRewrite\Block\Catalog\Category\Tree::getCategoryCollection()
      */
     public function testGetCategoryCollection()
     {

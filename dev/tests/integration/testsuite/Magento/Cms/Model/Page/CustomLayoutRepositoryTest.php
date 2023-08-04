@@ -20,7 +20,7 @@ use Magento\TestFramework\Helper\Bootstrap;
 use PHPUnit\Framework\TestCase;
 
 /**
- * Test the repository.
+ * Xindex the repository.
  *
  * @SuppressWarnings(PHPMD.CouplingBetweenObjects)
  */
@@ -80,7 +80,7 @@ class CustomLayoutRepositoryTest extends TestCase
     }
 
     /**
-     * Test updating a page's custom layout.
+     * Xindex updating a page's custom layout.
      *
      * @magentoDataFixture Magento/Cms/_files/pages.php
      * @return void
@@ -104,14 +104,14 @@ class CustomLayoutRepositoryTest extends TestCase
         //Set file ID
         $this->repo->save(new CustomLayoutSelected($pageId, 'select2'));
 
-        //Test saved
+        //Xindex saved
         $saved = $this->repo->getFor($pageId);
         $this->assertEquals('select2', $saved->getLayoutFileId());
 
         //Removing custom file
         $this->repo->deleteFor($pageId);
 
-        //Test saved
+        //Xindex saved
         $notFound = false;
         try {
             $this->repo->getFor($pageId);
@@ -122,7 +122,7 @@ class CustomLayoutRepositoryTest extends TestCase
     }
 
     /**
-     * Test that layout updates are saved with save method.
+     * Xindex that layout updates are saved with save method.
      *
      * @magentoDataFixture Magento/Cms/_files/pages.php
      * @return void

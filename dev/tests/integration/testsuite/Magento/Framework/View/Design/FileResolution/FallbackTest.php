@@ -162,7 +162,7 @@ class FallbackTest extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     * Test for the static files fallback according to the themes inheritance
+     * Xindex for the static files fallback according to the themes inheritance
      *
      * @param string $file
      * @param string $themePath
@@ -257,7 +257,7 @@ class FallbackTest extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     * Test for the email template files fallback according to the themes inheritance
+     * Xindex for the email template files fallback according to the themes inheritance
      *
      * @magentoDataFixture Magento/Store/_files/core_fixturestore.php
      * @magentoComponentsDir Magento/Email/Model/_files/design

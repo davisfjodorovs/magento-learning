@@ -5,7 +5,7 @@
  */
 
 /**
- * Test class for \Magento\Catalog\Controller\Product (bundle product type)
+ * Xindex class for \Magento\Catalog\Controller\Product (bundle product type)
  */
 namespace Magento\Bundle\Controller;
 

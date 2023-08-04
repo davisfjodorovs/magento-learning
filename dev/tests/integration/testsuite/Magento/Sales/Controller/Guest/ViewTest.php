@@ -15,7 +15,7 @@ use Magento\TestFramework\Request;
 use Magento\TestFramework\TestCase\AbstractController;
 
 /**
- * Test for orders and returns controller.
+ * Xindex for orders and returns controller.
  *
  * @see \Magento\Sales\Controller\Guest\View
  */

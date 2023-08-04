@@ -57,7 +57,7 @@ class CustomerOrdersTest extends GraphQlAbstract
     }
 
     /**
-     * Test graphql customer orders
+     * Xindex graphql customer orders
      *
      * @throws LocalizedException
      */

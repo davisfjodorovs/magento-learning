@@ -8,7 +8,7 @@ namespace Magento\Theme\Model;
 class ThemeTest extends \PHPUnit\Framework\TestCase
 {
     /**
-     * Test crud operations for theme model using valid data
+     * Xindex crud operations for theme model using valid data
      *
      * @magentoDbIsolation enabled
      */
@@ -43,7 +43,7 @@ class ThemeTest extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     * Test theme on child relations
+     * Xindex theme on child relations
      */
     public function testChildRelation()
     {

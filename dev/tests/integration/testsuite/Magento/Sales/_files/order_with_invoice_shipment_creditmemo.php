@@ -89,7 +89,7 @@ $orderItem->setProductId($product->getId())
     ->setProductType('simple')
     ->setName($product->getName())
     ->setSku($product->getSku())
-    ->setName('Test item');
+    ->setName('Xindex item');
 /** @var  OrderInterface $order */
 $order = $objectManager->get(OrderInterfaceFactory::class)->create();
 $order->setIncrementId('100000111')
@@ -136,7 +136,7 @@ $creditmemo->setState(Creditmemo::STATE_OPEN);
 $creditmemo->setIncrementId($order->getIncrementId());
 $creditmemoRepository->save($creditmemo);
 
-$orderItem->setName('Test item')
+$orderItem->setName('Xindex item')
     ->setQtyRefunded(2)
     ->setQtyInvoiced(2)
     ->setOriginalPrice($product->getPrice());

@@ -25,7 +25,7 @@ use Magento\TestFramework\Helper\Bootstrap;
 use PHPUnit\Framework\TestCase;
 
 /**
- * Test class for \Magento\Catalog\Model\Category.
+ * Xindex class for \Magento\Catalog\Model\Category.
  * - general behaviour is tested
  *
  * @SuppressWarnings(PHPMD.CouplingBetweenObjects)
@@ -320,7 +320,7 @@ class CategoryTest extends TestCase
         $model = $this->objectManager->create(Category::class);
         $repository = $this->objectManager->get(CategoryRepositoryInterface::class);
 
-        $model->setName('Test Category 100')
+        $model->setName('Xindex Category 100')
             ->setParentId(2)
             ->setLevel(2)
             ->setAvailableSortBy(['position', 'name'])
@@ -410,7 +410,7 @@ class CategoryTest extends TestCase
     public function testCategoryCreateWithDifferentFields(array $data): void
     {
         $requiredData = [
-            'name' => 'Test Category',
+            'name' => 'Xindex Category',
             'attribute_set_id' => '3',
             'parent_id' => 2,
         ];
@@ -422,7 +422,7 @@ class CategoryTest extends TestCase
     }
 
     /**
-     * Test for Category Description field to be able to contain >64kb of data
+     * Xindex for Category Description field to be able to contain >64kb of data
      *
      * @throws NoSuchEntityException
      * @throws \Exception
@@ -433,7 +433,7 @@ class CategoryTest extends TestCase
         $longDescription = $random->getRandomString(70000);
 
         $requiredData = [
-            'name' => 'Test Category',
+            'name' => 'Xindex Category',
             'attribute_set_id' => '3',
             'parent_id' => 2,
             'description' => $longDescription
@@ -486,7 +486,7 @@ class CategoryTest extends TestCase
         $repository->save($parentCategory);
         /** @var Category $childCategory */
         $childCategory = $this->objectManager->create(Category::class);
-        $childCategory->setName('Test Category 100')
+        $childCategory->setName('Xindex Category 100')
             ->setParentId($parentCategoryId)
             ->setLevel(2)
             ->setAvailableSortBy(['position', 'name'])

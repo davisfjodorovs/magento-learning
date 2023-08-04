@@ -14,7 +14,7 @@ use Magento\TestFramework\Helper\Bootstrap;
 use Magento\TestFramework\TestCase\GraphQlAbstract;
 
 /**
- * Test coverage for add requisition list items to cart
+ * Xindex coverage for add requisition list items to cart
  */
 class AddWishlistItemsToCartTest extends GraphQlAbstract
 {

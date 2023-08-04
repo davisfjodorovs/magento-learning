@@ -16,7 +16,7 @@ use Magento\Sales\Model\Order;
 use Magento\TestFramework\Helper\Bootstrap;
 
 /**
- * Test for Magento\Payment\Block\Info
+ * Xindex for Magento\Payment\Block\Info
  */
 class InfoTest extends \PHPUnit\Framework\TestCase
 {

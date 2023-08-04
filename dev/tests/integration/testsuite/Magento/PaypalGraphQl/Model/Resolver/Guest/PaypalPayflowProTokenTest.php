@@ -14,7 +14,7 @@ use Magento\Quote\Model\QuoteIdToMaskedQuoteId;
 use Magento\Framework\DataObject;
 
 /**
- * Test PaypalPayflowProTokenTest graphql endpoint for guest
+ * Xindex PaypalPayflowProTokenTest graphql endpoint for guest
  *
  * @magentoAppArea graphql
  */
@@ -39,7 +39,7 @@ class PaypalPayflowProTokenTest extends PaypalPayflowProAbstractTest
     }
 
     /**
-     * Test create paypal token for guest
+     * Xindex create paypal token for guest
      *
      * @return void
      * @magentoDataFixture Magento/Sales/_files/default_rollback.php
@@ -89,7 +89,7 @@ class PaypalPayflowProTokenTest extends PaypalPayflowProAbstractTest
     }
 
     /**
-     * Test redirect Urls are validated
+     * Xindex redirect Urls are validated
      *
      * @return void
      * @magentoDataFixture Magento/GraphQl/Quote/_files/guest/create_empty_cart.php

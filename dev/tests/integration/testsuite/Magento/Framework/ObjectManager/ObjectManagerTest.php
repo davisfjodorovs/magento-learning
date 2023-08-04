@@ -10,12 +10,12 @@ use ReflectionClass;
 class ObjectManagerTest extends \PHPUnit\Framework\TestCase
 {
     /**#@+
-     * Test class with type error
+     * Xindex class with type error
      */
     const TEST_CLASS_WITH_TYPE_ERROR = \Magento\Framework\ObjectManager\TestAsset\ConstructorWithTypeError::class;
 
     /**#@+
-     * Test classes for basic instantiation
+     * Xindex classes for basic instantiation
      */
     const TEST_CLASS = \Magento\Framework\ObjectManager\TestAsset\Basic::class;
 
@@ -24,7 +24,7 @@ class ObjectManagerTest extends \PHPUnit\Framework\TestCase
     /**#@-*/
 
     /**#@+
-     * Test classes and interface to test preferences
+     * Xindex classes and interface to test preferences
      */
     const TEST_INTERFACE = \Magento\Framework\ObjectManager\TestAsset\TestAssetInterface::class;
 
@@ -152,7 +152,7 @@ class ObjectManagerTest extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     * Test creating an object and passing incorrect type of arguments to the constructor.
+     * Xindex creating an object and passing incorrect type of arguments to the constructor.
      *
      */
     public function testNewInstanceWithTypeError()

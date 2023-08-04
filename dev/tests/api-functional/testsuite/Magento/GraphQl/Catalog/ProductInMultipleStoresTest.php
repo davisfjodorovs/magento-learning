@@ -16,7 +16,7 @@ use Magento\TestFramework\TestCase\GraphQlAbstract;
 class ProductInMultipleStoresTest extends GraphQlAbstract
 {
     /**
-     * Test a product from a specific and a default store
+     * Xindex a product from a specific and a default store
      *
      * @magentoApiDataFixture Magento/Store/_files/second_store.php
      * @magentoApiDataFixture Magento/Catalog/_files/product_simple.php
@@ -68,7 +68,7 @@ class ProductInMultipleStoresTest extends GraphQlAbstract
     }
 
     /**
-     * Test a product from a non existing store
+     * Xindex a product from a non existing store
      *
      * @magentoApiDataFixture Magento/Catalog/_files/product_simple.php
      */

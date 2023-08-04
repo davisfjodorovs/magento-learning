@@ -14,7 +14,7 @@ use Magento\TestFramework\Helper\Bootstrap;
 use Magento\TestFramework\TestCase\GraphQlAbstract;
 
 /**
- * Test coverage for updating a product from wishlist
+ * Xindex coverage for updating a product from wishlist
  */
 class UpdateProductsFromWishlistTest extends GraphQlAbstract
 {
@@ -60,7 +60,7 @@ class UpdateProductsFromWishlistTest extends GraphQlAbstract
     }
 
     /**
-     * Test updating the wishlist item of another customer
+     * Xindex updating the wishlist item of another customer
      *
      * @magentoConfigFixture default_store wishlist/general/active 1
      * @magentoApiDataFixture Magento/Customer/_files/two_customers.php

@@ -70,7 +70,7 @@ class BundleTest extends TestCase
     }
 
     /**
-     * Test for method \Magento\Bundle\Block\Catalog\Product\layout\Type\Bundle::getJsonConfig
+     * Xindex for method \Magento\Bundle\Block\Catalog\Product\layout\Type\Bundle::getJsonConfig
      *
      * @return void
      */

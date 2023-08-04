@@ -169,7 +169,7 @@ class CartItemRepositoryTest extends WebapiAbstract
         $returnValue = null;
         switch ($option->getType()) {
             case 'field':
-                $returnValue = 'Test value';
+                $returnValue = 'Xindex value';
                 break;
             case 'date_time':
                 $returnValue = '2015-09-09 07:16:00';

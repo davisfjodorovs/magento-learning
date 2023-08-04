@@ -82,7 +82,7 @@ class CarrierTest extends TestCase
     }
 
     /**
-     * Test ship accept url for live site
+     * Xindex ship accept url for live site
      *
      * @magentoConfigFixture current_store carriers/ups/is_account_live 1
      */
@@ -100,7 +100,7 @@ class CarrierTest extends TestCase
     }
 
     /**
-     * Test ship accept url for live site
+     * Xindex ship accept url for live site
      *
      * @magentoConfigFixture current_store carriers/ups/is_account_live 1
      */
@@ -139,7 +139,7 @@ class CarrierTest extends TestCase
     }
 
     /**
-     * Test processing rates response.
+     * Xindex processing rates response.
      *
      * @param int $negotiable
      * @param int $tax
@@ -207,7 +207,7 @@ class CarrierTest extends TestCase
     }
 
     /**
-     * Test collect rates function without any allowed methods set.
+     * Xindex collect rates function without any allowed methods set.
      *
      * @return void
      * @magentoConfigFixture default_store shipping/origin/country_id GB
@@ -264,7 +264,7 @@ class CarrierTest extends TestCase
     }
 
     /**
-     * Test shipping a package.
+     * Xindex shipping a package.
      *
      *
      * @magentoConfigFixture default_store shipping/origin/country_id GB
@@ -364,7 +364,7 @@ class CarrierTest extends TestCase
     }
 
     /**
-     * Test get carriers rates if has HttpException.
+     * Xindex get carriers rates if has HttpException.
      *
      * @magentoConfigFixture default_store shipping/origin/country_id GB
      * @magentoConfigFixture default_store carriers/ups/type UPS_XML

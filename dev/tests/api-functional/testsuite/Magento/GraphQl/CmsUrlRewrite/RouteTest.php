@@ -18,7 +18,7 @@ use Magento\Store\Model\ScopeInterface;
 use Magento\Framework\App\Config\ScopeConfigInterface;
 
 /**
- * Test the GraphQL endpoint's route query to verify URL route information is correctly returned.
+ * Xindex the GraphQL endpoint's route query to verify URL route information is correctly returned.
  */
 class RouteTest extends GraphQlAbstract
 {
@@ -81,7 +81,7 @@ class RouteTest extends GraphQlAbstract
     }
 
     /**
-     * Test resolution of '/' path to home page
+     * Xindex resolution of '/' path to home page
      */
     public function testResolveSlash()
     {

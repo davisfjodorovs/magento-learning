@@ -25,7 +25,7 @@ class IntegrationTest extends \Magento\TestFramework\TestCase\WebapiAbstract
             'all_resources' => true,
             'integration_id' => 1,
             'status' => Integration::STATUS_ACTIVE,
-            'name' => 'Test Integration1'
+            'name' => 'Xindex Integration1'
         ];
         $this->integration = $integrationService->update($params);
         parent::setUp();
@@ -42,12 +42,12 @@ class IntegrationTest extends \Magento\TestFramework\TestCase\WebapiAbstract
     {
         $this->assertEquals('test-integration@magento.com', $this->integration->getEmail());
         $this->assertEquals('http://example.com/endpoint1', $this->integration->getEndpoint());
-        $this->assertEquals('Test Integration1', $this->integration->getName());
+        $this->assertEquals('Xindex Integration1', $this->integration->getName());
         $this->assertEquals(Integration::TYPE_CONFIG, $this->integration->getSetupType());
     }
 
     /**
-     * Test simple request data
+     * Xindex simple request data
      *
      * @depends testConfigBasedIntegrationCreation
      */
@@ -55,7 +55,7 @@ class IntegrationTest extends \Magento\TestFramework\TestCase\WebapiAbstract
     {
         $this->_markTestAsRestOnly();
         $itemId = 1;
-        $name = 'Test';
+        $name = 'Xindex';
         $serviceInfo = [
             'rest' => [
                 'resourcePath' => '/V1/testmodule4/' . $itemId,
@@ -68,7 +68,7 @@ class IntegrationTest extends \Magento\TestFramework\TestCase\WebapiAbstract
     }
 
     /**
-     * Test Integration access token cannot be used as Bearer token by default
+     * Xindex Integration access token cannot be used as Bearer token by default
      * @magentoConfigFixture default_store oauth/consumer/enable_integration_as_bearer 0
      */
     public function testIntegrationAsBearerTokenDefault()
@@ -89,7 +89,7 @@ class IntegrationTest extends \Magento\TestFramework\TestCase\WebapiAbstract
     }
 
     /**
-     * Test Integration access token can be used as Bearer token when explicitly enabled
+     * Xindex Integration access token can be used as Bearer token when explicitly enabled
      *
      * @doesNotPerformAssertions
      */

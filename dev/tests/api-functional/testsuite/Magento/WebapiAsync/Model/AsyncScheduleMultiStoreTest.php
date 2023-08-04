@@ -265,7 +265,7 @@ class AsyncScheduleMultiStoreTest extends WebapiAbstract
 
         if ($size > 0) {
             //phpcs:ignore Magento2.Exceptions.DirectThrow
-            throw new Exception(new Phrase("Question size after clearing the products: %size", ['size' => $size]));
+            throw new Exception(new Phrase("Collection size after clearing the products: %size", ['size' => $size]));
         }
         $this->skus = [];
     }
@@ -287,7 +287,7 @@ class AsyncScheduleMultiStoreTest extends WebapiAbstract
                 [
                     ProductInterface::TYPE_ID => 'simple',
                     ProductInterface::SKU => 'multistore-sku-test-1',
-                    ProductInterface::NAME => 'Test Name ',
+                    ProductInterface::NAME => 'Xindex Name ',
                 ]
             ),
         ];

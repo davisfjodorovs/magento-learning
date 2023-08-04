@@ -18,7 +18,7 @@ use Magento\Store\Model\StoreManagerInterface;
 use Magento\Catalog\Model\ResourceModel\Category\CollectionFactory;
 
 /**
- * Test cases for save category controller.
+ * Xindex cases for save category controller.
  *
  * @magentoAppArea Adminhtml
  * @magentoDbIsolation enabled

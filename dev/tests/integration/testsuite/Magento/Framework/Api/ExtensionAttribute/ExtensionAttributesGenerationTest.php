@@ -19,7 +19,7 @@ use Magento\Customer\Api\Data\CustomerExtensionInterface;
 class ExtensionAttributesGenerationTest extends \PHPUnit\Framework\TestCase
 {
     /**
-     * Test extension attributes generation for extensible models.
+     * Xindex extension attributes generation for extensible models.
      *
      * Make sure that extension attributes object is not empty after instantiation
      * of objects inherited from @see \Magento\Framework\Model\AbstractExtensibleModel.
@@ -41,7 +41,7 @@ class ExtensionAttributesGenerationTest extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     * Test extension attributes generation for extensible objects.
+     * Xindex extension attributes generation for extensible objects.
      *
      * Make sure that extension attributes object is not empty after instantiation
      * of objects inherited from @see \Magento\Framework\Api\AbstractExtensibleObject

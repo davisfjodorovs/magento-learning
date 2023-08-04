@@ -10,7 +10,7 @@ namespace Magento\GraphQl\Store;
 use Magento\TestFramework\TestCase\GraphQlAbstract;
 
 /**
- * Test the GraphQL `Store` header validation
+ * Xindex the GraphQL `Store` header validation
  */
 class StoreValidatorTest extends GraphQlAbstract
 {

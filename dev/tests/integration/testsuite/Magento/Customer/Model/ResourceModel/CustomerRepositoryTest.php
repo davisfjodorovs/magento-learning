@@ -138,7 +138,7 @@ class CustomerRepositoryTest extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     * Test create new customer
+     * Xindex create new customer
      *
      * @magentoDbIsolation enabled
      */
@@ -167,7 +167,7 @@ class CustomerRepositoryTest extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     * Test update customer
+     * Xindex update customer
      *
      * @dataProvider updateCustomerDataProvider
      * @magentoAppArea frontend
@@ -245,7 +245,7 @@ class CustomerRepositoryTest extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     * Test update customer address
+     * Xindex update customer address
      *
      * @magentoAppArea frontend
      * @magentoDataFixture Magento/Customer/_files/customer.php
@@ -288,7 +288,7 @@ class CustomerRepositoryTest extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     * Test preserve all addresses after customer update
+     * Xindex preserve all addresses after customer update
      *
      * @magentoAppArea frontend
      * @magentoDataFixture Magento/Customer/_files/customer.php
@@ -315,7 +315,7 @@ class CustomerRepositoryTest extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     * Test update delete all addresses with empty arrays
+     * Xindex update delete all addresses with empty arrays
      *
      * @magentoAppArea frontend
      * @magentoDataFixture Magento/Customer/_files/customer.php
@@ -342,7 +342,7 @@ class CustomerRepositoryTest extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     * Test customer update with new address
+     * Xindex customer update with new address
      *
      * @magentoAppArea frontend
      * @magentoDataFixture Magento/Customer/_files/customer.php
@@ -385,7 +385,7 @@ class CustomerRepositoryTest extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     * Test search customers
+     * Xindex search customers
      *
      * @param \Magento\Framework\Api\Filter[] $filters
      * @param \Magento\Framework\Api\Filter[] $filterGroup
@@ -419,7 +419,7 @@ class CustomerRepositoryTest extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     * Test ordering
+     * Xindex ordering
      *
      * @magentoDataFixture Magento/Customer/_files/three_customers.php
      * @magentoDbIsolation enabled
@@ -463,7 +463,7 @@ class CustomerRepositoryTest extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     * Test delete
+     * Xindex delete
      *
      * @magentoAppArea Adminhtml
      * @magentoDataFixture Magento/Customer/_files/customer.php
@@ -481,7 +481,7 @@ class CustomerRepositoryTest extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     * Test delete by id
+     * Xindex delete by id
      *
      * @magentoAppArea Adminhtml
      * @magentoDataFixture Magento/Customer/_files/customer.php
@@ -592,7 +592,7 @@ class CustomerRepositoryTest extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     * Test update default shipping and default billing address
+     * Xindex update default shipping and default billing address
      *
      * @magentoDataFixture Magento/Customer/_files/customer.php
      * @magentoDbIsolation enabled
@@ -632,7 +632,7 @@ class CustomerRepositoryTest extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     * Test that UpgradeOrderCustomerEmailObserver is executed
+     * Xindex that UpgradeOrderCustomerEmailObserver is executed
      *
      * @magentoDataFixture Magento/Sales/_files/order_with_customer.php
      * @magentoDbIsolation enabled
@@ -658,7 +658,7 @@ class CustomerRepositoryTest extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     * Test that UpgradeOrderCustomerEmailObserver is executed but does not update orders
+     * Xindex that UpgradeOrderCustomerEmailObserver is executed but does not update orders
      *
      * @magentoDataFixture Magento/Sales/_files/order_with_customer.php
      * @magentoDbIsolation enabled

@@ -20,7 +20,7 @@ use Magento\TestFramework\Helper\Bootstrap;
 use Magento\TestFramework\TestCase\GraphQlAbstract;
 
 /**
- * Test cases for adding downloadable product to cart.
+ * Xindex cases for adding downloadable product to cart.
  */
 class UpdateDownloadableCartItemsTest extends GraphQlAbstract
 {

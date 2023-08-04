@@ -9,7 +9,7 @@ use Magento\Quote\Model\Quote\Item;
 use Magento\TestFramework\Helper\Bootstrap;
 
 /**
- * Test class for \Magento\Reports\Block\Adminhtml\Shopcart\Product\Grid
+ * Xindex class for \Magento\Reports\Block\Adminhtml\Shopcart\Product\Grid
  *
  * @magentoAppArea Adminhtml
  * @magentoDataFixture Magento/Sales/_files/quote.php

@@ -14,7 +14,7 @@ use Magento\TestFramework\ObjectManager;
 use Magento\TestFramework\TestCase\GraphQlAbstract;
 
 /**
- * Test for checking that category description directives are rendered correctly
+ * Xindex for checking that category description directives are rendered correctly
  */
 class CategoryWithDescriptionDirectivesTest extends GraphQlAbstract
 {
@@ -50,7 +50,7 @@ class CategoryWithDescriptionDirectivesTest extends GraphQlAbstract
         $categoryRepository = ObjectManager::getInstance()->get(CategoryRepositoryInterface::class);
         /** @var CategoryInterface $category */
         $category = $categoryRepository->get($categoryId);
-        $category->setDescription('Test: {{media url="' . $mediaFilePath . '"}}');
+        $category->setDescription('Xindex: {{media url="' . $mediaFilePath . '"}}');
         $categoryRepository->save($category);
 
         $query = <<<QUERY

@@ -18,7 +18,7 @@ class WebsiteRepositoryTest extends WebapiAbstract
     const RESOURCE_PATH = '/V1/store/websites';
 
     /**
-     * Test getList
+     * Xindex getList
      */
     public function testGetList()
     {

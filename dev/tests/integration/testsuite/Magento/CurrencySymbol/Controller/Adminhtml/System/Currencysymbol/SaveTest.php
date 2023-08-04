@@ -10,7 +10,7 @@ use Magento\Framework\App\Request\Http as HttpRequest;
 class SaveTest extends \Magento\TestFramework\TestCase\AbstractBackendController
 {
     /**
-     * Test save action.
+     * Xindex save action.
      *
      * @param string $currencyCode
      * @param string $inputCurrencySymbol

@@ -88,7 +88,7 @@ class InvoiceListTest extends WebapiAbstract
         ];
 
         $result = $this->_webApiCall($serviceInfo, $requestData);
-        // TODO Test fails, due to the inability of the framework API to handle data collection
+        // TODO Xindex fails, due to the inability of the framework API to handle data collection
         $this->assertArrayHasKey('items', $result);
         $this->assertCount(2, $result['items']);
         $this->assertArrayHasKey('search_criteria', $result);

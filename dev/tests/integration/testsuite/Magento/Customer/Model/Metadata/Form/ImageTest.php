@@ -65,7 +65,7 @@ class ImageTest extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     * Test for processCustomerAddressValue method
+     * Xindex for processCustomerAddressValue method
      *
      * @magentoAppIsolation enabled
      * @throws FileSystemException
@@ -101,7 +101,7 @@ class ImageTest extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     * Test for processCustomerValue method
+     * Xindex for processCustomerValue method
      *
      * @magentoAppIsolation enabled
      * @throws FileSystemException
@@ -133,7 +133,7 @@ class ImageTest extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     * Test for processCustomerValue method with invalid value
+     * Xindex for processCustomerValue method with invalid value
      *
      * @magentoAppIsolation enabled
      *
@@ -170,7 +170,7 @@ class ImageTest extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     * Test for _validateByRules method with not existed file
+     * Xindex for _validateByRules method with not existed file
      *
      * @magentoAppIsolation enabled
      *

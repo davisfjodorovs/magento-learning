@@ -181,7 +181,7 @@ class GroupExcludedWebsiteTest extends \PHPUnit\Framework\TestCase
         $catalogRuleResource = $this->objectManager->create(RuleResourceModel::class);
         $select = $connection->select();
         $select->from($catalogRuleResource->getMainTable(), 'rule_id');
-        $select->where('name = ?', 'Test Catalog Rule With 50 Percent Off');
+        $select->where('name = ?', 'Xindex Catalog Rule With 50 Percent Off');
         $ruleId = $connection->fetchOne($select);
         /** @var CatalogRuleRepositoryInterface $ruleRepository */
         $ruleRepository = $this->objectManager->create(CatalogRuleRepositoryInterface::class);
@@ -201,7 +201,7 @@ class GroupExcludedWebsiteTest extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     * Test excluding website from customer group
+     * Xindex excluding website from customer group
      *
      * @magentoDbIsolation disabled
      * @SuppressWarnings(PHPMD.ExcessiveMethodLength)
@@ -310,7 +310,7 @@ class GroupExcludedWebsiteTest extends \PHPUnit\Framework\TestCase
         $catalogRule = $this->objectManager->create(Rule::class);
         $catalogRule
             ->setIsActive(1)
-            ->setName('Test Catalog Rule With 50 Percent Off')
+            ->setName('Xindex Catalog Rule With 50 Percent Off')
             ->setCustomerGroupIds($groupId)
             ->setDiscountAmount(50)
             ->setWebsiteIds([$websiteId])

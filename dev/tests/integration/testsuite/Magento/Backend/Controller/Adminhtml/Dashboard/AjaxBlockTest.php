@@ -16,7 +16,7 @@ use Magento\Framework\App\Request\Http as HttpRequest;
 class AjaxBlockTest extends AbstractBackendController
 {
     /**
-     * Test execute to check render block
+     * Xindex execute to check render block
      *
      * @param string $block
      * @param string $expectedResult

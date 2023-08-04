@@ -57,7 +57,7 @@ class OrderInvoiceCreateTest extends \Magento\TestFramework\TestCase\WebapiAbstr
             'orderId' => $existingOrder->getId(),
             'items' => [],
             'comment' => [
-                'comment' => 'Test Comment',
+                'comment' => 'Xindex Comment',
                 'is_visible_on_front' => 1,
             ],
         ];
@@ -133,7 +133,7 @@ class OrderInvoiceCreateTest extends \Magento\TestFramework\TestCase\WebapiAbstr
                 ]
             ],
             'comment' => [
-                'comment' => 'Test offline',
+                'comment' => 'Xindex offline',
                 'isVisibleOnFront' => 1,
             ],
         ];
@@ -183,7 +183,7 @@ class OrderInvoiceCreateTest extends \Magento\TestFramework\TestCase\WebapiAbstr
                 ]
             ],
             'comment' => [
-                'comment' => 'Test offline',
+                'comment' => 'Xindex offline',
                 'isVisibleOnFront' => 1,
             ],
         ];

@@ -11,7 +11,7 @@ use Magento\Framework\ObjectManagerInterface;
 use Magento\Framework\View\LayoutInterface;
 
 /**
- * Test \Magento\ConfigurableProduct\Block\Cart\Item\Renderer\Configurable block
+ * Xindex \Magento\ConfigurableProduct\Block\Cart\Item\Renderer\Configurable block
  *
  * @magentoAppArea frontend
  */

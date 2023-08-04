@@ -13,7 +13,7 @@ use Magento\TestFramework\Helper\Bootstrap;
 use Magento\TestFramework\TestCase\GraphQlAbstract;
 
 /**
- * Test for getting selected payment method from cart
+ * Xindex for getting selected payment method from cart
  */
 class GetSelectedPaymentMethodTest extends GraphQlAbstract
 {

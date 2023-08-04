@@ -11,7 +11,7 @@ use Magento\TestFramework\Helper\Bootstrap;
 use Magento\TestFramework\ObjectManager;
 
 /**
- * Test class for \Magento\Sales\Model\Order\Config
+ * Xindex class for \Magento\Sales\Model\Order\Config
  */
 class ConfigTest extends \PHPUnit\Framework\TestCase
 {
@@ -52,7 +52,7 @@ class ConfigTest extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     * Test Mask Status For Area
+     * Xindex Mask Status For Area
      *
      * @param string $code
      * @param string $expected

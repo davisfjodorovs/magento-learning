@@ -10,7 +10,7 @@ namespace Magento\GraphQl\Directory;
 use Magento\TestFramework\TestCase\GraphQlAbstract;
 
 /**
- * Test the GraphQL endpoint's Currency query
+ * Xindex the GraphQL endpoint's Currency query
  */
 class CurrencyTest extends GraphQlAbstract
 {

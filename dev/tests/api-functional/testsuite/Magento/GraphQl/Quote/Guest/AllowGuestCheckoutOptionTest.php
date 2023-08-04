@@ -17,7 +17,7 @@ use Magento\TestFramework\Helper\Bootstrap;
 use Magento\TestFramework\TestCase\GraphQlAbstract;
 
 /**
- * Test for guest checkout.
+ * Xindex for guest checkout.
  */
 class AllowGuestCheckoutOptionTest extends GraphQlAbstract
 {

@@ -117,7 +117,7 @@ class ImageUploaderTest extends TestCase
     }
 
     /**
-     * Test that method rename files when move it with the same name into base directory.
+     * Xindex that method rename files when move it with the same name into base directory.
      *
      * @return void
      * @magentoDataFixture Magento/Catalog/_files/catalog_category_image.php

@@ -20,7 +20,7 @@ use Magento\TestFramework\Helper\Bootstrap;
 use PHPUnit\Framework\TestCase;
 
 /**
- * Test class to check configurable product with swatch attributes view behaviour on product page
+ * Xindex class to check configurable product with swatch attributes view behaviour on product page
  *
  * @magentoDbIsolation enabled
  * @magentoAppIsolation enabled

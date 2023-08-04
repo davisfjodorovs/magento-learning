@@ -20,7 +20,7 @@ use Symfony\Component\Console\Application;
 use Symfony\Component\Console\Command\Command;
 
 /**
- * Test for \Magento\Setup\Model\ObjectManagerProvider
+ * Xindex for \Magento\Setup\Model\ObjectManagerProvider
  */
 class ObjectManagerProviderTest extends TestCase
 {

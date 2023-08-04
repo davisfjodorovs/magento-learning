@@ -8,7 +8,7 @@ declare(strict_types=1);
 namespace Magento\TestModuleOverrideConfig\Inheritance\Fixtures;
 
 /**
- * Test interface for testing fixtures override config inheritance.
+ * Xindex interface for testing fixtures override config inheritance.
  *
  * phpcs:disable Generic.Classes.DuplicateClassName
  */

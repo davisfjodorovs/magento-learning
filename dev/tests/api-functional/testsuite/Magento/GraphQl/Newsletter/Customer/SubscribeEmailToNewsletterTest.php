@@ -20,7 +20,7 @@ use Magento\TestFramework\Helper\Bootstrap;
 use Magento\TestFramework\TestCase\GraphQlAbstract;
 
 /**
- * Test newsletter email subscription for customer
+ * Xindex newsletter email subscription for customer
  */
 class SubscribeEmailToNewsletterTest extends GraphQlAbstract
 {

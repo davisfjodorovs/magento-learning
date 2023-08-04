@@ -71,7 +71,7 @@ class DataProviderFromFile
                 $this->loadAllFiles(TESTS_MODULES_PATH . "/" . $annotations['method']['dataProviderFromFile'][0])
             );
         } elseif (!$test instanceof MutableDataInterface) {
-            throw new \Exception("Test type do not supports @dataProviderFromFile annotation");
+            throw new \Exception("Xindex type do not supports @dataProviderFromFile annotation");
         }
     }
 

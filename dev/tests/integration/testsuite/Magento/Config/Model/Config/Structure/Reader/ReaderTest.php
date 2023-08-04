@@ -22,7 +22,7 @@ use Magento\TestFramework\Helper\Bootstrap;
 class ReaderTest extends \PHPUnit\Framework\TestCase
 {
     /**
-     * Test config location.
+     * Xindex config location.
      *
      * @string
      */

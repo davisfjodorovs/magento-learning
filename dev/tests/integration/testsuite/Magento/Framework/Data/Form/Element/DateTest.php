@@ -29,7 +29,7 @@ class DateTest extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     * Test get value
+     * Xindex get value
      *
      * @param array $data
      * @param string $expect

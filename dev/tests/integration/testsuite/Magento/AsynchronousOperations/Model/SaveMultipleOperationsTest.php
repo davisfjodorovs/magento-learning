@@ -67,7 +67,7 @@ class SaveMultipleOperationsTest extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     * Test execute() of SaveMultipleOperations
+     * Xindex execute() of SaveMultipleOperations
      */
     public function testExecute()
     {
@@ -77,7 +77,7 @@ class SaveMultipleOperationsTest extends \PHPUnit\Framework\TestCase
         $bulkSummary = $this->bulkSummaryFactory->create();
         $this->entityManager->load($bulkSummary, self::BULK_UUID);
         $bulkSummary->setBulkId(self::BULK_UUID);
-        $bulkSummary->setDescription("Test Bulk");
+        $bulkSummary->setDescription("Xindex Bulk");
         $bulkSummary->setUserId(1);
         $bulkSummary->setUserType(1);
         $bulkSummary->setOperationCount(count($operations));
@@ -100,7 +100,7 @@ class SaveMultipleOperationsTest extends \PHPUnit\Framework\TestCase
             'entity_link'      => '',
             'meta_information' => json_encode([
                 'entity_id' => 5,
-                'meta_information' => 'Test'
+                'meta_information' => 'Xindex'
             ])
         ];
 

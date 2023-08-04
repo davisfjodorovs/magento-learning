@@ -20,7 +20,7 @@ use Magento\UrlRewrite\Model\UrlRewrite as UrlRewriteModel;
 use Magento\UrlRewrite\Service\V1\Data\UrlRewrite as UrlRewriteService;
 
 /**
- * Test the GraphQL endpoint's Route query to verify url route information is correctly returned.
+ * Xindex the GraphQL endpoint's Route query to verify url route information is correctly returned.
  */
 class RouteTest extends GraphQlAbstract
 {
@@ -56,7 +56,7 @@ class RouteTest extends GraphQlAbstract
     }
 
     /**
-     * Test the use case where non seo friendly is provided as resolver input in the Query
+     * Xindex the use case where non seo friendly is provided as resolver input in the Query
      *
      * @magentoApiDataFixture Magento/CatalogUrlRewrite/_files/product_with_category.php
      */
@@ -75,7 +75,7 @@ class RouteTest extends GraphQlAbstract
     }
 
     /**
-     * Test the use case where url_key of the existing product is changed and verify final url is redirected correctly
+     * Xindex the use case where url_key of the existing product is changed and verify final url is redirected correctly
      *
      * @magentoApiDataFixture Magento/Catalog/_files/product_with_category.php
      */
@@ -106,7 +106,7 @@ class RouteTest extends GraphQlAbstract
     }
 
     /**
-     * Test for custom type which point to the valid product/category/cms page.
+     * Xindex for custom type which point to the valid product/category/cms page.
      *
      * @magentoApiDataFixture Magento/CatalogUrlRewrite/_files/product_with_category.php
      */
@@ -132,7 +132,7 @@ class RouteTest extends GraphQlAbstract
     }
 
     /**
-     * Test for category entity
+     * Xindex for category entity
      *
      * @magentoApiDataFixture Magento/CatalogUrlRewrite/_files/product_with_category.php
      */
@@ -313,7 +313,7 @@ QUERY;
     }
 
     /**
-     * Test for custom type which point to the invalid product/category/cms page.
+     * Xindex for custom type which point to the invalid product/category/cms page.
      *
      * @magentoApiDataFixture Magento/UrlRewrite/_files/url_rewrite_not_existing_entity.php
      */
@@ -339,7 +339,7 @@ QUERY;
     }
 
     /**
-     * Test for url rewrite to clean cache on rewrites update
+     * Xindex for url rewrite to clean cache on rewrites update
      *
      * @magentoApiDataFixture Magento/Catalog/_files/product_with_category.php
      * @magentoApiDataFixture Magento/Cms/_files/pages.php
@@ -400,7 +400,7 @@ QUERY;
     }
 
     /**
-     * Test for custom url rewrite to clean cache on update combinations
+     * Xindex for custom url rewrite to clean cache on update combinations
      *
      * @magentoApiDataFixture Magento/Catalog/_files/product_with_category.php
      * @magentoApiDataFixture Magento/Cms/_files/pages.php

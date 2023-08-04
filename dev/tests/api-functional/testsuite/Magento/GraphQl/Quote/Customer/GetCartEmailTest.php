@@ -13,7 +13,7 @@ use Magento\TestFramework\Helper\Bootstrap;
 use Magento\TestFramework\TestCase\GraphQlAbstract;
 
 /**
- * Test for getting email from cart
+ * Xindex for getting email from cart
  */
 class GetCartEmailTest extends GraphQlAbstract
 {
@@ -105,7 +105,7 @@ class GetCartEmailTest extends GraphQlAbstract
     {
         return <<<QUERY
 {
-  cart(cart_id:"$maskedQuoteId") {    
+  cart(cart_id:"$maskedQuoteId") {
     email
   }
 }

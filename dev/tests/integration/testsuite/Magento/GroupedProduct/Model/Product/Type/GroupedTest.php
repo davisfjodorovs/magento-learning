@@ -160,7 +160,7 @@ class GroupedTest extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     * Test adding grouped product to cart when one of subproducts is out of stock.
+     * Xindex adding grouped product to cart when one of subproducts is out of stock.
      *
      * @magentoDataFixture Magento/GroupedProduct/_files/product_grouped_with_out_of_stock.php
      * @magentoAppArea frontend

@@ -21,7 +21,7 @@ use Magento\TestFramework\Helper\Xpath;
 use PHPUnit\Framework\TestCase;
 
 /**
- * Test for displaying product review block.
+ * Xindex for displaying product review block.
  *
  * @magentoAppArea frontend
  * @magentoDbIsolation enabled
@@ -71,7 +71,7 @@ class ViewTest extends TestCase
     }
 
     /**
-     * Test product review block
+     * Xindex product review block
      *
      * @magentoDataFixture Magento/Review/_files/product_review_with_rating.php
      *

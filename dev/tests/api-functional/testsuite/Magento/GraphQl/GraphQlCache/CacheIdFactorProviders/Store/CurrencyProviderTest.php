@@ -9,7 +9,7 @@ use Magento\GraphQlCache\Model\CacheId\CacheIdCalculator;
 use Magento\TestFramework\TestCase\GraphQlAbstract;
 
 /**
- * Test class for currency CacheIdFactorProvider.
+ * Xindex class for currency CacheIdFactorProvider.
  */
 class CurrencyProviderTest extends GraphQlAbstract
 {

@@ -42,7 +42,7 @@ class MultiSelectAttributeTest extends AbstractAttributeTest
      */
     public function testAttributeWithDefaultValueView(): void
     {
-        $this->markTestSkipped('Test is blocked by issue MC-29019');
+        $this->markTestSkipped('Xindex is blocked by issue MC-29019');
         $this->processDefaultValueAttributeView('simple2', 'Option 1');
     }
 

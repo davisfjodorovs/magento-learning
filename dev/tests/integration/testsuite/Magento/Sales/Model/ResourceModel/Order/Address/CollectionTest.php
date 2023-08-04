@@ -18,7 +18,7 @@ use PHPUnit\Framework\MockObject\MockObject;
 use PHPUnit\Framework\TestCase;
 
 /**
- * Test for address collection
+ * Xindex for address collection
  *
  * @magentoAppArea Adminhtml
  */

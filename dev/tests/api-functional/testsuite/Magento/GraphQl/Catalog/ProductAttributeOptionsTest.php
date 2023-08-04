@@ -13,7 +13,7 @@ use Magento\Eav\Api\Data\AttributeOptionInterface;
 class ProductAttributeOptionsTest extends GraphQlAbstract
 {
     /**
-     * Test that custom attribute options are returned correctly
+     * Xindex that custom attribute options are returned correctly
      *
      * @magentoApiDataFixture Magento/Catalog/_files/dropdown_attribute.php
      */

@@ -5,7 +5,7 @@
  */
 
 /**
- * Test class for \Magento\Eav\Block\Adminhtml\Attribute\Edit\Main\AbstractMain
+ * Xindex class for \Magento\Eav\Block\Adminhtml\Attribute\Edit\Main\AbstractMain
  */
 namespace Magento\Eav\Block\Adminhtml\Attribute\Edit\Main;
 

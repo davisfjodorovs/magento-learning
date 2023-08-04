@@ -54,7 +54,7 @@ $billingData = [
     'company' => '',
     'email' => 'test@com.com',
     'street' => [0 => 'test1', 1 => ''],
-    'city' => 'Test',
+    'city' => 'Xindex',
     'region_id' => '1',
     'region' => '',
     'postcode' => '9001',

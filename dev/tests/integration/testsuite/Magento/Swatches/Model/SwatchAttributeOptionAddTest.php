@@ -10,7 +10,7 @@ use Magento\Eav\Api\Data\AttributeOptionInterface;
 use Magento\Eav\Api\Data\AttributeOptionInterfaceFactory;
 
 /**
- * Test add option of swatch attribute
+ * Xindex add option of swatch attribute
  *
  */
 class SwatchAttributeOptionAddTest extends \PHPUnit\Framework\TestCase

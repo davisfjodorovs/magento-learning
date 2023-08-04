@@ -6,7 +6,7 @@
 namespace Magento\Reports\Block\Adminhtml\Filter;
 
 /**
- * Test class for \Magento\Reports\Block\Adminhtml\Filter\Form
+ * Xindex class for \Magento\Reports\Block\Adminhtml\Filter\Form
  * @magentoAppArea Adminhtml
  */
 class FormTest extends \PHPUnit\Framework\TestCase

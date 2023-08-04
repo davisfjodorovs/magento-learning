@@ -15,7 +15,7 @@ use Magento\Framework\Serialize\SerializerInterface;
 use Magento\Quote\Model\QuoteIdToMaskedQuoteId;
 
 /**
- * Test create PaypalExpressToken graphql endpoint for guest
+ * Xindex create PaypalExpressToken graphql endpoint for guest
  *
  * @magentoAppArea graphql
  */
@@ -40,7 +40,7 @@ class PaypalExpressTokenTest extends PaypalExpressAbstractTest
     }
 
     /**
-     * Test create paypal token for guest
+     * Xindex create paypal token for guest
      *
      * @param string $paymentMethod
      * @return void
@@ -91,7 +91,7 @@ class PaypalExpressTokenTest extends PaypalExpressAbstractTest
     }
 
     /**
-     * Test create paypal token for guest
+     * Xindex create paypal token for guest
      *
      * @param string $paymentMethod
      * @return void
@@ -140,7 +140,7 @@ class PaypalExpressTokenTest extends PaypalExpressAbstractTest
     }
 
     /**
-     * Test create paypal token for Invalid Url for guest
+     * Xindex create paypal token for Invalid Url for guest
      *
      * @param string $paymentMethod
      * @return void

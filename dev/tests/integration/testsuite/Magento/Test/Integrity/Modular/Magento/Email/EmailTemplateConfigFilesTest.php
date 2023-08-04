@@ -8,7 +8,7 @@ namespace Magento\Test\Integrity\Modular\Magento\Email;
 class EmailTemplateConfigFilesTest extends \PHPUnit\Framework\TestCase
 {
     /**
-     * Test that email template configuration file matches the format
+     * Xindex that email template configuration file matches the format
      *
      * @param string $file
      * @dataProvider fileFormatDataProvider
@@ -34,7 +34,7 @@ class EmailTemplateConfigFilesTest extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     * Test that email template configuration contains references to existing template files
+     * Xindex that email template configuration contains references to existing template files
      *
      * @param string $templateId
      * @dataProvider templateReferenceDataProvider
@@ -76,7 +76,7 @@ class EmailTemplateConfigFilesTest extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     * Test that merged configuration of email templates matches the format
+     * Xindex that merged configuration of email templates matches the format
      */
     public function testMergedFormat()
     {

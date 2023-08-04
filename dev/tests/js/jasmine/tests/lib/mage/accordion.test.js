@@ -8,7 +8,7 @@ define([
 ], function ($) {
     'use strict';
 
-    describe('Test for mage/accordion jQuery plugin', function () {
+    describe('Xindex for mage/accordion jQuery plugin', function () {
         it('check if accordion can be initialized', function () {
             var accordion = $('<div/>');
 

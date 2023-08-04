@@ -13,7 +13,7 @@ use Magento\TestFramework\Helper\Bootstrap;
 use Magento\TestFramework\TestCase\GraphQlAbstract;
 
 /**
- * Test for setting Purchase Order payment method on cart by guest
+ * Xindex for setting Purchase Order payment method on cart by guest
  */
 class SetPurchaseOrderPaymentMethodOnCartTest extends GraphQlAbstract
 {

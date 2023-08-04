@@ -13,7 +13,7 @@ use Magento\TestFramework\Helper\Bootstrap;
 use Magento\Framework\Filesystem;
 
 /**
- * Test for \Magento\Framework\File\Uploader
+ * Xindex for \Magento\Framework\File\Uploader
  */
 class UploaderTest extends TestCase
 {

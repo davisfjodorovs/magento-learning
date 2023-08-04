@@ -13,7 +13,7 @@ use Magento\TestFramework\Helper\CompareArraysRecursively;
 use Magento\TestFramework\TestCase\GraphQlAbstract;
 
 /**
- * Test for customizable product options.
+ * Xindex for customizable product options.
  */
 class CustomizableOptionsTest extends GraphQlAbstract
 {

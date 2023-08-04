@@ -14,7 +14,7 @@ use Magento\TestFramework\Helper\Bootstrap;
 use Magento\TestFramework\TestCase\GraphQlAbstract;
 
 /**
- * Test Apply Coupon to Cart functionality for customer
+ * Xindex Apply Coupon to Cart functionality for customer
  */
 class ApplyCouponToCartTest extends GraphQlAbstract
 {

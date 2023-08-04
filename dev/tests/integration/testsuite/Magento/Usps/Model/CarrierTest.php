@@ -40,7 +40,7 @@ use Magento\TestFramework\Quote\Model\GetQuoteByReservedOrderId;
 use PHPUnit\Framework\TestCase;
 
 /**
- * Test for USPS integration.
+ * Xindex for USPS integration.
  *
  * @SuppressWarnings(PHPMD.CouplingBetweenObjects)
  */
@@ -95,7 +95,7 @@ class CarrierTest extends TestCase
     }
 
     /**
-     * Test collecting rates from the provider.
+     * Xindex collecting rates from the provider.
      *
      * @magentoConfigFixture default_store carriers/usps/allowed_methods 0_FCLE,0_FCL,0_FCP,1,2,3,4,6,7,13,16,17,22,23,25,27,28,33,34,35,36,37,42,43,53,55,56,57,61,INT_1,INT_2,INT_4,INT_6,INT_7,INT_8,INT_9,INT_10,INT_11,INT_12,INT_13,INT_14,INT_15,INT_16,INT_20,INT_26
      * @magentoConfigFixture default_store carriers/usps/showmethod 1
@@ -177,7 +177,7 @@ class CarrierTest extends TestCase
     }
 
     /**
-     * Test collecting rates only for available services.
+     * Xindex collecting rates only for available services.
      *
      * @magentoConfigFixture default_store carriers/usps/allowed_methods 0_FCLE,0_FCL,0_FCP,1,2,3,4,6,7,13,16,17,22,23,25,27,28,33,34,35,36,37,42,43,53,55,56,57,61,INT_1,INT_2,INT_4,INT_6,INT_7,INT_8,INT_9,INT_10,INT_11,INT_12,INT_13,INT_14,INT_15,INT_16,INT_20,INT_26
      * @magentoConfigFixture default_store carriers/usps/showmethod 1
@@ -234,7 +234,7 @@ class CarrierTest extends TestCase
     }
 
     /**
-     * Test get carriers rates if has HttpException.
+     * Xindex get carriers rates if has HttpException.
      *
      * @magentoConfigFixture default_store carriers/usps/allowed_methods 0_FCLE,0_FCL,0_FCP,1,2,3,4,6,7,13,16,17,22,23,25,27,28,33,34,35,36,37,42,43,53,55,56,57,61,INT_1,INT_2,INT_4,INT_6,INT_7,INT_8,INT_9,INT_10,INT_11,INT_12,INT_13,INT_14,INT_15,INT_16,INT_20,INT_26
      * @magentoConfigFixture default_store carriers/usps/showmethod 1
@@ -302,7 +302,7 @@ class CarrierTest extends TestCase
     }
 
     /**
-     * Test that the shipping cost from the product in the cart rule should be deducted from the shipping amount
+     * Xindex that the shipping cost from the product in the cart rule should be deducted from the shipping amount
      *
      * @magentoConfigFixture default_store carriers/usps/active 1
      * @magentoConfigFixture default_store carriers/usps/free_method 1

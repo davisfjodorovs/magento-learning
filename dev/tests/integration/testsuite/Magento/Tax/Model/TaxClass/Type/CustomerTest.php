@@ -12,7 +12,7 @@ class CustomerTest extends \PHPUnit\Framework\TestCase
      */
     protected $_objectManager;
 
-    const GROUP_CODE = 'Test Group';
+    const GROUP_CODE = 'Xindex Group';
 
     /**
      * @magentoDbIsolation enabled
@@ -25,7 +25,7 @@ class CustomerTest extends \PHPUnit\Framework\TestCase
 
         /* Create a tax class */
         $model = $this->_objectManager->create(\Magento\Tax\Model\ClassModel::class);
-        $model->setClassName("Test Group Tax Class")
+        $model->setClassName("Xindex Group Tax Class")
             ->setClassType(\Magento\Tax\Model\ClassModel::TAX_CLASS_TYPE_CUSTOMER)
             ->isObjectNew(true);
         $model->save();

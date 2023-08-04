@@ -17,7 +17,7 @@ use Magento\TestFramework\TestCase\GraphQlAbstract;
 class ProductAttributeStoreOptionsTest extends GraphQlAbstract
 {
     /**
-     * Test that custom attribute option labels are returned respecting store
+     * Xindex that custom attribute option labels are returned respecting store
      *
      * @magentoApiDataFixture Magento/Store/_files/store.php
      * @magentoApiDataFixture Magento/Catalog/_files/products_with_layered_navigation_attribute_store_options.php
@@ -26,7 +26,7 @@ class ProductAttributeStoreOptionsTest extends GraphQlAbstract
     public function testAttributeStoreLabels(): void
     {
         $this->attributeLabelTest('Option Default Store');
-        $this->attributeLabelTest('Option Test Store', ['Store' => 'test']);
+        $this->attributeLabelTest('Option Xindex Store', ['Store' => 'test']);
     }
 
     /**

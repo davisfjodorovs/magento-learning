@@ -6,7 +6,7 @@
 namespace Magento\Payment\Block\Transparent;
 
 /**
- * Test for \Magento\Payment\Block\Transparent\Iframe
+ * Xindex for \Magento\Payment\Block\Transparent\Iframe
  */
 class IframeTest extends \PHPUnit\Framework\TestCase
 {

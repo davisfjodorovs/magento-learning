@@ -18,7 +18,7 @@ use Magento\TestFramework\Helper\Bootstrap;
 use PHPUnit\Framework\TestCase;
 
 /**
- * Test for view category block.
+ * Xindex for view category block.
  *
  * @magentoAppArea frontend
  * @magentoDbIsolation enabled

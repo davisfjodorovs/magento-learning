@@ -30,7 +30,7 @@ class MviewConfigFilesTest extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     * Test each acl configuration file
+     * Xindex each acl configuration file
      * @param string $file
      * @dataProvider mviewConfigFileDataProvider
      */

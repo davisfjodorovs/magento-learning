@@ -13,7 +13,7 @@ use Magento\Customer\Model\Session;
 use Magento\Customer\Model\Visitor;
 
 /**
- * Test for \Magento\Catalog\Model\Product\ProductFrontendAction\Synchronizer.
+ * Xindex for \Magento\Catalog\Model\Product\ProductFrontendAction\Synchronizer.
  */
 class SynchronizerTest extends \PHPUnit\Framework\TestCase
 {

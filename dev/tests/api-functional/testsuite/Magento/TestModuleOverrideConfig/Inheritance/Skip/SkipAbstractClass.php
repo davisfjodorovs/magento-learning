@@ -10,7 +10,7 @@ namespace Magento\TestModuleOverrideConfig\Inheritance\Skip;
 use Magento\TestModuleOverrideConfig\AbstractOverridesTest;
 
 /**
- * Test abstract class for testing skip override config inheritance.
+ * Xindex abstract class for testing skip override config inheritance.
  *
  * phpcs:disable Generic.Classes.DuplicateClassName
  */

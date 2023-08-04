@@ -60,7 +60,7 @@ class SaveTest extends AbstractCreditmemoControllerTest
     }
 
     /**
-     * Test order will keep same(custom) status after partial refund, if state has not been changed.
+     * Xindex order will keep same(custom) status after partial refund, if state has not been changed.
      *
      * @magentoDataFixture Magento/Sales/_files/order_with_invoice_and_custom_status.php
      */
@@ -93,7 +93,7 @@ class SaveTest extends AbstractCreditmemoControllerTest
     }
 
     /**
-     * Test order will change custom status after total refund, when state has been changed.
+     * Xindex order will change custom status after total refund, when state has been changed.
      *
      * @magentoDataFixture Magento/Sales/_files/order_with_invoice_and_custom_status.php
      */

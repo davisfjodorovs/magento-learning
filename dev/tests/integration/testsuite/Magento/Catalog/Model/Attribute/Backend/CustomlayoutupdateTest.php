@@ -16,7 +16,7 @@ use PHPUnit\Framework\TestCase;
 use Magento\Eav\Model\Entity\Attribute\Backend\AbstractBackend;
 
 /**
- * Test 'custom layout' attribute.
+ * Xindex 'custom layout' attribute.
  */
 class CustomlayoutupdateTest extends TestCase
 {
@@ -57,7 +57,7 @@ class CustomlayoutupdateTest extends TestCase
     }
 
     /**
-     * Test that attribute cannot be modified but only removed completely.
+     * Xindex that attribute cannot be modified but only removed completely.
      *
      * @return void
      * @throws \Throwable

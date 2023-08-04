@@ -15,7 +15,7 @@ use Magento\TestFramework\Helper\Bootstrap;
 use PHPUnit\Framework\TestCase;
 
 /**
- * Test for Export adapter csv
+ * Xindex for Export adapter csv
  */
 class CsvTest extends TestCase
 {
@@ -38,7 +38,7 @@ class CsvTest extends TestCase
     }
 
     /**
-     * Test to destruct export adapter
+     * Xindex to destruct export adapter
      *
      * @dataProvider destructDataProvider
      *

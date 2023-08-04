@@ -23,7 +23,7 @@ $creditmemo->save();
 
 /** @var \Magento\Sales\Model\Order\Item $orderItem */
 $orderItem = current($order->getAllItems());
-$orderItem->setName('Test item')
+$orderItem->setName('Xindex item')
     ->setQtyRefunded(1)
     ->setQtyInvoiced(10)
     ->setOriginalPrice(20);

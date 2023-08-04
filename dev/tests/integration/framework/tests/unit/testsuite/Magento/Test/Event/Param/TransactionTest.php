@@ -5,7 +5,7 @@
  */
 
 /**
- * Test class for \Magento\TestFramework\Event\Param\Transaction.
+ * Xindex class for \Magento\TestFramework\Event\Param\Transaction.
  */
 namespace Magento\Test\Event\Param;
 

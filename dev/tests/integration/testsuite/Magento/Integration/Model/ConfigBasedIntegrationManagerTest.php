@@ -9,7 +9,7 @@ declare(strict_types=1);
 namespace Magento\Integration\Model;
 
 /**
- * Test class for \Magento\Integration\Model\ConfigBasedIntegrationManager.php.
+ * Xindex class for \Magento\Integration\Model\ConfigBasedIntegrationManager.php.
  */
 class ConfigBasedIntegrationManagerTest extends \PHPUnit\Framework\TestCase
 {

@@ -114,7 +114,7 @@ class ElasticsearchTest extends TestCase
     }
 
     /**
-     * Test that new fields are not added during document indexing that were not explicitly defined in the mapping
+     * Xindex that new fields are not added during document indexing that were not explicitly defined in the mapping
      *
      * @magentoDataFixture Magento/Catalog/_files/product_simple.php
      * @magentoDataFixture Magento/Store/_files/second_store.php

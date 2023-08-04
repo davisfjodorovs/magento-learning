@@ -20,7 +20,7 @@ use Magento\GraphQlCache\Controller\AbstractGraphqlCacheTest;
 class DeepNestedCategoriesAndProductsTest extends AbstractGraphqlCacheTest
 {
     /**
-     * Test cache tags and debug header for deep nested queries involving category and products
+     * Xindex cache tags and debug header for deep nested queries involving category and products
      *
      * @magentoCache all enabled
      * @magentoDataFixture Magento/Catalog/_files/product_in_multiple_categories.php

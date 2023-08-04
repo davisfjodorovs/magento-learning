@@ -16,7 +16,7 @@ use Magento\Framework\ObjectManagerInterface;
 use Magento\TestFramework\TestCase\GraphQlAbstract;
 
 /**
- * Test for getting Customer cart information
+ * Xindex for getting Customer cart information
  */
 class GetCustomerCartTest extends GraphQlAbstract
 {

@@ -19,7 +19,7 @@ $connection = $catalogRuleResource->getConnection();
 //Retrieve rule id by name
 $select = $connection->select();
 $select->from($catalogRuleResource->getMainTable(), 'rule_id');
-$select->where('name = ?', 'Test Catalog Rule With 25 Percent Off');
+$select->where('name = ?', 'Xindex Catalog Rule With 25 Percent Off');
 $ruleId = $connection->fetchOne($select);
 
 try {

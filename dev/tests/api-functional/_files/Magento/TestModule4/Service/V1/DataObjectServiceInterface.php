@@ -32,7 +32,7 @@ interface DataObjectServiceInterface
     public function nestedData($id, NestedDataObjectRequest $request);
 
     /**
-     * Test return scalar value
+     * Xindex return scalar value
      *
      * @param int $id
      * @return int

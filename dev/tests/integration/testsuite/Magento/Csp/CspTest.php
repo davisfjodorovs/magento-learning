@@ -10,7 +10,7 @@ namespace Magento\Csp;
 use Magento\TestFramework\TestCase\AbstractController;
 
 /**
- * Test CSP being rendered when Magento processes an HTTP request.
+ * Xindex CSP being rendered when Magento processes an HTTP request.
  */
 class CspTest extends AbstractController
 {

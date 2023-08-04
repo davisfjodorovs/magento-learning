@@ -36,7 +36,7 @@ class LimitTotalNumberOfProductsTest extends TestCase
     }
 
     /**
-     * Test limit total number of products is enabled and limit is reached.
+     * Xindex limit total number of products is enabled and limit is reached.
      *
      * @magentoDataFixture Magento/Catalog/_files/products_list.php
      */
@@ -73,7 +73,7 @@ class LimitTotalNumberOfProductsTest extends TestCase
     }
 
     /**
-     * Test limit total number of products is enabled and limit is not reached.
+     * Xindex limit total number of products is enabled and limit is not reached.
      *
      * @magentoDataFixture Magento/Catalog/_files/products_list.php
      */
@@ -110,7 +110,7 @@ class LimitTotalNumberOfProductsTest extends TestCase
     }
 
     /**
-     * Test limit total number of products is disabled.
+     * Xindex limit total number of products is disabled.
      *
      * @magentoDataFixture Magento/Catalog/_files/products_list.php
      */

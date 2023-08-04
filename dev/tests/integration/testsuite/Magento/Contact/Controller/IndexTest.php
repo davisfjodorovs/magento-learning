@@ -14,7 +14,7 @@ use Magento\Framework\App\Request\Http as HttpRequest;
 class IndexTest extends \Magento\TestFramework\TestCase\AbstractController
 {
     /**
-     * Test contacting.
+     * Xindex contacting.
      */
     public function testPostAction()
     {
@@ -37,7 +37,7 @@ class IndexTest extends \Magento\TestFramework\TestCase\AbstractController
     }
 
     /**
-     * Test validation.
+     * Xindex validation.
      *
      * @param array $params For Request.
      * @param string $expectedMessage Expected response.

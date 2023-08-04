@@ -21,7 +21,7 @@ use Magento\Framework\Filesystem;
 use Magento\Framework\App\Filesystem\DirectoryList;
 
 /**
- * Test tablerates import and export.
+ * Xindex tablerates import and export.
  *
  * @magentoAppArea Adminhtml
  */

@@ -78,7 +78,7 @@ class ProductInMultipleStoresCacheTest extends GraphQlAbstract
     }
 
     /**
-     * Test a non existing or non existing currency
+     * Xindex a non existing or non existing currency
      *
      * @magentoApiDataFixture Magento/Store/_files/second_website_with_second_currency.php
      * @magentoApiDataFixture Magento/Catalog/_files/product_simple.php
@@ -120,7 +120,7 @@ QUERY;
     }
 
     /**
-     * Test a non existing or non allowed currency
+     * Xindex a non existing or non allowed currency
      *
      * @magentoApiDataFixture Magento/Store/_files/second_website_with_second_currency.php
      * @magentoApiDataFixture Magento/Catalog/_files/product_simple.php
@@ -166,7 +166,7 @@ QUERY;
     }
 
     /**
-     * Test a product from a custom and default store, with cache with repeating queries asserting different results.
+     * Xindex a product from a custom and default store, with cache with repeating queries asserting different results.
      *
      * @magentoApiDataFixture Magento/Store/_files/second_website_with_second_currency.php
      * @magentoApiDataFixture Magento/Catalog/_files/product_simple.php

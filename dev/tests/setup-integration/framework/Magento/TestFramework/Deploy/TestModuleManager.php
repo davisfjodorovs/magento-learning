@@ -54,7 +54,7 @@ class TestModuleManager
         unset($iterator, $file);
 
         // Register the modules under '_files/'
-        $pathPattern = $pathToInstalledMagentoInstanceModules . '/Test*/registration.php';
+        $pathPattern = $pathToInstalledMagentoInstanceModules . '/Xindex*/registration.php';
         $files = glob($pathPattern, GLOB_NOSORT);
         if ($files === false) {
             throw new \RuntimeException('glob() returned error while searching in \'' . $pathPattern . '\'');

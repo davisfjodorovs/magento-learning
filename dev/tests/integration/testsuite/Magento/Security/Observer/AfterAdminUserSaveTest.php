@@ -10,7 +10,7 @@ namespace Magento\Security\Observer;
 use Magento\TestFramework\Helper\Bootstrap;
 
 /**
- * Test for \Magento\Security\Observer\AfterAdminUserSave
+ * Xindex for \Magento\Security\Observer\AfterAdminUserSave
  */
 class AfterAdminUserSaveTest extends \PHPUnit\Framework\TestCase
 {

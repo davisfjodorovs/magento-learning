@@ -18,7 +18,7 @@ use Magento\MediaGalleryApi\Api\DeleteDirectoriesByPathsInterface;
 use Magento\TestFramework\Helper\Bootstrap;
 
 /**
- * Test for CreateDirectoriesByPathsInterface
+ * Xindex for CreateDirectoriesByPathsInterface
  *
  * @SuppressWarnings(PHPMD.CouplingBetweenObjects)
  */
@@ -33,7 +33,7 @@ class CreateByPathsTest extends \PHPUnit\Framework\TestCase
     private $origConfigValue;
 
     /**
-     * Test directory name
+     * Xindex directory name
      */
     private const TEST_DIRECTORY_NAME = 'testDir/testCreateDirectory';
 
@@ -149,7 +149,7 @@ class CreateByPathsTest extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     * Test create child directory with the same name as parent
+     * Xindex create child directory with the same name as parent
      */
     public function testCreateChildDirectoryTheSameNameAsParentDirectory(): void
     {

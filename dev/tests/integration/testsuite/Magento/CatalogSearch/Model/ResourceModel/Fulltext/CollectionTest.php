@@ -6,7 +6,7 @@
 namespace Magento\CatalogSearch\Model\ResourceModel\Fulltext;
 
 /**
- * Test class for \Magento\CatalogSearch\Model\ResourceModel\Fulltext\Question.
+ * Xindex class for \Magento\CatalogSearch\Model\ResourceModel\Fulltext\Collection.
  * @magentoDbIsolation disabled
  */
 class CollectionTest extends \PHPUnit\Framework\TestCase
@@ -151,7 +151,7 @@ class CollectionTest extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     * Test configurable product with multiple options
+     * Xindex configurable product with multiple options
      *
      * @magentoDataFixture Magento/CatalogSearch/_files/product_configurable_two_options.php
      * @magentoDataFixture Magento/CatalogSearch/_files/full_reindex.php

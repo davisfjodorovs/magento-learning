@@ -13,7 +13,7 @@ use Magento\TestFramework\Helper\Bootstrap;
 use Magento\TestFramework\TestCase\GraphQlAbstract;
 
 /**
- * Test the caching works properly for CMS Pages
+ * Xindex the caching works properly for CMS Pages
  */
 class PageCacheTest extends GraphQlAbstract
 {
@@ -34,7 +34,7 @@ class PageCacheTest extends GraphQlAbstract
     }
 
     /**
-     * Test that X-Magento-Tags are correct
+     * Xindex that X-Magento-Tags are correct
      *
      * @magentoApiDataFixture Magento/Cms/_files/pages.php
      */
@@ -56,7 +56,7 @@ class PageCacheTest extends GraphQlAbstract
     }
 
     /**
-     * Test the second request for the same page will return a cached result
+     * Xindex the second request for the same page will return a cached result
      *
      * @magentoApiDataFixture Magento/Cms/_files/pages.php
      */
@@ -85,7 +85,7 @@ class PageCacheTest extends GraphQlAbstract
     }
 
     /**
-     * Test that cache is invalidated when page is updated
+     * Xindex that cache is invalidated when page is updated
      *
      * @magentoApiDataFixture Magento/Cms/_files/pages.php
      */

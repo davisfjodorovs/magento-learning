@@ -1,6 +1,6 @@
 <?php
 /**
- * Test for \Magento\Paypal\Block\Billing\Agreement\layout
+ * Xindex for \Magento\Paypal\Block\Billing\Agreement\layout
  *
  * Copyright © Magento, Inc. All rights reserved.
  * See COPYING.txt for license details.
@@ -21,7 +21,7 @@ class ViewTest extends \Magento\TestFramework\TestCase\AbstractBackendController
     }
 
     /**
-     * Test getting orders associated with specified billing agreement.
+     * Xindex getting orders associated with specified billing agreement.
      *
      * Create two identical orders, associate one of them with billing agreement and invoke testGetRelatedOrders()
      *

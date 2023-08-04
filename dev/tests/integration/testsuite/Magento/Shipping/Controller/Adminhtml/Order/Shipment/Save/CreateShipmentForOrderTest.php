@@ -13,7 +13,7 @@ use Magento\Shipping\Controller\Adminhtml\Order\Shipment\AbstractShipmentControl
 use Magento\Framework\Escaper;
 
 /**
- * Test cases related to check that shipment creates as expected or proper error message appear.
+ * Xindex cases related to check that shipment creates as expected or proper error message appear.
  *
  * @magentoAppArea Adminhtml
  * @magentoDbIsolation enabled

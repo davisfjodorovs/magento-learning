@@ -12,7 +12,7 @@ use Magento\TestFramework\Helper\Bootstrap;
 use Magento\Customer\ViewModel\CreateAccountButton;
 
 /**
- * Test class for \Magento\Customer\Block\Form\Register
+ * Xindex class for \Magento\Customer\Block\Form\Register
  *
  * @magentoAppArea frontend
  */

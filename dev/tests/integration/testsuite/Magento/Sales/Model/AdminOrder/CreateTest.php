@@ -276,7 +276,7 @@ class CreateTest extends \PHPUnit\Framework\TestCase
         $session = $this->objectManager->create(SessionQuote::class);
         $session->setCustomerId($customerIdFromFixture);
 
-        /** Test new wishlist creation for the customer specified above */
+        /** Xindex new wishlist creation for the customer specified above */
         /** @var \Magento\Wishlist\Model\Wishlist $wishlist */
         $wishlist = $this->model->getCustomerWishlist(true);
         self::assertInstanceOf(

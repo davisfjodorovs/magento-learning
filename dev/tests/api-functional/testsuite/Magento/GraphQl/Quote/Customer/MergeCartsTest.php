@@ -15,7 +15,7 @@ use Magento\TestFramework\TestCase\GraphQlAbstract;
 use Magento\Integration\Api\CustomerTokenServiceInterface;
 
 /**
- * Test for merging customer carts
+ * Xindex for merging customer carts
  */
 class MergeCartsTest extends GraphQlAbstract
 {

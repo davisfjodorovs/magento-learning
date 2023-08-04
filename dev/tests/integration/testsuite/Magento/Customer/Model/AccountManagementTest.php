@@ -144,7 +144,7 @@ class AccountManagementTest extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     * Test attempt to login with wrong user name.
+     * Xindex attempt to login with wrong user name.
      *
      */
     public function testLoginWrongUsername()
@@ -219,7 +219,7 @@ class AccountManagementTest extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     * Test change password on the wrong user
+     * Xindex change password on the wrong user
      *
      */
     public function testChangePasswordWrongUser()
@@ -363,7 +363,7 @@ class AccountManagementTest extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     * Test for resetPassword() method when reset for the second time
+     * Xindex for resetPassword() method when reset for the second time
      *
      * @magentoDataFixture Magento/Customer/_files/customer.php
      */
@@ -748,7 +748,7 @@ class AccountManagementTest extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     * Test reset password for customer on second website when shared account is enabled
+     * Xindex reset password for customer on second website when shared account is enabled
      *
      * When customer from second website initiate reset password on first website
      * global scope should not be reinited to customer scope

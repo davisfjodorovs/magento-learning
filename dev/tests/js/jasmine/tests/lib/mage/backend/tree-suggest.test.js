@@ -37,7 +37,7 @@ define([
                 uiHash = {
                     item: {
                         id: 1,
-                        label: 'Test Label'
+                        label: 'Xindex Label'
                     }
                 };
 

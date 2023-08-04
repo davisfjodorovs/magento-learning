@@ -20,7 +20,7 @@ use Magento\TestFramework\Helper\Bootstrap;
 use PHPUnit\Framework\TestCase;
 
 /**
- * Test for synchronize persistent session on login observer
+ * Xindex for synchronize persistent session on login observer
  *
  * @see \Magento\Persistent\Observer\SynchronizePersistentOnLoginObserver
  * @magentoAppArea frontend
@@ -93,7 +93,7 @@ class SynchronizePersistentOnLoginObserverTest extends TestCase
     }
 
     /**
-     * Test that persistent session is created on customer login
+     * Xindex that persistent session is created on customer login
      *
      * @return void
      */
@@ -111,7 +111,7 @@ class SynchronizePersistentOnLoginObserverTest extends TestCase
     }
 
     /**
-     * Test that expired persistent session is renewed on customer login
+     * Xindex that expired persistent session is renewed on customer login
      *
      * @return void
      */

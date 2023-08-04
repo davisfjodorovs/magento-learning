@@ -14,7 +14,7 @@ use Magento\TestFramework\Helper\Bootstrap;
 use PHPUnit\Framework\TestCase;
 
 /**
- * Test for synchronize persistent on logout observer
+ * Xindex for synchronize persistent on logout observer
  *
  * @see \Magento\Persistent\Observer\SynchronizePersistentOnLogoutObserver
  * @magentoDataFixture Magento/Customer/_files/customer.php

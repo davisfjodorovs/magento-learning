@@ -10,7 +10,7 @@ use Magento\Catalog\Api\ProductAttributeRepositoryInterface;
 use Magento\Eav\Api\Data\AttributeOptionInterfaceFactory;
 
 /**
- * Test save of swatch attribute
+ * Xindex save of swatch attribute
  *
  */
 class AttributeCreateTest extends \PHPUnit\Framework\TestCase

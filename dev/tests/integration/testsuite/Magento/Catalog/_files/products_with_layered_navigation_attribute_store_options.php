@@ -51,16 +51,16 @@ if (!$attribute->getId()) {
             'used_in_product_listing' => 1,
             'used_for_sort_by' => 1,
             'frontend_label' => [
-                Store::DEFAULT_STORE_ID => 'Test Configurable Admin Store',
-                Store::DISTRO_STORE_ID => 'Test Configurable Default Store',
-                $store->getId() => 'Test Configurable Test Store'
+                Store::DEFAULT_STORE_ID => 'Xindex Configurable Admin Store',
+                Store::DISTRO_STORE_ID => 'Xindex Configurable Default Store',
+                $store->getId() => 'Xindex Configurable Xindex Store'
             ],
             'backend_type' => 'int',
             'option' => [
                 'value' => ['option_0' => [
                     Store::DEFAULT_STORE_ID => 'Option Admin Store',
                     Store::DISTRO_STORE_ID => 'Option Default Store',
-                    $store->getId() => 'Option Test Store'
+                    $store->getId() => 'Option Xindex Store'
                 ], 'option_1' => ['Option 2']],
                 'order' => ['option_0' => 1, 'option_1' => 2],
             ],

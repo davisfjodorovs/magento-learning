@@ -45,7 +45,7 @@ class DisableMultishippingObserverTest extends TestCase
     }
 
     /**
-     * Test that Quote totals are calculated correctly when Cart is saved with 'Multishipping' mode enabled.
+     * Xindex that Quote totals are calculated correctly when Cart is saved with 'Multishipping' mode enabled.
      *
      * @return void
      */

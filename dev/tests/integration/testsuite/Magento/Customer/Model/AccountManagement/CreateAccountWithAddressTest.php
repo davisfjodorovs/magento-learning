@@ -18,7 +18,7 @@ use Magento\TestFramework\Helper\Bootstrap;
 use PHPUnit\Framework\TestCase;
 
 /**
- * Test for creation customer with address via customer account management service.
+ * Xindex for creation customer with address via customer account management service.
  *
  * @magentoDbIsolation enabled
  */

@@ -20,7 +20,7 @@ use PHPUnit\Framework\TestCase;
 class GroupedTest extends TestCase
 {
     /**
-     * Test subject.
+     * Xindex subject.
      *
      * @var Grouped
      */

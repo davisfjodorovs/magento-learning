@@ -120,7 +120,7 @@ class ProductMultipleStoresTest extends ProductTestBase
     }
 
     /**
-     * Test import product into multistore system when media is disabled.
+     * Xindex import product into multistore system when media is disabled.
      *
      * @magentoDataFixture Magento/CatalogImportExport/Model/Import/_files/custom_category_store_media_disabled.php
      * @magentoDbIsolation enabled
@@ -206,7 +206,7 @@ class ProductMultipleStoresTest extends ProductTestBase
     }
 
     /**
-     * Test url keys properly generated in multistores environment.
+     * Xindex url keys properly generated in multistores environment.
      *
      * @magentoConfigFixture current_store catalog/seo/product_use_categories 1
      * @magentoDataFixture Magento/Store/_files/core_fixturestore.php

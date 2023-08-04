@@ -5,7 +5,7 @@
  */
 
 /**
- * Test class for \Magento\TestFramework\Bootstrap\Settings.
+ * Xindex class for \Magento\TestFramework\Bootstrap\Settings.
  */
 namespace Magento\Test\Bootstrap;
 

@@ -18,7 +18,7 @@ use Magento\TestFramework\Helper\Bootstrap;
 use Magento\TestFramework\TestCase\GraphQlAbstract;
 
 /**
- * Test coverage for adding product reviews mutation
+ * Xindex coverage for adding product reviews mutation
  */
 class CreateProductReviewsTest extends GraphQlAbstract
 {
@@ -55,7 +55,7 @@ class CreateProductReviewsTest extends GraphQlAbstract
     }
 
     /**
-     * Test adding a product review as guest and logged in customer
+     * Xindex adding a product review as guest and logged in customer
      *
      * @param string $customerName
      * @param bool $isGuest
@@ -80,8 +80,8 @@ class CreateProductReviewsTest extends GraphQlAbstract
 
         $expectedResult = [
             'nickname' => $customerName,
-            'summary' => 'Summary Test',
-            'text' => 'Text Test',
+            'summary' => 'Summary Xindex',
+            'text' => 'Text Xindex',
             'average_rating' => 66.67,
             'ratings_breakdown' => [
                 [
@@ -176,8 +176,8 @@ mutation {
     input: {
       sku: "$sku",
       nickname: "$customerName",
-      summary: "Summary Test",
-      text: "Text Test",
+      summary: "Summary Xindex",
+      text: "Text Xindex",
       ratings: [
         {
           id: "Mw==",

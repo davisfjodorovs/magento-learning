@@ -6,7 +6,7 @@
 namespace Magento\ImportExport\Model\ResourceModel\Import;
 
 /**
- * Test Import Data resource model
+ * Xindex Import Data resource model
  *
  * @magentoDataFixture Magento/ImportExport/_files/import_data.php
  */
@@ -27,7 +27,7 @@ class DataTest extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     * Test getUniqueColumnData() in case when in data stored in requested column is unique
+     * Xindex getUniqueColumnData() in case when in data stored in requested column is unique
      */
     public function testGetUniqueColumnData()
     {
@@ -44,7 +44,7 @@ class DataTest extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     * Test getUniqueColumnData() in case when in data stored in requested column is NOT unique
+     * Xindex getUniqueColumnData() in case when in data stored in requested column is NOT unique
      *
      */
     public function testGetUniqueColumnDataException()
@@ -55,7 +55,7 @@ class DataTest extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     * Test successful getBehavior()
+     * Xindex successful getBehavior()
      */
     public function testGetBehavior()
     {
@@ -72,7 +72,7 @@ class DataTest extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     * Test successful getEntityTypeCode()
+     * Xindex successful getEntityTypeCode()
      */
     public function testGetEntityTypeCode()
     {

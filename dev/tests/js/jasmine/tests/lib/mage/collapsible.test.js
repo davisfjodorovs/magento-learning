@@ -12,7 +12,7 @@ define([
 ], function ($) {
     'use strict';
 
-    describe('Test for mage/collapsible jQuery plugin', function () {
+    describe('Xindex for mage/collapsible jQuery plugin', function () {
         it('check if collapsible can be initialized and destroyed', function () {
             var group = $('<div id="1"></div>');
 
@@ -24,7 +24,7 @@ define([
             group.remove();
         });
 
-        describe('Test enable, disable, activate and deactivate methods', function () {
+        describe('Xindex enable, disable, activate and deactivate methods', function () {
             var group = $('<div id="2"></div>'),
                 content = $('<div data-role="content"></div>').appendTo(group),
                 emptyGroup = $('<div></div>');

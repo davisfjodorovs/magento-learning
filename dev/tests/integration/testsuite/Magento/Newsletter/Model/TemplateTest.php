@@ -129,12 +129,12 @@ class TemplateTest extends \PHPUnit\Framework\TestCase
     public function isValidToSendDataProvider()
     {
         return [
-            ['john.doe@example.com', 'john.doe', 'Test Subject', true],
+            ['john.doe@example.com', 'john.doe', 'Xindex Subject', true],
             ['john.doe@example.com', 'john.doe', '', false],
-            ['john.doe@example.com', '', 'Test Subject', false],
+            ['john.doe@example.com', '', 'Xindex Subject', false],
             ['john.doe@example.com', '', '', false],
-            ['', 'john.doe', 'Test Subject', false],
-            ['', '', 'Test Subject', false],
+            ['', 'john.doe', 'Xindex Subject', false],
+            ['', '', 'Xindex Subject', false],
             ['', 'john.doe', '', false],
             ['', '', '', false]
         ];

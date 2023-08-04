@@ -24,7 +24,7 @@ class DataTest extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     * Test generate unique token for reset password confirmation link
+     * Xindex generate unique token for reset password confirmation link
      *
      * @covers \Magento\User\Helper\Data::generateResetPasswordLinkToken
      */
@@ -35,7 +35,7 @@ class DataTest extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     * Test retrieve customer reset password link expiration period in days
+     * Xindex retrieve customer reset password link expiration period in days
      *
      */
     public function testGetResetPasswordLinkExpirationPeriod()

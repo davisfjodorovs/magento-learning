@@ -14,7 +14,7 @@ use Magento\Framework\Message\MessageInterface;
 use Magento\TestFramework\TestCase\AbstractBackendController;
 
 /**
- * Test cases for set advanced price to product.
+ * Xindex cases for set advanced price to product.
  *
  * @magentoAppArea Adminhtml
  * @magentoDbIsolation enabled

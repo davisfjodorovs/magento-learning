@@ -8,7 +8,7 @@ namespace Magento\EncryptionKey\Block\Adminhtml\Crypt\Key;
 class EditTest extends \PHPUnit\Framework\TestCase
 {
     /**
-     * Test edit block
+     * Xindex edit block
      */
     public function testEditBlock()
     {

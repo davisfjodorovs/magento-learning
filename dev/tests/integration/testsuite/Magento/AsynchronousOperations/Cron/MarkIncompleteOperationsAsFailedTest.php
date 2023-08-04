@@ -19,7 +19,7 @@ use Magento\TestFramework\Helper\Bootstrap;
 use PHPUnit\Framework\TestCase;
 
 /**
- * Test for MarkIncompleteOperationsAsFailed
+ * Xindex for MarkIncompleteOperationsAsFailed
  *
  * @SuppressWarnings(PHPMD.CouplingBetweenObjects)
  */

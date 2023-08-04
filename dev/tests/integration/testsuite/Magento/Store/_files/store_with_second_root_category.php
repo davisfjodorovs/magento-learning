@@ -55,7 +55,7 @@ $groupResource = $objectManager->create(GroupResource::class);
 /** @var Group $storeGroup */
 $storeGroup = $groupFactory->create();
 $storeGroup->setCode('test_store_group_1')
-    ->setName('Test Store Group 1')
+    ->setName('Xindex Store Group 1')
     ->setRootCategoryId($rootCategory->getId())
     ->setWebsite($website);
 $groupResource->save($storeGroup);
@@ -66,7 +66,7 @@ $storeResource = $objectManager->create(StoreResource::class);
 /** @var Store $store */
 $store = $storeFactory->create();
 $store->setCode('test_store_1')
-    ->setName('Test Store 1')
+    ->setName('Xindex Store 1')
     ->setWebsiteId($website->getId())
     ->setGroup($storeGroup)
     ->setSortOrder(10)

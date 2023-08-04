@@ -125,7 +125,7 @@ class IndexTest extends AbstractBackendController
     }
 
     /**
-     * Test new customer form page.
+     * Xindex new customer form page.
      */
     public function testNewAction()
     {
@@ -137,7 +137,7 @@ class IndexTest extends AbstractBackendController
     }
 
     /**
-     * Test the editing of a new customer that has not been saved but the page has been reloaded
+     * Xindex the editing of a new customer that has not been saved but the page has been reloaded
      */
     public function te1stNewActionWithCustomerData()
     {

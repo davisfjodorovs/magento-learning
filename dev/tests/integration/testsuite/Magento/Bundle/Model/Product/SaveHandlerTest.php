@@ -19,7 +19,7 @@ use Magento\TestFramework\Helper\Bootstrap;
 use PHPUnit\Framework\TestCase;
 
 /**
- * Test class for \Magento\Bundle\Model\Product\SaveHandler
+ * Xindex class for \Magento\Bundle\Model\Product\SaveHandler
  * The tested class used indirectly
  *
  * @magentoDataFixture Magento/Bundle/_files/product.php
@@ -56,7 +56,7 @@ class SaveHandlerTest extends TestCase
     }
 
     /**
-     * Test option title on different stores
+     * Xindex option title on different stores
      *
      * @return void
      * @throws LocalizedException
@@ -99,7 +99,7 @@ class SaveHandlerTest extends TestCase
     }
 
     /**
-     * Test option link of the same product
+     * Xindex option link of the same product
      *
      * @return void
      * @throws LocalizedException

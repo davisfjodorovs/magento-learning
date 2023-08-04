@@ -81,9 +81,9 @@ class ShipmentTest extends \PHPUnit\Framework\TestCase
 
         /** @var ShipmentTrackInterface $track */
         $track = $this->objectManager->create(ShipmentTrackInterface::class);
-        $track->setNumber('Test Number')
-            ->setTitle('Test Title')
-            ->setCarrierCode('Test CODE');
+        $track->setNumber('Xindex Number')
+            ->setTitle('Xindex Title')
+            ->setCarrierCode('Xindex CODE');
 
         $items = [];
         foreach ($order->getItems() as $item) {
@@ -103,8 +103,8 @@ class ShipmentTest extends \PHPUnit\Framework\TestCase
      */
     public function testAddComment()
     {
-        $message1 = 'Test Comment 1';
-        $message2 = 'Test Comment 2';
+        $message1 = 'Xindex Comment 1';
+        $message2 = 'Xindex Comment 2';
         $order = $this->getOrder('100000001');
 
         /** @var ShipmentInterface $shipment */
@@ -169,9 +169,9 @@ class ShipmentTest extends \PHPUnit\Framework\TestCase
 
         /** @var ShipmentTrackInterface $track */
         $track = $this->objectManager->create(ShipmentTrackInterface::class);
-        $track->setNumber('Test Number')
-            ->setTitle('Test Title')
-            ->setCarrierCode('Test CODE');
+        $track->setNumber('Xindex Number')
+            ->setTitle('Xindex Title')
+            ->setCarrierCode('Xindex CODE');
 
         $shipment->addTrack($track);
         $this->shipmentRepository->save($shipment);
@@ -188,9 +188,9 @@ class ShipmentTest extends \PHPUnit\Framework\TestCase
 
         /** @var ShipmentTrackInterface $secondShipmentTrack */
         $secondShipmentTrack = $this->objectManager->create(ShipmentTrackInterface::class);
-        $secondShipmentTrack->setNumber('Test Number2')
-            ->setTitle('Test Title2')
-            ->setCarrierCode('Test CODE2');
+        $secondShipmentTrack->setNumber('Xindex Number2')
+            ->setTitle('Xindex Title2')
+            ->setCarrierCode('Xindex CODE2');
 
         $secondOrderShipment->addTrack($secondShipmentTrack);
         $this->shipmentRepository->save($secondOrderShipment);
@@ -221,9 +221,9 @@ class ShipmentTest extends \PHPUnit\Framework\TestCase
             $items[$item->getId()] = $item->getQtyOrdered();
             /** @var ShipmentTrackInterface $track */
             $track = $this->objectManager->create(ShipmentTrackInterface::class);
-            $track->setNumber('Test Number')
-                ->setTitle('Test Title')
-                ->setCarrierCode('Test CODE');
+            $track->setNumber('Xindex Number')
+                ->setTitle('Xindex Title')
+                ->setCarrierCode('Xindex CODE');
             /** @var \Magento\Sales\Model\Order\Shipment $shipment */
             $shipment = $this->objectManager->get(ShipmentFactory::class)
                 ->create($order, $items);

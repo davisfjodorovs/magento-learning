@@ -5,23 +5,26 @@ declare(strict_types=1);
 namespace Magebit\Faq\Controller\Adminhtml\Question;
 
 use Magento\Framework\App\Action\HttpGetActionInterface;
-use Magento\Framework\View\Result\PageFactory;
+use Magento\Framework\Controller\ResultFactory;
 use Magento\Framework\View\Result\Page;
 
+/**
+ * Question listing index controller
+ */
 class Index implements HttpGetActionInterface
 {
     /**
-     * @var PageFactory
+     * @var ResultFactory
      */
-    protected PageFactory $pageFactory;
+    protected ResultFactory $resultFactory;
 
     /**
-     * @param PageFactory $pageFactory
+     * @param ResultFactory $resultFactory
      */
     public function __construct(
-        PageFactory $pageFactory,
+        ResultFactory $resultFactory,
     ) {
-        $this->pageFactory = $pageFactory;
+        $this->resultFactory = $resultFactory;
     }
 
     /**
@@ -30,6 +33,8 @@ class Index implements HttpGetActionInterface
      */
     public function execute(): Page
     {
-        return $this->pageFactory->create();
+        $page = $this->resultFactory->create(ResultFactory::TYPE_PAGE);
+        $page->getConfig()->getTitle()->set(__("Frequently Asked Questions"));
+        return $page;
     }
 }

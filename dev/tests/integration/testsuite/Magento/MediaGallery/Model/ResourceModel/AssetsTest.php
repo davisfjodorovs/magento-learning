@@ -18,7 +18,7 @@ use Magento\TestFramework\Helper\Bootstrap;
 use PHPUnit\Framework\TestCase;
 
 /**
- * Test for assets operations
+ * Xindex for assets operations
  */
 class AssetsTest extends TestCase
 {

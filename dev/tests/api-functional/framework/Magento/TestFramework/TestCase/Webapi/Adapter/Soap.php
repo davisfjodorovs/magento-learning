@@ -10,7 +10,7 @@ use Magento\TestFramework\Helper\Bootstrap;
 use Magento\Webapi\Controller\Soap\Request\Handler as SoapHandler;
 
 /**
- * Test client for SOAP API testing.
+ * Xindex client for SOAP API testing.
  */
 class Soap implements \Magento\TestFramework\TestCase\Webapi\AdapterInterface
 {

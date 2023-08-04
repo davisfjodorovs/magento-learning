@@ -81,7 +81,7 @@ define([
 
     describe('Magento_Checkout/js/view/billing-address', function () {
         describe('"needCancelBillingAddressChanges" method', function () {
-            it('Test negative scenario', function () {
+            it('Xindex negative scenario', function () {
                 spyOn(billingAddress, 'cancelAddressEdit');
                 billingAddress.editAddress();
                 billingAddress.updateAddress();
@@ -89,7 +89,7 @@ define([
                 expect(billingAddress.cancelAddressEdit).not.toHaveBeenCalled();
             });
 
-            it('Test that billing address editing was canceled automatically', function () {
+            it('Xindex that billing address editing was canceled automatically', function () {
                 spyOn(billingAddress, 'cancelAddressEdit');
                 billingAddress.editAddress();
                 billingAddress.needCancelBillingAddressChanges();
@@ -98,7 +98,7 @@ define([
         });
 
         describe('"restoreBillingAddress" method', function () {
-            it('Test that lastSelectedBillingAddress was restored correctly', function () {
+            it('Xindex that lastSelectedBillingAddress was restored correctly', function () {
                 billingAddress.editAddress();
                 billingAddress.restoreBillingAddress();
                 expect(checkoutData.setNewCustomerBillingAddress).toHaveBeenCalledWith(lastSelectedBillingAddress);

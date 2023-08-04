@@ -6,7 +6,7 @@
 namespace Magento\Backend\Block\Page;
 
 /**
- * Test \Magento\Backend\Block\ExampleViewModel\Header
+ * Xindex \Magento\Backend\Block\ExampleViewModel\Header
  * @magentoAppArea Adminhtml
  */
 class HeaderTest extends \PHPUnit\Framework\TestCase

@@ -28,7 +28,7 @@ class FileGroupDataProvider
         return [
             'type_file_required' => [
                 [
-                    Option::KEY_TITLE => 'Test option file title 1',
+                    Option::KEY_TITLE => 'Xindex option file title 1',
                     Option::KEY_TYPE => ProductCustomOptionInterface::OPTION_TYPE_FILE,
                     Option::KEY_IS_REQUIRE => 1,
                     Option::KEY_PRICE => 10,
@@ -40,7 +40,7 @@ class FileGroupDataProvider
                 [
                     'block_with_required_class' => '<div class="field file required">',
                     'label_for_created_option' => '<label class="label" for="options_%s_file"',
-                    'title' => '<span>Test option file title 1</span>',
+                    'title' => '<span>Xindex option file title 1</span>',
                     'price' => 'data-price-amount="10"',
                     'required_element' => '/<input type="file"/',
                     'file_extension' => '<strong>png, jpg</strong>',
@@ -48,7 +48,7 @@ class FileGroupDataProvider
             ],
             'type_file_not_required' => [
                 [
-                    Option::KEY_TITLE => 'Test option file title 2',
+                    Option::KEY_TITLE => 'Xindex option file title 2',
                     Option::KEY_TYPE => ProductCustomOptionInterface::OPTION_TYPE_FILE,
                     Option::KEY_IS_REQUIRE => 0,
                     Option::KEY_PRICE => 10,
@@ -60,7 +60,7 @@ class FileGroupDataProvider
                 [
                     'block_with_required_class' => '<div class="field file">',
                     'label_for_created_option' => '<label class="label" for="options_%s_file"',
-                    'title' => '<span>Test option file title 2</span>',
+                    'title' => '<span>Xindex option file title 2</span>',
                     'price' => 'data-price-amount="10"',
                     'required_element' => '/<input type="file"/',
                     'file_extension' => '<strong>png, jpg</strong>',
@@ -68,7 +68,7 @@ class FileGroupDataProvider
             ],
             'type_file_fixed_price' => [
                 [
-                    Option::KEY_TITLE => 'Test option file title 3',
+                    Option::KEY_TITLE => 'Xindex option file title 3',
                     Option::KEY_TYPE => ProductCustomOptionInterface::OPTION_TYPE_FILE,
                     Option::KEY_IS_REQUIRE => 0,
                     Option::KEY_PRICE => 50,
@@ -80,7 +80,7 @@ class FileGroupDataProvider
                 [
                     'block_with_required_class' => '<div class="field file">',
                     'label_for_created_option' => '<label class="label" for="options_%s_file"',
-                    'title' => '<span>Test option file title 3</span>',
+                    'title' => '<span>Xindex option file title 3</span>',
                     'price' => 'data-price-amount="50"',
                     'required_element' => '/<input type="file"/',
                     'file_extension' => '<strong>png, jpg</strong>',
@@ -88,7 +88,7 @@ class FileGroupDataProvider
             ],
             'type_file_percent_price' => [
                 [
-                    Option::KEY_TITLE => 'Test option file title 4',
+                    Option::KEY_TITLE => 'Xindex option file title 4',
                     Option::KEY_TYPE => ProductCustomOptionInterface::OPTION_TYPE_FILE,
                     Option::KEY_IS_REQUIRE => 0,
                     Option::KEY_PRICE => 50,
@@ -100,7 +100,7 @@ class FileGroupDataProvider
                 [
                     'block_with_required_class' => '<div class="field file">',
                     'label_for_created_option' => '<label class="label" for="options_%s_file"',
-                    'title' => '<span>Test option file title 4</span>',
+                    'title' => '<span>Xindex option file title 4</span>',
                     'price' => 'data-price-amount="5"',
                     'required_element' => '/<input type="file"/',
                     'file_extension' => '<strong>png, jpg</strong>',
@@ -108,7 +108,7 @@ class FileGroupDataProvider
             ],
             'type_file_with_width_and_height' => [
                 [
-                    Option::KEY_TITLE => 'Test option file title 5',
+                    Option::KEY_TITLE => 'Xindex option file title 5',
                     Option::KEY_TYPE => ProductCustomOptionInterface::OPTION_TYPE_FILE,
                     Option::KEY_IS_REQUIRE => 0,
                     Option::KEY_PRICE => 50,
@@ -122,7 +122,7 @@ class FileGroupDataProvider
                 [
                     'block_with_required_class' => '<div class="field file">',
                     'label_for_created_option' => '<label class="label" for="options_%s_file"',
-                    'title' => '<span>Test option file title 5</span>',
+                    'title' => '<span>Xindex option file title 5</span>',
                     'price' => 'data-price-amount="50"',
                     'required_element' => '/<input type="file"/',
                     'file_extension' => '<strong>png, jpg</strong>',

@@ -66,7 +66,7 @@ class AddSimpleProductToCartSingleMutationTest extends GraphQlAbstract
     }
 
     /**
-     * Test adding a simple product to the shopping cart with all supported
+     * Xindex adding a simple product to the shopping cart with all supported
      * customizable options assigned
      *
      * @magentoApiDataFixture Magento/Catalog/_files/product_simple_with_options.php

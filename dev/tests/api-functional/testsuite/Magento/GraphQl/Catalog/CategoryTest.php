@@ -26,7 +26,7 @@ use Magento\TestFramework\TestCase\GraphQl\ResponseContainsErrorsException;
 use Magento\TestFramework\TestCase\GraphQlAbstract;
 
 /**
- * Test loading of category tree
+ * Xindex loading of category tree
  *
  * @SuppressWarnings(PHPMD.CouplingBetweenObjects)
  */
@@ -112,7 +112,7 @@ QUERY;
         $responseDataObject = new DataObject($response);
         //Some sort of smoke testing
         self::assertEquals(
-            'Its a description of Test Category 1.2',
+            'Its a description of Xindex Category 1.2',
             $responseDataObject->getData('category/children/0/children/1/description')
         );
         self::assertEquals(
@@ -218,7 +218,7 @@ QUERY;
         $responseDataObject = new DataObject($response);
         //Some sort of smoke testing
         self::assertEquals(
-            'Its a description of Test Category 1.2',
+            'Its a description of Xindex Category 1.2',
             $responseDataObject->getData('category/children/0/children/1/description')
         );
         self::assertEquals(
@@ -606,7 +606,7 @@ QUERY;
     }
 
     /**
-     * Test category image is returned as full url (not relative path)
+     * Xindex category image is returned as full url (not relative path)
      *
      * @param string $imagePrefix
      * @magentoApiDataFixture Magento/Catalog/_files/catalog_category_with_image.php
@@ -733,7 +733,7 @@ QUERY;
     }
 
     /**
-     * Test sorting of categories tree
+     * Xindex sorting of categories tree
      *
      * @magentoApiDataFixture Magento/Catalog/_files/categories_sorted.php
      * @SuppressWarnings(PHPMD.ExcessiveMethodLength)

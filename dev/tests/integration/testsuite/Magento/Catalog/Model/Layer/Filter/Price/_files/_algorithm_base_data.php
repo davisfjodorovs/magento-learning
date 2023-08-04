@@ -5,7 +5,7 @@
  */
 
 /**
- * Test cases for pricesSegmentationDataProvider
+ * Xindex cases for pricesSegmentationDataProvider
  */
 $testCases = [
     // some test cases are skipped, as part of stabilization

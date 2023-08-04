@@ -10,7 +10,7 @@ define([
 ], function ($) {
     'use strict';
 
-    describe('Test for mage/dropdown jQuery plugin', function () {
+    describe('Xindex for mage/dropdown jQuery plugin', function () {
         it('check if dialog opens when the triggerEvent is triggered', function () {
             var opener = $('<div/>'),
                 dialog = $('<div/>');

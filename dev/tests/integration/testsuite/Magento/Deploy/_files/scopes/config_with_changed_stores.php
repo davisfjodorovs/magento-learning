@@ -25,7 +25,7 @@ return [
             'test_website' => [
                 'website_id' => '2',
                 'code' => 'test_website',
-                'name' => 'Changed Test Website',
+                'name' => 'Changed Xindex Website',
                 'sort_order' => '10',
                 'default_group_id' => '1',
                 'is_default' => '0',
@@ -51,7 +51,7 @@ return [
             2 => [
                 'group_id' => '2',
                 'website_id' => '2',
-                'name' => 'Changed Test Website Store',
+                'name' => 'Changed Xindex Website Store',
                 'root_category_id' => '2',
                 'default_store_id' => '1',
                 'code' => 'test_website_store',
@@ -81,7 +81,7 @@ return [
                 'code' => 'test',
                 'website_id' => '2',
                 'group_id' => '2',
-                'name' => 'Changed Test Store view',
+                'name' => 'Changed Xindex Store view',
                 'sort_order' => '23',
                 'is_active' => '1',
             ],

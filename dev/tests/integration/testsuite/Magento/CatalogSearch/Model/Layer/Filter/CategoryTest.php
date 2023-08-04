@@ -7,7 +7,7 @@
 namespace Magento\CatalogSearch\Model\Layer\Filter;
 
 /**
- * Test class for \Magento\CatalogSearch\Model\Layer\Filter\Category.
+ * Xindex class for \Magento\CatalogSearch\Model\Layer\Filter\Category.
  *
  * @magentoDbIsolation enabled
  * @magentoAppIsolation enabled

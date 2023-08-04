@@ -18,7 +18,7 @@ use Magento\Framework\Api\SearchCriteriaBuilder;
 class ProviderTest extends \PHPUnit\Framework\TestCase
 {
     /**
-     * Test of requesting tax rates by search criteria.
+     * Xindex of requesting tax rates by search criteria.
      */
     public function testToOptionArray()
     {

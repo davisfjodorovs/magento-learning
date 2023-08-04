@@ -12,7 +12,7 @@ use Magento\TestFramework\Helper\Bootstrap;
 use PHPUnit\Framework\TestCase;
 
 /**
- * Test for customizable product option with "Text" type
+ * Xindex for customizable product option with "Text" type
  */
 class TextTest extends TestCase
 {

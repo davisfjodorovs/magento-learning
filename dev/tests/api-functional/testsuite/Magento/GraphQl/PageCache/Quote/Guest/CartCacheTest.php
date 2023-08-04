@@ -10,7 +10,7 @@ namespace Magento\GraphQl\PageCache\Quote\Guest;
 use Magento\TestFramework\TestCase\GraphQlAbstract;
 
 /**
- * Test cart queries are not cached
+ * Xindex cart queries are not cached
  *
  * @magentoApiDataFixture Magento/Catalog/_files/products.php
  */
@@ -75,7 +75,7 @@ QUERY;
     {
         $addProductToCartQuery =
             <<<QUERY
-        mutation {  
+        mutation {
         addSimpleProductsToCart(
           input: {
             cart_id: "{$maskedCartId}"

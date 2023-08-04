@@ -12,7 +12,7 @@ use Magento\Framework\App\Filesystem\DirectoryList;
 use Magento\Framework\Filesystem\Driver\File;
 
 /**
- * Test for \Magento\MediaStorage\Model\File\Uploader
+ * Xindex for \Magento\MediaStorage\Model\File\Uploader
  */
 class MediaStorageUploaderTest extends \PHPUnit\Framework\TestCase
 {

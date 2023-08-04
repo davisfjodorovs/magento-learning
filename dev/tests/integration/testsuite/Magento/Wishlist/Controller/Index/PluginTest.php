@@ -14,7 +14,7 @@ use Magento\Customer\Model\Session as CustomerSession;
 use Magento\Catalog\Api\ProductRepositoryInterface;
 
 /**
- * Test for wishlist plugin before dispatch
+ * Xindex for wishlist plugin before dispatch
  *
  * @magentoDbIsolation enabled
  * @magentoAppArea frontend
@@ -54,7 +54,7 @@ class PluginTest extends AbstractController
     }
 
     /**
-     * Test for adding product to wishlist with invalidate credentials
+     * Xindex for adding product to wishlist with invalidate credentials
      *
      * @magentoDataFixture Magento/Catalog/_files/product_simple_xss.php
      * @magentoDataFixture Magento/Customer/_files/customer.php

@@ -35,7 +35,7 @@ class AppConfig
     }
 
     /**
-     * Retrieve Test App Config
+     * Retrieve Xindex App Config
      *
      * @return Config
      */

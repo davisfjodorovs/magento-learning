@@ -127,7 +127,7 @@ class SessionTest extends TestCase
     }
 
     /**
-     * Test covers case when quote is not yet initialized and customer data is set to checkout session model.
+     * Xindex covers case when quote is not yet initialized and customer data is set to checkout session model.
      *
      * Expected result - quote object should be loaded and customer data should be set to it.
      *
@@ -144,7 +144,7 @@ class SessionTest extends TestCase
     }
 
     /**
-     * Test covers case when quote is not yet initialized and customer data is set to customer session model.
+     * Xindex covers case when quote is not yet initialized and customer data is set to customer session model.
      *
      * Expected result - quote object should be loaded and customer data should be set to it.
      *
@@ -250,7 +250,7 @@ class SessionTest extends TestCase
     }
 
     /**
-     * Test covers case when quote is not yet initialized and customer is guest
+     * Xindex covers case when quote is not yet initialized and customer is guest
      *
      * Expected result - quote object should be loaded with customer as guest
      */

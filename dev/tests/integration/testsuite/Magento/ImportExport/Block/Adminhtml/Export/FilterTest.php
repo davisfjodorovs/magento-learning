@@ -5,7 +5,7 @@
  */
 
 /**
- * Test class for \Magento\ImportExport\Block\Adminhtml\Export\Filter
+ * Xindex class for \Magento\ImportExport\Block\Adminhtml\Export\Filter
  */
 namespace Magento\ImportExport\Block\Adminhtml\Export;
 

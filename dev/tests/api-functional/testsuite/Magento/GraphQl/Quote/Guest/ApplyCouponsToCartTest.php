@@ -12,7 +12,7 @@ use Magento\TestFramework\Helper\Bootstrap;
 use Magento\TestFramework\TestCase\GraphQlAbstract;
 
 /**
- * Test Apply Coupons to Cart functionality for guest
+ * Xindex Apply Coupons to Cart functionality for guest
  */
 class ApplyCouponsToCartTest extends GraphQlAbstract
 {

@@ -13,7 +13,7 @@ use Magento\Framework\Serialize\SerializerInterface;
 use Magento\Quote\Model\QuoteIdToMaskedQuoteId;
 
 /**
- * Test ExpressSetPaymentMethodTest graphql endpoint for guest
+ * Xindex ExpressSetPaymentMethodTest graphql endpoint for guest
  *
  * @magentoAppArea graphql
  */
@@ -38,7 +38,7 @@ class PaypalExpressSetPaymentMethodTest extends PaypalExpressAbstractTest
     }
 
     /**
-     * Test end to end test to process a paypal express order
+     * Xindex end to end test to process a paypal express order
      *
      * @param string $paymentMethod
      * @return void

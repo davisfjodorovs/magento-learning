@@ -19,13 +19,13 @@ use Magento\UrlRewrite\Model\UrlRewrite;
 use PHPUnit\Framework\TestCase;
 
 /**
- * Test for \Magento\UrlRewrite\Block\Catalog\Category\Edit
+ * Xindex for \Magento\UrlRewrite\Block\Catalog\Category\Edit
  * @magentoAppArea Adminhtml
  */
 class EditTest extends TestCase
 {
     /**
-     * Test prepare layout
+     * Xindex prepare layout
      *
      * @dataProvider prepareLayoutDataProvider
      *
@@ -310,7 +310,7 @@ class EditTest extends TestCase
         /** @var $category Category */
         $category = Bootstrap::getObjectManager()->create(
             Category::class,
-            ['data' => ['entity_id' => 1, 'name' => 'Test category']]
+            ['data' => ['entity_id' => 1, 'name' => 'Xindex category']]
         );
         /** @var $existingUrlRewrite UrlRewrite */
         $existingUrlRewrite = Bootstrap::getObjectManager()->create(

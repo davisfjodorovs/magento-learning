@@ -18,7 +18,7 @@ use Magento\Framework\Registry;
 use Magento\TestFramework\TestCase\AbstractController;
 
 /**
- * Test compare product.
+ * Xindex compare product.
  *
  * @magentoDataFixture Magento/Catalog/controllers/_files/products.php
  * @magentoDbIsolation disabled
@@ -71,7 +71,7 @@ class CompareTest extends AbstractController
     }
 
     /**
-     * Test adding product to compare list.
+     * Xindex adding product to compare list.
      *
      * @return void
      */
@@ -104,7 +104,7 @@ class CompareTest extends AbstractController
     }
 
     /**
-     * Test adding disabled product to compare list.
+     * Xindex adding disabled product to compare list.
      *
      * @return void
      */
@@ -129,7 +129,7 @@ class CompareTest extends AbstractController
     }
 
     /**
-     * Test removing a product from compare list.
+     * Xindex removing a product from compare list.
      *
      * @return void
      */
@@ -151,7 +151,7 @@ class CompareTest extends AbstractController
     }
 
     /**
-     * Test removing a disabled product from compare list.
+     * Xindex removing a disabled product from compare list.
      *
      * @return void
      */
@@ -169,7 +169,7 @@ class CompareTest extends AbstractController
     }
 
     /**
-     * Test removing a product from compare list of a registered customer.
+     * Xindex removing a product from compare list of a registered customer.
      *
      * @return void
      */
@@ -192,7 +192,7 @@ class CompareTest extends AbstractController
     }
 
     /**
-     * Test getting a list of compared product.
+     * Xindex getting a list of compared product.
      *
      * @return void
      */
@@ -223,7 +223,7 @@ class CompareTest extends AbstractController
     }
 
     /**
-     * Test clearing a list of compared products.
+     * Xindex clearing a list of compared products.
      *
      * @return void
      */
@@ -245,7 +245,7 @@ class CompareTest extends AbstractController
     }
 
     /**
-     * Test escaping a session message.
+     * Xindex escaping a session message.
      *
      * @magentoDataFixture Magento/Catalog/_files/product_simple_xss.php
      * @return void
@@ -266,7 +266,7 @@ class CompareTest extends AbstractController
     }
 
     /**
-     * Test removing a product wich does not exist from compare list.
+     * Xindex removing a product wich does not exist from compare list.
      *
      * @return void
      */

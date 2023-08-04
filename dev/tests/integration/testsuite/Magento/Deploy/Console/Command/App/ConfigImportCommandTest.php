@@ -172,17 +172,17 @@ class ConfigImportCommandTest extends \PHPUnit\Framework\TestCase
         $groupFactory = $this->objectManager->get(GroupFactory::class);
 
         $website = $websiteFactory->create()->load('test_website', 'code');
-        $this->assertSame($website->getName(), 'Test Website');
+        $this->assertSame($website->getName(), 'Xindex Website');
 
         $group = $groupFactory->create();
         $group->getResource()->load($group, 'test_website_store', 'code');
-        $this->assertSame($group->getName(), 'Test Website Store');
+        $this->assertSame($group->getName(), 'Xindex Website Store');
         $this->assertSame($group->getWebsiteId(), $website->getId());
 
         $store = $storeFactory->create();
         $store->getResource()->load($store, 'test', 'code');
         $this->assertSame($store->getSortOrder(), '23');
-        $this->assertSame($store->getName(), 'Test Store view');
+        $this->assertSame($store->getName(), 'Xindex Store view');
         $this->assertSame($store->getGroupId(), $group->getId());
         $this->assertSame($store->getWebsiteId(), $website->getId());
 
@@ -196,17 +196,17 @@ class ConfigImportCommandTest extends \PHPUnit\Framework\TestCase
         $store = $storeFactory->create();
         $store->getResource()->load($store, 'test', 'code');
         $this->assertSame($store->getSortOrder(), '23');
-        $this->assertSame($store->getName(), 'Changed Test Store view');
+        $this->assertSame($store->getName(), 'Changed Xindex Store view');
         $this->assertSame($store->getGroupId(), $group->getId());
         $this->assertSame($store->getWebsiteId(), $website->getId());
 
         $website = $websiteFactory->create();
         $website->getResource()->load($website, 'test_website', 'code');
-        $this->assertSame($website->getName(), 'Changed Test Website');
+        $this->assertSame($website->getName(), 'Changed Xindex Website');
 
         $group = $groupFactory->create();
         $group->getResource()->load($group, 'test_website_store', 'code');
-        $this->assertSame($group->getName(), 'Changed Test Website Store');
+        $this->assertSame($group->getName(), 'Changed Xindex Website Store');
         $this->assertSame($website->getId(), $group->getWebsiteId());
 
         $this->writeConfig(

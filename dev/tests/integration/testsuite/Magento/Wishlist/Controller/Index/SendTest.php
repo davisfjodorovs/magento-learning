@@ -17,7 +17,7 @@ use Magento\TestFramework\Mail\Template\TransportBuilderMock;
 use Magento\TestFramework\TestCase\AbstractController;
 
 /**
- * Test sending wish list.
+ * Xindex sending wish list.
  *
  * @magentoDbIsolation disabled
  * @magentoAppArea frontend
@@ -127,7 +127,7 @@ class SendTest extends AbstractController
     public function testSendWishListWithTextLimit(): void
     {
         $this->customerSession->setCustomerId(1);
-        $postValues = ['emails' => 'test@example.com', 'message' => 'Test message'];
+        $postValues = ['emails' => 'test@example.com', 'message' => 'Xindex message'];
         $this->dispatchSendWishListRequest($postValues);
         $this->assertResponseWithError('Message length must not exceed 10 symbols');
     }

@@ -5,7 +5,7 @@
  */
 
 /**
- * Test for eav abstract export model
+ * Xindex for eav abstract export model
  */
 namespace Magento\ImportExport\Model\Export\Entity;
 
@@ -69,7 +69,7 @@ class AbstractEavTest extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     * Test for method getEntityTypeId()
+     * Xindex for method getEntityTypeId()
      */
     public function testGetEntityTypeId()
     {
@@ -84,7 +84,7 @@ class AbstractEavTest extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     * Test for method _getExportAttrCodes()
+     * Xindex for method _getExportAttrCodes()
      *
      * @covers \Magento\ImportExport\Model\Export\Entity\AbstractEav::_getExportAttributeCodes
      */
@@ -100,7 +100,7 @@ class AbstractEavTest extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     * Test for method getAttributeOptions()
+     * Xindex for method getAttributeOptions()
      */
     public function testGetAttributeOptions()
     {

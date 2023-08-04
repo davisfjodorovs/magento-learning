@@ -14,7 +14,7 @@ use Magento\TestFramework\Helper\Bootstrap;
 use PHPUnit\Framework\TestCase;
 
 /**
- * Test for GetAssetIdsByContentFieldTest
+ * Xindex for GetAssetIdsByContentFieldTest
  */
 class GetAssetIdsByContentFieldTest extends TestCase
 {
@@ -41,7 +41,7 @@ class GetAssetIdsByContentFieldTest extends TestCase
     }
 
     /**
-     * Test for getting asset id by block field
+     * Xindex for getting asset id by block field
      *
      * @dataProvider blockDataProvider
      * @magentoConfigFixture system/media_gallery/enabled 1
@@ -62,7 +62,7 @@ class GetAssetIdsByContentFieldTest extends TestCase
     }
 
     /**
-     * Test for getting asset id by page field
+     * Xindex for getting asset id by page field
      *
      * @dataProvider pageDataProvider
      * @magentoConfigFixture system/media_gallery/enabled 1

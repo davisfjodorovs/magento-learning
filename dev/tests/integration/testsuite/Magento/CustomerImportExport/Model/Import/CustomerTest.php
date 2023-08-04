@@ -20,7 +20,7 @@ use Magento\ImportExport\Model\Import\Source\CsvFactory;
 use Magento\TestFramework\Helper\Bootstrap;
 
 /**
- * Test for class Customer which covers validation logic
+ * Xindex for class Customer which covers validation logic
  *
  * @SuppressWarnings(PHPMD.CouplingBetweenObjects)
  * @SuppressWarnings(PHPMD.TooManyPublicMethods)
@@ -96,7 +96,7 @@ class CustomerTest extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     * Test importData() method
+     * Xindex importData() method
      *
      * @magentoDataFixture Magento/Customer/_files/import_export/customer.php
      */
@@ -185,7 +185,7 @@ class CustomerTest extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     * Test validateSource() and importData() and using same $ids between them
+     * Xindex validateSource() and importData() and using same $ids between them
      *
      * @magentoDataFixture Magento/Customer/_files/import_export/customer.php
      */
@@ -328,7 +328,7 @@ class CustomerTest extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     * Test importData() method (delete behavior)
+     * Xindex importData() method (delete behavior)
      *
      * @magentoDataFixture Magento/Customer/_files/import_export/customers.php
      */
@@ -465,7 +465,7 @@ class CustomerTest extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     * Test import existing customers
+     * Xindex import existing customers
      *
      * @magentoDataFixture Magento/Customer/_files/import_export/customers.php
      * @return void
@@ -488,7 +488,7 @@ class CustomerTest extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     * Test customer indexer gets invalidated after import when Update on Schedule mode is set
+     * Xindex customer indexer gets invalidated after import when Update on Schedule mode is set
      *
      * @magentoDbIsolation enabled
      * @return void

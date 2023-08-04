@@ -12,7 +12,7 @@ use Magento\Framework\Api\SortOrder;
 use Magento\Framework\Api\SortOrderBuilder;
 
 /**
- * Test join directives.
+ * Xindex join directives.
  */
 class JoinDirectivesTest extends \Magento\TestFramework\TestCase\WebapiAbstract
 {
@@ -130,7 +130,7 @@ class JoinDirectivesTest extends \Magento\TestFramework\TestCase\WebapiAbstract
     }
 
     /**
-     * Test get list of orders with extension attributes.
+     * Xindex get list of orders with extension attributes.
      *
      * @magentoApiDataFixture Magento/Sales/_files/order.php
      * @magentoAppIsolation enabled

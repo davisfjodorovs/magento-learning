@@ -44,7 +44,7 @@ class ProductStockTest extends ProductTestBase
     }
 
     /**
-     * Test if stock item quantity properly saved after import
+     * Xindex if stock item quantity properly saved after import
      *
      * @magentoDataFixture Magento/Catalog/_files/multiple_products.php
      */
@@ -74,7 +74,7 @@ class ProductStockTest extends ProductTestBase
     }
 
     /**
-     * Test that is_in_stock set to 0 when item quantity is 0
+     * Xindex that is_in_stock set to 0 when item quantity is 0
      *
      * @magentoDataFixture Magento/Catalog/_files/multiple_products.php
      *
@@ -95,7 +95,7 @@ class ProductStockTest extends ProductTestBase
     }
 
     /**
-     * Test if stock state properly changed after import
+     * Xindex if stock state properly changed after import
      *
      * @magentoDataFixture Magento/Catalog/_files/multiple_products.php
      */
@@ -123,7 +123,7 @@ class ProductStockTest extends ProductTestBase
     }
 
     /**
-     * Test that imported product stock status with backorders functionality enabled can be set to 'out of stock'.
+     * Xindex that imported product stock status with backorders functionality enabled can be set to 'out of stock'.
      *
      * @magentoDbIsolation enabled
      *
@@ -137,7 +137,7 @@ class ProductStockTest extends ProductTestBase
     }
 
     /**
-     * Test that imported product stock status with stock quantity > 0 and backorders functionality disabled
+     * Xindex that imported product stock status with stock quantity > 0 and backorders functionality disabled
      * can be set to 'out of stock'.
      *
      * @magentoDbIsolation enabled
@@ -150,7 +150,7 @@ class ProductStockTest extends ProductTestBase
     }
 
     /**
-     * Test that product stock status is updated after import
+     * Xindex that product stock status is updated after import
      *
      * @magentoDataFixture mediaImportImageFixture
      * @magentoDataFixture Magento/Catalog/_files/product_simple.php
@@ -168,7 +168,7 @@ class ProductStockTest extends ProductTestBase
     }
 
     /**
-     * Test that product stock status is updated after import on schedule
+     * Xindex that product stock status is updated after import on schedule
      *
      * @magentoDataFixture mediaImportImageFixture
      * @magentoDataFixture Magento/Catalog/_files/product_simple.php
@@ -192,7 +192,7 @@ class ProductStockTest extends ProductTestBase
     }
 
     /**
-     * Test that product stock status should be 'out of stock' if quantity is 0 regardless of 'is_in_stock' value
+     * Xindex that product stock status should be 'out of stock' if quantity is 0 regardless of 'is_in_stock' value
      *
      * @magentoDataFixture Magento/Catalog/_files/multiple_products.php
      */
@@ -211,7 +211,7 @@ class ProductStockTest extends ProductTestBase
     }
 
     /**
-     * Test that product stock status should be 'in stock' if quantity is 0 and backorders is enabled
+     * Xindex that product stock status should be 'in stock' if quantity is 0 and backorders is enabled
      *
      * @magentoDataFixture Magento/Catalog/_files/multiple_products.php
      */

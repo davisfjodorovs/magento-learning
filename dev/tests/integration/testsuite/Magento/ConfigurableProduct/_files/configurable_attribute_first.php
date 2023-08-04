@@ -44,7 +44,7 @@ if (!$firstAttribute->getId()) {
             'is_visible_on_front' => 0,
             'used_in_product_listing' => 0,
             'used_for_sort_by' => 0,
-            'frontend_label' => ['Test Configurable First'],
+            'frontend_label' => ['Xindex Configurable First'],
             'backend_type' => 'int',
             'option' => [
                 'value' => [

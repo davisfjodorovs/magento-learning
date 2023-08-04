@@ -17,7 +17,7 @@ use Magento\TestFramework\Helper\Bootstrap;
 use PHPUnit\Framework\TestCase;
 
 /**
- * Test Composite
+ * Xindex Composite
  */
 class CompositeTest extends TestCase
 {
@@ -127,9 +127,9 @@ class CompositeTest extends TestCase
             'error_true' => [
                 'data' => [
                     'error' => true,
-                    'message' => 'Test Message'
+                    'message' => 'Xindex Message'
                 ],
-                'expected_error_message' => 'Test Message',
+                'expected_error_message' => 'Xindex Message',
             ],
             'without_product' => [
                 'data' => [

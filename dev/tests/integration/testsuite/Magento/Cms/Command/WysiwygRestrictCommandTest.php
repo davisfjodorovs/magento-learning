@@ -15,7 +15,7 @@ use PHPUnit\Framework\TestCase;
 use Symfony\Component\Console\Tester\CommandTester;
 
 /**
- * Test the command.
+ * Xindex the command.
  *
  * @magentoAppIsolation enabled
  * @magentoDbIsolation enabled
@@ -57,7 +57,7 @@ class WysiwygRestrictCommandTest extends TestCase
     }
 
     /**
-     * Test the command.
+     * Xindex the command.
      *
      * @param string $argument
      * @param bool $expectedFlag

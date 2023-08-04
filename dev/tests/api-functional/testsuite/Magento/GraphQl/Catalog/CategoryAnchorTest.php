@@ -12,7 +12,7 @@ use Magento\TestFramework\ObjectManager;
 use Magento\TestFramework\TestCase\GraphQlAbstract;
 
 /**
- * Test is categories anchor or not
+ * Xindex is categories anchor or not
  *
  * Preconditions:
  *   Fixture with anchor and not-anchored categories created

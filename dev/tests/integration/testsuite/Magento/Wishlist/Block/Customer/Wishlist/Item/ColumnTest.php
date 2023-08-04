@@ -19,7 +19,7 @@ use Magento\Wishlist\Block\Customer\Wishlist\Items;
 use PHPUnit\Framework\TestCase;
 
 /**
- * Test wish list item column.
+ * Xindex wish list item column.
  *
  * @magentoDbIsolation disabled
  * @magentoAppArea frontend

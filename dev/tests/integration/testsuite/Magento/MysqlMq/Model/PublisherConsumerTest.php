@@ -12,7 +12,7 @@ use Magento\MysqlMq\Model\ResourceModel\MessageCollection;
 use Magento\MysqlMq\Model\ResourceModel\MessageStatusCollection;
 
 /**
- * Test for MySQL publisher class.
+ * Xindex for MySQL publisher class.
  *
  * @magentoDbIsolation disabled
  */

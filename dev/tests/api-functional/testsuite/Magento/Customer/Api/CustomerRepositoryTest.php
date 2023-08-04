@@ -32,7 +32,7 @@ use Magento\TestFramework\Helper\Customer as CustomerHelper;
 use Magento\TestFramework\TestCase\WebapiAbstract;
 
 /**
- * Test for \Magento\Customer\Api\CustomerRepositoryInterface.
+ * Xindex for \Magento\Customer\Api\CustomerRepositoryInterface.
  *
  * @SuppressWarnings(PHPMD.CouplingBetweenObjects)
  */
@@ -298,7 +298,7 @@ class CustomerRepositoryTest extends WebapiAbstract
     }
 
     /**
-     * Test delete customer with invalid id
+     * Xindex delete customer with invalid id
      *
      * @return void
      */
@@ -338,7 +338,7 @@ class CustomerRepositoryTest extends WebapiAbstract
     }
 
     /**
-     * Test customer update
+     * Xindex customer update
      *
      * @magentoApiDataFixture Magento/Customer/_files/customer.php
      *
@@ -420,7 +420,7 @@ class CustomerRepositoryTest extends WebapiAbstract
     }
 
     /**
-     * Test customer exception update
+     * Xindex customer exception update
      *
      * @return void
      */
@@ -477,7 +477,7 @@ class CustomerRepositoryTest extends WebapiAbstract
     }
 
     /**
-     * Test customer update with invalid customer group id
+     * Xindex customer update with invalid customer group id
      *
      * @magentoApiDataFixture Magento/Customer/_files/customer.php
      *
@@ -520,7 +520,7 @@ class CustomerRepositoryTest extends WebapiAbstract
     }
 
     /**
-     * Test customer update quote with valid customer group id change
+     * Xindex customer update quote with valid customer group id change
      *
      * @magentoApiDataFixture Magento/Customer/_files/customer.php
      *
@@ -554,7 +554,7 @@ class CustomerRepositoryTest extends WebapiAbstract
     }
 
     /**
-     * Test customer create with invalid customer group id
+     * Xindex customer create with invalid customer group id
      *
      * @return void
      */
@@ -594,7 +594,7 @@ class CustomerRepositoryTest extends WebapiAbstract
     }
 
     /**
-     * Test creating a customer with absent required address fields
+     * Xindex creating a customer with absent required address fields
      *
      * @return void
      */
@@ -673,7 +673,7 @@ class CustomerRepositoryTest extends WebapiAbstract
     }
 
     /**
-     * Test with a single filter
+     * Xindex with a single filter
      *
      * @param bool $subscribeStatus
      * @return void
@@ -741,7 +741,7 @@ class CustomerRepositoryTest extends WebapiAbstract
     }
 
     /**
-     * Test with a single filter using GET
+     * Xindex with a single filter using GET
      */
     public function testSearchCustomersUsingGET()
     {
@@ -769,7 +769,7 @@ class CustomerRepositoryTest extends WebapiAbstract
     }
 
     /**
-     * Test with empty GET based filter
+     * Xindex with empty GET based filter
      */
     public function testSearchCustomersUsingGETEmptyFilter()
     {
@@ -796,7 +796,7 @@ class CustomerRepositoryTest extends WebapiAbstract
     }
 
     /**
-     * Test using multiple filters
+     * Xindex using multiple filters
      */
     public function testSearchCustomersMultipleFiltersWithSort()
     {
@@ -844,7 +844,7 @@ class CustomerRepositoryTest extends WebapiAbstract
     }
 
     /**
-     * Test using multiple filters using GET
+     * Xindex using multiple filters using GET
      */
     public function testSearchCustomersMultipleFiltersWithSortUsingGET()
     {
@@ -881,7 +881,7 @@ class CustomerRepositoryTest extends WebapiAbstract
     }
 
     /**
-     * Test and verify multiple filters using And-ed non-existent filter value
+     * Xindex and verify multiple filters using And-ed non-existent filter value
      */
     public function testSearchCustomersNonExistentMultipleFilters()
     {
@@ -918,7 +918,7 @@ class CustomerRepositoryTest extends WebapiAbstract
     }
 
     /**
-     * Test and verify multiple filters using And-ed non-existent filter value using GET
+     * Xindex and verify multiple filters using And-ed non-existent filter value using GET
      */
     public function testSearchCustomersNonExistentMultipleFiltersGET()
     {
@@ -952,7 +952,7 @@ class CustomerRepositoryTest extends WebapiAbstract
     }
 
     /**
-     * Test using multiple filters
+     * Xindex using multiple filters
      */
     public function testSearchCustomersMultipleFilterGroups()
     {
@@ -1011,7 +1011,7 @@ class CustomerRepositoryTest extends WebapiAbstract
     }
 
     /**
-     * Test revoking all access Tokens for customer
+     * Xindex revoking all access Tokens for customer
      */
     public function testRevokeAllAccessTokensForCustomer()
     {
@@ -1096,7 +1096,7 @@ class CustomerRepositoryTest extends WebapiAbstract
     }
 
     /**
-     * Test customer create with invalid name's.
+     * Xindex customer create with invalid name's.
      *
      * @param string $fieldName
      * @param string $fieldValue
@@ -1167,7 +1167,7 @@ class CustomerRepositoryTest extends WebapiAbstract
     }
 
     /**
-     * Test customer create with ultibyte chanracters in name's.
+     * Xindex customer create with ultibyte chanracters in name's.
      *
      * @param string $fieldName
      * @param string $fieldValue
@@ -1223,7 +1223,7 @@ class CustomerRepositoryTest extends WebapiAbstract
     }
 
     /**
-     * Test customer create with valid name's.
+     * Xindex customer create with valid name's.
      *
      * @param string $fieldName
      * @param string $fieldValue

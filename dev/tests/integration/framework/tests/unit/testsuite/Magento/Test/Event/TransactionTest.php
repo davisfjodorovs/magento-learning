@@ -5,7 +5,7 @@
  */
 
 /**
- * Test class for \Magento\TestFramework\Event\Transaction.
+ * Xindex class for \Magento\TestFramework\Event\Transaction.
  */
 namespace Magento\Test\Event;
 

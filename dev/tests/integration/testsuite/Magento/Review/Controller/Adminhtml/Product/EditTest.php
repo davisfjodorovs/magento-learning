@@ -15,7 +15,7 @@ use Magento\Framework\UrlInterface;
 use Magento\Review\Model\ResourceModel\Review\CollectionFactory;
 
 /**
- * Test Edit action.
+ * Xindex Edit action.
  *
  * @magentoAppArea Adminhtml
  */

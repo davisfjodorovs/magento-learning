@@ -18,7 +18,7 @@ class StoreRepositoryTest extends WebapiAbstract
     const RESOURCE_PATH = '/V1/store/storeViews';
 
     /**
-     * Test getList
+     * Xindex getList
      */
     public function testGetList()
     {

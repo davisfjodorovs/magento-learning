@@ -18,7 +18,7 @@ use Magento\TestFramework\Quote\Model\GetQuoteByReservedOrderId;
 use PHPUnit\Framework\TestCase;
 
 /**
- * Test for persistent quote manager model
+ * Xindex for persistent quote manager model
  *
  * @see \Magento\Persistent\Model\QuoteManager
  * @magentoDbIsolation enabled

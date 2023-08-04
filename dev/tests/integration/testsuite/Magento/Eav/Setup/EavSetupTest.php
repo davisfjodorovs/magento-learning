@@ -7,7 +7,7 @@
 namespace Magento\Eav\Setup;
 
 /**
- * Test class for Magento\Eav\Setup\EavSetup.
+ * Xindex class for Magento\Eav\Setup\EavSetup.
  * @magentoDbIsolation enabled
  */
 class EavSetupTest extends \PHPUnit\Framework\TestCase
@@ -128,7 +128,7 @@ class EavSetupTest extends \PHPUnit\Framework\TestCase
             'type' => 'varchar',
             'backend' => '',
             'frontend' => '',
-            'label' => 'Eav Setup Test',
+            'label' => 'Eav Setup Xindex',
             'input' => 'text',
             'class' => '',
             'source' => '',

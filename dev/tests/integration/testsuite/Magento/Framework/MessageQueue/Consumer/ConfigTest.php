@@ -9,7 +9,7 @@ use Magento\Framework\MessageQueue\Consumer\Config\ConsumerConfigItem\Handler\It
 use Magento\Framework\MessageQueue\DefaultValueProvider;
 
 /**
- * Test of queue consumer configuration reading and parsing.
+ * Xindex of queue consumer configuration reading and parsing.
  *
  * @magentoCache config disabled
  */

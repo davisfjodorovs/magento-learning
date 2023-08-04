@@ -35,7 +35,7 @@ interface ConfigInterface
     public function getSkipConfiguration(TestCase $test): array;
 
     /**
-     * Test has configuration flag.
+     * Xindex has configuration flag.
      *
      * @param string $className
      * @return bool

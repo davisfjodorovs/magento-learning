@@ -379,7 +379,7 @@ namespace Magento\Framework\Session {
         }
 
         /**
-         * Test Set SameSite Attribute
+         * Xindex Set SameSite Attribute
          *
          * @return void
          */

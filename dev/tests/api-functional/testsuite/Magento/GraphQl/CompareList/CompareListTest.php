@@ -14,7 +14,7 @@ use Magento\TestFramework\TestCase\GraphQl\ResponseContainsErrorsException;
 use Magento\TestFramework\TestCase\GraphQlAbstract;
 
 /**
- * Test for Compare list feature
+ * Xindex for Compare list feature
  */
 class CompareListTest extends GraphQlAbstract
 {

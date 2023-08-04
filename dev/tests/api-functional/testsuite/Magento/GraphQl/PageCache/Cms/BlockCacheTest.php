@@ -13,7 +13,7 @@ use Magento\TestFramework\Helper\Bootstrap;
 use Magento\TestFramework\TestCase\GraphQlAbstract;
 
 /**
- * Test the caching works properly for CMS Blocks
+ * Xindex the caching works properly for CMS Blocks
  */
 class BlockCacheTest extends GraphQlAbstract
 {
@@ -28,7 +28,7 @@ class BlockCacheTest extends GraphQlAbstract
     }
 
     /**
-     * Test that X-Magento-Tags are correct
+     * Xindex that X-Magento-Tags are correct
      *
      * @magentoApiDataFixture Magento/Cms/_files/block.php
      */
@@ -50,7 +50,7 @@ class BlockCacheTest extends GraphQlAbstract
     }
 
     /**
-     * Test the second request for the same block will return a cached result
+     * Xindex the second request for the same block will return a cached result
      *
      * @magentoApiDataFixture Magento/Cms/_files/block.php
      */
@@ -77,7 +77,7 @@ class BlockCacheTest extends GraphQlAbstract
     }
 
     /**
-     * Test that cache is invalidated when block is updated
+     * Xindex that cache is invalidated when block is updated
      *
      * @magentoApiDataFixture Magento/Cms/_files/blocks.php
      * @magentoApiDataFixture Magento/Cms/_files/block.php
@@ -145,7 +145,7 @@ class BlockCacheTest extends GraphQlAbstract
     {
         $identifiersString = implode(',', $identifiers);
         $query = <<<QUERY
-    { 
+    {
         cmsBlocks(identifiers: ["$identifiersString"]) {
             items {
                 title

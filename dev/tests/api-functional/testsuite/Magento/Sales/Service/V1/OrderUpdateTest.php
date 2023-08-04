@@ -12,7 +12,7 @@ use Magento\TestFramework\TestCase\WebapiAbstract;
 use Magento\Sales\Api\Data\OrderInterface;
 
 /**
- * Test order updating via webapi
+ * Xindex order updating via webapi
  */
 class OrderUpdateTest extends WebapiAbstract
 {
@@ -416,7 +416,7 @@ class OrderUpdateTest extends WebapiAbstract
             'orderId' => $order->getId(),
             'items' => [],
             'comment' => [
-                'comment' => 'Test Comment',
+                'comment' => 'Xindex Comment',
                 'is_visible_on_front' => 1,
             ],
             'tracks' => [

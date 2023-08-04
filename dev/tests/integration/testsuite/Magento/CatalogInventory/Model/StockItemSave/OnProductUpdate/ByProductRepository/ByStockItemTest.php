@@ -62,7 +62,7 @@ class ByStockItemTest extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     * Test saving of stock item by product data via product repository
+     * Xindex saving of stock item by product data via product repository
      *
      * @magentoDataFixture Magento/Catalog/_files/product_simple.php
      * @magentoDbIsolation enabled
@@ -79,7 +79,7 @@ class ByStockItemTest extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     * Test saving of manually created stock item (and set by extension attributes object) on product save via
+     * Xindex saving of manually created stock item (and set by extension attributes object) on product save via
      * product repository
      *
      * @magentoDataFixture Magento/Catalog/_files/product_simple.php
@@ -100,7 +100,7 @@ class ByStockItemTest extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     * Test saving of manually updated stock item (obtained from extension attributes object) on product save via
+     * Xindex saving of manually updated stock item (obtained from extension attributes object) on product save via
      * product repository
      *
      * @magentoDataFixture Magento/Catalog/_files/product_simple.php

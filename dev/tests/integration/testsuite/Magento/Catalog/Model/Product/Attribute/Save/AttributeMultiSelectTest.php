@@ -36,7 +36,7 @@ class AttributeMultiSelectTest extends AbstractAttributeTest
      */
     public function testDefaultValue(string $productSku): void
     {
-        $this->markTestSkipped('Test is blocked by issue MC-29019');
+        $this->markTestSkipped('Xindex is blocked by issue MC-29019');
     }
 
     /**

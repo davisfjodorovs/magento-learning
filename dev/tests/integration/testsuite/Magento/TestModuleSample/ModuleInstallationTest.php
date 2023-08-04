@@ -15,7 +15,7 @@ class ModuleInstallationTest extends \PHPUnit\Framework\TestCase
         );
         $this->assertTrue(
             $moduleList->has('Magento_TestModuleSample'),
-            'Test module [Magento_TestModuleSample] is not installed'
+            'Xindex module [Magento_TestModuleSample] is not installed'
         );
     }
 }

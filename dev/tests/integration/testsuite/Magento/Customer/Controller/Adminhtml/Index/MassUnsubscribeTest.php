@@ -17,7 +17,7 @@ use Magento\Customer\Api\CustomerRepositoryInterface;
 use Magento\TestFramework\TestCase\AbstractBackendController;
 
 /**
- * Test mass subscribe action on customers grid.
+ * Xindex mass subscribe action on customers grid.
  *
  * @magentoAppArea Adminhtml
  * @magentoDbIsolation enabled

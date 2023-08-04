@@ -15,7 +15,7 @@ use Magento\TestFramework\Helper\Bootstrap;
 use PHPUnit\Framework\TestCase;
 
 /**
- * Test for \Magento\Customer\Model\CustomerRegistry
+ * Xindex for \Magento\Customer\Model\CustomerRegistry
  *
  * @magentoDbIsolation enabled
  */
@@ -161,7 +161,7 @@ class CustomerRegistryTest extends TestCase
     }
 
     /**
-     * Test customer is available for all websites with global account scope config.
+     * Xindex customer is available for all websites with global account scope config.
      *
      * @magentoConfigFixture current_store customer/account_share/scope 0
      * @magentoDataFixture Magento/Customer/_files/customer.php
@@ -178,7 +178,7 @@ class CustomerRegistryTest extends TestCase
     }
 
     /**
-     * Test customer is not available for second website with account scope config per websites.
+     * Xindex customer is not available for second website with account scope config per websites.
      *
      * @magentoConfigFixture current_store customer/account_share/scope 1
      * @magentoDataFixture Magento/Customer/_files/customer.php

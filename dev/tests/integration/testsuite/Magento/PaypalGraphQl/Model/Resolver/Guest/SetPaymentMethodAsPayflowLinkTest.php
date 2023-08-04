@@ -18,7 +18,7 @@ use Magento\TestFramework\ObjectManager;
 use PHPUnit\Framework\TestCase;
 
 /**
- * Test SetPayment method for payflow_link and validate the additional information
+ * Xindex SetPayment method for payflow_link and validate the additional information
  *
  * @magentoAppArea graphql
  */
@@ -45,7 +45,7 @@ class SetPaymentMethodAsPayflowLinkTest extends TestCase
     }
 
     /**
-     * Test SetPayment method for payflow_link and validate that the additional information is set on the quote
+     * Xindex SetPayment method for payflow_link and validate that the additional information is set on the quote
      *
      * @magentoConfigFixture default_store payment/payflow_link/active 1
      * @magentoConfigFixture default_store payment/payflow_link/sandbox_flag 1
@@ -71,13 +71,13 @@ class SetPaymentMethodAsPayflowLinkTest extends TestCase
       cart_id: "$maskedCartId"
       payment_method: {
           code: "$paymentMethod"
-            payflow_link: {           
+            payflow_link: {
                return_url:"paypal/payflow/link/success"
                cancel_url:"paypal/payflow/link/cancel"
                error_url:"paypal/payflow/link/error"
             }
       }
-  }) {    
+  }) {
        cart {
           selected_payment_method {
           code
@@ -119,7 +119,7 @@ QUERY;
     }
 
     /**
-     * Test invalid redirect url
+     * Xindex invalid redirect url
      *
      * @magentoConfigFixture default_store payment/payflow_link/active 1
      * @magentoConfigFixture default_store payment/payflow_link/sandbox_flag 1
@@ -145,13 +145,13 @@ QUERY;
       cart_id: "$cartId"
       payment_method: {
           code: "$paymentMethod"
-            payflow_link: {           
+            payflow_link: {
                return_url:"http://magento.com/paypal/payflow/link/success"
                cancel_url:"paypal/payflow/link/cancel"
                error_url:"paypal/payflow/link/error"
             }
       }
-  }) {    
+  }) {
        cart {
           selected_payment_method {
           code

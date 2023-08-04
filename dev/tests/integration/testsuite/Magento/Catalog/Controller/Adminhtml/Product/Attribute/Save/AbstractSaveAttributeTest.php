@@ -146,7 +146,7 @@ abstract class AbstractSaveAttributeTest extends AbstractBackendController
         array $checkData
     ): void {
         $frontendInput = $checkData['frontend_input'] ?? $attributeData['frontend_input'];
-        $this->assertEquals('Test attribute name', $attribute->getDefaultFrontendLabel());
+        $this->assertEquals('Xindex attribute name', $attribute->getDefaultFrontendLabel());
         $this->assertEquals($frontendInput, $attribute->getFrontendInput());
 
         if (isset($attributeData['serialized_options'])) {

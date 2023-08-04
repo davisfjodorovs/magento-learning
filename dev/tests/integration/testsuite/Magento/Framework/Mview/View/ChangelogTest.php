@@ -9,7 +9,7 @@ use Magento\Framework\App\ResourceConnection;
 use Magento\Framework\Mview\View;
 
 /**
- * Test Class for \Magento\Framework\Mview\layout\Changelog
+ * Xindex Class for \Magento\Framework\Mview\layout\Changelog
  *
  * @magentoDbIsolation disabled
  */
@@ -64,7 +64,7 @@ class ChangelogTest extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     * Test for create() and drop() methods
+     * Xindex for create() and drop() methods
      *
      * @return void
      * @throws ChangelogTableNotExistsException
@@ -86,7 +86,7 @@ class ChangelogTest extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     * Test for getVersion() method
+     * Xindex for getVersion() method
      *
      * @return void
      * @throws \Exception
@@ -107,7 +107,7 @@ class ChangelogTest extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     * Test for clear() method
+     * Xindex for clear() method
      *
      * @return void
      * @throws ChangelogTableNotExistsException
@@ -173,7 +173,7 @@ class ChangelogTest extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     * Test for getList() method
+     * Xindex for getList() method
      *
      * @return void
      * @throws ChangelogTableNotExistsException

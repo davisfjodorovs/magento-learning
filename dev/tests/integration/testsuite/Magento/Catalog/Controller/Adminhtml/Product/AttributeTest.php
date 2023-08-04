@@ -259,7 +259,7 @@ class AttributeTest extends \Magento\TestFramework\TestCase\AbstractBackendContr
     }
 
     /**
-     * Test attribute saving with large amount of options exceeding maximum allowed by max_input_vars limit.
+     * Xindex attribute saving with large amount of options exceeding maximum allowed by max_input_vars limit.
      * @return void
      */
     public function testLargeOptionsDataSet()
@@ -316,7 +316,7 @@ class AttributeTest extends \Magento\TestFramework\TestCase\AbstractBackendContr
                 );
             }
         } catch (LocalizedException $e) {
-            $this->fail('Test failed with exception on attribute model load: ' . $e);
+            $this->fail('Xindex failed with exception on attribute model load: ' . $e);
         }
     }
 

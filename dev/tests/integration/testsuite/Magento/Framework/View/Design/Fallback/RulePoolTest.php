@@ -12,7 +12,7 @@ use Magento\Framework\Filesystem;
 use Magento\TestFramework\Helper\Bootstrap;
 
 /**
- * Factory Test
+ * Factory Xindex
  * @magentoComponentsDir Magento/Framework/layout/_files/fallback
  * @magentoDbIsolation enabled
  */

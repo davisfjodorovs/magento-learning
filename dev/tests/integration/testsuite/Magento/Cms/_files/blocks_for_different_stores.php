@@ -25,7 +25,7 @@ $block = $blockFactory->create([
         BlockInterface::IDENTIFIER => 'test-block',
         BlockInterface::TITLE => 'Second store block',
         BlockInterface::CONTENT => '
-            <h1>Test Block 1 for Second Store</h1>
+            <h1>Xindex Block 1 for Second Store</h1>
             <a href="{{store url=""}}">store url</a>
             <p>Config value: "{{config path="trans_email/ident_general/name"}}".</p>
             <p>Custom path: "{{config path="trans_email/ident_general/email"}}".</p>
@@ -42,7 +42,7 @@ $block = $blockFactory->create([
         BlockInterface::IDENTIFIER => 'test-block-2',
         BlockInterface::TITLE => 'Second store block 2',
         BlockInterface::CONTENT => '
-            <h1>Test Block 2 for Second Store</h1>
+            <h1>Xindex Block 2 for Second Store</h1>
             <a href="{{store url=""}}">store url</a>
             <p>Config value: "{{config path="trans_email/ident_general/name"}}".</p>
             <p>Custom path: "{{config path="trans_email/ident_general/email"}}".</p>
@@ -59,7 +59,7 @@ $block = $blockFactory->create([
         BlockInterface::IDENTIFIER => 'test-block',
         BlockInterface::TITLE => 'Third store block',
         BlockInterface::CONTENT => '
-            <h1>Test Block for Third Store</h1>
+            <h1>Xindex Block for Third Store</h1>
             <a href="{{store url=""}}">store url</a>
             <p>Config value: "{{config path="trans_email/ident_general/name"}}".</p>
             <p>Custom path: "{{config path="trans_email/ident_general/email"}}".</p>

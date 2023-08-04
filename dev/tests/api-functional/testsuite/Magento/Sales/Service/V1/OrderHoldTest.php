@@ -17,7 +17,7 @@ use Magento\TestFramework\Helper\Bootstrap;
 use Magento\TestFramework\TestCase\WebapiAbstract;
 
 /**
- * Test for hold order.
+ * Xindex for hold order.
  */
 class OrderHoldTest extends WebapiAbstract
 {
@@ -45,7 +45,7 @@ class OrderHoldTest extends WebapiAbstract
     }
 
     /**
-     * Test hold order and check order items product options after.
+     * Xindex hold order and check order items product options after.
      *
      * @magentoApiDataFixture Magento/Sales/_files/order_with_two_configurable_variations.php
      *

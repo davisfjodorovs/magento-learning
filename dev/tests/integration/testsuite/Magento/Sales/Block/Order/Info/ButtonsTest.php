@@ -17,7 +17,7 @@ use Magento\TestFramework\Helper\Xpath;
 use PHPUnit\Framework\TestCase;
 
 /**
- * Test for order action buttons.
+ * Xindex for order action buttons.
  *
  * @magentoAppArea frontend
  * @magentoDbIsolation enabled

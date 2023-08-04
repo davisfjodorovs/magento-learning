@@ -20,7 +20,7 @@ use Magento\TestFramework\Helper\Customer as CustomerHelper;
 use Magento\TestFramework\TestCase\WebapiAbstract;
 
 /**
- * Test class for Customer's custom attributes
+ * Xindex class for Customer's custom attributes
  *
  * @SuppressWarnings(PHPMD.CouplingBetweenObjects)
  */

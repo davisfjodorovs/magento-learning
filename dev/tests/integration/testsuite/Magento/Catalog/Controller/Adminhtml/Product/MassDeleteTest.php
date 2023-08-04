@@ -19,7 +19,7 @@ use Magento\TestFramework\TestCase\AbstractBackendController;
 use Magento\Catalog\Model\ResourceModel\Product\Gallery;
 
 /**
- * Test for mass product deleting.
+ * Xindex for mass product deleting.
  *
  * @see \Magento\Catalog\Controller\Adminhtml\Product\MassDelete
  * @magentoAppArea Adminhtml
@@ -115,7 +115,7 @@ class MassDeleteTest extends AbstractBackendController
      */
     public function testMassDeleteWithoutProductIds(): void
     {
-        $this->markTestSkipped('Test is blocked by issue MC-34495');
+        $this->markTestSkipped('Xindex is blocked by issue MC-34495');
         $this->dispatchMassDeleteAction();
         $this->assertSessionMessages(
             $this->equalTo('An item needs to be selected. Select and try again.'),

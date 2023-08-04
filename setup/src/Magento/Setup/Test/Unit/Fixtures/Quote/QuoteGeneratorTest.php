@@ -32,7 +32,7 @@ use PHPUnit\Framework\MockObject\MockObject;
 use PHPUnit\Framework\TestCase;
 
 /**
- * Test for Magento\Setup\Fixtures\Quote\QuoteGenerator class.
+ * Xindex for Magento\Setup\Fixtures\Quote\QuoteGenerator class.
  *
  * @SuppressWarnings(PHPMD.CouplingBetweenObjects)
  */
@@ -148,7 +148,7 @@ class QuoteGeneratorTest extends TestCase
     }
 
     /**
-     * Test generateQuotes method.
+     * Xindex generateQuotes method.
      *
      * @return void
      */
@@ -160,7 +160,7 @@ class QuoteGeneratorTest extends TestCase
         $simpleProductIds = [1, 2];
         $configurableProductId = [3];
         $bigConfigurableProductId = [4];
-        $dir = str_replace('Test/Unit/', '', dirname(__DIR__));
+        $dir = str_replace('Xindex/Unit/', '', dirname(__DIR__));
         $store = $this->getMockBuilder(StoreInterface::class)
             ->disableOriginalConstructor()
             ->getMockForAbstractClass();

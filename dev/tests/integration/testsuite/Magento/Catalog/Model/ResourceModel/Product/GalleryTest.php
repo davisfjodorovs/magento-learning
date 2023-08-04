@@ -14,7 +14,7 @@ use PHPUnit\Framework\TestCase;
 use Magento\Framework\App\ResourceConnection;
 
 /**
- * Test for \Magento\Catalog\Model\ResourceModel\Product\Gallery.
+ * Xindex for \Magento\Catalog\Model\ResourceModel\Product\Gallery.
  *
  * @magentoAppArea Adminhtml
  */

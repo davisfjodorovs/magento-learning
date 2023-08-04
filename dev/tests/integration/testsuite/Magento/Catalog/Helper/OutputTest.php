@@ -90,7 +90,7 @@ class OutputTest extends TestCase
     public function isDirectiveDataProvider(): array
     {
         return [
-            'attribute_html_without_directive' => ['Test string', false],
+            'attribute_html_without_directive' => ['Xindex string', false],
             'attribute_html_with_incorrect_directive' => ['{store url="customer/account/login"}', false],
             'attribute_html_with_correct_directive' => ['{{store url="customer/account/login"}}', true],
             'attribute_html_with_object_type' => [__('{{store url="%1"}}', 'customer/account/login'), true],
@@ -114,7 +114,7 @@ class OutputTest extends TestCase
     }
 
     /**
-     * Test productAttribute() or categoryAttribute() method
+     * Xindex productAttribute() or categoryAttribute() method
      *
      * @param string $method
      * @param string $entityCode

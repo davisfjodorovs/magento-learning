@@ -70,7 +70,7 @@ class MultishippingTest extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     * Test case when default billing and shipping addresses are set and they are different.
+     * Xindex case when default billing and shipping addresses are set and they are different.
      *
      * @param string $addressType
      * @magentoDataFixture Magento/Customer/_files/customer.php
@@ -128,7 +128,7 @@ class MultishippingTest extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     * Test case when customer has addresses, but default {$addressType} address is not set.
+     * Xindex case when customer has addresses, but default {$addressType} address is not set.
      *
      * @param string $addressType
      * @magentoDataFixture Magento/Customer/_files/customer.php
@@ -170,7 +170,7 @@ class MultishippingTest extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     * Test case when customer has no addresses.
+     * Xindex case when customer has no addresses.
      *
      * @param string $addressType
      * @magentoDataFixture Magento/Customer/_files/customer.php

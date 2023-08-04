@@ -27,7 +27,7 @@ use Magento\Catalog\Model\Category as CategoryModel;
 use Magento\Catalog\Model\CategoryFactory as CategoryModelFactory;
 
 /**
- * Test for admin category functionality.
+ * Xindex for admin category functionality.
  *
  * @magentoAppArea Adminhtml
  * @SuppressWarnings(PHPMD.CouplingBetweenObjects)
@@ -90,7 +90,7 @@ class CategoryTest extends AbstractBackendController
     }
 
     /**
-     * Test save action.
+     * Xindex save action.
      *
      * @magentoDataFixture Magento/Store/_files/core_fixturestore.php
      * @magentoDbIsolation enabled
@@ -182,7 +182,7 @@ class CategoryTest extends AbstractBackendController
     }
 
     /**
-     * Test save action from product form page
+     * Xindex save action from product form page
      *
      * @param array $postData
      * @dataProvider categoryCreatedFromProductCreationPageDataProvider
@@ -239,7 +239,7 @@ class CategoryTest extends AbstractBackendController
     }
 
     /**
-     * Test save action with different store
+     * Xindex save action with different store
      *
      * @return void
      * @throws NoSuchEntityException
@@ -259,7 +259,7 @@ class CategoryTest extends AbstractBackendController
                 'name' => 'test-category',
                 'is_active' => 1,
                 'thumbnail' => 1,
-                'description' => 'Test description for test-category'
+                'description' => 'Xindex description for test-category'
             ]
         ];
         $this->getRequest()->setMethod(HttpRequest::METHOD_POST);
@@ -272,7 +272,7 @@ class CategoryTest extends AbstractBackendController
     }
 
     /**
-     * Test SuggestCategories finds any categories.
+     * Xindex SuggestCategories finds any categories.
      *
      * @return void
      */
@@ -287,7 +287,7 @@ class CategoryTest extends AbstractBackendController
     }
 
     /**
-     * Test SuggestCategories properly processes search by label.
+     * Xindex SuggestCategories properly processes search by label.
      *
      * @return void
      */
@@ -454,7 +454,7 @@ class CategoryTest extends AbstractBackendController
         }
 
         $data = [
-            'name' => 'Test Category',
+            'name' => 'Xindex Category',
             'attribute_set_id' => '3',
             'parent_id' => 2,
             'path' => '1/2',
@@ -472,7 +472,7 @@ class CategoryTest extends AbstractBackendController
     }
 
     /**
-     * Test validation.
+     * Xindex validation.
      *
      * @return void
      */
@@ -500,7 +500,7 @@ class CategoryTest extends AbstractBackendController
     }
 
     /**
-     * Test move action.
+     * Xindex move action.
      *
      * @magentoDataFixture Magento/Catalog/_files/category_tree.php
      * @dataProvider moveActionDataProvider
@@ -560,7 +560,7 @@ class CategoryTest extends AbstractBackendController
     }
 
     /**
-     * Test save category with product position.
+     * Xindex save category with product position.
      *
      * @magentoDataFixture Magento/Catalog/_files/products_in_different_stores.php
      * @magentoDbIsolation disabled
@@ -812,7 +812,7 @@ class CategoryTest extends AbstractBackendController
         $attributes['custom_design']->setDefaultValue('1');
         $attributes['custom_design']->save();
         $requestData = [
-            'name' => 'Test name',
+            'name' => 'Xindex name',
             'parent_id' => '2',
             'is_active' => '0',
             'description' => 'Custom Description',
@@ -857,7 +857,7 @@ class CategoryTest extends AbstractBackendController
     }
 
     /**
-     * Test custom update files functionality.
+     * Xindex custom update files functionality.
      *
      * @magentoDbIsolation enabled
      * @magentoDataFixture Magento/Store/_files/core_fixturestore.php

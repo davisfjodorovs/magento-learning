@@ -37,7 +37,7 @@ class OrderInvoiceCreateTest extends \Magento\TestFramework\TestCase\WebapiAbstr
     }
 
     /**
-     * Test create a partial invoice for order with bundle and Simple products.
+     * Xindex create a partial invoice for order with bundle and Simple products.
      *
      * @return void
      * @magentoApiDataFixture Magento/Bundle/_files/order_items_simple_and_bundle.php
@@ -64,7 +64,7 @@ class OrderInvoiceCreateTest extends \Magento\TestFramework\TestCase\WebapiAbstr
             'orderId' => $existingOrder->getId(),
             'items' => [],
             'comment' => [
-                'comment' => 'Test Comment',
+                'comment' => 'Xindex Comment',
                 'is_visible_on_front' => 1,
             ],
         ];
@@ -92,7 +92,7 @@ class OrderInvoiceCreateTest extends \Magento\TestFramework\TestCase\WebapiAbstr
     }
 
     /**
-     * Test create invoice with Bundle product.
+     * Xindex create invoice with Bundle product.
      *
      * @return void
      * @magentoApiDataFixture Magento/Bundle/_files/order_item_with_bundle_and_options.php
@@ -119,7 +119,7 @@ class OrderInvoiceCreateTest extends \Magento\TestFramework\TestCase\WebapiAbstr
             'orderId' => $existingOrder->getId(),
             'items' => [],
             'comment' => [
-                'comment' => 'Test Comment',
+                'comment' => 'Xindex Comment',
                 'is_visible_on_front' => 1,
             ],
         ];

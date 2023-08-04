@@ -5,7 +5,7 @@
  */
 
 /**
- * Test class for \Magento\Checkout\Block\Cart
+ * Xindex class for \Magento\Checkout\Block\Cart
  */
 namespace Magento\Checkout\Block;
 

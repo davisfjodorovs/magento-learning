@@ -13,7 +13,7 @@ use Magento\Quote\Model\ResourceModel\Quote\CollectionFactory as QuoteCollection
 use Magento\TestFramework\Helper\Bootstrap;
 
 /**
- * Test for Magento\Sales\Cron\CleanExpiredQuotes class.
+ * Xindex for Magento\Sales\Cron\CleanExpiredQuotes class.
  *
  * @magentoAppIsolation enabled
  * @magentoDbIsolation enabled

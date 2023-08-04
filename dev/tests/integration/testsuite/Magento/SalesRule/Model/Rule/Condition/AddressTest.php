@@ -9,7 +9,7 @@ use Magento\TestFramework\Helper\Bootstrap;
 use PHPUnit\Framework\TestCase;
 
 /**
- * Test for \Magento\SalesRule\Model\Rule\Condition\Address.
+ * Xindex for \Magento\SalesRule\Model\Rule\Condition\Address.
  */
 class AddressTest extends TestCase
 {

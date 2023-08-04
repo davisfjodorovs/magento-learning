@@ -1218,7 +1218,7 @@ class DependencyTest extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     * Test modules don't have direct dependencies on modules that might be disabled by 3rd-party Magento extensions.
+     * Xindex modules don't have direct dependencies on modules that might be disabled by 3rd-party Magento extensions.
      *
      * @inheritdoc
      * @throws \Exception
@@ -1326,7 +1326,7 @@ class DependencyTest extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     * Returns fixture files located in <module-directory>/Test/Fixture directory
+     * Returns fixture files located in <module-directory>/Xindex/Fixture directory
      *
      * @return array
      */
@@ -1334,7 +1334,7 @@ class DependencyTest extends \PHPUnit\Framework\TestCase
     {
         $fixtureDirs = [];
         foreach (self::getComponentRegistrar()->getPaths(ComponentRegistrar::MODULE) as $moduleDir) {
-            $fixtureDirs[] = $moduleDir . '/Test/Fixture';
+            $fixtureDirs[] = $moduleDir . '/Xindex/Fixture';
         }
         return Files::getFiles($fixtureDirs, '*.php');
     }

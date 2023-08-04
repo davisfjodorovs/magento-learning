@@ -118,7 +118,7 @@ class SaveTest extends AbstractBackendController
     }
 
     /**
-     * Test that new attribute set based on default attribute set will be successfully created.
+     * Xindex that new attribute set based on default attribute set will be successfully created.
      *
      * @magentoDbIsolation enabled
      *
@@ -133,7 +133,7 @@ class SaveTest extends AbstractBackendController
     }
 
     /**
-     * Test that new attribute set based on custom attribute set will be successfully created.
+     * Xindex that new attribute set based on custom attribute set will be successfully created.
      *
      * @magentoDataFixture Magento/Catalog/_files/attribute_set_with_renamed_group.php
      *
@@ -151,7 +151,7 @@ class SaveTest extends AbstractBackendController
     }
 
     /**
-     * Test that new attribute set based on custom attribute set will be successfully created.
+     * Xindex that new attribute set based on custom attribute set will be successfully created.
      *
      * @magentoDbIsolation enabled
      *
@@ -175,7 +175,7 @@ class SaveTest extends AbstractBackendController
     }
 
     /**
-     * Test that exception throws during save attribute set name process if name of attribute set already exists.
+     * Xindex that exception throws during save attribute set name process if name of attribute set already exists.
      *
      * @magentoDataFixture Magento/Catalog/_files/attribute_set_with_renamed_group.php
      * @return void
@@ -217,7 +217,7 @@ class SaveTest extends AbstractBackendController
     }
 
     /**
-     * Test behavior when attribute set was changed to a new set
+     * Xindex behavior when attribute set was changed to a new set
      * with deleted attribute from the previous set.
      *
      * @magentoDataFixture Magento/Catalog/_files/product_simple.php

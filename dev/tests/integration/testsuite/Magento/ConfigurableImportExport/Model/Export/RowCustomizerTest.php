@@ -45,7 +45,7 @@ class RowCustomizerTest extends \PHPUnit\Framework\TestCase
             $result['configurable_variations']
         );
         $this->assertEquals(
-            'test_configurable=Test Configurable',
+            'test_configurable=Xindex Configurable',
             $result['configurable_variation_labels']
         );
     }

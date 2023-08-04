@@ -38,7 +38,7 @@ use Magento\TestFramework\TestCase\WebapiAbstract;
 use Magento\UrlRewrite\Service\V1\Data\UrlRewrite;
 
 /**
- * Test for \Magento\Catalog\Api\ProductRepositoryInterface
+ * Xindex for \Magento\Catalog\Api\ProductRepositoryInterface
  *
  * @magentoAppIsolation enabled
  * @SuppressWarnings(PHPMD.CouplingBetweenObjects)
@@ -129,7 +129,7 @@ class ProductRepositoryInterfaceTest extends WebapiAbstract
     }
 
     /**
-     * Test get() method
+     * Xindex get() method
      *
      * @magentoApiDataFixture Magento/Catalog/_files/products_related.php
      */
@@ -169,7 +169,7 @@ class ProductRepositoryInterfaceTest extends WebapiAbstract
     }
 
     /**
-     * Test get() method with invalid sku
+     * Xindex get() method with invalid sku
      */
     public function testGetNoSuchEntityException()
     {
@@ -244,7 +244,7 @@ class ProductRepositoryInterfaceTest extends WebapiAbstract
     }
 
     /**
-     * Test removing association between product and website 1
+     * Xindex removing association between product and website 1
      *
      * @magentoApiDataFixture Magento/Catalog/_files/product_with_two_websites.php
      */
@@ -268,7 +268,7 @@ class ProductRepositoryInterfaceTest extends WebapiAbstract
     }
 
     /**
-     * Test removing association between product and website 1 then check url rewrite removed
+     * Xindex removing association between product and website 1 then check url rewrite removed
      * Assign website back and check rewrite generated
      *
      * @magentoApiDataFixture Magento/Catalog/_files/product_two_websites.php
@@ -321,7 +321,7 @@ class ProductRepositoryInterfaceTest extends WebapiAbstract
     }
 
     /**
-     * Test removing all website associations
+     * Xindex removing all website associations
      *
      * @magentoApiDataFixture Magento/Catalog/_files/product_with_two_websites.php
      */
@@ -341,7 +341,7 @@ class ProductRepositoryInterfaceTest extends WebapiAbstract
     }
 
     /**
-     * Test create() method with multiple websites
+     * Xindex create() method with multiple websites
      *
      * @magentoApiDataFixture Magento/Catalog/_files/second_website.php
      */
@@ -446,7 +446,7 @@ class ProductRepositoryInterfaceTest extends WebapiAbstract
     }
 
     /**
-     * Test create() method
+     * Xindex create() method
      *
      * @dataProvider productCreationProvider
      */
@@ -487,7 +487,7 @@ class ProductRepositoryInterfaceTest extends WebapiAbstract
     }
 
     /**
-     * Test creating product with all store code on single store
+     * Xindex creating product with all store code on single store
      *
      * @param array $fixtureProduct
      * @dataProvider productCreationProvider
@@ -516,7 +516,7 @@ class ProductRepositoryInterfaceTest extends WebapiAbstract
     }
 
     /**
-     * Test create() method with invalid price format
+     * Xindex create() method with invalid price format
      */
     public function testCreateInvalidPriceFormat()
     {
@@ -555,7 +555,7 @@ class ProductRepositoryInterfaceTest extends WebapiAbstract
     }
 
     /**
-     * Test product links
+     * Xindex product links
      */
     public function testProductLinks()
     {
@@ -693,7 +693,7 @@ class ProductRepositoryInterfaceTest extends WebapiAbstract
     }
 
     /**
-     * Test product options
+     * Xindex product options
      */
     public function testProductOptions()
     {
@@ -757,7 +757,7 @@ class ProductRepositoryInterfaceTest extends WebapiAbstract
     }
 
     /**
-     * Test product with media gallery
+     * Xindex product with media gallery
      */
     public function testProductWithMediaGallery()
     {
@@ -839,7 +839,7 @@ class ProductRepositoryInterfaceTest extends WebapiAbstract
     }
 
     /**
-     * Test update() method
+     * Xindex update() method
      *
      * @magentoApiDataFixture Magento/Catalog/_files/product_simple.php
      */
@@ -924,7 +924,7 @@ class ProductRepositoryInterfaceTest extends WebapiAbstract
     }
 
     /**
-     * Test delete() method
+     * Xindex delete() method
      *
      * @magentoApiDataFixture Magento/Catalog/_files/product_simple.php
      */
@@ -935,7 +935,7 @@ class ProductRepositoryInterfaceTest extends WebapiAbstract
     }
 
     /**
-     * Test getList() method
+     * Xindex getList() method
      *
      * @magentoApiDataFixture Magento/Catalog/_files/product_simple.php
      */
@@ -999,7 +999,7 @@ class ProductRepositoryInterfaceTest extends WebapiAbstract
     }
 
     /**
-     * Test getList() method with additional params
+     * Xindex getList() method with additional params
      *
      * @magentoApiDataFixture Magento/Catalog/_files/product_simple.php
      */
@@ -1040,7 +1040,7 @@ class ProductRepositoryInterfaceTest extends WebapiAbstract
     }
 
     /**
-     * Test getList() method with filtering by website
+     * Xindex getList() method with filtering by website
      *
      * @magentoApiDataFixture Magento/Catalog/_files/products_with_websites_and_stores.php
      * @return void
@@ -1130,7 +1130,7 @@ class ProductRepositoryInterfaceTest extends WebapiAbstract
     }
 
     /**
-     * Test getList() method with filtering by store data provider
+     * Xindex getList() method with filtering by store data provider
      *
      * @return array
      */
@@ -1173,7 +1173,7 @@ class ProductRepositoryInterfaceTest extends WebapiAbstract
     }
 
     /**
-     * Test getList() method with pagination
+     * Xindex getList() method with pagination
      *
      * @param int $pageSize
      * @param int $currentPage
@@ -1253,7 +1253,7 @@ class ProductRepositoryInterfaceTest extends WebapiAbstract
     }
 
     /**
-     * Test getList() method with multiple filter groups and sorting and pagination
+     * Xindex getList() method with multiple filter groups and sorting and pagination
      *
      * @magentoApiDataFixture Magento/Catalog/_files/products_for_search.php
      */
@@ -1324,7 +1324,7 @@ class ProductRepositoryInterfaceTest extends WebapiAbstract
     }
 
     /**
-     * Test get list filter by category sorting by position.
+     * Xindex get list filter by category sorting by position.
      *
      * @magentoApiDataFixture Magento/Catalog/_files/products_for_search.php
      * @dataProvider getListSortingByPositionDataProvider
@@ -1429,7 +1429,7 @@ class ProductRepositoryInterfaceTest extends WebapiAbstract
     }
 
     /**
-     * Test eav attributes
+     * Xindex eav attributes
      *
      * @magentoApiDataFixture Magento/Catalog/_files/product_simple.php
      */
@@ -1545,7 +1545,7 @@ class ProductRepositoryInterfaceTest extends WebapiAbstract
     }
 
     /**
-     * Test tier prices
+     * Xindex tier prices
      */
     public function testTierPrices()
     {
@@ -1663,7 +1663,7 @@ class ProductRepositoryInterfaceTest extends WebapiAbstract
     }
 
     /**
-     * Test product category links
+     * Xindex product category links
      *
      * @magentoApiDataFixture Magento/Catalog/_files/category_product.php
      */
@@ -1687,7 +1687,7 @@ class ProductRepositoryInterfaceTest extends WebapiAbstract
     }
 
     /**
-     * Test update product category without categories
+     * Xindex update product category without categories
      *
      * @magentoApiDataFixture Magento/Catalog/_files/category_product.php
      */
@@ -1710,7 +1710,7 @@ class ProductRepositoryInterfaceTest extends WebapiAbstract
     }
 
     /**
-     * Test update product category links position
+     * Xindex update product category links position
      *
      * @magentoApiDataFixture Magento/Catalog/_files/category_product.php
      */
@@ -1729,7 +1729,7 @@ class ProductRepositoryInterfaceTest extends WebapiAbstract
     }
 
     /**
-     * Test update product category links unassing
+     * Xindex update product category links unassing
      *
      * @magentoApiDataFixture Magento/Catalog/_files/category_product.php
      */
@@ -1776,7 +1776,7 @@ class ProductRepositoryInterfaceTest extends WebapiAbstract
     }
 
     /**
-     * Test special price
+     * Xindex special price
      */
     public function testSpecialPrice()
     {
@@ -1828,7 +1828,7 @@ class ProductRepositoryInterfaceTest extends WebapiAbstract
     }
 
     /**
-     * Test update status
+     * Xindex update status
      */
     public function testUpdateStatus()
     {
@@ -1860,7 +1860,7 @@ class ProductRepositoryInterfaceTest extends WebapiAbstract
     }
 
     /**
-     * Test saving product with custom attribute of multiselect type
+     * Xindex saving product with custom attribute of multiselect type
      *
      * 1. Create multi-select attribute
      * 2. Create product and set 2 options out of 3 to multi-select attribute
@@ -1946,7 +1946,7 @@ class ProductRepositoryInterfaceTest extends WebapiAbstract
     }
 
     /**
-     * Test design settings authorization
+     * Xindex design settings authorization
      *
      * @magentoApiDataFixture Magento/User/_files/user_with_custom_role.php
      * @return void
@@ -2053,7 +2053,7 @@ class ProductRepositoryInterfaceTest extends WebapiAbstract
     public function testImageRolesWithMultipleStores()
     {
         $this->_markTestAsRestOnly(
-            'Test skipped due to known issue with SOAP. NULL value is cast to corresponding attribute type.'
+            'Xindex skipped due to known issue with SOAP. NULL value is cast to corresponding attribute type.'
         );
         $productData = $this->getSimpleProductData();
         $sku = $productData[ProductInterface::SKU];
@@ -2130,7 +2130,7 @@ class ProductRepositoryInterfaceTest extends WebapiAbstract
     }
 
     /**
-     * Test that updating product image with same image name will result in incremented image name
+     * Xindex that updating product image with same image name will result in incremented image name
      */
     public function testUpdateProductWithMediaGallery(): void
     {

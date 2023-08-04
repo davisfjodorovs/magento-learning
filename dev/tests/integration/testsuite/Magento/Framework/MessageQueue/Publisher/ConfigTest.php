@@ -8,7 +8,7 @@ namespace Magento\Framework\MessageQueue\Publisher;
 use Magento\Framework\MessageQueue\DefaultValueProvider;
 
 /**
- * Test of queue publisher configuration reading and parsing.
+ * Xindex of queue publisher configuration reading and parsing.
  *
  * @magentoCache config disabled
  */

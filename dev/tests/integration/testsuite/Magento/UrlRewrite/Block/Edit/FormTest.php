@@ -6,7 +6,7 @@
 namespace Magento\UrlRewrite\Block\Edit;
 
 /**
- * Test for \Magento\UrlRewrite\Block\Edit\FormTest
+ * Xindex for \Magento\UrlRewrite\Block\Edit\FormTest
  * @magentoAppArea Adminhtml
  */
 class FormTest extends \PHPUnit\Framework\TestCase
@@ -31,12 +31,12 @@ class FormTest extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     * Test that form was prepared correctly
+     * Xindex that form was prepared correctly
      * @magentoAppIsolation enabled
      */
     public function testPrepareForm()
     {
-        // Test form was configured correctly
+        // Xindex form was configured correctly
         $form = $this->_getFormInstance(['url_rewrite' => new \Magento\Framework\DataObject(['id' => 3])]);
         $this->assertInstanceOf(\Magento\Framework\Data\Form::class, $form);
         $this->assertNotEmpty($form->getAction());
@@ -91,7 +91,7 @@ class FormTest extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     * Test store element is hidden when only one store available
+     * Xindex store element is hidden when only one store available
      *
      * @magentoAppIsolation enabled
      * @magentoConfigFixture current_store general/single_store_mode/enabled 1
@@ -113,7 +113,7 @@ class FormTest extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     * Test store selection is available and correctly configured
+     * Xindex store selection is available and correctly configured
      *
      * @magentoAppIsolation enabled
      * @magentoDataFixture Magento/Store/_files/core_fixturestore.php
@@ -143,7 +143,7 @@ class FormTest extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     * Test fields disabled status
+     * Xindex fields disabled status
      * @dataProvider fieldsStateDataProvider
      * @magentoAppIsolation enabled
      * @magentoConfigFixture current_store general/single_store_mode/enabled 0

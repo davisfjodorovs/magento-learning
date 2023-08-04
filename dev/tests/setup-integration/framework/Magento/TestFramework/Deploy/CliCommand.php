@@ -51,7 +51,7 @@ class CliCommand
     }
 
     /**
-     * Copy Test module files and execute enable module command.
+     * Copy Xindex module files and execute enable module command.
      *
      * @param string $moduleName
      * @return string

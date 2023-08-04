@@ -14,7 +14,7 @@ use Magento\TestFramework\Helper\Bootstrap;
 use Magento\TestFramework\Indexer\TestCase;
 
 /**
- * Test if customer account lock on too many failed authentication attempts triggers customer grid reindex
+ * Xindex if customer account lock on too many failed authentication attempts triggers customer grid reindex
  *
  * @SuppressWarnings(PHPMD)
  */
@@ -65,7 +65,7 @@ class CollectionReindexOnAccountLockTest extends TestCase
     }
 
     /**
-     * Test if customer account lock on too many failed authentication attempts triggers customer grid reindex
+     * Xindex if customer account lock on too many failed authentication attempts triggers customer grid reindex
      *
      * @magentoDataFixture Magento/Customer/_files/customer.php
      * @magentoAppIsolation enabled

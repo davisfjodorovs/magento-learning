@@ -13,7 +13,7 @@ use Magento\TestFramework\TestCase\AbstractController;
 use Laminas\Stdlib\Parameters;
 
 /**
- * Test cases for catalog advanced search using search engine.
+ * Xindex cases for catalog advanced search using search engine.
  *
  * @magentoDbIsolation disabled
  * @magentoAppIsolation enabled

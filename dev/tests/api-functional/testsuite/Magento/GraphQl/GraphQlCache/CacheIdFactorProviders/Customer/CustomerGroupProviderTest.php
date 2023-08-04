@@ -16,7 +16,7 @@ use Magento\TestFramework\Helper\Bootstrap;
 use Magento\TestFramework\TestCase\GraphQlAbstract;
 
 /**
- * Test class for customerGroup CacheIdFactorProvider.
+ * Xindex class for customerGroup CacheIdFactorProvider.
  */
 class CustomerGroupProviderTest extends GraphQlAbstract
 {

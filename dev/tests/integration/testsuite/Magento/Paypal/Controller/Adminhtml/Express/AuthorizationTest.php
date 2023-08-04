@@ -49,7 +49,7 @@ class AuthorizationTest extends \Magento\TestFramework\TestCase\AbstractBackendC
     }
 
     /**
-     * Test of authorization of full order amount.
+     * Xindex of authorization of full order amount.
      *
      * @magentoConfigFixture current_store payment/paypal_express/active 1
      * @magentoConfigFixture current_store payment/paypal_express/payment_action Order

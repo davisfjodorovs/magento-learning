@@ -42,7 +42,7 @@ class PasswordResetRequestEventTest extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     * Test data
+     * Xindex data
      * @return array
      */
     public function getTestData()

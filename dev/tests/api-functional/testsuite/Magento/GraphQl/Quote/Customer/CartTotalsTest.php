@@ -13,7 +13,7 @@ use Magento\TestFramework\Helper\Bootstrap;
 use Magento\TestFramework\TestCase\GraphQlAbstract;
 
 /**
- * Test getting cart totals for registered customer
+ * Xindex getting cart totals for registered customer
  */
 class CartTotalsTest extends GraphQlAbstract
 {

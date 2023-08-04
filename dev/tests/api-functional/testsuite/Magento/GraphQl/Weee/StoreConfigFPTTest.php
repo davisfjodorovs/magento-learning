@@ -16,7 +16,7 @@ use Magento\Weee\Model\Tax as WeeeDisplayConfig;
 use Magento\Weee\Model\Config;
 
 /**
- * Test for storeConfig FPT config values
+ * Xindex for storeConfig FPT config values
  */
 class StoreConfigFPTTest extends GraphQlAbstract
 {

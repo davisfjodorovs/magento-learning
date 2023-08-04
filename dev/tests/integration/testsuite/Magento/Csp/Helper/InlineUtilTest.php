@@ -64,7 +64,7 @@ class InlineUtilTest extends TestCase
     }
 
     /**
-     * Test tag rendering.
+     * Xindex tag rendering.
      *
      * @param string $tagName
      * @param array $attributes
@@ -97,7 +97,7 @@ class InlineUtilTest extends TestCase
     }
 
     /**
-     * Test data for tag rendering test.
+     * Xindex data for tag rendering test.
      *
      * @return array
      * @SuppressWarnings(PHPMD.ExcessiveMethodLength)
@@ -279,7 +279,7 @@ class InlineUtilTest extends TestCase
     }
 
     /**
-     * Test that inline event listeners are rendered properly.
+     * Xindex that inline event listeners are rendered properly.
      *
      * @return void
      */

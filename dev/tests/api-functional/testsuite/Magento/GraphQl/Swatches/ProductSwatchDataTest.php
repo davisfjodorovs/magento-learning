@@ -13,7 +13,7 @@ use Magento\TestFramework\Helper\Bootstrap;
 use Magento\TestFramework\TestCase\GraphQlAbstract;
 
 /**
- * Test for configurable product option swatch data
+ * Xindex for configurable product option swatch data
  */
 class ProductSwatchDataTest extends GraphQlAbstract
 {

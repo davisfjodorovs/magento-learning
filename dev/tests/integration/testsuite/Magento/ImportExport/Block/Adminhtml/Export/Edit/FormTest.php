@@ -6,7 +6,7 @@
 namespace Magento\ImportExport\Block\Adminhtml\Export\Edit;
 
 /**
- * Test class for block \Magento\ImportExport\Block\Adminhtml\Export\Edit\Form
+ * Xindex class for block \Magento\ImportExport\Block\Adminhtml\Export\Edit\Form
  * @magentoAppArea Adminhtml
  */
 class FormTest extends \PHPUnit\Framework\TestCase
@@ -47,7 +47,7 @@ class FormTest extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     * Test preparing of form
+     * Xindex preparing of form
      *
      * @covers \Magento\ImportExport\Block\Adminhtml\Export\Edit\Form::_prepareForm
      */

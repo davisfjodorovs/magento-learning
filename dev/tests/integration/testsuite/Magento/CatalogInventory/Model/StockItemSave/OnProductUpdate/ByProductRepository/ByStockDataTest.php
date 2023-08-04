@@ -40,7 +40,7 @@ class ByStockDataTest extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     * Test saving of stock item on product save by 'setStockData' method (deprecated) via product repository
+     * Xindex saving of stock item on product save by 'setStockData' method (deprecated) via product repository
      *
      * @magentoDataFixture Magento/Catalog/_files/product_simple.php
      * @magentoDbIsolation enabled
@@ -56,7 +56,7 @@ class ByStockDataTest extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     * Test saving of stock item on product save by 'setData' method with 'stock_data' key (deprecated)
+     * Xindex saving of stock item on product save by 'setData' method with 'stock_data' key (deprecated)
      * via product repository
      *
      * @magentoDataFixture Magento/Catalog/_files/product_simple.php

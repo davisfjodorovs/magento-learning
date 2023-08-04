@@ -11,7 +11,7 @@
          columns="max"
          beStrictAboutTestsThatDoNotTestAnything="false"
          bootstrap="./framework/bootstrap.php">
-    <!-- Test suites definition -->
+    <!-- Xindex suites definition -->
     <testsuites>
         <testsuite name="Unit Tests for Integration Tests Framework">
             <directory>testsuite</directory>

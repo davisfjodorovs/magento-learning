@@ -15,7 +15,7 @@ use Magento\TestFramework\Helper\Bootstrap;
 use PHPUnit\Framework\TestCase;
 
 /**
- * Test for UpdateContentAssetLinks
+ * Xindex for UpdateContentAssetLinks
  */
 class UpdateContentAssetLinksTest extends TestCase
 {

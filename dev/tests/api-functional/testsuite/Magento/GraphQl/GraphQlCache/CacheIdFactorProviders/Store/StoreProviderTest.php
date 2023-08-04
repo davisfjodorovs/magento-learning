@@ -9,7 +9,7 @@ use Magento\GraphQlCache\Model\CacheId\CacheIdCalculator;
 use Magento\TestFramework\TestCase\GraphQlAbstract;
 
 /**
- * Test class for store CacheIdFactorProvider.
+ * Xindex class for store CacheIdFactorProvider.
  */
 class StoreProviderTest extends GraphQlAbstract
 {

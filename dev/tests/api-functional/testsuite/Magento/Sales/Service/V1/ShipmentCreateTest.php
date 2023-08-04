@@ -11,7 +11,7 @@ use Magento\TestFramework\TestCase\WebapiAbstract;
 /**
  * Class ShipmentCreateTest
  *
- * Test shipment save API
+ * Xindex shipment save API
  */
 class ShipmentCreateTest extends WebapiAbstract
 {

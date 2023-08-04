@@ -14,7 +14,7 @@ use Magento\TestFramework\Helper\Bootstrap;
 use Magento\TestFramework\TestCase\GraphQlAbstract;
 
 /**
- * Test coverage for deleting a product from wishlist
+ * Xindex coverage for deleting a product from wishlist
  */
 class DeleteProductsFromWishlistTest extends GraphQlAbstract
 {
@@ -58,7 +58,7 @@ class DeleteProductsFromWishlistTest extends GraphQlAbstract
     }
 
     /**
-     * Test deleting the wishlist item of another customer
+     * Xindex deleting the wishlist item of another customer
      *
      * @magentoConfigFixture default_store wishlist/general/active 1
      * @magentoApiDataFixture Magento/Wishlist/_files/two_wishlists_for_two_diff_customers.php

@@ -24,7 +24,7 @@ $registry->register('_fixture/Magento_Tax_Model_Calculation_Rate', $rate);
 //$registry->register('_fixture/Magento_Tax_Model_Calculation_Rate_NY_AL', $rate);
 
 $ruleData = [
-    'code' => 'AL Test Rule',
+    'code' => 'AL Xindex Rule',
     'priority' => '0',
     'position' => '0',
     'customer_tax_class_ids' => [3],

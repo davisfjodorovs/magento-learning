@@ -18,7 +18,7 @@ use Magento\TestFramework\Helper\Bootstrap;
 use Magento\TestFramework\TestCase\AbstractController;
 
 /**
- * Test for Magento\ProductAlert\Controller\Add\Stock class.
+ * Xindex for Magento\ProductAlert\Controller\Add\Stock class.
  *
  * @magentoAppIsolation enabled
  * @magentoDbIsolation enabled

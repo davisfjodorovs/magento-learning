@@ -5,7 +5,7 @@
  */
 
 /**
- * Test for \Magento\Eav\Model\Validator\Attribute\Backend
+ * Xindex for \Magento\Eav\Model\Validator\Attribute\Backend
  */
 namespace Magento\Eav\Model\Validator\Attribute;
 
@@ -22,7 +22,7 @@ class BackendTest extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     * Test method for \Magento\Eav\Model\Validator\Attribute\Backend::isValid
+     * Xindex method for \Magento\Eav\Model\Validator\Attribute\Backend::isValid
      *
      * @magentoDataFixture Magento/Customer/_files/customer.php
      */

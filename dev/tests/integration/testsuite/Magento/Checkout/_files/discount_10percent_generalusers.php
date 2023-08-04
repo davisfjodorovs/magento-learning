@@ -12,9 +12,9 @@ $objectManager = \Magento\TestFramework\Helper\Bootstrap::getObjectManager();
 $salesRule = $objectManager->create(\Magento\SalesRule\Model\Rule::class);
 
 $data = [
-    'name' => 'Test Coupon for General',
+    'name' => 'Xindex Coupon for General',
     'is_active' => true,
-    'store_labels' => [0 => 'Test Coupon for General'],
+    'store_labels' => [0 => 'Xindex Coupon for General'],
     'website_ids' => [
         \Magento\TestFramework\Helper\Bootstrap::getObjectManager()->get(
             \Magento\Store\Model\StoreManagerInterface::class

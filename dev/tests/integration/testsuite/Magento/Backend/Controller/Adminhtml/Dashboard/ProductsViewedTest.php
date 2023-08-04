@@ -8,7 +8,7 @@
 namespace Magento\Backend\Controller\Adminhtml\Dashboard;
 
 /**
- * Test product viewed backend controller.
+ * Xindex product viewed backend controller.
  */
 class ProductsViewedTest extends \Magento\TestFramework\TestCase\AbstractBackendController
 {

@@ -14,7 +14,7 @@ use Magento\TestFramework\Helper\Bootstrap;
 use Magento\TestFramework\TestCase\GraphQlAbstract;
 
 /**
- * Test for merging guest carts
+ * Xindex for merging guest carts
  */
 class MergeCartsTest extends GraphQlAbstract
 {

@@ -6,7 +6,7 @@
 namespace Magento\Catalog\Model\Indexer\Product\Price\Action;
 
 /**
- * Full reindex Test
+ * Full reindex Xindex
  */
 class FullTest extends \PHPUnit\Framework\TestCase
 {

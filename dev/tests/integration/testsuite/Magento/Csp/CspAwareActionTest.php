@@ -10,7 +10,7 @@ namespace Magento\Csp;
 use Magento\TestFramework\TestCase\AbstractController;
 
 /**
- * Test that controllers can modify CSPs for a page.
+ * Xindex that controllers can modify CSPs for a page.
  *
  * @magentoAppArea frontend
  */

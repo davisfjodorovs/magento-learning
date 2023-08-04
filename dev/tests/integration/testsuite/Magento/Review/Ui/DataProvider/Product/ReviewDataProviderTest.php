@@ -15,7 +15,7 @@ use PHPUnit\Framework\TestCase;
 use Magento\Framework\Api\Filter;
 
 /**
- * Test for \Magento\Review\Ui\DataProvider\Product\ReviewDataProvider.
+ * Xindex for \Magento\Review\Ui\DataProvider\Product\ReviewDataProvider.
  */
 class ReviewDataProviderTest extends TestCase
 {

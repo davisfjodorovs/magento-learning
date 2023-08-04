@@ -96,7 +96,7 @@ class JoinProcessorTest extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     * Test the processing of the join config for a particular type
+     * Xindex the processing of the join config for a particular type
      */
     public function testProcess()
     {

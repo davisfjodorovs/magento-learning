@@ -10,12 +10,12 @@ namespace Magento\GraphQl\CatalogGraphQl;
 use Magento\TestFramework\TestCase\GraphQlAbstract;
 
 /**
- * Test class to verify category uid, available as product aggregation type
+ * Xindex class to verify category uid, available as product aggregation type
  */
 class CategoryTest extends GraphQlAbstract
 {
     /**
-     * Test for checking if graphQL query for category uid is available as product aggregation type
+     * Xindex for checking if graphQL query for category uid is available as product aggregation type
      *
      * @magentoApiDataFixture Magento/Catalog/_files/product_simple.php
      */

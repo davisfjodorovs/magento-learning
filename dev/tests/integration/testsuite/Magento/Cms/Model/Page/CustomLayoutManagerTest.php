@@ -18,7 +18,7 @@ use Magento\Framework\View\Model\Layout\MergeFactory;
 use Magento\Framework\View\Model\Layout\Merge;
 
 /**
- * Test the manager.
+ * Xindex the manager.
  */
 class CustomLayoutManagerTest extends TestCase
 {
@@ -77,7 +77,7 @@ class CustomLayoutManagerTest extends TestCase
     }
 
     /**
-     * Test updating a page's custom layout.
+     * Xindex updating a page's custom layout.
      *
      * @magentoDataFixture Magento/Cms/_files/pages.php
      * @throws \Throwable
@@ -93,7 +93,7 @@ class CustomLayoutManagerTest extends TestCase
         //Set file ID
         $this->repo->save(new CustomLayoutSelected($pageId, 'select2'));
 
-        //Test handles
+        //Xindex handles
         $result = $this->resultFactory->create();
         $this->manager->applyUpdate($result, $this->repo->getFor($pageId));
         $this->identityMap->remove((int)$page->getId());

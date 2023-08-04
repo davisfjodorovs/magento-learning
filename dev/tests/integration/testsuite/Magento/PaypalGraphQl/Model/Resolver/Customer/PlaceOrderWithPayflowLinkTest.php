@@ -95,7 +95,7 @@ class PlaceOrderWithPayflowLinkTest extends TestCase
     }
 
     /**
-     * Test place order with payflow link
+     * Xindex place order with payflow link
      *
      * @magentoConfigFixture default_store payment/payflow_link/active 1
      * @magentoConfigFixture default_store payment/payflow_link/sandbox_flag 1

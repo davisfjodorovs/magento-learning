@@ -27,7 +27,7 @@ use Magento\Framework\Webapi\Rest\Request;
 use Magento\Framework\ObjectManagerInterface;
 
 /**
- * Test for \Magento\Catalog\Api\ProductRepositoryInterface
+ * Xindex for \Magento\Catalog\Api\ProductRepositoryInterface
  *
  * @magentoAppIsolation enabled
  * @SuppressWarnings(PHPMD.CouplingBetweenObjects)
@@ -147,7 +147,7 @@ class ProductRepositoryMultiWebsiteTest extends WebapiAbstract
     }
 
     /**
-     * Test that updating some values for product for specified store won't uncheck 'use default values'
+     * Xindex that updating some values for product for specified store won't uncheck 'use default values'
      * for attributes which weren't changed
      *
      * @magentoApiDataFixture Magento/Store/_files/second_website_with_two_stores.php
@@ -156,7 +156,7 @@ class ProductRepositoryMultiWebsiteTest extends WebapiAbstract
     {
         $productData = [
             ProductInterface::SKU => 'test-1',
-            ProductInterface::NAME => 'Test 1',
+            ProductInterface::NAME => 'Xindex 1',
             ProductInterface::ATTRIBUTE_SET_ID => 4,
             ProductInterface::PRICE => 10,
             ProductInterface::STATUS => 1,
@@ -173,7 +173,7 @@ class ProductRepositoryMultiWebsiteTest extends WebapiAbstract
 
         $productEditData = [
             ProductInterface::SKU => 'test-1',
-            ProductInterface::NAME => 'Test 1 changed',
+            ProductInterface::NAME => 'Xindex 1 changed',
         ];
 
         $responseAfterEdit = $this->saveProduct($productEditData, 'fixture_third_store');
@@ -219,7 +219,7 @@ class ProductRepositoryMultiWebsiteTest extends WebapiAbstract
     public function testPartialUpdate(): void
     {
         $this->_markTestAsRestOnly(
-            'Test skipped due to known issue with SOAP. NULL value is cast to corresponding attribute type.'
+            'Xindex skipped due to known issue with SOAP. NULL value is cast to corresponding attribute type.'
         );
         $sku = 'api_test_update_product';
         $store = $this->objectManager->get(Store::class);
@@ -228,7 +228,7 @@ class ProductRepositoryMultiWebsiteTest extends WebapiAbstract
         $this->updateAttribute('text_attribute', ['is_global' => ScopedAttributeInterface::SCOPE_STORE]);
         $request1 = [
             ProductInterface::SKU => $sku,
-            ProductInterface::NAME => 'Test 1',
+            ProductInterface::NAME => 'Xindex 1',
             ProductInterface::ATTRIBUTE_SET_ID => 4,
             ProductInterface::PRICE => 10,
             ProductInterface::STATUS => 1,

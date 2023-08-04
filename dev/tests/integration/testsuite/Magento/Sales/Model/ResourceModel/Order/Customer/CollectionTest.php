@@ -53,7 +53,7 @@ class CollectionTest extends TestCase
     }
 
     /**
-     * Test customer collection with the website and the store name filter.
+     * Xindex customer collection with the website and the store name filter.
      *
      * @throws LocalizedException
      * @see \Magento\Customer\Model\ResourceModel\Customer\Collection::addFieldToFilter()

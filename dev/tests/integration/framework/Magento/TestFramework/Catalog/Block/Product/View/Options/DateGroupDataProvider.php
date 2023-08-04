@@ -28,7 +28,7 @@ class DateGroupDataProvider
         return [
             'type_date_required' => [
                 [
-                    Option::KEY_TITLE => 'Test option date title 1',
+                    Option::KEY_TITLE => 'Xindex option date title 1',
                     Option::KEY_TYPE => ProductCustomOptionInterface::OPTION_TYPE_DATE,
                     Option::KEY_IS_REQUIRE => 1,
                     Option::KEY_PRICE => 10,
@@ -37,13 +37,13 @@ class DateGroupDataProvider
                 ],
                 [
                     'block_with_required_class' => '<div class="field date required"',
-                    'title' => '<span>Test option date title 1</span>',
+                    'title' => '<span>Xindex option date title 1</span>',
                     'price' => 'data-price-amount="10"',
                 ],
             ],
             'type_date_not_required' => [
                 [
-                    Option::KEY_TITLE => 'Test option date title 2',
+                    Option::KEY_TITLE => 'Xindex option date title 2',
                     Option::KEY_TYPE => ProductCustomOptionInterface::OPTION_TYPE_DATE,
                     Option::KEY_IS_REQUIRE => 0,
                     Option::KEY_PRICE => 10,
@@ -52,13 +52,13 @@ class DateGroupDataProvider
                 ],
                 [
                     'block_with_required_class' => '<div class="field date"',
-                    'title' => '<span>Test option date title 2</span>',
+                    'title' => '<span>Xindex option date title 2</span>',
                     'price' => 'data-price-amount="10"',
                 ],
             ],
             'type_date_fixed_price' => [
                 [
-                    Option::KEY_TITLE => 'Test option date title 3',
+                    Option::KEY_TITLE => 'Xindex option date title 3',
                     Option::KEY_TYPE => ProductCustomOptionInterface::OPTION_TYPE_DATE,
                     Option::KEY_IS_REQUIRE => 0,
                     Option::KEY_PRICE => 50,
@@ -67,13 +67,13 @@ class DateGroupDataProvider
                 ],
                 [
                     'block_with_required_class' => '<div class="field date"',
-                    'title' => '<span>Test option date title 3</span>',
+                    'title' => '<span>Xindex option date title 3</span>',
                     'price' => 'data-price-amount="50"',
                 ],
             ],
             'type_date_percent_price' => [
                 [
-                    Option::KEY_TITLE => 'Test option date title 4',
+                    Option::KEY_TITLE => 'Xindex option date title 4',
                     Option::KEY_TYPE => ProductCustomOptionInterface::OPTION_TYPE_DATE,
                     Option::KEY_IS_REQUIRE => 0,
                     Option::KEY_PRICE => 50,
@@ -82,13 +82,13 @@ class DateGroupDataProvider
                 ],
                 [
                     'block_with_required_class' => '<div class="field date"',
-                    'title' => '<span>Test option date title 4</span>',
+                    'title' => '<span>Xindex option date title 4</span>',
                     'price' => 'data-price-amount="5"',
                 ],
             ],
             'type_date_and_time_required' => [
                 [
-                    Option::KEY_TITLE => 'Test option date and time title 1',
+                    Option::KEY_TITLE => 'Xindex option date and time title 1',
                     Option::KEY_TYPE => ProductCustomOptionInterface::OPTION_TYPE_DATE_TIME,
                     Option::KEY_IS_REQUIRE => 1,
                     Option::KEY_PRICE => 10,
@@ -97,13 +97,13 @@ class DateGroupDataProvider
                 ],
                 [
                     'block_with_required_class' => '<div class="field date required"',
-                    'title' => '<span>Test option date and time title 1</span>',
+                    'title' => '<span>Xindex option date and time title 1</span>',
                     'price' => 'data-price-amount="10"',
                 ],
             ],
             'type_date_and_time_not_required' => [
                 [
-                    Option::KEY_TITLE => 'Test option date and time title 2',
+                    Option::KEY_TITLE => 'Xindex option date and time title 2',
                     Option::KEY_TYPE => ProductCustomOptionInterface::OPTION_TYPE_DATE_TIME,
                     Option::KEY_IS_REQUIRE => 0,
                     Option::KEY_PRICE => 10,
@@ -112,13 +112,13 @@ class DateGroupDataProvider
                 ],
                 [
                     'block_with_required_class' => '<div class="field date"',
-                    'title' => '<span>Test option date and time title 2</span>',
+                    'title' => '<span>Xindex option date and time title 2</span>',
                     'price' => 'data-price-amount="10"',
                 ],
             ],
             'type_date_and_time_fixed_price' => [
                 [
-                    Option::KEY_TITLE => 'Test option date and time title 3',
+                    Option::KEY_TITLE => 'Xindex option date and time title 3',
                     Option::KEY_TYPE => ProductCustomOptionInterface::OPTION_TYPE_DATE_TIME,
                     Option::KEY_IS_REQUIRE => 0,
                     Option::KEY_PRICE => 50,
@@ -127,13 +127,13 @@ class DateGroupDataProvider
                 ],
                 [
                     'block_with_required_class' => '<div class="field date"',
-                    'title' => '<span>Test option date and time title 3</span>',
+                    'title' => '<span>Xindex option date and time title 3</span>',
                     'price' => 'data-price-amount="50"',
                 ],
             ],
             'type_date_and_time_percent_price' => [
                 [
-                    Option::KEY_TITLE => 'Test option date and time title 4',
+                    Option::KEY_TITLE => 'Xindex option date and time title 4',
                     Option::KEY_TYPE => ProductCustomOptionInterface::OPTION_TYPE_DATE_TIME,
                     Option::KEY_IS_REQUIRE => 0,
                     Option::KEY_PRICE => 50,
@@ -142,13 +142,13 @@ class DateGroupDataProvider
                 ],
                 [
                     'block_with_required_class' => '<div class="field date"',
-                    'title' => '<span>Test option date and time title 4</span>',
+                    'title' => '<span>Xindex option date and time title 4</span>',
                     'price' => 'data-price-amount="5"',
                 ],
             ],
             'type_time_required' => [
                 [
-                    Option::KEY_TITLE => 'Test option time title 1',
+                    Option::KEY_TITLE => 'Xindex option time title 1',
                     Option::KEY_TYPE => ProductCustomOptionInterface::OPTION_TYPE_TIME,
                     Option::KEY_IS_REQUIRE => 1,
                     Option::KEY_PRICE => 10,
@@ -157,13 +157,13 @@ class DateGroupDataProvider
                 ],
                 [
                     'block_with_required_class' => '<div class="field date required"',
-                    'title' => '<span>Test option time title 1</span>',
+                    'title' => '<span>Xindex option time title 1</span>',
                     'price' => 'data-price-amount="10"',
                 ],
             ],
             'type_time_not_required' => [
                 [
-                    Option::KEY_TITLE => 'Test option time title 2',
+                    Option::KEY_TITLE => 'Xindex option time title 2',
                     Option::KEY_TYPE => ProductCustomOptionInterface::OPTION_TYPE_TIME,
                     Option::KEY_IS_REQUIRE => 0,
                     Option::KEY_PRICE => 10,
@@ -172,13 +172,13 @@ class DateGroupDataProvider
                 ],
                 [
                     'block_with_required_class' => '<div class="field date"',
-                    'title' => '<span>Test option time title 2</span>',
+                    'title' => '<span>Xindex option time title 2</span>',
                     'price' => 'data-price-amount="10"',
                 ],
             ],
             'type_time_fixed_price' => [
                 [
-                    Option::KEY_TITLE => 'Test option time title 3',
+                    Option::KEY_TITLE => 'Xindex option time title 3',
                     Option::KEY_TYPE => ProductCustomOptionInterface::OPTION_TYPE_TIME,
                     Option::KEY_IS_REQUIRE => 0,
                     Option::KEY_PRICE => 50,
@@ -187,13 +187,13 @@ class DateGroupDataProvider
                 ],
                 [
                     'block_with_required_class' => '<div class="field date"',
-                    'title' => '<span>Test option time title 3</span>',
+                    'title' => '<span>Xindex option time title 3</span>',
                     'price' => 'data-price-amount="50"',
                 ],
             ],
             'type_time_percent_price' => [
                 [
-                    Option::KEY_TITLE => 'Test option time title 4',
+                    Option::KEY_TITLE => 'Xindex option time title 4',
                     Option::KEY_TYPE => ProductCustomOptionInterface::OPTION_TYPE_TIME,
                     Option::KEY_IS_REQUIRE => 0,
                     Option::KEY_PRICE => 50,
@@ -202,7 +202,7 @@ class DateGroupDataProvider
                 ],
                 [
                     'block_with_required_class' => '<div class="field date"',
-                    'title' => '<span>Test option time title 4</span>',
+                    'title' => '<span>Xindex option time title 4</span>',
                     'price' => 'data-price-amount="5"',
                 ],
             ],

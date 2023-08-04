@@ -9,7 +9,7 @@ use Magento\UrlRewrite\Service\V1\Data\UrlRewrite;
 use Magento\CatalogUrlRewrite\Model\CategoryUrlRewriteGenerator;
 
 /**
- * Test Cases:
+ * Xindex Cases:
  *
  * - has changes for url_key, is_anchor, changed product list
  * - in global scope

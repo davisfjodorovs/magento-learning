@@ -68,7 +68,7 @@ class SchemaTest extends \PHPUnit\Framework\TestCase
         $componentRegistrar = new ComponentRegistrar();
         $codeXml = [];
         foreach ($componentRegistrar->getPaths(ComponentRegistrar::MODULE) as $modulePath) {
-            $codeXml = array_merge($codeXml, $this->_getFiles($modulePath, '*.xml', '/.\/Test\/./'));
+            $codeXml = array_merge($codeXml, $this->_getFiles($modulePath, '*.xml', '/.\/Xindex\/./'));
         }
         $this->_filterSpecialCases($codeXml);
         $designXml = [];
@@ -77,7 +77,7 @@ class SchemaTest extends \PHPUnit\Framework\TestCase
         }
         $libXml = [];
         foreach ($componentRegistrar->getPaths(ComponentRegistrar::LIBRARY) as $libraryPath) {
-            $libXml = array_merge($libXml, $this->_getFiles($libraryPath, '*.xml', '/.\/Test\/./'));
+            $libXml = array_merge($libXml, $this->_getFiles($libraryPath, '*.xml', '/.\/Xindex\/./'));
         }
         return $this->_dataSet(array_merge($codeXml, $designXml, $libXml));
     }
@@ -109,7 +109,7 @@ class SchemaTest extends \PHPUnit\Framework\TestCase
             '#Doc/etc/doc/vars.xml$#',
             '#phpunit.xml$#',
             '#etc/db_schema.xml$#',
-            '#Test/Mftf#',
+            '#Xindex/Mftf#',
         ];
         foreach ($list as $pattern) {
             foreach ($files as $key => $value) {

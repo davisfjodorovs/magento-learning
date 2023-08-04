@@ -117,7 +117,7 @@ class InstallSchema implements InstallSchemaInterface
                 'smallint_ref',
                 \Magento\Framework\DB\Ddl\Table::ACTION_CASCADE
             )
-            ->setComment('Test Table');
+            ->setComment('Xindex Table');
         $installer->getConnection()->createTable($testTable);
 
         $installer->endSetup();

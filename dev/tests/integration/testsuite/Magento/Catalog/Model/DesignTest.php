@@ -19,7 +19,7 @@ use Magento\Theme\Model\Theme;
 use PHPUnit\Framework\TestCase;
 
 /**
- * Test class for \Magento\Catalog\Model\Design.
+ * Xindex class for \Magento\Catalog\Model\Design.
  */
 class DesignTest extends TestCase
 {

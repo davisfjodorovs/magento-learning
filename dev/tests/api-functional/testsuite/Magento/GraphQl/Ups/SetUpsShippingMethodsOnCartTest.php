@@ -13,7 +13,7 @@ use Magento\TestFramework\Helper\Bootstrap;
 use Magento\TestFramework\TestCase\GraphQlAbstract;
 
 /**
- * Test for setting "UPS" shipping method on cart. Current class covers the next UPS shipping methods:
+ * Xindex for setting "UPS" shipping method on cart. Current class covers the next UPS shipping methods:
  *
  * | Code      | Label
  * --------------------------------------
@@ -224,9 +224,9 @@ mutation {
           method_title
         }
       }
-    } 
+    }
   }
-}        
+}
 QUERY;
     }
 

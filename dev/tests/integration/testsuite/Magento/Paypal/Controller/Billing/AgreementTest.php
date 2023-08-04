@@ -20,12 +20,12 @@ use Magento\TestFramework\Helper\Bootstrap;
 use Magento\TestFramework\TestCase\AbstractController;
 
 /**
- * Test class for \Magento\Paypal\Controller\Billing\Agreement
+ * Xindex class for \Magento\Paypal\Controller\Billing\Agreement
  */
 class AgreementTest extends AbstractController
 {
     /**
-     * Test billing agreement record creation in Magento DB.
+     * Xindex billing agreement record creation in Magento DB.
      *
      * All mocking effort is aimed to disable remote call for billing agreement creation in the external system.
      * Request parameters and current customer are emulated as well.

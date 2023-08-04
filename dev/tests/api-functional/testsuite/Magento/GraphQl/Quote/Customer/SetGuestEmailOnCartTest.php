@@ -13,7 +13,7 @@ use Magento\TestFramework\Helper\Bootstrap;
 use Magento\TestFramework\TestCase\GraphQlAbstract;
 
 /**
- * Test for setGuestEmailOnCart mutation
+ * Xindex for setGuestEmailOnCart mutation
  */
 class SetGuestEmailOnCartTest extends GraphQlAbstract
 {

@@ -16,7 +16,7 @@ use Magento\TestFramework\Helper\Bootstrap;
 use Magento\TestFramework\TestCase\GraphQlAbstract;
 
 /**
- * Test class for tax rate CacheIdFactorProvider.
+ * Xindex class for tax rate CacheIdFactorProvider.
  */
 class CustomerTaxRateProviderTest extends GraphQlAbstract
 {

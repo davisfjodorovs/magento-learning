@@ -71,7 +71,7 @@ $product->setTypeId(\Magento\Catalog\Model\Product\Type::TYPE_SIMPLE)
 $oldOptions = [
     [
         'previous_group' => 'text',
-        'title'     => 'Test Field',
+        'title'     => 'Xindex Field',
         'type'      => 'field',
         'is_require' => 1,
         'sort_order' => 0,
@@ -82,7 +82,7 @@ $oldOptions = [
     ],
     [
         'previous_group' => 'date',
-        'title'     => 'Test Date and Time',
+        'title'     => 'Xindex Date and Time',
         'type'      => 'date_time',
         'is_require' => 1,
         'sort_order' => 0,
@@ -92,7 +92,7 @@ $oldOptions = [
     ],
     [
         'previous_group' => 'select',
-        'title'     => 'Test Select',
+        'title'     => 'Xindex Select',
         'type'      => 'drop_down',
         'is_require' => 1,
         'sort_order' => 0,
@@ -115,7 +115,7 @@ $oldOptions = [
     ],
     [
         'previous_group' => 'select',
-        'title'     => 'Test Radio',
+        'title'     => 'Xindex Radio',
         'type'      => 'radio',
         'is_require' => 1,
         'sort_order' => 0,

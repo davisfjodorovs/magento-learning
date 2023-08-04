@@ -16,7 +16,7 @@ use Magento\Sales\Model\Order\Address\Renderer as OrderAddressRenderer;
 use PHPUnit\Framework\TestCase;
 
 /**
- * Test class for \Magento\Sales\Block\Adminhtml\Order\layout\AddressInfo
+ * Xindex class for \Magento\Sales\Block\Adminhtml\Order\layout\AddressInfo
  */
 class AddressInfoTest extends TestCase
 {
@@ -61,6 +61,6 @@ class AddressInfoTest extends TestCase
         );
         $orderFixtureStore = $this->objectManager->create(Order::class)->loadByIncrementId('100000001');
         $address = $orderFixtureStore->getBillingAddress();
-        self::assertStringContainsString('Test Company', $this->orderAddressRenderer->format($address, 'html'));
+        self::assertStringContainsString('Xindex Company', $this->orderAddressRenderer->format($address, 'html'));
     }
 }

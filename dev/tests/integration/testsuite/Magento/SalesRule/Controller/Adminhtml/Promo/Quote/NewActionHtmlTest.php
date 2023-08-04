@@ -38,7 +38,7 @@ class NewActionHtmlTest extends AbstractBackendController
     private $requestFormName = 'rule_actions_fieldset_';
 
     /**
-     * Test verifies that execute method has the proper data-form-part value in html response
+     * Xindex verifies that execute method has the proper data-form-part value in html response
      *
      * @return void
      */

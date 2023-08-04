@@ -77,7 +77,7 @@ class UpdateCustomerAddressTest extends GraphQlAbstract
     }
 
     /**
-     * Test case for deprecated `country_id` field.
+     * Xindex case for deprecated `country_id` field.
      *
      * @magentoApiDataFixture Magento/Customer/_files/customer.php
      * @magentoApiDataFixture Magento/Customer/_files/customer_address.php
@@ -207,7 +207,7 @@ MUTATION;
     }
 
     /**
-     * Test custom attributes of the customer's address
+     * Xindex custom attributes of the customer's address
      * @magentoApiDataFixture Magento/Customer/_files/customer.php
      * @magentoApiDataFixture Magento/Customer/_files/customer_address.php
      * @magentoApiDataFixture Magento/Customer/_files/attribute_user_defined_address_custom_attribute.php

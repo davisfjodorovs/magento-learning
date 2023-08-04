@@ -15,7 +15,7 @@ use Magento\TestFramework\Helper\Bootstrap;
 use PHPUnit\Framework\TestCase;
 
 /**
- * Test page repo.
+ * Xindex page repo.
  */
 class PageRepositoryTest extends TestCase
 {
@@ -46,7 +46,7 @@ class PageRepositoryTest extends TestCase
     }
 
     /**
-     * Test that the field is deprecated.
+     * Xindex that the field is deprecated.
      *
      * @throws \Throwable
      * @magentoDataFixture Magento/Cms/_files/pages_with_layout_xml.php

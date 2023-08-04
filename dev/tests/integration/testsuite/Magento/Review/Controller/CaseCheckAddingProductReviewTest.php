@@ -13,14 +13,14 @@ use Magento\TestFramework\Request;
 use Magento\TestFramework\TestCase\AbstractController;
 
 /**
- * Test review product controller behavior
+ * Xindex review product controller behavior
  *
  * @magentoAppArea frontend
  */
 class CaseCheckAddingProductReviewTest extends AbstractController
 {
     /**
-     * Test adding a review for allowed guests with incomplete data by a not logged in user
+     * Xindex adding a review for allowed guests with incomplete data by a not logged in user
      *
      * @magentoDbIsolation enabled
      * @magentoAppIsolation enabled
@@ -33,7 +33,7 @@ class CaseCheckAddingProductReviewTest extends AbstractController
         /** @var FormKey $formKey */
         $formKey = $this->_objectManager->get(FormKey::class);
         $post = [
-            'nickname' => 'Test nick',
+            'nickname' => 'Xindex nick',
             'title' => 'Summary',
             'form_key' => $formKey->getFormKey(),
         ];
@@ -46,7 +46,7 @@ class CaseCheckAddingProductReviewTest extends AbstractController
     }
 
     /**
-     * Test adding a review for not allowed guests by a guest
+     * Xindex adding a review for not allowed guests by a guest
      *
      * @magentoDbIsolation enabled
      * @magentoAppIsolation enabled
@@ -59,9 +59,9 @@ class CaseCheckAddingProductReviewTest extends AbstractController
         /** @var FormKey $formKey */
         $formKey = $this->_objectManager->get(FormKey::class);
         $post = [
-            'nickname' => 'Test nick',
+            'nickname' => 'Xindex nick',
             'title' => 'Summary',
-            'detail' => 'Test Details',
+            'detail' => 'Xindex Details',
             'form_key' => $formKey->getFormKey(),
         ];
 
@@ -72,7 +72,7 @@ class CaseCheckAddingProductReviewTest extends AbstractController
     }
 
     /**
-     * Test successfully adding a product review by a guest
+     * Xindex successfully adding a product review by a guest
      *
      * @magentoDbIsolation enabled
      * @magentoAppIsolation enabled
@@ -85,9 +85,9 @@ class CaseCheckAddingProductReviewTest extends AbstractController
         /** @var FormKey $formKey */
         $formKey = $this->_objectManager->get(FormKey::class);
         $post = [
-            'nickname' => 'Test nick',
+            'nickname' => 'Xindex nick',
             'title' => 'Summary',
-            'detail' => 'Test Details',
+            'detail' => 'Xindex Details',
             'form_key' => $formKey->getFormKey(),
         ];
 

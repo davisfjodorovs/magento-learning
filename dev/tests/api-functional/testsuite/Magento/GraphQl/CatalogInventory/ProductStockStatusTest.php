@@ -13,7 +13,7 @@ use Magento\TestFramework\Helper\Bootstrap;
 use Magento\TestFramework\TestCase\GraphQlAbstract;
 
 /**
- * Test for product status
+ * Xindex for product status
  */
 class ProductStockStatusTest extends GraphQlAbstract
 {
@@ -39,7 +39,7 @@ class ProductStockStatusTest extends GraphQlAbstract
             products(filter: {sku: {eq: "{$productSku}"}})
             {
                 items {
-                    stock_status            
+                    stock_status
                 }
             }
         }
@@ -65,7 +65,7 @@ QUERY;
             products(filter: {sku: {eq: "{$productSku}"}})
             {
                 items {
-                    stock_status            
+                    stock_status
                 }
             }
         }
